@@ -1,0 +1,4809 @@
+# -*- coding: utf-8 -*-
+# Converted from 0000023D.lns
+
+label day4_start:
+    window show
+    "就这样，我们用了三天来完成执行委员的工作之后，"
+    extend "\n之后的剩余时间，就参与到班级的整体工作中，进行准备。"
+    window hide
+    show bg 空 at center with Dissolve(0.8)
+    play sound "FX/登場！.ogg"
+    window show
+    "然后，到了御咲祭当天"
+    window hide
+    play music "学祭だ！.ogg"
+    show bg 校舎（全貌） with Dissolve(1.0)
+    pause 0.6
+    show bg 廊下 with Dissolve(1.0)
+    pause 0.5
+    play sound "FX/キラキラ.ogg"
+    show bg 喫茶店 with Dissolve(1.0)
+    pause 0.4
+    show tomo 13i at topright with dissolve
+    play sound "FX/可愛い2.ogg"
+    window show
+    tomo "好，大家！"
+    extend "\n今天尽情地享受吧！"
+    show sintarou 4i at topleft with dissolve
+    sintarou "那么我们拿出点气势，试着组个圆阵如何？"
+    show sakuya 1i at top with dissolve
+    sakuya "我才不要，丢死人了。"
+    extend "\n不这么做也行的吧。"
+    hide sintarou with dissolve
+    show saburo 2i at topleft with dissolve
+    saburo "事到如今你还在怕什么丢脸。"
+    show saburo 10i with dissolve
+    extend "\n不就是组个圆阵嘛！拿出气势来！"
+    hide tomo with dissolve
+    show tuki 18i at topright with dissolve
+    tuki "就是哦。\n大家不是一起努力到现在的同伴吗。"
+    show tuki 4i with dissolve
+    extend "\n不如说，大家应该感到自豪才对。"
+    hide sakuya with dissolve
+    show sora 1i at top with dissolve
+    sora "诶嘿嘿。\n有种正值青春的感觉呢。"
+    hide tuki with dissolve
+    show tubasa 4i at topright with dissolve
+    tubasa "我，我是第一次做这种事……。"
+    hide saburo with dissolve
+    show sinobu 20i at topleft with dissolve
+    sinobu "……稍微，弯下腰可以吗？"
+    hide sora with dissolve
+    hide tubasa with dissolve
+    hide sinobu with dissolve
+    return
+
+label s0000023D_00000241:
+    show tomo 17i at top with dissolve
+    window show
+    tomo "一二ーー！"
+    window hide
+    play sound "FX/インパクト.ogg"
+    show cg c18 at center with Dissolve(0.6)
+    window show
+    everyone "「诶诶哦ーー！！！」"
+    window hide
+    hide tomo with dissolve
+    hide cg with dissolve
+    hide bg with dissolve
+    show bg 喫茶店 at center with Dissolve(0.8)
+    show sora 3i at topleft with dissolve
+    window show
+    sora "让您久等了。\n这边是可乐和巧克力圣代。"
+    show sora 11i with dissolve
+    extend "\n请慢慢享用。"
+    hide sora with dissolve
+    show sintarou 1i at topright with dissolve
+    sintarou "好的，欢迎光临~！"
+    show sintarou 4i with dissolve
+    extend "\n那么，请来到这边的座位吧。\n现在就给您端冷饮过去哦~。"
+    hide sintarou with dissolve
+    show sinobu 5i at topleft with dissolve
+    sinobu "客人，非常抱歉，学校内禁止吸烟。"
+    show sinobu 3i with dissolve
+    extend "\n吸烟区在校舍外的右侧……。"
+    hide sinobu with dissolve
+    show tubasa 8i at topright with dissolve
+    tubasa "呃，那个……一共600日元。"
+    show tubasa 1i with dissolve
+    extend "\n（吸气，呼气，吸气，呼气）……嗯，正好600元。"
+    show tubasa 9i with dissolve
+    extend "\n啊，非常感谢。欢迎下次光临。"
+    hide tubasa with dissolve
+    "嗯嗯，大家都做得很好啊……。"
+    window hide
+    window show
+    customer1 "那个~不好意思。"
+    extend "\n我点的是热咖啡……。"
+    show tomo 28i at topright with dissolve
+    play sound "FX/可愛い.ogg"
+    tomo "啊……非常抱歉！"
+    show tomo 19i with dissolve
+    extend "\n我现在马上去换！！请稍等！！"
+    hide tomo with dissolve
+    show tuki 29i at topleft with dissolve
+    play sound "FX/可愛い2.ogg"
+    tuki "……糟糕。在芭菲上撒了太多巧克力了。"
+    show tuki 10i with dissolve
+    extend "\n又失败了。没办法，凑合吃吧。"
+    hide tuki with dissolve
+    show saburo 12i at topright with dissolve
+    play sound "FX/可愛い3.ogg"
+    saburo "咦？"
+    show saburo 11i with dissolve
+    extend "\n这单是送到哪张桌子上的来着？"
+    hide saburo with dissolve
+    show sakuya 6i at top with dissolve
+    sakuya "嗯。是奶油水果蛋糕。"
+    play sound "FX/ビヨン.ogg"
+    customer2 "感觉态度有点差啊……？"
+    window hide
+    hide sakuya with dissolve
+    window show
+    "……不过，万事不可能一帆风顺。"
+    "哎呀~我也想成为客人。"
+    extend "\n有这么可爱的少年来迎接的咖啡店……。"
+    extend "\n世界上肯定找不到吧。"
+    "全世界的正太控们！来集合吧！！"
+    extend "\n在这家今日限定的咖啡店集合！！"
+    window hide
+    hide bg with dissolve
+    show bg 喫茶店 at center with Dissolve(1.0)
+    window show
+    customer3 "呜呼……！\n有，有这么多正太的咖啡店……！"
+    play sound "FX/キラキラ.ogg"
+    extend "\n我，我要忍不住啦……！！"
+    customer4 "看啊。"
+    extend "\n那个孩子超级~可爱啊。\n"
+    play sound "FX/ワーオ２.ogg"
+    "小小的屁股好·棒·啊♪"
+    customer5 "这乌龙茶……该不会不小心加了少年的唾液吧……？"
+    play sound "FX/ひらめき！.ogg"
+    extend "\n如果是的话那就太棒了！！！"
+    window hide
+    window show
+    "……。"
+    "不用说，他们已经来了。"
+    show sora 12i at topleft with dissolve
+    sora "小慎，聚在那边的客人，"
+    extend "\n感觉气场有些不同……？"
+    show sintarou 27i at topright with dissolve
+    sintarou "啊是那个啊。"
+    extend "\n虽然都是我澡堂的客人，\n"
+    show sintarou 1i with dissolve
+    "他们有些“奇怪”，还是不要靠近为好哦。"
+    hide sora with dissolve
+    hide sintarou with dissolve
+    show saburo 12i at top with dissolve
+    play sound "FX/ビヨン.ogg"
+    saburo "咿！他们要来了吗！！"
+    show saburo 11i with dissolve
+    extend "\n我，我去厨房了~……。"
+    hide saburo with dissolve
+    show sora 13i at topleft
+    show tuki 5i at topright with dissolve
+    tuki "奥村家的澡堂明明很舒适安宁呀，\n按理说不该出现这种客人啊...？"
+    show sintarou 16i at top with dissolve
+    sintarou "凡事都有可能，澡堂有时候也可能没那么安宁。"
+    show sintarou 13i with dissolve
+    extend "\n算了，这是和你们没关系的事，不用在意~。"
+    window hide
+    hide sora with dissolve
+    hide sintarou with dissolve
+    hide tuki with dissolve
+    window show
+    student1 "[player_name]君。"
+    extend "\n如果你有空的话，能代替猫山\n去招呼2号桌的客人点单吗？"
+    me "了解。"
+    "不对，像这样和他们一起工作不是很难得的体验吗？"
+    play sound "FX/爆発３.ogg"
+    "呼哈哈哈，你们这些正太控肯定羡慕死我啦！"
+    extend "\n现在的我是御咲学园的学生！"
+    extend "\n我作为咖啡店的经营者一定要努力！！"
+    stop music fadeout 2.0
+    window hide
+    hide bg with dissolve
+    play music "侵入.ogg"
+    show bg 喫茶店 at center with Dissolve(1.0)
+    window show
+    play sound "FX/ひらめき！.ogg"
+    customer3 "哦。你也是个朴素的少年呢。"
+    customer4 "嗯~虽然现在看起来平平无奇，不过也是有可取之处的。"
+    play sound "FX/キラキラ.ogg"
+    customer5 "我，我反倒萌这种类型的！！"
+    show cg dark at center with Dissolve(0.3)
+    play sound "FX/チーン.ogg"
+    "喂喂，饶了我吧。"
+    extend "\n我必须听这些人的点单吗……！"
+    "醉翁之意不在酒，而在小正太对吧！"
+    extend "\n身为正太控的我居然会被同为正太控的人盯上……。"
+    extend "\n唔……真令人不寒而栗。"
+    stop sound fadeout 0.5
+    window hide
+    hide cg with dissolve
+    window show
+    me "欢，欢迎光临。"
+    extend "\n请，请问要点些什么？"
+    play sound "FX/ひらめき！.ogg"
+    customer3 "吼~[player_name]，这是你的名字吧。"
+    extend "\n真是个好名字呢。"
+    "男人看着我的名牌，说道。"
+    play sound "FX/キラキラ.ogg"
+    customer4 "哎呀~看上去还挺青涩啊~？"
+    extend "\n长着张纯朴的脸蛋呢♪"
+    play sound "FX/インパクト（和風）.ogg"
+    customer5 "好香！！有股少年的味道！！"
+    extend "\n哈啊~真让人把持不住！"
+    play sound "FX/ガーン.ogg"
+    "呜……不，不要这样。"
+    extend "\n不要用那种眼神看我啊啊啊！！！"
+    me "那，那个，请您下单…。"
+    customer4 "别那么着急嘛~。"
+    customer3 "来嘛来嘛，给客人再多服务一些！"
+    stop music fadeout 1.0
+    show cg remarkable at center with Dissolve(0.3)
+    play sound "FX/風を切る.ogg"
+    "呜呜"
+    "男人拉着我的胳膊。"
+    play sound "FX/ビヨン.ogg"
+    me "咿……！"
+    window hide
+    hide bg with dissolve
+    hide cg with dissolve
+    return
+
+label s0000023D_00000242:
+    show tomo 4i at top with dissolve
+    window show
+    me "噢！"
+    hide tomo with dissolve
+    return
+
+label s0000023D_00000243:
+    show sintarou 7i at top with dissolve
+    window show
+    me "噢！"
+    hide sintarou with dissolve
+    return
+
+label s0000023D_00000244:
+    show bg 喫茶店 at center with dissolve
+    play music "tomo.ogg"
+    show tomo 15i at top with dissolve
+    window show
+    tomo "好，暂停！到此为止！！"
+    me "友！"
+    customer3 "怎，怎么会这样！"
+    show tomo 10i with dissolve
+    tomo "这位客人。\n对店员动手是违反规则的哦~。"
+    show tomo 38i with dissolve
+    extend "\n要遵守规则，好好享受学园祭才行！"
+    show tomo 16i with dissolve
+    extend "\n快点，把手松开。"
+    play sound "FX/ビヨン.ogg"
+    customer3 "呜……抱，抱歉了捏。"
+    extend "\n有，有点兴奋过头，所以有点不守规矩了捏。"
+    play sound "FX/可愛い3.ogg"
+    customer5 "对不起呀。"
+    extend "\n这里还是绅士一点，姑且忍一忍，可远观不可亵玩焉。"
+    play sound "FX/キラキラ.ogg"
+    customer4 "正义感强烈的男孩子真是棒呀♪"
+    window hide
+    hide tomo with dissolve
+    window show
+    "在友的帮助下我总算从窘境中逃脱出来了。"
+    "没想到在这种时候还能被初中生搭救……。"
+    extend "\n总感觉有点丢人啊……。"
+    window hide
+    show tomo 7i at top with dissolve
+    window show
+    tomo "[player_name]君，你没事吧？"
+    me "嗯，嗯嗯。得救了。"
+    extend "\n谢谢你们！"
+    show tomo 2i with dissolve
+    tomo "嘿嘿！没什么啦。"
+    show tomo 23i with dissolve
+    tomo "……。"
+    show tomo 8i with dissolve
+    tomo "那，那个啊，[player_name]君。"
+    extend "\n今天后夜祭，你和谁约好了？"
+    me "诶？不，还没有安排。"
+    show tomo 33i with dissolve
+    tomo "这样啊！"
+    extend "\n那要不和我一起逛？"
+    me "好啊，其他人呢？"
+    show tomo 35i with dissolve
+    tomo "呜……那个……我觉得我们两个人就行……。"
+    "啊。"
+    me "嗯，可以啊！"
+    extend "\n那就在鞋柜那碰头吧。"
+    show tomo 34i with dissolve
+    tomo "嗯，嗯！谢谢！"
+    show tomo 31i with dissolve
+    extend "\n那我回到我的岗位去了！\n再见！"
+    window hide
+    hide tomo with dissolve
+    window show
+    "友，整理好心情了吗？"
+    "……。"
+    show cg yellow at center with dissolve
+    "呜……总觉得心跳加速了……。"
+    "嘛，嘛，也不知道会发展成什么样子，\n没必要那么紧张……"
+    "不，好不容易又有了独处的机会。"
+    extend "\n如果他没有主动提起的话，我也会主动开口。"
+    hide cg with dissolve
+    hide bg with dissolve
+    stop music fadeout 2.0
+    "……毕竟这个梦不知道会持续到什么时候……。"
+    window hide
+    show bg 喫茶店 at center with dissolve
+    show tubasa 14i at top with dissolve
+    window show
+    tubasa "……。"
+    window hide
+    hide tubasa with dissolve
+    hide bg with dissolve
+    show bg 校舎夕方（全貌） at center with Dissolve(1.0)
+    pause 0.4
+    show bg 喫茶店（夕方） with Dissolve(1.0)
+    window show
+    "咖啡店的营业时间也差不多要结束了。"
+    extend "\n剩下的活动，就是和友的后夜祭！"
+    extend "\n我可不能迟到了。得赶紧收拾完。"
+    window hide
+    play music "tubasa.ogg"
+    show tubasa 1i at top with dissolve
+    window show
+    tubasa "那个，[player_name]君，等……。"
+    "在我忙活的时候，翼向我说道。"
+    me "抱歉。\n我现在有点事。"
+    extend "\n能稍微往后推一下吗？"
+    show tubasa 20i with dissolve
+    tubasa "啊，那事必须现在就办。"
+    show tubasa 3i with dissolve
+    extend "\n拜托了。……不会占用你太多时间的。"
+    "翼前所未有地顽固，我无法拒绝，便跟着他走了。"
+    hide tubasa with dissolve
+    hide bg with dissolve
+    "虽然已经大概猜到他要说什么了……。"
+    window hide
+    show bg 校舎裏（夕方 with Dissolve(1.0)
+    window show
+    "翼带着我去的地方，是教学楼的后方。"
+    show tubasa 21i at top with dissolve
+    tubasa "[player_name]君。"
+    extend "\n那个……那个……。"
+    me "冷静点。没事的。"
+    extend "\n无论翼问什么，我都会坦诚回答。"
+    show tubasa 22i with dissolve
+    stop music fadeout 2.0
+    tubasa "好，好的……那么，我就单刀直入地问了。"
+    "翼深吸了一口气，缓缓开口。"
+    play music "シリアス.ogg"
+    show tubasa 1i with dissolve
+    tubasa "……你对友君，是怎么想的？"
+    "来了。"
+    me "……。"
+    show tubasa 23i with dissolve
+    tubasa "请你，坦诚回答我。"
+    me "……喜欢。"
+    extend "\n不是作为朋友的喜欢，而是超越朋友喜欢的感情。"
+    show tubasa 21i with dissolve
+    tubasa "！！"
+    show tubasa 1i with dissolve
+    extend "\n……果然是这样。"
+    show tubasa 22i with dissolve
+    stop music fadeout 2.0
+    extend "\n……你打算把这份感情告诉友君吗？"
+    "翼在每一个停顿的『空隙』中都充满了沉重。"
+    me "当然有了。"
+    extend "\n我打算在后夜祭上告诉他。"
+    show tubasa 14i with dissolve
+    tubasa "唔……"
+    play music "FX/風.ogg"
+    show bg 校舎裏（夜） with Dissolve(0.8)
+    show tubasa 24i with dissolve
+    extend "\n……绝对……不行。"
+    me "……。"
+    hide tubasa with dissolve
+    show tubasa 25i at top with dissolve
+    play sound "FX/ひらめき！.ogg"
+    tubasa "[player_name]君，我是不会把友交给你的……！"
+    stop music fadeout 2.0
+    me "……所以，你打算怎么办？"
+    window hide
+    play sound "FX/風を切る.ogg"
+    show cg c19 1 at center with Dissolve(0.3)
+    play music "ピンチッ.ogg"
+    window show
+    tubasa "[player_name]君只要待在这里就可以了！"
+    "翼说着，从怀中掏出了两根绳子。"
+    play sound "FX/ビヨン.ogg"
+    "喂喂喂，不会吧……。"
+    extend "\n他打算用绳子把我五花大绑，然后邀请我进入SM的世界。"
+    "然后呢，\n"
+    play sound "FX/キラキラ.ogg"
+    show cg adult with lm_crossfade
+    tubasa "比起友，我要让你变成我的俘虏！」\n大概就是这种感觉吧……。"
+    show cg c19 2 with Dissolve(0.3)
+    play sound "FX/ひらめき！.ogg"
+    tubasa "（盯着）"
+    "怎么可能啊！！"
+    play sound "FX/爆発３.ogg"
+    extend "\n翼的眼神就像是「猎人」一样……。"
+    me "翼，冷静一点。"
+    extend "\n就算用暴力解决，情况也不会好转。"
+    extend "\n不要拖累对方，\n用其他方法保护友。"
+    show cg c19 3 with Dissolve(0.3)
+    tubasa "其他方法……？"
+    me "翼也很喜欢友吧？\n光从翼的眼神中就能看出来了。"
+    extend "\n那把这份感情传达给他，\n再努力让他对你产生感情不就行了吗！"
+    show cg c19 4 with Dissolve(0.3)
+    tubasa "别，别说得这么简单！！"
+    tubasa "[player_name]君说的没错，\n友君是我最重要的人……是这世上最重要的人！"
+    extend "\n正因如此，如果告白之后被拒绝了……"
+    extend "\n我……我……！"
+    window hide
+    hide cg with dissolve
+    hide tubasa with dissolve
+    show tubasa 29i at top with dissolve
+    window show
+    tubasa "而且……我觉得……"
+    extend "\n友君也一定很喜欢[player_name]君。"
+    show tubasa 24i with dissolve
+    tubasa "所以……[player_name]君不向友君表白的话，\n友君就一定……。"
+    me "小翼，这你就错了。"
+    show tubasa 29i with dissolve
+    tubasa "诶……？"
+    me "我明白的。"
+    extend "\n他所追求的是什么。"
+    show tubasa 28i with dissolve
+    play sound "FX/ダッ！.ogg"
+    tubasa "那请说明一下！！"
+    extend "\n友君看着我和别人时的眼神，怎么会和看着\n[player_name]君的眼神不一样。"
+    extend "\n请说明一下！！"
+    show tubasa 29i with dissolve
+    tubasa "我明白……。"
+    extend "\n光是看着……就感觉心都要被挖走了……！"
+    me "那是……"
+    extend "\n不，不对！"
+    me "你忘了那天早上我们贴着耳朵说的话了吗？"
+    show tubasa 25i with dissolve
+    tubasa "那算什么！？"
+    extend "\n在我的认知里，[player_name]君的行为是完全矛盾的！「"
+    me "……。"
+    me "翼。\n在这之后，我要将我的想法传达给友。"
+    extend "\n然后，也要回应友的期望。这是我必须要做的事！"
+    window hide
+    play sound "FX/風を切る.ogg"
+    show cg c19 4 at center with wipeleft
+    window show
+    tubasa "我不会让你得逞的！！我不会让你做这种事的！！！"
+    me "友……又不会因为这样就不会再见到你了。"
+    extend "\n所以，让我去吧。"
+    tubasa "……不……要。"
+    stop music fadeout 2.5
+    me "拜托了……让我去吧。"
+    window hide
+    hide cg with dissolve
+    hide tubasa with dissolve
+    show tubasa 27i at top with dissolve
+    window show
+    tubasa "不……要……呜，呜呜呜呜呜呜呜呜哇啊啊啊啊……。"
+    hide tubasa with dissolve
+    play sound "FX/転ぶ.ogg"
+    "翼放声大哭起来。"
+    "梦境终会醒来。"
+    extend "\n一切都会变为没发生过的样子。"
+    extend "\n在那之前……"
+    play music "シリアス.ogg"
+    me "让我向他传达我的想法吧。"
+    extend "\n擅自做出这种事，真的很抱歉。"
+    "我抛下了蹲坐在地上的翼，向友走去。"
+    hide tubasa with dissolve
+    hide bg with dissolve
+    "居然把小孩子弄哭了，我真是个很过分的大人。"
+    "···"
+    window hide
+    show bg 体育館裏（夜） with Dissolve(0.8)
+    window show
+    "我绕过教学楼的拐角处，"
+    show sinobu 4i at top with Dissolve(1.0)
+    "发现忍站在那里。"
+    extend "\n他是不是听到我们的对话了呢？"
+    show sinobu 5i with dissolve
+    sinobu "[player_name]……。"
+    me "忍……你怎么看？"
+    show sinobu 3i with dissolve
+    sinobu "……[player_name]君沿着自己决定的道路前进就好了。"
+    extend "\n如果你后悔了，就只会让友感到难过。"
+    show sinobu 25i with dissolve
+    sinobu "去吧。翼这里有我在。"
+    me "明白了。"
+    extend "\n谢谢你，忍！"
+    stop music fadeout 2.0
+    hide sinobu with dissolve
+    hide bg with dissolve
+    "我匆忙赶往和友约好的地方。"
+    window hide
+    play music "FX/夜　虫.ogg"
+    show bg 体育館裏（夜） at center with Dissolve(0.8)
+    show sinobu 4i at top with dissolve
+    window show
+    "···"
+    show sinobu 22i with dissolve
+    sinobu "其实我也很不甘心。"
+    show sinobu 20i with dissolve
+    extend "\n明明我最理解友，也最想守护他。"
+    window hide
+    hide sinobu with dissolve
+    hide bg with dissolve
+    window show
+    "···"
+    window hide
+    show bg 下駄箱（夜） at center with Dissolve(0.8)
+    window show
+    "我到鞋柜旁时，友已经在那等着了。"
+    show tomo 4i at top with dissolve
+    tomo "喂喂，[player_name]君！"
+    me "抱歉……我迟到了。"
+    show tomo 10i with dissolve
+    tomo "没事没事，别放在心上！"
+    extend "\n我也是经常迟到的人，\n所以不会对迟到的人很严厉的。"
+    show tomo 31i with dissolve
+    extend "\n但也不是说迟到就是理直气壮的啦。"
+    "友笑着对我说。"
+    show tomo 12i with dissolve
+    tomo "那就出发吧。"
+    window hide
+    hide tomo with dissolve
+    show bg 校舎（夜） with Dissolve(1.0)
+    window show
+    "我们来到外面，夕阳已经落山了。\n但余晖和摊位的灯光交相辉映，街上依然很热闹。"
+    extend "\n在校园的正中央，大家为了御咲祭篝火晚会做准备，\n堆柴火的工作正在有序地进行。"
+    window hide
+    show bg 校庭（夜） with Dissolve(1.0)
+    show tomo 6i at top with dissolve
+    window show
+    tomo "拼命工作脚都酸了。"
+    extend "\n找个地方坐会儿吧。"
+    me "说的是。"
+    hide tomo with dissolve
+    "这么说着，我们两人\n在远离操场的草坪上坐了下来。"
+    window hide
+    show tomo 12i at top with dissolve
+    window show
+    me "在这里的话，就能清楚地看到火焰，可以好好休息了。"
+    tomo "是啊……。"
+    stop music fadeout 2.0
+    hide tomo with dissolve
+    "远远眺望着，热闹非凡的学园祭的光景。"
+    extend "\n然后"
+    window hide
+    play sound "FX/炎.ogg"
+    show bg キャンプファイヤー with lm_crossfade
+    window show
+    "终于点燃了柴火堆。"
+    "熊熊燃烧着的鲜红火焰。"
+    extend "\n真的好美啊……。"
+    tomo "……这样真好啊。"
+    extend "\n总觉得很舒心。"
+    me "嗯……。"
+    stop sound fadeout 2.0
+    window hide
+    play music "良い雰囲気.ogg"
+    show bg 校庭（夜） with Dissolve(1.0)
+    show tomo 33i at top with dissolve
+    window show
+    tomo "……我说，[player_name]君……"
+    extend "\n我啊……[player_name]君在我身边的话，我就会非常安心。"
+    me "是吗……那还真是谢谢你了。"
+    show tomo 35i with dissolve
+    tomo "……我说啊……那个…。"
+    show tomo 36i with dissolve
+    tomo "……我可以稍微撒一下娇吗……所以，"
+    me "嗯…。"
+    window hide
+    show cg 校舎（夜） at center with Dissolve(0.8)
+    window show
+    "友将头靠在了我的肩上。"
+    extend "\n这举动简直就像小孩子撒娇一样。"
+    tomo "我啊……以前做了很多无理的事，"
+    extend "\n给很多人添了很多麻烦。"
+    tomo "当时，我正面临着许多令人不快和寂寞的事情，"
+    extend "\n将内心联系在一起的线一下子断了，"
+    extend "\n然后又搞出了那样的事情……"
+    tomo "现在已经牢牢地重新系好了，\n不会再断了。"
+    tomo "但是……果然，我还是很弱小……"
+    extend "\n不由得，就感觉寂寞……。"
+    me "那还是跟父亲的存在有关吗？"
+    window hide
+    show cg 校舎１（夜 with Dissolve(1.0)
+    window show
+    tomo "……嗯，是的。"
+    extend "\n母亲因为工作原因，不在家的时候很多，\n所以我一个人度过的时间也很多。"
+    tomo "忍察觉到了这点，经常来家里陪我玩，"
+    extend "\n即便如此……还是感到寂寞……。"
+    tomo "……我喜欢有人陪着。"
+    extend "\n所以不太想早点回家。"
+    tomo "虽然也有弹钢琴来转移注意力的时候，"
+    extend "\n……但一个人太无聊了。"
+    show bg 校庭１（夜）
+    extend "\n所以，放学后才那么弹钢琴，"
+    extend "\n等着有人来。"
+    window hide
+    hide cg with dissolve
+    hide tomo with dissolve
+    window show
+    "原来如此。"
+    extend "\n原来那场演奏，友是蕴含着这种心情在弹的啊……。"
+    "友抬起脑袋，看着我。"
+    extend "\n他面色通红，却区别于火光的颜色，能看出是羞赧的潮红"
+    window hide
+    show tomo 34i at top with dissolve
+    window show
+    tomo "所以……[player_name]君。"
+    extend "\n我当时，[player_name]君来到音乐室，我真的是太开心了！"
+    show tomo 35i with dissolve
+    tomo "而且，[player_name]君和我一起的时候，\n我感觉很轻松……"
+    extend "甚至能感受到一种被满足的感觉！"
+    show tomo 29i with dissolve
+    tomo "我，我！……[player_name]君，我可能，喜欢上了……你！"
+    extend "\n不是作为朋友的那种……那个……更进一步的那种。"
+    "说完之后，友低下了头，靠在了我的身上。"
+    window hide
+    show cg キャンプファイヤー（火の粉） at center with Dissolve(0.8)
+    window show
+    tomo "[player_name]君真的只是初中生吗？"
+    me "哎？"
+    tomo "为什么呢……[player_name]君每次出现的时候，\n我总觉得我们不像是一个年龄的人。"
+    tomo "年纪比我们大的男性……。"
+    extend "\n对了，总觉得……就像是爸爸一样……。"
+    me "……友……。"
+    tomo "所以……才想和你撒娇呢……。"
+    extend "\n想被你摸摸头……想和你在一起。"
+    me "……。"
+    tomo "开玩笑啦！！"
+    extend "啊，啊哈哈。\n不好意思，突然就说了一些奇怪的话……。"
+    tomo "但是……这就是，我真实的心情。"
+    extend "\n那时，在家不能说出来的，真实的心情。"
+    stop music fadeout 2.0
+    me "友……谢谢你。"
+    extend "\n谢谢你像这样仰慕我。"
+    "我轻轻地摸了摸朋友的头。"
+    window hide
+    play music "回想.ogg"
+    show cg c20 1 with Dissolve(0.8)
+    window show
+    me "这样摸头，你就放心了？"
+    extend "\n还会寂寞吗？"
+    tomo "……嗯。好温暖……。"
+    me "这样啊…。"
+    me "友，我……我也喜欢你哦。作为男生。"
+    me "……不过啊，友。"
+    extend "\n你的心意跟我的有点不同吧？"
+    show cg キャンプファイヤー with Dissolve(1.0)
+    tomo "诶……什么意思？"
+    me "友是想找一个代替父亲的可以撒娇的对象吧？"
+    extend "\n确实，你对那个人是『喜欢』没错。"
+    extend "\n但是，如果是作为男生的话，就有一些不同。"
+    tomo "……。"
+    me "我很尊敬造就了『森海友』的父亲。"
+    extend "\n有了他，才有你这个如此可爱又出色的孩子。"
+    "我轻轻把手放在友的头上。"
+    me "你的心中，有着父亲所遗留下来的无数宝物。"
+    extend "\n而我，却无法代替你的父亲。"
+    me "你要好好注视自己的内心，好好珍惜在那里的父亲。"
+    extend "\n他一定，会守护着你。"
+    window hide
+    show cg c20 2 with Dissolve(0.8)
+    window show
+    tomo "内心…。"
+    "友将手放在自己的胸口上。"
+    me "而且，友已经有很多好朋友了，\n对你来说甚至都没有时间去感到寂寞了。"
+    me "和你一起享受钢琴乐趣的是翼，"
+    extend "\n保护你不受不良学生欺负的则是忍。"
+    extend "\n万一你受伤了，月和空会担心你，"
+    extend "\n你感到失落的时候，慎太郎则会逗你开心。"
+    me "可能最近做这些事的都是我，\n所以你才会只留心我，"
+    extend "\n但其实，当你看看自己身边的人，\n你就会发现，比起以前，你身边的人更关心你了。"
+    me "大家都比你所想的，还要更加重视你。"
+    extend "\n所以，我觉得你想要的东西，你已经得到了。"
+    tomo "……。"
+    show cg c20 3 with dissolve
+    tomo "嗯……是啊……。"
+    tomo "就算我再怎么消沉也没用！"
+    extend "\n我会更努力地成长的！"
+    extend "\n毕竟，我还有大家！！"
+    tomo "谢谢您，[player_name]君。"
+    extend "\n我好像不知不觉变得消极了。"
+    extend "\n这不是我的风格。"
+    extend "\n我要变得更加积极向上！"
+    me "嗯，这才是「森海友」嘛。"
+    tomo "诶嘿嘿。"
+    "友害羞地笑了笑，突然间将脸贴近，"
+    window hide
+    show cg c20 4 with Dissolve(0.8)
+    window show
+    "亲"
+    "……诶？"
+    show cg c20 5 with Dissolve(0.8)
+    tomo "嘿嘿。"
+    extend "\n[player_name]君刚才说的作为男人的职责，\n……也就是说，做这个吧？"
+    tomo "这个吻是回礼！"
+    extend "\n谢谢你让我意识到了重要的事。"
+    tomo "啊……但是，刚才的吻，与其说是回礼，不如说是本能……"
+    extend "\n我，比[player_name]君想象的，更加喜欢[player_name]君？"
+    me "啊哈哈，这下真是败给你了啊……。"
+    me "我这边才是，谢谢你给我带来了这么多快乐。"
+    window hide
+    show cg 月（夜） with Dissolve(0.8)
+    window show
+    "……这样一来，也回应了友的期待，也坦白了我的心意。"
+    extend "\n御咲祭也成功了，也与友一起看到了这场火焰。"
+    extend "\n愿望全都实现了。……"
+    window hide
+    show cg キャンプファイヤー（火の粉） with Dissolve(0.8)
+    window show
+    "在这片燃烧的红炎之中，我的意识逐渐淡去……。"
+    extend "\n……梦已经结束了。"
+    window hide
+    hide bg with dissolve
+    hide tomo with dissolve
+    hide cg with dissolve
+    window show
+    "···"
+    "梦的记忆是模糊的。"
+    extend "\n在醒过来的同时，也会忘记这场梦。"
+    extend "\n只留下甜美的回忆，其他的一切都被带去忘却的彼方而消散。"
+    stop music fadeout 4.0
+    "好了……差不多该起来了。"
+    window hide
+    show tomo 34 at top with Dissolve(2.5)
+    window show
+    "友，我喜欢你哦。"
+    window hide
+    hide tomo with dissolve
+    play music "FX/燕.ogg"
+    show bg 主人公家 at center with Dissolve(1.0)
+    pause 0.6
+    hide bg with dissolve
+    window show
+    play sound "FX/目覚まし.ogg"
+    "哔哔哔哔哔哔哔哔"
+    window hide
+    show bg 主人公部屋（朝） at center with lm_crossfade
+    window show
+    me "啊……已经早上了吗……？"
+    extend "\n唔~我好像并没有睡多少啊……。"
+    stop sound fadeout 0.5
+    "我望向餐桌，上面放着一张传单。"
+    play sound "FX/紙.ogg"
+    me "嗯？这是……"
+    extend "啊，对对对，昨天回来的时候拿到的。"
+    extend "\n那些孩子们，真可爱啊……。"
+    me "……好！那天我一定要去好好享受！"
+    play sound "FX/可愛い2.ogg"
+    extend "\n然后在脑海里尽情幻想！！"
+    window hide
+    hide bg with dissolve
+    stop music fadeout 0.5
+    window show
+    "御咲祭当天ーーーーーー"
+    window hide
+    play music "学祭だ！.ogg"
+    show bg 校舎（全貌） at center with Dissolve(1.0)
+    pause 0.6
+    show bg 廊下 with Dissolve(1.0)
+    window show
+    me "我想想……记得说是2年1班和2年2班的咖啡店。"
+    extend "\n唔？"
+    play sound "FX/引き戸.ogg"
+    show bg 喫茶店 with dissolve
+    "是这个吗？"
+    "正当我站在店门口犹豫不决的时候，"
+    extend "从店里走出来了一个戴黄色名签，\n左手手指上缠着创可贴，还系着红色领带的男孩子。"
+    window hide
+    show tomo 33i at top with dissolve
+    window show
+    tomo "欢迎光临！"
+    extend "您是一个人吗？"
+    show tomo 34i with dissolve
+    extend "\n请慢用。"
+    window hide
+    hide bg with fade
+    hide tomo with fade
+    pause 0.6
+    show bg 友部屋（夕方） at center with Dissolve(0.7)
+    pause 0.6
+    show bg 友ed with Dissolve(0.8)
+    pause 1.3
+    stop music fadeout 1.5
+    hide bg with dissolve
+    pause 0.5
+    show bg 制作 at center with dissolve
+    pause 0.8
+    hide bg with dissolve
+    return
+
+label s0000023D_00000245:
+    show bg 喫茶店 at center with dissolve
+    window show
+    "咚！！"
+    show sintarou 25i at top with dissolve
+    play sound "FX/ビヨン.ogg"
+    sintarou "3位！OUT！！"
+    me "慎太郎！"
+    play sound "FX/可愛い.ogg"
+    customer3 "慎，慎太郎君！？"
+    play music "sintarou.ogg"
+    show sintarou 17i with dissolve
+    sintarou "我不是告诫过你们在咖啡店要自重吗！"
+    extend "\n我再警告你们一遍[player_name]君如果再被你们骚扰的话"
+    show cg remarkable at center with Dissolve(0.4)
+    play sound "FX/爆発３.ogg"
+    extend "\n禁止你去我家的澡堂3个月哦！！"
+    hide cg with dissolve
+    hide sintarou with dissolve
+    play sound "FX/チーン.ogg"
+    customer3 "呜……抱，抱歉了捏。"
+    extend "\n有，有点兴奋过头，所以有点不守规矩了捏。"
+    customer5 "对不起呀。"
+    extend "\n这里还是绅士一点，姑且忍一忍，可远观不可亵玩焉。"
+    customer4 "对不起…。"
+    stop sound fadeout 0.5
+    show sintarou 29i at top with dissolve
+    sintarou "嗯，很好。"
+    show sintarou 19i with dissolve
+    extend "\n我想你应该明白，禁止对别的男孩出手！"
+    hide sintarou with dissolve
+    "在慎太郎的帮助下，我总算摆脱了这个危机。"
+    "没想到在这种时候还能被初中生搭救……。"
+    extend "\n总感觉有点丢人啊……。"
+    window hide
+    show sintarou 1i at top with dissolve
+    window show
+    sintarou "[player_name]，没事吧？"
+    me "嗯，嗯嗯。得救了。"
+    extend "\n谢谢你们！"
+    show sintarou 4i with dissolve
+    sintarou "何足挂齿~。"
+    show sintarou 31i with dissolve
+    sintarou "……。"
+    show sintarou 18i with dissolve
+    sintarou "话说[player_name]。"
+    extend "\n你今天有和谁约好一起逛后夜祭吗？"
+    me "诶？不，还没有安排。"
+    show sintarou 34i with dissolve
+    sintarou "对哦对哦！"
+    extend "\n那，你就和我一起去吧！"
+    me "好啊，其他人呢？"
+    show sintarou 23i with dissolve
+    sintarou "这种事你不用多问了！"
+    show sintarou 30i with dissolve
+    extend "\n而且，我还想和你谈谈咱俩的『秘密』。"
+    me "啊……抱，抱歉。"
+    extend "\n嗯，一起逛吧！"
+    extend "\n我们在鞋柜那碰头吧。"
+    show sintarou 8i with dissolve
+    sintarou "好的！"
+    show sintarou 33i with dissolve
+    extend "\n那，待会见！！"
+    window hide
+    hide sintarou with dissolve
+    window show
+    "除了『秘密』之外，慎太郎似乎还有想和我单独相处的理由。"
+    "……。"
+    show cg orange at center with dissolve
+    "呜……总觉得心跳加速了……。"
+    "毕，毕竟我还不清楚他到底要对我说什么，"
+    extend "\n没必要太过紧张……"
+    "不，好不容易又有了独处的机会。"
+    extend "\n如果他没有主动提起的话，我也会主动开口。"
+    hide cg with dissolve
+    hide bg with dissolve
+    stop music fadeout 2.0
+    "……毕竟这个梦不知道会持续到什么时候……。"
+    window hide
+    show bg 校舎夕方（全貌） at center with Dissolve(1.0)
+    pause 0.4
+    show bg 喫茶店（夕方） with Dissolve(1.0)
+    window show
+    "咖啡店的营业时间也差不多要结束了。"
+    extend "\n剩下的活动就是和慎太郎一起逛后夜祭！"
+    extend "\n我可不能迟到了。得赶紧收拾完。"
+    window hide
+    play music "tomo.ogg"
+    show tomo 4i at top with dissolve
+    window show
+    tomo "[player_name]」"
+    "我正努力地在扫地呢，这时友突然向我搭话。"
+    me "友啊……怎么了？"
+    show tomo 39i with dissolve
+    tomo "我差点忘了，你和慎太郎约会得怎么样了~？"
+    "友笑嘻嘻地问我。"
+    me "什么怎么样……就是洗个澡，在慎太郎的房间里睡了会儿而已。"
+    show tomo 18i with dissolve
+    play sound "FX/ビヨン.ogg"
+    tomo "诶！！！"
+    extend "\n不止是洗澡，还睡了一觉！！？"
+    me "不，不是的，不是这样的！！"
+    extend "\n是我自己一个人先洗了，然后因为泡晕了，所以才让他让我休息的！"
+    show tomo 31i with dissolve
+    tomo "啊哈哈哈~开玩笑啦！"
+    extend "\n还有，后夜祭的时候也要和小慎一起「享受」吗？」"
+    me "诶！为什么你会知道……？"
+    show tomo 25i with dissolve
+    tomo "看你这么紧张，我就知道是那样了~！"
+    extend "\n[player_name]君的心情都写在脸上了哦！"
+    me "真，真的吗……。"
+    show tomo 2i with dissolve
+    tomo "嗯！"
+    extend "\n毕竟，不知道你们俩的事才是奇怪呢！"
+    show tomo 6i with dissolve
+    tomo "不过，没想到「享受」居然都得到了你的肯定……！"
+    show tomo 13i with dissolve
+    play sound "FX/可愛い.ogg"
+    extend "\n你小子太厉害了！！"
+    me "啊，不是！我并没有想太多……。"
+    show tomo 38i with dissolve
+    tomo "唔……话说回来，我还真没想象过，\n人尽可夫的慎酱，会和别人搞纯爱呢。"
+    me "喂，这话你也没资格说啊。"
+    show tomo 24i with dissolve
+    tomo "就是就是。\n谁叫我最喜欢做爽事了嘛！"
+    show tomo 5i with dissolve
+    play sound "FX/ダッ！.ogg"
+    extend "\n但是，这话我敢说！！"
+    me "啊哈哈哈"
+    me "……呼。"
+    extend "\n多亏了你傻乎乎的特质，我感觉舒服多了。"
+    extend "\n谢谢你啊。"
+    show tomo 38i with dissolve
+    tomo "不用谢！"
+    show tomo 28i with dissolve
+    extend "\n唔……？\n你这话说得，不像是在夸奖我啊！！"
+    me "是在夸是在夸！"
+    extend "\n那我出发了！"
+    show tomo 4i with dissolve
+    tomo "好！"
+    show tomo 17i with dissolve
+    extend "\n要玩得尽兴哦~！！"
+    me "交给我吧！"
+    extend "\n就让我来让你见识一下何为男子汉吧！！"
+    hide tomo with dissolve
+    "虽然多少有些自相矛盾，但我从友那里，\n赶往了和慎太郎约定的地点。"
+    stop music fadeout 2.0
+    window hide
+    hide bg with dissolve
+    window show
+    "···"
+    play music "FX/夜　虫.ogg"
+    window hide
+    show bg 下駄箱（夜） at center with dissolve
+    window show
+    "到达鞋柜间之后，我发现"
+    show sintarou 31i at top with dissolve
+    "慎太郎已经在那里等我了。"
+    me "抱歉，你等很久了吗？"
+    show sintarou 22i with dissolve
+    play sound "FX/キラキラ.ogg"
+    sintarou "没有，我才刚到！"
+    show sintarou 29i with dissolve
+    extend "\n……开个玩笑，其实我是想说一次这句话的！！"
+    "慎太郎还是一如既往地调戏我。"
+    show sintarou 4i with dissolve
+    sintarou "那么，我们走吧！"
+    window hide
+    hide sintarou with dissolve
+    show bg 校舎（夜） with Dissolve(1.0)
+    window show
+    "我们来到外面，夕阳已经落山了。\n但余晖和摊位的灯光交相辉映，街上依然很热闹。"
+    "在校园的正中央，大家为了御咲祭篝火晚会做准备，\n堆柴火的工作正在有序地进行。"
+    window hide
+    show bg 校庭（夜） with Dissolve(1.0)
+    show sintarou 2i at top with dissolve
+    window show
+    sintarou "因为今天一直在工作，\n找个地方坐下来休息吧~？"
+    me "说的是。"
+    hide sintarou with dissolve
+    "这么说着，我们两人\n在远离操场的草坪上坐了下来。"
+    window hide
+    show sintarou 31i at top with dissolve
+    window show
+    me "在这里的话，就能清楚地看到火焰，可以好好休息了。"
+    sintarou "是啊……。"
+    stop music fadeout 2.0
+    hide sintarou with dissolve
+    "远远眺望着，热闹非凡的学园祭的光景。"
+    extend "\n然后"
+    window hide
+    play sound "FX/炎.ogg"
+    show bg キャンプファイヤー with lm_crossfade
+    window show
+    "终于点燃了柴火堆。"
+    "熊熊燃烧着的鲜红火焰。"
+    extend "\n真的好美啊……。"
+    sintarou "怎么样？"
+    extend "\n和你初中时看到的一样吗？"
+    me "……是啊。"
+    extend "\n不过你陪在我身边这点和当时不一样。"
+    stop sound fadeout 2.0
+    window hide
+    play music "良い雰囲気.ogg"
+    show bg 校庭（夜） with Dissolve(1.0)
+    show sintarou 31i at top with dissolve
+    window show
+    sintarou "这样啊…。"
+    show sintarou 6i with dissolve
+    sintarou "喂喂，你的职业是什么？"
+    extend "\n实际上，是长什么样子？"
+    show sintarou 4i with dissolve
+    extend "\n一直在御咲住吗？"
+    extend "\n恋人呢？单身吗？喜欢男人还是女人？"
+    play sound "FX/ビヨン.ogg"
+    me "别，别突然这样质问啊！"
+    show sintarou 7i with dissolve
+    sintarou "因为很在意啊~！"
+    extend "\n毕竟你是拥有像是漫画和动画角色设定的人！！"
+    extend "\n当然会感到好奇啊！"
+    me "喂喂，把我当成玩具吗~。"
+    show sintarou 11i with dissolve
+    sintarou "虽然不是那样的！"
+    show sintarou 13i with dissolve
+    extend "\n只是单纯地，对于[player_name]君的事情，我非常想了解。"
+    me "什么啊，突然这样……。"
+    show sintarou 18i with dissolve
+    sintarou "因为……今天是最后一天了吧？"
+    "诶？"
+    show sintarou 20i with dissolve
+    sintarou "[player_name]君吃的魔法糖，\n效果如果是回到初中生活度过学园祭的话，"
+    extend "\n学园祭今天就结束了，\n[player_name]君和我这样见面的机会，应该不会再有了吧？"
+    me "……。"
+    window hide
+    show cg 校舎１（夜 at center with Dissolve(0.8)
+    window show
+    "我顿时语塞了。"
+    "虽然没有明确的证据，但是确实正如慎太郎所说。"
+    show bg 校庭１（夜）
+    "再也见不到慎太郎他们了……？"
+    window hide
+    hide cg with dissolve
+    hide sintarou with dissolve
+    window show
+    me "说不定……是这样的。"
+    show sintarou 30i at top with dissolve
+    sintarou "啊，[player_name]君的设定我也不是很清楚嘛。"
+    extend "\n不过，这完全就是我的推测！"
+    show sintarou 8i with dissolve
+    extend "\n……既然已经没时间了，那我想问的事情就得问出来，\n想说的事情就得说出来才行了。"
+    "连这种时候也是按照慎太郎的节奏来的。"
+    extend "\n真是的，我这个人啊。"
+    me "……说的也是。"
+    extend "\n慎太郎，我也有话想告诉你。"
+    show sintarou 18i with dissolve
+    sintarou "什么？"
+    extend "\n什么都可以说。"
+    me "我……喜欢慎太郎。"
+    extend "\n虽然感觉你总是一副吊儿郎当的样子，却总是在不知不觉间就牵动着我的步调。"
+    extend "\n在我变得软弱的时候，你会给予支持，一直陪伴在我身边。"
+    stop music fadeout 2.0
+    extend "\n这样的慎太郎魅力十足，我非常喜欢。"
+    show sintarou 4i with dissolve
+    sintarou "是么~。"
+    window hide
+    play music "回想.ogg"
+    show cg c30 1 at center with Dissolve(0.8)
+    window show
+    "慎太郎听我说完后，靠着我。"
+    "那张脸颊，融入火焰的颜色之中难以分辨，但看上去像是泛红了。"
+    sintarou "哼哼~♪"
+    extend "\n[player_name]喜欢上我了啊！"
+    extend "\n我也一样，非常喜欢[player_name]君。"
+    extend "\n我第一次被别人打乱了节奏呢。"
+    me "我一直都觉得自己是顺着慎太郎的节奏来的……。"
+    sintarou "不不不~我说，倒也不是那样哦。"
+    extend "\n还是说，这是在显摆成熟大人的力量吗？"
+    me "哈哈，已经不需要了吧。"
+    sintarou "嘛，我也是，当打乱别人节奏的时候自己不会注意到，"
+    extend "\n这一点可能很相似吧！"
+    "话说回来，其实我跟慎太郎坦白自己是大人的时候，"
+    extend "\n觉得他跟我太合得来了，真让人觉得是命运的安排。"
+    me "我啊，感觉到了这些，才对慎太郎坦白了啊~真佩服。"
+    sintarou "原来如此啊~，令人高兴呢。"
+    extend "\n虽然事先知道你即将消失让我很难受，"
+    extend "\n但正因如此，才能像这样事先做好准备！"
+    window hide
+    show cg キャンプファイヤー with Dissolve(1.0)
+    window show
+    me "……慎太郎，真的很了不起啊。"
+    extend "\n要是我是个小孩，一定会因为寂寞而变得消沉，\n根本没法这么理性的行动呢。"
+    sintarou "当然，寂寞还是有的啦~。"
+    extend "\n这一点我们彼此彼此，[player_name]君也很困扰吧。"
+    me "慎太郎在这方面也是个成熟的人呢。"
+    extend "\n想问什么就问，想说什么就说什么。\n这是很重要的。"
+    me "但是不知为何，\n总感觉一旦成年就变得难以捉摸了啊。"
+    sintarou "是吗？"
+    extend "\n……那么，趁着还是孩子，\n就做想做的事情吧。"
+    "慎太郎忽然将脸凑近"
+    window hide
+    show cg c30 3 with Dissolve(0.8)
+    window show
+    "亲"
+    "……诶？"
+    show cg c30 2 with Dissolve(0.8)
+    sintarou "嘿嘿嘿。"
+    extend "\n[player_name]君，为了不再后悔，\n就趁现在去做自己想做的事情吧？"
+    me "真是的……"
+    extend "\n慎太郎在最后关头还是慎太郎啊。"
+    sintarou "当然！"
+    extend "\n我就是我！"
+    window hide
+    hide cg with dissolve
+    hide sintarou with dissolve
+    show sintarou 11i at top with dissolve
+    window show
+    sintarou "啊啊啊啊！"
+    extend "\nadult-child之恋，本应是件很愉快的事情啊！"
+    me "我说的不是这个意思！！"
+    extend "\n……是啊，我也想一直和你在一起。"
+    extend "\n回归现实后，等待着我的又会是严酷的社会人生活啊……。"
+    show sintarou 4i with dissolve
+    sintarou "不过大人的生活也很有意思吧？"
+    extend "\n和孩子不同，大人能自由行动！"
+    extend "\n还能尽情逛十八禁区域！"
+    me "……确实。"
+    extend "\n下次我还打算作为毕业学生去御咲学园偷偷看一下哦。"
+    show sintarou 13i with dissolve
+    sintarou "千万不要对学生出手，要是被捕就麻烦了~。"
+    extend "\n最多也就在妄想中自慰自慰了。"
+    show sintarou 8i with dissolve
+    extend "\n我倒是无所谓！"
+    show sintarou 35i with dissolve
+    extend "\n还有，我那边的澡堂可要好好来啊！"
+    me "交给我吧！！"
+    extend "\n慎太郎也要努力学习，成为中学生哦。"
+    extend "\n……那么，再见了。"
+    show sintarou 33i with dissolve
+    sintarou "嗯！拜拜！"
+    extend "\n保重啊！"
+    window hide
+    show cg 月（夜） at center with Dissolve(0.8)
+    window show
+    "……这样就，向他表白过，也得到了慎太郎的答复。"
+    extend "\n御咲祭也成功了，还和慎太郎一起见证了这抹焰火。"
+    extend "\n愿望全都实现了。……"
+    window hide
+    show cg キャンプファイヤー（火の粉） with Dissolve(0.8)
+    window show
+    "在这片燃烧的红炎之中，我的意识逐渐淡去……。"
+    extend "\n……梦已经结束了。"
+    window hide
+    hide bg with dissolve
+    hide cg with dissolve
+    hide sintarou with dissolve
+    window show
+    "···"
+    "梦的记忆是模糊的。"
+    extend "\n在醒过来的同时，也会忘记这场梦。"
+    extend "\n只留下甜美的回忆，其他的一切都被带去忘却的彼方而消散。"
+    stop music fadeout 4.0
+    "好了……差不多该起来了。"
+    window hide
+    show sintarou 33 at top with Dissolve(2.5)
+    window show
+    "我好喜欢慎太郎啊。"
+    window hide
+    hide sintarou with dissolve
+    play music "FX/燕.ogg"
+    show bg 主人公家 at center with Dissolve(1.0)
+    pause 0.6
+    hide bg with dissolve
+    window show
+    play sound "FX/目覚まし.ogg"
+    "哔哔哔哔哔哔哔哔"
+    window hide
+    show bg 主人公部屋（朝） at center with dissolve
+    window show
+    me "啊……已经早上了吗……？"
+    extend "\n唔~我好像并没有睡多少啊……。"
+    stop sound fadeout 0.5
+    "我望向餐桌，上面放着一张传单。"
+    play sound "FX/紙.ogg"
+    me "嗯？这是……"
+    extend "啊，对对对，昨天回来的时候拿到的。"
+    extend "\n那些孩子们，真可爱啊……。"
+    me "……好！那天我一定要去好好享受！"
+    play sound "FX/可愛い2.ogg"
+    extend "\n然后在脑海里尽情幻想！！"
+    window hide
+    hide bg with dissolve
+    stop music fadeout 0.5
+    window show
+    "御咲祭当天ーーーーーー"
+    window hide
+    play music "学祭だ！.ogg"
+    show bg 校舎（全貌） at center with Dissolve(1.0)
+    pause 0.4
+    show bg 廊下 with Dissolve(1.0)
+    window show
+    me "我想想……记得说是2年1班和2年2班的咖啡店。"
+    extend "\n唔？"
+    play sound "FX/引き戸.ogg"
+    show bg 喫茶店 with dissolve
+    "是这个吗？"
+    "正当我站在店门口犹豫不决的时候，"
+    extend "一个挂着橘色名牌，\n右手手指上缠着创可贴，穿着红色领带的男生从店里走了出来。"
+    window hide
+    show sintarou 8i at top with dissolve
+    window show
+    sintarou "欢迎光临~！就一位吗？"
+    show sintarou 34i with dissolve
+    extend "\n请这边走！请慢慢看吧~！"
+    window hide
+    hide bg with lm_crossfade
+    hide sintarou with lm_crossfade
+    pause 0.6
+    show bg 花の湯 at center with Dissolve(0.7)
+    pause 0.6
+    show bg 慎太郎ed with Dissolve(0.8)
+    pause 1.3
+    stop music fadeout 1.5
+    hide bg with dissolve
+    pause 0.5
+    show bg 制作 at center with dissolve
+    pause 0.8
+    hide bg with dissolve
+    return
+
+label s0000023D_00000246:
+    show sinobu 26i at top with dissolve
+    window show
+    me "噢！"
+    hide sinobu with dissolve
+    return
+
+label s0000023D_00000247:
+    show tubasa 4i at top with dissolve
+    window show
+    me "噢！"
+    hide tubasa with dissolve
+    return
+
+label s0000023D_00000248:
+    show tuki 9i at top with dissolve
+    window show
+    me "噢！"
+    hide tuki with dissolve
+    return
+
+label s0000023D_00000249:
+    show sora 11i at top with dissolve
+    window show
+    me "噢！"
+    hide sora with dissolve
+    return
+
+label s0000023D_0000024A:
+    show sakuya 5i at top with dissolve
+    window show
+    me "噢！"
+    hide sakuya with dissolve
+    return
+
+label s0000023D_0000024B:
+    show saburo 10i at top with dissolve
+    window show
+    me "噢！"
+    hide saburo with dissolve
+    return
+
+label s0000023D_0000024C:
+    show bg 喫茶店 at center with dissolve
+    play music "sinobu.ogg"
+    show sinobu 3i at top with dissolve
+    window show
+    sinobu "到此为止了。"
+    me "忍！"
+    customer3 "怎，怎么会这样！"
+    show sinobu 30i with dissolve
+    sinobu "这位客人，本店禁止进行这样的行为。"
+    extend "\n若您还打算继续这种行为的话，就请离开吧。"
+    extend "\n请您把手放开。"
+    play sound "FX/ビヨン.ogg"
+    customer3 "呜……抱，抱歉了捏。"
+    extend "\n有，有点兴奋过头，所以有点不守规矩了捏。"
+    play sound "FX/可愛い3.ogg"
+    customer5 "对不起呀。"
+    extend "\n这里还是绅士一点，姑且忍一忍，可远观不可亵玩焉。"
+    play sound "FX/キラキラ.ogg"
+    customer4 "正义感强烈的男孩子真是棒呀♪"
+    window hide
+    hide sinobu with dissolve
+    window show
+    "在忍的帮助下，我总算是摆脱了困境。"
+    "没想到在这种时候还能被初中生搭救……。"
+    extend "\n总感觉有点丢人啊……。"
+    window hide
+    show sinobu 5i at top with dissolve
+    window show
+    sinobu "[player_name]，没事吧？"
+    me "嗯，嗯嗯。得救了。"
+    extend "\n谢谢你们！"
+    show sinobu 4i with dissolve
+    sinobu "不用客气。"
+    show sinobu 15i with dissolve
+    sinobu "……。"
+    show sinobu 8i with dissolve
+    sinobu "说起来，[player_name]君，\n你今天之后夜祭有安排吗？"
+    me "诶？不，还没有安排。"
+    show sinobu 31i with dissolve
+    sinobu "对。"
+    extend "\n那么，[player_name]我可以和你在一起吗？"
+    me "好啊，其他人呢？"
+    show sinobu 32i with dissolve
+    sinobu "……我想和你独处一会…。"
+    play sound "FX/ビヨン.ogg"
+    "什，什么啊啊啊啊啊！！！"
+    me "诶，啊，是吗！？行行行可以啊！！"
+    extend "\n那么，我们在鞋柜那碰头。"
+    show sinobu 31i with dissolve
+    sinobu "嗯……"
+    show sinobu 33i with dissolve
+    extend "\n那么，之后再见吧。"
+    window hide
+    hide sinobu with dissolve
+    window show
+    "忍说的独处……难道是想要在之前回家路上的事的基础上进一步发展吗……？"
+    "……。"
+    show cg green at center with dissolve
+    "呜……总觉得心跳加速了……。"
+    "嘛，嘛，也不知道会发展成什么样子，\n没必要那么紧张……"
+    "不，好不容易又有了独处的机会。"
+    extend "\n如果他没有主动提起的话，我也会主动开口。"
+    hide cg with dissolve
+    hide bg with dissolve
+    stop music fadeout 2.0
+    "……毕竟这个梦不知道会持续到什么时候……。"
+    window hide
+    show bg 校舎夕方（全貌） at center with Dissolve(1.0)
+    pause 0.4
+    show bg 喫茶店（夕方） with Dissolve(1.0)
+    window show
+    "咖啡店的营业时间也差不多要结束了。"
+    extend "\n剩下的活动，就是和忍在后夜祭上做些什么了！"
+    extend "\n我可不能迟到了。得赶紧收拾完。"
+    show tomo 23i at topright
+    show tubasa 2i at topleft with dissolve
+    tubasa "[player_name]君。"
+    tomo "……。"
+    "我还在勤恳地工作时，翼和友一起向我搭话了。"
+    me "翼，还有友君……？ 什么事？"
+    show tubasa 23i with dissolve
+    tubasa "友君他，那个……"
+    extend "\n[player_name]君，他有话要对你说。"
+    show tomo 35i with dissolve
+    tomo "……。"
+    "……毕竟友是忍的青梅竹马。"
+    extend "\n他一定从忍的样子看出\n接下来会发生什么了吧。"
+    hide tomo with dissolve
+    hide tubasa with dissolve
+    play music "tomo.ogg"
+    show tomo 30i at top with dissolve
+    play sound "FX/可愛い3.ogg"
+    tomo "……你要好好对待他哦！"
+    show tomo 32i with dissolve
+    play sound "FX/可愛い.ogg"
+    extend "\n要是让他哭了我可饶不了你！！"
+    show tomo 5i with dissolve
+    play sound "FX/可愛い2.ogg"
+    extend "\n还有，忍做菜很烂，你要好好照顾他哦！"
+    extend "\n还有还有……"
+    hide tomo with dissolve
+    show tomo 24i at topright with dissolve
+    extend "祝你们幸福！！！"
+    show tubasa 4i at topleft with dissolve
+    tubasa "[player_name]君常常来布置组帮忙\n所以我很常有机会见到你们俩，"
+    extend "\n我觉得你们一定会很顺利的。"
+    me "……谢谢你们。"
+    extend "\n我先走一步了！"
+    show tomo 4i with dissolve
+    tomo "好！"
+    show tubasa 31i with dissolve
+    tubasa "加油！"
+    "得到了翼和友的鼓励，我急忙赶到了忍和我的约见地点。"
+    stop music fadeout 1.0
+    window hide
+    hide tomo with dissolve
+    hide bg with dissolve
+    hide tubasa with dissolve
+    window show
+    "···"
+    play music "FX/夜　虫.ogg"
+    window hide
+    show bg 下駄箱（夜） at center with dissolve
+    window show
+    "来到鞋柜前，发现忍早已在那里等我了。"
+    extend "\n一见到忍的身影，我的脚步便停住了。"
+    window hide
+    show cg 校舎（夜） at center with dissolve
+    window show
+    "是啊……这是一场不知何时会醒来的梦。"
+    extend "\n说得更准确一点，也许梦在今天就结束了。"
+    extend "\n但是，我应该把自己的心意说出来吗？"
+    extend "\n这么做不会只是单纯地伤害到忍吗？"
+    "可恶……居然在这种地方遇到了难题……。"
+    window hide
+    hide sinobu with dissolve
+    hide cg with dissolve
+    window show
+    me "我，我到底……"
+    show sinobu 26i at top with dissolve
+    sinobu "[player_name]，你在这里呀。"
+    "忍注意到了停下脚步的我，朝我这边走了过来。"
+    show sinobu 22i with dissolve
+    "原来你说的是在鞋柜见面，我还以为是在别的地方呢。"
+    me "抱，抱歉！"
+    extend "\n我本打算在鞋柜前等你……。"
+    show sinobu 18i with dissolve
+    sinobu "这样啊。\n不过，能在这里相遇真是太好了。"
+    show sinobu 26i with dissolve
+    extend "\n那我们出发吧。"
+    window hide
+    hide sinobu with dissolve
+    show bg 校舎（夜） with Dissolve(1.0)
+    window show
+    "我们来到外面，夕阳已经落山了。\n但余晖和摊位的灯光交相辉映，街上依然很热闹。"
+    extend "\n在校园的正中央，大家为了御咲祭篝火晚会做准备，\n堆柴火的工作正在有序地进行。"
+    window hide
+    show bg 校庭（夜） with Dissolve(1.0)
+    show sinobu 22i at top with dissolve
+    window show
+    sinobu "今天一直都在工作，找个地方坐下来吧。"
+    me "说的是。"
+    hide sinobu with dissolve
+    "这么说着，我们两人\n在远离操场的草坪上坐了下来。"
+    window hide
+    show sinobu 12i at top with dissolve
+    window show
+    me "在这里的话，就能清楚地看到火焰，可以好好休息了。"
+    sinobu "说的也是……。"
+    stop music fadeout 2.0
+    hide sinobu with dissolve
+    "远远眺望着，热闹非凡的学园祭的光景。"
+    extend "\n然后"
+    window hide
+    play sound "FX/炎.ogg"
+    show bg キャンプファイヤー with lm_crossfade
+    window show
+    "终于点燃了柴火堆。"
+    "熊熊燃烧着的鲜红火焰。"
+    extend "\n真的好美啊……。"
+    sinobu "真美啊……。"
+    me "嗯……。"
+    "不过比起眼前的景色，忍更美。"
+    stop sound fadeout 2.0
+    hide bg with dissolve
+    "……说不出口。"
+    window hide
+    play music "良い雰囲気.ogg"
+    show bg 校庭（夜） at center with Dissolve(1.0)
+    show sinobu 2i at top with dissolve
+    window show
+    sinobu "……[player_name]，怎么了？"
+    me "……诶？"
+    show sinobu 21i with dissolve
+    sinobu "你一直在隐瞒着什么吧……"
+    extend "与其说隐瞒，不如说是在思考吧。"
+    me "嗯，嗯嗯……。"
+    show sinobu 34i with dissolve
+    sinobu "不想说的话就不用说了。"
+    show sinobu 27i with dissolve
+    extend "\n但是，如果方便的话，我想知道。"
+    me "……嗯。"
+    show sinobu 32i with dissolve
+    sinobu "我，想更多的了解[player_name]君的事情，也更想和\n[player_name]君靠得近一点。"
+    show sinobu 33i with dissolve
+    sinobu "[player_name]君，我喜欢你。"
+    me "忍……！"
+    show sinobu 31i with dissolve
+    sinobu "邀请你参加后夜祭，是因为我想传达这份感情。"
+    extend "\n……一起回家的时候没说出口也是因为这个。"
+    extend "\n那时，[player_name]说过我的笑容很漂亮，\n我真的非常高兴……。"
+    "忍红着脸，低着头露出了微笑。"
+    me "哎呀……被你听到了。"
+    extend "\n忍……忍这么对我说，我也很高兴。\n真的十分感谢。"
+    extend "\n……但是，我……。"
+    show sinobu 34i with dissolve
+    sinobu "[player_name]，冷静。"
+    extend "\n我……[player_name]只要是你说的话，\n无论是什么都能接受。"
+    me "忍…。"
+    window hide
+    show cg 校舎１（夜 at center with Dissolve(0.8)
+    window show
+    me "我不能一直待在你的身边。"
+    extend "\n可能过不了多久就会消失。也许，就是今天。"
+    show bg 校庭１（夜）
+    extend "\n所以，这样的我不能回应你的心意…。"
+    window hide
+    hide cg with dissolve
+    hide sinobu with dissolve
+    show sinobu 18i at top with dissolve
+    window show
+    sinobu "[player_name]……哪怕真的如此，我也想表达出来。"
+    show sinobu 21i with dissolve
+    extend "\n这么说，不为什么未来的希冀"
+    extend "\n而是为你伴我日夜冷暖的，[player_name]至今未变的心意"
+    "……。"
+    window hide
+    show cg 月（夜） at center with Dissolve(2.0)
+    window show
+    sinobu "嘿嘿，今天我可以明白地说出来呢。"
+    extend "\n『今晚月色真美。』"
+    me "忍……我也喜欢你。"
+    extend "\n现在的我比任何人都还要爱你。"
+    sinobu "……嗯。\n谢谢你……好开心。"
+    "这么说着，忍没有露出微笑，而是展露出最灿烂的笑容。"
+    window hide
+    show cg キャンプファイヤー with Dissolve(0.8)
+    window show
+    "我抱住了忍的头，让他靠在我身上。"
+    me "呼……啊哈哈，感觉真是不可思议啊。"
+    extend "\n最开始的时候，明明是我拼命想了解忍，\n现在却反而是忍拼命想要了解我。"
+    sinobu "最开始的时候……[player_name]君是一个重视意志的人。"
+    extend "\n然后，正如我所期待的那样，[player_name]君在我的灵魂深处，看到了我的真心。"
+    extend "\n当然你也很关注我的外表啦。不过除此以外，你也看到了我的内在。"
+    extend "\n我被这样的[player_name]君深深吸引住了。"
+    sinobu "这就是……恋爱吧。"
+    stop music fadeout 2.0
+    "忍看着我说道。"
+    extend "我也看向忍。"
+    "他的脸颊还是一如既往的红。"
+    extend "我脸上一定也是一样的吧。"
+    window hide
+    play music "回想.ogg"
+    show cg c38 1 with Dissolve(0.8)
+    window show
+    me "嗯……这就是恋爱啊。"
+    sinobu "……。"
+    me "……。"
+    sinobu "……[player_name]，闭上眼睛。"
+    me "嗯……。"
+    window hide
+    show cg c38 2 with Dissolve(0.8)
+    window show
+    "亲"
+    "我感到了忍嘴唇传来的柔软触感。"
+    show cg c38 3 with Dissolve(0.8)
+    me "忍，真的变了呢。"
+    sinobu "还不是因为你……。"
+    sinobu "[player_name]刚说会马上消失，\n但我并不后悔。"
+    extend "\n虽然会感到寂寞，但我绝对不会后悔，放心吧。"
+    extend "\n因为我一直都很幸福。"
+    me "嗯……谢谢你，忍。"
+    extend "\n我也很幸福。"
+    sinobu "啊……但是，《北O神拳》还没还呢，\n我们还没好好聊聊这件事真是遗憾。"
+    me "啊~……这么说来还真是。"
+    extend "\n但是没关系。\n如今，我与你已经比任何人都要了解彼此了。"
+    sinobu "嗯……。"
+    window hide
+    show cg 月（夜） with Dissolve(0.8)
+    window show
+    "……我回应了忍的心意，也传达了我的爱意。"
+    extend "\n御咲祭也成功了，还和忍一起看完了这场火焰秀。"
+    extend "\n愿望全都实现了。……"
+    window hide
+    show cg キャンプファイヤー（火の粉） with Dissolve(0.8)
+    window show
+    "在这片燃烧的红炎之中，我的意识逐渐淡去……。"
+    extend "\n……梦已经结束了。"
+    window hide
+    hide bg with dissolve
+    hide cg with dissolve
+    hide sinobu with dissolve
+    window show
+    "···"
+    "梦的记忆是模糊的。"
+    extend "\n在醒过来的同时，也会忘记这场梦。"
+    extend "\n只留下甜美的回忆，其他的一切都被带去忘却的彼方而消散。"
+    "我并不后悔。希望忍也一样。"
+    stop music fadeout 4.0
+    "好了……差不多该起来了。"
+    window hide
+    show sinobu 31 at top with Dissolve(2.5)
+    window show
+    "喜欢你，忍。"
+    window hide
+    hide sinobu with dissolve
+    play music "FX/燕.ogg"
+    show bg 主人公家 at center with Dissolve(1.0)
+    pause 0.6
+    hide bg with dissolve
+    window show
+    play sound "FX/目覚まし.ogg"
+    "哔哔哔哔哔哔哔哔"
+    window hide
+    show bg 主人公部屋（朝） at center with dissolve
+    window show
+    me "啊……已经早上了吗……？"
+    extend "\n唔~我好像并没有睡多少啊……。"
+    stop sound fadeout 0.5
+    "我望向餐桌，上面放着一张传单。"
+    play sound "FX/紙.ogg"
+    me "嗯？这是……"
+    extend "啊，对对对，昨天回来的时候拿到的。"
+    extend "\n那些孩子们，真可爱啊……。"
+    me "……好！那天我一定要去好好享受！"
+    play sound "FX/可愛い2.ogg"
+    extend "\n然后在脑海里尽情幻想！！"
+    window hide
+    hide bg with dissolve
+    stop music fadeout 0.5
+    window show
+    "御咲祭当天ーーーーーー"
+    window hide
+    play music "学祭だ！.ogg"
+    show bg 校舎（全貌） at center with Dissolve(1.0)
+    pause 0.4
+    show bg 廊下 with Dissolve(1.0)
+    window show
+    me "我想想……记得说是2年1班和2年2班的咖啡店。"
+    extend "\n嗯？这里吗？"
+    "正当我站在店门口犹豫不决的时候，"
+    extend "\n三个与我差不多大的男生正在迷茫着，\n他们向店里的人打起了招呼。"
+    window hide
+    window show
+    student_a "啊，喂~，我们来了。这里就是2年1，2班的咖啡馆吗？"
+    show tubasa 4i at topright with dissolve
+    unknown "啊，你，你好……"
+    extend "\n是的，这里就是我们的咖啡馆。"
+    extend "\n那个……如果您是要入店的话，请将乐器交给我保管。"
+    student_b "哦，谢谢！"
+    extend "\n这个不仅很重，还占地方，给你保管轻松多了！。"
+    student_c "绝对不要摔了啊！！注意别弄掉了！！"
+    "他们边这样说着，边被带着走过我身旁。"
+    window hide
+    play sound "FX/引き戸.ogg"
+    hide tubasa with dissolve
+    window show
+    "看来，肯定就是在这里！！"
+    extend "\n我鼓起自信，意气风发地走向咖啡店的入口。"
+    play sound "FX/引き戸.ogg"
+    show bg 喫茶店 with fade
+    "接着，一个戴绿色名牌的，打着红领带的男孩从店内走了出来。"
+    window hide
+    show sinobu 26i at top with dissolve
+    window show
+    sinobu "欢迎光临，客人。"
+    show sinobu 33i with dissolve
+    extend "\n请问是一位吗？"
+    show sinobu 31i with dissolve
+    extend "\n请往这边走……请慢慢欣赏。"
+    window hide
+    hide bg with lm_crossfade
+    hide sinobu with lm_crossfade
+    pause 0.6
+    show bg 歩道（夕方） at center with Dissolve(0.7)
+    pause 0.6
+    show bg しのぶed with Dissolve(0.8)
+    pause 1.3
+    stop music fadeout 1.5
+    hide bg with dissolve
+    pause 0.5
+    show bg 制作 at center with dissolve
+    pause 0.8
+    hide bg with dissolve
+    return
+
+label s0000023D_0000024D:
+    show bg 喫茶店 at center with dissolve
+    play music "tubasa.ogg"
+    show tubasa 16i at top with dissolve
+    play sound "FX/可愛い.ogg"
+    window show
+    tubasa "客，客人！\n继续得寸进尺……是不行的！"
+    me "翼！"
+    customer3 "怎，怎么会这样！"
+    show tubasa 24i with dissolve
+    tubasa "那，那个……[player_name]君好像有点困扰，\n请你无论如何放开他。"
+    show tubasa 18i with dissolve
+    play sound "FX/可愛い2.ogg"
+    extend "\n再，再继续做奇怪的事的话，我就叫老师了哦！"
+    play sound "FX/ビヨン.ogg"
+    customer3 "呜……抱，抱歉了捏。"
+    extend "\n有，有点兴奋过头，所以有点不守规矩了捏。"
+    play sound "FX/可愛い3.ogg"
+    customer5 "对不起呀。"
+    extend "\n这里还是绅士一点，姑且忍一忍，可远观不可亵玩焉。"
+    play sound "FX/キラキラ.ogg"
+    customer4 "正义感强烈的男孩子真是棒呀♪"
+    window hide
+    hide tubasa with dissolve
+    window show
+    "在翼的帮助下，我总算是逃过了一劫。"
+    "没想到在这种时候还能被初中生搭救……。"
+    extend "\n总感觉有点丢人啊……。"
+    window hide
+    show tubasa 21i at top with dissolve
+    window show
+    tubasa "[player_name]君，没事吧……？"
+    me "嗯，嗯嗯。得救了。"
+    extend "\n谢谢你们！"
+    show tubasa 12i with dissolve
+    tubasa "没有，不客气。"
+    show tubasa 14i with dissolve
+    tubasa "……。"
+    show tubasa 15i with dissolve
+    tubasa "说，说起来，[player_name]君。"
+    extend "\n关于之后的后夜祭，有什么预定吗？"
+    me "诶？没，没什么……。"
+    show tubasa 31i with dissolve
+    tubasa "太，太好了。"
+    extend "\n那个……如果可以的话，能和我一起逛吗？"
+    me "可以啊……不过友君不去吗？"
+    "我悄悄地对翼说道。"
+    show tubasa 9i with dissolve
+    tubasa "这，这次就算了！"
+    show tubasa 37i with dissolve
+    extend "\n[player_name]君和我两个人聊就好…。"
+    me "……这样啊，我知道了。"
+    extend "\n那么，我们在鞋柜那碰头。"
+    show tubasa 36i with dissolve
+    tubasa "嗯，谢谢你！"
+    extend "\n那么，我就先回去了！\n回头见。"
+    window hide
+    hide tubasa with dissolve
+    window show
+    "翼竟然不先找友说话，而是先找我。究竟是要说什么事呢？"
+    "他俩难得一起当代表委员，明明这个好的机会……"
+    extend "\n呃，这也不是我能决定的，啊。"
+    "……。"
+    show cg blue at center with dissolve
+    "呜……总觉得心跳加速了……。"
+    "嘛，嘛，也不知道会发展成什么样子，\n没必要那么紧张……"
+    "不，好不容易又有了独处的机会。"
+    extend "\n如果他没有主动提起的话，我也会主动开口。"
+    hide cg with dissolve
+    hide bg with dissolve
+    hide tubasa with dissolve
+    stop music fadeout 2.0
+    "……毕竟这个梦不知道会持续到什么时候……。"
+    window hide
+    show bg 校舎夕方（全貌） at center with Dissolve(1.0)
+    pause 0.4
+    show bg 喫茶店（夕方） with Dissolve(1.0)
+    window show
+    "咖啡店的营业时间也差不多要结束了。"
+    extend "\n剩下的活动，是和翼的后夜祭！"
+    extend "\n我可不能迟到了。得赶紧收拾完。"
+    window hide
+    play music "シリアス.ogg"
+    show sakuya 15i at top with dissolve
+    window show
+    sakuya "喂。"
+    "在我努力干活的时候，作哉向我搭话了。"
+    me "抱歉。\n我现在有点事。"
+    extend "\n能稍微往后推一下吗？"
+    show sakuya 10i with dissolve
+    sakuya "我知道我知道。"
+    extend "\n不会花太多时间的，跟我来。\n我有话和你说。"
+    "这么说着，作哉强硬地拉走了我。"
+    window hide
+    hide sakuya with dissolve
+    hide bg with dissolve
+    show bg 階段（夕方） at center with Dissolve(1.0)
+    stop music fadeout 2.0
+    window show
+    me "……所以，找我有什么事？"
+    show sakuya 19i at top with dissolve
+    sakuya "……。"
+    "面对一脸奇妙的作哉，我加强了警戒。"
+    show sakuya 7i with dissolve
+    play music "sakuya.ogg"
+    sakuya "……抱歉啊。\n一直以来对你的态度都不好。"
+    play sound "FX/ビヨン.ogg"
+    me "……诶？"
+    "我本还抱着戒备，听到他意料之外的话，不由得发出了惊讶的声音。"
+    show sakuya 10i with dissolve
+    sakuya "昨天你对我说的那些话，回到家仔细思考了下，"
+    extend "\n你说的并没有错。\n这点我可以承认。"
+    extend "\n所以你也别太在意这些小细节啦。"
+    me "……？\n小细节是？"
+    show sakuya 6i with dissolve
+    sakuya "……你，现在打算向一之濑告白对吧。"
+    me "诶。"
+    show sakuya 9i with dissolve
+    sakuya "要是你突然顾虑到我的话我反而会很不爽的。"
+    extend "\n你才是，不要擅自认定我的感情如何如何。\n那就再见啦。"
+    hide sakuya with dissolve
+    me "等，等等啊！"
+    extend "\n我还没决定告白呢……。"
+    "作哉准备离开的瞬间又回过头来。"
+    window hide
+    show sakuya 6i at top with dissolve
+    window show
+    sakuya "哈……？"
+    me "的确，我喜欢那孩子。"
+    extend "\n但是，我又不能强加这种感情给他。"
+    extend "\n他明明心里想着友君，我可不想横刀夺爱。"
+    extend "\n在确认他的感情之前，我是不会告白的。"
+    show sakuya 16i with dissolve
+    sakuya "……那算什么，逊爆了。"
+    me "诶？"
+    show sakuya 13i with dissolve
+    sakuya "我就是在说你那明显吓到自保自全的怂样。"
+    show sakuya 18i with dissolve
+    extend "\n你表面上装得好像很尊重对方的意思，\n但你，不过是纯粹的没出息的胆小鬼。"
+    me "……。"
+    show sakuya 20i with dissolve
+    sakuya "明明只是单纯地想装模作样地装明白人，"
+    extend "\n一边说着『为了不后悔要坦率一点』，\n结果本人在告白前就老老实实地死心了，自己夹着尾巴逃走了，\n完全是前后矛盾的啊。"
+    show sakuya 19i with dissolve
+    sakuya "哈啊……是我看走眼了。"
+    extend "\n我昨天到底是在想什么呢？"
+    extend "\n我怎么就真的相信你这白痴的话了。"
+    me "作，作哉……。"
+    show sakuya 20i with dissolve
+    sakuya "啊？"
+    me "……是我错了呢。\n确实，一点都不合理。"
+    extend "\n真拿你没办法啊，都这岁数了。"
+    me "我会向你证明我是男子汉的。\n如果翼对我没那个意思的话，我也会强行让他关注到我。"
+    extend "\n就算放弃，那也得在他完全拒绝我之后。"
+    show sakuya 5i with dissolve
+    sakuya "……你明白就好。"
+    "听了我说的话，作哉笑了。"
+    show sakuya 9i with dissolve
+    sakuya "对，还有，要说不对的地方，还有一个。"
+    show sakuya 20i with dissolve
+    extend "\n恋爱和年龄没有关系。"
+    extend "\n你这自命不凡的大人，自己也给自己设限了吧。"
+    extend "\n明明不用受这种东西的束缚，随心所欲地去做就好了。"
+    "……是这样吗。"
+    me "作哉……谢谢。"
+    show sakuya 8i with dissolve
+    sakuya "怎，怎么了突然……真不好意思。"
+    me "多亏作哉，我找回了自信。"
+    extend "\n我想，我能放开心去面对了。"
+    show sakuya 22i with dissolve
+    sakuya "……那真是太好了。"
+    hide sakuya with dissolve
+    "说完，作哉便回到了教学楼。"
+    stop music fadeout 1.0
+    window hide
+    hide bg with dissolve
+    window show
+    "···"
+    window hide
+    play music "FX/夜　虫.ogg"
+    show bg 下駄箱（夜） at center with Dissolve(0.8)
+    window show
+    "到达鞋柜处，翼已经在那里等我了。"
+    show tubasa 31i at top with dissolve
+    tubasa "啊，[player_name]君。"
+    me "抱歉抱歉！\n我来晚了。"
+    show tubasa 4i with dissolve
+    tubasa "没事的。"
+    extend "\n我也是刚刚到。\n那我们走吧。"
+    window hide
+    hide tubasa with dissolve
+    show bg 校舎（夜） with Dissolve(1.0)
+    window show
+    "我们来到外面，夕阳已经落山了。\n但余晖和摊位的灯光交相辉映，街上依然很热闹。"
+    extend "\n在校园的正中央，大家为了御咲祭篝火晚会做准备，\n堆柴火的工作正在有序地进行。"
+    window hide
+    show bg 校庭（夜） with Dissolve(1.0)
+    show tubasa 5i at top with dissolve
+    window show
+    tubasa "一直工作到现在，有点累了呢。"
+    extend "\n要不要找个地方坐下来休息一下？"
+    me "是啊。"
+    hide tubasa with dissolve
+    "这么说着，我们两人\n在远离操场的草坪上坐了下来。"
+    window hide
+    show tubasa 12i at top with dissolve
+    window show
+    me "在这里的话，就能清楚地看到火焰，可以好好休息了。"
+    tubasa "是啊……"
+    hide tubasa with dissolve
+    "远远眺望着，热闹非凡的学园祭的光景。"
+    extend "\n然后"
+    window hide
+    play sound "FX/炎.ogg"
+    show bg キャンプファイヤー with lm_crossfade
+    window show
+    "终于点燃了柴火堆。"
+    "熊熊燃烧着的鲜红火焰。"
+    extend "\n真的好美啊……。"
+    tubasa "哇……好厉害……！"
+    me "嗯……。"
+    stop sound fadeout 2.0
+    window hide
+    play music "良い雰囲気.ogg"
+    show bg 校庭（夜） with Dissolve(1.0)
+    show tubasa 5i at top with dissolve
+    window show
+    tubasa "[player_name]君能和我一起看到这个，真的太好了！。"
+    me "不是和友君，而是和我吗？"
+    show tubasa 31i with dissolve
+    tubasa "是的。"
+    extend "\n当然，就算和友在一起也很不错，\n但御咲祭的最后，\n[player_name]君和我在一起就好。"
+    show tubasa 5i with dissolve
+    extend "我受了你很多照顾。"
+    me "照顾……？"
+    show tubasa 12i with dissolve
+    tubasa "嗯。\n[player_name]君教会了我怎么变得勇敢。"
+    extend "\n我总是很胆小，总是逃避各种各样的事情，\n[player_name]君一直在背后助我一臂之力。"
+    me "……。"
+    show tubasa 35i with dissolve
+    tubasa "所以，[player_name]君对我而言，是非常重要的人。"
+    extend "\n能像这样在一起很开心，也很高兴。"
+    extend "\n[player_name]君在我身边，我能更积极地面对各种事。"
+    extend "\n准备祭典的这段日子，我觉得我有了些改变……。"
+    me "……是吗。\n能听到你这么说，我也很开心。"
+    show tubasa 36i with dissolve
+    tubasa "太好了……。"
+    stop music fadeout 2.0
+    hide tubasa with dissolve
+    "之后，我们沉默着，一起享受了后夜祭的景色。"
+    window hide
+    play music "回想.ogg"
+    show cg c46 1 at center with Dissolve(0.8)
+    window show
+    me "翼。"
+    tubasa "嗯。"
+    me "我有话想告诉你。"
+    tubasa "什么？"
+    me "……其实啊，我很喜欢你。"
+    show cg c46 2 with Dissolve(0.8)
+    tubasa "诶……！"
+    me "嘿嘿嘿。"
+    extend "\n起初，我只是打算撮合你和友的，"
+    extend "\n但不知不觉，两颗心便渐行渐近，无法停止，\n不知不觉中，我就爱上了你。"
+    me "我当然知道，小翼爱着友君。"
+    extend "\n可是，这次我想任性一回，我想传达这份感情。\n不然的话，我一定会后悔的。"
+    extend "\n……抱歉突然说这些。"
+    show cg c46 3 with Dissolve(0.8)
+    tubasa "嗯…。"
+    me "果，果然还是很为难啊！！"
+    extend "\n当然，我并没有要阻碍翼恋爱的打算！"
+    extend "\n只是想鼓起勇气面对翼而已……"
+    tubasa "……那，那个！"
+    me "嗯？"
+    tubasa "那个……就是…。"
+    "翼扭扭捏捏地思考着什么。"
+    show cg キャンプファイヤー with Dissolve(0.8)
+    "但他很快就抬起头看着我。"
+    tubasa "……[player_name]君。"
+    extend "\n可，可以……闭上眼睛吗？"
+    me "诶？可以是…。"
+    tubasa "……。"
+    me "……。"
+    window hide
+    show cg c46 4 with Dissolve(0.8)
+    window show
+    "亲"
+    "……诶？"
+    me "翼，翼……？"
+    show cg c46 1 with Dissolve(0.8)
+    tubasa "那，那个……那个……我好开心。"
+    extend "\n[player_name]君是这样在想的。"
+    me "翼……。"
+    show cg c46 3 with Dissolve(0.8)
+    tubasa "还，还有就是，"
+    extend "\n[player_name]君，正因为有你，我才能变得这么勇敢"
+    extend "\n这算是证明，同时也是对你的谢礼……。"
+    me "……谢谢你。\n能得到你的回应，我也很幸福。"
+    extend "\n还给了我一个吻……。"
+    tubasa "呜……请不要把这种事说得这么直白啊！"
+    extend "\n我可是很害羞的，也很紧张的啊……。"
+    show bg 校庭１（夜）
+    me "啊哈哈。\n但只要有这份勇气，就一定没问题的。"
+    extend "\n以后也继续加油吧。\n我会永远支持翼的。"
+    window hide
+    hide tubasa with dissolve
+    hide cg with dissolve
+    show tubasa 36i at top with Dissolve(0.9)
+    window show
+    tubasa "好的……我会努力的！！"
+    window hide
+    show cg 月（夜） at center with Dissolve(0.8)
+    window show
+    "……这样一来，我的想法也传达给了翼，而翼也接受了我的表白。"
+    extend "\n御咲祭也顺利举办了，我还在翼的陪伴下见证了这场焰火表演。"
+    extend "\n愿望全都实现了。……"
+    window hide
+    show cg キャンプファイヤー（火の粉） with Dissolve(0.8)
+    window show
+    "在这片燃烧的红炎之中，我的意识逐渐淡去……。"
+    extend "\n……梦已经结束了。"
+    window hide
+    hide bg with dissolve
+    hide cg with dissolve
+    hide tubasa with dissolve
+    window show
+    "···"
+    "梦的记忆是模糊的。"
+    extend "\n在醒过来的同时，也会忘记这场梦。"
+    extend "\n只留下甜美的回忆，其他的一切都被带去忘却的彼方而消散。"
+    stop music fadeout 4.0
+    "好了……差不多该起来了。"
+    window hide
+    show tubasa 35i at top with Dissolve(2.5)
+    window show
+    "翼，祝你幸福。"
+    window hide
+    hide tubasa with dissolve
+    play music "FX/燕.ogg"
+    show bg 主人公家 at center with Dissolve(1.0)
+    pause 0.6
+    hide bg with dissolve
+    window show
+    play sound "FX/目覚まし.ogg"
+    "哔哔哔哔哔哔哔哔"
+    window hide
+    show bg 主人公部屋（朝） at center with dissolve
+    window show
+    me "啊……已经早上了吗……？"
+    extend "\n唔~我好像并没有睡多少啊……。"
+    stop sound fadeout 0.5
+    "我望向餐桌，上面放着一张传单。"
+    play sound "FX/紙.ogg"
+    me "嗯？这是……"
+    extend "啊，对对对，昨天回来的时候拿到的。"
+    extend "\n那些孩子们，真可爱啊……。"
+    me "……好！那天我一定要去好好享受！"
+    play sound "FX/可愛い2.ogg"
+    extend "\n然后在脑海里尽情幻想！！"
+    window hide
+    hide bg with dissolve
+    stop music fadeout 0.5
+    window show
+    "御咲祭当天ーーーーーー"
+    window hide
+    play music "学祭だ！.ogg"
+    show bg 校舎（全貌） at center with Dissolve(1.0)
+    pause 0.4
+    show bg 廊下 with Dissolve(1.0)
+    window show
+    me "我想想……记得说是2年1班和2年2班的咖啡店。"
+    extend "\n嗯？这里吗？"
+    "正当我站在店门口犹豫不决的时候，"
+    extend "\n三个与我差不多大的男生正在迷茫着，\n他们向店里的人打起了招呼。"
+    window hide
+    window show
+    student_a "啊，喂~，我们来了。这里就是2年1，2班的咖啡馆吗？"
+    show sinobu 12i at topright with dissolve
+    unknown "啊，前几天真是多谢了。"
+    extend "\n嗯，这里是咖啡厅。\n要是有客人光临的话，会由身带绿色名牌的人来负责接待。"
+    student_b "哦，谢谢！"
+    extend "\n这个不仅很重，还占地方，给你保管轻松多了！。"
+    student_c "绝对不要摔了啊！！注意别弄掉了！！"
+    "说着，他们便跟着身带绿色名牌的人走了进去。"
+    window hide
+    play sound "FX/引き戸.ogg"
+    hide sinobu with dissolve
+    window show
+    "看来，肯定就是在这里！！"
+    extend "\n我鼓起自信，意气风发地走向咖啡店的入口。"
+    play sound "FX/引き戸.ogg"
+    show bg 喫茶店 with fade
+    "然后，身带蓝色名牌的红领带男走了出来。"
+    window hide
+    show tubasa 9i at top with dissolve
+    window show
+    tubasa "欢迎光临，客人。"
+    show tubasa 35i with dissolve
+    extend "\n是，是一位吗？"
+    show tubasa 36i with dissolve
+    extend "\n请往这边走……请慢慢欣赏。"
+    window hide
+    hide bg with lm_crossfade
+    hide sinobu with lm_crossfade
+    hide tubasa with lm_crossfade
+    pause 0.6
+    show bg 公園（ベンチ） at center with Dissolve(0.7)
+    pause 0.6
+    show bg つばさed with Dissolve(0.8)
+    pause 1.3
+    stop music fadeout 1.5
+    hide bg with dissolve
+    pause 0.5
+    show bg 制作 at center with dissolve
+    pause 0.8
+    hide bg with dissolve
+    return
+
+label s0000023D_0000024E:
+    show bg 喫茶店 at center
+    show sora 17i at top with dissolve
+    window show
+    "空从背后抱住了我，支撑着我。"
+    show sora 23i with dissolve
+    sora "[player_name]君，别勉强了。"
+    extend "\n哥哥，我带着[player_name]君去保健室，\n找个人来这里帮忙吧！"
+    hide sora with dissolve
+    show tuki 5i at topleft with dissolve
+    tuki "知道了。"
+    extend "\n我这边一有空就过去。"
+    extend "\n[player_surname]君就拜托给你了。"
+    show sora 10i at topright with dissolve
+    sora "包在我身上！"
+    hide tuki with dissolve
+    hide sora with dissolve
+    stop music fadeout 2.0
+    show sora 2i at top with dissolve
+    extend "\n来，[player_name]君，能站起来吗？"
+    extend "\n我扶着你走。"
+    "空将我的手搭在他的肩上，扶我走向了保健室。"
+    window hide
+    hide sora with dissolve
+    hide bg with dissolve
+    show bg 校舎（夜） at center with Dissolve(1.0)
+    play music "良い雰囲気.ogg"
+    window show
+    doctor "37度4分……有点发烧呢。"
+    extend "\n而且，还伴有站立性眩晕……怎么办？"
+    extend "\n要早退，回家休息吗？"
+    me "不，不用了……！"
+    extend "\n我没事。\n我再在留在这里休息一会，肯定能好的。"
+    doctor "但是呢，与之前不一样，这次是有发热症状，"
+    extend "\n不要勉强，还是好好休息比较好哦？"
+    me "我不会勉强的。"
+    extend "\n好不容易才努力到现在的，\n在御咲祭结束之前，我绝对不想回去……！！"
+    "我来到这个世界，就是为了和大家一起享受学园祭。"
+    extend "\n如果在这里就回家的话，那我的梦想可能就破灭了。"
+    extend "\n我绝对不想在最后什么回忆都没留下的情况下结束！"
+    teacher "是吗……"
+    extend "\n你们毕竟是执行委员呢~我能理解你们的心情。"
+    extend "\n那么，去里面的床上好好休息吧。"
+    extend "\n只是，不要太过勉强自己哦？"
+    me "谢，谢谢您！"
+    sora "谢谢老师！"
+    extend "\n那么[player_name]君，走吧"
+    window hide
+    show bg 保健室（夜 with Dissolve(0.8)
+    window show
+    "我跟上次一样，躺在床上……"
+    extend "不过这次是作为病人。"
+    me "空，虽然我跟老师那样说，但这次我的身体真的是有点不对劲。"
+    extend "\n或许还是不要待在我身边比较好，\n而且咖啡厅那边也很忙，还是先去那边吧。"
+    extend "\n等我睡一会恢复一下，就会马上赶过去。"
+    show sora 5i at top with dissolve
+    sora "你在说什么啊！\n之前你明明说过离开的话会是寂寞的！"
+    show sora 24i with dissolve
+    extend "\n……别勉强了，没事的。\n这次我也会待在你身边的。"
+    show sora 2i with dissolve
+    sora "而且，我们也已经一起努力了这么长的时间。"
+    extend "\n直到学园祭结束为止，都和我在一起吧。"
+    show sora 32i with dissolve
+    extend "\n等哥哥也来了之后，我们三个人再一起行动吧？"
+    me "空……谢谢你。\n空真的是太温柔了。"
+    extend "\n空的这一点我非常喜欢哟。"
+    show sora 30i with dissolve
+    sora "诶嘿嘿……。"
+    extend "\n昨天，[player_name]君跟我说的我的优点，\n我今后也会一直保持的哟。"
+    show sora 32i with dissolve
+    sora "与哥哥不一样的，专属于我我的『强大』，"
+    extend "\n今后也会一直磨练下去。"
+    show sora 31i with dissolve
+    sora "……谢谢你教了我这些，真的非常感谢。"
+    me "嗯。\n如果是空的话，一定可以变得更强。"
+    extend "我相信你。"
+    extend "\n你们两个人一起的话，\n你们的祖先一定可以放心把道场交给你们的。"
+    show sora 10i with dissolve
+    sora "嗯！\n我，会和哥哥一起加油的。"
+    hide sora with dissolve
+    window hide
+    play sound "FX/引き戸.ogg"
+    window show
+    tuki "打扰了。"
+    "月的声音从帘子的另一边传来。"
+    teacher "哎呀，是赤峰君的哥哥吗。"
+    extend "\n你弟弟和[player_surname]正在里面的床上休息呢。"
+    tuki "我知道了。连日来多有打扰。"
+    extend "\n谢谢老师，我先告辞了。"
+    "与老师打完招呼后，月也来到床边。"
+    window hide
+    show tuki 9i at topleft with dissolve
+    window show
+    tuki "还好，找到代班的人了。"
+    extend "\n人手足够，不必担心。"
+    extend "\n其他的人都拜托我传话给你，让我代为转达「请多保重。」。」"
+    me "这样啊……给你添麻烦了，抱歉。"
+    show tuki 1i with dissolve
+    tuki "不用道歉的。"
+    extend "\n是因为努力到现在，身体太累了才导致不适了吧。"
+    extend "\n工作那么辛苦，好好休息吧。"
+    show sora 2i at topright with dissolve
+    sora "哥哥说得没错。"
+    extend "\n早点恢复健康吧。"
+    me "嗯……谢谢。"
+    show sora 32i with dissolve
+    sora "不过话说回来，大家也都很认可你呢。"
+    show tuki 4i with dissolve
+    tuki "学园祭期间，一直在一起呢。"
+    extend "\n没想到居然会发展成这样，真是命运的安排啊。"
+    me "啊哈哈。也算是命运共同体吧。"
+    "我们三人在一起的时候最开心了。"
+    extend "\n我觉得这不是因为把他们俩当正太看待，"
+    extend "\n而是纯粹地喜欢上了这两个人。"
+    extend "\n真是对好兄弟啊。"
+    window hide
+    show cg 校舎１（夜 at center with Dissolve(0.8)
+    window show
+    me "……哈啊~。"
+    extend "\n不过话说回来，我更想逛学园祭，\n不想躺在保健室的床上啊……"
+    extend "\n对两位来说很抱歉，但只要现在能恢复，我们还是可以去逛的。"
+    me "要是能像『沉睡森林的美男』那样接个吻，\n然后突然精神百倍的奇迹就发生就好了啊。"
+    stop music fadeout 3.0
+    "月和空面面相觑。"
+    window hide
+    play music "twins.ogg"
+    show cg c57 1 with Dissolve(0.8)
+    window show
+    tuki "这样的话……那要不实际试试看？"
+    me "哎？"
+    tuki "空，轮到你了。"
+    sora "诶，诶！？\n我，我！？"
+    tuki "要是非要在我和空之中选一个的话，[player_surname]君肯定会选你的，这一点我还是很清楚的。"
+    extend "\n而且，一直以来[player_surname]君也常常照顾你。"
+    extend "\n致谢的话不能像跟对家里人说的一样。"
+    extend "\n要以亲吻作为回礼[player_surname]君才能打起精神来。"
+    play sound "FX/ビヨン.ogg"
+    me "诶诶！！\n真，真的可以吗！？"
+    extend "\n我只是随口说的而已，怎么会发展成这样……。"
+    tuki "嗯。"
+    extend "\n现在，[player_surname]君的眼睛告诉我，你并没有别的什么奇怪的意图。"
+    extend "\n既然如此，我也没有拒绝的理由了……"
+    extend "恐怕空也是。"
+    extend "\n而且，我也想咱们三个人一起逛学园祭啊。"
+    show cg c57 2 with Dissolve(0.8)
+    sora "……嗯，是啊。"
+    extend "我也是。"
+    extend "\n我也想咱们三个人一起开心地逛学园祭啊！"
+    extend "\n既然有发生这种奇迹的可能性，\n[player_name]君的kiss应该……！"
+    me "空……。"
+    tuki "……但是，我可不想你们嘴对嘴亲哦。"
+    sora "我，我知道啦！！！"
+    extend "\n那这样的话，[player_name]君……可以吗？"
+    me "嗯，嗯。"
+    show cg red with Dissolve(0.8)
+    "空把脸凑近我，在我的耳边轻声说着。"
+    sora "我，[player_name]君，我喜欢你。"
+    extend "\n所以……快点好起来吧。"
+    window hide
+    show cg c57 3 with Dissolve(0.8)
+    window show
+    "亲"
+    "当我用脸感受到空那柔软的嘴唇，我的身体真的就变得轻飘飘的了。"
+    me "谢谢，空……。"
+    extend "\n多亏有你，我感觉身体轻松了许多。"
+    show cg c57 4 with Dissolve(0.8)
+    sora "……嗯。"
+    extend "\n那样的话，真是太好了。"
+    "空羞红了脸，这么回应着我。"
+    tuki "那是当然，"
+    extend "\n空的吻这么的可爱……不灵验才怪！！"
+    sora "哥，哥哥……！！要被老师听到了啦。\n真，真是的……。"
+    me "啊哈哈哈。"
+    window hide
+    hide cg with dissolve
+    hide sora with dissolve
+    hide tuki with dissolve
+    window show
+    "就在这时，操场上响起了欢呼声。"
+    show tuki 15i at topleft with dissolve
+    tuki "嗯？"
+    extend "\n你们两个，快看窗户那边。"
+    show sora 3i at topright with dissolve
+    sora "哇……御咲篝火，终于点燃了！！"
+    window hide
+    play sound "FX/炎.ogg"
+    show cg キャンプファイヤー at center with lm_crossfade
+    window show
+    "时隔10年，我再次看到了篝火，即便只是在室内观赏，也非常美丽而震撼。"
+    extend "\n从保健室的角度看，很巧妙地避开了草木和小摊，"
+    extend "\n某种意义上说，也许这里就是个很好的秘密观赏点。"
+    sora "好漂亮……！"
+    extend "\n无论怎样，能和你们两人这样一起度过，太好了。"
+    extend "\n一定，会成为非常美妙的回忆……。"
+    me "我也是这么想的。"
+    extend "\n能和喜欢的两人在一起，真的太好了。"
+    extend "\n月，空……谢谢你们在我身边。"
+    stop sound fadeout 2.0
+    window hide
+    hide tuki with dissolve
+    hide sora with dissolve
+    hide cg with dissolve
+    show sora 26i at topright
+    show tuki 4i at topleft with dissolve
+    window show
+    tuki "啊。"
+    sora "诶嘿嘿……不用谢！"
+    window hide
+    show cg 月（夜） at center with Dissolve(0.8)
+    window show
+    "……这样，御咲祭也成功了，也和两人一起看到这场焰火了。"
+    extend "\n愿望实现了。……"
+    show cg キャンプファイヤー（火の粉） with Dissolve(0.8)
+    "在这片燃烧的红炎之中，我的意识逐渐淡去……。"
+    extend "\n……梦已经结束了。"
+    window hide
+    hide bg with dissolve
+    hide cg with dissolve
+    hide tuki with dissolve
+    hide sora with dissolve
+    window show
+    "···"
+    "梦的记忆是模糊的。"
+    extend "\n在醒过来的同时，也会忘记这场梦。"
+    extend "\n只留下甜美的回忆，其他的一切都被带去忘却的彼方而消散。"
+    stop music fadeout 4.0
+    "好了……差不多该起来了。"
+    window hide
+    show sora 30 at topright
+    show tuki 9 at topleft with Dissolve(2.5)
+    window show
+    "空，"
+    extend "月，"
+    extend "\n谢谢你们。"
+    window hide
+    hide sora with dissolve
+    hide tuki with dissolve
+    play music "FX/燕.ogg"
+    show bg 主人公家 at center with Dissolve(1.0)
+    pause 0.6
+    hide bg with dissolve
+    window show
+    play sound "FX/目覚まし.ogg"
+    "哔哔哔哔哔哔哔哔"
+    window hide
+    show bg 主人公部屋（朝） at center with dissolve
+    window show
+    me "啊……已经早上了吗……？"
+    extend "\n唔~我好像并没有睡多少啊……。"
+    stop sound fadeout 0.5
+    "我望向餐桌，上面放着一张传单。"
+    play sound "FX/紙.ogg"
+    me "嗯？这是……"
+    extend "啊，对对对，昨天回来的时候拿到的。"
+    extend "\n那些孩子们，真可爱啊……。"
+    me "……好！那天我一定要去好好享受！"
+    play sound "FX/可愛い2.ogg"
+    extend "\n然后在脑海里尽情幻想！！"
+    window hide
+    hide bg with dissolve
+    stop music fadeout 0.5
+    window show
+    "御咲祭当天ーーーーーー"
+    window hide
+    play music "学祭だ！.ogg"
+    show bg 校舎（全貌） at center with Dissolve(1.0)
+    pause 0.4
+    show bg 廊下 with Dissolve(1.0)
+    window show
+    me "我想想……记得说是2年1班和2年2班的咖啡店。"
+    extend "\n唔？"
+    play sound "FX/引き戸.ogg"
+    show bg 喫茶店 with dissolve
+    "是这个吗？"
+    "我还在店门口犹豫的时候，一个挂着红色名签的男孩注意到了我。"
+    show tuki 5i at topleft with dissolve
+    tuki "空，有客人来了哦。"
+    hide tuki with dissolve
+    "说着，挂着同样颜色的名签的男孩，\n穿着散发香气的制服，从店里出来了。"
+    window hide
+    show sora 30i at top with dissolve
+    window show
+    sora "啊，欢迎光临！"
+    extend "您是一个人吗？"
+    show sora 31i with dissolve
+    extend "\n请随意，好好享受吧！"
+    window hide
+    hide bg with lm_crossfade
+    hide sora with lm_crossfade
+    pause 0.6
+    show bg 赤峰家3 at center with Dissolve(0.7)
+    pause 0.6
+    show bg 空ed with Dissolve(0.8)
+    pause 1.3
+    stop music fadeout 1.5
+    hide bg with dissolve
+    pause 0.5
+    show bg 制作 at center with dissolve
+    pause 0.8
+    hide bg with dissolve
+    return
+
+label s0000023D_0000024F:
+    show bg 喫茶店 at center
+    show tuki 29i at top with dissolve
+    window show
+    "月抱住了我的身体，支撑着我。"
+    show tuki 5i with dissolve
+    tuki "[player_surname]，别勉强了。"
+    extend "\n空，我带[player_surname]去保健室，你找个人来代一下班吧。"
+    hide tuki with dissolve
+    show sora 23i at topright with dissolve
+    sora "知，知道了！"
+    extend "\n我这边的工作做完也赶过去！"
+    extend "\n[player_name]君，振作一点！！\n哥哥，之后就拜托你了！"
+    stop music fadeout 2.0
+    show tuki 17i at topleft with dissolve
+    tuki "啊啊。"
+    extend "\n[player_surname]，走吧。"
+    "月说着，"
+    play music "大変だ！.ogg"
+    play sound "FX/キラキラ.ogg"
+    show cg remarkable at center with fade
+    extend "\n竟然将我公主抱了起来，就这样走出了教室。"
+    play sound "FX/引き戸.ogg"
+    show cg 廊下（夕方） with dissolve
+    extend "\n这时我听到了其他学生们，还有在场的顾客们的欢呼声。"
+    play sound "FX/ビヨン.ogg"
+    me "等，等一下，月……！"
+    extend "\n这实在是太丢人了……！"
+    tuki "现在是顾及这种事的时候吗！"
+    extend "\n很快就到了，你就乖乖这样子别动。"
+    me "呜呜……"
+    "之后我依然受到了来自四面八方的视线洗礼，\n"
+    stop music fadeout 2.0
+    "十分羞耻的我闭上了眼睛，就这样被抱去了保健室。"
+    window hide
+    hide bg with dissolve
+    hide tuki with dissolve
+    hide cg with dissolve
+    hide sora with dissolve
+    show bg 校舎（夜） at center with Dissolve(1.0)
+    play music "良い雰囲気.ogg"
+    window show
+    doctor "37度4分……有点发烧呢。"
+    extend "\n而且，还伴有站立性眩晕……怎么办？"
+    extend "\n要早退，回家休息吗？"
+    me "不，不用了……！"
+    extend "\n我没事。\n我再在留在这里休息一会，肯定能好的。"
+    doctor "但是呢，与之前不一样，这次是有发热症状，"
+    extend "\n不要勉强，还是好好休息比较好哦？"
+    me "我不会勉强的。"
+    extend "\n好不容易才努力到现在的，\n在御咲祭结束之前，我绝对不想回去……！！"
+    "我来到这个世界，就是为了和大家一起享受学园祭。"
+    extend "\n如果在这里就回家的话，那我的梦想可能就破灭了。"
+    extend "\n我绝对不想在最后什么回忆都没留下的情况下结束！"
+    teacher "是吗……"
+    extend "\n你们毕竟是执行委员呢~我能理解你们的心情。"
+    extend "\n那么，去里面的床上好好休息吧。"
+    extend "\n只是，不要太过勉强自己哦？"
+    me "谢，谢谢您！"
+    tuki "老师，真的非常感谢您。"
+    extend "\n那么[player_surname]，走吧。"
+    window hide
+    show bg 保健室（夜 with Dissolve(0.8)
+    window show
+    "我跟上次一样，躺在床上……"
+    extend "不过这次是作为病人。"
+    me "月……虽然之前那样对你说过，但这次我的身体真的很难受。"
+    extend "\n可能你别在这边陪着我比较好，\n而且咖啡厅也忙得不得了，你就去那里吧。"
+    extend "\n等我睡一会恢复一下，就会马上赶过去。"
+    show tuki 2i at top with dissolve
+    tuki "这种时候就该只考虑自己的事情。"
+    extend "\n而且，我的身体还很健壮的，"
+    extend "\n我可不会因为一点小事就病倒，你就放心吧。"
+    show tuki 5i with dissolve
+    extend "\n在你身体好起来之前，我会一直陪在你身边。"
+    me "月……谢谢你。"
+    extend "\n月真的是坚强可靠……。"
+    extend "\n我，最喜欢月这一点了。"
+    show tuki 23i with dissolve
+    tuki "突然说什么呢……！"
+    show tuki 24i with dissolve
+    extend "\n但是，既然你这么说，那我就欣然接受吧。"
+    me "我也喜欢你这种害羞时可爱的样子。"
+    show tuki 11i with dissolve
+    tuki "！"
+    show tuki 28i with dissolve
+    extend "\n……我也喜欢你啊……整，整体上。"
+    "月小声地说道。"
+    me "啊哈哈。"
+    extend "\n太好了呢~。"
+    "要是平时的我，估计会高兴得跳起来。\n可现在的我，似乎没有那么大的体力了。"
+    hide tuki with dissolve
+    window hide
+    play sound "FX/引き戸.ogg"
+    window show
+    sora "失礼了。"
+    "帘子的另一边，传来了空的声音。"
+    doctor "啊呀，赤峰君的弟弟啊。"
+    extend "\n你哥哥和[player_surname]正在里面的床上休息呢。"
+    sora "我明白了。"
+    extend "\n谢谢老师，我先告辞了。"
+    "和医生说完后，空来到床边。"
+    window hide
+    show sora 3i at topright with dissolve
+    window show
+    sora "我找到人代班了。"
+    extend "\n大家都待我向你转达『请保重。』"
+    extend "\n大家都很担心你，要早点好起来呢。"
+    me "这样啊……给你添麻烦了，抱歉。"
+    show sora 1i with dissolve
+    sora "没有必要道歉哦。"
+    extend "\n[player_name]君一直以来都非常努力的在工作了。"
+    extend "\n哪怕今天稍微休息一下，也不会有人说什么的。"
+    show tuki 18i at topleft with dissolve
+    tuki "没错。"
+    extend "\n至少，我们最清楚你的努力。"
+    extend "\n如果有人要责怪你，\n我会第一个站出来保护你的。"
+    me "嗯……月要是能这么说的话，我就真的放心了。"
+    show sora 32i with dissolve
+    sora "不过话说回来，大家也都很认可你呢。"
+    show tuki 4i with dissolve
+    tuki "学园祭期间，一直在一起呢。"
+    extend "\n没想到居然会发展成这样，真是命运的安排啊。"
+    me "啊哈哈。也算是命运共同体吧。"
+    "我们三人在一起的时候最开心了。"
+    extend "\n这并不是因为我把两人当作正太来看待，\n而是纯粹地喜欢上了他们的为人。"
+    extend "\n真是对好兄弟啊。"
+    window hide
+    show cg 校舎１（夜 at center with Dissolve(0.8)
+    window show
+    me "……哈啊~。"
+    extend "\n不过话说回来，我更想逛学园祭，\n不想躺在保健室的床上啊……"
+    extend "\n对两位来说很抱歉，但只要现在能恢复，我们还是可以去逛的。"
+    me "要是能像『沉睡森林的美男』那样接个吻，\n然后突然精神百倍的奇迹就发生就好了啊。"
+    stop music fadeout 3.0
+    "月和空面面相觑。"
+    window hide
+    play music "twins.ogg"
+    show cg c63 1 with Dissolve(0.8)
+    window show
+    sora "……那要不试试看？"
+    me "哎？"
+    sora "刚才说过的，引起觉醒的奇迹之吻……。"
+    extend "\n这种情况下，应该是治好感冒的吻吧。"
+    extend "\n……如果是这样的话，亲吻的人应该是哥哥吧~。"
+    tuki "什么啊，为什么是我啊……？"
+    sora "因为，要是说到我和哥哥的话，\n[player_name]君会选哥哥吧。"
+    extend "\n之前看哥哥的眼神也有点在意的样子！"
+    extend "\n……哥哥也不是完全不情愿的吧？"
+    play sound "FX/ビヨン.ogg"
+    me "诶！！\n真的吗！？"
+    tuki "……。"
+    me "我只是说着玩的而已，竟然发展成……。"
+    sora "嗯。"
+    extend "\n[player_name]君的眼睛告诉我，你现在并没有奇怪的想法。"
+    extend "\n既然如此，我也没理由责备你……。"
+    extend "\n况且我也想咱们三个人一起逛学园祭。"
+    show cg c63 2 with Dissolve(0.8)
+    tuki "……是啊。"
+    extend "我的想法也和你们一样。"
+    extend "\n既然有发生这种奇迹的可能性，\n[player_surname]君的kiss，我也很开心。"
+    me "月……。"
+    sora "……但是，得是亲在脸上！"
+    extend "\n要是亲嘴的话我可饶不了你哦。"
+    tuki "这，这点我还是知道的！"
+    extend "\n那么，[player_surname]……准备好了吗？"
+    me "嗯，嗯。"
+    show cg red with Dissolve(0.8)
+    "月把脸凑近我。"
+    tuki "快点……振作起来吧。"
+    window hide
+    show cg c63 3 with Dissolve(0.8)
+    window show
+    "亲"
+    "月柔软的嘴唇贴到我的脸上后，我感觉身体真的变轻了。"
+    me "谢谢你，月。"
+    extend "\n多亏有你，我感觉身体真的放松下来了。"
+    show cg c63 4 with Dissolve(0.8)
+    tuki "……嗯。"
+    extend "\n那就好。"
+    "月羞红了脸。"
+    sora "啊，哥哥又脸红了~。"
+    me "真的诶~好可爱♪"
+    show cg c63 5 with dissolve
+    tuki "喂，喂！！\n不要再提起这个了……。"
+    sora "哈哈哈。"
+    extend "\n……太好了，[player_name]君。"
+    me "嗯。"
+    extend "\n空谢谢你了。"
+    sora "诶嘿嘿。"
+    extend "\n不用客气！"
+    window hide
+    hide cg with dissolve
+    hide sora with dissolve
+    hide tuki with dissolve
+    window show
+    "就在这时，操场上响起了欢呼声。"
+    show tuki 15i at topleft with dissolve
+    tuki "嗯？"
+    extend "\n你们两个，快看窗户那边。"
+    show sora 3i at topright with dissolve
+    sora "哇……御咲篝火，终于点燃了！！"
+    window hide
+    play sound "FX/炎.ogg"
+    show cg キャンプファイヤー at center with lm_crossfade
+    window show
+    "在室内也能够清晰地看到，时隔10年之后再次盛绽的焰火。"
+    extend "\n从保健室的角度看，很巧妙地避开了草木和小摊，"
+    extend "\n某种意义上说，也许这里就是个很好的秘密观赏点。"
+    tuki "好美……。"
+    extend "\n虽然是在保健室，但这段时光咱们能三个人一起度过，真好。"
+    extend "\n这也肯定会成为我们美好的回忆。"
+    me "我也是这么想的。"
+    extend "\n能和喜欢的两人在一起，真的太好了。"
+    extend "\n月，空……谢谢你们在我身边。"
+    stop sound fadeout 2.0
+    window hide
+    hide tuki with dissolve
+    hide sora with dissolve
+    hide cg with dissolve
+    show sora 26i at topright
+    show tuki 4i at topleft with dissolve
+    window show
+    tuki "啊。"
+    sora "诶嘿嘿……不用谢！"
+    window hide
+    show cg 月（夜） at center with Dissolve(0.8)
+    window show
+    "……这样，御咲祭也成功了，也和两人一起看到这场焰火了。"
+    extend "\n愿望实现了。……"
+    show cg キャンプファイヤー（火の粉） with Dissolve(0.8)
+    "在这片燃烧的红炎之中，我的意识逐渐淡去……。"
+    extend "\n……梦已经结束了。"
+    window hide
+    hide bg with dissolve
+    hide cg with dissolve
+    hide tuki with dissolve
+    hide sora with dissolve
+    window show
+    "···"
+    "梦的记忆是模糊的。"
+    extend "\n在醒过来的同时，也会忘记这场梦。"
+    extend "\n只留下甜美的回忆，其他的一切都被带去忘却的彼方而消散。"
+    stop music fadeout 4.0
+    "好了……差不多该起来了。"
+    window hide
+    show tuki 24 at topleft
+    show sora 26 at topright with Dissolve(2.5)
+    window show
+    "月，"
+    extend "空，"
+    extend "\n谢谢你们。"
+    window hide
+    hide sora with dissolve
+    hide tuki with dissolve
+    play music "FX/燕.ogg"
+    show bg 主人公家 at center with Dissolve(1.0)
+    pause 0.6
+    hide bg with dissolve
+    window show
+    play sound "FX/目覚まし.ogg"
+    "哔哔哔哔哔哔哔哔"
+    window hide
+    show bg 主人公部屋（朝） at center with dissolve
+    window show
+    me "啊……已经早上了吗……？"
+    extend "\n唔~我好像并没有睡多少啊……。"
+    stop sound fadeout 0.5
+    "我望向餐桌，上面放着一张传单。"
+    play sound "FX/紙.ogg"
+    me "嗯？这是……"
+    extend "啊，对对对，昨天回来的时候拿到的。"
+    extend "\n那些孩子们，真可爱啊……。"
+    me "……好！那天我一定要去好好享受！"
+    play sound "FX/可愛い2.ogg"
+    extend "\n然后在脑海里尽情幻想！！"
+    window hide
+    hide bg with dissolve
+    stop music fadeout 0.5
+    window show
+    "御咲祭当天ーーーーーー"
+    window hide
+    play music "学祭だ！.ogg"
+    show bg 校舎（全貌） at center with Dissolve(1.0)
+    pause 0.4
+    show bg 廊下 with Dissolve(1.0)
+    window show
+    me "我想想……记得说是2年1班和2年2班的咖啡店。"
+    extend "\n唔？"
+    play sound "FX/引き戸.ogg"
+    show bg 喫茶店 with dissolve
+    "是这个吗？"
+    "我还在店门口犹豫的时候，一个挂着红色名签的男孩注意到了我。"
+    show sora 3i at topright with dissolve
+    sora "哥哥，好像有客人来了，拜托你啦！"
+    hide sora with dissolve
+    "说着，挂着同样颜色的名签的男孩，\n穿着散发香气的制服，从店里出来了。"
+    window hide
+    show tuki 24i at top with dissolve
+    window show
+    tuki "让您久等了。\n欢迎光临。"
+    extend "您是一个人来吗？"
+    show tuki 25i with dissolve
+    extend "\n请慢慢享受吧。"
+    window hide
+    hide bg with lm_crossfade
+    hide tuki with lm_crossfade
+    pause 0.6
+    show bg 赤峰家１（夕方 at center with Dissolve(0.7)
+    pause 0.6
+    show bg 月ed with Dissolve(0.8)
+    pause 1.3
+    stop music fadeout 1.5
+    hide bg with dissolve
+    pause 0.5
+    show bg 制作 at center with dissolve
+    pause 0.8
+    hide bg with dissolve
+    return
+
+label s0000023D_00000250:
+    show bg 喫茶店 at center
+    show tuki 29i at topleft
+    show sora 17i at topright with dissolve
+    window show
+    "2人将我的身体抱在怀中，支撑着我。"
+    show tuki 5i with dissolve
+    tuki "[player_surname]别硬撑了。"
+    show sora 23i with dissolve
+    sora "就是啊。"
+    extend "\n我们现在就把你送到保健室！"
+    window hide
+    hide tuki with dissolve
+    hide sora with dissolve
+    show sora 5i at topright with dissolve
+    window show
+    sora "忍同学！"
+    show sinobu 9i at top with dissolve
+    sinobu "怎么了？"
+    show sinobu 28i with dissolve
+    play sound "FX/ビヨン.ogg"
+    extend "\n啊，[player_surname]君，没事吧……！？"
+    show tuki 5i at topleft with dissolve
+    tuki "看样子他好像是发烧了。"
+    extend "\n不好意思[player_surname]君得跟我去保健室，得有人代班"
+    extend "\n有谁可以帮忙代班吗？"
+    show sinobu 7i with dissolve
+    sinobu "嗯……我知道了。"
+    extend "\n我也会告诉大家的……。"
+    show sinobu 27i with dissolve
+    extend "\n[player_surname]君，你好好休息。"
+    me "谢，谢谢…。"
+    hide sinobu with dissolve
+    "说完，忍就回到自己的岗位上了。"
+    hide sora with dissolve
+    hide tuki with dissolve
+    show sora 22i at top with dissolve
+    sora "好。\n那我们出发吧！"
+    extend "\n[player_name]君，我们来撑着你，要好好的！"
+    window hide
+    stop music fadeout 2.0
+    play sound "FX/引き戸.ogg"
+    show cg 廊下（夕方） at center with dissolve
+    window show
+    "我把双手搭在月和空的肩上，被他们带到了保健室。"
+    "周围有很多同学都在看着我们。"
+    hide bg with dissolve
+    hide tuki with dissolve
+    hide cg with dissolve
+    hide sora with dissolve
+    extend "\n我的样子，一定就像被囚禁的外星人一样吧……。"
+    window hide
+    show bg 校舎（夜） at center with Dissolve(1.0)
+    play music "良い雰囲気.ogg"
+    window show
+    doctor "37度4分……有点发烧呢。"
+    extend "\n而且，还伴有站立性眩晕……怎么办？"
+    extend "\n要早退，回家休息吗？"
+    me "不，不用了……！"
+    extend "\n我没事。\n我再在留在这里休息一会，肯定能好的。"
+    teacher "但是，这次跟上次不一样，你发烧了，\n不要逞强了，好好休息吧？"
+    me "我不会勉强的。"
+    extend "\n好不容易才努力到现在的，\n在御咲祭结束之前，我绝对不想回去……！！"
+    "我来到这个世界，就是为了和大家一起享受学园祭。"
+    extend "\n如果在这里就回家的话，那我的梦想可能就破灭了。"
+    extend "\n我绝对不想在最后什么回忆都没留下的情况下结束！"
+    teacher "是吗……"
+    extend "\n你们毕竟是执行委员呢~我能理解你们的心情。"
+    extend "\n那么，去里面的床上好好休息吧。"
+    extend "\n只是，不要太过勉强自己哦？"
+    me "谢，谢谢您！"
+    sora "太好了，[player_name]君。"
+    tuki "那我们走吧。"
+    window hide
+    show bg 保健室（夜 with Dissolve(0.8)
+    window show
+    "我跟上次一样，躺在床上……"
+    extend "不过这次是作为病人。"
+    me "你们两个……这次我是真的身体不舒服。"
+    extend "\n或许还是不要待在我身边比较好，\n而且咖啡厅那边也很忙，还是先去那边吧。"
+    extend "\n等我睡一会恢复一下，就会马上赶过去。"
+    show sora 5i at topright with dissolve
+    sora "说什么胡话呢！"
+    extend "\n你之前还说如果离开的话会寂寞！"
+    show tuki 18i at topleft with dissolve
+    tuki "不要逞强了。"
+    extend "\n放心吧，我们会一直待在你身边，直到你恢复为止。"
+    show sora 24i with dissolve
+    sora "就是啊。"
+    extend "\n而且，我们之前都那么努力。"
+    show sora 26i with dissolve
+    extend "\n在学园祭结束之前，咱们就一起过吧。"
+    me "月，空……谢谢你们。\n你们俩真的太温柔了。"
+    extend "\n我特别喜欢你们的这种性格。"
+    extend "\n正因如此，和你们在一起，让我感觉很安心。"
+    show sora 30i with dissolve
+    sora "诶嘿嘿。\n我们才要说谢谢呢！"
+    extend "\n我们也是，和你一样的感觉。"
+    show tuki 24i with dissolve
+    tuki "啊。\n只要我们三个人在一起，感觉就特别安心。"
+    me "……你们能这么说，我真的好高兴。"
+    "我这么说完，两人看着我露出了笑容。"
+    show sora 32i with dissolve
+    sora "不过话说回来，大家也都很认可你呢。"
+    show tuki 4i with dissolve
+    tuki "学园祭期间，一直在一起呢。"
+    extend "\n没想到居然会发展成这样，真是命运的安排啊。"
+    me "啊哈哈。也算是命运共同体吧。"
+    "我们三人在一起的时候最开心了。"
+    extend "\n这并不是因为我把两人当作正太来看待，\n而是纯粹地喜欢上了他们的为人。"
+    extend "\n真是对好兄弟啊。"
+    window hide
+    show cg 校舎１（夜 at center with Dissolve(0.8)
+    window show
+    me "……哈啊~。"
+    extend "\n不过话说回来，我更想逛学园祭，\n不想躺在保健室的床上啊……"
+    extend "\n对两位来说很抱歉，但只要现在能恢复，我们还是可以去逛的。"
+    me "要是能像『沉睡森林的美男』那样接个吻，\n然后突然精神百倍的奇迹就发生就好了啊。"
+    "月和空面面相觑。"
+    hide cg with dissolve
+    hide tuki with dissolve
+    hide sora with dissolve
+    show tuki 25i at topleft with dissolve
+    tuki "空，这样可以吗？"
+    show sora 30i at topright with dissolve
+    extend "嗯。"
+    extend "\n哥哥？"
+    stop music fadeout 3.0
+    show tuki 24i with dissolve
+    tuki "我也没意见。"
+    "两人似乎商量了些什么，然后看向我。"
+    window hide
+    play music "twins.ogg"
+    show cg c64 1 at center with Dissolve(0.8)
+    window show
+    sora "[player_name]君，要试试吗？"
+    me "哎？"
+    tuki "就是你刚才说的那个，可以唤醒奇迹的接吻。"
+    extend "\n不过，在这种情况下，应该是治愈感冒之吻。"
+    me "诶？诶？？"
+    sora "我们已经准备好亲你了哦。"
+    tuki "啊啊。"
+    extend "\n[player_surname]如果这个吻有可能让你恢复健康的话，\n我们没有理由拒绝。"
+    sora "我们也最喜欢你了，[player_name]君！"
+    play sound "FX/ビヨン.ogg"
+    me "真，真的吗！？"
+    extend "\n我只是随口说的而已，怎么会发展成这样……。"
+    tuki "正因如此。"
+    extend "\n现在，[player_surname]君的眼神是纯粹的。"
+    extend "\n所以，你就好好地\n接受我们的心意吧。"
+    sora "当然，如果你不愿意的话我不会强求……。"
+    play sound "FX/可愛い2.ogg"
+    me "不不不！！不是，我怎么会不愿意！！"
+    extend "\n我超高兴啊！！！"
+    show cg red with Dissolve(0.8)
+    extend "\n……我真是幸福啊。"
+    "他们听到我的回答后，站到床的两端，然后把脸凑到我面前。"
+    tuki_and_sora "快点打起精神来吧。"
+    window hide
+    show cg c64 2 with Dissolve(0.8)
+    window show
+    "亲"
+    "得到脸颊两边那柔软的唇的触感，我的身体真的变得轻飘飘起来。"
+    me "……感觉，身体真的变轻了…。"
+    show cg c64 3 with Dissolve(0.8)
+    sora "是吗……那真是太好了。"
+    tuki "因为你确实将思念融入其中。"
+    extend "\n而且貌似也确实传达到了，太好了。"
+    me "谢谢你们两位。"
+    window hide
+    hide cg with dissolve
+    hide sora with dissolve
+    hide tuki with dissolve
+    window show
+    "这时，从学校操场那边传来了欢呼声。"
+    show tuki 15i at topleft with dissolve
+    tuki "嗯？"
+    extend "\n你们两个，快看窗户那边。"
+    show sora 3i at topright with dissolve
+    sora "哇……御咲篝火，终于点燃了！！"
+    window hide
+    play sound "FX/炎.ogg"
+    show cg キャンプファイヤー at center with lm_crossfade
+    window show
+    "时隔10年，我再次看到了篝火，即便只是在室内观赏，也非常美丽而震撼。"
+    extend "\n从保健室的角度看，很巧妙地避开了草木和小摊，"
+    extend "\n某种意义上说，也许这里就是个很好的秘密观赏点。"
+    sora "好漂亮……！"
+    extend "\n无论怎样，能和你们两人这样一起度过，太好了。"
+    extend "\n一定，会成为非常美妙的回忆……。"
+    me "我也是这么想的。"
+    extend "\n能和喜欢的两人在一起，真的太好了。"
+    extend "\n月，空……感谢你们一直在我身边。"
+    stop sound fadeout 2.0
+    window hide
+    hide tuki with dissolve
+    hide sora with dissolve
+    hide cg with dissolve
+    show sora 26i at topright
+    show tuki 4i at topleft with dissolve
+    window show
+    tuki "啊。"
+    sora "诶嘿嘿……不用谢！"
+    window hide
+    show cg 月（夜） at center with Dissolve(0.8)
+    window show
+    "……这样，御咲祭也成功了，也和两人一起看到这场焰火了。"
+    extend "\n愿望实现了。……"
+    show cg キャンプファイヤー（火の粉） with Dissolve(0.8)
+    "在这片燃烧的红炎之中，我的意识逐渐淡去……。"
+    extend "\n……梦已经结束了。"
+    window hide
+    hide bg with dissolve
+    hide cg with dissolve
+    hide tuki with dissolve
+    hide sora with dissolve
+    window show
+    "···"
+    "梦的记忆是模糊的。"
+    extend "\n在醒过来的同时，也会忘记这场梦。"
+    extend "\n只留下甜美的回忆，其他的一切都被带去忘却的彼方而消散。"
+    stop music fadeout 4.0
+    "好了……差不多该起来了。"
+    window hide
+    show tuki 24 at topleft
+    show sora 30 at topright with Dissolve(2.5)
+    window show
+    "月，"
+    extend "空，"
+    extend "谢谢你们。"
+    window hide
+    hide sora with dissolve
+    hide tuki with dissolve
+    play music "FX/燕.ogg"
+    show bg 主人公家 at center with Dissolve(1.0)
+    pause 0.4
+    hide bg with dissolve
+    window show
+    play sound "FX/目覚まし.ogg"
+    "哔哔哔哔哔哔哔哔"
+    window hide
+    show bg 主人公部屋（朝） at center with dissolve
+    window show
+    me "啊……已经早上了吗……？"
+    extend "\n唔~我好像并没有睡多少啊……。"
+    stop sound fadeout 0.5
+    "我望向餐桌，上面放着一张传单。"
+    play sound "FX/紙.ogg"
+    me "嗯？这是……"
+    extend "啊，对对对，昨天回来的时候拿到的。"
+    extend "\n那些孩子们，真可爱啊……。"
+    me "……好！那天我一定要去好好享受！"
+    play sound "FX/可愛い2.ogg"
+    extend "\n然后在脑海里尽情幻想！！"
+    window hide
+    hide bg with dissolve
+    stop music fadeout 0.5
+    window show
+    "御咲祭当天ーーーーーー"
+    window hide
+    play music "学祭だ！.ogg"
+    show bg 校舎（全貌） at center with Dissolve(1.0)
+    pause 0.4
+    show bg 廊下 with Dissolve(1.0)
+    window show
+    me "我想想……记得说是2年1班和2年2班的咖啡店。"
+    extend "\n唔？"
+    play sound "FX/引き戸.ogg"
+    show bg 喫茶店 with dissolve
+    "是这个吗？"
+    "正当我在店门口感到迷茫时，两个散发着甜美香气，身着制服，身上挂着红色名牌的\n男生同时注意到了我，并走了过来。"
+    window hide
+    show sora 3i at topright with dissolve
+    window show
+    sora "欢迎光临！请问是一个人吗？"
+    window hide
+    show tuki 15i at topleft with dissolve
+    window show
+    tuki "请跟我来。"
+    show tuki 25i
+    show sora 31i with dissolve
+    tuki_and_sora "请慢慢享受！"
+    window hide
+    hide bg with lm_crossfade
+    hide tuki with lm_crossfade
+    hide sora with lm_crossfade
+    pause 0.6
+    show bg 保健室 at center with Dissolve(0.7)
+    pause 0.6
+    show bg 双子ed with Dissolve(0.8)
+    pause 1.3
+    stop music fadeout 1.5
+    hide bg with dissolve
+    pause 0.5
+    show bg 制作 at center with dissolve
+    pause 0.8
+    hide bg with dissolve
+    return
+
+label s0000023D_00000251:
+    show bg 喫茶店 at center with dissolve
+    play music "twins.ogg"
+    show sora 22i at topright
+    show tuki 2i at topleft with dissolve
+    window show
+    tuki "不好意思，到此结束。"
+    sora "[player_name]君！！趁现在到这边来！"
+    me "你们两个！"
+    customer3 "怎，怎么会这样！"
+    show sora 28i
+    show tuki 5i with dissolve
+    tuki "就算是客人，也不能做出这种无礼的行为。"
+    sora "我们是不欢迎不遵守规则的人来的。"
+    play sound "FX/ビヨン.ogg"
+    customer3 "呜……抱，抱歉了捏。"
+    extend "\n有，有点兴奋过头，所以有点不守规矩了捏。"
+    play sound "FX/可愛い3.ogg"
+    customer5 "对不起呀。"
+    extend "\n这里还是绅士一点，姑且忍一忍，可远观不可亵玩焉。"
+    play sound "FX/キラキラ.ogg"
+    customer4 "正义感强烈的男孩子真是棒呀♪"
+    window hide
+    hide tuki with dissolve
+    hide sora with dissolve
+    window show
+    "有了月和空的帮助，我顺利地度过了这一关。"
+    "没想到在这种时候还能被初中生搭救……。"
+    extend "\n总感觉有点丢人啊……。"
+    window hide
+    show tuki 6i at topleft with dissolve
+    window show
+    tuki "[player_surname]，你没事吧？"
+    me "嗯，嗯嗯。得救了。"
+    extend "\n谢谢你们！"
+    show sora 2i at topright with dissolve
+    sora "不客气。"
+    show sora 5i with dissolve
+    extend "\n不过话说回来，[player_name]君。"
+    extend "\n我今天就觉得你的脸色很差啊？"
+    me "诶……有吗？"
+    "可能是专注于活动而没有注意到，\n说起来，感觉今天身体莫名地沉重……。"
+    "呜……意识到之后，就开始难受起来了……。"
+    stop music fadeout 5.0
+    show tuki 16i with dissolve
+    tuki "喂，[player_surname]！没事吧？\n你怎么左摇右摆的？"
+    me "没事，没事……！\n稍，稍微休息一下，马上就……。"
+    window hide
+    hide tuki with dissolve
+    hide sora with dissolve
+    play music "シリアス.ogg"
+    window show
+    "我软弱地瘫坐在休息室的椅子上。"
+    "不妙啊……最近是不是太拼导致身体出问题了……？"
+    extend "\n剧烈的环境变化会带来很大的精神压力啊。"
+    extend "\n梦里居然还能这么真实，真是可笑……。"
+    show sora 4i at topright with dissolve
+    sora "[player_name]君，让我看看。"
+    "空一边说着，一边把手放在我的额头上。"
+    show sora 22i with dissolve
+    sora "……果然发烧了，哥哥！"
+    show tuki 15i at topleft with dissolve
+    tuki "嗯。"
+    extend "\n[player_surname]，现在就带你去医务室吧。"
+    me "都，都说了没事的！"
+    extend "\n这点小烧……上班可不能请假啊……。"
+    "虽然我虚张声势地想站起身来，但实在是使不上力。"
+    extend "\n看来孩子的体力和大人之间还是有着相当大的差距。"
+    play sound "FX/ビヨン.ogg"
+    me "呜…。"
+    hide tuki with dissolve
+    hide sora with dissolve
+    hide bg with dissolve
+    play sound "FX/転ぶ.ogg"
+    "视野开始摇晃，我失去了平衡。"
+    "……啾"
+    window hide
+    return
+
+label s0000023D_00000252:
+    show bg 喫茶店 at center with dissolve
+    play music "saburo.ogg"
+    show saburo 33i me at top with dissolve
+    play sound "FX/可愛い.ogg"
+    window show
+    saburo "别，别闹了你们！！够了！"
+    me "三朗！"
+    customer3 "怎，怎么了！"
+    extend "\n嗯……？"
+    extend "总感觉在哪里见过你……。"
+    show saburo 33i me with dissolve
+    play sound "FX/可愛い2.ogg"
+    saburo "可，可能是你的错觉……。"
+    extend "不对，一定是错觉……！"
+    extend "\n好，好了，现在立刻放开[player_surname]君的手~！"
+    extend "\n不然的话，我就要找老师说，让他把你们赶走了哦……！？"
+    play sound "FX/ビヨン.ogg"
+    customer3 "呜……抱，抱歉了捏。"
+    extend "\n有，有点兴奋过头，所以有点不守规矩了捏。"
+    play sound "FX/可愛い3.ogg"
+    customer5 "对不起呀。"
+    extend "\n这里还是绅士一点，姑且忍一忍，可远观不可亵玩焉。"
+    play sound "FX/キラキラ.ogg"
+    customer4 "正义感强烈的男孩子真是棒呀♪"
+    window hide
+    hide saburo with dissolve
+    window show
+    "三朗救了我一命，我总算是挺过了这次危机。"
+    "没想到这种场合下救我的居然是初中生……。"
+    extend "\n总感觉有点丢人啊……。"
+    window hide
+    show saburo 17i me at top with dissolve
+    window show
+    saburo "[player_surname]，你没事吧？"
+    me "啊，嗯，得救了，谢谢！"
+    extend "\n不过话说回来，三朗你原来戴着眼镜来着？"
+    play sound "FX/ビヨン.ogg"
+    show saburo 8i with dissolve
+    saburo "没，没有，不过戴上也没关系吧。"
+    extend "\n不用在意。"
+    me "是，是这样啊。"
+    show saburo 28i with dissolve
+    saburo "比起这个，[player_surname]。"
+    extend "\n今天后夜祭你有事吗？"
+    me "诶？不，还没有安排。"
+    show saburo 29i with dissolve
+    saburo "这样啊！"
+    extend "\n那要不跟我一起逛？"
+    me "好啊，其他人呢？"
+    show saburo 26i with dissolve
+    saburo "呜……那个……那个，就是。"
+    extend "\n两个人的话，那个……那个……。"
+    show saburo 28i with dissolve
+    extend "\n不对，你明明懂我的意思的吧！\n你不是内心已经是大人了吗！"
+    me "啊……嗯，可以啊！"
+    extend "\n那就在鞋柜那碰头吧。"
+    show saburo 30i with dissolve
+    saburo "哦，行。"
+    extend "\n那我就回去工作了。"
+    window hide
+    hide saburo with dissolve
+    window show
+    "三朗要跟我单独在一起，该不会有什么重要的事吧？"
+    "……。"
+    show cg light-blue at center with dissolve
+    "难不成……呃，我怎么心跳加速了！"
+    extend "\n不过，按这个展开，应该是那种经典的那种情节吧……那个……。"
+    "……嘛，稍微期待一下也行。"
+    hide cg with dissolve
+    hide bg with dissolve
+    stop music fadeout 2.0
+    "……毕竟这个梦不知道会持续到什么时候……。"
+    window hide
+    show bg 校舎夕方（全貌） at center with Dissolve(1.0)
+    pause 0.4
+    show bg 喫茶店（夕方） with Dissolve(1.0)
+    window show
+    "咖啡店的营业时间也差不多要结束了。"
+    extend "\n剩下的活动，就是和三朗一起的后夜祭！"
+    extend "\n因为不能迟到，所以我赶紧收拾东西。"
+    play sound "FX/引き戸.ogg"
+    window hide
+    show bg 廊下（夕方） with dissolve
+    play music "sintarou.ogg"
+    show sintarou 1i at top with dissolve
+    window show
+    sintarou "哟，[player_name]酱！"
+    extend "\n看你这么着急是要去哪？"
+    "我正准备去换鞋时，慎太郎过来说话了。"
+    me "那个……我在等三朗。"
+    show sintarou 18i with dissolve
+    sintarou "哼嗯。"
+    extend "\n三朗酱果然是这样啊。"
+    me "“果然是这样”是什么意思？"
+    show sintarou 29i with dissolve
+    sintarou "这还不能说。"
+    extend "\n你迟早会知道的！"
+    me "唔~？"
+    extend "\n我有点搞不懂啊。"
+    show sintarou 31i with dissolve
+    sintarou "没事没事，不用介意！"
+    show sintarou 30i with dissolve
+    extend "\n比起这个，[player_name]君你到底是用了什么手法，\n才能把三朗引到这边来的？"
+    extend "\n你也教教我，那个技术吧~。"
+    me "诶，嗯……什么引到这边来呀，我只是稍稍辅助了他一下而已哦。"
+    show sintarou 28i with dissolve
+    sintarou "辅助？？那是什么？"
+    me "就像合气道一样，如果从这边强行加上了力量，\n反而对手也会用力，身体会僵硬的。"
+    extend "\n所以，要顺着对手力量的方向，加以利用。"
+    me "就三朗来说，他自身其实也向着这边，所以"
+    extend "\n也没必要改变他。"
+    me "而是让他自己承认自己的不同，并面对它。"
+    show sintarou 35i with dissolve
+    sintarou "……嗯。"
+    extend "虽然感觉有点难，但总的来说\n就是不强行把他拉过来，而是在他背后轻轻地推他一把。"
+    extend "\n咱完全没有学习过这种方法。"
+    show sintarou 23i with dissolve
+    extend "\n原来是要借力啊……。"
+    show sintarou 30i with dissolve
+    sintarou "是啊。"
+    extend "\n所以三朗酱他也是朝着[player_name]君的方向去的。"
+    show sintarou 20i with dissolve
+    extend "\n咱也是从像[player_name]这样的人中学到了好多东西呢。"
+    me "慎太郎君，怎么了？"
+    show sintarou 8i with dissolve
+    sintarou "哎呀抱歉！"
+    extend "\n没什么，自说自话！"
+    show sintarou 9i with dissolve
+    extend "\n不过啊，[player_name]酱看起来真的很有大人样啊！"
+    extend "\n难道说内在是25岁左右的大人了吗？"
+    play sound "FX/ビヨン.ogg"
+    "咿，咿咕！"
+    me "怎，怎么可能呢！"
+    extend "\n这种奇怪的话，只在梦里说就够了。"
+    show sintarou 1i with dissolve
+    sintarou "啊哈哈！"
+    extend "说得也是。"
+    extend "\n那我就回大部队了。"
+    extend "\n拜拜！三朗酱可就拜托你了！！"
+    me "……嗯，我知道了。"
+    window hide
+    hide sintarou with dissolve
+    hide bg with dissolve
+    stop music fadeout 0.5
+    window show
+    "···"
+    window hide
+    play music "FX/夜　虫.ogg"
+    show bg 下駄箱（夜） at center with Dissolve(0.8)
+    window show
+    "和慎太郎分开后，我便回到鞋柜前，三朗已经在那里等着了。"
+    show saburo 1i at top with dissolve
+    saburo "啊，[player_surname]！你来得好晚啊~。"
+    me "抱歉抱歉！"
+    extend "\n稍微和慎太郎聊了几句。"
+    show saburo 6i with dissolve
+    saburo "和他？"
+    show saburo 10i with dissolve
+    extend "\n……算了。先出发吧。"
+    extend "\n外面也相当热闹呢！"
+    window hide
+    hide saburo with dissolve
+    show bg 校舎（夜） with Dissolve(1.0)
+    window show
+    "我们来到外面，夕阳已经落山了。\n但余晖和摊位的灯光交相辉映，街上依然很热闹。"
+    extend "\n在校园的正中央，大家为了御咲祭篝火晚会做准备，\n堆柴火的工作正在有序地进行。"
+    window hide
+    show bg 校庭（夜） with Dissolve(1.0)
+    show saburo 11i at top with dissolve
+    window show
+    saburo "虽然我想去很多地方，但一直工作太累了~。"
+    extend "\n稍微找个地方坐下休息一下吧？"
+    me "说的是。"
+    hide saburo with dissolve
+    "这么说着，我们两人\n在远离操场的草坪上坐了下来。"
+    window hide
+    show saburo 1i at top with dissolve
+    window show
+    me "在这里的话，就能清楚地看到火焰，可以好好休息了。"
+    saburo "是啊……。"
+    hide saburo with dissolve
+    "远远眺望着，热闹非凡的学园祭的光景。"
+    extend "\n然后"
+    window hide
+    play sound "FX/炎.ogg"
+    show bg キャンプファイヤー with lm_crossfade
+    window show
+    "终于点燃了柴火堆。"
+    "熊熊燃烧着的鲜红火焰。"
+    extend "\n真的好美啊……。"
+    saburo "……真好啊，这种感觉。"
+    extend "\n好安心啊……。"
+    me "是啊……。"
+    stop sound fadeout 2.0
+    window hide
+    play music "良い雰囲気.ogg"
+    show bg 校庭（夜） with Dissolve(1.0)
+    show saburo 26i at top with dissolve
+    window show
+    saburo "……呐，[player_surname]。"
+    extend "\n[player_surname]，你现在在谈恋爱吗？"
+    "三朗唐突的提问，让我不由得心跳加速。"
+    me "诶？怎，怎么了？？这么突然。"
+    show saburo 31i with dissolve
+    saburo "别，别管了回答我啊~！"
+    extend "\n谈了吗？"
+    me "嗯，嗯~。"
+    extend "\n怎么说呢……"
+    extend "确实有点被那个人吸引了，\n但这也算是恋爱吗……"
+    extend "\n友情和恋爱感情之间的界限好难分啊。"
+    show saburo 4i with dissolve
+    saburo "难道不应该更加凭直觉吗？"
+    me "啊哈哈，是啊。"
+    extend "\n大概，就这样吧。"
+    show saburo 9i with dissolve
+    saburo "什么啊那是~。"
+    extend "\n光是说这些，又回答得相当随便呢。"
+    me "恋爱这种东西，每个人都不太一样，不是很复杂吗？"
+    extend "\n所以，三朗君怎么样了呢？"
+    extend "\n现在，恋爱了吗？"
+    show saburo 26i with dissolve
+    saburo "唔……我，我……那个……。"
+    "三朗含糊其辞。"
+    me "看你的反应，肯定是有了吧。"
+    show saburo 31i with dissolve
+    stop music fadeout 2.0
+    saburo "……对。"
+    extend "\n大概，这就是这种感情吧。"
+    me "……对象，是谁？"
+    window hide
+    show cg 校舎（夜） at center with Dissolve(1.0)
+    window show
+    saburo "……。"
+    play music "良い場面.ogg"
+    extend "\n……[player_name]，是你。"
+    extend "\n我！喜，喜欢上你了！！！"
+    extend "\n不知不觉，变得喜欢你到无法自拔！！"
+    saburo "那个……不是朋友之间的感情，而是更加需要的，更加想珍惜的……。"
+    extend "\n所，所以，想要好好，直面自己的感情\n趁现在，想要告诉你……！！"
+    saburo "啊，那，那个！并，并不是希望得到你的答复！！"
+    extend "\n我只是单纯想要吐露出来而已！"
+    extend "\n应该说，[player_surname]君你的话，我想应该会理解我的……\n不，就算我这样的家伙说出口，也只会让你觉得恶心吧……。"
+    window hide
+    show cg 校舎１（夜 with Dissolve(1.0)
+    window show
+    me "……谢谢你，三朗。"
+    extend "\n你能这样对我说，我很开心哦。"
+    saburo "呜，嗯……。"
+    "三朗的脸，涌现了在火焰的映衬下也相当醒目的红潮。"
+    me "……三朗，来我这边一点。"
+    saburo "诶。"
+    extend "\n这，这么羞耻……。"
+    me "那，我去你那边。"
+    window hide
+    show cg c74 1 with Dissolve(0.8)
+    window show
+    "说着，我靠近三朗，就这样抱住了他。"
+    saburo "什！！"
+    extend "\n等……[player_surname]！！！"
+    extend "\n在这种地方做这种事……！"
+    me "没关系的。"
+    extend "\n最后的最后，让我这样一会儿。"
+    extend "\n这样，就会很舒服很幸福。"
+    show cg キャンプファイヤー with Dissolve(1.0)
+    saburo "很舒服，很幸福……。"
+    extend "\n那，那个，[player_surname]。"
+    extend "\n想变得更幸福吗……？"
+    me "嗯？嗯……来吧。"
+    saburo "那么……能请你闭上眼睛吗？"
+    "我听话地闭上了眼睛。"
+    window hide
+    show cg c74 2 with Dissolve(0.8)
+    window show
+    "亲"
+    me "三朗……。"
+    show cg c74 3 with Dissolve(0.8)
+    saburo "嘿嘿……我试试。"
+    extend "\n没关系的吧？我也喜欢你。"
+    extend "\n怎么样，幸福吗？"
+    me "嗯……很幸福。"
+    window hide
+    show cg 月（夜） with Dissolve(0.8)
+    window show
+    "……这样就听到了三朗诚实的心声，得到了最棒的幸福。"
+    extend "\n御咲祭成功举办了，还和三朗一起看到了这焰火。"
+    extend "\n愿望全都实现了。……"
+    window hide
+    show cg キャンプファイヤー（火の粉） with Dissolve(0.8)
+    window show
+    "在这片燃烧的红炎之中，我的意识逐渐淡去……。"
+    extend "\n……梦已经结束了。"
+    window hide
+    hide bg with dissolve
+    hide cg with dissolve
+    hide saburo with dissolve
+    window show
+    "···"
+    "梦的记忆是模糊的。"
+    extend "\n在醒过来的同时，也会忘记这场梦。"
+    extend "\n只留下甜美的回忆，其他的一切都被带去忘却的彼方而消散。"
+    stop music fadeout 4.0
+    "好了……差不多该起来了。"
+    window hide
+    show saburo 30 at top with Dissolve(2.5)
+    window show
+    "三朗，我喜欢你。"
+    window hide
+    hide saburo with dissolve
+    play music "FX/燕.ogg"
+    show bg 主人公家 at center with Dissolve(1.0)
+    pause 0.6
+    hide bg with dissolve
+    window show
+    play sound "FX/目覚まし.ogg"
+    "哔哔哔哔哔哔哔哔"
+    window hide
+    show bg 主人公部屋（朝） at center with lm_crossfade
+    window show
+    me "啊……已经早上了吗……？"
+    extend "\n唔~我好像并没有睡多少啊……。"
+    stop sound fadeout 0.5
+    "我望向餐桌，上面放着一张传单。"
+    play sound "FX/紙.ogg"
+    me "嗯？这是……"
+    extend "啊，对对对，昨天回来的时候拿到的。"
+    extend "\n那些孩子们，真可爱啊……。"
+    me "……好！那天我一定要去好好享受！"
+    play sound "FX/可愛い2.ogg"
+    extend "\n然后在脑海里尽情幻想！！"
+    window hide
+    hide bg with dissolve
+    stop music fadeout 0.5
+    window show
+    "御咲祭当天ーーーーーー"
+    window hide
+    play music "学祭だ！.ogg"
+    show bg 校舎（全貌） at center with Dissolve(1.0)
+    pause 0.6
+    show bg 廊下 with Dissolve(1.0)
+    window show
+    me "我想想……记得说是2年1班和2年2班的咖啡店。"
+    extend "\n唔？"
+    play sound "FX/引き戸.ogg"
+    show bg 喫茶店 with dissolve
+    "是这个吗？"
+    "正当我站在店门口犹豫不决的时候，"
+    extend "\n戴水蓝色名牌的红领带男孩从店里走了出来。"
+    window hide
+    show saburo 29i at top with dissolve
+    window show
+    saburo "欢迎光临ーー！"
+    extend "\n这位客人，您是一个人来的吗？"
+    show saburo 30i with dissolve
+    extend "\n请在店里慢慢逛吧！"
+    window hide
+    hide bg with lm_crossfade
+    hide saburo with lm_crossfade
+    pause 0.6
+    show bg ゲームセンター２ at center with Dissolve(0.7)
+    pause 0.6
+    show bg 三朗ed with Dissolve(0.8)
+    pause 1.3
+    stop music fadeout 1.5
+    hide bg with dissolve
+    pause 0.5
+    show bg 制作 at center with dissolve
+    pause 0.8
+    hide bg with dissolve
+    return
+
+label s0000023D_00000253:
+    show bg 喫茶店 at center with dissolve
+    play music "sakuya.ogg"
+    show sakuya 18i at top with dissolve
+    window show
+    play sound "FX/ダッ！.ogg"
+    sakuya "喂，你们。别再用那恶心的手碰他。"
+    me "作哉君！"
+    customer3 "怎，怎么会这样！"
+    show sakuya 13i with dissolve
+    sakuya "啊？什么玩意啊。"
+    extend "\n从刚才开始就一直散发着恶心的气氛。"
+    extend "\n如果你再敢不正经的话。"
+    show sakuya 3i with dissolve
+    extend "\n你那丑陋的脸，会扭曲得更加难看的哦。"
+    play sound "FX/ビヨン.ogg"
+    customer3 "抱歉抱歉捏。"
+    extend "\n有，有点兴奋过头，所以有点不守规矩了捏。"
+    play sound "FX/可愛い3.ogg"
+    customer5 "对不起呀。"
+    extend "\n这里还是绅士一点，姑且忍一忍，可远观不可亵玩焉。"
+    play sound "FX/キラキラ.ogg"
+    customer4 "哎呀~……粗犷的男人好棒♪"
+    window hide
+    hide sakuya with dissolve
+    window show
+    "在作哉的帮助下，我得以从那种场合中逃了出来。"
+    "没想到在这种时候还能被初中生搭救……。"
+    extend "\n总感觉有点丢人啊……。"
+    window hide
+    show sakuya 10i at top with dissolve
+    window show
+    sakuya "喂，怎么了？"
+    me "嗯，嗯嗯。得救了。"
+    extend "\n谢谢你们！"
+    show sakuya 25i with dissolve
+    sakuya "我并不是想帮你哦。"
+    extend "\n只是想让那些恶心的家伙们受到一句骂声的洗礼而已。"
+    extend "\n啊~心情舒畅多了。\n麻烦的工作中的休息时间变得愉快起来了呢！"
+    me "这，这样啊……。"
+    show sakuya 15i with dissolve
+    sakuya "比起这个……你今天，"
+    extend "\n今天后夜祭有空吗？"
+    me "诶？那个，没什么。"
+    show sakuya 14i with dissolve
+    sakuya "我就知道~你朋友很少嘛！"
+    extend "\n那就陪我去后夜祭吧。"
+    play sound "FX/可愛い.ogg"
+    me "啊！！作，作哉君要和我两人单独参加后夜祭吗！？"
+    show sakuya 29i with dissolve
+    play sound "FX/ビヨン.ogg"
+    sakuya "你，你个笨蛋！！！才不是啦！！！"
+    extend "\n是小翼说无论如何都要和你待在一起……。"
+    show sakuya 36i with dissolve
+    play sound "FX/ダッ！.ogg"
+    extend "\n话说回来，你没有拒绝的权利！\n所以一定要来！"
+    me "嗯，嗯，我一定会来的！\n我也想见小翼……。"
+    extend "\n那就在鞋柜那碰头吧。"
+    show sakuya 9i with dissolve
+    sakuya "哼！"
+    extend "\n那我就先回自己负责的地方去了。"
+    extend "\n回头见！"
+    window hide
+    hide sakuya with dissolve
+    window show
+    "虽然作哉是为了小翼才邀请我的，但他居然主动邀请了我……！"
+    "……。"
+    show cg purple at center with dissolve
+    "我是因为很期待学园祭，才来到这梦中的世界。"
+    extend "\n没想到后夜祭的时候，还能和他在一起。"
+    "所以我想尽量陪在他身边……"
+    extend "想帮助他。"
+    hide cg with dissolve
+    hide bg with dissolve
+    stop music fadeout 2.0
+    "……毕竟这个梦不知道会持续到什么时候……。"
+    window hide
+    show bg 校舎夕方（全貌） at center with Dissolve(1.0)
+    pause 0.4
+    show bg 喫茶店（夕方） with Dissolve(1.0)
+    window show
+    "咖啡店的营业时间也差不多要结束了。"
+    extend "\n接下来的活动，就是和作哉一起参加后夜祭！"
+    extend "\n不能迟到，于是我赶紧收拾完东西，朝大门走去。"
+    window hide
+    hide bg with dissolve
+    window show
+    "···"
+    window hide
+    play music "FX/夜　虫.ogg"
+    show bg 下駄箱（夜） at center with Dissolve(0.8)
+    window show
+    "我走到鞋柜前，发现作哉已经在那儿等着了。"
+    me "作哉君，久等了！"
+    show sakuya 6i at top with dissolve
+    sakuya "久等了！"
+    show sakuya 25i with dissolve
+    extend "\n……那，走吧。"
+    window hide
+    hide sakuya with dissolve
+    show bg 校舎（夜） with Dissolve(1.0)
+    window show
+    "我们来到外面，夕阳已经落山了。\n但余晖和摊位的灯光交相辉映，街上依然很热闹。"
+    extend "\n在校园的正中央，大家为了御咲祭篝火晚会做准备，\n堆柴火的工作正在有序地进行。"
+    "我们趁着人少的时候，叫上翼来到了教学楼后方。"
+    window hide
+    show bg 校舎裏（夜） with Dissolve(1.0)
+    show ツバサ 1 at top with dissolve
+    window show
+    play music "FX/可愛い.ogg"
+    ツバサ "汪汪！"
+    hide ツバサ with dissolve
+    show ツバサ 4 at topright
+    show sakuya 23i at topleft with dissolve
+    sakuya "小翼，今天可是学园祭。"
+    extend "\n我就破例带你在校园里转转吧。"
+    extend "\n可别胡闹，要安静哦。"
+    show ツバサ 2 with dissolve
+    ツバサ "汪！"
+    window hide
+    hide sakuya with dissolve
+    hide ツバサ with dissolve
+    show bg 校庭（夜） with dissolve
+    window show
+    "我们一回到校园，就故意坐在了人少的\n运动场内侧的草坪上。"
+    window hide
+    window show
+    sakuya "这里可以清楚地看到焰火，应该能好好放松一下了。"
+    show ツバサ 3 at topright
+    show sakuya 23i at topleft with dissolve
+    sakuya "是啊。"
+    show sakuya 24i with dissolve
+    extend "\n真是太好了呢，小翼。"
+    extend "\n从现在开始，你就可以看到巨大的焰火了哦~。"
+    show ツバサ 5 with dissolve
+    ツバサ "呜嗯？"
+    "小翼似乎听不懂我们在说什么，歪着脑袋。"
+    hide sakuya with dissolve
+    hide ツバサ with dissolve
+    "远远眺望着，热闹非凡的学园祭的光景。"
+    extend "\n然后"
+    window hide
+    play sound "FX/炎.ogg"
+    show bg キャンプファイヤー with lm_crossfade
+    window show
+    "终于点燃了柴火堆。"
+    "熊熊燃烧着的鲜红火焰。"
+    extend "\n真的好美啊……。"
+    sakuya "快看，小翼！"
+    extend "\n好壮观的焰火啊~！！"
+    ツバサ "汪汪！"
+    me "啊哈哈。"
+    extend "\n他好像在说『真漂亮！』"
+    sakuya "是啊，一定就是这样。"
+    stop sound fadeout 2.0
+    window hide
+    play music "良い雰囲気.ogg"
+    show bg 校庭（夜） with dissolve
+    show sakuya 31i at top with dissolve
+    window show
+    sakuya "……我说啊，[player_surname]。"
+    extend "\n我要把所有事情都告诉你。"
+    me "诶，什么事？"
+    show sakuya 32i with dissolve
+    sakuya "就是……关于之前岔开话题的一之濑的事…。"
+    me "啊，是这件事啊！"
+    extend "\n嗯，我想听。"
+    extend "\n我想多了解你一些，然后助你一臂之力。"
+    show sakuya 2i with dissolve
+    play sound "FX/ビヨン.ogg"
+    sakuya "白，白痴！！\n别说这种丢人的话啊！"
+    extend "\n这样会很难开口的。"
+    me "啊哈哈，抱歉抱歉。"
+    window hide
+    show cg 校舎（夜） at center with Dissolve(0.8)
+    window show
+    sakuya "……是我以前养过的狗，明明是条狗，却很胆小，\n外出的时候总是怯生生，一直提心吊胆的。"
+    extend "\n所以，之前也说过了，我觉得让它待在家里比较好，\n除了散步以外都把它关在室内。"
+    sakuya "不知道为什么……这一点和一之濑重叠了。"
+    extend "\n每次看到一之濑，我就会想起它，然后回忆起它的死亡，\n很难受，很讨厌……所以我尽可能地冷淡对待一之濑。"
+    extend "\n我觉得这样很对不起一之濑，他没有任何错……。"
+    "确实，会变成这样吧……。"
+    sakuya "之前还能正常地对待他。"
+    extend "\n甚至到了想见他，并且喜欢他的程度。"
+    extend "\n所以，对一之濑来说，我应该是突然变了一个人吧。"
+    extend "\n但是，我已经被束缚住了，完全无法坦率地行动。"
+    me "这种伤，只能等待时间来治愈了吧。"
+    sakuya "是啊。"
+    extend "\n我真是够弱小的。"
+    extend "\n也许比起他，比起一之濑，我才是真正的弱小……。"
+    window hide
+    show cg 校舎１（夜 with Dissolve(1.0)
+    window show
+    me "没有这回事。"
+    extend "这种创伤无论对谁而言，都是强大的敌人。"
+    extend "\n作哉不是软弱，而是温柔。"
+    extend "\n虽然因为温柔而变得冷淡有点奇怪，\n但反过来讲，作哉应该可以依靠翼的力量吧？"
+    sakuya "他的力量……？"
+    me "嗯。"
+    extend "\n翼知道作哉的本质是温柔的，\n所以他说了就算作哉冷淡对待自己也没关系。"
+    extend "\n只不过他担心自己是不是做了什么错事。"
+    sakuya "是吗……这样啊。"
+    extend "\n他看起来弱不禁风，其实意外地强呢。"
+    extend "\n这方面或许和你很像……。"
+    me "等你不再因此难过了，能坦率一点的话，\n我认为你向他说明清楚比较好。"
+    extend "\n还要跟他说「对不起」哦。」"
+    show bg 校庭１（夜）
+    sakuya "是啊……。"
+    window hide
+    hide cg with dissolve
+    hide sakuya with dissolve
+    show ツバサ 1 at top with dissolve
+    window show
+    ツバサ "汪汪！"
+    me "瞧，小翼又在鼓励你了。"
+    extend "\n最近作哉哥哥经常变得很消沉，\n小翼也很困扰呢~。"
+    show ツバサ 6 with dissolve
+    ツバサ "呜~。"
+    hide ツバサ with dissolve
+    show ツバサ 5 at topright
+    show sakuya 22i at topleft with dissolve
+    sakuya "啊哈哈，抱歉抱歉。\n没问题的，小翼。"
+    extend "\n我有小翼……"
+    show sakuya 33i with dissolve
+    extend "而且[player_surname]君也在旁边陪伴我。"
+    show sakuya 35i with dissolve
+    extend "\n啊~下次说不定还会向你介绍名叫一之濑的哥哥呢~。"
+    me "感觉就像母子一样呢。"
+    extend "\n作哉是妈妈，而小翼是孩子。"
+    extend "\n我应该可以当爸爸吧。"
+    extend "\n真好呢~真想和你们住在一起。"
+    show sakuya 26i with dissolve
+    sakuya "哈，哈！？\n又说这种无聊的话……！"
+    extend "\n妄想也该有点分寸……"
+    show ツバサ 4 with dissolve
+    play sound "FX/可愛い.ogg"
+    ツバサ "汪汪！"
+    me "但是，小翼好像很同意哦。"
+    show ツバサ 2 with dissolve
+    ツバサ "汪！"
+    show sakuya 29i with dissolve
+    sakuya "呜……那，那怎么可能！！"
+    extend "\n为什么我要和你……。"
+    extend "\n而且，我可是男的！！！\n我当妈妈太奇怪了吧！"
+    me "那我当妈妈好了。"
+    extend "\n哎呀，亲爱的……领带歪了哦。"
+    show sakuya 8i with dissolve
+    play sound "FX/ビヨン.ogg"
+    sakuya "哇，哇啊啊啊啊……不要这样太恶心了！！"
+    me "小翼，最近作哉很冷淡呢……"
+    extend "\n难道他出轨了吗……？"
+    hide ツバサ with dissolve
+    hide sakuya with dissolve
+    show ツバサ 5 at top with dissolve
+    tubasa "呜~……。"
+    me "支持我的人只有小翼呢。"
+    extend "\n呜呜……。"
+    show ツバサ 6 with dissolve
+    tubasa "呜……"
+    play sound "FX/可愛い.ogg"
+    show ツバサ 1 with dissolve
+    extend "\n汪汪！"
+    hide ツバサ with dissolve
+    show ツバサ 5 at topright
+    show sakuya 12i at topleft with dissolve
+    sakuya "呜……抱歉。"
+    extend "\n我不会出轨的，所以请原谅我吧。"
+    show sakuya 36i with dissolve
+    extend "\n我怎么可能在有小翼的情况下出轨呢。"
+    show ツバサ 2 with dissolve
+    ツバサ "汪！"
+    window hide
+    show cg 校舎１（夜 at center with dissolve
+    window show
+    me "噗……"
+    extend "啊哈哈！"
+    sakuya "啊哈哈哈。"
+    "我们被这闹剧逗得忍不住笑了出来。"
+    window hide
+    hide sakuya with dissolve
+    hide ツバサ with dissolve
+    hide cg with dissolve
+    show sakuya 35i at topleft with dissolve
+    window show
+    sakuya "哈哈太无聊了吧。"
+    extend "\n对吧，翼？"
+    show ツバサ 5 at topright with dissolve
+    tubasa "汪？"
+    show sakuya 33i with dissolve
+    sakuya "翼♪"
+    show ツバサ 1 with dissolve
+    tubasa "汪汪♪"
+    show sakuya 28i with dissolve
+    play sound "FX/可愛い.ogg"
+    sakuya "诶嘿嘿。"
+    extend "\n翼~♪"
+    show ツバサ 2 with dissolve
+    play sound "FX/可愛い.ogg"
+    tubasa "汪汪汪♪"
+    play sound "FX/キラキラ.ogg"
+    show cg adult at center with fade
+    "你，你们怎么回事啊……也太可爱了吧……！！"
+    extend "\n但是，这真的要人命啊……。"
+    window hide
+    hide cg with dissolve
+    hide ツバサ with dissolve
+    hide sakuya with dissolve
+    show sakuya 33i at top with dissolve
+    window show
+    sakuya "……的确，养小翼需要钱啊~。"
+    extend "\n组成一家人什么的，如果是为了可爱的小翼，倒也不错。"
+    extend "\n这样的话，我来当妈妈好了。"
+    me "诶？是，是吗？"
+    show sakuya 14i with dissolve
+    sakuya "嗯。"
+    extend "\n我会尽力照顾好小翼。\n你就好好挣钱，让我们过上好日子。"
+    extend "\n这可是重要的资金来源，拜托你了。"
+    me "怎么，怎么，感觉是妻管严的典范嘛~。"
+    extend "\n根本就是个骑在丈夫头上的妻子吗。"
+    extend "\n可怜的老公连藏点私房钱都不得安生吧…。"
+    show sakuya 24i with dissolve
+    sakuya "那些都是小翼的抚养费！！"
+    me "喂喂，我可不是ATM啊~。"
+    show sakuya 23i with dissolve
+    play sound "FX/ビヨン.ogg"
+    sakuya "诶，是吗？"
+    me "啊哈哈。\n真是个对丈夫严厉，对孩子却温柔的贤母啊。"
+    hide sakuya with dissolve
+    show ツバサ 3 at topright with dissolve
+    tubasa "汪！汪！"
+    stop music fadeout 2.0
+    show sakuya 31i at topleft with dissolve
+    sakuya "嗯？"
+    show sakuya 7i with dissolve
+    extend "\n诶…。"
+    me "怎么了？"
+    sakuya "……。"
+    window hide
+    play music "回想.ogg"
+    show cg c83 1 at center with Dissolve(0.8)
+    window show
+    sakuya "喂，你，给我把眼睛闭上！"
+    me "诶……为什么？"
+    sakuya "没，没事！快点闭上！"
+    extend "\n你要是敢睁开眼睛我可不饶你！！"
+    "怎么回事啊……。"
+    extend "\n我听话地闭上了眼睛。"
+    hide cg with dissolve
+    hide bg with dissolve
+    hide sakuya with dissolve
+    hide ツバサ with dissolve
+    sakuya "……嘴巴给我闭上！！"
+    play sound "FX/ビヨン.ogg"
+    "诶诶诶！！？"
+    extend "这这这这是怎么回事！？！？！"
+    window hide
+    show cg c83 2 at center with Dissolve(0.7)
+    window show
+    "亲"
+    "……诶？"
+    me "作，作哉……？"
+    show cg purple with fade
+    sakuya "那，那个……小翼他……"
+    show bg 校庭１（夜） at center
+    show ツバサ 5 at topright
+    show sakuya 10i at topleft
+    extend "小翼说他无论如何都想和[player_surname]君接吻！"
+    extend "\n所以……刚才那个吻，不是我，而是小翼哦！"
+    extend "\n不要误会了，笨蛋！！！"
+    hide cg with dissolve
+    me "哼~。"
+    extend "\n小翼，你真的这么想？"
+    ツバサ "呜~。"
+    me "我就知道~不可能嘛~。"
+    extend "\n这么说起来，刚才我听了那个故事之后突然想到，\n小翼这个名字，是作哉你取的吧。"
+    show sakuya 17i with dissolve
+    sakuya "诶……是的，我早说过，这是他原本的名字…。"
+    me "骗人~！"
+    extend "\n居然骗自己的丈夫，你这个坏女人~！！"
+    extend "\n看我这样惩罚你！"
+    window hide
+    show cg c83 3 at center with Dissolve(0.7)
+    window show
+    "我这样说着，一把抱住了作哉。"
+    sakuya "什……！！"
+    extend "\n这，这个……有点……不，不行的……！！！"
+    me "拜托了。"
+    extend "\n再让我抱一会……。"
+    sakuya "……。"
+    ツバサ "汪！"
+    sakuya "！"
+    extend "\n……。"
+    window hide
+    show cg 月（夜） with Dissolve(0.8)
+    window show
+    "能感觉到，作哉的手臂环抱着我的背。"
+    "……能感受到作哉变得诚实，这真是太好了。"
+    extend "\n御咲祭也顺利成功了，我见证了作哉和小翼一起欣赏的火焰。"
+    extend "\n愿望全都实现了。……"
+    window hide
+    show cg キャンプファイヤー（火の粉） with Dissolve(0.8)
+    window show
+    "在这片燃烧的红炎之中，我的意识逐渐淡去……。"
+    extend "\n……梦已经结束了。"
+    window hide
+    hide bg with dissolve
+    hide cg with dissolve
+    hide ツバサ with dissolve
+    hide sakuya with dissolve
+    window show
+    "···"
+    "梦的记忆是模糊的。"
+    extend "\n在醒过来的同时，也会忘记这场梦。"
+    extend "\n只留下甜美的回忆，其他的一切都被带去忘却的彼方而消散。"
+    stop music fadeout 4.0
+    "好了……差不多该起来了。"
+    window hide
+    show sakuya 35 at top with Dissolve(2.5)
+    window show
+    "作哉，我喜欢你。"
+    window hide
+    hide sakuya with dissolve
+    play music "FX/燕.ogg"
+    show bg 主人公家 at center with Dissolve(1.0)
+    pause 0.6
+    hide bg with dissolve
+    window show
+    play sound "FX/目覚まし.ogg"
+    "哔哔哔哔哔哔哔哔"
+    window hide
+    show bg 主人公部屋（朝） at center with lm_crossfade
+    window show
+    me "啊……已经早上了吗……？"
+    extend "\n唔~我好像并没有睡多少啊……。"
+    stop sound fadeout 0.5
+    "我望向餐桌，上面放着一张传单。"
+    play sound "FX/紙.ogg"
+    me "嗯？这是……"
+    extend "啊，对对对，昨天回来的时候拿到的。"
+    extend "\n那些孩子们，真可爱啊……。"
+    me "……好！那天我一定要去好好享受！"
+    play sound "FX/可愛い2.ogg"
+    extend "\n然后在脑海里尽情幻想！！"
+    window hide
+    hide bg with dissolve
+    stop music fadeout 0.5
+    window show
+    "御咲祭当天ーーーーーー"
+    window hide
+    play music "学祭だ！.ogg"
+    show bg 校舎（全貌） at center with Dissolve(1.0)
+    pause 0.6
+    show bg 廊下 with Dissolve(1.0)
+    window show
+    me "我想想……记得说是2年1班和2年2班的咖啡店。"
+    extend "\n唔？"
+    play sound "FX/引き戸.ogg"
+    show bg 喫茶店 with dissolve
+    "是这个吗？"
+    "正当我站在店门口犹豫不决的时候，"
+    extend "\n一位戴着紫色名牌，系着红色领带的男生从店里走了出来。"
+    window hide
+    show sakuya 23i at top with dissolve
+    window show
+    sakuya "欢迎。"
+    show sakuya 15i with dissolve
+    extend "\n客人，你是一个人逛学园祭的吗？"
+    show sakuya 35i with dissolve
+    extend "\n……嘛，我们会好好招待你的，你就放轻松吧！"
+    window hide
+    hide bg with fade
+    hide sakuya with fade
+    pause 0.6
+    show bg 校舎裏 at center with Dissolve(0.7)
+    pause 0.6
+    show bg 作哉 with Dissolve(0.8)
+    pause 1.3
+    stop music fadeout 1.5
+    hide bg with dissolve
+    pause 0.5
+    show bg 制作 at center with dissolve
+    pause 0.8
+    hide bg with dissolve
+    return
+
+label s0000023D_00000254:
+    show bg 喫茶店 at center with dissolve
+    show sirou 2 at top with dissolve
+    window show
+    sirou "……[player_name]桑？"
+    "我朝旁边一看，居然看到了四朗。"
+    extend "\n他来我们咖啡厅了吗……！！"
+    window hide
+    hide shirou with dissolve
+    window show
+    play sound "FX/可愛い2.ogg"
+    customer3 "哎呀，除了店员之外，还发现了可爱的正太！"
+    extend "\n我，我也要来点一杯茶在那边坐下来！"
+    "那个男人这么说着，松开了我的手，朝四朗伸出了手。"
+    window hide
+    play sound "FX/爆発３.ogg"
+    show cg remarkable at center with pixellate
+    play music "急げ～！.ogg"
+    window show
+    me "等一下！！"
+    "我挺身护住了四朗。"
+    play sound "FX/ダッ！.ogg"
+    customer3 "怎，怎么了！"
+    extend "\n客人您是点茶喝吗！？"
+    play sound "FX/ひらめき！.ogg"
+    me "啊啊……？客人……请不要得寸进尺哦。"
+    extend "\n听说最近的年轻人，发起火来可是很恐怖的哦~。"
+    extend "\n你听说过「暴躁的青少年」这个词吗？"
+    extend "\n你还是适可而止比较好吧？"
+    window hide
+    hide cg with dissolve
+    window show
+    play sound "FX/ビヨン.ogg"
+    customer3 "呜……抱，抱歉了捏。"
+    extend "\n有，有点兴奋过头，所以有点不守规矩了捏。"
+    play sound "FX/可愛い3.ogg"
+    customer5 "对不起呀。"
+    extend "\n这里还是绅士一点，姑且忍一忍，可远观不可亵玩焉。"
+    play sound "FX/可愛い.ogg"
+    customer4 "对不起…。"
+    me "明白的话就赶紧走吧！"
+    extend "\n那么，请点单吧！"
+    window hide
+    play sound "FX/キラキラ.ogg"
+    show sirou 10 at top with dissolve
+    window show
+    sirou "[player_name]桑，好帅……！！"
+    play sound "FX/インパクト（和風）.ogg"
+    "呼……成功了！！"
+    extend "\n我不能在四朗面前出丑！"
+    stop music fadeout 2.0
+    hide shirou with dissolve
+    hide bg with dissolve
+    "我成功地逃脱了那个男人，走向了四朗。"
+    window hide
+    show bg 喫茶店 at center with dissolve
+    play music "siro.ogg"
+    window show
+    me "呀，好久不见。"
+    show sirou 4 at top with dissolve
+    sirou "好久不见，[player_name]桑！"
+    extend "\n刚才的那个，帅呆了哦！！"
+    show sirou 15 with dissolve
+    extend "\n再次救了我，谢谢你！"
+    me "不不不……我只是做了应该做的。"
+    extend "\n但是，你这么说，我很开心。"
+    show sirou 11 with dissolve
+    play sound "FX/キラキラ.ogg"
+    sirou "真好啊……我如果升到初中的话，就会增加体力变强，\n就算被坏家伙抓住了，也能像你那样制裁他们！"
+    me "啊哈哈，没问题。\n在四朗君被抓之前，我会去干掉那些家伙的！"
+    show sirou 12 with dissolve
+    sirou "诶~！！\n那么，总觉得好像只有我在出糗的样子。"
+    show sirou 13 with dissolve
+    extend "\n……啊，对了！"
+    extend "\n[player_name]桑，你之后有事吗？"
+    me "那个……没有，再过10分钟就休息了。"
+    extend "\n怎么了？"
+    show sirou 4 with dissolve
+    sirou "可以的话，和我一起逛学园祭吧！"
+    show sirou 14 with dissolve
+    extend "\n虽然我本来是想带朋友来的，\n但是，那孩子因为感冒，没办法来了……。"
+    extend "\n我，现在孤身一人。"
+    play sound "FX/爆発２.ogg"
+    "呜噢噢噢噢噢噢！！正太向我发出邀请了啊啊啊啊啊！！！"
+    me "这，这样啊。"
+    extend "\nOK！如果我没事的话，就一起去吧。"
+    show sirou 15 with dissolve
+    play sound "FX/可愛い.ogg"
+    sirou "太好啦！！"
+    extend "\n那我先去教室等你啦！"
+    hide shirou with dissolve
+    show cg remarkable at center with Dissolve(0.2)
+    play sound "FX/ジャジャーン.ogg"
+    "太好啦！！"
+    extend "\n没想到居然能和四朗一起逛学园祭！！！"
+    hide shirou with dissolve
+    hide cg with dissolve
+    hide bg with dissolve
+    stop music fadeout 2.0
+    "我兴奋得之后完全没法工作。"
+    window hide
+    show bg 校舎夕方（全貌） at center with Dissolve(1.0)
+    pause 0.4
+    show bg 廊下（夕方） with Dissolve(0.8)
+    window show
+    me "让你久等了，四郎君。"
+    show sirou 3 at top with dissolve
+    sirou "啊，[player_name]桑！工作辛苦了！！"
+    extend "\n那赶紧走吧～！"
+    hide shirou with dissolve
+    "四朗拉着我的手，开心地走了起来。"
+    play sound "FX/キラキラ.ogg"
+    show cg adult at center with fade
+    extend "\n这幅景象，简直就像我梦中见到的弟弟一样。"
+    window hide
+    hide cg with dissolve
+    window show
+    me "四郎，不用那么急匆匆的，店不会跑掉的。"
+    play music "siro.ogg"
+    show sirou 9 at top with dissolve
+    play sound "FX/ビヨン.ogg"
+    sirou "因为~我想逛遍所有店铺呀~！"
+    extend "\n不赶紧点，一下就结束啦！"
+    "哈哈，小孩子真是活力满满啊！"
+    extend "\n已经完全变成了哥哥的我，兴冲冲地指向了店铺。"
+    window hide
+    hide shirou with dissolve
+    window show
+    me "啊！喂，四郎。"
+    extend "\n那个鬼屋怎么样？"
+    show sirou 14 at top with dissolve
+    play sound "FX/可愛い3.ogg"
+    sirou "诶……鬼，鬼屋吗……？"
+    extend "\n这，这有点……。"
+    "哦？难道说，这家伙是那种害怕恐怖的东西吗？"
+    play sound "FX/ひらめき！.ogg"
+    "……我咧嘴一笑"
+    me "咦？刚才，不是说要征服所有的店铺的吗！"
+    extend "\n那就要好好地参观一下鬼屋了呢。"
+    extend "\n男子汉大丈夫可不能反悔哦？"
+    show sirou 1 with dissolve
+    sirou "呜呜呜呜……"
+    show sirou 17 with dissolve
+    play sound "FX/可愛い.ogg"
+    extend "我，我知道了！我们走吧！！"
+    extend "\n我可不怕鬼怪什么的！！"
+    stop music fadeout 2.0
+    play sound "FX/引き戸.ogg"
+    hide bg with dissolve
+    hide shirou with dissolve
+    "听到我这么一说，四朗就逞强似地进入了鬼屋。"
+    window hide
+    pause 0.4
+    play music "お化けが出ると噂の音楽室.ogg"
+    show bg dark at center with dissolve
+    window show
+    play sound "FX/ビヨン.ogg"
+    sirou "咿呀啊啊啊啊啊啊啊啊！！！\n这，这是人头啊啊啊啊！！！！"
+    play sound "FX/可愛い3.ogg"
+    sirou "呜哇啊啊啊啊！！！！"
+    extend "\n为什么这是只毛茸茸的手啊啊啊啊啊！！！？"
+    play sound "FX/ガーン.ogg"
+    sirou "不要啊啊啊啊啊！！\n我想回家啊啊啊啊啊啊！！！"
+    window hide
+    stop music fadeout 0.5
+    hide bg with dissolve
+    pause 0.4
+    play music "siro.ogg"
+    show bg 校舎（夕方 at center with Dissolve(0.7)
+    pause 0.4
+    show bg 廊下（夕方） with Dissolve(0.7)
+    show sirou 16 at top with dissolve
+    window show
+    sirou "嗝……嗝……。"
+    show sirou 1 with dissolve
+    extend "\n呜呜呜呜……好害怕啊啊啊……。"
+    window hide
+    hide shirou with dissolve
+    window show
+    "在鬼屋的出口处，四朗哭了出来。"
+    "那么一眼假的鬼居然能把他吓成这样，\n这家伙真是相当的胆小啊……。"
+    extend "\n看到他这样的反应，运营人员应该会相当满足吧。"
+    me "好了好了。"
+    extend "\n四朗，已经没事了，放心吧。"
+    show sirou 16 at top with dissolve
+    sirou "呜呜……嗝……。"
+    show sirou 17 with dissolve
+    play sound "FX/ビヨン.ogg"
+    extend "\n真是的[player_name]桑你欺负人！"
+    extend "\n为什么把我一个人丢在后面，自己先走啊！！"
+    "我虽然表面上是等走得慢的四朗，但其实是在观察他害怕的样子。"
+    extend "\n这种事情我绝对不可能说出来。"
+    me "那么……毕，毕竟！\n刚才四朗不是说想要变得更强吗。"
+    extend "\n所以，才给予了你考验……。"
+    show sirou 1 with dissolve
+    sirou "呜呜……是这样啊……。\n那就好……。"
+    show sirou 6 with dissolve
+    play sound "FX/キラキラ.ogg"
+    extend "\n居然能为我着想到这个地步，果然很温柔啊。"
+    extend "\n但是，想变强什么的，等我成为中学生之后再说吧……。"
+    "虽然对把我的谎言当真的四朗君多少有点罪恶感，\n但总之能处理好这个场面真是太好了。"
+    show sirou 9 with dissolve
+    sirou "嗯……！"
+    extend "\n占用你的时间真是对不起！已经不要紧了！！"
+    show sirou 15 with dissolve
+    extend "\n那么，重新振作，去逛其他地方吧！"
+    "四朗擦干眼泪，气势十足地站了起来。"
+    window hide
+    show cg 校舎（夕方 at center with Dissolve(0.7)
+    window show
+    "之后，我们按照之前的宣言，逛遍了所有的学校内的摊位。"
+    extend "\n到了最后关头，我实在是不行了，两膝都在颤抖，但是\n相对的，四朗还是一副精神满满的样子。"
+    "不愧是小学生……"
+    play sound "FX/インパクト.ogg"
+    stop music fadeout 2.5
+    extend "深不见底的体力，真是可怕啊……。"
+    window hide
+    hide bg with dissolve
+    hide shirou with dissolve
+    hide cg with dissolve
+    play music "FX/夜　虫.ogg"
+    show bg 校舎（夜） at center with Dissolve(1.0)
+    pause 0.5
+    show bg 下駄箱（夜） with dissolve
+    show sirou 15 at top with dissolve
+    play sound "FX/可愛い.ogg"
+    window show
+    sirou "[player_name]桑，今天真的非常开心呢~！"
+    extend "\n真的非常感谢你能陪我玩到这么晚！！"
+    me "没，没事……四朗能开心就好。"
+    show sirou 13 with dissolve
+    sirou "在逛学园祭的时候，太阳就基本落山了呢。"
+    extend "\n接下来终于要举办后夜祭了吧。"
+    me "后夜祭……"
+    extend "\n对了，四朗！\n如果不介意的话，后夜祭也一起来吧"
+    window hide
+    hide shirou with dissolve
+    stop music fadeout 0.5
+    show sirou 10 at top with dissolve
+    play sound "FX/ひらめき！.ogg"
+    window show
+    sirou "嗯！？"
+    extend "\n那边站着的……"
+    play music "賑やかな少年たち.ogg"
+    show sirou 18 with dissolve
+    play sound "FX/可愛い2.ogg"
+    sirou "穗海学长！！！"
+    hide shirou with dissolve
+    "四朗无视了我所说的，直接跑了过去。"
+    extend "\n我顺着他的视线一看，发现作哉和三朗站在那里。"
+    window hide
+    show sakuya 15i at topleft with dissolve
+    window show
+    sakuya "哦！这不是四朗嘛。"
+    extend "\n怎么，你来了啊。"
+    show sirou 15 at top with dissolve
+    play sound "FX/可愛い.ogg"
+    sirou "那是当然的！"
+    extend "\n我当然也去学长工作的咖啡店看了看。"
+    show sirou 14 with dissolve
+    extend "\n但是没能找到学长，真是可惜……。"
+    show saburo 33i at topright with dissolve
+    play sound "FX/ビヨン.ogg"
+    saburo "喂喂。"
+    extend "\n是无视了哥哥的存在吗？"
+    show sirou 8 with dissolve
+    sirou "直到刚才，[player_name]桑在和我一起逛学园祭。"
+    extend "\n本来是想去和穗海学长一起逛的，\n但我想你肯定有工作在身，所以就没有找你！"
+    show sirou 6 with dissolve
+    extend "诶嘿嘿。"
+    show sakuya 23i with dissolve
+    sakuya "诶~是这样啊。谢谢你这么为我着想。"
+    show sakuya 11i with dissolve
+    extend "\n话说，那边那个看着被击溃的人就是『[player_name]桑吗？"
+    show saburo 18i with dissolve
+    saburo "你……是有多折腾我们啊。"
+    show sirou 9 with dissolve
+    play sound "FX/ビヨン.ogg"
+    sirou "我才没有折腾呢~！"
+    extend "\n我们只是愉快地逛学园祭而已！！"
+    hide shirou with dissolve
+    hide sakuya with dissolve
+    hide saburo with dissolve
+    "说完，四朗走到了我的面前。"
+    window hide
+    play sound "FX/キラキラ.ogg"
+    show cg c87 at center with Dissolve(0.8)
+    window show
+    sirou "[player_name]桑！"
+    extend "\n后面我要和穗海学长一起去参加后夜祭，所以先告辞了！！"
+    extend "\n谢谢你陪我逛那么久！\n那下次见！"
+    window hide
+    hide cg with dissolve
+    window show
+    "四朗说完后，再次抛下我，渐行渐远。"
+    extend "\n然后，三个人就这样一同离开了校园。"
+    window hide
+    show cg 校舎（夜） at center with dissolve
+    play sound "FX/チーン.ogg"
+    window show
+    "……。"
+    me "诚实的孩子……从某种意义上来说，真是残酷啊……。"
+    extend "\n啊哈哈。"
+    "果然，我适合远远地眺望少年呢。"
+    extend "\n好了，老老实实地回到原来的世界吧。"
+    stop music fadeout 3.0
+    stop sound fadeout 0.5
+    hide bg with dissolve
+    hide cg with dissolve
+    "喂，快醒醒啊。\n到早上了啊。"
+    window hide
+    window show
+    "···。"
+    window hide
+    play music "FX/燕.ogg"
+    show bg 主人公家 at center with Dissolve(1.0)
+    pause 0.6
+    hide bg with dissolve
+    window show
+    play sound "FX/目覚まし.ogg"
+    "哔哔哔哔哔哔哔哔"
+    window hide
+    show bg 主人公部屋（朝） at center with lm_crossfade
+    window show
+    me "啊……已经早上了吗……？"
+    extend "\n唔~我好像并没有睡多少啊……。"
+    stop sound fadeout 0.5
+    "我望向餐桌，上面放着一张传单。"
+    play sound "FX/紙.ogg"
+    me "嗯？这是……"
+    extend "啊，对对对，昨天回来的时候拿到的。"
+    extend "\n那些孩子们，真可爱啊……。"
+    me "……不过仔细想想，下周还要出差。"
+    extend "\n这次实在没办法推掉了……哎……。"
+    me "还是老老实实地，面对现实吧。"
+    extend "\n呜……腿怎么这么酸痛。"
+    extend "\n昨天有走那么远吗？"
+    "我稍微做了下伸展，然后做好了上班的准备，和往常一样出门了。"
+    window hide
+    hide bg with dissolve
+    play sound "FX/ドアを開ける.ogg"
+    show bg 空 at center with Dissolve(0.7)
+    window show
+    me "好嘞！ 今天也加油干一天！！！"
+    window hide
+    stop music fadeout 1.0
+    hide bg with fade
+    pause 0.6
+    show bg 交差点 at center with Dissolve(0.7)
+    pause 0.6
+    show bg 四朗ed with Dissolve(0.8)
+    pause 1.3
+    hide bg with dissolve
+    pause 0.5
+    show bg 制作 at center with dissolve
+    pause 0.5
+    hide bg with dissolve
+    return
+
+label s0000023D_0000025E:
+    show bg 喫茶店 at center with dissolve
+    window show
+    "可恶……太得意忘形了啊……！！"
+    extend "\n我猛地挣脱对方的手，开始反击。"
+    window hide
+    play sound "FX/爆発３.ogg"
+    show cg remarkable at center with pixellate
+    play music "急げ～！.ogg"
+    window show
+    play sound "FX/ダッ！.ogg"
+    customer3 "怎，怎么会这样！"
+    me "客人……不要太得意忘形了。"
+    extend "\n听说最近的年轻人，发起火来可是很恐怖的哦~。"
+    extend "\n你听说过「暴躁的青少年」这个词吗？"
+    extend "\n你还是适可而止比较好吧？"
+    window hide
+    hide cg with dissolve
+    window show
+    play sound "FX/ビヨン.ogg"
+    customer3 "呜……抱，抱歉了捏。"
+    extend "\n有，有点兴奋过头，所以有点不守规矩了捏。"
+    play sound "FX/可愛い3.ogg"
+    customer5 "对不起呀。"
+    extend "\n这里还是绅士一点，姑且忍一忍，可远观不可亵玩焉。"
+    play sound "FX/キラキラ.ogg"
+    customer4 "好帅啊♪"
+    window hide
+    window show
+    me "……那么，请点菜！"
+    "真是的，这么没礼貌的家伙竟然是我的同类……"
+    play sound "FX/ひらめき！.ogg"
+    extend "\n同为正太控的我好羞耻啊！！"
+    stop music fadeout 2.0
+    hide bg with dissolve
+    "点完菜后，我回到厨房，等待其他工作人员点单。"
+    window hide
+    show bg 喫茶店 at center with dissolve
+    play music "午後の授業.ogg"
+    show sintarou 29i at top with dissolve
+    window show
+    sintarou "哎呀~不好意思啊，[player_name]亲。"
+    extend "\n待会我也会好好警告他们的。"
+    me "嗯……那就拜托了。"
+    extend "\n我也已经警告他们了，应该没问题吧……。"
+    hide sintarou with dissolve
+    show saburo 2i at top with dissolve
+    saburo "真是胆大包天啊！"
+    extend "\n哎呀~ 说得好！！"
+    show saburo 7i with dissolve
+    extend "\n这样一来，我也可以安心工作啦~。"
+    me "嗯？ 话说回来，三朗和他们是什么关系？"
+    show saburo 33i with dissolve
+    play sound "FX/ビヨン.ogg"
+    saburo "怎，怎么可能有什么关系啊！！"
+    extend "\n我才不认识那种恶心的团伙呢！"
+    hide saburo with dissolve
+    show saburo 26i at topright
+    show sintarou 29i at topleft with dissolve
+    sintarou "算啦算啦[player_name]亲。"
+    extend "\n还是请你别去问他了，就随他去吧。"
+    me "和慎太郎君都认识的熟人……？"
+    extend "\n你不说我还真挺在意的…。"
+    hide sintarou with dissolve
+    hide saburo with dissolve
+    show sora 26i at top with dissolve
+    sora "不过，没想到竟然会有这么多的客人来，\n真是出乎我的意料啊~！"
+    show sora 11i with dissolve
+    extend "我好开心~！！"
+    me "这也是多亏了大家的齐心协力才有了今天的成果。"
+    show sora 10i with dissolve
+    sora "是啊！我们的努力都是有价值的。"
+    hide sora with dissolve
+    show tubasa 4i at topright with dissolve
+    tubasa "我也渐渐地习惯做招待客人的工作了呢…。"
+    show sinobu 26i at topleft with dissolve
+    sinobu "好像是呢。"
+    show sinobu 24i with dissolve
+    extend "\n而且好像也不会弄错一千元和一万元的钞票了。"
+    show tuki 18i at top with dissolve
+    tuki "我也终于能做好甜点的盛盘了哦。"
+    show tuki 15i with dissolve
+    extend "\n像这样去体验新事物果然还是很重要呢。"
+    extend "\n这样才能发现新事物，独立思考，学习到新的东西。"
+    me "不愧是你！！"
+    extend "\n年轻的时候学习能力就是强啊~！"
+    window hide
+    hide tubasa with dissolve
+    hide sinobu with dissolve
+    hide tuki with dissolve
+    window show
+    "···"
+    window hide
+    show tomo 28i at topright with dissolve
+    window show
+    tomo "咦？！不会吧！"
+    extend "\n我好像又点错单了……？"
+    show tomo 24i with dissolve
+    play sound "FX/可愛い.ogg"
+    extend "\n对，对不起！！\n我马上就去换！！"
+    hide tomo with dissolve
+    show sakuya 15i at topleft with dissolve
+    play sound "FX/ビヨン.ogg"
+    sakuya "这个不是法式咖啡，而是拿铁咖啡吗……？"
+    show sakuya 27i with dissolve
+    play sound "FX/ダッ！.ogg"
+    extend "\n这些东西都是一样的吧，反正都是咖啡！！"
+    window hide
+    hide sakuya with dissolve
+    window show
+    "···"
+    show tubasa 19i at topleft
+    show sinobu 16i at topright with dissolve
+    sinobu "有的人好像完全没进步呢。"
+    tubasa "啊哈哈…。"
+    me "……学习能力因人而异。"
+    extend "\n让我们用长远的目光，温柔地守护他们的成长吧…。"
+    stop music fadeout 1.0
+    window hide
+    hide tubasa with dissolve
+    hide sinobu with dissolve
+    hide bg with dissolve
+    show bg 校舎夕方（全貌） at center with Dissolve(1.0)
+    pause 0.4
+    show bg 喫茶店（夕方） with Dissolve(1.0)
+    window show
+    "咖啡店的营业时间也差不多要结束了。"
+    extend "\n剩下的活动只有后夜祭了。"
+    show tomo 13i at top with dissolve
+    play sound "FX/可愛い2.ogg"
+    tomo "御咲祭执行委员，集合啦~！"
+    hide tomo with dissolve
+    "嗯？什么？"
+    window hide
+    play music "帰宅.ogg"
+    show tomo 12i at top with dissolve
+    window show
+    tomo "真的辛苦大家了！"
+    show tomo 4i with dissolve
+    extend "\n当然，虽然也多亏了班上同学们的帮忙，\n但是咱们执行委员作为核心，才让御咲祭得以顺利举办！！"
+    show tomo 17i with dissolve
+    extend "\n老师给我们每人奖励了一瓶果汁，现在来发吧~！"
+    hide tomo with dissolve
+    show saburo 9i at topleft with dissolve
+    saburo "什么~是橘子汁。"
+    extend "\n不管怎样，不如大吃一顿烤肉吧~。"
+    show sakuya 25i at topright with dissolve
+    sakuya "对啊。待会我来跟老师求求看吧。"
+    show sintarou 13i at top with dissolve
+    sintarou "那么，要在这里干杯庆祝一下吗？"
+    hide sintarou with dissolve
+    hide saburo with dissolve
+    hide sakuya with dissolve
+    me "稍等一下。"
+    extend "\n虽然在这里庆祝也行，但既然要庆祝，\n不如大家一起看御咲祭篝火晚会，庆祝一番吧。"
+    show sintarou 8i at top with dissolve
+    sintarou "御咲祭篝火晚会吗……"
+    extend "好主意！"
+    show sora 3i at topright with dissolve
+    sora "赞成~！那样更有庆祝的感觉。"
+    show tuki 15i at topleft with dissolve
+    tuki "那我也赞成。"
+    hide sintarou with dissolve
+    hide sora with dissolve
+    hide tuki with dissolve
+    show tubasa 31i at topright
+    show sinobu 18i at topleft with dissolve
+    tubasa "我也觉得，大家一起肯定更开心…。"
+    sinobu "嗯，"
+    extend "\n我也这么觉得。"
+    show tomo 1i at top with dissolve
+    tomo "……是啊！"
+    "好不容易都这么努力了，就一直坚持到最后吧！"
+    extend "\n那大家就一起去操场，Let's go！！"
+    stop music fadeout 2.0
+    window hide
+    hide tomo with dissolve
+    hide tubasa with dissolve
+    hide sinobu with dissolve
+    hide bg with dissolve
+    play music "FX/夜　虫.ogg"
+    show bg 校舎（夜） at center with Dissolve(1.0)
+    window show
+    "我们来到外面，夕阳已经落山了。\n但余晖和摊位的灯光交相辉映，街上依然很热闹。"
+    "在校园的正中央，大家为了御咲祭篝火晚会做准备，\n堆柴火的工作正在有序地进行。"
+    window hide
+    show bg 校庭（夜） with dissolve
+    window show
+    me "一直工作脚都酸了。"
+    extend "\n找个地方歇会儿吧。"
+    "这么说着，我们两人\n在远离操场的草坪上坐了下来。"
+    window hide
+    show tuki 9i at topleft
+    show sora 2i at topright with dissolve
+    window show
+    sora "这里的话，御咲焰火应该也很好看吧。"
+    tuki "是啊。"
+    hide sora with dissolve
+    hide tuki with dissolve
+    "远远眺望着，热闹非凡的学园祭的光景。"
+    extend "\n然后"
+    stop music fadeout 0.5
+    window hide
+    play music "帰宅.ogg"
+    play sound "FX/炎.ogg"
+    show cg キャンプファイヤー at center with lm_crossfade
+    window show
+    "终于点燃了柴火堆。"
+    "熊熊燃烧着的鲜红火焰。"
+    extend "\n真的好美啊……。"
+    window hide
+    window show
+    tubasa "……感觉好浪漫啊。"
+    tomo "是啊~。"
+    extend "\n要是拍电影的话，背景就是这焰火，然后就吻一下两下吧。"
+    play sound "FX/可愛い2.ogg"
+    tubasa "是，是这样吗！？"
+    extend "\n友，友友……如果你觉得我可以的话……那个…。"
+    play sound "FX/ビヨン.ogg"
+    extend "\n嗯……好，好痛好痛好痛！！"
+    extend "\n忍，忍君，不要拉我脸蛋~……！"
+    stop sound fadeout 1.0
+    window hide
+    hide cg with dissolve
+    show tubasa 7i at topright
+    show sinobu 6i at topleft with dissolve
+    window show
+    sinobu "这种事只有你们两人的时候再做。"
+    show sintarou 12i at top with dissolve
+    "慎太郎　我倒是无所谓啊，"
+    show sintarou 13i with dissolve
+    extend "\n不如说，你们这么做才更会让我们兴奋起来♪"
+    hide sintarou with dissolve
+    hide tubasa with dissolve
+    hide sinobu with dissolve
+    show tuki 9i at topleft
+    show sora 4i at topright with dissolve
+    tuki "空，你听见了没？"
+    extend "\n向着焰火，然后一边转身一边接吻好像是固定的套路。"
+    show sora 20i with dissolve
+    sora "这种事，我没听人说过，也没问过，更没有做过。"
+    show sora 4i with dissolve
+    extend "\n咦？"
+    extend "\n对了，穗海和猫山呢？"
+    me "刚才他们往操场的摊位那边过去了。"
+    extend "\n啊，正好回来了。"
+    window hide
+    hide tuki with dissolve
+    hide sora with dissolve
+    show sakuya 24i at topleft
+    show saburo 10i at topright with dissolve
+    window show
+    saburo "哟~我回来了~！"
+    extend "\n难得出来一趟，就想着买点果汁的下酒菜~！"
+    sakuya "炸鸡，炒面，土豆还有章鱼烧！"
+    extend "\n给我们买了好多呢~。"
+    me "『给我们买了好多』，不是你们自己买的吗？"
+    show sakuya 4i with dissolve
+    sakuya "怎么会是我们买的啊！"
+    show sakuya 21i with dissolve
+    extend "\n是老师的好意呀。"
+    show saburo 17i with dissolve
+    saburo "我就说了，要一起过来的。"
+    extend "\n这家伙，真的好小气啊~。"
+    show saburo 19i with dissolve
+    extend "\n不过嘛，我也是兴致勃勃地去交涉的！"
+    "真是不屈不挠……。将来，可能要成为大人物。"
+    play sound "FX/ダッ！.ogg"
+    extend "\n但是，我懂我懂。老师你其实也懂吧！！"
+    extend "\n这么可爱的两个学生央求你，你怎么能拒绝呢。"
+    hide sakuya with dissolve
+    hide saburo with dissolve
+    show tomo 4i at topleft with dissolve
+    tomo "厉害，Nice~！！"
+    show tomo 2i with dissolve
+    extend "\n那我们就心怀感激地收下了！"
+    show sinobu 12i at topright with dissolve
+    sinobu "之后，我们也得去跟老师道谢。"
+    me "嗯。"
+    extend "\n总之，执行委员都到齐了。"
+    stop music fadeout 3.0
+    extend "\n就让我们举杯，共同庆祝2年1班和2年2班合办的咖啡店取得成功吧。"
+    extend "\n那么，有请两个代表来带头干杯吧。"
+    window hide
+    hide sinobu with dissolve
+    hide tomo with dissolve
+    show tomo 17i at top with dissolve
+    play music "学祭だ！.ogg"
+    window show
+    tomo "好！"
+    show tomo 13i with dissolve
+    play sound "FX/可愛い2.ogg"
+    extend "\n各位~大家杯子都装了果汁吧~？"
+    everyone "是的~。"
+    hide tomo with dissolve
+    show tubasa 9i at top with dissolve
+    play sound "FX/可愛い.ogg"
+    tubasa "那……干杯！！"
+    window hide
+    play sound "FX/キラキラ.ogg"
+    show cg remarkable at center with lm_crossfade
+    window show
+    everyone "干杯！！！"
+    window hide
+    show cg 校舎１（夜 with dissolve
+    window show
+    "咕嘟咕嘟咕嘟！"
+    show bg 校庭１（夜） at center
+    me "嗯！真好喝！！"
+    extend "\n劳动之后喝的饮料为什么能让人这么舒服。"
+    extend "\n简直就像下班后的啤酒一样！"
+    window hide
+    hide cg with dissolve
+    hide tubasa with dissolve
+    show sintarou 20i at top with dissolve
+    window show
+    sintarou "你在说啥老头子一样的话啊。"
+    extend "\n对我们来说还早吧。"
+    window hide
+    hide sintarou with dissolve
+    show saburo 2i at top with dissolve
+    play sound "FX/可愛い.ogg"
+    window show
+    saburo "嚼嚼……"
+    extend "\n我……嚼嚼……"
+    show saburo 13i with dissolve
+    "章鱼烧……嚼嚼……"
+    extend "\n……虽然……"
+    show saburo 20i with dissolve
+    play sound "FX/ダッ！.ogg"
+    extend "嚼嚼嚼嚼……吵闹……"
+    show saburo 7i with dissolve
+    play sound "FX/可愛い3.ogg"
+    extend "嚼嚼……"
+    show saburo 17i with dissolve
+    extend "\n这个……嚼嚼……"
+    hide saburo with dissolve
+    show tubasa 8i at topright
+    show saburo 10i at topleft with dissolve
+    play sound "FX/可愛い2.ogg"
+    saburo "做得相当……嚼嚼……好吃！"
+    show tubasa 7i
+    play sound "FX/ビヨン.ogg"
+    tubasa "呐，猫山同学！"
+    extend "\n你一边吃一边说话，我都听不清楚你在说什么，\n而且吃的东西到处乱飞……！！"
+    window hide
+    hide tubasa with dissolve
+    hide saburo with dissolve
+    show tomo 31i at top with dissolve
+    window show
+    tomo "看起来真好吃~！！"
+    extend "\n我也来一份~！"
+    show tomo 18i with dissolve
+    extend "\n……诶？？我的份呢？"
+    hide tomo with dissolve
+    show sakuya 3i at topleft
+    show tomo 28i at topright with dissolve
+    sakuya "嘿！"
+    extend "\n这可轮不到你来吃！！"
+    show sakuya 24i with dissolve
+    extend "\n啊~绝品啊，这章鱼烧。"
+    show tomo 5i with dissolve
+    play sound "FX/ビヨン.ogg"
+    tomo "技，技安！！！"
+    extend "\n把那章鱼烧给我~！！"
+    hide tomo with dissolve
+    hide sakuya with dissolve
+    play sound "FX/風を切る.ogg"
+    "作哉和友"
+    play sound "FX/ひらめき！.ogg"
+    "开始你争我抢起来"
+    play sound "FX/爆発２.ogg"
+    "。"
+    window hide
+    show sinobu 26i at top with dissolve
+    window show
+    sinobu "……焰火，真是漂亮呢。"
+    show sora 2i at topleft with dissolve
+    sora "嗯，让人感觉心平气和。"
+    show tuki 9i at topright with dissolve
+    tuki "劳顿之后的疲惫也缓解了。"
+    hide tuki with dissolve
+    hide sora with dissolve
+    hide sinobu with dissolve
+    play sound "FX/キラキラ.ogg"
+    show tuki 4i at topright
+    show sora 32i at topleft
+    show sinobu 18i at top with dissolve
+    "忍、月、空「（陶醉……）」"
+    hide tuki with dissolve
+    hide sora with dissolve
+    hide sinobu with dissolve
+    "就这样，在热闹非凡的后夜祭中，我们开了一场小小的庆功宴。"
+    "……。"
+    window hide
+    show cg c88 1 at center with lm_crossfade
+    window show
+    "友，"
+    show cg c88 2 with lm_crossfade
+    extend "友，"
+    show cg c88 3 with lm_crossfade
+    extend "翼，"
+    show cg c88 4 with lm_crossfade
+    extend "月，"
+    show cg c88 5 with lm_crossfade
+    extend "空，"
+    show cg c88 6 with lm_crossfade
+    extend "忍，"
+    show cg c88 7 with lm_crossfade
+    extend "作哉，"
+    show cg c88 8 with lm_crossfade
+    extend "三朗，"
+    extend "慎太郎"
+    window hide
+    show cg 月（夜） with Dissolve(0.8)
+    window show
+    "……在这个梦幻的世界中，能和大家搞好关系，实在是太好了。"
+    extend "\n御咲祭也圆满成功了，也和大家一起看了这焰火。"
+    extend "\n愿望全都实现了。……"
+    window hide
+    show cg キャンプファイヤー（火の粉） with Dissolve(0.8)
+    window show
+    "在这片燃烧的红炎之中，我的意识逐渐淡去……。"
+    extend "\n……梦已经结束了。"
+    "梦的记忆是模糊的。"
+    extend "\n在醒过来的同时，也会忘记这场梦。"
+    extend "\n只留下甜美的回忆，其他的一切都被带去忘却的彼方而消散。"
+    stop music fadeout 4.0
+    "好了……差不多该起来了。"
+    window hide
+    hide tubasa with dissolve
+    hide sinobu with dissolve
+    hide sora with dissolve
+    hide cg with dissolve
+    hide bg with dissolve
+    hide tuki with dissolve
+    pause 0.6
+    window show
+    "···。"
+    window hide
+    play music "FX/燕.ogg"
+    show bg 主人公家 at center with Dissolve(1.0)
+    pause 0.6
+    hide bg with dissolve
+    window show
+    play sound "FX/目覚まし.ogg"
+    "哔哔哔哔哔哔哔哔"
+    window hide
+    show bg 主人公部屋（朝） at center with dissolve
+    window show
+    me "啊……已经早上了吗……？"
+    extend "\n唔~我好像并没有睡多少啊……。"
+    stop sound fadeout 0.5
+    "我望向餐桌，上面放着一张传单。"
+    play sound "FX/紙.ogg"
+    me "嗯？这是……"
+    extend "啊，对对对，昨天回来的时候拿到的。"
+    extend "\n那些孩子们，真可爱啊……。"
+    me "……好！那天我一定要去好好享受！"
+    play sound "FX/可愛い2.ogg"
+    extend "\n然后在脑海里尽情幻想！！"
+    window hide
+    hide bg with dissolve
+    stop music fadeout 0.5
+    window show
+    "御咲祭当天ーーーーーー"
+    window hide
+    play music "静かな昼休み.ogg"
+    show bg 校舎（全貌） at center with Dissolve(1.0)
+    pause 0.4
+    show bg 廊下 with Dissolve(1.0)
+    window show
+    me "我想想……记得说是2年1班和2年2班的咖啡店。"
+    extend "\n唔？"
+    play sound "FX/引き戸.ogg"
+    show bg 喫茶店 with dissolve
+    "是这个吗？"
+    "正当我站在店门口犹豫不决的时候，"
+    extend "穿着红领带的男孩从店里走了出来。"
+    window hide
+    show cg adult at center with Dissolve(0.8)
+    window show
+    unknown "欢迎光临。"
+    extend "您是一个人来吗？"
+    extend "\n请往这边走……请尽情享受吧。"
+    window hide
+    hide bg with lm_crossfade
+    hide cg with lm_crossfade
+    pause 0.6
+    show bg 喫茶店（夕方） at center with Dissolve(0.7)
+    pause 0.6
+    show bg alled with Dissolve(0.8)
+    pause 1.3
+    stop music fadeout 1.5
+    hide bg with dissolve
+    pause 0.5
+    show bg 制作 at center with dissolve
+    pause 0.8
+    hide bg with dissolve
+    return
