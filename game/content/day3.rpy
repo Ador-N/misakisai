@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # Converted from 000001FA.lns
 
-label day3_start:
+label day3:
     play music "FX/燕.ogg"
     show bg 主人公家 at center with Dissolve(1.0)
     pause 0.4
@@ -41,7 +41,7 @@ label day3_start:
     hide bg with dissolve
     return
 
-label s000001FA_000001FD:
+label day3_1:
     play sound "FX/ドアを開ける.ogg"
     show bg 空 at center with lm_crossfade
     play music "登校！.ogg"
@@ -56,7 +56,7 @@ label s000001FA_000001FD:
     hide bg with dissolve
     return
 
-label s000001FA_000001FE:
+label day3_1_tomo_sinobu:
     show bg 通学路 at center with dissolve
     show tomo 13 at top with dissolve
     play sound "FX/可愛い.ogg"
@@ -192,7 +192,7 @@ label s000001FA_000001FE:
     pause 0.4
     return
 
-label s000001FA_000001FF:
+label day3_1_saburo_sakuya_tubasa:
     show bg 通学路 at center with dissolve
     show saburo 10 at top with dissolve
     window show
@@ -316,7 +316,7 @@ label s000001FA_000001FF:
     pause 0.4
     return
 
-label s000001FA_00000200:
+label day3_1_sintarou_tuki_sora:
     show bg 通学路 at center with dissolve
     show sintarou 8 at topleft with dissolve
     window show
@@ -460,7 +460,7 @@ label s000001FA_00000200:
     pause 0.4
     return
 
-label s000001FA_00000201:
+label day3_2_tomo:
     show bg 校舎（朝 at center with lm_crossfade
     play sound "FX/チャイム.ogg"
     pause 0.4
@@ -647,7 +647,7 @@ label s000001FA_00000201:
     hide cg with dissolve
     return
 
-label s000001FA_00000202:
+label day3_2_sinobu:
     show bg 校舎（朝 at center with lm_crossfade
     play sound "FX/チャイム.ogg"
     pause 0.4
@@ -818,7 +818,7 @@ label s000001FA_00000202:
     hide bg with dissolve
     return
 
-label s000001FA_00000203:
+label day3_2_futago:
     show bg 校舎（朝 at center with lm_crossfade
     play sound "FX/チャイム.ogg"
     pause 0.4
@@ -878,7 +878,7 @@ label s000001FA_00000203:
     me "嗯？这煎鸡蛋……有点咸。"
     return
 
-label s000001FA_00000204:
+label day3_2_sintarou:
     show bg 校舎（朝 at center with lm_crossfade
     play sound "FX/チャイム.ogg"
     pause 0.4
@@ -1039,7 +1039,7 @@ label s000001FA_00000204:
     hide bg with dissolve
     return
 
-label s000001FA_00000205:
+label day3_2_tubasa:
     show bg 校舎（朝 at center with lm_crossfade
     play sound "FX/チャイム.ogg"
     pause 0.4
@@ -1192,7 +1192,7 @@ label s000001FA_00000205:
     hide bg with dissolve
     return
 
-label s000001FA_00000206:
+label day3_2_saburo:
     show bg 校舎（朝 at center with lm_crossfade
     play sound "FX/チャイム.ogg"
     pause 0.4
@@ -1446,7 +1446,7 @@ label s000001FA_00000206:
     hide cg with dissolve
     return
 
-label s000001FA_00000207:
+label day3_2_sakuya:
     show bg 校舎（朝 at center with lm_crossfade
     play sound "FX/チャイム.ogg"
     pause 0.4
@@ -1650,7 +1650,7 @@ label s000001FA_00000207:
     hide bg with dissolve
     return
 
-label s000001FA_00000209:
+label day3_design:
     hide 班選択 with dissolve
     window show
     "去『服装制作组』看看吧！"
@@ -1803,7 +1803,7 @@ label s000001FA_00000209:
     hide tomo with dissolve
     return
 
-label s000001FA_0000020A:
+label day3_layout:
     hide 班選択 with dissolve
     window show
     "去『布置组』看看吧！"
@@ -1826,7 +1826,7 @@ label s000001FA_0000020A:
     hide tubasa with dissolve
     return
 
-label s000001FA_0000020B:
+label day3_cooking:
     hide 班選択 with dissolve
     window show
     "去『料理组』看看吧！"
@@ -2002,7 +2002,7 @@ label s000001FA_0000020B:
     extend "\n怎么办……。"
     return
 
-label s000001FA_0000020C:
+label day3_supply:
     hide 班選択 with dissolve
     window show
     "去「采购组」吧！"
@@ -2090,7 +2090,7 @@ label s000001FA_0000020C:
     show bg デパート2 at center with Dissolve(0.8)
     return
 
-label s000001FA_0000020E:
+label day3_design_tomo:
     show bg 教室 at center
     window show
     "嗯，话说，友的形象像是黄色的呢。"
@@ -2201,7 +2201,7 @@ label s000001FA_0000020E:
     extend "\n"
     return
 
-label s000001FA_0000020F:
+label day3_design_sintarou:
     show bg 教室 at center
     window show
     "嗯这么说起来，橘色总感觉和慎太郎的形象挺像的。"
@@ -2314,7 +2314,7 @@ label s000001FA_0000020F:
     extend "\n"
     return
 
-label s000001FA_00000212:
+label day3_layout_tubasa:
     show bg 教室 at center
     window show
     window hide
@@ -2355,7 +2355,7 @@ label s000001FA_00000212:
     extend "\n那就来考虑咖啡店的内部构造吧。"
     return
 
-label s000001FA_00000213:
+label day3_layout_sinobu_unused:
     window show
     window hide
     show sinobu 21 at topleft with dissolve
@@ -2467,7 +2467,7 @@ label s000001FA_00000213:
     extend "\n关键的结论也很成功，真是太棒了。"
     return
 
-label s000001FA_00000214:
+label day3_cooking_tuki:
     show bg 家庭科室（夕方 at center
     window show
     "\n不好意思，可以帮我把放在那边的碗\n拿过来吗？"
@@ -2796,7 +2796,7 @@ label s000001FA_00000214:
     hide sora with dissolve
     return
 
-label s000001FA_00000215:
+label day3_cooking_sora:
     show bg 家庭科室（夕方 at center
     window show
     "\n不好意思，可以帮我把放在那边的碗\n拿过来吗？"
@@ -3111,7 +3111,7 @@ label s000001FA_00000215:
     hide cg with dissolve
     return
 
-label s000001FA_00000216:
+label day3_supply_sakuya:
     show bg デパート2 at center
     play music "sakuya.ogg"
     window show
@@ -3166,7 +3166,7 @@ label s000001FA_00000216:
     hide sakuya with dissolve
     return
 
-label s000001FA_00000217:
+label day3_supply_saburo:
     show bg デパート2 at center
     play music "saburo.ogg"
     window show
@@ -3217,7 +3217,7 @@ label s000001FA_00000217:
     hide bg with dissolve
     return
 
-label s000001FA_00000218:
+label day3_layout_2:
     show bg 第二多目的室 at center with dissolve
     play music "午後の授業.ogg"
     show tubasa 13 at topright with dissolve
@@ -3451,7 +3451,7 @@ label s000001FA_00000218:
     hide bg with dissolve
     return
 
-label s000001FA_00000219:
+label day3_layout_2_sinobu:
     show bg 下駄箱（夕方） at center with dissolve
     window show
     me "好，今天也辛苦了！"
@@ -3587,7 +3587,7 @@ label s000001FA_00000219:
     hide bg with dissolve
     return
 
-label s000001FA_0000021A:
+label day3_layout_2_tubasa:
     show bg 下駄箱（夕方） at center with dissolve
     window show
     me "好，今天也辛苦了！"
@@ -3811,7 +3811,7 @@ label s000001FA_0000021A:
     window hide
     return
 
-label s000001FA_0000021B:
+label day3_3:
     pause 0.4
     show bg 廊下 at center with dissolve
     play music "登校！.ogg"
@@ -3866,7 +3866,7 @@ label s000001FA_0000021B:
     window hide
     return
 
-label s000001FA_0000021C:
+label day3_3_tomo:
     show tomo 7 at top with dissolve
     window show
     tomo "[player_name]君，怎么了吗？"
@@ -3874,7 +3874,7 @@ label s000001FA_0000021C:
     hide tomo with dissolve
     return
 
-label s000001FA_0000021D:
+label day3_3_sintarou:
     show sintarou 22 at top with dissolve
     window show
     sintarou "怎么了~[player_name]酱。"
@@ -3882,7 +3882,7 @@ label s000001FA_0000021D:
     hide sintarou with dissolve
     return
 
-label s000001FA_0000021E:
+label day3_3_sinobu:
     show sinobu 2 at top with dissolve
     window show
     sinobu "怎么了？"
@@ -3890,7 +3890,7 @@ label s000001FA_0000021E:
     hide sinobu with dissolve
     return
 
-label s000001FA_0000021F:
+label day3_3_tubasa:
     show tubasa 1 at top with dissolve
     window show
     tubasa "[player_name]君……？"
@@ -3898,7 +3898,7 @@ label s000001FA_0000021F:
     hide tubasa with dissolve
     return
 
-label s000001FA_00000220:
+label day3_3_sora:
     show sora 5 at top with dissolve
     window show
     sora "[player_name]君，怎么了？"
@@ -3906,14 +3906,14 @@ label s000001FA_00000220:
     hide sora with dissolve
     return
 
-label s000001FA_00000221:
+label day3_3_tuki:
     show tuki 6 at top with dissolve
     window show
     me "没，没事，没事。"
     hide tuki with dissolve
     return
 
-label s000001FA_00000222:
+label day3_3_saburo:
     show saburo 6 at top with dissolve
     window show
     saburo "怎么了？[player_surname]。"
@@ -3921,7 +3921,7 @@ label s000001FA_00000222:
     hide saburo with dissolve
     return
 
-label s000001FA_00000223:
+label day3_3_sakuya:
     show sakuya 10 at top with dissolve
     window show
     sakuya "喂，怎么了？"
@@ -3929,7 +3929,7 @@ label s000001FA_00000223:
     hide sakuya with dissolve
     return
 
-label s000001FA_00000224:
+label day3_4:
     window show
     "现在去想这些也没用。"
     extend "\n集中精神做眼前的事吧。"
@@ -3944,7 +3944,7 @@ label s000001FA_00000224:
     show 班選択 班選択メッセージ at center with dissolve
     return
 
-label s000001FA_00000225:
+label day3_2_sora:
     show bg 教室 at center
     show sora 19 at top with dissolve
     window show
@@ -4074,7 +4074,7 @@ label s000001FA_00000225:
     stop music fadeout 0.5
     return
 
-label s000001FA_00000226:
+label day3_2_tuki:
     show bg 教室 at center
     show tuki 16 at top with dissolve
     window show
@@ -4209,7 +4209,7 @@ label s000001FA_00000226:
     stop music fadeout 0.5
     return
 
-label s000001FA_00000227:
+label day3_supply_2:
     play music "梅咲２.ogg"
     show bg デパート１ at center with Dissolve(0.8)
     window show
@@ -4237,7 +4237,7 @@ label s000001FA_00000227:
     hide saburo with dissolve
     return
 
-label s000001FA_00000228:
+label day3_supply_2_saburo:
     stop music fadeout 2.0
     window show
     "\n机会难得，就去逛逛吧。"
@@ -4552,7 +4552,7 @@ label s000001FA_00000228:
     hide saburo with dissolve
     return
 
-label s000001FA_00000229:
+label day3_supply_2_sakuya:
     stop music fadeout 2.0
     window show
     window hide
@@ -4943,7 +4943,7 @@ label s000001FA_00000229:
     hide bg with dissolve
     return
 
-label s000001FA_0000022A:
+label day3_design_2_tomo:
     window show
     "现在就是一不做二不休……！！"
     me "那要不要现在就一起去玩？"
@@ -5301,7 +5301,7 @@ label s000001FA_0000022A:
     stop music fadeout 0.5
     return
 
-label s000001FA_0000022B:
+label day3_design_2_sintarou:
     window show
     "现在就是一不做二不休……！！"
     me "那要不要现在就一起去玩？"
@@ -5669,7 +5669,7 @@ label s000001FA_0000022B:
     window hide
     return
 
-label s000001FA_0000022C:
+label day3_design_2_self:
     window show
     window hide
     show sintarou 15 with dissolve
@@ -5700,7 +5700,7 @@ label s000001FA_0000022C:
     hide cg with dissolve
     return
 
-label s000001FA_0000022D:
+label day3_layout_sinobu_2:
     show sinobu 18 with dissolve
     window show
     "\n[player_name]你能这么说，真是太好了。"
@@ -5735,7 +5735,7 @@ label s000001FA_0000022D:
     hide bg with dissolve
     return
 
-label s000001FA_0000022E:
+label day3_layout_tubasa_2:
     show cg １・２組喫茶店（想像 at center with lm_crossfade
     window show
     me "嗯。\n嗯，我记得店长说过，设置柜台的话就在这里。"
@@ -5831,7 +5831,7 @@ label s000001FA_0000022E:
     stop music fadeout 0.5
     return
 
-label s000001FA_0000022F:
+label day3_layout_sinobu_2_noday2:
     hide sinobu with dissolve
     show sinobu 29 at top with dissolve
     window show
@@ -5843,7 +5843,7 @@ label s000001FA_0000022F:
     hide sinobu with dissolve
     return
 
-label s000001FA_00000230:
+label day3_layout_tubasa_2_noday2:
     show cg １・２組喫茶店（想像 at center with lm_crossfade
     window show
     tubasa "根据前几天去的「美馨儿咖啡」的店长的说明，\n如果想要设置柜台座位，这里是最适合的。"
@@ -5893,7 +5893,7 @@ label s000001FA_00000230:
     hide bg with dissolve
     return
 
-label s000001FA_00000231:
+label day3_supply_self:
     show bg デパート2 at center
     play music "可愛いおとぼけ.ogg"
     window show
@@ -5959,7 +5959,7 @@ label s000001FA_00000231:
     hide sakuya with dissolve
     return
 
-label s000001FA_00000232:
+label day3_design_sirou:
     hide 班選択 with dissolve
     window show
     "去『服装制作组』看看吧！"
@@ -6001,7 +6001,7 @@ label s000001FA_00000232:
     hide sintarou with dissolve
     return
 
-label s000001FA_00000233:
+label day3_supply_sirou:
     hide 班選択 with dissolve
     window show
     "去「采购组」吧！"
@@ -6047,7 +6047,7 @@ label s000001FA_00000233:
     hide sakuya with dissolve
     return
 
-label s000001FA_00000234:
+label day3_layout_sirou:
     hide 班選択 with dissolve
     window show
     "去『布置组』看看吧！"
@@ -6087,7 +6087,7 @@ label s000001FA_00000234:
     hide tubasa with dissolve
     return
 
-label s000001FA_00000235:
+label day3_cooking_sirou:
     hide 班選択 with dissolve
     window show
     "去『料理组』看看吧！"
@@ -6131,7 +6131,7 @@ label s000001FA_00000235:
     hide tuki with dissolve
     return
 
-label s000001FA_00000236:
+label day3_sirou:
     stop music fadeout 0.5
     pause 0.4
     show cg 校舎 at center with Dissolve(0.7)
@@ -6376,7 +6376,7 @@ label s000001FA_00000236:
     hide cg with dissolve
     return
 
-label s000001FA_00000239:
+label day3_cooking_all:
     hide 班選択 with dissolve
     window show
     "去『料理组』看看吧！"
@@ -6432,7 +6432,7 @@ label s000001FA_00000239:
     hide cg with dissolve
     return
 
-label s000001FA_0000023C:
+label day3_layout_sinobu:
     window show
     window hide
     show sinobu 21 at topleft with dissolve
@@ -6543,7 +6543,7 @@ label s000001FA_0000023C:
     extend "\n关键的结论也很成功，真是太棒了。"
     return
 
-label s000001FA_000002CC:
+label day3_layout_tubasa_2_noinroute:
     show cg １・２組喫茶店（想像 at center with lm_crossfade
     window show
     me "嗯。\n嗯，我记得店长说过，设置柜台的话就在这里。"

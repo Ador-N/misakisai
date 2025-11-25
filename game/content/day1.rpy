@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # Converted from 00000182.lns
 
-label day1_start:
+label day1:
     window show
     "···"
     window hide
@@ -121,7 +121,7 @@ label day1_start:
     hide bg with dissolve
     return
 
-label s00000182_00000185:
+label day1_1:
     play sound "FX/引き戸.ogg"
     show bg 廊下 at center with dissolve
     window show
@@ -252,7 +252,7 @@ label s00000182_00000185:
     hide bg with dissolve
     return
 
-label s00000182_00000186:
+label day1_2:
     show bg 教室 at center with dissolve
     play music "可愛いおとぼけ.ogg"
     window show
@@ -499,7 +499,7 @@ label s00000182_00000186:
     show 班選択 班選択メッセージ at center with dissolve
     return
 
-label s00000182_00000187:
+label day1_design:
     hide 班選択 with dissolve
     window show
     me "我去『服装组』！"
@@ -739,7 +739,7 @@ label s00000182_00000187:
     hide sintarou with dissolve
     return
 
-label s00000182_00000188:
+label day1_layout:
     hide 班選択 with dissolve
     window show
     me "去『布置组』看看吧！"
@@ -984,7 +984,7 @@ label s00000182_00000188:
     hide tubasa with dissolve
     return
 
-label s00000182_00000189:
+label day1_cooking:
     hide 班選択 with dissolve
     window show
     me "我去『料理组』看看！"
@@ -1210,7 +1210,7 @@ label s00000182_00000189:
     hide sora with dissolve
     return
 
-label s00000182_0000018A:
+label day1_supply:
     hide 班選択 with dissolve
     window show
     me "我去『采购组』！"
@@ -1313,7 +1313,7 @@ label s00000182_0000018A:
     "好，我走出教室后要去的地方是……"
     return
 
-label s00000182_0000018D:
+label day1_design_tomo:
     window show
     "\n说不定会发生像刚刚那样的有趣的事情。"
     me "那我也先离开一下。"
@@ -1564,7 +1564,7 @@ label s00000182_0000018D:
     hide bg with dissolve
     return
 
-label s00000182_0000018E:
+label day1_design_sintarou:
     show bg 教室（夕方） at center
     window show
     "我再次凝视着放在我桌上的画。"
@@ -1860,7 +1860,7 @@ label s00000182_0000018E:
     hide bg with dissolve
     return
 
-label s00000182_0000019B:
+label day1_layout_sinobu:
     window show
     me "我出去逛逛。"
     window hide
@@ -2078,7 +2078,7 @@ label s00000182_0000019B:
     hide bg with dissolve
     return
 
-label s00000182_0000019C:
+label day1_layout_tubasa:
     stop music fadeout 1.0
     window show
     "\n我要留在教室里，想问这孩子一些事呢~♪"
@@ -2326,7 +2326,7 @@ label s00000182_0000019C:
     hide bg with dissolve
     return
 
-label s00000182_0000019D:
+label day1_cooking_tuki:
     show bg 保健室 at center
     window show
     "\n不好意思，你能留下来吗？"
@@ -2530,7 +2530,7 @@ label s00000182_0000019D:
     hide bg with dissolve
     return
 
-label s00000182_0000019E:
+label day1_supply_sakuya:
     window show
     "但是，到底为什么会去那种地方呢？"
     extend "\n说到校后……"
@@ -2886,7 +2886,7 @@ label s00000182_0000019E:
     hide bg with dissolve
     return
 
-label s00000182_0000019F:
+label day1_cooking_sora:
     show bg 保健室 at center
     window show
     "\n不好意思，你能留下来吗？"
@@ -3096,7 +3096,7 @@ label s00000182_0000019F:
     hide bg with dissolve
     return
 
-label s00000182_000001A0:
+label day1_supply_saburo:
     window show
     window hide
     show bg 階段 with dissolve
@@ -3397,7 +3397,7 @@ label s00000182_000001A0:
     hide bg with dissolve
     return
 
-label s00000182_000001A1:
+label day1_3:
     show bg 校舎夕方（全貌） at center with Dissolve(0.9)
     play music "静かな昼休み.ogg"
     pause 0.6
@@ -3433,7 +3433,7 @@ label s00000182_000001A1:
     window hide
     return
 
-label s00000182_000001A2:
+label day1_3_tomo:
     show tomo 21 at top with dissolve
     window show
     tomo "[player_name]君，怎么了？"
@@ -3441,7 +3441,7 @@ label s00000182_000001A2:
     hide tomo with dissolve
     return
 
-label s00000182_000001A3:
+label day1_3_sintarou:
     show sintarou 14 at top with dissolve
     window show
     sintarou "怎么了？[player_name]酱。"
@@ -3449,7 +3449,7 @@ label s00000182_000001A3:
     hide sintarou with dissolve
     return
 
-label s00000182_000001A4:
+label day1_3_sinobu:
     show sinobu 5 at top with dissolve
     window show
     sinobu "……怎么了？"
@@ -3457,7 +3457,7 @@ label s00000182_000001A4:
     hide sinobu with dissolve
     return
 
-label s00000182_000001A5:
+label day1_3_tubasa:
     show tubasa 2 at top with dissolve
     window show
     tubasa "那，那个，[player_name]君，怎么了？"
@@ -3465,7 +3465,7 @@ label s00000182_000001A5:
     hide tubasa with dissolve
     return
 
-label s00000182_000001A6:
+label day1_3_sora:
     show sora 5 at top with dissolve
     window show
     sora "没事吧？[player_name]君。"
@@ -3473,7 +3473,7 @@ label s00000182_000001A6:
     hide sora with dissolve
     return
 
-label s00000182_000001A7:
+label day1_3_tuki:
     show tuki 17 at top with dissolve
     window show
     tuki "没事吧？[player_surname]。"
@@ -3481,7 +3481,7 @@ label s00000182_000001A7:
     hide tuki with dissolve
     return
 
-label s00000182_000001A8:
+label day1_3_saburo:
     show saburo 6 at top with dissolve
     window show
     saburo "[player_surname]，你干什么呢？"
@@ -3489,7 +3489,7 @@ label s00000182_000001A8:
     hide saburo with dissolve
     return
 
-label s00000182_000001A9:
+label day1_3_sakuya:
     show sakuya 6 at top with dissolve
     window show
     sakuya "喂，干什么呢。"
@@ -3497,7 +3497,7 @@ label s00000182_000001A9:
     hide sakuya with dissolve
     return
 
-label s00000182_000001AA:
+label day1_4:
     window show
     "\n怀着难以抹去的不安，我踏上了归途。"
     window hide
@@ -3600,7 +3600,7 @@ label s00000182_000001AA:
     hide bg with dissolve
     return
 
-label s00000182_000001AB:
+label day1_4_tomo:
     show tomo at top with dissolve
     window show
     "还想再和友君他们多好好相处，想一起度过御咲祭。"
@@ -3611,7 +3611,7 @@ label s00000182_000001AB:
     window hide
     return
 
-label s00000182_000001AC:
+label day1_4_sintarou:
     show sintarou at top with dissolve
     window show
     "还想再和慎太郎他们多好好相处，想一起度过御咲祭。"
@@ -3622,7 +3622,7 @@ label s00000182_000001AC:
     window hide
     return
 
-label s00000182_000001AD:
+label day1_4_sinobu:
     show sinobu at top with dissolve
     window show
     "还想再和忍君他们多好好相处，想一起度过御咲祭。"
@@ -3634,7 +3634,7 @@ label s00000182_000001AD:
     window hide
     return
 
-label s00000182_000001AE:
+label day1_4_tubasa:
     show tubasa at top with dissolve
     window show
     "还想再和翼君他们多好好相处，想一起度过御咲祭。"
@@ -3646,7 +3646,7 @@ label s00000182_000001AE:
     window hide
     return
 
-label s00000182_000001AF:
+label day1_4_sora:
     show sora at top with dissolve
     window show
     "还想再和空君他们多好好相处，想一起度过御咲祭。"
@@ -3658,7 +3658,7 @@ label s00000182_000001AF:
     window hide
     return
 
-label s00000182_000001B0:
+label day1_4_saburo:
     show saburo at top with dissolve
     window show
     "还想再和三朗君他们多好好相处，想一起度过御咲祭。"
@@ -3670,7 +3670,7 @@ label s00000182_000001B0:
     window hide
     return
 
-label s00000182_000001B1:
+label day1_4_tuki:
     show tuki at top with dissolve
     window show
     "还想再和月君他们多好好相处，想一起度过御咲祭。"
@@ -3682,7 +3682,7 @@ label s00000182_000001B1:
     window hide
     return
 
-label s00000182_000001B2:
+label day1_4_sakuya:
     show sakuya at top with dissolve
     window show
     "还想再和作哉君他们多好好相处，想一起度过御咲祭。"

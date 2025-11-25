@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # Converted from 00000154.lns
 
-label day0_start:
+label day0:
     show bg 月（夜） at center with Dissolve(2.0)
     play sound "電車.ogg"
     pause 0.6
@@ -58,7 +58,7 @@ label day0_start:
     hide cg with dissolve
     return
 
-label s00000154_00000159:
+label day0_1:
     show bg 駅前（夜） at center with dissolve
     window show
     "刚出检票口，就看见一个少年在出口那边大声地叫着。"
@@ -171,7 +171,7 @@ label s00000154_00000159:
     hide bg with dissolve
     return
 
-label s00000154_0000015A:
+label day0_2:
     show bg 歩道（夜） at center with dissolve
     window show
     me "『前辈』啊……"
@@ -251,7 +251,7 @@ label s00000154_0000015A:
     hide bg with dissolve
     return
 
-label s00000154_0000015B:
+label day0_3:
     show bg フードショップ（夜） at center with dissolve
     window show
     clerk "点汉堡的客人！让您久等了。"
@@ -304,7 +304,7 @@ label s00000154_0000015B:
     hide bg with dissolve
     return
 
-label s00000154_0000015C:
+label day0_4:
     stop music fadeout 2.0
     play music "FX/夜　虫.ogg"
     show bg 住宅街（夜） at center with Dissolve(1.5)
@@ -347,7 +347,7 @@ label s00000154_0000015C:
     stop sound fadeout 1.0
     return
 
-label s00000154_0000015D:
+label day0_normal_1:
     show bg 主人公家（夜） at center with dissolve
     window show
     "呼。终于到家了。"
@@ -453,7 +453,7 @@ label s00000154_0000015D:
     window hide
     return
 
-label s00000154_00000160:
+label day0_tomo_before:
     show tomo 12 at top with Dissolve(2.5)
     window show
     "嗯……？ 请问您是……。"
@@ -461,7 +461,7 @@ label s00000154_00000160:
     show tomo 1 with dissolve
     return
 
-label s00000154_00000161:
+label day0_tubasa_before:
     show tubasa 1 at top with Dissolve(2.5)
     window show
     "嗯……？ 请问您是……。"
@@ -469,7 +469,7 @@ label s00000154_00000161:
     show tubasa 3 with dissolve
     return
 
-label s00000154_00000162:
+label day0_sinobu_before:
     show sinobu 4 at top with Dissolve(2.5)
     window show
     "嗯……？ 请问您是……。"
@@ -477,7 +477,7 @@ label s00000154_00000162:
     show sinobu 5 with dissolve
     return
 
-label s00000154_00000163:
+label day0_tuki_before:
     show tuki 2 at top with Dissolve(2.5)
     window show
     "嗯……？ 请问您是……。"
@@ -485,7 +485,7 @@ label s00000154_00000163:
     show tuki 6 with dissolve
     return
 
-label s00000154_00000164:
+label day0_sora_before:
     show sora 7 at top with Dissolve(2.5)
     window show
     "嗯……？ 请问您是……。"
@@ -493,7 +493,7 @@ label s00000154_00000164:
     show sora 2 with dissolve
     return
 
-label s00000154_00000165:
+label day0_sintarou_before:
     show sintarou 3 at top with Dissolve(2.5)
     window show
     "嗯……？ 请问您是……。"
@@ -501,7 +501,7 @@ label s00000154_00000165:
     show sintarou 4 with dissolve
     return
 
-label s00000154_00000166:
+label day0_saburo_before:
     show saburo 1 at top with Dissolve(2.5)
     window show
     "嗯……？ 请问您是……。"
@@ -509,7 +509,7 @@ label s00000154_00000166:
     show saburo 2 with dissolve
     return
 
-label s00000154_00000167:
+label day0_sakuya_before:
     show sakuya 6 at top with Dissolve(2.5)
     window show
     "嗯……？ 请问您是……。"
@@ -517,7 +517,7 @@ label s00000154_00000167:
     show sakuya 4 with dissolve
     return
 
-label s00000154_00000168:
+label day0_tomo_after:
     window show
     show tomo 4 with dissolve
     boy1 "真是谢谢你了！[player_surname][player_name]前辈！！"
@@ -528,7 +528,7 @@ label s00000154_00000168:
     window hide
     return
 
-label s00000154_00000171:
+label day0_tubasa_after:
     window show
     show tubasa 4 with dissolve
     boy2 "真是非常感谢。[player_surname][player_name]桑。"
@@ -539,7 +539,7 @@ label s00000154_00000171:
     window hide
     return
 
-label s00000154_00000172:
+label day0_sinobu_after:
     window show
     show sinobu 3 with dissolve
     boy6 "我知道了，非常感谢，[player_surname][player_name]桑。"
@@ -550,7 +550,7 @@ label s00000154_00000172:
     window hide
     return
 
-label s00000154_00000173:
+label day0_tuki_after:
     window show
     show tuki 4 with dissolve
     boy5 "谢谢。[player_surname][player_name]桑。   是吧"
@@ -561,7 +561,7 @@ label s00000154_00000173:
     window hide
     return
 
-label s00000154_00000174:
+label day0_sora_after:
     window show
     show sora 1 with dissolve
     boy3 "谢谢了。[player_surname][player_name]小哥。"
@@ -572,7 +572,7 @@ label s00000154_00000174:
     window hide
     return
 
-label s00000154_00000175:
+label day0_sintarou_after:
     window show
     show sintarou 2 with dissolve
     boy4 "ＯＫ！[player_surname][player_name]再见！"
@@ -583,7 +583,7 @@ label s00000154_00000175:
     window hide
     return
 
-label s00000154_00000176:
+label day0_sakuya_after:
     window show
     show sakuya 5 with dissolve
     boy7 "您好。[player_surname][player_name]学长！"
@@ -594,7 +594,7 @@ label s00000154_00000176:
     window hide
     return
 
-label s00000154_00000177:
+label day0_saburo_after:
     window show
     show saburo 5 with dissolve
     boy8 "谢谢，[player_surname][player_name]桑！"
@@ -605,7 +605,7 @@ label s00000154_00000177:
     window hide
     return
 
-label s00000154_00000179:
+label day0_hidden:
     play music "FX/風.ogg"
     show bg 住宅街（夜） at center
     show nori 4 at top with dissolve
@@ -694,7 +694,7 @@ label s00000154_00000179:
     hide bg with dissolve
     return
 
-label s00000154_0000017A:
+label day0_normal:
     play music "朔.ogg"
     show bg 公園（夜） at center with Dissolve(1.5)
     show nori 4 at top with Dissolve(0.9)
@@ -797,7 +797,7 @@ label s00000154_0000017A:
     hide cg with dissolve
     return
 
-label s00000154_0000017B:
+label day0_hidden_1:
     window show
     "···"
     window hide
@@ -1064,7 +1064,7 @@ label s00000154_0000017B:
     hide yuuhi with dissolve
     return
 
-label s00000154_0000017C:
+label day0_hidden_nori:
     show bg 地下牢 at center
     stop music fadeout 0.5
     play music "侵入.ogg"
@@ -1380,7 +1380,7 @@ label s00000154_0000017C:
     hide bg with dissolve
     return
 
-label s00000154_0000017D:
+label day0_hidden_yuuhi:
     show bg 地下牢 at center
     stop music fadeout 0.5
     play music "侵入.ogg"

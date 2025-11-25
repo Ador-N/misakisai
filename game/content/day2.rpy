@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # Converted from 000001B3.lns
 
-label day2_start:
+label day2:
     play music "FX/燕.ogg"
     show bg 主人公家 at center with Dissolve(1.0)
     pause 0.5
@@ -53,7 +53,7 @@ label day2_start:
     hide bg with dissolve
     return
 
-label s000001B3_000001B6:
+label day2_1:
     play sound "FX/ドアを開ける.ogg"
     show bg 住宅街 at center with lm_crossfade
     play music "登校！.ogg"
@@ -68,7 +68,7 @@ label s000001B3_000001B6:
     hide bg with dissolve
     return
 
-label s000001B3_000001B7:
+label day2_1_tomo:
     show bg 通学路 at center with dissolve
     stop music fadeout 0.3
     window show
@@ -230,7 +230,7 @@ label s000001B3_000001B7:
     hide bg with dissolve
     return
 
-label s000001B3_000001B9:
+label day2_1_sintarou:
     show bg 通学路 at center with dissolve
     stop music fadeout 0.3
     window show
@@ -406,7 +406,7 @@ label s000001B3_000001B9:
     hide bg with dissolve
     return
 
-label s000001B3_000001BA:
+label day2_1_sinobu:
     show bg 通学路 at center with dissolve
     stop music fadeout 0.3
     window show
@@ -566,7 +566,7 @@ label s000001B3_000001BA:
     hide bg with dissolve
     return
 
-label s000001B3_000001BB:
+label day2_1_tubasa:
     show bg 通学路 at center with dissolve
     stop music fadeout 0.5
     play music "可愛いおとぼけ.ogg"
@@ -738,7 +738,7 @@ label s000001B3_000001BB:
     hide bg with dissolve
     return
 
-label s000001B3_000001BC:
+label day2_1_futago:
     show bg 通学路 at center with dissolve
     stop music fadeout 0.3
     window show
@@ -931,7 +931,7 @@ label s000001B3_000001BC:
     hide sora with dissolve
     return
 
-label s000001B3_000001BD:
+label day2_1_sakuya:
     show bg 通学路 at center with dissolve
     stop music fadeout 0.3
     window show
@@ -1110,7 +1110,7 @@ label s000001B3_000001BD:
     hide bg with dissolve
     return
 
-label s000001B3_000001BE:
+label day2_1_saburo:
     show bg 通学路 at center with dissolve
     stop music fadeout 0.5
     play music "可愛いおとぼけ.ogg"
@@ -1317,7 +1317,7 @@ label s000001B3_000001BE:
     hide bg with dissolve
     return
 
-label s000001B3_000001BF:
+label day2_2:
     pause 0.4
     show bg 校舎（朝 at center with dissolve
     play sound "FX/チャイム.ogg"
@@ -1413,7 +1413,7 @@ label s000001B3_000001BF:
     show 班選択 班選択メッセージ at center with dissolve
     return
 
-label s000001B3_000001C1:
+label day2_design:
     hide 班選択 with dissolve
     window show
     "去「服装组」看看吧！"
@@ -1763,7 +1763,7 @@ label s000001B3_000001C1:
     hide tomo with dissolve
     return
 
-label s000001B3_000001C2:
+label day2_layout:
     hide 班選択 with dissolve
     window show
     "去一趟「布置组」吧！"
@@ -2101,7 +2101,7 @@ label s000001B3_000001C2:
     hide tubasa with dissolve
     return
 
-label s000001B3_000001C3:
+label day2_cooking:
     hide 班選択 with dissolve
     window show
     "要不要去『料理组』玩玩！"
@@ -2455,7 +2455,7 @@ label s000001B3_000001C3:
     extend "\n是面对人类也不怕的勇猛果敢的蜘蛛，\n简直就像经历无数战争的大将一般。"
     return
 
-label s000001B3_000001C4:
+label day2_supply:
     hide 班選択 with dissolve
     window show
     "还是去『采购组』看看吧！"
@@ -2762,7 +2762,7 @@ label s000001B3_000001C4:
     hide sakuya with dissolve
     return
 
-label s000001B3_000001C7:
+label day2_design_tomo:
     show bg 洋服屋 at center
     stop music fadeout 0.5
     window show
@@ -3143,7 +3143,7 @@ label s000001B3_000001C7:
     "在学校里说话也要注意点才好……。"
     return
 
-label s000001B3_000001C9:
+label day2_design_sintarou:
     show bg 洋服屋 at center
     stop music fadeout 0.5
     window show
@@ -3670,7 +3670,7 @@ label s000001B3_000001C9:
     "在学校里，也要注意不要失言或犯错啊……。"
     return
 
-label s000001B3_000001CA:
+label day2_end:
     window show
     "又像昨天一样，全家聚在一起吃晚饭。"
     "真是幸福呢。"
@@ -3701,7 +3701,7 @@ label s000001B3_000001CA:
     window hide
     return
 
-label s000001B3_000001CD:
+label day2_layout_tubasa:
     show bg メッフェンカフェ（夕方 at center
     stop music fadeout 0.5
     window show
@@ -3992,7 +3992,7 @@ label s000001B3_000001CD:
     "在学校里说话也要注意点才好……。"
     return
 
-label s000001B3_000001CF:
+label day2_layout_sinobu:
     stop music fadeout 0.5
     window show
     "\n哎呀~真是让我大饱眼福了！！"
@@ -4263,7 +4263,7 @@ label s000001B3_000001CF:
     "在学校里说话也要注意点才好……。"
     return
 
-label s000001B3_000001D2:
+label day2_cooking_tuki:
     show bg 赤峰家キッチン at center
     window show
     "我把书桌上的烹饪书卷起来，站在月的身旁。"
@@ -4445,7 +4445,7 @@ label s000001B3_000001D2:
     extend "\n对方是蜘蛛，而舞台就是厨房对吧！！？"
     return
 
-label s000001B3_000001D4:
+label day2_cooking_sora:
     show bg 赤峰家キッチン at center
     window show
     "\n这里就交给月，总之我们先离开这里！"
@@ -4606,7 +4606,7 @@ label s000001B3_000001D4:
     extend "\n对方是蜘蛛，而舞台就是厨房对吧！！？"
     return
 
-label s000001B3_000001D7:
+label day2_supply_sakuya:
     stop music fadeout 0.5
     window show
     "我也能和你一起去吗？"
@@ -4915,7 +4915,7 @@ label s000001B3_000001D7:
     "在学校里说话也要注意点才好……。"
     return
 
-label s000001B3_000001D9:
+label day2_supply_saburo:
     stop music fadeout 0.5
     window show
     "我能和你一起去吗？"
@@ -5194,7 +5194,7 @@ label s000001B3_000001D9:
     "在学校里说话也要注意点才好……。"
     return
 
-label s000001B3_000001DA:
+label day2_cooking_self:
     hide tuki with dissolve
     hide sora with dissolve
     window show
@@ -5312,7 +5312,7 @@ label s000001B3_000001DA:
     "在学校里说话也要注意点才好……。"
     return
 
-label s000001B3_000001DB:
+label day2_design_self:
     show bg 洋服屋 at center
     window show
     window hide
@@ -5435,7 +5435,7 @@ label s000001B3_000001DB:
     "在学校里说话也要注意点才好……。"
     return
 
-label s000001B3_000001DC:
+label day2_layout_self:
     show bg メッフェンカフェ（夕方 at center
     show sinobu 4 at top with dissolve
     window show
@@ -5548,7 +5548,7 @@ label s000001B3_000001DC:
     "在学校里说话也要注意点才好……。"
     return
 
-label s000001B3_000001DD:
+label day2_supply_self:
     window show
     "我能和你一起去吗？"
     window hide
@@ -5568,7 +5568,7 @@ label s000001B3_000001DD:
     extend "\n因为我也想一个人行动，所以别跟着来。"
     return
 
-label s000001B3_000001DE:
+label day2_supply_self_1:
     hide sakuya with dissolve
     hide saburo with dissolve
     window show
@@ -5638,7 +5638,7 @@ label s000001B3_000001DE:
     "在学校里说话也要注意点才好……。"
     return
 
-label s000001B3_000001DF:
+label day2_supply_self_2:
     window show
     "我也能和你一起去吗？"
     window hide
@@ -5657,7 +5657,7 @@ label s000001B3_000001DF:
     saburo "抱歉，我也想一个人去。"
     return
 
-label s000001B3_000001E0:
+label day2_bad_end:
     stop music fadeout 0.3
     hide bg with dissolve
     play sound "FX/割れる.ogg"

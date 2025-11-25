@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # Converted from 0000028A.lns
 
-label events:
+label event00:
     show bg 校舎（全貌） at center with Dissolve(0.8)
     play music "４コマ.ogg"
     pause 0.6
@@ -41,7 +41,7 @@ label events:
     hide bg with dissolve
     return
 
-label s0000028A_0000028F:
+label event01:
     show bg 校舎（全貌） at center with Dissolve(0.8)
     play music "４コマ.ogg"
     pause 0.6
@@ -85,7 +85,7 @@ label s0000028A_0000028F:
     hide bg with dissolve
     return
 
-label s0000028A_00000290:
+label event02:
     show bg 校舎（全貌） at center with Dissolve(0.8)
     play music "４コマ.ogg"
     pause 0.6
@@ -137,7 +137,7 @@ label s0000028A_00000290:
     hide bg with dissolve
     return
 
-label s0000028A_00000291:
+label event03:
     show bg 校舎（全貌） at center with Dissolve(0.8)
     play music "４コマ.ogg"
     pause 0.6
@@ -194,7 +194,7 @@ label s0000028A_00000291:
     hide bg with dissolve
     return
 
-label s0000028A_00000292:
+label event04:
     show bg 校舎（全貌） at center with Dissolve(0.8)
     play music "４コマ.ogg"
     pause 0.6
@@ -255,7 +255,7 @@ label s0000028A_00000292:
     hide bg with dissolve
     return
 
-label s0000028A_00000293:
+label event05:
     show bg 校舎（全貌） at center with Dissolve(0.8)
     play music "４コマ.ogg"
     pause 0.6
@@ -332,7 +332,7 @@ label s0000028A_00000293:
     hide bg with dissolve
     return
 
-label s0000028A_00000294:
+label event06:
     show bg 校舎（全貌） at center with Dissolve(0.8)
     play music "４コマ.ogg"
     pause 0.6
@@ -389,7 +389,7 @@ label s0000028A_00000294:
     hide bg with dissolve
     return
 
-label s0000028A_00000295:
+label event07:
     show bg 校舎（全貌） at center with Dissolve(0.8)
     play music "４コマ.ogg"
     pause 0.6
@@ -467,7 +467,7 @@ label s0000028A_00000295:
     hide bg with dissolve
     return
 
-label s0000028A_00000296:
+label event08:
     show bg 校舎（全貌） at center with Dissolve(0.8)
     play music "４コマ.ogg"
     pause 0.6
@@ -511,7 +511,7 @@ label s0000028A_00000296:
     hide bg with dissolve
     return
 
-label s0000028A_00000297:
+label event09:
     show bg 校舎（全貌） at center with Dissolve(0.8)
     play music "４コマ.ogg"
     pause 0.6
@@ -567,7 +567,7 @@ label s0000028A_00000297:
     hide bg with dissolve
     return
 
-label s0000028A_00000298:
+label event10:
     show bg 校舎（全貌） at center with Dissolve(0.8)
     play music "４コマ.ogg"
     pause 0.6
@@ -648,7 +648,7 @@ label s0000028A_00000298:
     hide bg with dissolve
     return
 
-label s0000028A_00000299:
+label event11:
     show bg 校舎（全貌） at center with Dissolve(0.8)
     play music "４コマ.ogg"
     pause 0.6
@@ -709,7 +709,7 @@ label s0000028A_00000299:
     hide bg with dissolve
     return
 
-label s0000028A_0000029A:
+label event12:
     show bg 校舎（全貌） at center with Dissolve(0.8)
     play music "４コマ.ogg"
     pause 0.6
@@ -758,7 +758,7 @@ label s0000028A_0000029A:
     hide bg with dissolve
     return
 
-label s0000028A_0000029B:
+label event13:
     show bg 校舎（全貌） at center with Dissolve(0.8)
     play music "４コマ.ogg"
     pause 0.6
@@ -829,7 +829,7 @@ label s0000028A_0000029B:
     hide bg with dissolve
     return
 
-label s0000028A_0000029C:
+label event14:
     show bg 校舎（全貌） at center with Dissolve(0.8)
     play music "４コマ.ogg"
     pause 0.6
@@ -864,7 +864,7 @@ label s0000028A_0000029C:
     hide bg with dissolve
     return
 
-label s0000028A_0000029D:
+label event15:
     show bg 校舎（全貌） at center with Dissolve(0.8)
     play music "４コマ.ogg"
     pause 0.6
@@ -919,7 +919,7 @@ label s0000028A_0000029D:
     hide bg with dissolve
     return
 
-label s0000028A_0000029E:
+label event16:
     show bg 校舎（全貌） at center with Dissolve(0.8)
     play music "４コマ.ogg"
     pause 0.6
@@ -964,7 +964,7 @@ label s0000028A_0000029E:
     hide bg with dissolve
     return
 
-label s0000028A_0000029F:
+label event17:
     show bg 校舎（全貌） at center with Dissolve(0.8)
     play music "４コマ.ogg"
     pause 0.6
@@ -1002,7 +1002,7 @@ label s0000028A_0000029F:
     hide bg with dissolve
     return
 
-label s0000028A_000002A0:
+label event18:
     show bg 校舎（全貌） at center with Dissolve(0.8)
     play music "４コマ.ogg"
     pause 0.6

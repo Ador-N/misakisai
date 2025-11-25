@@ -12,7 +12,7 @@ label hidden:
     extend "\n要进去吗？"
     return
 
-label s0000025F_00000263:
+label hidden_1:
     stop music fadeout 1.0
     pause 0.4
     show bg 地下牢 with Dissolve(0.8)
@@ -45,7 +45,7 @@ label s0000025F_00000263:
     hide nori with dissolve
     return
 
-label s0000025F_00000264:
+label hidden_tomo:
     stop music fadeout 0.5
     hide bg with dissolve
     play music "Gymnopedies-No1.ogg"
@@ -107,7 +107,7 @@ label s0000025F_00000264:
     hide bg with dissolve
     return
 
-label s0000025F_00000265:
+label hidden_tubasa:
     stop music fadeout 0.5
     hide bg with dissolve
     play music "Gymnopedies-No1.ogg"
@@ -175,7 +175,7 @@ label s0000025F_00000265:
     hide tubasa with dissolve
     return
 
-label s0000025F_00000266:
+label hidden_sinobu:
     stop music fadeout 0.5
     hide bg with dissolve
     play music "Gymnopedies-No1.ogg"
@@ -224,7 +224,7 @@ label s0000025F_00000266:
     hide sinobu with dissolve
     return
 
-label s0000025F_00000267:
+label hidden_tuki:
     stop music fadeout 0.5
     hide bg with dissolve
     play music "Gymnopedies-No1.ogg"
@@ -278,7 +278,7 @@ label s0000025F_00000267:
     hide tuki with dissolve
     return
 
-label s0000025F_00000268:
+label hidden_sora:
     stop music fadeout 0.5
     hide bg with dissolve
     play music "Gymnopedies-No1.ogg"
@@ -327,7 +327,7 @@ label s0000025F_00000268:
     hide sora with dissolve
     return
 
-label s0000025F_00000269:
+label hidden_sakuya:
     stop music fadeout 0.5
     hide bg with dissolve
     play music "Gymnopedies-No1.ogg"
@@ -380,7 +380,7 @@ label s0000025F_00000269:
     hide sakuya with dissolve
     return
 
-label s0000025F_0000026A:
+label hidden_saburo:
     stop music fadeout 0.5
     hide bg with dissolve
     play music "Gymnopedies-No1.ogg"
@@ -445,7 +445,7 @@ label s0000025F_0000026A:
     hide saburo with dissolve
     return
 
-label s0000025F_0000026B:
+label hidden_sintarou:
     stop music fadeout 0.5
     hide bg with dissolve
     play music "Gymnopedies-No1.ogg"
@@ -497,7 +497,7 @@ label s0000025F_0000026B:
     hide sintarou with dissolve
     return
 
-label s0000025F_0000026C:
+label hidden_note:
     stop music fadeout 0.5
     play music "FX/洞窟.ogg"
     show bg 洞窟（空間） with dissolve
@@ -508,7 +508,7 @@ label s0000025F_0000026C:
     hide bg with dissolve
     return
 
-label s0000025F_00000275:
+label hidden_nori:
     show nori 10 at top with dissolve
     window show
     "\n毫无代价的欲望太过强烈，只会毁了你自己。"

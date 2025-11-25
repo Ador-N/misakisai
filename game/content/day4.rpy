@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # Converted from 0000023D.lns
 
-label day4_start:
+label day4:
     window show
     "就这样，我们用了三天来完成执行委员的工作之后，"
     extend "\n之后的剩余时间，就参与到班级的整体工作中，进行准备。"
@@ -53,7 +53,7 @@ label day4_start:
     hide sinobu with dissolve
     return
 
-label s0000023D_00000241:
+label day4_1:
     show tomo 17i at top with dissolve
     window show
     tomo "一二ーー！"
@@ -232,21 +232,21 @@ label s0000023D_00000241:
     hide cg with dissolve
     return
 
-label s0000023D_00000242:
+label day4_1_tomo:
     show tomo 4i at top with dissolve
     window show
     me "噢！"
     hide tomo with dissolve
     return
 
-label s0000023D_00000243:
+label day4_1_sintarou:
     show sintarou 7i at top with dissolve
     window show
     me "噢！"
     hide sintarou with dissolve
     return
 
-label s0000023D_00000244:
+label end_tomo:
     show bg 喫茶店 at center with dissolve
     play music "tomo.ogg"
     show tomo 15i at top with dissolve
@@ -806,7 +806,7 @@ label s0000023D_00000244:
     hide bg with dissolve
     return
 
-label s0000023D_00000245:
+label end_sintarou:
     show bg 喫茶店 at center with dissolve
     window show
     "咚！！"
@@ -1235,49 +1235,49 @@ label s0000023D_00000245:
     hide bg with dissolve
     return
 
-label s0000023D_00000246:
+label day4_1_sinobu:
     show sinobu 26i at top with dissolve
     window show
     me "噢！"
     hide sinobu with dissolve
     return
 
-label s0000023D_00000247:
+label day4_1_tubasa:
     show tubasa 4i at top with dissolve
     window show
     me "噢！"
     hide tubasa with dissolve
     return
 
-label s0000023D_00000248:
+label day4_1_tuki:
     show tuki 9i at top with dissolve
     window show
     me "噢！"
     hide tuki with dissolve
     return
 
-label s0000023D_00000249:
+label day4_1_sora:
     show sora 11i at top with dissolve
     window show
     me "噢！"
     hide sora with dissolve
     return
 
-label s0000023D_0000024A:
+label day4_1_sakuya:
     show sakuya 5i at top with dissolve
     window show
     me "噢！"
     hide sakuya with dissolve
     return
 
-label s0000023D_0000024B:
+label day4_1_saburo:
     show saburo 10i at top with dissolve
     window show
     me "噢！"
     hide saburo with dissolve
     return
 
-label s0000023D_0000024C:
+label end_sinobu:
     show bg 喫茶店 at center with dissolve
     play music "sinobu.ogg"
     show sinobu 3i at top with dissolve
@@ -1674,7 +1674,7 @@ label s0000023D_0000024C:
     hide bg with dissolve
     return
 
-label s0000023D_0000024D:
+label end_tubasa:
     show bg 喫茶店 at center with dissolve
     play music "tubasa.ogg"
     show tubasa 16i at top with dissolve
@@ -2092,7 +2092,7 @@ label s0000023D_0000024D:
     hide bg with dissolve
     return
 
-label s0000023D_0000024E:
+label end_sora:
     show bg 喫茶店 at center
     show sora 17i at top with dissolve
     window show
@@ -2394,7 +2394,7 @@ label s0000023D_0000024E:
     hide bg with dissolve
     return
 
-label s0000023D_0000024F:
+label end_tuki:
     show bg 喫茶店 at center
     show tuki 29i at top with dissolve
     window show
@@ -2714,7 +2714,7 @@ label s0000023D_0000024F:
     hide bg with dissolve
     return
 
-label s0000023D_00000250:
+label end_futago:
     show bg 喫茶店 at center
     show tuki 29i at topleft
     show sora 17i at topright with dissolve
@@ -3013,7 +3013,7 @@ label s0000023D_00000250:
     hide bg with dissolve
     return
 
-label s0000023D_00000251:
+label day4_1_futago:
     show bg 喫茶店 at center with dissolve
     play music "twins.ogg"
     show sora 22i at topright
@@ -3092,7 +3092,7 @@ label s0000023D_00000251:
     window hide
     return
 
-label s0000023D_00000252:
+label end_saburo:
     show bg 喫茶店 at center with dissolve
     play music "saburo.ogg"
     show saburo 33i me at top with dissolve
@@ -3463,7 +3463,7 @@ label s0000023D_00000252:
     hide bg with dissolve
     return
 
-label s0000023D_00000253:
+label end_sakuya:
     show bg 喫茶店 at center with dissolve
     play music "sakuya.ogg"
     show sakuya 18i at top with dissolve
@@ -3948,7 +3948,7 @@ label s0000023D_00000253:
     hide bg with dissolve
     return
 
-label s0000023D_00000254:
+label end_sirou:
     show bg 喫茶店 at center with dissolve
     show sirou 2 at top with dissolve
     window show
@@ -4307,7 +4307,7 @@ label s0000023D_00000254:
     hide bg with dissolve
     return
 
-label s0000023D_0000025E:
+label end_all:
     show bg 喫茶店 at center with dissolve
     window show
     "可恶……太得意忘形了啊……！！"
