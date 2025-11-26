@@ -618,7 +618,7 @@ label day1_design:
     hide cg with dissolve
     window show
     me "……你们两个，现在要是把身体交给机器和道具的话，\n之后就无法被真人满足了哦？"
-    show tomo 21 with dissolve
+    show tomo 21 at topleft with dissolve
     tomo "诶……？"
     show sintarou 14 at topright with dissolve
     sintarou "[player_name]桑……？"
@@ -1844,7 +1844,7 @@ label day1_design_sintarou:
     play sound "FX/キラキラ.ogg"
     show cg c23 at center with lm_crossfade
     window show
-    show sintarou 18 with dissolve
+    show sintarou 18 at top with dissolve
     sintarou "[player_name]大哥哥！"
     show sintarou 4 with dissolve
     extend "\n我啊，对小孩外表下的大人技术很感兴趣，\n也想看看大人在小孩的身体中能变的多下流呢♪"
