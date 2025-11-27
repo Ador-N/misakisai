@@ -2,16 +2,16 @@
 # Converted from 00000001.lns
 
 label title_screen:
-    show s7 with Dissolve(0.7)
+    show cg s7 with Dissolve(0.7)
     return
 
 label opening_animation:
     play music "reminiscence.ogg"
     show OP op1 at center with lm_effect_18(1.0)
     pause 0.5
-    show op2 with Dissolve(0.3)
+    show OP op2 with Dissolve(0.3)
     pause 1.0
-    show op3 with Dissolve(0.3)
+    show OP op3 with Dissolve(0.3)
     pause 2.5
     show OP op4 with lm_effect_12(0.5)
     play sound "fx/cute2.ogg"
@@ -24,27 +24,27 @@ label opening_animation:
     pause 1.5
     show OP op9 with lm_effect_25(0.8)
     pause 0.5
-    show op10 with dissolve
+    show OP op10 with dissolve
     stop sound fadeout 2.0
     pause 2.5
-    show op11 with Dissolve(0.8)
+    show OP op11 with Dissolve(0.8)
     pause 0.5
-    show op12 with dissolve
+    show OP op12 with dissolve
     pause 1.5
     show OP op13 with dissolve
     play sound "fx/sparkle.ogg"
     show OP op14 with lm_effect_18(1.2)
     pause 2.5
-    show op15 with dissolve
+    show OP op15 with dissolve
     play sound "FX/ひらめき！.ogg"
-    show op16 with dissolve
+    show OP op16 with dissolve
     pause 0.8
     play sound "fx/tadaa.ogg"
     show OP op17 with lm_effect_30(0.5)
     pause 0.8
-    show op18 with dissolve
+    show OP op18 with dissolve
     pause 0.8
-    show op19 with dissolve
+    show OP op19 with dissolve
     stop music fadeout 2.0
     pause 3.0
     hide OP with Dissolve(2.0)
@@ -70,14 +70,4 @@ label gymno_title:
     pause 0.9
     hide cg with Dissolve(0.8)
     pause 0.8
-    return
-
-label title_music_loop:
-    play music "学祭だ！.ogg"
-    return
-
-label start_game:
-    stop music fadeout 2.0
-    scene black with fade
-    pause 0.75
     return

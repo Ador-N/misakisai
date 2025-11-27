@@ -15,6 +15,13 @@ init -1:
 
     default ending = ""
 
+label splashscreen:
+    call gymno_title
+    if persistent.seen_op is None:
+        $ persistent.seen_op = True
+        call opening_animation
+    return
+
 label start:
 
 label logic_day0:
@@ -44,7 +51,7 @@ label logic_day1:
     call day1_1
     call day1_2
 
-    menu:
+    menu (screen="choice_group"):
         "服装组":
             $ group_day1 = 1
             jump logic_day1_design
@@ -113,7 +120,7 @@ label logic_day2:
         call expression "day2_1_" + target_day1
     call day2_2
 
-    menu:
+    menu (screen="choice_group"):
         "服装组":
             $ group_day2 = 1
             jump logic_day2_design
@@ -211,7 +218,7 @@ label logic_day3:
         call expression "day3_3_" + target_day2
     call day3_4
 
-    menu:
+    menu (screen="choice_group"):
         "服装组":
             $ group_day3 = 1
             jump logic_day3_design
