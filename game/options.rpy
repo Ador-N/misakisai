@@ -11,12 +11,12 @@
 ##
 ## 带有 _() 的字符串表示其可被翻译。
 
-define config.name = _("misakisai")
+define config.name = _("SCHOOL BOYS! ~梦之御咲祭篇~")
 
 
 ## 决定上面给出的标题是否显示在标题界面屏幕。设置为 False 来隐藏标题。
 
-define gui.show_name = True
+define gui.show_name = False
 
 
 ## 游戏版本号。
@@ -44,7 +44,7 @@ define build.name = "misakisai"
 
 define config.has_sound = True
 define config.has_music = True
-define config.has_voice = True
+define config.has_voice = False
 
 
 ## 为了让用户在音效或语音轨道上播放测试音频，请取消对下面一行的注释并设置播放的
@@ -57,7 +57,7 @@ define config.has_voice = True
 ## 将以下语句取消注释就可以设置标题界面播放的背景音乐文件。此文件将在整个游戏中
 ## 持续播放，直至音乐停止或其他文件开始播放。
 
-# define config.main_menu_music = "main-menu-theme.ogg"
+define config.main_menu_music = "学祭だ！.ogg"
 
 
 ## 转场 ##########################################################################
@@ -78,12 +78,12 @@ define config.intra_transition = dissolve
 
 ## 载入游戏后使用的转场。
 
-define config.after_load_transition = None
+define config.after_load_transition = dissolve
 
 
 ## 在游戏结束之后进入主菜单时使用的转场。
 
-define config.end_game_transition = None
+define config.end_game_transition = dissolve
 
 
 ## 用于控制在游戏开始标签不存在时转场的变量。作为替代，在显示初始化场景后使用
@@ -112,7 +112,7 @@ define config.window_hide_transition = Dissolve(.2)
 
 ## 控制默认的文字显示速度。默认的 0 为瞬间，而其他数字则是每秒显示出的字符数。
 
-default preferences.text_cps = 0
+default preferences.text_cps = 50
 
 
 ## 默认的自动前进延迟。数字越大，等待时间越长，有效范围为 0 - 30。
