@@ -3956,7 +3956,7 @@ label end_sirou:
     "我朝旁边一看，居然看到了四朗。"
     extend "\n他来我们咖啡厅了吗……！！"
     window hide
-    hide shirou with dissolve
+    hide sirou with dissolve
     window show
     play sound "FX/可愛い2.ogg"
     customer3 "哎呀，除了店员之外，还发现了可爱的正太！"
@@ -3999,7 +3999,7 @@ label end_sirou:
     "呼……成功了！！"
     extend "\n我不能在四朗面前出丑！"
     stop music fadeout 2.0
-    hide shirou with dissolve
+    hide sirou with dissolve
     hide bg with dissolve
     "我成功地逃脱了那个男人，走向了四朗。"
     window hide
@@ -4038,12 +4038,12 @@ label end_sirou:
     play sound "FX/可愛い.ogg"
     sirou "太好啦！！"
     extend "\n那我先去教室等你啦！"
-    hide shirou with dissolve
+    hide sirou with dissolve
     show cg remarkable at center with Dissolve(0.2)
     play sound "FX/ジャジャーン.ogg"
     "太好啦！！"
     extend "\n没想到居然能和四朗一起逛学园祭！！！"
-    hide shirou with dissolve
+    hide sirou with dissolve
     hide cg with dissolve
     hide bg with dissolve
     stop music fadeout 2.0
@@ -4057,7 +4057,7 @@ label end_sirou:
     show sirou 3 at top with dissolve
     sirou "啊，[player_name]桑！工作辛苦了！！"
     extend "\n那赶紧走吧～！"
-    hide shirou with dissolve
+    hide sirou with dissolve
     "四朗拉着我的手，开心地走了起来。"
     play sound "FX/キラキラ.ogg"
     show cg adult at center with fade
@@ -4074,7 +4074,7 @@ label end_sirou:
     "哈哈，小孩子真是活力满满啊！"
     extend "\n已经完全变成了哥哥的我，兴冲冲地指向了店铺。"
     window hide
-    hide shirou with dissolve
+    hide sirou with dissolve
     window show
     me "啊！喂，四郎。"
     extend "\n那个鬼屋怎么样？"
@@ -4097,7 +4097,7 @@ label end_sirou:
     stop music fadeout 2.0
     play sound "FX/引き戸.ogg"
     hide bg with dissolve
-    hide shirou with dissolve
+    hide sirou with dissolve
     "听到我这么一说，四朗就逞强似地进入了鬼屋。"
     window hide
     pause 0.4
@@ -4125,7 +4125,7 @@ label end_sirou:
     show sirou 1 with dissolve
     extend "\n呜呜呜呜……好害怕啊啊啊……。"
     window hide
-    hide shirou with dissolve
+    hide sirou with dissolve
     window show
     "在鬼屋的出口处，四朗哭了出来。"
     "那么一眼假的鬼居然能把他吓成这样，\n这家伙真是相当的胆小啊……。"
@@ -4166,7 +4166,7 @@ label end_sirou:
     extend "深不见底的体力，真是可怕啊……。"
     window hide
     hide bg with dissolve
-    hide shirou with dissolve
+    hide sirou with dissolve
     hide cg with dissolve
     play music "FX/夜　虫.ogg"
     show bg 校舎（夜） at center with Dissolve(1.0)
@@ -4184,7 +4184,7 @@ label end_sirou:
     me "后夜祭……"
     extend "\n对了，四朗！\n如果不介意的话，后夜祭也一起来吧"
     window hide
-    hide shirou with dissolve
+    hide sirou with dissolve
     stop music fadeout 0.5
     show sirou 10 at top with dissolve
     play sound "FX/ひらめき！.ogg"
@@ -4195,7 +4195,7 @@ label end_sirou:
     show sirou 18 with dissolve
     play sound "FX/可愛い2.ogg"
     sirou "穗海学长！！！"
-    hide shirou with dissolve
+    hide sirou with dissolve
     "四朗无视了我所说的，直接跑了过去。"
     extend "\n我顺着他的视线一看，发现作哉和三朗站在那里。"
     window hide
@@ -4228,7 +4228,7 @@ label end_sirou:
     play sound "FX/ビヨン.ogg"
     sirou "我才没有折腾呢~！"
     extend "\n我们只是愉快地逛学园祭而已！！"
-    hide shirou with dissolve
+    hide sirou with dissolve
     hide sakuya with dissolve
     hide saburo with dissolve
     "说完，四朗走到了我的面前。"

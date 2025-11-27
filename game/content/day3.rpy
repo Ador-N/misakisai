@@ -6194,7 +6194,7 @@ label day3_sirou:
     unknown "啊……嗯！谢谢你。"
     extend "\n……那么，失礼了。"
     window hide
-    hide shirou with dissolve
+    hide sirou with dissolve
     window show
     "说完，少年便贴着我的背，双臂架到了我的肩膀上。"
     "等站起来后，我想到自己正背着一个背着书包的少年，这个画面有点傻乎乎的，又有点好笑"
@@ -6229,7 +6229,7 @@ label day3_sirou:
     window hide
     hide cg with dissolve
     hide bg with dissolve
-    hide shirou with dissolve
+    hide sirou with dissolve
     pause 0.4
     play music "FX/燕.ogg"
     show bg 公園（ベンチ） at center with Dissolve(0.7)
@@ -6269,7 +6269,7 @@ label day3_sirou:
     me "啊啊，唾液中含有杀菌的成分哦。"
     window hide
     hide cg with dissolve
-    hide shirou with dissolve
+    hide sirou with dissolve
     window show
     stop music fadeout 2.5
     "我将他的膝盖全部舔完一遍，突然回过神来。"
@@ -6359,7 +6359,7 @@ label day3_sirou:
     extend "\n我也会去玩的，到时候能再见到就好了呢！！"
     show sirou 15 with dissolve
     extend "\n那么，再见了！"
-    hide shirou with dissolve
+    hide sirou with dissolve
     "四朗说完后便离开了。"
     window hide
     pause 0.3
