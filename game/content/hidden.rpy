@@ -5,8 +5,8 @@ label hidden:
     stop music fadeout 0.5
     hide cg with dissolve
     pause 0.5
-    show bg 洞窟 at center with Dissolve(1.0)
-    play music "FX/風.ogg"
+    show bg cave at center with Dissolve(1.0)
+    play music "fx/wind.ogg"
     window show
     "前方有个洞窟。"
     extend "\n要进去吗？"
@@ -15,8 +15,8 @@ label hidden:
 label hidden_1:
     stop music fadeout 1.0
     pause 0.4
-    show bg 地下牢 with Dissolve(0.8)
-    play music "朔.ogg"
+    show bg dungeon with Dissolve(0.8)
+    play music "nori_theme.ogg"
     pause 0.4
     show nori 14 at top with Dissolve(1.0)
     window show
@@ -48,10 +48,10 @@ label hidden_1:
 label hidden_tomo:
     stop music fadeout 0.5
     hide bg with dissolve
-    play music "Gymnopedies-No1.ogg"
-    show bg ホテル at center with Dissolve(2.0)
+    play music "gymnopedies_no1.ogg"
+    show bg hotel at center with Dissolve(2.0)
     show tomo 20h at top with dissolve
-    play sound "FX/可愛い.ogg"
+    play sound "fx/cute.ogg"
     window show
     tomo "哈欠！！！"
     show tomo 8h with dissolve
@@ -68,7 +68,7 @@ label hidden_tomo:
     show tomo 23h with dissolve
     extend "\n你，你看，我们……都，都是恋人了……。"
     show tomo 28h with dissolve
-    play sound "FX/ビヨン.ogg"
+    play sound "fx/boing.ogg"
     tomo "呃，糟糕……我自己说出来以后感觉超难为情的……！！"
     show tomo 34h with dissolve
     extend "\n呜哇，恋人，恋人啊！！"
@@ -86,7 +86,7 @@ label hidden_tomo:
     show tomo 36h with dissolve
     tomo "……那，那接下来……再做一次吧？"
     show tomo 35h with dissolve
-    play sound "FX/ビヨン.ogg"
+    play sound "fx/boing.ogg"
     tomo "呜呜呜呜……我知道的！！我自己也知道！！！"
     extend "\n自己是大清早开始就性欲高涨的家伙啊\n这种事情我再清楚不过了！"
     show tomo 36h with dissolve
@@ -110,8 +110,8 @@ label hidden_tomo:
 label hidden_tubasa:
     stop music fadeout 0.5
     hide bg with dissolve
-    play music "Gymnopedies-No1.ogg"
-    show bg ホテル at center with Dissolve(2.0)
+    play music "gymnopedies_no1.ogg"
+    show bg hotel at center with Dissolve(2.0)
     show tubasa 2h at top with dissolve
     window show
     tubasa "啊……早，早上好。"
@@ -122,7 +122,7 @@ label hidden_tubasa:
     show tubasa 2h with dissolve
     extend "\n可，可是现在是稍微有点凉的季节，\n还是穿得暖和一点比较好哦。"
     show tubasa 33h with dissolve
-    play sound "FX/ビヨン.ogg"
+    play sound "fx/boing.ogg"
     tubasa "……诶……啊……啊……我……我……我没穿衣服？"
     extend "\n诶……？为，为什么？？"
     extend "\n诶……诶诶诶诶诶诶诶？？？"
@@ -141,7 +141,7 @@ label hidden_tubasa:
     extend "\n……说起来，我还完全没有现实感，还不知道这是不是真的……。"
     extend "\n对，对不起……。"
     show tubasa 17h with dissolve
-    play sound "FX/可愛い.ogg"
+    play sound "fx/cute.ogg"
     tubasa "啊……那个，不对，不是这样的。"
     extend "\n我绝对不是讨厌！"
     extend "\n那个……只是有点跟不上事情的发展，或者说……"
@@ -178,8 +178,8 @@ label hidden_tubasa:
 label hidden_sinobu:
     stop music fadeout 0.5
     hide bg with dissolve
-    play music "Gymnopedies-No1.ogg"
-    show bg ホテル at center with Dissolve(2.0)
+    play music "gymnopedies_no1.ogg"
+    show bg hotel at center with Dissolve(2.0)
     show sinobu 5h at top with dissolve
     window show
     sinobu "啊，早……。"
@@ -199,7 +199,7 @@ label hidden_sinobu:
     show sinobu 13h with dissolve
     sinobu "如果现在被人知道了我们是恋人，\n那样我的脑袋一定会崩坏的吧……实在是太过羞耻了。"
     show sinobu 6h with dissolve
-    play sound "FX/ひらめき！.ogg"
+    play sound "fx/eureka.ogg"
     sinobu "还有，我想你应该知道，\n昨晚的事，也绝对不能说出去。"
     show sinobu 33h with dissolve
     extend "\n虽然，这也是一件很羞耻的事……但是……"
@@ -227,8 +227,8 @@ label hidden_sinobu:
 label hidden_tuki:
     stop music fadeout 0.5
     hide bg with dissolve
-    play music "Gymnopedies-No1.ogg"
-    show bg ホテル at center with Dissolve(2.0)
+    play music "gymnopedies_no1.ogg"
+    show bg hotel at center with Dissolve(2.0)
     show tuki 5h at top with dissolve
     window show
     tuki "……你醒了啊……。"
@@ -259,7 +259,7 @@ label hidden_tuki:
     show tuki 25h with dissolve
     extend "\n不过……一定没事的。\n空会祝福我们的。"
     show tuki 20h with dissolve
-    play sound "FX/ビヨン.ogg"
+    play sound "fx/boing.ogg"
     tuki "其他人……暂时保密。"
     extend "\n特别是奥村和森海，绝对不能告诉他们。"
     extend "\n他们一定会嘲笑我们的。"
@@ -281,13 +281,13 @@ label hidden_tuki:
 label hidden_sora:
     stop music fadeout 0.5
     hide bg with dissolve
-    play music "Gymnopedies-No1.ogg"
-    show bg ホテル at center with Dissolve(2.0)
+    play music "gymnopedies_no1.ogg"
+    show bg hotel at center with Dissolve(2.0)
     show sora 18h at top with dissolve
     window show
     sora "嗯……诶……已经……早上啦。"
     show sora 13h with dissolve
-    play sound "FX/可愛い.ogg"
+    play sound "fx/cute.ogg"
     sora "哇！！"
     extend "\n我们昨天就那样睡着了啊……。"
     extend "\n难怪会有点冷。"
@@ -330,8 +330,8 @@ label hidden_sora:
 label hidden_sakuya:
     stop music fadeout 0.5
     hide bg with dissolve
-    play music "Gymnopedies-No1.ogg"
-    show bg ホテル at center with Dissolve(2.0)
+    play music "gymnopedies_no1.ogg"
+    show bg hotel at center with Dissolve(2.0)
     show sakuya 10h at top with dissolve
     window show
     sakuya "……嗯，早上好。"
@@ -352,7 +352,7 @@ label hidden_sakuya:
     show sakuya 10h with dissolve
     sakuya "……然后，接下来打算怎么做？好像还有一点时间。"
     show sakuya 20h with dissolve
-    play sound "FX/ビヨン.ogg"
+    play sound "fx/boing.ogg"
     extend "\n……话，话说衣服！衣服放哪了啊！"
     extend "\n擅自跑到别的地方去了，\n害得我起床之后都一直这样了。"
     show sakuya 8h with dissolve
@@ -363,7 +363,7 @@ label hidden_sakuya:
     sakuya "……那个……那个啊，我能说的就只有这些了，但，\n……姑且，那啥……我，对你没有讨厌啊。"
     extend "\n这一点你可别误会了。"
     show sakuya 36h with dissolve
-    play sound "FX/ダッ！.ogg"
+    play sound "fx/dash.ogg"
     extend "\n换，换句话说就是那个。讨厌的反义词！明白了吗？"
     window hide
     show cg c101 at center with Dissolve(0.7)
@@ -383,10 +383,10 @@ label hidden_sakuya:
 label hidden_saburo:
     stop music fadeout 0.5
     hide bg with dissolve
-    play music "Gymnopedies-No1.ogg"
-    show bg ホテル at center with Dissolve(2.0)
+    play music "gymnopedies_no1.ogg"
+    show bg hotel at center with Dissolve(2.0)
     show saburo 31h at top with dissolve
-    play sound "FX/ビヨン.ogg"
+    play sound "fx/boing.ogg"
     window show
     saburo "啊切！！！！"
     show saburo 16h with dissolve
@@ -398,20 +398,21 @@ label hidden_saburo:
     show saburo 31h with dissolve
     saburo "……。"
     show saburo 12h with dissolve
-    play sound "FX/可愛い2.ogg"
+    play sound "fx/cute2.ogg"
     saburo "……！！！！"
     show saburo 3h with dissolve
-    play sound "FX/爆発２.ogg"
+    play sound "fx/explosion2.ogg"
     saburo "哇……哇……哇啊啊啊！！"
     extend "\n我，我，做了什么啊！！！"
     extend "\n……终于踏足了这个世界啊……。"
     show saburo 15h with dissolve
+    play sound "fx/triangle.ogg"
     saburo "真的吗……？真的吗……？那不是梦吗？"
     extend "\n是现实吗……？"
     extend "\n……但，但是，那真实的触感……。"
     extend "\n现在都还清晰记得……果然那是……。"
     show saburo 3h with dissolve
-    play sound "FX/ビヨン.ogg"
+    play sound "fx/boing.ogg"
     saburo "咦！哇啊啊啊！？"
     extend "\n自己是怎么起的啊！！"
     extend "\n孤零零地在大床上！！"
@@ -448,8 +449,8 @@ label hidden_saburo:
 label hidden_sintarou:
     stop music fadeout 0.5
     hide bg with dissolve
-    play music "Gymnopedies-No1.ogg"
-    show bg ホテル at center with Dissolve(2.0)
+    play music "gymnopedies_no1.ogg"
+    show bg hotel at center with Dissolve(2.0)
     show sintarou 11h at top with dissolve
     window show
     sintarou "呜嗯……"
@@ -499,8 +500,8 @@ label hidden_sintarou:
 
 label hidden_note:
     stop music fadeout 0.5
-    play music "FX/洞窟.ogg"
-    show bg 洞窟（空間） with dissolve
+    play music "fx/cave_ambience.ogg"
+    show bg cave_space2 with dissolve
     window show
     "洞里只有一本摊开的，字迹未干的笔记本。「按空格可隐藏对话框」"
     window hide

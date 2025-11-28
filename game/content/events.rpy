@@ -2,19 +2,19 @@
 # Converted from 0000028A.lns
 
 label event00:
-    show bg 校舎（全貌） at center with Dissolve(0.8)
-    play music "４コマ.ogg"
+    show bg school_building_full at center with Dissolve(0.8)
+    play music "yonkoma.ogg"
     pause 0.6
-    show bg 屋上 with dissolve
+    show bg rooftop with dissolve
     show tomo 12 at topleft
     show tubasa 5 at topright with dissolve
     show tomo 38 with dissolve
     window show
-    play sound "FX/ひらめき！.ogg"
+    play sound "fx/eureka.ogg"
     tomo "翼君你，"
     extend "其实很好色的吧！"
     show tubasa 20 with dissolve
-    play sound "FX/ビヨン.ogg"
+    play sound "fx/boing.ogg"
     tubasa "你突然在说什么呀！"
     show tomo 3 with dissolve
     tomo "听说男人房事做的多了之后，"
@@ -28,11 +28,11 @@ label event00:
     show tubasa 37 with dissolve
     tubasa "是，是这样吗……？"
     show tomo 2 with dissolve
-    play sound "FX/インパクト（和風）.ogg"
+    play sound "fx/impact_japanese.ogg"
     tomo "所以呀，"
     extend "就是这么回事啦！"
     show tubasa 7 with dissolve
-    play sound "FX/ビヨン.ogg"
+    play sound "fx/boing.ogg"
     tubasa "这，这毫无关联！！"
     window hide
     hide tomo with dissolve
@@ -42,10 +42,10 @@ label event00:
     return
 
 label event01:
-    show bg 校舎（全貌） at center with Dissolve(0.8)
-    play music "４コマ.ogg"
+    show bg school_building_full at center with Dissolve(0.8)
+    play music "yonkoma.ogg"
     pause 0.6
-    show bg 教室 with dissolve
+    show bg classroom with dissolve
     show sinobu 2 at top with dissolve
     window show
     sinobu "友，下节要换教室了……。"
@@ -59,7 +59,7 @@ label event01:
     extend "\n真是的，看着睡的很香啊……。"
     hide sinobu with dissolve
     show tomo 31 at top with dissolve
-    play sound "FX/可愛い.ogg"
+    play sound "fx/cute.ogg"
     tomo "啊……啊嗯……那里那里哦哦哦……。"
     extend "\n电摩棒好舒服……唔呜呜。"
     hide sinobu with dissolve
@@ -67,7 +67,7 @@ label event01:
     show tomo 31 at topleft
     show sinobu 19 at topright with dissolve
     sinobu "……。"
-    play sound "FX/殴る２.ogg"
+    play sound "fx/punch2.ogg"
     show cg remarkable at top with pixellate
     "咻啪！"
     hide tomo with dissolve
@@ -75,7 +75,7 @@ label event01:
     hide cg with dissolve
     show sinobu 6 at topright
     show tomo 20 at topleft with dissolve
-    play sound "FX/ビヨン.ogg"
+    play sound "fx/boing.ogg"
     tomo "呜呀！！"
     sinobu "别在学校里发情啊。"
     window hide
@@ -86,10 +86,10 @@ label event01:
     return
 
 label event02:
-    show bg 校舎（全貌） at center with Dissolve(0.8)
-    play music "４コマ.ogg"
+    show bg school_building_full at center with Dissolve(0.8)
+    play music "yonkoma.ogg"
     pause 0.6
-    show bg 洗面所 with dissolve
+    show bg washroom with dissolve
     show sintarou 3 at topright
     show tuki 17 at topleft
     show sora 2 at top with dissolve
@@ -103,18 +103,18 @@ label event02:
     extend "\n每天坚持锻炼肌肉哦。"
     show sintarou 12 with dissolve
     sintarou "既然如此……"
-    play sound "FX/ひらめき！.ogg"
+    play sound "fx/eureka.ogg"
     extend "想必晚上也会很激烈吧~。"
     extend "\n哎呀~真想偷窥一次啊。"
     show sora 15 with dissolve
-    play sound "FX/ビヨン.ogg"
+    play sound "fx/boing.ogg"
     sora "你，你你你你在说什么呢，真是的！\n怎么可能...."
     show tuki 29 with dissolve
-    play sound "FX/インパクト.ogg"
+    play sound "fx/impact.ogg"
     tuki "嗯……你是怎么知道的，奥村。"
     extend "\n难道说，你偷窥过……？"
-    play sound "FX/爆発２.ogg"
-    show cg 廊下 at center with pixellate
+    play sound "fx/explosion2.ogg"
+    show cg hallway at center with pixellate
     hide bg
     hide sintarou
     hide tuki
@@ -125,7 +125,7 @@ label event02:
     hide cg with dissolve
     hide sora with dissolve
     hide sintarou with dissolve
-    show bg 洗面所 at center
+    show bg washroom at center
     show sintarou 31 at top with dissolve
     window show
     sintarou "（贼笑）"
@@ -138,12 +138,12 @@ label event02:
     return
 
 label event03:
-    show bg 校舎（全貌） at center with Dissolve(0.8)
-    play music "４コマ.ogg"
+    show bg school_building_full at center with Dissolve(0.8)
+    play music "yonkoma.ogg"
     pause 0.6
-    show bg 教室 with dissolve
+    show bg classroom with dissolve
     show sintarou 25 at top with dissolve
-    play sound "FX/可愛い2.ogg"
+    play sound "fx/cute2.ogg"
     window show
     sintarou "那么，各位！！"
     extend "\n说到夜晚的伴侣，你想到的是什么！！？"
@@ -151,31 +151,35 @@ label event03:
     hide sintarou with dissolve
     show bg remarkable
     show tomo 13 at top with dissolve
+    play sound "fx/impact.ogg"
     window show
     tomo "飞机杯！"
     window hide
     show sintarou 7 at topright with dissolve
+    play sound "fx/impact.ogg"
     window show
     sintarou "自慰器！！"
     window hide
     show tuki 7 at topleft with dissolve
+    play sound "fx/impact_japanese.ogg"
     window show
     tuki "空的○○○！！！"
     window hide
     hide sintarou with dissolve
     hide tomo with dissolve
     hide tuki with dissolve
-    show bg 教室
+    show bg classroom
     show tomo 21 at top with dissolve
     window show
-    play sound "FX/ビヨン.ogg"
+    play sound "fx/boing.ogg"
     tomo "老师！"
     extend "\n○○○也能算作伴侣吗？"
     show sintarou 9 at topright with dissolve
+    play sound "fx/triangle.ogg"
     sintarou "唔。"
     extend "\n这问题有点难啊…。"
     show tuki 18 at topleft with dissolve
-    play sound "FX/ひらめき！.ogg"
+    play sound "fx/eureka.ogg"
     tuki "你们俩还在依赖玩具，还是太嫩了啊。"
     window hide
     hide sintarou with dissolve
@@ -195,17 +199,17 @@ label event03:
     return
 
 label event04:
-    show bg 校舎（全貌） at center with Dissolve(0.8)
-    play music "４コマ.ogg"
+    show bg school_building_full at center with Dissolve(0.8)
+    play music "yonkoma.ogg"
     pause 0.6
-    show bg 食堂 with dissolve
+    show bg cafeteria with dissolve
     show tomo 12 at topright
     show tubasa 5 at topleft with dissolve
     show tomo 3 with dissolve
     window show
     tomo "（咕嘟……咕嘟……）"
     show tomo 4 with dissolve
-    play sound "FX/ビヨン.ogg"
+    play sound "fx/boing.ogg"
     extend "\n噗哈！！\n可乐真好喝☆"
     show tubasa 11 with dissolve
     tubasa "（今天友君也很可爱呢……。）"
@@ -215,38 +219,38 @@ label event04:
     tubasa "诶？那个……这个……。"
     hide tomo with dissolve
     hide tubasa with dissolve
-    play sound "FX/キラキラ.ogg"
+    play sound "fx/sparkle.ogg"
     show cg blue at center
     show tubasa 24 at top with lm_crossfade
     "翼　（啊！！这是能和友君间接接吻的机会！！"
     show tubasa 7 with dissolve
-    play sound "FX/可愛い.ogg"
+    play sound "fx/cute.ogg"
     extend "\n但，但是我又喝不了碳酸饮料……。"
     show tubasa 6 with dissolve
-    play sound "FX/ビヨン.ogg"
+    play sound "fx/boing.ogg"
     extend "\n呜，呜呜呜……怎么办怎么办。"
     show tubasa 29 with dissolve
     extend "\n……不行，我也是个男人啊。"
     show tubasa 16 with dissolve
     extend "只要去做……"
-    play sound "FX/インパクト.ogg"
+    play sound "fx/impact.ogg"
     extend "一定能做到！！）"
     window hide
     hide cg with dissolve
     hide tubasa with dissolve
     show tubasa 18 at top with dissolve
-    play sound "FX/ひらめき！.ogg"
+    play sound "fx/eureka.ogg"
     window show
     tubasa "那，那我就开动了！！"
     show tubasa 7 with dissolve
-    play sound "FX/ダッ！.ogg"
+    play sound "fx/dash.ogg"
     extend "\n呜！？"
     hide tomo with dissolve
     hide tubasa with dissolve
     show tubasa 9 at topleft with dissolve
     tubasa "噗……咳咳！"
     show tomo 18 at topright with dissolve
-    play sound "FX/可愛い.ogg"
+    play sound "fx/cute.ogg"
     tomo "翼，翼君，你没事吧！？"
     window hide
     hide tomo with dissolve
@@ -256,15 +260,15 @@ label event04:
     return
 
 label event05:
-    show bg 校舎（全貌） at center with Dissolve(0.8)
-    play music "４コマ.ogg"
+    show bg school_building_full at center with Dissolve(0.8)
+    play music "yonkoma.ogg"
     pause 0.6
-    show bg 校舎裏 with dissolve
+    show bg school_backside with dissolve
     show sora 8 at top with dissolve
     window show
     sora "……。"
     window hide
-    play sound "FX/ビヨン.ogg"
+    play sound "fx/boing.ogg"
     show cg c102 at center with lm_crossfade
     window show
     "嗡……嗡……"
@@ -272,14 +276,14 @@ label event05:
     hide cg with dissolve
     hide sora with dissolve
     show sora 9 at top with dissolve
-    play sound "FX/可愛い3.ogg"
+    play sound "fx/cute3.ogg"
     window show
     sora "呜呜呜……有虫子在飞来飞去，没法过去啊啊啊…。"
     window hide
     hide sora with dissolve
-    show bg 体育館裏 with dissolve
+    show bg gym_backside with dissolve
     show tubasa 7 at top with dissolve
-    play sound "FX/可愛い3.ogg"
+    play sound "fx/cute3.ogg"
     window show
     tubasa "……。"
     window hide
@@ -293,22 +297,23 @@ label event05:
     show tubasa 19 with dissolve
     tubasa "……"
     show tubasa 16 with dissolve
-    play sound "FX/ひらめき！.ogg"
+    play sound "fx/eureka.ogg"
     extend "嘿！！"
+    play sound "fx/running.ogg"
     window hide
     hide tubasa with dissolve
     window show
     sora "呜，呜哇，那孩子是打算穿过去啊！"
     extend "\n真有勇气……。"
     window hide
-    show bg 校舎裏 with dissolve
+    show bg school_backside with dissolve
     show sora 8 at top with dissolve
     window show
     sora "诶……那个！？"
     extend "\n等，等等，虫子们追过来了！！？"
     extend "\n那，那孩子朝这边来了，也就是说……！！"
     window hide
-    play sound "FX/ビヨン.ogg"
+    play sound "fx/boing.ogg"
     show cg c102 at center with lm_crossfade
     window show
     "嗡~嗡~！！！！"
@@ -319,7 +324,7 @@ label event05:
     show cg remarkable at center
     show tubasa 7 at topright
     show sora 16 at topleft with dissolve
-    play sound "FX/可愛い.ogg"
+    play sound "fx/cute.ogg"
     window show
     sora "为什么会变成这样啊啊啊！！！"
     tubasa "对，对不起啊啊啊啊！！！"
@@ -327,16 +332,17 @@ label event05:
     hide sora with dissolve
     hide tubasa with dissolve
     hide cg with dissolve
+    play sound "fx/running.ogg"
     pause 0.6
     stop music fadeout 1.0
     hide bg with dissolve
     return
 
 label event06:
-    show bg 校舎（全貌） at center with Dissolve(0.8)
-    play music "４コマ.ogg"
+    show bg school_building_full at center with Dissolve(0.8)
+    play music "yonkoma.ogg"
     pause 0.6
-    show bg 教室 with dissolve
+    show bg classroom with dissolve
     show tomo 12 at topleft
     show sintarou 3 at topright with dissolve
     show sintarou 29 with dissolve
@@ -345,24 +351,24 @@ label event06:
     show tomo 3 with dissolve
     tomo "诶~。\n光是慎酱会学习这一点，就很让人吃惊了。"
     show sintarou 23 with dissolve
-    play sound "FX/ビヨン.ogg"
+    play sound "fx/boing.ogg"
     sintarou "你啊，这话说得好过分……。"
     show sintarou 16 with dissolve
     sintarou "然后呢，我学到一半，就遇到了不认识的汉字，所以就查了字典。"
     show sintarou 4 with dissolve
     extend "\n然后，渐渐地，就去查一些色情的字词了。"
     show tomo 11 with dissolve
-    play sound "FX/ひらめき！.ogg"
+    play sound "fx/eureka.ogg"
     tomo "啊~确实确实！"
-    play sound "FX/可愛い.ogg"
+    play sound "fx/cute.ogg"
     extend "\n比如阴○啊，"
-    play sound "FX/可愛い2.ogg"
+    play sound "fx/cute2.ogg"
     extend "勃○啊，"
-    play sound "FX/ワーオ２.ogg"
+    play sound "fx/wow2.ogg"
     extend "射○啊，"
     extend "这类词语对吧？"
     show sintarou 5 with dissolve
-    play sound "FX/可愛い2.ogg"
+    play sound "fx/cute2.ogg"
     sintarou "没错没错♪"
     show sintarou 29 with dissolve
     extend "\n然后，就变得越来越兴奋，\n最后完全没法集中，直接进入飞机杯咻咻的时间。"
@@ -373,13 +379,14 @@ label event06:
     hide tomo with dissolve
     hide sintarou with dissolve
     hide bg with dissolve
-    show bg 教室 at center
+    show bg classroom at center
     show sora 12 at top with Dissolve(0.8)
     window show
     sintarou "嗡嗡是啥啊~。"
     tomo "电摩的音效啦！"
     window hide
     show sora 20 with dissolve
+    play sound "fx/triangle.ogg"
     window show
     sora "……"
     extend "是该吐槽，还是不该吐槽呢…。"
@@ -390,10 +397,10 @@ label event06:
     return
 
 label event07:
-    show bg 校舎（全貌） at center with Dissolve(0.8)
-    play music "４コマ.ogg"
+    show bg school_building_full at center with Dissolve(0.8)
+    play music "yonkoma.ogg"
     pause 0.6
-    show bg 校庭 with dissolve
+    show bg schoolyard with dissolve
     show tomo 12 at topleft
     show tubasa 5 at topright with dissolve
     show tomo 21 with dissolve
@@ -406,36 +413,36 @@ label event07:
     tubasa "确实呢。"
     extend "\n我也认为，这身衣服看起来感觉很好…。"
     show tubasa 11 with dissolve
-    play sound "FX/可愛い2.ogg"
+    play sound "fx/cute2.ogg"
     extend "\n只限定友君。"
     window hide
     hide tomo with dissolve
     hide tubasa with dissolve
     show sintarou 9 at top with dissolve
     window show
-    play sound "FX/ひらめき！.ogg"
+    play sound "fx/eureka.ogg"
     sintarou "我们学校的泳衣是三角裤的原因，\n是因为校长有这方面的癖好。"
     show tomo 28 at topleft
     show tubasa 17 at topright with dissolve
-    play sound "FX/ビヨン.ogg"
+    play sound "fx/boing.ogg"
     tubasa "奥，奥村君！"
-    play sound "FX/ビヨン.ogg"
+    play sound "fx/boing.ogg"
     tomo "慎酱，这是真的吗！？"
     show sintarou 8 with dissolve
     sintarou "嗯！"
     extend "\n以前校长来过我家的澡堂，\n那时我就听说了很多事情~。"
     show tomo 11 with dissolve
-    play sound "FX/可愛い2.ogg"
+    play sound "fx/cute2.ogg"
     tomo "仔，仔细说说当时的事！！！"
-    play sound "FX/キラキラ.ogg"
+    play sound "fx/sparkle.ogg"
     show 効果ＣＧ adult at center with fade
     sintarou "哎呀呀～。"
     extend "\n人家体贴地问了句，要不要帮您搓背呀？"
     extend "结果，\n两人越洗越火热呢～"
-    play sound "FX/インパクト（和風）.ogg"
+    play sound "fx/impact_japanese.ogg"
     tomo "呜噢噢噢噢！！不愧是慎酱！手艺~高超♪"
     sintarou "然后，校长就彻底解放，\n往我这边扑过来。"
-    play sound "FX/可愛い3.ogg"
+    play sound "fx/cute3.ogg"
     tubasa "……啊呜啊呜。"
     hide 効果ＣＧ with dissolve
     hide tomo with dissolve
@@ -444,20 +451,20 @@ label event07:
     show tomo 6 at top with dissolve
     tomo "好厉害~。我们的校长真行啊……"
     show tomo 11 with dissolve
-    play sound "FX/ワーオ２.ogg"
+    play sound "fx/wow2.ogg"
     extend "\n然后呢然后呢！？"
     hide tomo with dissolve
     hide tubasa with dissolve
     show tomo 25 at topleft
     show tubasa 3 at topright with dissolve
-    play sound "FX/ビヨン.ogg"
+    play sound "fx/boing.ogg"
     tubasa "友，友君！不可以听这种故事啦！！"
     extend "\n友君会变脏的！！"
     show sintarou 29 at top with dissolve
     sintarou "没事没事，一之濑同学。\n他已经脏得不能再脏了哦？"
     show tubasa 7 with dissolve
-    play sound "FX/ビヨン.ogg"
-    play sound "FX/ビヨン.ogg"
+    play sound "fx/boing.ogg"
+    play sound "fx/boing.ogg"
     tubasa "总之不可以！！！"
     window hide
     hide tomo with dissolve
@@ -468,10 +475,10 @@ label event07:
     return
 
 label event08:
-    show bg 校舎（全貌） at center with Dissolve(0.8)
-    play music "４コマ.ogg"
+    show bg school_building_full at center with Dissolve(0.8)
+    play music "yonkoma.ogg"
     pause 0.6
-    show bg 食堂 with dissolve
+    show bg cafeteria with dissolve
     show tuki 1 at topleft
     show sora 2 at topright with dissolve
     show sora 26 with dissolve
@@ -488,7 +495,7 @@ label event08:
     tuki "……。"
     hide tuki with dissolve
     hide sora with dissolve
-    play sound "FX/キラキラ.ogg"
+    play sound "fx/sparkle.ogg"
     show cg adult at center
     show tuki 4 at top with lm_crossfade
     extend "如果空是女生的话，现在一定已经有孩子了…。"
@@ -496,10 +503,10 @@ label event08:
     hide sora with dissolve
     hide cg with dissolve
     show sora 17 at top with dissolve
-    play sound "FX/ダッ！.ogg"
+    play sound "fx/dash.ogg"
     sora "变态！！！"
     hide sora with dissolve
-    play sound "FX/ガーン.ogg"
+    play sound "fx/shock.ogg"
     show cg dark at center
     show tuki 13 at top with Dissolve(0.3)
     tuki "（惊！）"
@@ -512,10 +519,10 @@ label event08:
     return
 
 label event09:
-    show bg 校舎（全貌） at center with Dissolve(0.8)
-    play music "４コマ.ogg"
+    show bg school_building_full at center with Dissolve(0.8)
+    play music "yonkoma.ogg"
     pause 0.6
-    show bg 教室 with dissolve
+    show bg classroom with dissolve
     show saburo 1 at top with dissolve
     show saburo 5 with dissolve
     window show
@@ -537,9 +544,9 @@ label event09:
     hide sakuya with dissolve
     show sakuya 19 at top with dissolve
     window show
-    play sound "FX/ビヨン.ogg"
+    play sound "fx/boing.ogg"
     "作哉（嗯……？下半身感觉不对劲……。）"
-    play sound "FX/キラキラ.ogg"
+    play sound "fx/sparkle.ogg"
     show cg adult at center
     show sakuya 32 with lm_crossfade
     sakuya "……啊。"
@@ -555,10 +562,10 @@ label event09:
     saburo "哈啊？为啥啊！"
     extend "\n快点走啊~"
     show sakuya 27 with dissolve
-    play sound "FX/ダッ！.ogg"
+    play sound "fx/dash.ogg"
     sakuya "吵死了笨蛋！傻子！！废物！！！"
     show saburo 3 with dissolve
-    play sound "FX/可愛い3.ogg"
+    play sound "fx/cute3.ogg"
     saburo "嘴好毒！！好可怕！！"
     window hide
     hide saburo with dissolve
@@ -568,10 +575,10 @@ label event09:
     return
 
 label event10:
-    show bg 校舎（全貌） at center with Dissolve(0.8)
-    play music "４コマ.ogg"
+    show bg school_building_full at center with Dissolve(0.8)
+    play music "yonkoma.ogg"
     pause 0.6
-    show bg 教室 with dissolve
+    show bg classroom with dissolve
     show tomo 12 at topleft
     show sinobu 1 at topright with dissolve
     show tomo 7 with dissolve
@@ -582,7 +589,7 @@ label event10:
     sinobu "嗯，可以啊。"
     extend "\n呃，这里是右边的项移项，用解题公式……。"
     window hide
-    play music "FX/トコトコ.ogg"
+    play music "fx/footsteps.ogg"
     hide tomo with dissolve
     hide sinobu with dissolve
     hide bg with dissolve
@@ -590,13 +597,14 @@ label event10:
     "···"
     window hide
     stop music fadeout 1.0
-    show bg 教室 at center with dissolve
+    show bg classroom at center with dissolve
     show sinobu 2 at topright with dissolve
     window show
     sinobu "……所以结果是0.721。"
     show tomo 24 at topleft with dissolve
-    play sound "FX/可愛い.ogg"
+    play sound "fx/cute.ogg"
     tomo "原来如此！！非常感谢！"
+    play sound "fx/running.ogg"
     hide tomo with dissolve
     window hide
     hide sinobu with dissolve
@@ -608,11 +616,11 @@ label event10:
     window hide
     hide sinobu with dissolve
     show tomo 39 at topright with dissolve
-    play sound "FX/ビヨン.ogg"
+    play sound "fx/boing.ogg"
     window show
     tomo "这样一来，终于可以看之前的小网站了哦，老板。"
     show sintarou 13 at topleft with dissolve
-    play sound "FX/ビヨン.ogg"
+    play sound "fx/boing.ogg"
     sintarou "干得漂亮友亲！！"
     extend "\n最近不只是隐藏链接，\n还增加了这种登录问题啊。"
     extend "\n真是麻烦啊。"
@@ -627,17 +635,18 @@ label event10:
     hide sintarou with dissolve
     show sinobu 13 at top with dissolve
     window show
+    play sound "fx/triangle.ogg"
     sinobu "……。"
     hide sinobu with dissolve
     show tomo 31 at topright
     show sintarou 12 at topleft with dissolve
     show sinobu 25 at top with dissolve
     show cg dark at center
-    play sound "FX/インパクト.ogg"
+    play sound "fx/impact.ogg"
     sinobu "你们俩，去屋顶一趟吧。"
     show tomo 30
     show sintarou 21 with dissolve
-    play sound "FX/可愛い2.ogg"
+    play sound "fx/cute2.ogg"
     "友＆慎太郎" "咿！！？"
     window hide
     hide tomo with dissolve
@@ -649,11 +658,11 @@ label event10:
     return
 
 label event11:
-    show bg 校舎（全貌） at center with Dissolve(0.8)
-    play music "４コマ.ogg"
+    show bg school_building_full at center with Dissolve(0.8)
+    play music "yonkoma.ogg"
     pause 0.6
     show bg c103 with lm_crossfade
-    play sound "FX/ジャジャーン.ogg"
+    play sound "fx/tadaa.ogg"
     window show
     tomo "铛铛！"
     sora "友君，你的头发是怎么了！"
@@ -666,8 +675,8 @@ label event11:
     window hide
     hide bg with dissolve
     pause 0.5
-    play music "FX/雨.ogg"
-    show bg 雨 at center with Dissolve(0.6)
+    play music "fx/rain.ogg"
+    show bg rain at center with Dissolve(0.6)
     window show
     sora "啊，开始下雨了。"
     extend "\n而且，还很大。"
@@ -680,11 +689,11 @@ label event11:
     window show
     "···。"
     window hide
-    play sound "FX/燕.ogg"
-    show bg 空 at center with lm_crossfade
+    play sound "fx/tsubame.ogg"
+    show bg sky at center with lm_crossfade
     pause 0.6
     stop sound fadeout 1.0
-    show bg 教室 with dissolve
+    show bg classroom with dissolve
     show sora 2 at topright with dissolve
     window show
     sora "天气恢复晴朗了呢……。"
@@ -699,6 +708,7 @@ label event11:
     hide sora with dissolve
     hide sintarou with dissolve
     show tomo 9 at top with Dissolve(0.8)
+    play sound "fx/triangle.ogg"
     window show
     tomo "呜呜呜……。"
     window hide
@@ -710,10 +720,10 @@ label event11:
     return
 
 label event12:
-    show bg 校舎（全貌） at center with Dissolve(0.8)
-    play music "４コマ.ogg"
+    show bg school_building_full at center with Dissolve(0.8)
+    play music "yonkoma.ogg"
     pause 0.6
-    show bg 廊下 with dissolve
+    show bg hallway with dissolve
     show tomo 12 at top with dissolve
     window show
     tomo "~♪"
@@ -721,22 +731,22 @@ label event12:
     show saburo 20 at top with Dissolve(0.75)
     "三朗（好在意……。"
     extend "\n无论如何都很在意……！）"
-    play sound "FX/ひらめき！.ogg"
+    play sound "fx/eureka.ogg"
     show cg c104 1 at center with pixellate
     "三朗（那家伙的呆毛！从以前开始就一直很在意！"
     extend "\n怎么说呢，好想……好想摸一摸，又想揪一下……！"
     extend "\n这样盯着看的话，"
-    play sound "FX/キラキラ.ogg"
+    play sound "fx/sparkle.ogg"
     show cg c104 2 with Dissolve(0.65)
     extend "就忍不住想要扑上去！！"
     extend "\n这种冲动，是怎么回事啊……！）"
-    play sound "FX/ビヨン.ogg"
+    play sound "fx/boing.ogg"
     "三朗（啊，不行不行……我在想什么啊！"
     extend "\n那家伙是穗海的心上人啊！！"
     extend "\n敢对他出手的话，"
-    play sound "FX/ナイフ.ogg"
+    play sound "fx/knife.ogg"
     extend "就会被开膛破肚谢罪啊！"
-    play sound "FX/爆発２.ogg"
+    play sound "fx/explosion2.ogg"
     extend "\n我，我的本能快给我冷静下来！！！冷静下来啊！！！！）"
     window hide
     hide cg with dissolve
@@ -746,7 +756,7 @@ label event12:
     sakuya "喂，猫山……你从刚才开始就喘得厉害啊。"
     extend "\n怎么了？"
     show saburo 14 at topright with dissolve
-    play sound "FX/ビヨン.ogg"
+    play sound "fx/boing.ogg"
     saburo "穗，穗海……我会忍住的……"
     extend "\n绝不会背叛我们的友情……！"
     show sakuya 11 with dissolve
@@ -759,13 +769,13 @@ label event12:
     return
 
 label event13:
-    show bg 校舎（全貌） at center with Dissolve(0.8)
-    play music "４コマ.ogg"
+    show bg school_building_full at center with Dissolve(0.8)
+    play music "yonkoma.ogg"
     pause 0.6
-    show bg 廊下 with dissolve
+    show bg hallway with dissolve
     show sakuya 20 at topleft
     show tomo 28 at topright with dissolve
-    play sound "FX/ダッ！.ogg"
+    play sound "fx/dash.ogg"
     window show
     "咚"
     show sakuya 6 with dissolve
@@ -773,12 +783,12 @@ label event13:
     show tomo 7 with dissolve
     tomo "啊，对，对不起。"
     show sakuya 2 with dissolve
-    play sound "FX/ビヨン.ogg"
+    play sound "fx/boing.ogg"
     sakuya "你这笨蛋！"
     extend "\n眼睛长哪去了！走路不看路吗！！"
     extend "\n都是因为你害我肩膀疼了！\n给我医药费！"
     show tomo 5 with dissolve
-    play sound "FX/ビヨン.ogg"
+    play sound "fx/boing.ogg"
     tomo "我，我不是道过歉了吗！"
     extend "\n你才是，诽谤我要赔我钱！"
     show sakuya 20 with dissolve
@@ -790,23 +800,23 @@ label event13:
     hide sakuya with dissolve
     hide tomo with dissolve
     window show
-    play sound "FX/風を切る.ogg"
+    play sound "fx/wind_slash.ogg"
     sinobu "……没有到那种程度。"
     window hide
-    play sound "FX/インパクト.ogg"
+    play sound "fx/impact.ogg"
     show cg c105 at center with pixellate
     window show
     "啪嚓！"
     "「"
-    play sound "FX/登場！.ogg"
+    play sound "fx/entrance.ogg"
     "铁·"
-    play sound "FX/登場！.ogg"
+    play sound "fx/entrance.ogg"
     extend "拳·"
-    play sound "FX/登場！.ogg"
+    play sound "fx/entrance.ogg"
     extend "制·"
-    play sound "FX/登場！.ogg"
+    play sound "fx/entrance.ogg"
     extend "裁！！！"
-    play sound "FX/インパクト（和風）.ogg"
+    play sound "fx/impact_japanese.ogg"
     window hide
     hide tomo with dissolve
     hide cg with dissolve
@@ -818,7 +828,7 @@ label event13:
     window hide
     hide sinobu with dissolve
     window show
-    play sound "FX/チーン.ogg"
+    play sound "fx/ding.ogg"
     sakuya "呜呜呜…。"
     show tomo 26 at topright with dissolve
     tomo "这……这会不会太可怜了…。"
@@ -830,15 +840,15 @@ label event13:
     return
 
 label event14:
-    show bg 校舎（全貌） at center with Dissolve(0.8)
-    play music "４コマ.ogg"
+    show bg school_building_full at center with Dissolve(0.8)
+    play music "yonkoma.ogg"
     pause 0.6
-    show bg 廊下 with dissolve
+    show bg hallway with dissolve
     show tubasa 31 at top with dissolve
     window show
     tubasa "啊……是友君啊。"
     window hide
-    play sound "FX/キラキラ.ogg"
+    play sound "fx/sparkle.ogg"
     show cg c34 2 at center with lm_crossfade
     window show
     tubasa "待在一起的是，绫濑君……"
@@ -848,13 +858,14 @@ label event14:
     hide bg with dissolve
     hide tubasa with dissolve
     hide cg with dissolve
-    play sound "FX/ドキドキ.ogg"
+    play sound "fx/heartbeat.ogg"
     show bg dark at center
     show tubasa 38 at top with Dissolve(0.9)
     window show
     tubasa "………………………。"
     stop sound fadeout 1.0
-    show bg 廊下
+    show bg hallway
+    play sound "fx/triangle.ogg"
     show tubasa 21 with dissolve
     tubasa "咦，咦……糟糕，我真是\n的。\n刚才好像在想很不好的事……。"
     extend "\n啊呜呜呜呜……以后得多注意了…。"
@@ -865,10 +876,10 @@ label event14:
     return
 
 label event15:
-    show bg 校舎（全貌） at center with Dissolve(0.8)
-    play music "４コマ.ogg"
+    show bg school_building_full at center with Dissolve(0.8)
+    play music "yonkoma.ogg"
     pause 0.6
-    show bg 教室 with dissolve
+    show bg classroom with dissolve
     show sintarou 3 at topright
     show tomo 12 at topleft
     show sora 2 at top with dissolve
@@ -891,9 +902,9 @@ label event15:
     show cg remarkable at center
     show sintarou 6
     show tomo 13 with dissolve
-    play sound "FX/ジャジャーン.ogg"
+    play sound "fx/tadaa.ogg"
     tomo_and_shin "69！！！"
-    play sound "FX/ワーオ２.ogg"
+    play sound "fx/wow2.ogg"
     show cg adult
     show tomo 17
     show sintarou 7 with dissolve
@@ -904,13 +915,13 @@ label event15:
     hide cg with dissolve
     show tuki 2 at topleft
     show sora 15 at topright with dissolve
-    play sound "FX/ビヨン.ogg"
+    play sound "fx/boing.ogg"
     window show
     sora "哥，哥哥！快想想办法~！！"
     show tuki 9 with dissolve
     tuki "啊，回家以后试试吧。"
     show sora 16 with dissolve
-    play sound "FX/可愛い2.ogg"
+    play sound "fx/cute2.ogg"
     sora "笨蛋啊啊啊啊啊啊啊啊啊啊啊！！！！！！"
     window hide
     hide sora with dissolve
@@ -920,16 +931,16 @@ label event15:
     return
 
 label event16:
-    show bg 校舎（全貌） at center with Dissolve(0.8)
-    play music "４コマ.ogg"
+    show bg school_building_full at center with Dissolve(0.8)
+    play music "yonkoma.ogg"
     pause 0.6
-    show bg 洗面所 with dissolve
+    show bg washroom with dissolve
     show sakuya 12 at top with dissolve
     window show
     sakuya "……真是的，上厕所也太久了。"
     extend "\n我也想上，能不能快点啊……。"
     hide sakuya with dissolve
-    play sound "FX/ドアを開ける.ogg"
+    play sound "fx/door_open.ogg"
     "咔嚓"
     window hide
     show tomo 6 at top with dissolve
@@ -939,7 +950,7 @@ label event16:
     show sakuya 8 at topright with dissolve
     sakuya "呃，是你啊……。"
     show tomo 28 at topleft with dissolve
-    play sound "FX/ビヨン.ogg"
+    play sound "fx/boing.ogg"
     tomo "呃！技安！！"
     show tomo 31 with dissolve
     extend "\n我，我先出去了~！"
@@ -949,14 +960,14 @@ label event16:
     sakuya "……虽然不太想在那家伙之后用，但也没办法……。"
     window hide
     hide sakuya with dissolve
-    play sound "FX/ドアを開ける.ogg"
-    show bg 個室トイレ with lm_crossfade
+    play sound "fx/door_open.ogg"
+    show bg private_toilet with lm_crossfade
     window show
     sakuya "嗯……？"
     extend "\n这股味道……还有这张纸巾的湿度……。"
     show bg dark
     show sakuya 29 at top with dissolve
-    play sound "FX/ガーン.ogg"
+    play sound "fx/shock.ogg"
     sakuya "那家伙做了！绝对做了！！"
     window hide
     hide sakuya with dissolve
@@ -965,10 +976,10 @@ label event16:
     return
 
 label event17:
-    show bg 校舎（全貌） at center with Dissolve(0.8)
-    play music "４コマ.ogg"
+    show bg school_building_full at center with Dissolve(0.8)
+    play music "yonkoma.ogg"
     pause 0.6
-    show bg プール with dissolve
+    show bg pool with dissolve
     show saburo 16m at top with dissolve
     window show
     saburo "唉……我最讨厌游泳课了……"
@@ -982,19 +993,19 @@ label event17:
     hide sakuya with dissolve
     show saburo 12m at topright
     show sakuya 37m at topleft with dissolve
-    play sound "FX/ダッ！.ogg"
+    play sound "fx/dash.ogg"
     sakuya "看招。"
-    play sound "FX/ビヨン.ogg"
+    play sound "fx/boing.ogg"
     saburo "喵！！！"
     hide saburo with dissolve
-    play sound "FX/ダイブ.ogg"
+    play sound "fx/dive.ogg"
     "啪！"
     hide sakuya with dissolve
     window hide
     show sakuya 3m at top with dissolve
     window show
     sakuya "诶~。\n明明\n是只猫却擅长狗刨啊。"
-    play sound "FX/可愛い2.ogg"
+    play sound "fx/cute2.ogg"
     saburo "你，你！！一定要报复回去！！！"
     window hide
     hide sakuya with dissolve
@@ -1003,10 +1014,10 @@ label event17:
     return
 
 label event18:
-    show bg 校舎（全貌） at center with Dissolve(0.8)
-    play music "４コマ.ogg"
+    show bg school_building_full at center with Dissolve(0.8)
+    play music "yonkoma.ogg"
     pause 0.6
-    show bg 教室 with dissolve
+    show bg classroom with dissolve
     show tomo 12 at topleft
     show sinobu 2 at top
     show sintarou 3 at topright with dissolve
@@ -1019,7 +1030,7 @@ label event18:
     show sinobu 27 with dissolve
     sinobu "……。"
     window hide
-    play sound "FX/キラキラ.ogg"
+    play sound "fx/sparkle.ogg"
     show cg c106 1 at center with Dissolve(0.7)
     window show
     tomo "忍，再笑得再灿烂一点！"
@@ -1029,7 +1040,7 @@ label event18:
     show cg c106 2 with Dissolve(0.7)
     extend "\n对对，就是这种感觉！"
     sinobu "……。"
-    play sound "FX/ひらめき！.ogg"
+    play sound "fx/eureka.ogg"
     tomo "啊！！\n忍的头顶上方，出现「电动战队城市英雄」的玩偶了！！！"
     sinobu "？"
     window hide
@@ -1041,10 +1052,11 @@ label event18:
     window show
     "咔嚓"
     window hide
-    show bg 教室 at center with Dissolve(0.6)
+    show bg classroom at center with Dissolve(0.6)
     show tomo 8 at topleft
     show sintarou 23 at topright with dissolve
     window show
+    play sound "fx/triangle.ogg"
     sintarou "这，这是……。"
     tomo "拍，拍到不得了的东西了……。"
     show sinobu 2 at top with dissolve
