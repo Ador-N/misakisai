@@ -440,7 +440,7 @@ label day3_1_sintarou_tuki_sora:
     sora "啊……不，不用这么失落吧……。"
     show sintarou 11 at topleft with dissolve
     sintarou "这就是号称全校最强的剑道部主将吗……。"
-    me "现在好像是个人都能给他一记暴击呢。」（注：“面打ち”作为剑道术语无法直译，这里是基于赤峰兄弟身份玩了一个梗）"
+    me "现在好像是个人都能给他一记暴击呢。\n（注：“面打ち”作为剑道术语无法直译，这里是基于赤峰兄弟身份玩了一个梗）"
     hide sintarou with dissolve
     hide sora with dissolve
     show sora 19 at topright with dissolve
@@ -1762,7 +1762,7 @@ label day3_design:
     extend "\n那么，接下来就去拍床戏吧！！"
     hide cg with dissolve
     show sintarou 9 with dissolve
-    sintarou "[player_name]酱也一起来吗？」友和慎太郎一起问道。"
+    tomo_and_shin "[player_name]酱也一起来吗？"
     me "当然！！！"
     extend "\n我要把你们两个吃干抹净！！！"
     show tomo 25 with dissolve
@@ -3416,7 +3416,8 @@ label day3_layout_2:
     window show
     me "用合气道的话，就能不伤人的制服对手呢。"
     extend "\n这样就不会受罚了哦，前辈。"
-    student_c "你，你这混蛋！！」\n男生试图用另一只手反击。"
+    student_c "你，你这混蛋！！"
+    "男生试图用另一只手反击。"
     play sound "fx/wind_slash.ogg"
     extend "\n见状我立即扣住他受制的肘关节，锁死了他的肩膀。"
     student_c "咿呀！！"
@@ -3791,7 +3792,7 @@ label day3_layout_2_tubasa:
     extend "\n所以，我很羡慕那种能滔滔不绝地说出有趣的话的人，\n或者迅速作出适当的吐槽的人。"
     me "这样啊。"
     extend "\n就像“小鬼使”里的杉本先生一样"
-    "我：「比起那种善于社交、很受家人亲戚欢迎的开朗孩子那种浅浅的笑容，我觉得那种内心世界丰富、沉稳的孩子发自内心的笑容更加有趣。”」"
+    me "「比起那种善于社交、很受家人亲戚欢迎的开朗孩子那种浅浅的笑容，我觉得那种内心世界丰富、沉稳的孩子发自内心的笑容更加有趣。」"
     me "我以前听说过这句话。"
     show tubasa 2 with dissolve
     tubasa "是，是这样啊……"

@@ -73,10 +73,11 @@ label day2_1_tomo:
     show bg school_route at center with dissolve
     stop music fadeout 0.3
     window show
-    "？？？「[player_name]君，危险！！！」\n我　「诶？」"
+    unknown "[player_name]君，\n危险！！！"
+    me "诶？"
     "咕嗯！！"
     play sound "fx/wind_slash.ogg"
-    "危险！！！！！」\n我　「呜哇！！！」\n"
+    me "呜哇！！！"
     play sound "fx/sudden_brake.ogg"
     "叽叽！！！！"
     $ renpy.transition(Quake(0, 100, 0.2, 0.065), layer='master')
@@ -245,7 +246,8 @@ label day2_1_sintarou:
     unknown "喂[player_name]君！！\n危险啊啊！！！"
     "咕嗯！！"
     play sound "fx/wind_slash.ogg"
-    "咚\n我　「呜哇！！！」\n"
+    extend "咚"
+    me "呜哇！！！"
     play sound "fx/sudden_brake.ogg"
     "叽叽！！！！"
     $ renpy.transition(Quake(0, 100, 0.2, 0.065), layer='master')
@@ -426,7 +428,7 @@ label day2_1_sinobu:
     unknown "[player_surname]君……！"
     "咕嗯！！"
     play sound "fx/wind_slash.ogg"
-    "危险！！！！！」\n我　「呜哇！！！」\n"
+    me "呜哇！！！"
     play sound "fx/sudden_brake.ogg"
     "叽叽！！！！"
     $ renpy.transition(Quake(0, 100, 0.2, 0.065), layer='master')
@@ -766,7 +768,7 @@ label day2_1_futago:
     unknown "危险！！"
     "咕嗯！！"
     play sound "fx/wind_slash.ogg"
-    "危险！！！！！」\n我　「呜哇！！！」\n"
+    me "呜哇！！！"
     play sound "fx/sudden_brake.ogg"
     "叽叽！！！！"
     $ renpy.transition(Quake(0, 100, 0.2, 0.065), layer='master')
@@ -833,7 +835,7 @@ label day2_1_futago:
     extend "\n穿和服的话……"
     show cg adult at center with Dissolve(0.2)
     play sound "fx/sparkle.ogg"
-    extend "那么内衣也会是以前那种叫做「兜裆布」的东西吗！」"
+    extend "那么内衣也会是以前那种叫做「兜裆布」的东西吗！"
     hide tuki
     hide sora
     "怎么会"
@@ -965,7 +967,7 @@ label day2_1_sakuya:
     unknown "喂！！！"
     "咕嗯！！"
     play sound "fx/wind_slash.ogg"
-    "危险！！！！！」\n我　「呜哇！！！」\n"
+    me "呜哇！！！"
     play sound "fx/sudden_brake.ogg"
     "叽叽！！！！"
     $ renpy.transition(Quake(0, 100, 0.2, 0.065), layer='master')
@@ -1306,7 +1308,7 @@ label day2_1_saburo:
     play sound "fx/boing.ogg"
     saburo "什……！！？？\n怎么可能啊！！！！"
     extend "\n比起男人，我还是更喜欢女人啊！！！"
-    me "嗯~~~~~」。"
+    me "嗯~~~~~。"
     show saburo 8 with dissolve
     saburo "哼……你居然不信我……。"
     extend "\n很好，既然这样，那我就要拿出证据了！！"
@@ -1830,7 +1832,7 @@ label day2_layout:
     extend "\n昨天慎太郎给我们推荐了几家不错的店，\n地图也已经准备好了，应该没问题。"
     me "那让我看看地图。"
     extend "\n原来是在车站的反方向啊，我不太熟悉那边。"
-    extend "\n「美馨儿咖啡」……好奇特的店名。」"
+    extend "\n「美馨儿咖啡」……好奇特的店名。"
     show tubasa 5 with dissolve
     tubasa "但，但是，总感觉那里很时尚。"
     extend "\n究竟是什么样的地方呢……"
@@ -2029,7 +2031,7 @@ label day2_layout:
     me "但是，真的可以吗？"
     extend "\n初中生是不允许打工的吧……。"
     manager "这点没有问题！"
-    extend "已经得到上面的许可了，\n算是「尝试周」的一部分哦！」"
+    extend "已经得到上面的许可了，\n算是「尝试周」的一部分哦！"
     me "原来如此…。"
     "我们聊得正起劲时，"
     play sound "fx/cute.ogg"
@@ -2171,7 +2173,7 @@ label day2_cooking:
     tuki "烹饪室被其他班级使用了，没法在那里做菜。"
     extend "\n所以，今天就在我们家开发新菜品吧。"
     me "哎，真的吗！？"
-    extend "\n「我也可以去你们的家吗！？」"
+    extend "\n我也可以去你们的家吗！？"
     show sora 3 at topright with dissolve
     sora "当然可以。"
     extend "\n家里会有点乱，希望你不要太介意。"
@@ -4165,7 +4167,7 @@ label day2_layout_sinobu:
     me "我去追忍。"
     show tubasa 21 with dissolve
     tubasa "诶！？"
-    "我说道：「翼，不必担心，在这里享受下午茶吧。"
+    me "翼，不必担心，在这里享受下午茶吧。"
     extend "\n另外……记得取消我们点的套餐。"
     extend "\n那么，我先走了！"
     show tubasa 8 with dissolve
@@ -4189,25 +4191,25 @@ label day2_layout_sinobu:
     show bg park_walkway with FadeWhite(0.5)
     pause 0.3
     window show
-    "我说道：「忍！！！」"
+    me "忍！！！"
     show sinobu 5 at top with Dissolve(0.8)
     sinobu "[player_surname]君……"
     "忍转过头来。"
-    "我说道：「哈啊……哈啊……还好你没有离我太远……。」"
+    me "哈啊……哈啊……还好你没有离我太远……。"
     show sinobu 20 with dissolve
     sinobu "……你是特意跑过来的吗？"
-    "我说道：「是的……。」"
-    "我说道：「我！"
+    me "是的……。"
+    me "我！"
     extend "\n说了些伤害忍的话……"
     extend "\n做了一些没有分寸的事……"
     extend "\n所以我想向你道歉……！"
-    "我说道：「真的……真的很抱歉！！！！」"
+    me "真的……真的很抱歉！！！！"
     "我深深地低下头。"
     show sinobu 3 with dissolve
     sinobu "……。"
     extend "\n[player_surname]君，抬起头来。"
     extend "\n我其实……并没有生气。"
-    "我说道：「但是……对不起！！"
+    me "但是……对不起！！"
     extend "\n我应该要更多地考虑忍的心情后再行动。"
     extend "\n好好地思考一下，这种事情……"
     show sinobu 1 with dissolve

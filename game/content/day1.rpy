@@ -1707,7 +1707,7 @@ label day1_design_sintarou:
     extend "所谓小大人吧？"
     extend "\n[player_name]你才是，内心其实已经30岁了吧~？"
     show sintarou 9 with dissolve
-    extend "\n那种「初中生外皮的大人」在同人志上也有过哦~」"
+    extend "\n那种「初中生外皮的大人」在同人志上也有过哦~"
     me "真，真失礼！！"
     extend "\n我才25啊！！"
     "『小大人』也不是那个意思啊！"

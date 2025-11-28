@@ -421,7 +421,7 @@ label end_tomo:
     "然后呢，\n"
     play sound "fx/sparkle.ogg"
     show cg adult with Radial(0.5)
-    tubasa "比起友，我要让你变成我的俘虏！」\n大概就是这种感觉吧……。"
+    tubasa "比起友，我要让你变成我的俘虏！\n大概就是这种感觉吧……。"
     show cg c19 2 with DefocusBlack(0.3)
     play sound "fx/eureka.ogg"
     tubasa "（盯着）"
@@ -467,7 +467,7 @@ label end_tomo:
     me "你忘了那天早上我们贴着耳朵说的话了吗？"
     show tubasa 25i with dissolve
     tubasa "那算什么！？"
-    extend "\n在我的认知里，[player_name]君的行为是完全矛盾的！「"
+    extend "\n在我的认知里，[player_name]君的行为是完全矛盾的！"
     me "……。"
     me "翼。\n在这之后，我要将我的想法传达给友。"
     extend "\n然后，也要回应友的期望。这是我必须要做的事！"
@@ -939,7 +939,7 @@ label end_sintarou:
     extend "\n是我自己一个人先洗了，然后因为泡晕了，所以才让他让我休息的！"
     show tomo 31i with dissolve
     tomo "啊哈哈哈~开玩笑啦！"
-    extend "\n还有，后夜祭的时候也要和小慎一起「享受」吗？」"
+    extend "\n还有，后夜祭的时候也要和小慎一起「享受」吗？"
     me "诶！为什么你会知道……？"
     show tomo 25i with dissolve
     tomo "看你这么紧张，我就知道是那样了~！"
@@ -2244,7 +2244,7 @@ label end_sora:
     window show
     tuki "还好，找到代班的人了。"
     extend "\n人手足够，不必担心。"
-    extend "\n其他的人都拜托我传话给你，让我代为转达「请多保重。」。」"
+    extend "\n其他的人都拜托我传话给你，让我代为转达「请多保重。」。"
     me "这样啊……给你添麻烦了，抱歉。"
     show tuki 1i with dissolve
     tuki "不用道歉的。"
@@ -3747,7 +3747,7 @@ label end_sakuya:
     extend "\n他看起来弱不禁风，其实意外地强呢。"
     extend "\n这方面或许和你很像……。"
     me "等你不再因此难过了，能坦率一点的话，\n我认为你向他说明清楚比较好。"
-    extend "\n还要跟他说「对不起」哦。」"
+    extend "\n还要跟他说「对不起」哦。"
     show bg schoolyard1_night
     sakuya "是啊……。"
     window hide
@@ -4816,7 +4816,7 @@ label end_all:
     show tuki 4i at topright
     show sora 32i at topleft
     show sinobu 18i at top with dissolve
-    "忍、月、空「（陶醉……）」"
+    "忍＆月＆空" "（陶醉……）"
     hide tuki with dissolve
     hide sora with dissolve
     hide sinobu with dissolve

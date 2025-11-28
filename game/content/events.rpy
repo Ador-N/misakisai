@@ -838,15 +838,14 @@ label event13:
     show cg c105 at center with FadeWhite(0.5)
     window show
     "啪嚓！"
-    "「"
     play sound "fx/entrance.ogg"
-    "铁·"
+    "「铁·"
     play sound "fx/entrance.ogg"
     extend "拳·"
     play sound "fx/entrance.ogg"
     extend "制·"
     play sound "fx/entrance.ogg"
-    extend "裁！！！"
+    extend "裁！！！」"
     play sound "fx/impact_japanese.ogg"
     window hide
     hide tomo with dissolve
@@ -1060,7 +1059,7 @@ label event18:
     show sintarou 4 with dissolve
     window show
     sintarou "忍桑~。"
-    extend "\n想拍一张你的照片，双手比出「耶」的手势来~。」"
+    extend "\n想拍一张你的照片，双手比出「耶」的手势来~。"
     show tomo 4 with dissolve
     tomo "忍~笑一笑！笑一个啊~！！"
     show sinobu 27 with dissolve
