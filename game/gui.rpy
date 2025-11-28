@@ -59,25 +59,25 @@ define gui.interface_text_color = '#68301e'
 define gui.text_font = "SourceHanSansSC-Medium.ttf"
 
 ## 角色名称使用的字体。
-define gui.name_text_font = "SourceHanSansSC-Medium.ttf"
+define gui.name_text_font = "SourceHanSansSC-Bold.ttf"
 
 ## 游戏外文本使用的字体。
 define gui.interface_text_font = "SourceHanSansSC-Medium.ttf"
 
 ## 普通对话文本的大小。
-define gui.text_size = 14
+define gui.text_size = 16
 
 ## 角色名称的大小。
 define gui.name_text_size = 19
 
 ## 游戏用户界面中文本的大小。
-define gui.interface_text_size = 14
+define gui.interface_text_size = 16
 
 ## 游戏用户界面中标签的大小。
-define gui.label_text_size = 15
+define gui.label_text_size = 17
 
 ## 通知屏幕上文本的大小。
-define gui.notify_text_size = 10
+define gui.notify_text_size = 16
 
 
 ## 标题和游戏菜单 #####################################################################
@@ -107,7 +107,7 @@ define gui.name_ypos = -25
 define gui.name_xalign = 0.5
 
 ## 包含角色名字的方框的宽度、高度和边框尺寸，或设为 None 来自动确定其大小。
-define gui.namebox_width = 100
+define gui.namebox_width = 120
 define gui.namebox_height = 50
 
 ## 包含角色名字的方框的边界尺寸，以左、上、右、下顺序排列。
@@ -127,8 +127,8 @@ define gui.dialogue_width = 690
 
 ## 对话文本的水平对齐方式。0.0 为左侧对齐，0.5 为居中显示，而 1.0 为右侧对齐。
 define gui.dialogue_text_xalign = 0.0
-define gui.dialogue_text_size = 18
-define gui.dialogue_text_line_spacing = 6
+define gui.dialogue_text_size = 19
+define gui.dialogue_text_line_spacing = 5.5
 
 
 ## 按钮 ##########################################################################
@@ -198,10 +198,11 @@ define gui.choice_button_borders = None
 define gui.choice_button_text_font = gui.text_font
 define gui.choice_button_text_size = 24
 define gui.choice_button_text_xalign = 0.5
-define gui.choice_button_text_yalign = 0.55
+define gui.choice_button_text_yalign = 0.58
 define gui.choice_button_text_idle_color = '#68301ed9'
 define gui.choice_button_text_hover_color = "#966c54d9"
 define gui.choice_button_text_insensitive_color = '#8888887f'
+define gui.choice_button_text_font = "SourceHanSansSC-Bold.ttf"
 
 ## 按钮音效
 define gui.choice_button_hover_sound = "オンマウス.ogg"
