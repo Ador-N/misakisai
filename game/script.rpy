@@ -3,6 +3,7 @@
 ## 全局变量初始化 ##########################################################
 init -1:
     default persistent.seen_op = None
+    default persistent.seen_prelude = None
     default persistent.player_surname = "诹访部"
     default persistent.player_name = "翔平"
 
@@ -28,6 +29,8 @@ init -1:
         "saburo": _("喂～喂～能不能告诉咱你叫啥呀？")
     }
 
+    default random_event_id = -1
+
 ## 合并持久化数据
 ## https://doc.renpy.cn/zh-CN/persistent.html#merging-persistent-data
 init python:
@@ -48,6 +51,7 @@ label splashscreen:
 ## 游戏主流程 #############################################################
 label start:
 
+## 序幕 ############################################################
 label logic_day0:
 
     if persistent.seen_prelude:
@@ -118,6 +122,7 @@ label logic_day0:
 
     call expression "day0_" + day0_random_character + "_after"
 
+## 第一天 ############################################################
 label logic_day1:
 
     call day1
@@ -184,7 +189,9 @@ label logic_day1:
         call day1_4
         call expression "day1_4_" + target_day1
 
+## 第二天 ############################################################
 label logic_day2:
+
     call day2
     call day2_1
     if target_day1 in ["tuki", "sora"]:
@@ -275,7 +282,9 @@ label logic_day2:
     label logic_day2_end:
         call day2_end
 
+## 第三天 ############################################################
 label logic_day3:
+
     call day3
     call day3_1
     
@@ -286,6 +295,8 @@ label logic_day3:
         call day3_1_saburo_sakuya_tubasa
     elif day3_temp_target in ["sintarou", "tuki", "sora"]:
         call day3_1_sintarou_tuki_sora
+
+    call logic_random_event
 
     if target_day2 in ["tuki", "sora"]:
         call expression "day3_2_futago"
@@ -410,6 +421,7 @@ label logic_day3_sirou:
     $ target_day3 = "sirou"
     jump logic_day4
 
+## 御咲祭当天 ##########################################################
 label logic_day4:
 
     # 计算最终结局
@@ -536,3 +548,13 @@ label logic_hidden:
         jump logic_hidden_choice
 
     return
+
+## 随机事件逻辑 ##########################################################
+
+label logic_random_event:
+    python:
+        random_event_id_old = random_event_id
+        while random_event_id_old == random_event_id:
+            random_event_id = renpy.random.randint(0, 18)
+    
+    call expression "random_event_" + str(random_event_id)
