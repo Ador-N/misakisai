@@ -28,3 +28,6 @@
 # Ignore due to copyright issues.
 /game/audio
 /game/images
+
+# Mobile platform keystore files.
+*.keystore

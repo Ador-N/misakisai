@@ -1,0 +1,24 @@
+{
+    "expansion": false,
+    "google_play_key": null,
+    "google_play_salt": null,
+    "heap_size": "3",
+    "icon_name": "SCHOOL BOYS! ~\u68a6\u4e4b\u5fa1\u54b2\u796d\u7bc7~",
+    "include_pil": false,
+    "include_sqlite": false,
+    "layout": null,
+    "name": "SCHOOL BOYS! ~\u68a6\u4e4b\u5fa1\u54b2\u796d\u7bc7~",
+    "numeric_version": 1,
+    "orientation": "sensorLandscape",
+    "package": "org.adorn.scb.misakisai",
+    "permissions": [
+        "VIBRATE",
+        "INTERNET"
+    ],
+    "source": false,
+    "store": "none",
+    "update_always": true,
+    "update_icons": true,
+    "update_keystores": true,
+    "version": "1.0"
+}
