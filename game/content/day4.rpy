@@ -134,9 +134,9 @@ label day4_1:
     play sound "FX/キラキラ.ogg"
     extend "\n我，我要忍不住啦……！！"
     customer4 "看啊。"
-    extend "\n那个孩子超级~可爱啊。\n"
+    extend "\n那个孩子超级~可爱啊。"
     play sound "FX/ワーオ２.ogg"
-    "小小的屁股好·棒·啊♪"
+    extend "小小的屁股好·棒·啊♪"
     customer5 "这乌龙茶……该不会不小心加了少年的唾液吧……？"
     play sound "FX/ひらめき！.ogg"
     extend "\n如果是的话那就太棒了！！！"
@@ -149,9 +149,9 @@ label day4_1:
     extend "\n感觉气场有些不同……？"
     show sintarou 27i at topright with dissolve
     sintarou "啊是那个啊。"
-    extend "\n虽然都是我澡堂的客人，\n"
+    extend "\n虽然都是我澡堂的客人，"
     show sintarou 1i with dissolve
-    "他们有些“奇怪”，还是不要靠近为好哦。"
+    extend "他们有些“奇怪”，还是不要靠近为好哦。"
     hide sora with dissolve
     hide sintarou with dissolve
     show saburo 12i at top with dissolve
@@ -235,6 +235,7 @@ label day4_1:
 label day4_1_tomo:
     show tomo 4i at top with dissolve
     window show
+    tomo "[player_name]君，加油哦！"
     me "噢！"
     hide tomo with dissolve
     return
@@ -242,6 +243,7 @@ label day4_1_tomo:
 label day4_1_sintarou:
     show sintarou 7i at top with dissolve
     window show
+    sintarou "[player_name]酱，今天一定要努力哦~！"
     me "噢！"
     hide sintarou with dissolve
     return
@@ -780,7 +782,7 @@ label end_tomo:
     extend "\n唔？"
     play sound "FX/引き戸.ogg"
     show bg 喫茶店 with dissolve
-    "是这个吗？"
+    extend "是这个吗？"
     "正当我站在店门口犹豫不决的时候，"
     extend "从店里走出来了一个戴黄色名签，\n左手手指上缠着创可贴，还系着红色领带的男孩子。"
     window hide
@@ -1210,7 +1212,7 @@ label end_sintarou:
     extend "\n唔？"
     play sound "FX/引き戸.ogg"
     show bg 喫茶店 with dissolve
-    "是这个吗？"
+    extend "是这个吗？"
     "正当我站在店门口犹豫不决的时候，"
     extend "一个挂着橘色名牌，\n右手手指上缠着创可贴，穿着红色领带的男生从店里走了出来。"
     window hide
@@ -1238,6 +1240,7 @@ label end_sintarou:
 label day4_1_sinobu:
     show sinobu 26i at top with dissolve
     window show
+    sinobu "[player_name]，加油哦。"
     me "噢！"
     hide sinobu with dissolve
     return
@@ -1245,6 +1248,7 @@ label day4_1_sinobu:
 label day4_1_tubasa:
     show tubasa 4i at top with dissolve
     window show
+    tubasa "[player_name]君，我们一起加油吧。"
     me "噢！"
     hide tubasa with dissolve
     return
@@ -1252,6 +1256,7 @@ label day4_1_tubasa:
 label day4_1_tuki:
     show tuki 9i at top with dissolve
     window show
+    tuki "[player_surname]，一起加油吧。"
     me "噢！"
     hide tuki with dissolve
     return
@@ -1259,6 +1264,7 @@ label day4_1_tuki:
 label day4_1_sora:
     show sora 11i at top with dissolve
     window show
+    sora "一起加油吧，[player_name]君！"
     me "噢！"
     hide sora with dissolve
     return
@@ -1266,6 +1272,7 @@ label day4_1_sora:
 label day4_1_sakuya:
     show sakuya 5i at top with dissolve
     window show
+    sakuya "[player_name]也得加油啊！"
     me "噢！"
     hide sakuya with dissolve
     return
@@ -1273,6 +1280,7 @@ label day4_1_sakuya:
 label day4_1_saburo:
     show saburo 10i at top with dissolve
     window show
+    saburo "让我来给你打气~[player_surname]！"
     me "噢！"
     hide saburo with dissolve
     return
@@ -1907,7 +1915,7 @@ label end_tubasa:
     tubasa "是的。"
     extend "\n当然，就算和友在一起也很不错，\n但御咲祭的最后，\n[player_name]君和我在一起就好。"
     show tubasa 5i with dissolve
-    extend "我受了你很多照顾。"
+    tubasa "我受了你很多照顾。"
     me "照顾……？"
     show tubasa 12i with dissolve
     tubasa "嗯。\n[player_name]君教会了我怎么变得勇敢。"
@@ -2365,7 +2373,7 @@ label end_sora:
     extend "\n唔？"
     play sound "FX/引き戸.ogg"
     show bg 喫茶店 with dissolve
-    "是这个吗？"
+    extend "是这个吗？"
     "我还在店门口犹豫的时候，一个挂着红色名签的男孩注意到了我。"
     show tuki 5i at topleft with dissolve
     tuki "空，有客人来了哦。"
@@ -2685,7 +2693,7 @@ label end_tuki:
     extend "\n唔？"
     play sound "FX/引き戸.ogg"
     show bg 喫茶店 with dissolve
-    "是这个吗？"
+    extend "是这个吗？"
     "我还在店门口犹豫的时候，一个挂着红色名签的男孩注意到了我。"
     show sora 3i at topright with dissolve
     sora "哥哥，好像有客人来了，拜托你啦！"
@@ -2839,7 +2847,7 @@ label end_futago:
     show tuki 25i at topleft with dissolve
     tuki "空，这样可以吗？"
     show sora 30i at topright with dissolve
-    extend "嗯。"
+    sora "嗯。"
     extend "\n哥哥？"
     stop music fadeout 3.0
     show tuki 24i with dissolve
@@ -2983,7 +2991,7 @@ label end_futago:
     extend "\n唔？"
     play sound "FX/引き戸.ogg"
     show bg 喫茶店 with dissolve
-    "是这个吗？"
+    extend "是这个吗？"
     "正当我在店门口感到迷茫时，两个散发着甜美香气，身着制服，身上挂着红色名牌的\n男生同时注意到了我，并走了过来。"
     window hide
     show sora 3i at topright with dissolve
@@ -3437,7 +3445,7 @@ label end_saburo:
     extend "\n唔？"
     play sound "FX/引き戸.ogg"
     show bg 喫茶店 with dissolve
-    "是这个吗？"
+    extend "是这个吗？"
     "正当我站在店门口犹豫不决的时候，"
     extend "\n戴水蓝色名牌的红领带男孩从店里走了出来。"
     window hide
@@ -3921,7 +3929,7 @@ label end_sakuya:
     extend "\n唔？"
     play sound "FX/引き戸.ogg"
     show bg 喫茶店 with dissolve
-    "是这个吗？"
+    extend "是这个吗？"
     "正当我站在店门口犹豫不决的时候，"
     extend "\n一位戴着紫色名牌，系着红色领带的男生从店里走了出来。"
     window hide
@@ -4633,7 +4641,7 @@ label end_all:
     saburo "嚼嚼……"
     extend "\n我……嚼嚼……"
     show saburo 13i with dissolve
-    "章鱼烧……嚼嚼……"
+    extend "章鱼烧……嚼嚼……"
     extend "\n……虽然……"
     show saburo 20i with dissolve
     play sound "FX/ダッ！.ogg"
@@ -4783,7 +4791,7 @@ label end_all:
     extend "\n唔？"
     play sound "FX/引き戸.ogg"
     show bg 喫茶店 with dissolve
-    "是这个吗？"
+    extend "是这个吗？"
     "正当我站在店门口犹豫不决的时候，"
     extend "穿着红领带的男孩从店里走了出来。"
     window hide

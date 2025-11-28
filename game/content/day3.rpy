@@ -71,9 +71,9 @@ label day3_1_tomo_sinobu:
     show sinobu 8 with dissolve
     sinobu "早。"
     me "早上好！！  友君，忍君！"
-    extend "\n呀呀~  你们今天也真是魅力四射啊！\n"
+    extend "\n呀呀~  你们今天也真是魅力四射啊！"
     play sound "FX/キラキラ.ogg"
-    "真的让人想把你们直接吃掉啊哈哈！"
+    extend "真的让人想把你们直接吃掉啊哈哈！"
     hide tomo with dissolve
     hide sinobu with dissolve
     show tomo 21 at topright
@@ -156,7 +156,7 @@ label day3_1_tomo_sinobu:
     show tomo 3 with dissolve
     tomo "还有就是……对了！"
     show tomo 9 with dissolve
-    "拜托你好好学学做饭吧。"
+    extend "拜托你好好学学做饭吧。"
     show tomo 27 with dissolve
     extend "\n究竟是用了什么方法才能做出那么可怕的东西啊。"
     extend "\n炸牡蛎也没那么难做吧？。"
@@ -210,9 +210,9 @@ label day3_1_saburo_sakuya_tubasa:
     show tubasa 31 with dissolve
     tubasa "早，早上好。"
     me "早上好！！  大家！"
-    extend "\n哎呀~  今天天气也很好呀！\n"
+    extend "\n哎呀~  今天天气也很好呀！"
     play sound "FX/キラキラ.ogg"
-    "真的让人想把你们直接吃掉啊哈哈！"
+    extend "真的让人想把你们直接吃掉啊哈哈！"
     hide saburo with dissolve
     hide tubasa with dissolve
     hide sakuya with dissolve
@@ -327,9 +327,9 @@ label day3_1_sintarou_tuki_sora:
     show tuki 9 at top with dissolve
     tuki "早上好。"
     me "早上好！！  大家！"
-    extend "\n呀呀~  你们今天也真是魅力四射啊！\n"
+    extend "\n呀呀~  你们今天也真是魅力四射啊！"
     play sound "FX/キラキラ.ogg"
-    "真的让人想把你们直接吃掉啊哈哈！"
+    extend "真的让人想把你们直接吃掉啊哈哈！"
     hide sintarou with dissolve
     hide tuki with dissolve
     hide sora with dissolve
@@ -497,7 +497,7 @@ label day3_2_tomo:
     play music "FX/燕.ogg"
     show bg 屋上 with Dissolve(1.0)
     window show
-    "这里只是个有着几个长凳\n看上去像是休息点的地方。"
+    extend "这里只是个有着几个长凳\n看上去像是休息点的地方。"
     "风景很美，今天的气温恰到好处，还有小风吹拂，十分舒适。"
     me "诶~这里原来还蛮不错的嘛~。"
     extend "\n之前还被封锁着的来着。"
@@ -520,7 +520,7 @@ label day3_2_tomo:
     show tomo 8 with dissolve
     tomo "这，这是因为……"
     show tomo 15 with dissolve
-    "来，这个！"
+    extend "来，这个！"
     window hide
     stop music fadeout 0.5
     play music "tomo.ogg"
@@ -615,9 +615,9 @@ label day3_2_tomo:
     show tomo 30 with dissolve
     play sound "FX/可愛い.ogg"
     tomo "啊，我在说什么啊！！"
-    extend "\n抱歉，快忘掉吧！！！！！\n"
+    extend "\n抱歉，快忘掉吧！！！！！"
     show tomo 20 with dissolve
-    "我，我也该吃饭了！！！"
+    extend "我，我也该吃饭了！！！"
     "友急忙地伸出手拿起了便当。"
     show tomo 28 with dissolve
     play sound "FX/ビヨン.ogg"
@@ -767,7 +767,7 @@ label day3_2_sinobu:
     extend "\n还有，最近开始看大河剧了~。"
     show sinobu 21 with dissolve
     sinobu "这样啊。"
-    extend "那，你平时会去哪里玩？"
+    sinobu "那，你平时会去哪里玩？"
     me "去梅咲吧。"
     extend "\n正好公司也在那里……诶，怎么？"
     "这句话……和我昨天早上问忍的是一样的……。"
@@ -1696,7 +1696,7 @@ label day3_design:
     show cg c14 at center with lm_flash
     play sound "FX/ダッ！.ogg"
     sintarou "笨蛋！！"
-    extend "呜呜"
+    tomo "呜呜"
     window hide
     hide cg with dissolve
     hide sintarou with dissolve
@@ -2093,6 +2093,7 @@ label day3_supply:
 label day3_design_tomo:
     show bg 教室 at center
     window show
+    "从黄色开始吧。"
     "嗯，话说，友的形象像是黄色的呢。"
     extend "\n对他这种大大咧咧的性格来说，这种颜色应该很适合……。"
     window hide
@@ -2198,12 +2199,12 @@ label day3_design_tomo:
     play sound "FX/ビヨン.ogg"
     "什么！！"
     extend "\n也就是说，今天愉快的校园生活已经结束了吗？"
-    extend "\n"
     return
 
 label day3_design_sintarou:
     show bg 教室 at center
     window show
+    "那就从橘色开始吧。"
     "嗯这么说起来，橘色总感觉和慎太郎的形象挺像的。"
     extend "\n对各种意义上都很浮夸的他来说，这种颜色或许很适合他……。"
     window hide
@@ -2311,12 +2312,12 @@ label day3_design_sintarou:
     extend "\n没必要勉强在学校留到这么晚，今天就解散吧？"
     "什么！！"
     extend "\n也就是说，今天愉快的校园生活已经结束了吗？"
-    extend "\n"
     return
 
 label day3_layout_tubasa:
     show bg 教室 at center
     window show
+    me "那么，我就去给翼同学帮忙了。"
     window hide
     show sinobu 2 at topleft with dissolve
     window show
@@ -2357,6 +2358,7 @@ label day3_layout_tubasa:
 
 label day3_layout_sinobu_unused:
     window show
+    me "忍，我也要去！"
     window hide
     show sinobu 21 at topleft with dissolve
     window show
@@ -2470,7 +2472,8 @@ label day3_layout_sinobu_unused:
 label day3_cooking_tuki:
     show bg 家庭科室（夕方 at center
     window show
-    "\n不好意思，可以帮我把放在那边的碗\n拿过来吗？"
+    me "月。"
+    extend "\n不好意思，可以帮我把放在那边的碗\n拿过来吗？"
     window hide
     show tuki 6 at top with dissolve
     window show
@@ -2640,7 +2643,7 @@ label day3_cooking_tuki:
     extend "\n对面那边已经收拾完了，"
     pause 0.5
     show sora 4 with dissolve
-    "啊……。"
+    extend "啊……。"
     show cg 校舎（夕方 at center with Dissolve(0.3)
     tuki_and_me "啊……。"
     window hide
@@ -2799,7 +2802,8 @@ label day3_cooking_tuki:
 label day3_cooking_sora:
     show bg 家庭科室（夕方 at center
     window show
-    "\n不好意思，可以帮我把放在那边的碗\n拿过来吗？"
+    me "空。"
+    extend "\n不好意思，可以帮我把放在那边的碗\n拿过来吗？"
     window hide
     show sora 3 at top with dissolve
     window show
@@ -2954,7 +2958,7 @@ label day3_cooking_sora:
     extend "\n那边我已经收拾好了，"
     pause 0.5
     show tuki 12 with dissolve
-    "了……。"
+    extend "了……。"
     show cg 校舎（夕方 at center with Dissolve(0.3)
     "空＆我" "啊……。"
     window hide
@@ -3909,6 +3913,7 @@ label day3_3_sora:
 label day3_3_tuki:
     show tuki 6 at top with dissolve
     window show
+    tuki "怎么了？[player_surname]。"
     me "没，没事，没事。"
     hide tuki with dissolve
     return
@@ -4110,7 +4115,7 @@ label day3_2_tuki:
     show sora 2 at topright with dissolve
     sora "哥哥和佣人也想一起向你道谢。"
     me "道谢？"
-    extend "我有做过什么让月高兴的事情吗？"
+    me "我有做过什么让月高兴的事情吗？"
     show tuki 25 at topleft with dissolve
     tuki "就是昨天，在第二厨房发现虫子时帮了我一把。"
     extend "\n[player_surname]虽然你当时说只是举手之劳，但我现在还是很感谢你。"
@@ -4240,7 +4245,8 @@ label day3_supply_2:
 label day3_supply_2_saburo:
     stop music fadeout 2.0
     window show
-    "\n机会难得，就去逛逛吧。"
+    "说得也是。"
+    extend "\n机会难得，就去逛逛吧。"
     window hide
     play music "saburo.ogg"
     window show
@@ -4555,6 +4561,7 @@ label day3_supply_2_saburo:
 label day3_supply_2_sakuya:
     stop music fadeout 2.0
     window show
+    "不，这里不需要绕路，直接回学校吧。"
     window hide
     play music "sakuya.ogg"
     window show
@@ -4945,6 +4952,7 @@ label day3_supply_2_sakuya:
 
 label day3_design_2_tomo:
     window show
+    "这样下去欲求不满可是会收不回来的啊！！"
     "现在就是一不做二不休……！！"
     me "那要不要现在就一起去玩？"
     extend "\n说起来~去你家怎么样？"
@@ -5108,9 +5116,9 @@ label day3_design_2_tomo:
     extend "\n吃我这招啊啊！！！"
     me "哇哈哈！正好掉到赛道外的我可就不管了哦……"
     extend "\n我的道具~好，来了，护甲！！！"
-    extend "\n不想被撞到的人就给我躲开啊啊啊！\n"
+    extend "\n不想被撞到的人就给我躲开啊啊啊！"
     play sound "FX/爆発２.ogg"
-    "呀哈！保险费又要涨了！"
+    extend "呀哈！保险费又要涨了！"
     play sound "FX/ガーン.ogg"
     tomo "呀啊啊啊别过来啊啊啊啊！！！"
     "旁人看来，肯定会觉得这游戏玩法毫无章法。\n但正因为同为低水平的人，我们才能专注于游戏本身。"
@@ -5303,6 +5311,7 @@ label day3_design_2_tomo:
 
 label day3_design_2_sintarou:
     window show
+    "这样下去欲求不满可是会收不回来的啊！！"
     "现在就是一不做二不休……！！"
     me "那要不要现在就一起去玩？"
     extend "\n这样啊~慎太郎家怎么样？"
@@ -5671,6 +5680,7 @@ label day3_design_2_sintarou:
 
 label day3_design_2_self:
     window show
+    me "那么……"
     window hide
     show sintarou 15 with dissolve
     window show
@@ -5703,7 +5713,8 @@ label day3_design_2_self:
 label day3_layout_sinobu_2:
     show sinobu 18 with dissolve
     window show
-    "\n[player_name]你能这么说，真是太好了。"
+    sinobu "嘻嘻。是嘛。"
+    extend "\n[player_name]你能这么说，真是太好了。"
     "忍露出微笑了！！"
     me "不过，和执行委员成立之初相比，\n你变得很积极了呢，忍。"
     show sinobu 26 with dissolve
@@ -6434,6 +6445,7 @@ label day3_cooking_all:
 
 label day3_layout_sinobu:
     window show
+    me "忍，我也要去！"
     window hide
     show sinobu 21 at topleft with dissolve
     window show

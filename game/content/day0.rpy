@@ -408,7 +408,7 @@ label day0_normal_1:
     play sound "FX/炎.ogg"
     show bg キャンプファイヤー with Dissolve(1.0)
     window show
-    "那真是漂亮啊。"
+    extend "那真是漂亮啊。"
     extend "\n我现在都能清楚地回忆起来。"
     window hide
     stop sound fadeout 0.5
@@ -737,13 +737,12 @@ label day0_normal:
     play sound "FX/可愛い.ogg"
     "哦哦，挺会说话的嘛。真是让人受不了。"
     show nori 4 with dissolve
-    unknown "回到刚才的话题吧。"
-    extend "\n"
+    unknown "回到刚才的话题吧。\n"
     window hide
     play sound "FX/戦い３.ogg"
     show 飴 c3 少年の飴玉 at center with lm_crossfade
     window show
-    "我手上的这颗糖果，其实是一种魔法糖果哦。"
+    extend "我手上的这颗糖果，其实是一种魔法糖果哦。"
     unknown "吃了这种糖果的人，\n无论是什么样的愿望都能实现哦。"
     "我哑然无语地站在原地。"
     "你说是……魔法糖？"
@@ -1069,7 +1068,8 @@ label day0_hidden_nori:
     stop music fadeout 0.5
     play music "侵入.ogg"
     window show
-    "\n这次，朔君是在做某种实验，\n虽然形式上是这样，但其实我只是在帮他忙。"
+    me "夕，夕阳君，你冷静一下。"
+    extend "\n这次，朔君是在做某种实验，\n虽然形式上是这样，但其实我只是在帮他忙。"
     window hide
     show yuuhi 3 at top with dissolve
     play sound "FX/ビヨン.ogg"
@@ -1160,7 +1160,7 @@ label day0_hidden_nori:
     yuuhi "诶……"
     show yuuhi 1 with dissolve
     play sound "FX/ビヨン.ogg"
-    "哈，哈！？这，这是怎么回事啊！！"
+    extend "哈，哈！？这，这是怎么回事啊！！"
     extend "\n因为这次的人质很可怜，所以想把人换掉吗？"
     me "至少这次你把我救出去了，这不挺好的嘛。"
     extend "\n夕阳君也和我一起赶快离开这儿，\n对朔君的惩罚，就留到下次再做吧！"

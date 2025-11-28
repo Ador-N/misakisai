@@ -244,7 +244,7 @@ label event04:
     hide tomo with dissolve
     hide tubasa with dissolve
     show tubasa 9 at topleft with dissolve
-    extend "噗……咳咳！"
+    tubasa "噗……咳咳！"
     show tomo 18 at topright with dissolve
     play sound "FX/可愛い.ogg"
     tomo "翼，翼君，你没事吧！？"

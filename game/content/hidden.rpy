@@ -129,9 +129,9 @@ label hidden_tubasa:
     extend "\n话说，这到底是哪儿，现在是什么时候，我又是谁……。"
     show tubasa 21h with dissolve
     tubasa "啊啊啊啊啊啊！ 对，对不起……。"
-    extend "\n我……那个……！\n"
+    extend "\n我……那个……！"
     show tubasa 19h with dissolve
-    "我现在还是有点混乱……。"
+    extend "我现在还是有点混乱……。"
     extend "\n我，我要做一下深呼吸……！"
     show tubasa 9h with dissolve
     tubasa "吸……呼……吸……呼……。"
@@ -511,6 +511,7 @@ label hidden_note:
 label hidden_nori:
     show nori 10 at top with dissolve
     window show
-    "\n毫无代价的欲望太过强烈，只会毁了你自己。"
+    nori "不要奢望一切努力都有回报。"
+    extend "\n毫无代价的欲望太过强烈，只会毁了你自己。"
     hide nori with dissolve
     return

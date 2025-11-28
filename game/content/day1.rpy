@@ -17,7 +17,7 @@ label day1:
     extend "\n喂，喂[player_name]君！快起来~。"
     "少年那舒心的声音传入耳中。"
     unknown "啊哈哈，完全睡着了呢~。"
-    extend "难道说，身体不舒服吗？"
+    unknown "难道说，身体不舒服吗？"
     play music "FX/ドキドキ.ogg"
     "有人靠近了我。"
     unknown "[player_name]"
@@ -141,7 +141,7 @@ label day1_1:
     play sound "FX/ビヨン.ogg"
     show 俺 c6 中学生に戻ってる！？ at center with lm_flash
     window show
-    "一个既不可爱也不帅气，但也不难看"
+    extend "一个既不可爱也不帅气，但也不难看"
     extend "\n土里土气的家伙正看着我。"
     "我果然变回了初中生。"
     extend "\n虽然稍微好看了些，但当时确实是长这样……。"
@@ -232,7 +232,7 @@ label day1_1:
     window hide
     show sinobu c7 怒れるしのぶ at center with lm_crossfade
     window show
-    "那个身材纤细的少年出现了。"
+    extend "那个身材纤细的少年出现了。"
     extend "\n他的双拳紧握，蓄势待发"
     show sinobu c7 怒れるしのぶ（開眼） with dissolve
     boy6 "没事吧？[player_surname]君。"
@@ -287,7 +287,7 @@ label day1_2:
     show bg yellow
     show tomo at top with dissolve
     window show
-    "被我撞到过头，又因为偷窥厕所隔间被敲了铁锤的森海友。"
+    extend "被我撞到过头，又因为偷窥厕所隔间被敲了铁锤的森海友。"
     "他那圆圆的卷发也是他的萌点。"
     extend "\n看上去开朗风趣，\n从刚才的事情来看，应该是个喜欢开黄腔的人。"
     hide tomo with dissolve
@@ -301,7 +301,7 @@ label day1_2:
     show bg blue
     show tubasa at top with dissolve
     window show
-    "站着的是二班的代表一之濑翼。"
+    extend "站着的是二班的代表一之濑翼。"
     "黑色的头发和粗粗的眉毛，给人一种单纯的感觉。"
     extend "\n与友完全相反，他是个内向且胆小的人，一举一动就像个小动物一样。"
     "因为这样的性格，所以我觉得他也不太适合当负责人。"
@@ -318,7 +318,7 @@ label day1_2:
     show bg green
     show sinobu at top with dissolve
     window show
-    "是刚才打过照面的绫濑忍君。"
+    extend "是刚才打过照面的绫濑忍君。"
     "中性化的脸庞，加上娇小而纤细的身材，怎么看都像女孩子。"
     "冷静又成熟，话也很少，所以并不清楚他在想什么，不过……\n肯定讨厌开黄腔。"
     extend "至少这一点我是知道的。必须注意才行。"
@@ -333,11 +333,11 @@ label day1_2:
     show bg red
     show tuki at topleft with dissolve
     window show
-    "和空君。"
+    extend "和空君。"
     window hide
     show sora at topright with dissolve
     window show
-    "\n双胞胎在同一班上可真是少见。"
+    extend "\n双胞胎在同一班上可真是少见。"
     "身材高大，体格健壮，气质凛然的就是哥哥月。"
     extend "\n和朋友们比起来他显得很沉稳，而且我也感觉得出来他有很强的体力。"
     "而相对的，弟弟空则身材苗条，有着一双圆溜溜的大眼睛。"
@@ -360,7 +360,7 @@ label day1_2:
     show bg purple
     show sakuya at top with dissolve
     window show
-    "是穗海作哉。"
+    extend "是穗海作哉。"
     "柔顺的直发配着张桀骜不驯的脸，典型的人气王配置啊。"
     extend "\n在讨论中，他明显地很不耐烦，还对友冷嘲热讽，\n给人的印象浑身带刺。"
     hide sakuya with dissolve
@@ -376,7 +376,7 @@ label day1_2:
     show bg light-blue
     show saburo at top with dissolve
     window show
-    "坐他旁边的猫山三朗。"
+    extend "坐他旁边的猫山三朗。"
     "特征是虎牙，说着一口流利的关西腔。"
     extend "\n他给人的印象是既调皮又大度。"
     extend "\n他和作哉关系很好，感觉既能和作哉一起插科打诨，也能安抚他。"
@@ -394,7 +394,7 @@ label day1_2:
     show bg orange
     show sintarou at top with dissolve
     window show
-    "奥村慎太郎，通称「慎酱」。"
+    extend "奥村慎太郎，通称「慎酱」。"
     "他的特征是猫唇，以及由此说话时带有的独特腔调。"
     extend "\n性格是……对性的好奇心旺盛得相当变态的人。"
     hide sintarou with dissolve
@@ -523,7 +523,7 @@ label day1_design:
     play music "急げ～！.ogg"
     show tomo 13 at topleft with dissolve
     play sound "FX/可愛い2.ogg"
-    "二位，究竟要选择怎样的服饰比较好呢~！？！？"
+    extend "二位，究竟要选择怎样的服饰比较好呢~！？！？"
     show sintarou 7 at topright with dissolve
     play sound "FX/可愛い.ogg"
     sintarou "我我我！"
@@ -662,9 +662,8 @@ label day1_design:
     play sound "FX/インパクト.ogg"
     show sinobu c7 怒れるしのぶ at center with lm_effect_20
     window show
-    "忍「"
     play sound "FX/登場！.ogg"
-    "现在还是白天，"
+    extend "现在还是白天，"
     play sound "FX/登場！.ogg"
     extend "这里是教室，"
     play sound "FX/登場！.ogg"
@@ -1077,7 +1076,7 @@ label day1_cooking:
     play sound "FX/キラキラ.ogg"
     show cg c47 1 at center with dissolve
     window show
-    "不管怎么说，这孩子那温柔的表情真好。"
+    extend "不管怎么说，这孩子那温柔的表情真好。"
     extend "\n这温和的表情，连看着的人也会被治愈。"
     "另外，他的身体纤细又华丽。"
     extend "\n但是，又不会显得单薄。"
@@ -1096,7 +1095,7 @@ label day1_cooking:
     play sound "FX/キラキラ.ogg"
     show cg c47 2 at center with dissolve
     window show
-    "与柔和的空君相比，这凛然的面容显得格外帅气。"
+    extend "与柔和的空君相比，这凛然的面容显得格外帅气。"
     extend "\n但正因是这样的他，才更想看看\n当他沦为受的一方时，究竟会露出何等表情！\n难道不是吗！？！？"
     "更何况，不论怎么说，这锻炼得来的，肌肉结实的身体实在是太棒了。"
     extend "\n那结实的身体，手感一定很不错吧。"
@@ -1112,7 +1111,7 @@ label day1_cooking:
     window show
     sora "那，那个……[player_name]君？"
     show tuki 16 at topleft with dissolve
-    extend "从刚才开始，你的呼吸就有些粗重了。\n怎么了？"
+    tuki "从刚才开始，你的呼吸就有些粗重了。\n怎么了？"
     me "啊……。"
     play sound "FX/ビヨン.ogg"
     "呜！！糟了！"
@@ -1315,7 +1314,8 @@ label day1_supply:
 
 label day1_design_tomo:
     window show
-    "\n说不定会发生像刚刚那样的有趣的事情。"
+    "跟着友去看看！"
+    extend "\n说不定会发生像刚刚那样的有趣的事情。"
     me "那我也先离开一下。"
     "跟慎太郎说完后，我跟着友来到走廊。"
     window hide
@@ -1392,7 +1392,7 @@ label day1_design_tomo:
     pause 0.5
     show cg c8 友のピアノ演奏 at center with Dissolve(2.0)
     window show
-    "……。"
+    extend "……。"
     "……"
     extend "……诶？"
     "这，这真是令人惊讶啊……。"
@@ -1444,7 +1444,7 @@ label day1_design_tomo:
     tomo "而且，"
     show tomo 11 with dissolve
     play sound "FX/ビヨン.ogg"
-    "在厕所的时候也完全没有抵抗。"
+    extend "在厕所的时候也完全没有抵抗。"
     me "呜咕……"
     extend "对，对了。\n小友你是为什么开始学钢琴的？"
     extend "\n你以前上过钢琴课吗？"
@@ -1502,9 +1502,9 @@ label day1_design_tomo:
     me "你也知道了吗？友会弹钢琴。"
     show tubasa 2 with dissolve
     tubasa "嗯，嗯。"
-    extend "\n我一开始也是听了刚才的『Gymnopedies』……\n"
+    extend "\n我一开始也是听了刚才的『Gymnopedies』……"
     show tubasa 12 with dissolve
-    "那时候真是吓了我一大跳啊。"
+    extend "那时候真是吓了我一大跳啊。"
     me "也是啊。"
     extend "我也被吓了一跳呢。"
     extend "\n哎呀~真是，人不可貌相呢。"
@@ -1567,6 +1567,7 @@ label day1_design_tomo:
 label day1_design_sintarou:
     show bg 教室（夕方） at center
     window show
+    "连动起来都觉得没劲，还是留在教室吧。"
     "我再次凝视着放在我桌上的画。"
     extend "\n先不说我，慎太郎画得比友好太多了。"
     stop music fadeout 0.5
@@ -1753,7 +1754,7 @@ label day1_design_sintarou:
     window show
     sintarou "啊，我先说好了，"
     play sound "FX/ワーオ２.ogg"
-    "不可以做爱。"
+    extend "不可以做爱。"
     "是啊，不可以做爱……做爱。。"
     play music "sintarou.ogg"
     play sound "FX/ビヨン.ogg"
@@ -1862,6 +1863,7 @@ label day1_design_sintarou:
 
 label day1_layout_sinobu:
     window show
+    "难得的自由活动时间，就去逛逛令人怀念的学校吧。"
     me "我出去逛逛。"
     window hide
     show tubasa 5 at top with dissolve
@@ -2081,7 +2083,8 @@ label day1_layout_sinobu:
 label day1_layout_tubasa:
     stop music fadeout 1.0
     window show
-    "\n我要留在教室里，想问这孩子一些事呢~♪"
+    "对对！"
+    extend "\n我要留在教室里，想问这孩子一些事呢~♪"
     play music "tubasa.ogg"
     me "翼同学！"
     window hide
@@ -2329,7 +2332,8 @@ label day1_layout_tubasa:
 label day1_cooking_tuki:
     show bg 保健室 at center
     window show
-    "\n不好意思，你能留下来吗？"
+    me "那，那么，月君！"
+    extend "\n不好意思，你能留下来吗？"
     window hide
     show tuki 18 at topleft with dissolve
     window show
@@ -2532,6 +2536,7 @@ label day1_cooking_tuki:
 
 label day1_supply_sakuya:
     window show
+    "去教学楼后面吧！"
     "但是，到底为什么会去那种地方呢？"
     extend "\n说到校后……"
     extend "嗯……。"
@@ -2755,7 +2760,7 @@ label day1_supply_sakuya:
     sakuya "……"
     stop sound fadeout 0.5
     show sakuya 24 with dissolve
-    "好了！"
+    extend "好了！"
     show ツバサ 2 with dissolve
     play sound "FX/可愛い3.ogg"
     "在我说完的同时，他突然动了下头\n然后完美地接住了从天而降的饵食，并将其送入口中。"
@@ -2889,7 +2894,8 @@ label day1_supply_sakuya:
 label day1_cooking_sora:
     show bg 保健室 at center
     window show
-    "\n不好意思，你能留下来吗？"
+    me "那，那么，空！"
+    extend "\n不好意思，你能留下来吗？"
     window hide
     show sora 2 at topright with dissolve
     window show
@@ -2950,9 +2956,9 @@ label day1_cooking_sora:
     extend "\n房间里也很温暖，有种被温柔的守护着的感觉。"
     extend "\n我之前身体不舒服的时候，也睡过一次~"
     me "是这样啊。"
-    extend "\n说起来，好像确实是这样。\n"
+    extend "\n说起来，好像确实是这样。"
     stop music fadeout 2.0
-    "被褥也保持的很干净……。"
+    extend "被褥也保持的很干净……。"
     me "啊。"
     play sound "FX/ひらめき！.ogg"
     "我想到了一个好主意。"
@@ -3045,7 +3051,7 @@ label day1_cooking_sora:
     "好，在这个真实的梦里面，得好好发泄一下平时的欲求不满才行……！"
     me "美味的少年啊……"
     play sound "FX/可愛い2.ogg"
-    "我开动了！！"
+    extend "我开动了！！"
     stop music fadeout 0.5
     hide bg with dissolve
     hide cg with dissolve
@@ -3098,6 +3104,7 @@ label day1_cooking_sora:
 
 label day1_supply_saburo:
     window show
+    "去楼顶吧！"
     window hide
     show bg 階段 with dissolve
     window show
@@ -3224,7 +3231,7 @@ label day1_supply_saburo:
     window hide
     show cg 風景 at center with dissolve
     window show
-    "在那一点的前方，有另一所学校。"
+    extend "在那一点的前方，有另一所学校。"
     me "那里……是御咲女子学院？"
     extend "\n诶~刚好能从这里看到呢。"
     saburo "没错！"
@@ -3267,7 +3274,7 @@ label day1_supply_saburo:
     play music "sintarou.ogg"
     show sintarou 9 at top with dissolve
     window show
-    "站着的是慎太郎。"
+    extend "站着的是慎太郎。"
     hide sintarou with dissolve
     show saburo 12 at topright with dissolve
     play sound "FX/ビヨン.ogg"
@@ -3499,7 +3506,8 @@ label day1_3_sakuya:
 
 label day1_4:
     window show
-    "\n怀着难以抹去的不安，我踏上了归途。"
+    "难不成，不，或许……。"
+    extend "\n怀着难以抹去的不安，我踏上了归途。"
     window hide
     show bg 歩道（夕方） with Dissolve(2.0)
     show bg 住宅街（夕方） with Dissolve(2.0)
@@ -3535,7 +3543,7 @@ label day1_4:
     window hide
     show お母さん c21 at center with lm_crossfade
     window show
-    "映入眼帘的正是我母亲骑着我的爱车，还载着购物袋的身姿。"
+    extend "映入眼帘的正是我母亲骑着我的爱车，还载着购物袋的身姿。"
     me "妈，妈妈……！！"
     mother "啊，忘记把钥匙放在花盆下面了。对不起。"
     extend "\n[player_name]，你在这等了多久呢？"
