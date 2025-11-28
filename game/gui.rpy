@@ -266,9 +266,6 @@ define gui.slot_spacing = 7
 ## 标题菜单文本的位置。
 define gui.main_menu_text_xalign = 1.0
 
-## 游戏菜单的内边距。
-define gui.game_menu_padding = (100, 100)
-
 
 ## 框架 ##########################################################################
 ##
@@ -364,7 +361,7 @@ init python:
     @gui.variant
     def touch():
 
-        gui.quick_button_borders = Borders(25, 9, 25, 0)
+        gui.quick_button_borders = Borders(25, 9, 25, 4)
 
     ## 该变量更改各个 GUI 元素的尺寸和间距来确保它们在手机上更容易被辨识。
     @gui.variant
@@ -378,17 +375,11 @@ init python:
         gui.button_text_size = 19
         gui.label_text_size = 22
 
-        ## 调整对话框的位置。
-        gui.textbox_height = 150
-        gui.name_xpos = 50
-        gui.dialogue_xpos = 57
-        gui.dialogue_width = 688
-
         ## 更改各元素的尺寸和间距。
         gui.slider_size = 23
 
-        gui.choice_button_width = 775
-        gui.choice_button_text_size = 19
+        # gui.choice_button_width = 775
+        # gui.choice_button_text_size = 19
 
         gui.navigation_spacing = 13
         gui.pref_button_spacing = 7

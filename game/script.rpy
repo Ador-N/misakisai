@@ -556,5 +556,5 @@ label logic_random_event:
         random_event_id_old = random_event_id
         while random_event_id_old == random_event_id:
             random_event_id = renpy.random.randint(0, 18)
-    
-    call expression "random_event_" + str(random_event_id) from _call_expression_23
+
+    call expression "event{:02d}".format(random_event_id) from _call_expression_23

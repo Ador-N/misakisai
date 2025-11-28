@@ -107,12 +107,6 @@ screen say(who, what):
         text what id "what"
 
 
-    ## 如果有对话框头像，会将其显示在文本之上。请不要在手机界面下显示这个，因为
-    ## 没有空间。
-    if not renpy.variant("small"):
-        add SideImage() xalign 0.0 yalign 1.0
-
-
 ## 通过 Character 对象使名称框可用于样式化。
 init python:
     config.character_id_prefixes.append('namebox')
@@ -1176,9 +1170,9 @@ screen confirm(message, yes_action, no_action):
 
     style_prefix "confirm"
 
-    add "gui/overlay/confirm.png"
-
     frame:
+
+        background Frame("images/box/load.png", 40, 40, tile=True)
 
         vbox:
             xalign .5
@@ -1271,6 +1265,7 @@ style skip_frame:
 
 style skip_text:
     size gui.notify_text_size
+    color "#FFF"
 
 style skip_triangle:
     ## 我们必须使用包含“▸”（黑色右旋小三角）字形的字体。
@@ -1323,8 +1318,7 @@ style pref_vbox:
     variant "medium"
     xsize 282
 
-## 由于可能没有鼠标，我们将快捷菜单替换为一个使用更少、更大按钮的版本，这样更容
-## 易触摸。
+## 由于可能没有鼠标，我们将快捷菜单替换为一个使用更少、更大按钮的版本，这样更容易触摸。
 screen quick_menu():
     variant "touch"
 
@@ -1344,7 +1338,7 @@ screen quick_menu():
 
 style window:
     variant "small"
-    background "gui/phone/textbox.png"
+    # background "gui/phone/textbox.png"
 
 style radio_button:
     variant "small"
@@ -1354,17 +1348,13 @@ style check_button:
     variant "small"
     foreground "gui/phone/button/check_[prefix_]foreground.png"
 
-style nvl_window:
-    variant "small"
-    background "gui/phone/nvl.png"
-
 style main_menu_frame:
     variant "small"
     # background "gui/phone/overlay/main_menu.png"
 
 style game_menu_outer_frame:
     variant "small"
-    background "gui/phone/overlay/game_menu.png"
+    # background "gui/phone/overlay/game_menu.png"
 
 style game_menu_navigation_frame:
     variant "small"
