@@ -280,6 +280,9 @@ screen gallery():
         imagebutton auto "images/startmenu/gallery_next_%s.png" yalign 0.5:
             if gallery_page < page_count - 1:
                 action SetVariable("gallery_page", gallery_page + 1)
+    
+    on "replace" action Play("music", "quiet_lunch.ogg")
+    on "replaced" action Play("music", config.main_menu_music)
 
 style gallery_text:
     size 32
