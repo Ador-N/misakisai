@@ -190,20 +190,61 @@ style input:
     xalign gui.dialogue_text_xalign
     xmaximum gui.dialogue_width
 
-## 特化的输入姓名屏幕 ###############################################################
+## 输入姓名屏幕 ###############################################################
+## 参考：https://www.renpy.cn/forum.php?mod=viewthread&tid=1594
 
 screen input_name(prompt):
     style_prefix "input_name"
 
+    default input_surname = persistent.player_surname
+    default input_name = persistent.player_name
+
+    default focus_surname = ScreenVariableInputValue("input_surname")
+    default focus_name = ScreenVariableInputValue("input_name")
+
     window:
         vbox:
-            xanchor gui.dialogue_text_xalign
-            xpos gui.dialogue_xpos
-            xsize gui.dialogue_width
-            ypos gui.dialogue_ypos
+            text prompt style "input_name_prompt"
+            hbox:
+                vbox style "input_name_inner_vbox":
+                    text _("姓：")
+                    text _("名：")
+                vbox style "input_name_inner_vbox":
+                    button:
+                        action focus_surname.Toggle()
+                        input value focus_surname action focus_name.Toggle()
+                    button:
+                        action focus_name.Toggle()
+                        input value focus_name action Return((input_surname, input_name))
+            textbutton _("确定") action Return((input_surname, input_name)) xalign 0.5
 
-            text prompt style "input_prompt"
-            input id "input"
+style input_name_vbox is vbox:
+    xalign 0.5
+    xfill True
+    yalign 0
+    yoffset gui.dialogue_ypos
+    spacing 4
+
+style input_name_inner_vbox is vbox:
+    spacing 4
+
+style input_name_hbox:
+    xalign 0.5
+
+style input_name_text:
+    size gui.dialogue_text_size
+
+style input_name_prompt:
+    xalign 0.5
+    size gui.dialogue_text_size
+style input_name_prompt_text is input_name_label_text
+
+style input_name_button_text:
+    size gui.dialogue_text_size
+
+style input_name_input:
+    size gui.dialogue_text_size
+    margin (0,0,0,0)
 
 ## 选择屏幕 ########################################################################
 ##

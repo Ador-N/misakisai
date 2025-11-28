@@ -2,8 +2,8 @@
 
 init -1:
     default persistent.seen_op = None
-    default player_surname = "诹访部"
-    default player_name = "翔平"
+    default persistent.player_surname = "诹访部"
+    default persistent.player_name = "翔平"
 
     default group_day1 = 0 # 服装/布置/料理/采购 = 1/2/3/4
     default group_day2 = 0 # 服装/布置/料理/采购 = 1/2/3/4
@@ -40,8 +40,21 @@ label logic_day0:
     call expression "day0_" + day0_random_character + "_before"
 
     python:
-        player_surname = renpy.input("姓", default=player_surname, length=32).strip()
-        player_name = renpy.input("名", default=player_name, length=32).strip()
+        ask_name_prompts = {
+            "tomo": _("前辈～～！告诉我你叫什么名字嘛！"),
+            "tubasa": _("那、那个……可以问一下你的名字吗……？"),
+            "sinobu": _("名字？"),
+            "tuki": _("报上名来。"),
+            "sora": _("大哥哥，你叫什么名字呀？"),
+            "sintarou": _("喂～那边超帅的大哥哥！告诉咱你的名字呗♪"),
+            "sakuya": _("名字！叫什么？"),
+            "saburo": _("喂～喂～能不能告诉咱你叫啥呀？")
+        }
+
+    window hide
+    call screen input_name(ask_name_prompts[day0_random_character])
+    $ player_surname, player_name = persistent.player_surname, persistent.player_name = _return
+    window auto
 
     call expression "day0_" + day0_random_character + "_after"
 
