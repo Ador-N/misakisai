@@ -36,7 +36,7 @@ label opening_animation:
     show OP op14 with lm_effect_18(1.2)
     pause 2.5
     show OP op15 with dissolve
-    play sound "FX/ひらめき！.ogg"
+    play sound "fx/eureka.ogg"
     show OP op16 with dissolve
     pause 0.8
     play sound "fx/tadaa.ogg"

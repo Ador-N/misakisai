@@ -205,8 +205,8 @@ define gui.choice_button_text_insensitive_color = '#8888887f'
 define gui.choice_button_text_font = "SourceHanSansSC-Bold.ttf"
 
 ## 按钮音效
-define gui.choice_button_hover_sound = "オンマウス.ogg"
-define gui.choice_button_activate_sound = "選択.ogg"
+define gui.choice_button_hover_sound = "on_mouse.ogg"
+define gui.choice_button_activate_sound = "choice.ogg"
 
 ## 存档按钮 ########################################################################
 ##
