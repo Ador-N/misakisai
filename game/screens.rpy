@@ -425,7 +425,7 @@ screen main_menu():
         textbutton "从头开始" style "choice_button" action Start()
         textbutton "继续" style "choice_button" action ShowMenu("load")
         textbutton "画廊" style "choice_button"
-        textbutton "????" style "choice_button" action Start("hidden")
+        textbutton "????" style "choice_button" action Start("logic_hidden")
         textbutton "开场动画" style "choice_button" action Start("opening_animation")
 
 style main_menu_vbox:

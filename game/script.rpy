@@ -1,5 +1,6 @@
-﻿# 游戏在此开始。
+﻿## 游戏主逻辑脚本 ##########################################################
 
+## 全局变量初始化 ##########################################################
 init -1:
     default persistent.seen_op = None
     default persistent.player_surname = "诹访部"
@@ -14,7 +15,29 @@ init -1:
     default target_day3 = ""
 
     default ending = ""
+    default persistent.endings = set()
+    default persistent.seen_single_ending = False
+    default ask_name_prompts = {
+        "tomo": _("学长～～！告诉我你叫什么名字嘛！"),
+        "tubasa": _("那、那个……可以问一下你的名字吗……？"),
+        "sinobu": _("名字？"),
+        "tuki": _("报上名来。"),
+        "sora": _("大哥哥，你叫什么名字呀？"),
+        "sintarou": _("喂～那边超帅的大哥哥！告诉咱你的名字呗♪"),
+        "sakuya": _("名字！叫什么？"),
+        "saburo": _("喂～喂～能不能告诉咱你叫啥呀？")
+    }
 
+## 合并持久化数据
+## https://doc.renpy.cn/zh-CN/persistent.html#merging-persistent-data
+init python:
+    def merge_endings(old, new, current):
+        current.update(old)
+        current.update(new)
+        return current
+    renpy.register_persistent('endings', merge_endings)
+
+## 开屏动画 ###############################################################
 label splashscreen:
     call gymno_title
     if persistent.seen_op is None:
@@ -22,9 +45,17 @@ label splashscreen:
         call opening_animation
     return
 
+## 游戏主流程 #############################################################
 label start:
 
 label logic_day0:
+
+    if persistent.seen_prelude:
+        menu:
+            "观看序幕":
+                pass
+            "跳过序幕":
+                jump logic_day0_name
 
     call day0
     call day0_1
@@ -32,8 +63,37 @@ label logic_day0:
     call day0_3
     call day0_4
 
+    # 满足隐藏剧情条件
+    if "bad" in persistent.endings and persistent.seen_single_ending:
+        menu:
+            "去":
+                jump logic_day0_normal
+            "不去":
+                pass
+        
+        call day0_hidden
+        call day0_hidden_1
+
+        menu:
+            "帮助夕阳":
+                $ ending = "yuuhi"
+                call day0_hidden_yuuhi
+            "帮助朔":
+                $ ending = "nori"
+                call day0_hidden_nori
+
+        jump logic_endgame
+                
+    
+
+    label logic_day0_normal:
+
     call day0_normal
     call day0_normal_1
+
+    $ persistent.seen_prelude = True
+
+    label logic_day0_name:
 
     $ day0_random_character = renpy.random.choice(["tomo", "tubasa", "sinobu", "sintarou", "tuki", "sora", "sakuya", "saburo"])
 
@@ -156,7 +216,7 @@ label logic_day2:
                 "让慎太郎试试领带":
                     $ target_day2 = "sintarou"
             if target_day1 != target_day2:
-                jump day2_bad_end
+                jump logic_day2_bad_end
             call expression "day2_design_" + target_day2
         else:
             call day2_design_self
@@ -171,7 +231,7 @@ label logic_day2:
                 "特别是翼君":
                     $ target_day2 = "tubasa"
             if target_day1 != target_day2:
-                jump day2_bad_end
+                jump logic_day2_bad_end
             call expression "day2_layout_" + target_day2
         else:
             call day2_layout_self
@@ -199,13 +259,18 @@ label logic_day2:
                 "跟着三朗":
                     $ target_day2 = "saburo"
             if target_day1 != target_day2:
-                jump day2_bad_end
+                jump logic_day2_bad_end
             call expression "day2_supply_" + target_day2
         else:
             call day2_supply_self
             call day2_supply_self_1
             call day2_supply_self_2
         jump logic_day2_end
+
+    label logic_day2_bad_end:
+        call day2_bad_end
+        $ ending = "bad"
+        jump logic_endgame
 
     label logic_day2_end:
         call day2_end
@@ -350,6 +415,7 @@ label logic_day4:
     # 计算最终结局
     if target_day1 == target_day2 == target_day3 != "":
         $ ending = target_day3
+        $ persistent.seen_single_ending = True
     elif group_day1 == group_day2 == group_day3 == 3:
         $ ending = "futago"
     elif group_day1 != group_day2 != group_day3 != group_day1:
@@ -362,5 +428,111 @@ label logic_day4:
     if ending not in ["all", "sirou"]:
         call expression "day4_1_" + ending
     call expression "end_" + ending
+
+label logic_endgame:
+
+    $ persistent.endings.add(ending)
+
+    return
+
+## 首页？？？选项 ##########################################################
+label logic_hidden:
+
+    call hidden
+
+    menu:
+        "进入":
+            pass
+        "不进入":
+            return
+    
+    if not ("yuuhi" in persistent.endings or "nori" in persistent.endings):
+        call hidden_note
+        return
+
+    call hidden_1
+
+    label logic_hidden_choice:
+    menu (screen="choice_group"):
+        "服装组":
+            jump logic_hidden_design
+        "布置组":
+            jump logic_hidden_layout
+        "料理组":
+            jump logic_hidden_cooking
+        "采购组":
+            jump logic_hidden_supply
+    
+    label logic_hidden_design:
+        if not ("tomo" in persistent.endings or "sintarou" in persistent.endings):
+            jump logic_hidden_retry
+        menu:
+            "友" if "tomo" in persistent.endings:
+                window hide
+                call hidden_tomo
+                return
+            "????" if "tomo" not in persistent.endings:
+                jump logic_hidden_retry
+            "慎太郎" if "sintarou" in persistent.endings:
+                window hide
+                call hidden_sintarou
+                return
+            "????" if "sintarou" not in persistent.endings:
+                jump logic_hidden_retry
+    
+    label logic_hidden_layout:
+        if not ("sinobu" in persistent.endings or "tubasa" in persistent.endings):
+            jump logic_hidden_retry
+        menu:
+            "忍" if "sinobu" in persistent.endings:
+                window hide
+                call hidden_sinobu
+                return
+            "????" if "sinobu" not in persistent.endings:
+                jump logic_hidden_retry
+            "翼" if "tubasa" in persistent.endings:
+                window hide
+                call hidden_tubasa
+                return
+            "????" if "tubasa" not in persistent.endings:
+                jump logic_hidden_retry
+    
+    label logic_hidden_cooking:
+        if not ("tuki" in persistent.endings or "sora" in persistent.endings):
+            jump logic_hidden_retry
+        menu:
+            "月" if "tuki" in persistent.endings:
+                window hide
+                call hidden_tuki
+                return
+            "????" if "tuki" not in persistent.endings:
+                jump logic_hidden_retry
+            "空" if "sora" in persistent.endings:
+                window hide
+                call hidden_sora
+                return
+            "????" if "sora" not in persistent.endings:
+                jump logic_hidden_retry
+    
+    label logic_hidden_supply:
+        if not ("sakuya" in persistent.endings or "saburo" in persistent.endings):
+            jump logic_hidden_retry
+        menu:
+            "作哉" if "sakuya" in persistent.endings:
+                window hide
+                call hidden_sakuya
+                return
+            "????" if "sakuya" not in persistent.endings:
+                jump logic_hidden_retry
+            "三朗" if "saburo" in persistent.endings:
+                window hide
+                call hidden_saburo
+                return
+            "????" if "saburo" not in persistent.endings:
+                jump logic_hidden_retry
+
+    label logic_hidden_retry:
+        call hidden_nori
+        jump logic_hidden_choice
 
     return
