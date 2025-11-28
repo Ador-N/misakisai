@@ -422,11 +422,11 @@ screen main_menu():
     style_prefix "main_menu"
 
     vbox:
-        textbutton "从头开始" style "choice_button" action Start()
-        textbutton "继续" style "choice_button" action ShowMenu("load")
-        textbutton "画廊" style "choice_button"
-        textbutton "????" style "choice_button" action Start("logic_hidden")
-        textbutton "开场动画" style "choice_button" action Start("opening_animation")
+        textbutton _("从头开始") style "choice_button" action Start()
+        textbutton _("继续") style "choice_button" action ShowMenu("load")
+        textbutton _("画廊") style "choice_button" action ShowMenu("gallery")
+        textbutton _("????") style "choice_button" action Start("logic_hidden")
+        textbutton _("开场动画") style "choice_button" action Start("opening_animation")
 
 style main_menu_vbox:
     xalign 1.0
