@@ -7,9 +7,9 @@ label day0:
     pause 0.6
     show bg night_town with Dissolve(2.0)
     pause 1.0
-    hide bg with dissolve
+    hide bg with Dissolve(1.0)
     play sound "train.ogg"
-    show bg train_interior_night at center with Dissolve(0.7)
+    show bg train_interior_night at center with FadeWhite(0.7)
     pause 0.5
     window show
     conductor "下一站『御咲』~『御咲』~。本站为终点站。"
@@ -17,9 +17,9 @@ label day0:
     extend "\n乘客们向同时打开的车门聚拢，我也跟了过去。"
     stop sound fadeout 1.0
     window hide
-    hide bg with dissolve
+    hide bg with Dissolve(0.7)
     pause 0.5
-    show bg telephone_pole_night with fade
+    show bg telephone_pole_night with FadeWhite(0.5)
     play music "going_home.ogg"
     window show
     me "……呼，明明还不到六点，\n还以为能避开下班高峰的呢，没想到还挺拥挤的。"
@@ -28,13 +28,13 @@ label day0:
     "站在延伸至楼梯的队伍中，我漫不经心的望向对侧站台\n看到了一群等待电车的学生。"
     window hide
     play sound "fx/sparkle.ogg"
-    show 少年たち c1 1 at center with lm_crossfade
+    show 少年たち c1 1 at center with Radial(0.5)
     pause 0.3
-    show 少年たち c1 2 with lm_crossfade
+    show 少年たち c1 2 with Radial(0.5)
     window show
     me "啊，坐去梅咲的电车的话……"
     play sound "fx/boing.ogg"
-    show cg remarkable at center with pixellate
+    show cg remarkable at center with FadeWhite(0.5)
     "就能和那些可爱的中学生们一起回去了！！"
     "我在心中这样喊着。"
     "而我热切视线所注视的对象是……一群男孩子。"
@@ -45,10 +45,10 @@ label day0:
     "正太控就是有正太郎情结，"
     extend "\n即对少年产生性冲动或恋爱感情的人。"
     extend "\n也就是喜欢小男孩的意思。"
-    show cg c1 1 with fade
+    show cg c1 1 with FadeWhite(0.5)
     "从他们肩上背着的球拍包来看，他们是网球社的？"
     extend "\n不愧是必吃社团！可口的孩子很多啊。"
-    show cg c1 2 with fade
+    show cg c1 2 with FadeWhite(0.5)
     "稍微远一点的地方，有群理着平头的孩子们，是棒球部吗？"
     extend "\n那样开心嬉闹的氛围真好啊，很可爱。"
     "唔~嗯，和那些孩子的话，就算是挤成沙丁鱼罐头我也会很乐意的……。"
@@ -75,10 +75,10 @@ label day0_1:
     show tubasa 2 with dissolve
     tubasa "啊，好的，友君……。"
     window hide
-    show cg school_gate at center with lm_crossfade
+    show cg school_gate at center with Radial(0.5)
     window show
     "御咲学园是御咲这的一所中高一贯制的男校\n换句话说，这里是生活于御咲周边的我们这些正太控的圣地。"
-    show cg school_building_full with fade
+    show cg school_building_full with FadeWhite(0.5)
     extend "\n顺带一提，我也是御咲学园的毕业生。"
     "御咲祭是御咲学园的文化祭……"
     hide tomo with dissolve
@@ -333,7 +333,7 @@ label day0_4:
     "我回头看，有个带着帽子的男孩站在我身后。"
     window hide
     play sound "fx/wind.ogg"
-    show nori c2 at center with fade
+    show nori c2 at center with FadeWhite(0.5)
     window show
     unknown "晚上好，下班回来的大哥哥。"
     unknown "最近气温突然降下来了呢。\n前不久的酷暑就像假的一样。"
@@ -347,8 +347,8 @@ label day0_4:
     extend "\n去对面的公园怎么样。"
     me "诶，诶诶！？"
     window hide
-    hide nori with dissolve
-    hide bg with dissolve
+    hide nori with Dissolve(1.5)
+    hide bg with Dissolve(1.5)
     stop sound fadeout 1.0
     return
 
@@ -360,7 +360,7 @@ label day0_normal_1:
     me "我回来了~。"
     window hide
     play music "nostalgia.ogg"
-    show bg living_room_night with Dissolve(1.2)
+    show bg living_room_night with Radial(1.2)
     window show
     mother "哎呀，欢迎回来。"
     extend "今天回来得挺早的啊。"
@@ -396,13 +396,13 @@ label day0_normal_1:
     "···\n···"
     window hide
     play music "reminiscence.ogg"
-    show bg school_sepia with Dissolve(2.0)
+    show bg school_sepia with FadeWhite(2.0)
     window show
     "那个时候，我既没好好学习，也没谈过恋爱，\n真的就是只顾着玩了。"
-    show bg mountain_sepia with Dissolve(1.0)
+    show bg mountain_sepia with FadeWhite(1.0)
     "跑到附近的森林里探险，骑自行车到邻镇去……。"
     extend "\n嗯嗯，果然最无忧无虑的初中二年级，就是玩得最开心的时候啊。"
-    show bg classroom_sepia with Dissolve(1.0)
+    show bg classroom_sepia with FadeWhite(1.0)
     "嗯……我初中二年级时班上做了什么项目来着？"
     extend "\n……对了对了，鬼屋。"
     extend "\n我扮演了鬼，而且我还挺喜欢扮演鬼的，周围人都对我的扮相赞不绝口。"
@@ -411,13 +411,13 @@ label day0_normal_1:
     "然后是，后夜祭的篝火晚会……"
     window hide
     play sound "fx/fire.ogg"
-    show bg campfire with Dissolve(1.0)
+    show bg campfire with Radial(1.0)
     window show
     extend "那真是漂亮啊。"
     extend "\n我现在都能清楚地回忆起来。"
     window hide
     stop sound fadeout 0.5
-    show bg school_sepia with Dissolve(1.0)
+    show bg school_sepia
     window show
     "啊……好想再回到那个时候，想在学园祭上大闹一番。"
     "学园祭当天是挺开心的，\n但之前的准备时间也挺愉快的。"
@@ -425,7 +425,7 @@ label day0_normal_1:
     "今天，在我回到家之前，我看到的御咲学园的学生们，\n从明天开始，肯定会过上比平时更加开心的校园生活。"
     "啊……真棒啊~。"
     window hide
-    show bg protagonist_room_night with Dissolve(2.0)
+    show bg protagonist_room_night with FadeWhite(2.0)
     window show
     "···"
     "然后，和传单一起拿出的另一样东西。\n是那个谜之美少年给我的糖。"
@@ -453,13 +453,13 @@ label day0_normal_1:
     extend "……"
     extend "……"
     extend "……"
-    hide bg with lm_wiperight
+    hide bg with DefocusBlack(5.0)
     "Zzz"
     window hide
     return
 
 label day0_tomo_before:
-    show tomo 12 at top with Dissolve(2.5)
+    show tomo 12 at top with DefocusBlack(2.5)
     window show
     "嗯……？ 请问您是……。"
     window hide
@@ -467,7 +467,7 @@ label day0_tomo_before:
     return
 
 label day0_tubasa_before:
-    show tubasa 1 at top with Dissolve(2.5)
+    show tubasa 1 at top with DefocusBlack(2.5)
     window show
     "嗯……？ 请问您是……。"
     window hide
@@ -475,7 +475,7 @@ label day0_tubasa_before:
     return
 
 label day0_sinobu_before:
-    show sinobu 4 at top with Dissolve(2.5)
+    show sinobu 4 at top with DefocusBlack(2.5)
     window show
     "嗯……？ 请问您是……。"
     window hide
@@ -483,7 +483,7 @@ label day0_sinobu_before:
     return
 
 label day0_tuki_before:
-    show tuki 2 at top with Dissolve(2.5)
+    show tuki 2 at top with DefocusBlack(2.5)
     window show
     "嗯……？ 请问您是……。"
     window hide
@@ -491,7 +491,7 @@ label day0_tuki_before:
     return
 
 label day0_sora_before:
-    show sora 7 at top with Dissolve(2.5)
+    show sora 7 at top with DefocusBlack(2.5)
     window show
     "嗯……？ 请问您是……。"
     window hide
@@ -499,7 +499,7 @@ label day0_sora_before:
     return
 
 label day0_sintarou_before:
-    show sintarou 3 at top with Dissolve(2.5)
+    show sintarou 3 at top with DefocusBlack(2.5)
     window show
     "嗯……？ 请问您是……。"
     window hide
@@ -507,7 +507,7 @@ label day0_sintarou_before:
     return
 
 label day0_saburo_before:
-    show saburo 1 at top with Dissolve(2.5)
+    show saburo 1 at top with DefocusBlack(2.5)
     window show
     "嗯……？ 请问您是……。"
     window hide
@@ -515,7 +515,7 @@ label day0_saburo_before:
     return
 
 label day0_sakuya_before:
-    show sakuya 6 at top with Dissolve(2.5)
+    show sakuya 6 at top with DefocusBlack(2.5)
     window show
     "嗯……？ 请问您是……。"
     window hide
@@ -528,7 +528,7 @@ label day0_tomo_after:
     boy1 "真是谢谢你了！[player_surname][player_name]前辈！！"
     extend "\n那我走了！！"
     "等等……  你是……。"
-    hide tomo with lm_wiperight
+    hide tomo with DefocusBlack(2.5)
     "Zzz"
     window hide
     return
@@ -539,7 +539,7 @@ label day0_tubasa_after:
     boy2 "真是非常感谢。[player_surname][player_name]桑。"
     extend "\n那我就先走了……。"
     "等等……  你是……。"
-    hide tubasa with lm_wiperight
+    hide tubasa with DefocusBlack(2.5)
     "Zzz"
     window hide
     return
@@ -550,7 +550,7 @@ label day0_sinobu_after:
     boy6 "我知道了，非常感谢，[player_surname][player_name]桑。"
     extend "\n那我走了。"
     "等等……  你是……。"
-    hide sinobu with lm_wiperight
+    hide sinobu with DefocusBlack(2.5)
     "Zzz"
     window hide
     return
@@ -561,7 +561,7 @@ label day0_tuki_after:
     boy5 "谢谢。[player_surname][player_name]桑。   是吧"
     extend "\n那我就先走了。"
     "等等……  你是……。"
-    hide tuki with lm_wiperight
+    hide tuki with DefocusBlack(2.5)
     "Zzz"
     window hide
     return
@@ -572,7 +572,7 @@ label day0_sora_after:
     boy3 "谢谢了。[player_surname][player_name]小哥。"
     extend "\n那么，再见。"
     "等等……  你是……。"
-    hide sora with lm_wiperight
+    hide sora with DefocusBlack(2.5)
     "Zzz"
     window hide
     return
@@ -583,7 +583,7 @@ label day0_sintarou_after:
     boy4 "ＯＫ！[player_surname][player_name]再见！"
     extend "\n我不会把这东西用来做奇怪的事情的，请放心吧♪ 那么再见！"
     "等等……  你是……。"
-    hide sintarou with lm_wiperight
+    hide sintarou with DefocusBlack(2.5)
     "Zzz"
     window hide
     return
@@ -594,7 +594,7 @@ label day0_sakuya_after:
     boy7 "您好。[player_surname][player_name]学长！"
     extend "\n那么，再见。"
     "等等……  你是……。"
-    hide sakuya with lm_wiperight
+    hide sakuya with DefocusBlack(2.5)
     "Zzz"
     window hide
     return
@@ -605,7 +605,7 @@ label day0_saburo_after:
     boy8 "谢谢，[player_surname][player_name]桑！"
     extend "\n那么，再见~！"
     "等等……  你是……。"
-    hide saburo with lm_wiperight
+    hide saburo with DefocusBlack(2.5)
     "Zzz"
     window hide
     return
@@ -656,7 +656,7 @@ label day0_hidden:
     me "诶？"
     window hide
     play sound "fx/wind_slash.ogg"
-    show cg c89 with pixellate
+    show cg c89 with FadeWhite(0.5)
     play music "pinch.ogg"
     window show
     "这时，有什么东西缠住了我的身体。"
@@ -677,26 +677,26 @@ label day0_hidden:
     extend "\n可惜我听不到悲鸣声……那就以后再说吧。"
     extend "\n那我就按照你所说的，回我的家吧。"
     "少年这样说着指向我，与此同时，张着更大口的触手，\n就像热吻一样交缠着我的舌头，钻进了我的口腔。"
-    show cg remarkable with fade
+    show cg remarkable with FadeWhite(0.5)
     me "嗯咕！？唔咕咕咕！？？！"
     "好恶心……咕啾咕啾的液体钻进了我的嘴里。"
     stop music fadeout 4.0
     me "嗯嗯……嗯唔…。"
     "渐渐地，我的意识开始模糊，视线也朦胧起来。"
-    hide cg with lm_wiperight
-    hide nori with lm_wiperight
-    hide bg with lm_wiperight
+    hide cg with DefocusBlack(5.0)
+    hide nori with DefocusBlack(5.0)
+    hide bg with DefocusBlack(5.0)
     pause 0.4
     "···。"
     window hide
-    show bg residential_area_night at center with Dissolve(0.7)
+    show bg residential_area_night at center with Radial(0.7)
     show nori 8 at top with Dissolve(0.7)
     window show
     unknown "晚安，大哥哥。"
     extend "\n我会换个地方，让你好好享受的。"
     window hide
-    hide nori with dissolve
-    hide bg with dissolve
+    hide nori with Dissolve(0.9)
+    hide bg with Dissolve(0.9)
     return
 
 label day0_normal:
@@ -745,7 +745,7 @@ label day0_normal:
     unknown "回到刚才的话题吧。\n"
     window hide
     play sound "fx/battle3.ogg"
-    show 飴 c3 at center with lm_crossfade
+    show 飴 c3 at center with Radial(0.5)
     window show
     extend "我手上的这颗糖果，其实是一种魔法糖果哦。"
     unknown "吃了这种糖果的人，\n无论是什么样的愿望都能实现哦。"
@@ -771,7 +771,7 @@ label day0_normal:
     show cg dark at center with Dissolve(0.3)
     extend "\n然后说『戴上这眼镜的话~』，"
     play sound "fx/sparkle.ogg"
-    show cg adult with Dissolve(0.3)
+    show cg adult with FadeWhite(0.3)
     extend "『和我签订契约吧~』之类的，"
     hide cg with dissolve
     extend "\n这种唐突地搭话的桥段，在漫画和动画中经常看到，"
@@ -788,7 +788,7 @@ label day0_normal:
     "说完，少年融入了黑暗中。"
     window hide
     stop music fadeout 2.0
-    hide nori with dissolve
+    hide nori with Dissolve(1.5)
     window show
     "我将手伸进裤兜，摸到了装有小块糖果的透明小袋。"
     me "完全没察觉……这孩子。。"
@@ -797,15 +797,15 @@ label day0_normal:
     show cg telephone_pole_night at center with Dissolve(0.6)
     "……不如说，我更想和他，多聊聊，\n这是我想去实现的愿望。。"
     window hide
-    hide bg with dissolve
-    hide cg with dissolve
+    hide bg with Dissolve(1.0)
+    hide cg with Dissolve(1.0)
     return
 
 label day0_hidden_1:
     window show
     "···"
     window hide
-    show bg dungeon at center with Dissolve(2.4)
+    show bg dungeon at center with DefocusWhite(2.4)
     play music "fx/cave_ambience.ogg"
     window show
     me "嗯……这里是……？"
@@ -891,7 +891,7 @@ label day0_hidden_1:
     extend "\n这样的话应该就会没事了吧。"
     extend "\n想要做的梦……"
     play sound "fx/sparkle.ogg"
-    show cg adult at center with fade
+    show cg adult at center with FadeWhite(0.5)
     extend "果然还是跟可爱的小男孩卿卿我我的梦啊……。"
     "……嗯，很顺利。快要睡着了啊~。"
     extend "\n虽然手脚被束缚着有些违和感……。"
@@ -914,18 +914,18 @@ label day0_hidden_1:
     "·"
     pause 1.0
     play sound "fx/eureka.ogg"
-    show bg remarkable at center with pixellate
+    show bg remarkable at center with FadeWhite(0.5)
     unknown "幻象火焰！！！！！！！！！"
     window hide
     play sound "fx/battle3.ogg"
-    show bg campfire_sparks with Dissolve(0.4)
+    show bg campfire_sparks with FadeWhite(0.4)
     pause 0.6
     play sound "fx/phantom_fire.ogg"
-    show bg phantom_fire with Dissolve(0.4)
+    show bg phantom_fire with Radial(0.4)
     window show
     "砰啊啊啊啊啊啊啊啊啊！！！！！！"
     window hide
-    show bg dungeon at center with Dissolve(0.2)
+    show bg dungeon at center with FadeBlack(0.2)
     play sound "fx/boing.ogg"
     $ renpy.transition(Quake(0, 60, 0.15, 0.1), layer='master')
     window show
@@ -981,16 +981,16 @@ label day0_hidden_1:
     extend "\n……而且，我好想再看到你沉溺于快乐而露出一副哭丧脸啊！"
     window hide
     play sound "fx/impact.ogg"
-    show cg c90 at center with pixellate
+    show cg c90 at center with FadeWhite(0.5)
     window show
     "说完，"
     play sound "fx/battle1.ogg"
     "朔拿出几把小刀，向夕阳扔了过去。"
     play sound "fx/battle2.ogg"
-    show cg c90 with pixellate
+    show cg c90 with FadeWhite(0.5)
     extend "\n朔的触手与小刀纷至沓来，战斗一触即发，"
     play sound "fx/battle4.ogg"
-    show cg c90 with lm_crossfade
+    show cg c90 with Radial(0.5)
     extend "夕阳便释放火焰魔法与之缠斗。"
     "这…难道不是做梦吗……。"
     extend "\n比起我那些逼真的梦，眼前这景象，才更像是场梦一样"
@@ -1019,7 +1019,7 @@ label day0_hidden_1:
     extend "\n然后，束缚住我的触手开始移动，把我带到了朔的面前。"
     window hide
     play sound "fx/knife.ogg"
-    show cg c91 1 at center with fade
+    show cg c91 1 at center with FadeWhite(0.5)
     window show
     "咔嚓"
     "朔将刀刃抵在了我的脖子上。"
@@ -1094,7 +1094,7 @@ label day0_hidden_nori:
     yuuhi "哎！？"
     extend "\n可，可是，他强行把你带来这里啊……。"
     play sound "fx/impact.ogg"
-    show cg remarkable at center with pixellate
+    show cg remarkable at center with FadeWhite(0.5)
     me "能被这样的美少年监禁，求之不得！！！！！"
     play sound "fx/impact.ogg"
     "求之不得！！！\n"
@@ -1197,17 +1197,17 @@ label day0_hidden_nori:
     "我强行拉住夕阳的双手，让他背对着我。"
     "然后，大喊道。"
     stop music fadeout 0.5
-    show cg remarkable at center with pixellate
+    show cg remarkable at center with FadeWhite(0.5)
     me "朔，就是现在！！"
     window hide
     play sound "fx/wind_slash.ogg"
-    show cg c89 with pixellate
+    show cg c89 with FadeWhite(0.5)
     window show
     "咻噜噜噜噜！！！"
     "触手捉住了背向这边，手被控制的夕阳。"
     window hide
     play sound "fx/impact_japanese.ogg"
-    show cg c93 1 with fade
+    show cg c93 1 with FadeWhite(0.5)
     play music "hurry_up.ogg"
     window show
     play sound "fx/boing.ogg"
@@ -1262,7 +1262,7 @@ label day0_hidden_nori:
     nori "没错，夕阳。"
     extend "\n哥哥似乎对你那色情的内裤很感兴趣哦。"
     window hide
-    show cg c93 1 at center with fade
+    show cg c93 1 at center with FadeWhite(0.5)
     window show
     play sound "fx/boing.ogg"
     yuuhi "你，你们在说什么啊，这群变态！！！！"
@@ -1287,17 +1287,17 @@ label day0_hidden_nori:
     play sound "fx/sparkle.ogg"
     extend "\n这么梦幻的，触手×正太的场景……\n除了好好享用，还能怎么办呢！？"
     play sound "fx/wind_slash.ogg"
-    show cg c89 with pixellate
+    show cg c89 with FadeWhite(0.5)
     me "来吧，触手君！！"
     stop music fadeout 2.0
     play sound "fx/explosion3.ogg"
     extend "\n只是一会儿就好，把短裤给我脱下来！！！"
     window hide
-    show cg c93 3 with lm_crossfade
+    show cg c93 3 with Radial(0.5)
     window show
     "偷瞄"
     play music "bwv147.ogg"
-    show cg adult with fade
+    show cg adult with FadeWhite(0.5)
     "……。"
     "黑色比基尼真是吓人一跳……。"
     extend "\n多谢款待！！"
@@ -1316,11 +1316,11 @@ label day0_hidden_nori:
     play sound "fx/eureka.ogg"
     yuuhi "……就是现在！"
     play sound "fx/phantom_fire.ogg"
-    show cg phantom_fire at center with pixellate
+    show cg phantom_fire at center with FadeWhite(0.5)
     "趁朔的注意力都集中在我身上的时候，夕阳烧断了缠绕在自己身上的触手。"
     window hide
-    hide cg with pixellate
-    hide yuuhi with pixellate
+    hide cg with FadeWhite(0.5)
+    hide yuuhi with FadeWhite(0.5)
     show yuuhi 11 at top with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
@@ -1370,7 +1370,7 @@ label day0_hidden_nori:
     play sound "fx/alarm.ogg"
     "哔哔哔哔哔哔哔哔哔"
     window hide
-    show bg protagonist_room_morning at center with lm_crossfade
+    show bg protagonist_room_morning at center with Radial(0.5)
     window show
     me "啊……已经早上了啊……？"
     extend "\n嗯~总觉得没睡够呢…。"
@@ -1390,14 +1390,14 @@ label day0_hidden_nori:
     window hide
     hide bg with dissolve
     play sound "fx/door_open.ogg"
-    show bg sky at center with Dissolve(0.7)
+    show bg sky at center with Radial(0.7)
     window show
     me "好！今天也要加油！！"
     window hide
     stop music fadeout 1.0
-    hide bg with fade
+    hide bg with FadeWhite(1.0)
     pause 0.6
-    show bg dungeon at center with Dissolve(0.7)
+    show bg dungeon at center with Radial(0.7)
     pause 0.6
     show bg saku_ed with Dissolve(0.8)
     pause 1.3
@@ -1501,7 +1501,7 @@ label day0_hidden_yuuhi:
     "夕阳被突如其来的发展搞得目瞪口呆，\n听到我的声音才回过神来，捡起被小刀切下的触手，绑住了朔的两只手腕。"
     window hide
     play sound "fx/wind_slash.ogg"
-    show cg c92 1 at center with fade
+    show cg c92 1 at center with FadeWhite(0.5)
     window show
     nori "快，快住手！你，你这！！"
     play sound "fx/boing.ogg"
@@ -1511,10 +1511,10 @@ label day0_hidden_yuuhi:
     extend "\n幻影火焰！！"
     window hide
     play sound "fx/battle3.ogg"
-    show cg campfire_sparks with Dissolve(0.4)
+    show cg campfire_sparks with FadeWhite(0.4)
     pause 0.6
     play sound "fx/phantom_fire.ogg"
-    show cg phantom_fire with Dissolve(0.4)
+    show cg phantom_fire with Radial(0.4)
     window show
     "轰轰轰轰轰轰轰"
     "伴随着刺耳的轰鸣声，夕阳释放出了火焰，将触手烧得一干二净。"
@@ -1552,7 +1552,7 @@ label day0_hidden_yuuhi:
     extend "\n我刚才的战斗也让你看过了，要再给你看一次吗？"
     window hide
     play sound "fx/explosion1.ogg"
-    show cg phantom_fire at center with lm_crossfade
+    show cg phantom_fire at center with Radial(0.5)
     window show
     "说着，夕阳在手掌上变出了一团小火焰。"
     yuuhi "这种事，一般人是办不到的吧？"
@@ -1600,13 +1600,13 @@ label day0_hidden_yuuhi:
     me "没什么，只是很少见到毫无防备的美少年，"
     stop music fadeout 0.5
     play sound "fx/tadaa.ogg"
-    show cg remarkable with pixellate
+    show cg remarkable with FadeWhite(0.5)
     extend "\n所以想拜见一下你的内裤！"
     play sound "fx/dash.ogg"
     "夕阳＆朔" "什……！！"
     window hide
     play music "hurry_up.ogg"
-    show cg c92 1 with fade
+    show cg c92 1 with FadeWhite(0.5)
     window show
     me "不是挺好的嘛~♪"
     extend "\n我可是被你监禁的人哦？"
@@ -1627,7 +1627,7 @@ label day0_hidden_yuuhi:
     nori "吵死了！！你给我乖乖消失！"
     "我无视了朔的话，伸手去摸他的裤子。"
     play sound "fx/sparkle.ogg"
-    show cg adult at center with fade
+    show cg adult at center with FadeWhite(0.5)
     me "那么~我很期待你会穿什么样的内裤呢~！"
     extend "\n如果是你的话，穿什么内裤都能萌到我哦~。"
     extend "\n是意外稚嫩的三角裤？还是调皮的平角内裤？\n还是年轻人喜欢的拳击短裤？还是，还是"
@@ -1653,17 +1653,17 @@ label day0_hidden_yuuhi:
     extend "\n你再表现得更讨厌一点啊。"
     "这时，朔一脸快要哭出来的表情，颤抖着用几乎听不见的声音说道。"
     play sound "fx/impact.ogg"
-    show cg c92 3 with pixellate
+    show cg c92 3 with FadeWhite(0.5)
     nori "我，我……不穿内裤……"
     extend "\n所以……更进一步的事情……"
     show cg remarkable with Dissolve(0.2)
     play sound "fx/explosion2.ogg"
     extend "\n如果想让这个游戏变成十八禁的话，就做试试看！！！！！"
-    hide cg with dissolve
-    hide bg with dissolve
-    hide cg with dissolve
-    hide yuuhi with dissolve
-    hide nori with dissolve
+    hide cg with Dissolve(0.8)
+    hide bg with Dissolve(0.8)
+    hide cg with Dissolve(0.8)
+    hide yuuhi with Dissolve(0.8)
+    hide nori with Dissolve(0.8)
     window hide
     window show
     "···。"
@@ -1711,9 +1711,9 @@ label day0_hidden_yuuhi:
     "就这样，我那宛如梦境般的奇妙体验拉下了帷幕。"
     window hide
     stop music fadeout 1.0
-    hide bg with dissolve
-    hide cg with dissolve
-    hide yuuhi with dissolve
+    hide bg with Dissolve(0.8)
+    hide cg with Dissolve(0.8)
+    hide yuuhi with Dissolve(0.8)
     window show
     "···。"
     window hide
@@ -1725,7 +1725,7 @@ label day0_hidden_yuuhi:
     play sound "fx/alarm.ogg"
     "哔哔哔哔哔哔哔哔哔"
     window hide
-    show bg protagonist_room_morning at center with lm_crossfade
+    show bg protagonist_room_morning at center with Radial(0.5)
     window show
     me "嗯啊~真是美好的清晨啊！！"
     extend "\n新一天的开始，希望的早晨……让人想要欢呼雀跃啊~！"
@@ -1745,14 +1745,14 @@ label day0_hidden_yuuhi:
     window hide
     hide bg with dissolve
     play sound "fx/door_open.ogg"
-    show bg sky at center with Dissolve(0.7)
+    show bg sky at center with Radial(0.7)
     window show
     me "好！今天也要加油！！"
     window hide
     stop music fadeout 1.0
-    hide bg with fade
+    hide bg with FadeWhite(1.0)
     pause 0.6
-    show bg phantom_fire at center with Dissolve(0.7)
+    show bg phantom_fire at center with Radial(0.7)
     pause 0.6
     show bg yuuhi_ed with Dissolve(0.8)
     pause 1.3

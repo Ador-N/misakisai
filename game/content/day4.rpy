@@ -6,19 +6,19 @@ label day4:
     "就这样，我们用了三天来完成执行委员的工作之后，"
     extend "\n之后的剩余时间，就参与到班级的整体工作中，进行准备。"
     window hide
-    show bg sky at center with Dissolve(0.8)
+    show bg sky at center with Radial(0.8)
     play sound "fx/entrance.ogg"
     window show
     "然后，到了御咲祭当天"
     window hide
     play sound "fx/crowd_noise.ogg"
     play music "school_festival.ogg"
-    show bg school_building_full with Dissolve(1.0)
+    show bg school_building_full with FadeWhite(1.0)
     pause 0.6
     show bg hallway with Dissolve(1.0)
     pause 0.5
     play sound "fx/sparkle.ogg"
-    show bg cafe with Dissolve(1.0)
+    show bg cafe with Radial(1.0)
     pause 0.4
     show tomo 13i at topright with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
@@ -61,7 +61,7 @@ label day4_1:
     tomo "一二ーー！"
     window hide
     play sound "fx/impact.ogg"
-    show cg c18 at center with Dissolve(0.6)
+    show cg c18 at center with Radial(0.6)
     window show
     everyone "「诶诶哦ーー！！！」"
     window hide
@@ -69,7 +69,7 @@ label day4_1:
     hide cg with dissolve
     hide bg with dissolve
     play sound "fx/crowd_noise.ogg"
-    show bg cafe at center with Dissolve(0.8)
+    show bg cafe at center with Radial(0.8)
     show sora 3i at topleft with dissolve
     window show
     sora "让您久等了。\n这边是可乐和巧克力圣代。"
@@ -342,7 +342,7 @@ label end_tomo:
     play sound "fx/crowd_noise.ogg"
     show bg school_building_evening_full at center with Dissolve(1.0)
     pause 0.4
-    show bg cafe_evening with Dissolve(1.0)
+    show bg cafe_evening with Radial(1.0)
     window show
     "咖啡店的营业时间也差不多要结束了。"
     extend "\n剩下的活动，就是和友的后夜祭！"
@@ -410,7 +410,7 @@ label end_tomo:
     me "……所以，你打算怎么办？"
     window hide
     play sound "fx/wind_slash.ogg"
-    show cg c19 1 at center with Dissolve(0.3)
+    show cg c19 1 at center with DefocusBlack(0.3)
     play music "pinch.ogg"
     window show
     tubasa "[player_name]君只要待在这里就可以了！"
@@ -420,9 +420,9 @@ label end_tomo:
     extend "\n他打算用绳子把我五花大绑，然后邀请我进入SM的世界。"
     "然后呢，\n"
     play sound "fx/sparkle.ogg"
-    show cg adult with lm_crossfade
+    show cg adult with Radial(0.5)
     tubasa "比起友，我要让你变成我的俘虏！」\n大概就是这种感觉吧……。"
-    show cg c19 2 with Dissolve(0.3)
+    show cg c19 2 with DefocusBlack(0.3)
     play sound "fx/eureka.ogg"
     tubasa "（盯着）"
     "怎么可能啊！！"
@@ -473,7 +473,7 @@ label end_tomo:
     extend "\n然后，也要回应友的期望。这是我必须要做的事！"
     window hide
     play sound "fx/wind_slash.ogg"
-    show cg c19 4 at center with wipeleft
+    show cg c19 4 at center with DefocusWhite(0.5)
     window show
     tubasa "我不会让你得逞的！！我不会让你做这种事的！！！"
     me "友……又不会因为这样就不会再见到你了。"
@@ -487,7 +487,7 @@ label end_tomo:
     show tubasa 27i at top with dissolve
     window show
     tubasa "不……要……呜，呜呜呜呜呜呜呜呜哇啊啊啊啊……。"
-    hide tubasa with dissolve
+    hide tubasa with Dissolve(1.0)
     play sound "fx/fall_down.ogg"
     "翼放声大哭起来。"
     "梦境终会醒来。"
@@ -580,7 +580,7 @@ label end_tomo:
     extend "\n然后"
     window hide
     play sound "fx/fire.ogg"
-    show bg campfire with lm_crossfade
+    show bg campfire with Radial(0.5)
     window show
     "终于点燃了柴火堆。"
     "熊熊燃烧着的鲜红火焰。"
@@ -631,8 +631,8 @@ label end_tomo:
     extend "\n所以，放学后才那么弹钢琴，"
     extend "\n等着有人来。"
     window hide
-    hide cg with dissolve
-    hide tomo with dissolve
+    hide cg with Dissolve(0.8)
+    hide tomo with Dissolve(0.8)
     window show
     "原来如此。"
     extend "\n原来那场演奏，友是蕴含着这种心情在弹的啊……。"
@@ -651,7 +651,7 @@ label end_tomo:
     extend "\n不是作为朋友的那种……那个……更进一步的那种。"
     "说完之后，友低下了头，靠在了我的身上。"
     window hide
-    show cg campfire_sparks at center with Dissolve(0.8)
+    show cg campfire_sparks at center with FadeWhite(0.8)
     window show
     tomo "[player_name]君真的只是初中生吗？"
     me "哎？"
@@ -672,7 +672,7 @@ label end_tomo:
     "我轻轻地摸了摸朋友的头。"
     window hide
     play music "reminiscence.ogg"
-    show cg c20 1 with Dissolve(0.8)
+    show cg c20 1 with Radial(0.8)
     window show
     me "这样摸头，你就放心了？"
     extend "\n还会寂寞吗？"
@@ -695,7 +695,7 @@ label end_tomo:
     me "你要好好注视自己的内心，好好珍惜在那里的父亲。"
     extend "\n他一定，会守护着你。"
     window hide
-    show cg c20 2 with Dissolve(0.8)
+    show cg c20 2 with FadeWhite(0.8)
     window show
     tomo "内心…。"
     "友将手放在自己的胸口上。"
@@ -722,7 +722,7 @@ label end_tomo:
     tomo "诶嘿嘿。"
     "友害羞地笑了笑，突然间将脸贴近，"
     window hide
-    show cg c20 4 with Dissolve(0.8)
+    show cg c20 4 with Radial(0.8)
     window show
     "亲"
     "……诶？"
@@ -736,7 +736,7 @@ label end_tomo:
     me "啊哈哈，这下真是败给你了啊……。"
     me "我这边才是，谢谢你给我带来了这么多快乐。"
     window hide
-    show cg moon_night with Dissolve(0.8)
+    show cg moon_night with FadeWhite(0.8)
     window show
     "……这样一来，也回应了友的期待，也坦白了我的心意。"
     extend "\n御咲祭也成功了，也与友一起看到了这场火焰。"
@@ -747,9 +747,9 @@ label end_tomo:
     "在这片燃烧的红炎之中，我的意识逐渐淡去……。"
     extend "\n……梦已经结束了。"
     window hide
-    hide bg with dissolve
-    hide tomo with dissolve
-    hide cg with dissolve
+    hide bg with Dissolve(0.8)
+    hide tomo with Dissolve(0.8)
+    hide cg with Dissolve(0.8)
     window show
     "···"
     "梦的记忆是模糊的。"
@@ -758,7 +758,7 @@ label end_tomo:
     stop music fadeout 4.0
     "好了……差不多该起来了。"
     window hide
-    show tomo 34 at top with Dissolve(2.5)
+    show tomo 34 at top with DefocusWhite(2.5)
     window show
     "友，我喜欢你哦。"
     window hide
@@ -771,7 +771,7 @@ label end_tomo:
     play sound "fx/alarm.ogg"
     "哔哔哔哔哔哔哔哔"
     window hide
-    show bg protagonist_room_morning at center with lm_crossfade
+    show bg protagonist_room_morning at center with Radial(0.5)
     window show
     me "啊……已经早上了吗……？"
     extend "\n唔~我好像并没有睡多少啊……。"
@@ -792,7 +792,7 @@ label end_tomo:
     window hide
     play music "school_festival.ogg"
     play sound "fx/crowd_noise.ogg"
-    show bg school_building_full at center with Dissolve(1.0)
+    show bg school_building_full at center with Radial(1.0)
     pause 0.6
     show bg hallway with Dissolve(1.0)
     window show
@@ -812,10 +812,10 @@ label end_tomo:
     show tomo 34i with dissolve
     extend "\n请慢用。"
     window hide
-    hide bg with fade
-    hide tomo with fade
+    hide bg with FadeWhite(1.0)
+    hide tomo with FadeWhite(1.0)
     pause 0.6
-    show bg tomo_room_evening at center with Dissolve(0.7)
+    show bg tomo_room_evening at center with Radial(0.7)
     pause 0.6
     show bg tomo_ed with Dissolve(0.8)
     pause 1.3
@@ -843,7 +843,7 @@ label end_sintarou:
     show sintarou 17i with dissolve
     sintarou "我不是告诫过你们在咖啡店要自重吗！"
     extend "\n我再警告你们一遍[player_name]君如果再被你们骚扰的话"
-    show cg remarkable at center with Dissolve(0.4)
+    show cg remarkable at center with FadeWhite(0.4)
     play sound "fx/explosion3.ogg"
     extend "\n禁止你去我家的澡堂3个月哦！！"
     hide cg with dissolve
@@ -913,7 +913,7 @@ label end_sintarou:
     play sound "fx/crowd_noise.ogg"
     show bg school_building_evening_full at center with Dissolve(1.0)
     pause 0.4
-    show bg cafe_evening with Dissolve(1.0)
+    show bg cafe_evening with Radial(1.0)
     window show
     "咖啡店的营业时间也差不多要结束了。"
     extend "\n剩下的活动就是和慎太郎一起逛后夜祭！"
@@ -1029,7 +1029,7 @@ label end_sintarou:
     extend "\n然后"
     window hide
     play sound "fx/fire.ogg"
-    show bg campfire with lm_crossfade
+    show bg campfire with Radial(0.5)
     window show
     "终于点燃了柴火堆。"
     "熊熊燃烧着的鲜红火焰。"
@@ -1103,7 +1103,7 @@ label end_sintarou:
     sintarou "是么~。"
     window hide
     play music "reminiscence.ogg"
-    show cg c30 1 at center with Dissolve(0.8)
+    show cg c30 1 at center with Radial(0.8)
     window show
     "慎太郎听我说完后，靠着我。"
     "那张脸颊，融入火焰的颜色之中难以分辨，但看上去像是泛红了。"
@@ -1137,7 +1137,7 @@ label end_sintarou:
     extend "\n……那么，趁着还是孩子，\n就做想做的事情吧。"
     "慎太郎忽然将脸凑近"
     window hide
-    show cg c30 3 with Dissolve(0.8)
+    show cg c30 3 with Radial(0.8)
     window show
     "亲"
     "……诶？"
@@ -1149,8 +1149,8 @@ label end_sintarou:
     sintarou "当然！"
     extend "\n我就是我！"
     window hide
-    hide cg with dissolve
-    hide sintarou with dissolve
+    hide cg with Dissolve(0.8)
+    hide sintarou with Dissolve(0.8)
     show sintarou 11i at top with dissolve
     window show
     sintarou "啊啊啊啊！"
@@ -1178,7 +1178,7 @@ label end_sintarou:
     sintarou "嗯！拜拜！"
     extend "\n保重啊！"
     window hide
-    show cg moon_night at center with Dissolve(0.8)
+    show cg moon_night at center with FadeWhite(0.8)
     window show
     "……这样就，向他表白过，也得到了慎太郎的答复。"
     extend "\n御咲祭也成功了，还和慎太郎一起见证了这抹焰火。"
@@ -1189,9 +1189,9 @@ label end_sintarou:
     "在这片燃烧的红炎之中，我的意识逐渐淡去……。"
     extend "\n……梦已经结束了。"
     window hide
-    hide bg with dissolve
-    hide cg with dissolve
-    hide sintarou with dissolve
+    hide bg with Dissolve(0.8)
+    hide cg with Dissolve(0.8)
+    hide sintarou with Dissolve(0.8)
     window show
     "···"
     "梦的记忆是模糊的。"
@@ -1200,7 +1200,7 @@ label end_sintarou:
     stop music fadeout 4.0
     "好了……差不多该起来了。"
     window hide
-    show sintarou 33 at top with Dissolve(2.5)
+    show sintarou 33 at top with DefocusWhite(2.5)
     window show
     "我好喜欢慎太郎啊。"
     window hide
@@ -1234,7 +1234,7 @@ label end_sintarou:
     window hide
     play music "school_festival.ogg"
     play sound "fx/crowd_noise.ogg"
-    show bg school_building_full at center with Dissolve(1.0)
+    show bg school_building_full at center with Radial(1.0)
     pause 0.4
     show bg hallway with Dissolve(1.0)
     window show
@@ -1253,10 +1253,10 @@ label end_sintarou:
     show sintarou 34i with dissolve
     extend "\n请这边走！请慢慢看吧~！"
     window hide
-    hide bg with lm_crossfade
-    hide sintarou with lm_crossfade
+    hide bg with Radial(1.0)
+    hide sintarou with Radial(1.0)
     pause 0.6
-    show bg hananoyu at center with Dissolve(0.7)
+    show bg hananoyu at center with Radial(0.7)
     pause 0.6
     show bg sintarou_ed with Dissolve(0.8)
     pause 1.3
@@ -1390,7 +1390,7 @@ label end_sinobu:
     play sound "fx/crowd_noise.ogg"
     show bg school_building_evening_full at center with Dissolve(1.0)
     pause 0.4
-    show bg cafe_evening with Dissolve(1.0)
+    show bg cafe_evening with Radial(1.0)
     window show
     "咖啡店的营业时间也差不多要结束了。"
     extend "\n剩下的活动，就是和忍在后夜祭上做些什么了！"
@@ -1500,7 +1500,7 @@ label end_sinobu:
     extend "\n然后"
     window hide
     play sound "fx/fire.ogg"
-    show bg campfire with lm_crossfade
+    show bg campfire with Radial(0.5)
     window show
     "终于点燃了柴火堆。"
     "熊熊燃烧着的鲜红火焰。"
@@ -1509,7 +1509,7 @@ label end_sinobu:
     me "嗯……。"
     "不过比起眼前的景色，忍更美。"
     stop sound fadeout 2.0
-    hide bg with dissolve
+    hide bg with Dissolve(0.3)
     "……说不出口。"
     window hide
     play music "good_atmosphere.ogg"
@@ -1588,7 +1588,7 @@ label end_sinobu:
     extend "我脸上一定也是一样的吧。"
     window hide
     play music "reminiscence.ogg"
-    show cg c38 1 with Dissolve(0.8)
+    show cg c38 1 with Radial(0.8)
     window show
     me "嗯……这就是恋爱啊。"
     sinobu "……。"
@@ -1596,7 +1596,7 @@ label end_sinobu:
     sinobu "……[player_name]，闭上眼睛。"
     me "嗯……。"
     window hide
-    show cg c38 2 with Dissolve(0.8)
+    show cg c38 2 with Radial(0.8)
     window show
     "亲"
     "我感到了忍嘴唇传来的柔软触感。"
@@ -1613,7 +1613,7 @@ label end_sinobu:
     extend "\n但是没关系。\n如今，我与你已经比任何人都要了解彼此了。"
     sinobu "嗯……。"
     window hide
-    show cg moon_night with Dissolve(0.8)
+    show cg moon_night with FadeWhite(0.8)
     window show
     "……我回应了忍的心意，也传达了我的爱意。"
     extend "\n御咲祭也成功了，还和忍一起看完了这场火焰秀。"
@@ -1624,9 +1624,9 @@ label end_sinobu:
     "在这片燃烧的红炎之中，我的意识逐渐淡去……。"
     extend "\n……梦已经结束了。"
     window hide
-    hide bg with dissolve
-    hide cg with dissolve
-    hide sinobu with dissolve
+    hide bg with Dissolve(0.8)
+    hide cg with Dissolve(0.8)
+    hide sinobu with Dissolve(0.8)
     window show
     "···"
     "梦的记忆是模糊的。"
@@ -1636,7 +1636,7 @@ label end_sinobu:
     stop music fadeout 4.0
     "好了……差不多该起来了。"
     window hide
-    show sinobu 31 at top with Dissolve(2.5)
+    show sinobu 31 at top with DefocusWhite(2.5)
     window show
     "喜欢你，忍。"
     window hide
@@ -1670,7 +1670,7 @@ label end_sinobu:
     window hide
     play music "school_festival.ogg"
     play sound "fx/crowd_noise.ogg"
-    show bg school_building_full at center with Dissolve(1.0)
+    show bg school_building_full at center with Radial(1.0)
     pause 0.4
     show bg hallway with Dissolve(1.0)
     window show
@@ -1696,7 +1696,7 @@ label end_sinobu:
     "看来，肯定就是在这里！！"
     extend "\n我鼓起自信，意气风发地走向咖啡店的入口。"
     play sound "fx/sliding_door.ogg"
-    show bg cafe with fade
+    show bg cafe with FadeWhite(0.5)
     "接着，一个戴绿色名牌的，打着红领带的男孩从店内走了出来。"
     window hide
     play sound "fx/running.ogg"
@@ -1708,10 +1708,10 @@ label end_sinobu:
     show sinobu 31i with dissolve
     extend "\n请往这边走……请慢慢欣赏。"
     window hide
-    hide bg with lm_crossfade
-    hide sinobu with lm_crossfade
+    hide bg with Radial(1.0)
+    hide sinobu with Radial(1.0)
     pause 0.6
-    show bg sidewalk_evening at center with Dissolve(0.7)
+    show bg sidewalk_evening at center with Radial(0.7)
     pause 0.6
     show bg sinobu_ed with Dissolve(0.8)
     pause 1.3
@@ -1804,7 +1804,7 @@ label end_tubasa:
     play sound "fx/crowd_noise.ogg"
     show bg school_building_evening_full at center with Dissolve(1.0)
     pause 0.4
-    show bg cafe_evening with Dissolve(1.0)
+    show bg cafe_evening with Radial(1.0)
     window show
     "咖啡店的营业时间也差不多要结束了。"
     extend "\n剩下的活动，是和翼的后夜祭！"
@@ -1943,7 +1943,7 @@ label end_tubasa:
     extend "\n然后"
     window hide
     play sound "fx/fire.ogg"
-    show bg campfire with lm_crossfade
+    show bg campfire with Radial(0.5)
     window show
     "终于点燃了柴火堆。"
     "熊熊燃烧着的鲜红火焰。"
@@ -1981,7 +1981,7 @@ label end_tubasa:
     "之后，我们沉默着，一起享受了后夜祭的景色。"
     window hide
     play music "reminiscence.ogg"
-    show cg c46 1 at center with Dissolve(0.8)
+    show cg c46 1 at center with FadeWhite(0.8)
     window show
     me "翼。"
     tubasa "嗯。"
@@ -2013,7 +2013,7 @@ label end_tubasa:
     tubasa "……。"
     me "……。"
     window hide
-    show cg c46 4 with Dissolve(0.8)
+    show cg c46 4 with Radial(0.8)
     window show
     "亲"
     "……诶？"
@@ -2034,13 +2034,13 @@ label end_tubasa:
     me "啊哈哈。\n但只要有这份勇气，就一定没问题的。"
     extend "\n以后也继续加油吧。\n我会永远支持翼的。"
     window hide
-    hide tubasa with dissolve
-    hide cg with dissolve
+    hide tubasa with Dissolve(0.9)
+    hide cg with Dissolve(0.9)
     show tubasa 36i at top with Dissolve(0.9)
     window show
     tubasa "好的……我会努力的！！"
     window hide
-    show cg moon_night at center with Dissolve(0.8)
+    show cg moon_night at center with FadeWhite(0.8)
     window show
     "……这样一来，我的想法也传达给了翼，而翼也接受了我的表白。"
     extend "\n御咲祭也顺利举办了，我还在翼的陪伴下见证了这场焰火表演。"
@@ -2051,9 +2051,9 @@ label end_tubasa:
     "在这片燃烧的红炎之中，我的意识逐渐淡去……。"
     extend "\n……梦已经结束了。"
     window hide
-    hide bg with dissolve
-    hide cg with dissolve
-    hide tubasa with dissolve
+    hide bg with Dissolve(0.8)
+    hide cg with Dissolve(0.8)
+    hide tubasa with Dissolve(0.8)
     window show
     "···"
     "梦的记忆是模糊的。"
@@ -2062,7 +2062,7 @@ label end_tubasa:
     stop music fadeout 4.0
     "好了……差不多该起来了。"
     window hide
-    show tubasa 35i at top with Dissolve(2.5)
+    show tubasa 35i at top with DefocusWhite(2.5)
     window show
     "翼，祝你幸福。"
     window hide
@@ -2096,7 +2096,7 @@ label end_tubasa:
     window hide
     play music "school_festival.ogg"
     play sound "fx/crowd_noise.ogg"
-    show bg school_building_full at center with Dissolve(1.0)
+    show bg school_building_full at center with Radial(1.0)
     pause 0.4
     show bg hallway with Dissolve(1.0)
     window show
@@ -2121,7 +2121,7 @@ label end_tubasa:
     "看来，肯定就是在这里！！"
     extend "\n我鼓起自信，意气风发地走向咖啡店的入口。"
     play sound "fx/sliding_door.ogg"
-    show bg cafe with fade
+    show bg cafe with FadeWhite(0.5)
     "然后，身带蓝色名牌的红领带男走了出来。"
     window hide
     play sound "fx/running.ogg"
@@ -2133,11 +2133,11 @@ label end_tubasa:
     show tubasa 36i with dissolve
     extend "\n请往这边走……请慢慢欣赏。"
     window hide
-    hide bg with lm_crossfade
-    hide sinobu with lm_crossfade
-    hide tubasa with lm_crossfade
+    hide bg with Radial(1.0)
+    hide sinobu with Radial(1.0)
+    hide tubasa with Radial(1.0)
     pause 0.6
-    show bg park_bench at center with Dissolve(0.7)
+    show bg park_bench at center with Radial(0.7)
     pause 0.6
     show bg tubasa_ed with Dissolve(0.8)
     pause 1.3
@@ -2275,7 +2275,7 @@ label end_sora:
     "月和空面面相觑。"
     window hide
     play music "twins_theme.ogg"
-    show cg c57 1 with Dissolve(0.8)
+    show cg c57 1 with FadeWhite(0.8)
     window show
     tuki "这样的话……那要不实际试试看？"
     me "哎？"
@@ -2308,7 +2308,7 @@ label end_sora:
     sora "我，[player_name]君，我喜欢你。"
     extend "\n所以……快点好起来吧。"
     window hide
-    show cg c57 3 with Dissolve(0.8)
+    show cg c57 3 with Radial(0.8)
     window show
     "亲"
     "当我用脸感受到空那柔软的嘴唇，我的身体真的就变得轻飘飘的了。"
@@ -2335,7 +2335,7 @@ label end_sora:
     sora "哇……御咲篝火，终于点燃了！！"
     window hide
     play sound "fx/fire.ogg"
-    show cg campfire at center with lm_crossfade
+    show cg campfire at center with Radial(0.5)
     window show
     "时隔10年，我再次看到了篝火，即便只是在室内观赏，也非常美丽而震撼。"
     extend "\n从保健室的角度看，很巧妙地避开了草木和小摊，"
@@ -2348,16 +2348,16 @@ label end_sora:
     extend "\n月，空……谢谢你们在我身边。"
     stop sound fadeout 2.0
     window hide
-    hide tuki with dissolve
-    hide sora with dissolve
-    hide cg with dissolve
+    hide tuki with Dissolve(0.8)
+    hide sora with Dissolve(0.8)
+    hide cg with Dissolve(0.8)
     show sora 26i at topright
     show tuki 4i at topleft with dissolve
     window show
     tuki "啊。"
     sora "诶嘿嘿……不用谢！"
     window hide
-    show cg moon_night at center with Dissolve(0.8)
+    show cg moon_night at center with FadeWhite(0.8)
     window show
     "……这样，御咲祭也成功了，也和两人一起看到这场焰火了。"
     extend "\n愿望实现了。……"
@@ -2378,14 +2378,14 @@ label end_sora:
     "好了……差不多该起来了。"
     window hide
     show sora 30 at topright
-    show tuki 9 at topleft with Dissolve(2.5)
+    show tuki 9 at topleft with DefocusWhite(2.5)
     window show
     "空，"
     extend "月，"
     extend "\n谢谢你们。"
     window hide
-    hide sora with dissolve
-    hide tuki with dissolve
+    hide sora with Dissolve(0.8)
+    hide tuki with Dissolve(0.8)
     play music "fx/tsubame.ogg"
     show bg protagonist_home at center with Dissolve(1.0)
     pause 0.6
@@ -2415,7 +2415,7 @@ label end_sora:
     window hide
     play music "school_festival.ogg"
     play sound "fx/crowd_noise.ogg"
-    show bg school_building_full at center with Dissolve(1.0)
+    show bg school_building_full at center with Radial(1.0)
     pause 0.4
     show bg hallway with Dissolve(1.0)
     window show
@@ -2438,10 +2438,10 @@ label end_sora:
     show sora 31i with dissolve
     extend "\n请随意，好好享受吧！"
     window hide
-    hide bg with lm_crossfade
-    hide sora with lm_crossfade
+    hide bg with Radial(1.0)
+    hide sora with Radial(1.0)
     pause 0.6
-    show bg akamine_house3 at center with Dissolve(0.7)
+    show bg akamine_house3 at center with Radial(0.7)
     pause 0.6
     show bg sora_ed with Dissolve(0.8)
     pause 1.3
@@ -2473,7 +2473,7 @@ label end_tuki:
     "月说着，"
     play music "emergency.ogg"
     play sound "fx/sparkle.ogg"
-    show cg remarkable at center with fade
+    show cg remarkable at center with FadeWhite(0.5)
     extend "\n竟然将我公主抱了起来，就这样走出了教室。"
     play sound "fx/sliding_door.ogg"
     show cg hallway_evening with dissolve
@@ -2591,7 +2591,7 @@ label end_tuki:
     "月和空面面相觑。"
     window hide
     play music "twins_theme.ogg"
-    show cg c63 1 with Dissolve(0.8)
+    show cg c63 1 with FadeWhite(0.8)
     window show
     sora "……那要不试试看？"
     me "哎？"
@@ -2624,7 +2624,7 @@ label end_tuki:
     "月把脸凑近我。"
     tuki "快点……振作起来吧。"
     window hide
-    show cg c63 3 with Dissolve(0.8)
+    show cg c63 3 with Radial(0.8)
     window show
     "亲"
     "月柔软的嘴唇贴到我的脸上后，我感觉身体真的变轻了。"
@@ -2657,7 +2657,7 @@ label end_tuki:
     sora "哇……御咲篝火，终于点燃了！！"
     window hide
     play sound "fx/fire.ogg"
-    show cg campfire at center with lm_crossfade
+    show cg campfire at center with Radial(0.5)
     window show
     "在室内也能够清晰地看到，时隔10年之后再次盛绽的焰火。"
     extend "\n从保健室的角度看，很巧妙地避开了草木和小摊，"
@@ -2670,16 +2670,16 @@ label end_tuki:
     extend "\n月，空……谢谢你们在我身边。"
     stop sound fadeout 2.0
     window hide
-    hide tuki with dissolve
-    hide sora with dissolve
-    hide cg with dissolve
+    hide tuki with Dissolve(0.8)
+    hide sora with Dissolve(0.8)
+    hide cg with Dissolve(0.8)
     show sora 26i at topright
     show tuki 4i at topleft with dissolve
     window show
     tuki "啊。"
     sora "诶嘿嘿……不用谢！"
     window hide
-    show cg moon_night at center with Dissolve(0.8)
+    show cg moon_night at center with FadeWhite(0.8)
     window show
     "……这样，御咲祭也成功了，也和两人一起看到这场焰火了。"
     extend "\n愿望实现了。……"
@@ -2700,14 +2700,14 @@ label end_tuki:
     "好了……差不多该起来了。"
     window hide
     show tuki 24 at topleft
-    show sora 26 at topright with Dissolve(2.5)
+    show sora 26 at topright with DefocusWhite(2.5)
     window show
     "月，"
     extend "空，"
     extend "\n谢谢你们。"
     window hide
-    hide sora with dissolve
-    hide tuki with dissolve
+    hide sora with Dissolve(0.8)
+    hide tuki with Dissolve(0.8)
     play music "fx/tsubame.ogg"
     show bg protagonist_home at center with Dissolve(1.0)
     pause 0.6
@@ -2737,7 +2737,7 @@ label end_tuki:
     window hide
     play music "school_festival.ogg"
     play sound "fx/crowd_noise.ogg"
-    show bg school_building_full at center with Dissolve(1.0)
+    show bg school_building_full at center with Radial(1.0)
     pause 0.4
     show bg hallway with Dissolve(1.0)
     window show
@@ -2760,10 +2760,10 @@ label end_tuki:
     show tuki 25i with dissolve
     extend "\n请慢慢享受吧。"
     window hide
-    hide bg with lm_crossfade
-    hide tuki with lm_crossfade
+    hide bg with Radial(1.0)
+    hide tuki with Radial(1.0)
     pause 0.6
-    show bg akamine_house1_evening at center with Dissolve(0.7)
+    show bg akamine_house1_evening at center with Radial(0.7)
     pause 0.6
     show bg tuki_ed with Dissolve(0.8)
     pause 1.3
@@ -2911,7 +2911,7 @@ label end_futago:
     "两人似乎商量了些什么，然后看向我。"
     window hide
     play music "twins_theme.ogg"
-    show cg c64 1 at center with Dissolve(0.8)
+    show cg c64 1 at center with FadeWhite(0.8)
     window show
     sora "[player_name]君，要试试吗？"
     me "哎？"
@@ -2937,7 +2937,7 @@ label end_futago:
     "他们听到我的回答后，站到床的两端，然后把脸凑到我面前。"
     tuki_and_sora "快点打起精神来吧。"
     window hide
-    show cg c64 2 with Dissolve(0.8)
+    show cg c64 2 with Radial(0.8)
     window show
     "亲"
     "得到脸颊两边那柔软的唇的触感，我的身体真的变得轻飘飘起来。"
@@ -2960,7 +2960,7 @@ label end_futago:
     sora "哇……御咲篝火，终于点燃了！！"
     window hide
     play sound "fx/fire.ogg"
-    show cg campfire at center with lm_crossfade
+    show cg campfire at center with Radial(0.5)
     window show
     "时隔10年，我再次看到了篝火，即便只是在室内观赏，也非常美丽而震撼。"
     extend "\n从保健室的角度看，很巧妙地避开了草木和小摊，"
@@ -2973,16 +2973,16 @@ label end_futago:
     extend "\n月，空……感谢你们一直在我身边。"
     stop sound fadeout 2.0
     window hide
-    hide tuki with dissolve
-    hide sora with dissolve
-    hide cg with dissolve
+    hide tuki with Dissolve(0.8)
+    hide sora with Dissolve(0.8)
+    hide cg with Dissolve(0.8)
     show sora 26i at topright
     show tuki 4i at topleft with dissolve
     window show
     tuki "啊。"
     sora "诶嘿嘿……不用谢！"
     window hide
-    show cg moon_night at center with Dissolve(0.8)
+    show cg moon_night at center with FadeWhite(0.8)
     window show
     "……这样，御咲祭也成功了，也和两人一起看到这场焰火了。"
     extend "\n愿望实现了。……"
@@ -3003,14 +3003,14 @@ label end_futago:
     "好了……差不多该起来了。"
     window hide
     show tuki 24 at topleft
-    show sora 30 at topright with Dissolve(2.5)
+    show sora 30 at topright with DefocusWhite(2.5)
     window show
     "月，"
     extend "空，"
     extend "谢谢你们。"
     window hide
-    hide sora with dissolve
-    hide tuki with dissolve
+    hide sora with Dissolve(0.8)
+    hide tuki with Dissolve(0.8)
     play music "fx/tsubame.ogg"
     show bg protagonist_home at center with Dissolve(1.0)
     pause 0.4
@@ -3040,7 +3040,7 @@ label end_futago:
     window hide
     play music "school_festival.ogg"
     play sound "fx/crowd_noise.ogg"
-    show bg school_building_full at center with Dissolve(1.0)
+    show bg school_building_full at center with Radial(1.0)
     pause 0.4
     show bg hallway with Dissolve(1.0)
     window show
@@ -3064,11 +3064,11 @@ label end_futago:
     show sora 31i with dissolve
     tuki_and_sora "请慢慢享受！"
     window hide
-    hide bg with lm_crossfade
-    hide tuki with lm_crossfade
-    hide sora with lm_crossfade
+    hide bg with Radial(1.0)
+    hide tuki with Radial(1.0)
+    hide sora with Radial(1.0)
     pause 0.6
-    show bg infirmary at center with Dissolve(0.7)
+    show bg infirmary at center with Radial(0.7)
     pause 0.6
     show bg twins_ed with Dissolve(0.8)
     pause 1.3
@@ -3241,7 +3241,7 @@ label end_saburo:
     play sound "fx/crowd_noise.ogg"
     show bg school_building_evening_full at center with Dissolve(1.0)
     pause 0.4
-    show bg cafe_evening with Dissolve(1.0)
+    show bg cafe_evening with Radial(1.0)
     window show
     "咖啡店的营业时间也差不多要结束了。"
     extend "\n剩下的活动，就是和三朗一起的后夜祭！"
@@ -3351,7 +3351,7 @@ label end_saburo:
     extend "\n然后"
     window hide
     play sound "fx/fire.ogg"
-    show bg campfire with lm_crossfade
+    show bg campfire with Radial(0.5)
     window show
     "终于点燃了柴火堆。"
     "熊熊燃烧着的鲜红火焰。"
@@ -3420,7 +3420,7 @@ label end_saburo:
     extend "\n这，这么羞耻……。"
     me "那，我去你那边。"
     window hide
-    show cg c74 1 with Dissolve(0.8)
+    show cg c74 1 with FadeWhite(0.8)
     window show
     "说着，我靠近三朗，就这样抱住了他。"
     saburo "什！！"
@@ -3437,7 +3437,7 @@ label end_saburo:
     saburo "那么……能请你闭上眼睛吗？"
     "我听话地闭上了眼睛。"
     window hide
-    show cg c74 2 with Dissolve(0.8)
+    show cg c74 2 with Radial(0.8)
     window show
     "亲"
     me "三朗……。"
@@ -3447,7 +3447,7 @@ label end_saburo:
     extend "\n怎么样，幸福吗？"
     me "嗯……很幸福。"
     window hide
-    show cg moon_night with Dissolve(0.8)
+    show cg moon_night with FadeWhite(0.8)
     window show
     "……这样就听到了三朗诚实的心声，得到了最棒的幸福。"
     extend "\n御咲祭成功举办了，还和三朗一起看到了这焰火。"
@@ -3458,9 +3458,9 @@ label end_saburo:
     "在这片燃烧的红炎之中，我的意识逐渐淡去……。"
     extend "\n……梦已经结束了。"
     window hide
-    hide bg with dissolve
-    hide cg with dissolve
-    hide saburo with dissolve
+    hide bg with Dissolve(0.8)
+    hide cg with Dissolve(0.8)
+    hide saburo with Dissolve(0.8)
     window show
     "···"
     "梦的记忆是模糊的。"
@@ -3469,7 +3469,7 @@ label end_saburo:
     stop music fadeout 4.0
     "好了……差不多该起来了。"
     window hide
-    show saburo 30 at top with Dissolve(2.5)
+    show saburo 30 at top with DefocusWhite(2.5)
     window show
     "三朗，我喜欢你。"
     window hide
@@ -3482,7 +3482,7 @@ label end_saburo:
     play sound "fx/alarm.ogg"
     "哔哔哔哔哔哔哔哔"
     window hide
-    show bg protagonist_room_morning at center with lm_crossfade
+    show bg protagonist_room_morning at center with Radial(0.5)
     window show
     me "啊……已经早上了吗……？"
     extend "\n唔~我好像并没有睡多少啊……。"
@@ -3503,7 +3503,7 @@ label end_saburo:
     window hide
     play music "school_festival.ogg"
     play sound "fx/crowd_noise.ogg"
-    show bg school_building_full at center with Dissolve(1.0)
+    show bg school_building_full at center with Radial(1.0)
     pause 0.6
     show bg hallway with Dissolve(1.0)
     window show
@@ -3523,10 +3523,10 @@ label end_saburo:
     show saburo 30i with dissolve
     extend "\n请在店里慢慢逛吧！"
     window hide
-    hide bg with lm_crossfade
-    hide saburo with lm_crossfade
+    hide bg with Radial(1.0)
+    hide saburo with Radial(1.0)
     pause 0.6
-    show bg game_center2 at center with Dissolve(0.7)
+    show bg game_center2 at center with Radial(0.7)
     pause 0.6
     show bg saburou_ed with Dissolve(0.8)
     pause 1.3
@@ -3620,7 +3620,7 @@ label end_sakuya:
     play sound "fx/crowd_noise.ogg"
     show bg school_building_evening_full at center with Dissolve(1.0)
     pause 0.4
-    show bg cafe_evening with Dissolve(1.0)
+    show bg cafe_evening with Radial(1.0)
     window show
     "咖啡店的营业时间也差不多要结束了。"
     extend "\n接下来的活动，就是和作哉一起参加后夜祭！"
@@ -3685,7 +3685,7 @@ label end_sakuya:
     extend "\n然后"
     window hide
     play sound "fx/fire.ogg"
-    show bg campfire with lm_crossfade
+    show bg campfire with Radial(0.5)
     window show
     "终于点燃了柴火堆。"
     "熊熊燃烧着的鲜红火焰。"
@@ -3751,8 +3751,8 @@ label end_sakuya:
     show bg schoolyard1_night
     sakuya "是啊……。"
     window hide
-    hide cg with dissolve
-    hide sakuya with dissolve
+    hide cg with Dissolve(0.7)
+    hide sakuya with Dissolve(0.7)
     show tsubasa 1 at top with dissolve
     window show
     tsubasa "汪汪！"
@@ -3847,7 +3847,7 @@ label end_sakuya:
     play sound "fx/cute.ogg"
     tubasa "汪汪汪♪"
     play sound "fx/sparkle.ogg"
-    show cg adult at center with fade
+    show cg adult at center with FadeWhite(0.5)
     "你，你们怎么回事啊……也太可爱了吧……！！"
     extend "\n但是，这真的要人命啊……。"
     window hide
@@ -3886,7 +3886,7 @@ label end_sakuya:
     sakuya "……。"
     window hide
     play music "reminiscence.ogg"
-    show cg c83 1 at center with Dissolve(0.8)
+    show cg c83 1 at center with FadeWhite(0.8)
     window show
     sakuya "喂，你，给我把眼睛闭上！"
     me "诶……为什么？"
@@ -3903,12 +3903,12 @@ label end_sakuya:
     "诶诶诶！！？"
     extend "这这这这是怎么回事！？！？！"
     window hide
-    show cg c83 2 at center with Dissolve(0.7)
+    show cg c83 2 at center with Radial(0.7)
     window show
     "亲"
     "……诶？"
     me "作，作哉……？"
-    show cg purple with fade
+    show cg purple with FadeWhite(0.5)
     sakuya "那，那个……小翼他……"
     show bg schoolyard1_night at center
     show tsubasa 5 at topright
@@ -3928,7 +3928,7 @@ label end_sakuya:
     extend "\n居然骗自己的丈夫，你这个坏女人~！！"
     extend "\n看我这样惩罚你！"
     window hide
-    show cg c83 3 at center with Dissolve(0.7)
+    show cg c83 3 at center with Radial(0.7)
     window show
     "我这样说着，一把抱住了作哉。"
     sakuya "什……！！"
@@ -3940,7 +3940,7 @@ label end_sakuya:
     sakuya "！"
     extend "\n……。"
     window hide
-    show cg moon_night with Dissolve(0.8)
+    show cg moon_night with FadeWhite(0.8)
     window show
     "能感觉到，作哉的手臂环抱着我的背。"
     "……能感受到作哉变得诚实，这真是太好了。"
@@ -3952,10 +3952,10 @@ label end_sakuya:
     "在这片燃烧的红炎之中，我的意识逐渐淡去……。"
     extend "\n……梦已经结束了。"
     window hide
-    hide bg with dissolve
-    hide cg with dissolve
-    hide tsubasa with dissolve
-    hide sakuya with dissolve
+    hide bg with Dissolve(0.8)
+    hide cg with Dissolve(0.8)
+    hide tsubasa with Dissolve(0.8)
+    hide sakuya with Dissolve(0.8)
     window show
     "···"
     "梦的记忆是模糊的。"
@@ -3964,7 +3964,7 @@ label end_sakuya:
     stop music fadeout 4.0
     "好了……差不多该起来了。"
     window hide
-    show sakuya 35 at top with Dissolve(2.5)
+    show sakuya 35 at top with DefocusWhite(2.5)
     window show
     "作哉，我喜欢你。"
     window hide
@@ -3977,7 +3977,7 @@ label end_sakuya:
     play sound "fx/alarm.ogg"
     "哔哔哔哔哔哔哔哔"
     window hide
-    show bg protagonist_room_morning at center with lm_crossfade
+    show bg protagonist_room_morning at center with Radial(0.5)
     window show
     me "啊……已经早上了吗……？"
     extend "\n唔~我好像并没有睡多少啊……。"
@@ -3998,7 +3998,7 @@ label end_sakuya:
     window hide
     play music "school_festival.ogg"
     play sound "fx/crowd_noise.ogg"
-    show bg school_building_full at center with Dissolve(1.0)
+    show bg school_building_full at center with Radial(1.0)
     pause 0.6
     show bg hallway with Dissolve(1.0)
     window show
@@ -4019,10 +4019,10 @@ label end_sakuya:
     show sakuya 35i with dissolve
     extend "\n……嘛，我们会好好招待你的，你就放轻松吧！"
     window hide
-    hide bg with fade
-    hide sakuya with fade
+    hide bg with FadeWhite(1.0)
+    hide sakuya with FadeWhite(1.0)
     pause 0.6
-    show bg school_backside at center with Dissolve(0.7)
+    show bg school_backside at center with Radial(0.7)
     pause 0.6
     show bg sakuya_ed with Dissolve(0.8)
     pause 1.3
@@ -4051,7 +4051,7 @@ label end_sirou:
     "那个男人这么说着，松开了我的手，朝四朗伸出了手。"
     window hide
     play sound "fx/explosion3.ogg"
-    show cg remarkable at center with pixellate
+    show cg remarkable at center with FadeWhite(0.5)
     play music "hurry_up.ogg"
     window show
     me "等一下！！"
@@ -4152,7 +4152,7 @@ label end_sirou:
     hide sirou with dissolve
     "四朗拉着我的手，开心地走了起来。"
     play sound "fx/sparkle.ogg"
-    show cg adult at center with fade
+    show cg adult at center with FadeWhite(0.5)
     extend "\n这幅景象，简直就像我梦中见到的弟弟一样。"
     window hide
     hide cg with dissolve
@@ -4211,7 +4211,7 @@ label end_sirou:
     hide bg with dissolve
     pause 0.4
     play music "siro_theme.ogg"
-    show bg school_building_evening at center with Dissolve(0.7)
+    show bg school_building_evening at center with Radial(0.7)
     pause 0.4
     show bg hallway_evening with Dissolve(0.7)
     show sirou 16 at top with dissolve
@@ -4336,14 +4336,14 @@ label end_sirou:
     "说完，四朗走到了我的面前。"
     window hide
     play sound "fx/sparkle.ogg"
-    show cg c87 at center with Dissolve(0.8)
+    show cg c87 at center with FadeWhite(0.8)
     window show
     sirou "[player_name]桑！"
     extend "\n后面我要和穗海学长一起去参加后夜祭，所以先告辞了！！"
     extend "\n谢谢你陪我逛那么久！\n那下次见！"
     window hide
     play sound "fx/running.ogg"
-    hide cg with dissolve
+    hide cg with Dissolve(0.7)
     window show
     "四朗说完后，再次抛下我，渐行渐远。"
     extend "\n然后，三个人就这样一同离开了校园。"
@@ -4373,7 +4373,7 @@ label end_sirou:
     play sound "fx/alarm.ogg"
     "哔哔哔哔哔哔哔哔"
     window hide
-    show bg protagonist_room_morning at center with lm_crossfade
+    show bg protagonist_room_morning at center with Radial(0.5)
     window show
     me "啊……已经早上了吗……？"
     extend "\n唔~我好像并没有睡多少啊……。"
@@ -4393,14 +4393,14 @@ label end_sirou:
     window hide
     hide bg with dissolve
     play sound "fx/door_open.ogg"
-    show bg sky at center with Dissolve(0.7)
+    show bg sky at center with Radial(0.7)
     window show
     me "好嘞！ 今天也加油干一天！！！"
     window hide
     stop music fadeout 1.0
-    hide bg with fade
+    hide bg with FadeWhite(1.0)
     pause 0.6
-    show bg intersection at center with Dissolve(0.7)
+    show bg intersection at center with Radial(0.7)
     pause 0.6
     show bg sirou_ed with Dissolve(0.8)
     pause 1.3
@@ -4418,7 +4418,7 @@ label end_all:
     extend "\n我猛地挣脱对方的手，开始反击。"
     window hide
     play sound "fx/explosion3.ogg"
-    show cg remarkable at center with pixellate
+    show cg remarkable at center with FadeWhite(0.5)
     play music "hurry_up.ogg"
     window show
     play sound "fx/dash.ogg"
@@ -4542,7 +4542,7 @@ label end_all:
     play sound "fx/crowd_noise.ogg"
     show bg school_building_evening_full at center with Dissolve(1.0)
     pause 0.4
-    show bg cafe_evening with Dissolve(1.0)
+    show bg cafe_evening with Radial(1.0)
     window show
     "咖啡店的营业时间也差不多要结束了。"
     extend "\n剩下的活动只有后夜祭了。"
@@ -4598,7 +4598,7 @@ label end_all:
     hide tomo with dissolve
     hide tubasa with dissolve
     hide sinobu with dissolve
-    hide bg with dissolve
+    hide bg with Dissolve(1.0)
     play music "fx/night_insects.ogg"
     show bg school_building_night at center with Dissolve(1.0)
     window show
@@ -4624,7 +4624,7 @@ label end_all:
     window hide
     play music "going_home.ogg"
     play sound "fx/fire.ogg"
-    show cg campfire at center with lm_crossfade
+    show cg campfire at center with Radial(0.5)
     window show
     "终于点燃了柴火堆。"
     "熊熊燃烧着的鲜红火焰。"
@@ -4722,7 +4722,7 @@ label end_all:
     tubasa "那……干杯！！"
     window hide
     play sound "fx/sparkle.ogg"
-    show cg remarkable at center with lm_crossfade
+    show cg remarkable at center with Radial(0.5)
     window show
     everyone "干杯！！！"
     window hide
@@ -4734,8 +4734,8 @@ label end_all:
     extend "\n劳动之后喝的饮料为什么能让人这么舒服。"
     extend "\n简直就像下班后的啤酒一样！"
     window hide
-    hide cg with dissolve
-    hide tubasa with dissolve
+    hide cg with Dissolve(0.7)
+    hide tubasa with Dissolve(0.7)
     show sintarou 20i at top with dissolve
     window show
     sintarou "你在说啥老头子一样的话啊。"
@@ -4823,26 +4823,26 @@ label end_all:
     "就这样，在热闹非凡的后夜祭中，我们开了一场小小的庆功宴。"
     "……。"
     window hide
-    show cg c88 1 at center with lm_crossfade
+    show cg c88 1 at center with Radial(0.5)
     window show
     "友，"
-    show cg c88 2 with lm_crossfade
+    show cg c88 2 with Radial(0.5)
     extend "友，"
-    show cg c88 3 with lm_crossfade
+    show cg c88 3 with Radial(0.5)
     extend "翼，"
-    show cg c88 4 with lm_crossfade
+    show cg c88 4 with Radial(0.5)
     extend "月，"
-    show cg c88 5 with lm_crossfade
+    show cg c88 5 with Radial(0.5)
     extend "空，"
-    show cg c88 6 with lm_crossfade
+    show cg c88 6 with Radial(0.5)
     extend "忍，"
-    show cg c88 7 with lm_crossfade
+    show cg c88 7 with Radial(0.5)
     extend "作哉，"
-    show cg c88 8 with lm_crossfade
+    show cg c88 8 with Radial(0.5)
     extend "三朗，"
     extend "慎太郎"
     window hide
-    show cg moon_night with Dissolve(0.8)
+    show cg moon_night with FadeWhite(0.8)
     window show
     "……在这个梦幻的世界中，能和大家搞好关系，实在是太好了。"
     extend "\n御咲祭也圆满成功了，也和大家一起看了这焰火。"
@@ -4897,7 +4897,7 @@ label end_all:
     window hide
     play music "quiet_lunch.ogg"
     play sound "fx/crowd_noise.ogg"
-    show bg school_building_full at center with Dissolve(1.0)
+    show bg school_building_full at center with Radial(1.0)
     pause 0.4
     show bg hallway with Dissolve(1.0)
     window show
@@ -4909,16 +4909,16 @@ label end_all:
     "正当我站在店门口犹豫不决的时候，"
     extend "穿着红领带的男孩从店里走了出来。"
     window hide
-    show cg adult at center with Dissolve(0.8)
+    show cg adult at center with FadeWhite(0.8)
     window show
     unknown "欢迎光临。"
     extend "您是一个人来吗？"
     extend "\n请往这边走……请尽情享受吧。"
     window hide
-    hide bg with lm_crossfade
-    hide cg with lm_crossfade
+    hide bg with Radial(1.0)
+    hide cg with Radial(1.0)
     pause 0.6
-    show bg cafe_evening at center with Dissolve(0.7)
+    show bg cafe_evening at center with Radial(0.7)
     pause 0.6
     show bg alled with Dissolve(0.8)
     pause 1.3

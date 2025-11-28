@@ -5,7 +5,7 @@ label hidden:
     stop music fadeout 0.5
     hide cg with dissolve
     pause 0.5
-    show bg cave at center with Dissolve(1.0)
+    show bg cave at center with Radial(1.0)
     play music "fx/wind.ogg"
     window show
     "前方有个洞窟。"
@@ -15,7 +15,7 @@ label hidden:
 label hidden_1:
     stop music fadeout 1.0
     pause 0.4
-    show bg dungeon with Dissolve(0.8)
+    show bg dungeon with Radial(0.8)
     play music "nori_theme.ogg"
     pause 0.4
     show nori 14 at top with Dissolve(1.0)
@@ -49,7 +49,7 @@ label hidden_tomo:
     stop music fadeout 0.5
     hide bg with dissolve
     play music "gymnopedies_no1.ogg"
-    show bg hotel at center with Dissolve(2.0)
+    show bg hotel at center with Radial(2.0)
     show tomo 20h at top with dissolve
     play sound "fx/cute.ogg"
     $ renpy.transition(Quake(0, 30, 0.1, 0.15), layer='master')
@@ -96,7 +96,7 @@ label hidden_tomo:
     tomo "可，可是……这样和你说话，\n我又会想起昨晚的事情……那个……"
     extend "\n心情又会变得兴奋起来……。"
     window hide
-    show cg c94 at center with Dissolve(0.8)
+    show cg c94 at center with Radial(0.8)
     window show
     tomo "这，这也没办法吧！！\n毕竟我还没有发育完全，还是个毛头小子！"
     extend "\n倒不如说，这不正是年轻健康的证据吗？\n是啊！这没什么好奇怪的！！"
@@ -105,16 +105,16 @@ label hidden_tomo:
     tomo "……总之，虽然我是个笨蛋，\n不过今后也请多多关照了！"
     window hide
     stop music fadeout 0.8
-    hide tomo with dissolve
-    hide cg with dissolve
-    hide bg with dissolve
+    hide tomo with Dissolve(1.0)
+    hide cg with Dissolve(1.0)
+    hide bg with Dissolve(1.0)
     return
 
 label hidden_tubasa:
     stop music fadeout 0.5
     hide bg with dissolve
     play music "gymnopedies_no1.ogg"
-    show bg hotel at center with Dissolve(2.0)
+    show bg hotel at center with Radial(2.0)
     show tubasa 2h at top with dissolve
     window show
     tubasa "啊……早，早上好。"
@@ -167,7 +167,7 @@ label hidden_tubasa:
     show tubasa 6h with dissolve
     extend "\n夜晚的话，果然……会想些有的没的……。\n结果，从那以后我一整晚都没睡……"
     window hide
-    show cg c96 at center with Dissolve(0.7)
+    show cg c96 at center with Radial(0.7)
     window show
     tubasa "呼啊……一放松下来就感觉一下子就要睡着了……。"
     tubasa "抱歉……再让我躺一会儿……可以吗？"
@@ -175,16 +175,16 @@ label hidden_tubasa:
     tubasa "……最……喜欢了……。"
     window hide
     stop music fadeout 0.7
-    hide cg with dissolve
-    hide bg with dissolve
-    hide tubasa with dissolve
+    hide cg with Dissolve(1.0)
+    hide bg with Dissolve(1.0)
+    hide tubasa with Dissolve(1.0)
     return
 
 label hidden_sinobu:
     stop music fadeout 0.5
     hide bg with dissolve
     play music "gymnopedies_no1.ogg"
-    show bg hotel at center with Dissolve(2.0)
+    show bg hotel at center with Radial(2.0)
     show sinobu 5h at top with dissolve
     window show
     sinobu "啊，早……。"
@@ -212,7 +212,7 @@ label hidden_sinobu:
     show sinobu 31h with dissolve
     sinobu "这个……约好了，不能破坏约定哦。"
     window hide
-    show cg c95 at center with Dissolve(0.7)
+    show cg c95 at center with Radial(0.7)
     window show
     sinobu "那个……我说啊…。"
     sinobu "……。"
@@ -224,16 +224,16 @@ label hidden_sinobu:
     extend "\n这样子，就不能告诉友了啊……。"
     window hide
     stop music fadeout 0.8
-    hide cg with dissolve
-    hide bg with dissolve
-    hide sinobu with dissolve
+    hide cg with Dissolve(1.0)
+    hide bg with Dissolve(1.0)
+    hide sinobu with Dissolve(1.0)
     return
 
 label hidden_tuki:
     stop music fadeout 0.5
     hide bg with dissolve
     play music "gymnopedies_no1.ogg"
-    show bg hotel at center with Dissolve(2.0)
+    show bg hotel at center with Radial(2.0)
     show tuki 5h at top with dissolve
     window show
     tuki "……你醒了啊……。"
@@ -270,7 +270,7 @@ label hidden_tuki:
     extend "\n特别是奥村和森海，绝对不能告诉他们。"
     extend "\n他们一定会嘲笑我们的。"
     window hide
-    show cg c99 at center with Dissolve(0.7)
+    show cg c99 at center with Radial(0.7)
     window show
     tuki "……呐，你还没睡醒么……？"
     tuki "如果不是的话，那个……怎么说呢。"
@@ -279,16 +279,16 @@ label hidden_tuki:
     tuki "这次，我想直接感受到你…。"
     window hide
     stop music fadeout 0.7
-    hide cg with dissolve
-    hide bg with dissolve
-    hide tuki with dissolve
+    hide cg with Dissolve(1.0)
+    hide bg with Dissolve(1.0)
+    hide tuki with Dissolve(1.0)
     return
 
 label hidden_sora:
     stop music fadeout 0.5
     hide bg with dissolve
     play music "gymnopedies_no1.ogg"
-    show bg hotel at center with Dissolve(2.0)
+    show bg hotel at center with Radial(2.0)
     show sora 18h at top with dissolve
     window show
     sora "嗯……诶……已经……早上啦。"
@@ -317,7 +317,7 @@ label hidden_sora:
     show sora 18h with dissolve
     extend "\n啊，怎么办……说出这种话后，我的脸……好热……。"
     window hide
-    show cg c98 at center with Dissolve(0.7)
+    show cg c98 at center with Radial(0.7)
     window show
     sora "真不好意思啊……我，现在肯定脸红了吧？"
     extend "\n……不，不要在意。\n我估计很快就会恢复了……。"
@@ -329,16 +329,16 @@ label hidden_sora:
     extend "\n这世上我最....喜欢你了！"
     window hide
     stop music fadeout 0.8
-    hide cg with dissolve
-    hide bg with dissolve
-    hide sora with dissolve
+    hide cg with Dissolve(1.0)
+    hide bg with Dissolve(1.0)
+    hide sora with Dissolve(1.0)
     return
 
 label hidden_sakuya:
     stop music fadeout 0.5
     hide bg with dissolve
     play music "gymnopedies_no1.ogg"
-    show bg hotel at center with Dissolve(2.0)
+    show bg hotel at center with Radial(2.0)
     show sakuya 10h at top with dissolve
     window show
     sakuya "……嗯，早上好。"
@@ -374,7 +374,7 @@ label hidden_sakuya:
     play sound "fx/dash.ogg"
     extend "\n换，换句话说就是那个。讨厌的反义词！明白了吗？"
     window hide
-    show cg c101 at center with Dissolve(0.7)
+    show cg c101 at center with Radial(0.7)
     window show
     sakuya "……你也进来吧……进被窝里。"
     extend "\n只有你一个人……太冷了。"
@@ -383,16 +383,16 @@ label hidden_sakuya:
     sakuya "…………因为我喜欢你。"
     window hide
     stop music fadeout 0.8
-    hide cg with dissolve
-    hide bg with dissolve
-    hide sakuya with dissolve
+    hide cg with Dissolve(1.0)
+    hide bg with Dissolve(1.0)
+    hide sakuya with Dissolve(1.0)
     return
 
 label hidden_saburo:
     stop music fadeout 0.5
     hide bg with dissolve
     play music "gymnopedies_no1.ogg"
-    show bg hotel at center with Dissolve(2.0)
+    show bg hotel at center with Radial(2.0)
     show saburo 31h at top with dissolve
     $ renpy.transition(Quake(0, 30, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
@@ -442,7 +442,7 @@ label hidden_saburo:
     show saburo 22h with dissolve
     extend "\n刚才那个，我也不是真的讨厌，\n别，别误会了啊！"
     window hide
-    show cg c100 at center with Dissolve(0.7)
+    show cg c100 at center with Radial(0.7)
     window show
     saburo "……倒不如说，反倒是回想起来才发现\n不知不觉都变成那种关系了啊……。"
     extend "\n这，你懂的吧？"
@@ -452,16 +452,16 @@ label hidden_saburo:
     extend "\n快点来，笨蛋！！！"
     window hide
     stop music fadeout 0.8
-    hide cg with dissolve
-    hide bg with dissolve
-    hide saburo with dissolve
+    hide cg with Dissolve(1.0)
+    hide bg with Dissolve(1.0)
+    hide saburo with Dissolve(1.0)
     return
 
 label hidden_sintarou:
     stop music fadeout 0.5
     hide bg with dissolve
     play music "gymnopedies_no1.ogg"
-    show bg hotel at center with Dissolve(2.0)
+    show bg hotel at center with Radial(2.0)
     show sintarou 11h at top with dissolve
     window show
     sintarou "呜嗯……"
@@ -493,7 +493,7 @@ label hidden_sintarou:
     show sintarou 33h with dissolve
     extend "\n不过嘛……既然当了你恋人，作为恋人的咱，肯定会努力\n不让咱的恋人受到负担的。"
     window hide
-    show cg c97 at center with Dissolve(0.7)
+    show cg c97 at center with Radial(0.7)
     window show
     sintarou "哼哼♪"
     extend "\n所以，接下来怎么办？"
@@ -504,9 +504,9 @@ label hidden_sintarou:
     extend "\n你居然如此爱着这样的我，\n真是感激不尽啊。"
     window hide
     stop music fadeout 0.8
-    hide cg with dissolve
-    hide bg with dissolve
-    hide sintarou with dissolve
+    hide cg with Dissolve(1.0)
+    hide bg with Dissolve(1.0)
+    hide sintarou with Dissolve(1.0)
     return
 
 label hidden_note:
@@ -517,7 +517,7 @@ label hidden_note:
     "洞里只有一本摊开的，字迹未干的笔记本。「按空格可隐藏对话框」"
     window hide
     stop music fadeout 0.5
-    hide bg with dissolve
+    hide bg with Dissolve(0.8)
     return
 
 label hidden_nori:

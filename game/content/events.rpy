@@ -2,7 +2,7 @@
 # Converted from 0000028A.lns
 
 label event00:
-    show bg school_building_full at center with Dissolve(0.8)
+    show bg school_building_full at center with Radial(0.8)
     play music "yonkoma.ogg"
     pause 0.6
     show bg rooftop with dissolve
@@ -44,7 +44,7 @@ label event00:
     return
 
 label event01:
-    show bg school_building_full at center with Dissolve(0.8)
+    show bg school_building_full at center with Radial(0.8)
     play music "yonkoma.ogg"
     pause 0.6
     show bg classroom with dissolve
@@ -71,7 +71,7 @@ label event01:
     show sinobu 19 at topright with dissolve
     sinobu "……。"
     play sound "fx/punch2.ogg"
-    show cg remarkable at top with pixellate
+    show cg remarkable at top with FadeWhite(0.5)
     "咻啪！"
     hide tomo with dissolve
     hide sinobu with dissolve
@@ -90,7 +90,7 @@ label event01:
     return
 
 label event02:
-    show bg school_building_full at center with Dissolve(0.8)
+    show bg school_building_full at center with Radial(0.8)
     play music "yonkoma.ogg"
     pause 0.6
     show bg washroom with dissolve
@@ -119,7 +119,7 @@ label event02:
     tuki "嗯……你是怎么知道的，奥村。"
     extend "\n难道说，你偷窥过……？"
     play sound "fx/explosion2.ogg"
-    show cg hallway at center with pixellate
+    show cg hallway at center with FadeWhite(0.5)
     hide bg
     hide sintarou
     hide tuki
@@ -144,7 +144,7 @@ label event02:
     return
 
 label event03:
-    show bg school_building_full at center with Dissolve(0.8)
+    show bg school_building_full at center with Radial(0.8)
     play music "yonkoma.ogg"
     pause 0.6
     show bg classroom with dissolve
@@ -206,7 +206,7 @@ label event03:
     return
 
 label event04:
-    show bg school_building_full at center with Dissolve(0.8)
+    show bg school_building_full at center with Radial(0.8)
     play music "yonkoma.ogg"
     pause 0.6
     show bg cafeteria with dissolve
@@ -229,7 +229,7 @@ label event04:
     hide tubasa with dissolve
     play sound "fx/sparkle.ogg"
     show cg blue at center
-    show tubasa 24 at top with lm_crossfade
+    show tubasa 24 at top with Radial(0.5)
     "翼　（啊！！这是能和友君间接接吻的机会！！"
     show tubasa 7 with dissolve
     $ renpy.transition(Quake(40, 0, 0.1, 0.15), layer='master')
@@ -272,7 +272,7 @@ label event04:
     return
 
 label event05:
-    show bg school_building_full at center with Dissolve(0.8)
+    show bg school_building_full at center with Radial(0.8)
     play music "yonkoma.ogg"
     pause 0.6
     show bg school_backside with dissolve
@@ -281,7 +281,7 @@ label event05:
     sora "……。"
     window hide
     play sound "fx/boing.ogg"
-    show cg c102 at center with lm_crossfade
+    show cg c102 at center with Radial(0.5)
     window show
     "嗡……嗡……"
     window hide
@@ -328,7 +328,7 @@ label event05:
     extend "\n那，那孩子朝这边来了，也就是说……！！"
     window hide
     play sound "fx/boing.ogg"
-    show cg c102 at center with lm_crossfade
+    show cg c102 at center with Radial(0.5)
     window show
     "嗡~嗡~！！！！"
     window hide
@@ -354,7 +354,7 @@ label event05:
     return
 
 label event06:
-    show bg school_building_full at center with Dissolve(0.8)
+    show bg school_building_full at center with Radial(0.8)
     play music "yonkoma.ogg"
     pause 0.6
     show bg classroom with dissolve
@@ -413,7 +413,7 @@ label event06:
     return
 
 label event07:
-    show bg school_building_full at center with Dissolve(0.8)
+    show bg school_building_full at center with Radial(0.8)
     play music "yonkoma.ogg"
     pause 0.6
     show bg schoolyard with dissolve
@@ -453,7 +453,7 @@ label event07:
     play sound "fx/cute2.ogg"
     tomo "仔，仔细说说当时的事！！！"
     play sound "fx/sparkle.ogg"
-    show 効果ＣＧ adult at center with fade
+    show 効果ＣＧ adult at center with FadeWhite(0.5)
     sintarou "哎呀呀～。"
     extend "\n人家体贴地问了句，要不要帮您搓背呀？"
     extend "结果，\n两人越洗越火热呢～"
@@ -496,7 +496,7 @@ label event07:
     return
 
 label event08:
-    show bg school_building_full at center with Dissolve(0.8)
+    show bg school_building_full at center with Radial(0.8)
     play music "yonkoma.ogg"
     pause 0.6
     show bg cafeteria with dissolve
@@ -518,7 +518,7 @@ label event08:
     hide sora with dissolve
     play sound "fx/sparkle.ogg"
     show cg adult at center
-    show tuki 4 at top with lm_crossfade
+    show tuki 4 at top with Radial(0.5)
     extend "如果空是女生的话，现在一定已经有孩子了…。"
     hide tuki with dissolve
     hide sora with dissolve
@@ -540,7 +540,7 @@ label event08:
     return
 
 label event09:
-    show bg school_building_full at center with Dissolve(0.8)
+    show bg school_building_full at center with Radial(0.8)
     play music "yonkoma.ogg"
     pause 0.6
     show bg classroom with dissolve
@@ -569,7 +569,7 @@ label event09:
     "作哉（嗯……？下半身感觉不对劲……。）"
     play sound "fx/sparkle.ogg"
     show cg adult at center
-    show sakuya 32 with lm_crossfade
+    show sakuya 32 with Radial(0.5)
     sakuya "……啊。"
     window hide
     hide sakuya with dissolve
@@ -598,7 +598,7 @@ label event09:
     return
 
 label event10:
-    show bg school_building_full at center with Dissolve(0.8)
+    show bg school_building_full at center with Radial(0.8)
     play music "yonkoma.ogg"
     pause 0.6
     show bg classroom with dissolve
@@ -685,10 +685,10 @@ label event10:
     return
 
 label event11:
-    show bg school_building_full at center with Dissolve(0.8)
+    show bg school_building_full at center with Radial(0.8)
     play music "yonkoma.ogg"
     pause 0.6
-    show bg c103 with lm_crossfade
+    show bg c103 with Radial(0.5)
     play sound "fx/tadaa.ogg"
     window show
     tomo "铛铛！"
@@ -703,7 +703,7 @@ label event11:
     hide bg with dissolve
     pause 0.5
     play music "fx/rain.ogg"
-    show bg rain at center with Dissolve(0.6)
+    show bg rain at center with FadeWhite(0.6)
     window show
     sora "啊，开始下雨了。"
     extend "\n而且，还很大。"
@@ -712,12 +712,12 @@ label event11:
     extend "\n毕竟天气预报说今天一整天都是晴天。"
     window hide
     stop music fadeout 1.0
-    hide bg with dissolve
+    hide bg with Dissolve(0.6)
     window show
     "···。"
     window hide
     play sound "fx/tsubame.ogg"
-    show bg sky at center with lm_crossfade
+    show bg sky at center with Radial(0.5)
     pause 0.6
     stop sound fadeout 1.0
     show bg classroom with dissolve
@@ -739,15 +739,15 @@ label event11:
     window show
     tomo "呜呜呜……。"
     window hide
-    hide sora with dissolve
-    hide sintarou with dissolve
-    hide tomo with dissolve
+    hide sora with Dissolve(0.7)
+    hide sintarou with Dissolve(0.7)
+    hide tomo with Dissolve(0.7)
     stop music fadeout 1.0
     hide bg with dissolve
     return
 
 label event12:
-    show bg school_building_full at center with Dissolve(0.8)
+    show bg school_building_full at center with Radial(0.8)
     play music "yonkoma.ogg"
     pause 0.6
     show bg hallway with dissolve
@@ -759,12 +759,12 @@ label event12:
     "三朗（好在意……。"
     extend "\n无论如何都很在意……！）"
     play sound "fx/eureka.ogg"
-    show cg c104 1 at center with pixellate
+    show cg c104 1 at center with FadeWhite(0.5)
     "三朗（那家伙的呆毛！从以前开始就一直很在意！"
     extend "\n怎么说呢，好想……好想摸一摸，又想揪一下……！"
     extend "\n这样盯着看的话，"
     play sound "fx/sparkle.ogg"
-    show cg c104 2 with Dissolve(0.65)
+    show cg c104 2 with Radial(0.65)
     extend "就忍不住想要扑上去！！"
     extend "\n这种冲动，是怎么回事啊……！）"
     play sound "fx/boing.ogg"
@@ -797,7 +797,7 @@ label event12:
     return
 
 label event13:
-    show bg school_building_full at center with Dissolve(0.8)
+    show bg school_building_full at center with Radial(0.8)
     play music "yonkoma.ogg"
     pause 0.6
     show bg hallway with dissolve
@@ -835,7 +835,7 @@ label event13:
     sinobu "……没有到那种程度。"
     window hide
     play sound "fx/impact.ogg"
-    show cg c105 at center with pixellate
+    show cg c105 at center with FadeWhite(0.5)
     window show
     "啪嚓！"
     "「"
@@ -871,7 +871,7 @@ label event13:
     return
 
 label event14:
-    show bg school_building_full at center with Dissolve(0.8)
+    show bg school_building_full at center with Radial(0.8)
     play music "yonkoma.ogg"
     pause 0.6
     show bg hallway with dissolve
@@ -880,7 +880,7 @@ label event14:
     tubasa "啊……是友君啊。"
     window hide
     play sound "fx/sparkle.ogg"
-    show cg c34 2 at center with lm_crossfade
+    show cg c34 2 at center with Radial(0.5)
     window show
     tubasa "待在一起的是，绫濑君……"
     extend "\n……真好啊，绫濑君。"
@@ -901,13 +901,13 @@ label event14:
     tubasa "咦，咦……糟糕，我真是\n的。\n刚才好像在想很不好的事……。"
     extend "\n啊呜呜呜呜……以后得多注意了…。"
     window hide
-    hide tubasa with dissolve
+    hide tubasa with Dissolve(0.7)
     stop music fadeout 1.0
-    hide bg with dissolve
+    hide bg with Dissolve(0.8)
     return
 
 label event15:
-    show bg school_building_full at center with Dissolve(0.8)
+    show bg school_building_full at center with Radial(0.8)
     play music "yonkoma.ogg"
     pause 0.6
     show bg classroom with dissolve
@@ -957,14 +957,14 @@ label event15:
     play sound "fx/cute2.ogg"
     sora "笨蛋啊啊啊啊啊啊啊啊啊啊啊！！！！！！"
     window hide
-    hide sora with dissolve
-    hide tuki with dissolve
+    hide sora with Dissolve(0.7)
+    hide tuki with Dissolve(0.7)
     stop music fadeout 1.0
-    hide bg with dissolve
+    hide bg with Dissolve(0.7)
     return
 
 label event16:
-    show bg school_building_full at center with Dissolve(0.8)
+    show bg school_building_full at center with Radial(0.8)
     play music "yonkoma.ogg"
     pause 0.6
     show bg washroom with dissolve
@@ -995,7 +995,7 @@ label event16:
     window hide
     hide sakuya with dissolve
     play sound "fx/door_open.ogg"
-    show bg private_toilet with lm_crossfade
+    show bg private_toilet with Radial(0.5)
     window show
     sakuya "嗯……？"
     extend "\n这股味道……还有这张纸巾的湿度……。"
@@ -1010,7 +1010,7 @@ label event16:
     return
 
 label event17:
-    show bg school_building_full at center with Dissolve(0.8)
+    show bg school_building_full at center with Radial(0.8)
     play music "yonkoma.ogg"
     pause 0.6
     show bg pool with dissolve
@@ -1050,7 +1050,7 @@ label event17:
     return
 
 label event18:
-    show bg school_building_full at center with Dissolve(0.8)
+    show bg school_building_full at center with Radial(0.8)
     play music "yonkoma.ogg"
     pause 0.6
     show bg classroom with dissolve
@@ -1067,7 +1067,7 @@ label event18:
     sinobu "……。"
     window hide
     play sound "fx/sparkle.ogg"
-    show cg c106 1 at center with Dissolve(0.7)
+    show cg c106 1 at center with Radial(0.7)
     window show
     tomo "忍，再笑得再灿烂一点！"
     extend "\n来，笑啊笑啊！"
@@ -1098,9 +1098,9 @@ label event18:
     show sinobu 2 at top with dissolve
     sinobu "怎么回事……？"
     window hide
-    hide tomo with dissolve
-    hide sinobu with dissolve
-    hide sintarou with dissolve
+    hide tomo with Dissolve(0.7)
+    hide sinobu with Dissolve(0.7)
+    hide sintarou with Dissolve(0.7)
     stop music fadeout 1.0
-    hide bg with dissolve
+    hide bg with Dissolve(0.8)
     return
