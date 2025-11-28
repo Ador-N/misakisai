@@ -898,7 +898,7 @@ label event14:
     show bg hallway
     play sound "fx/triangle.ogg"
     show tubasa 21 with dissolve
-    tubasa "咦，咦……糟糕，我真是\n的。\n刚才好像在想很不好的事……。"
+    tubasa "咦，咦……糟糕，我真是的。\n刚才好像在想很不好的事……。"
     extend "\n啊呜呜呜呜……以后得多注意了…。"
     window hide
     hide tubasa with Dissolve(0.7)
@@ -1040,8 +1040,8 @@ label event17:
     window hide
     show sakuya 3m at top with dissolve
     window show
-    sakuya "诶~。\n明明\n是只猫却擅长狗刨啊。"
-    play sound "fx/cute2.ogg"
+    sakuya "诶~。\n明明是只猫却擅长狗刨啊。"
+    play sound "FX/可愛い2.ogg"
     saburo "你，你！！一定要报复回去！！！"
     window hide
     hide sakuya with dissolve

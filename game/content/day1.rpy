@@ -714,7 +714,7 @@ label day1_design:
     show bg classroom at center with dissolve
     window show
     "之后，我们开始认真讨论，\n有关预算的事情，决定实际去店里之后再考虑，"
-    extend "\n总之，我们先各自把服装的设计\n画在了素描簿上。"
+    extend "\n总之，我们先各自把服装的设计画在了素描簿上。"
     window hide
     show sintarou 8 at topright with dissolve
     window show
@@ -2412,7 +2412,7 @@ label day1_cooking_tuki:
     window show
     doctor "哎呀，让大哥哥来陪在身边啊。"
     show tuki 4 at top with dissolve
-    tuki "是的，因为\n[player_surname]说寂寞什么的。"
+    tuki "是的，因为[player_surname]说寂寞什么的。"
     me "呜咕……。"
     hide tuki with dissolve
     "虽然我很拼命地劝他们不要离开，\n但被这么一说，还是不由得脸红了起来。"

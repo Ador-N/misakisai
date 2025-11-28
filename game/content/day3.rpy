@@ -4428,7 +4428,7 @@ label day3_supply_2_saburo:
     show saburo 19 at top with dissolve
     saburo "在说些什么啊！"
     extend "\n送给女生的话，她们肯定会高兴的！！！"
-    extend "\n多亏了这个，我\n就成功搭讪过一次哦~"
+    extend "\n多亏了这个，我就成功搭讪过一次哦~"
     me "就为了这种事情……。"
     show saburo 20 with dissolve
     saburo "那当然啦！"
