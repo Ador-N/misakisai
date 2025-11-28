@@ -1014,15 +1014,15 @@ label day3_2_sintarou:
     extend "\n给你！\n这是热乎乎的关东煮哦。"
     "打开包装的盖子时，看到蒸汽中隐约闪现着竹轮和鸡蛋。"
     me "还特意加热了啊！"
-    show sintarou 3 at top with dissolve
+    # show sintarou 3 at top with dissolve
     sintarou "凉掉的关东煮可不好吃呢~。"
-    show sintarou 31 with dissolve
+    # show sintarou 31 with dissolve
     extend "\n来来，吃吧吃吧。\n我对我家的关东煮的味道可是很有自信的哦~！"
     me "还有比之前的菜更有自信的作品啊……"
     extend "\n那么，我也开动啦！"
     window hide
     hide cg with dissolve
-    hide sintarou with dissolve
+    # hide sintarou with dissolve
     window show
     "呼呼……（大口嚼）"
     play sound "fx/cute2.ogg"
