@@ -193,7 +193,7 @@ init python:
     gallery_items = []
     g = Gallery()
     g.transition = dissolve
-    g.locked_button = Transform("images/box/black.png", xsize=thumbnail_x, ysize=thumbnail_y)
+    g.locked_button = Transform("black", xsize=thumbnail_x, ysize=thumbnail_y)
 
     # A class for gallery items (no need to change anything here)
     # when creating a GalleryItem object, provide images in a list, you can put more than one to have more images displayed consecutively after another under one button

@@ -51,6 +51,7 @@ label splashscreen:
 ## 游戏主流程 #############################################################
 label start:
     stop music fadeout 0.5
+    show black onlayer background
 
 ## 序幕 ############################################################
 label logic_day0:

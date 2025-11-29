@@ -86,6 +86,12 @@ define config.after_load_transition = dissolve
 define config.end_game_transition = dissolve
 
 
+## 图层 ###########################################################################
+
+init python:
+    renpy.add_layer("background", below='master')
+
+
 ## 用于控制在游戏开始标签不存在时转场的变量。作为替代，在显示初始化场景后使用
 ## with 语句。
 
