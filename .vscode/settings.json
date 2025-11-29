@@ -125,5 +125,11 @@
                 }
             }
         ]
-    }
+    },
+    "conventionalCommits.scopes": [
+        "game",
+        "content",
+        "logic",
+        "project"
+    ]
 }
