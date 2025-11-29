@@ -144,7 +144,7 @@ label day1_1:
     play sound "fx/boing.ogg"
     show 俺 c6 at center with zoominout
     window show
-    extend "一个既不可爱也不帅气，但也不难看"
+    "一个既不可爱也不帅气，但也不难看"
     extend "\n土里土气的家伙正看着我。"
     "我果然变回了初中生。"
     extend "\n虽然稍微好看了些，但当时确实是长这样……。"
@@ -161,10 +161,10 @@ label day1_1:
     $ renpy.transition(Quake(200, 0, 0.5, 0.5), layer='master')
     pause 0.5
     $ renpy.transition(Quake(-100, 0, 0.25, 0.5), layer='master')
-    "拍了几巴掌。"
+    extend "拍了几巴掌。"
     play sound "fx/dash.ogg"
     $ renpy.transition(Quake(200, 0, 0.1, 0.065), layer='master')
-    "\n又敲了敲脑袋。"
+    extend "\n又敲了敲脑袋。"
     play sound "fx/punch2.ogg"
     $ renpy.transition(Quake(0, 200, 0.1, 0.065), layer='master')
     "……好疼。这不是梦……吗？"
