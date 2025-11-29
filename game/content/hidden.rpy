@@ -514,8 +514,9 @@ label hidden_note:
     play music "fx/cave_ambience.ogg"
     show bg cave_space2 with dissolve
     window show
-    "洞里只有一本摊开的，字迹未干的笔记本。\n（按空格可隐藏对话框）"
+    "洞里只有一本摊开的，字迹未干的笔记本。\n（点击以隐藏对话框）"
     window hide
+    pause
     stop music fadeout 0.5
     hide bg with Dissolve(0.8)
     return

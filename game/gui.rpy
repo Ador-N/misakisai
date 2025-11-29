@@ -25,7 +25,7 @@ define config.check_conflicting_properties = True
 ## 界面中文本的颜色。
 
 ## 整个界面中使用的强调色，用于标记和突出显示文本。
-define gui.accent_color = '#8a4027'
+define gui.accent_color = '#be512d'
 
 ## 当文本按钮既未被选中也未被悬停时使用的颜色。
 define gui.idle_color = '#8a4027d9'
