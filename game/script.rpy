@@ -200,6 +200,8 @@ label logic_day2:
         call day2_1_futago from _call_day2_1_futago
     else:
         call expression "day2_1_" + target_day1 from _call_expression_8
+
+    call logic_random_event from _call_logic_random_event
     call day2_2 from _call_day2_2
 
     menu (screen="choice_group"):
@@ -298,7 +300,7 @@ label logic_day3:
     elif day3_temp_target in ["sintarou", "tuki", "sora"]:
         call day3_1_sintarou_tuki_sora from _call_day3_1_sintarou_tuki_sora
 
-    call logic_random_event from _call_logic_random_event
+    call logic_random_event from _call_logic_random_event_2
 
     if target_day2 in ["tuki", "sora"]:
         call expression "day3_2_futago" from _call_expression_13
