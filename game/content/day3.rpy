@@ -60,6 +60,7 @@ label day3_1:
 label day3_1_tomo_sinobu:
     show bg school_route at center with dissolve
     show tomo 13 at top with dissolve
+    $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
     window show
     tomo "喂~，[player_name]小忍！"
@@ -139,6 +140,7 @@ label day3_1_tomo_sinobu:
     show tomo 6 with dissolve
     extend "\n忍居住的楼层下面，\n时不时地传来游戏里招式的叫喊声哦~！"
     show sinobu 13 with dissolve
+    $ renpy.transition(Quake(30, 0, 0.1, 0.08), layer='master')
     play sound "fx/boing.ogg"
     sinobu "（惊）"
     show tomo 2 with dissolve
@@ -162,6 +164,7 @@ label day3_1_tomo_sinobu:
     show tomo 27 with dissolve
     extend "\n究竟是用了什么方法才能做出那么可怕的东西啊。"
     extend "\n炸牡蛎也没那么难做吧？。"
+    $ renpy.transition(Quake(0, 60, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
     show sinobu 16 with dissolve
     sinobu "人，人各有所长啦。"
@@ -247,6 +250,7 @@ label day3_1_saburo_sakuya_tubasa:
     show tubasa 32 with dissolve
     tubasa "……。"
     play sound "fx/dash.ogg"
+    $ renpy.transition(Quake(0, 50, 0.1, 0.09), layer='master')
     "呜……被说到这份儿上，我有点生气了。"
     extend "\n要是太过得意忘形，会让他们对我印象变差的。"
     me "啊，啊哈哈哈！开玩笑的啦！"
@@ -258,6 +262,7 @@ label day3_1_saburo_sakuya_tubasa:
     show sakuya 9 with dissolve
     sakuya "一大清早就遇到一之濑，还遇到了这种恶心的家伙，\n今天真是倒霉呢~。"
     show tubasa 7 with dissolve
+    $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute3.ogg"
     tubasa "怎，怎么会……。"
     show saburo 4 with dissolve
@@ -280,6 +285,7 @@ label day3_1_saburo_sakuya_tubasa:
     hide saburo with dissolve
     hide tubasa with dissolve
     play sound "fx/punch3.ogg"
+    $ renpy.transition(Quake(0, 150, 0.1, 0.07), layer='master')
     "啪！！"
     me "呜"
     show sakuya 17 at top with dissolve
@@ -365,6 +371,7 @@ label day3_1_sintarou_tuki_sora:
     show sora 4
     show tuki 2 with dissolve
     tuki_and_sora "嗯。"
+    $ renpy.transition(Quake(0, 60, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
     show sintarou 21 with dissolve
     sintarou "等……！"
@@ -375,6 +382,7 @@ label day3_1_sintarou_tuki_sora:
     extend "\n毕竟……你们每晚都做些奇奇怪怪的事吧。\n明明是亲兄弟~！欸嘿嘿。"
     play sound "fx/eureka.ogg"
     me "你，你们在说什！！！"
+    $ renpy.transition(Quake(40, 0, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
     show sora 16 with dissolve
     sora "小慎！那个那个那个！！！"
@@ -382,10 +390,12 @@ label day3_1_sintarou_tuki_sora:
     extend "\n不，不要说这种话！！！"
     show tuki 12 with dissolve
     tuki "你在说什么呢。实际上每晚都，欸嘿嘿……"
+    $ renpy.transition(Quake(0, 100, 0.1, 0.07), layer='master')
     play sound "fx/punch.ogg"
     hide tuki with dissolve
     extend "\n啪嚓！"
     show sora 16 with dissolve
+    $ renpy.transition(Quake(60, 0, 0.1, 0.15), layer='master')
     sora "哇啊啊啊啊！！真是的！"
     extend "\n我都不想听你瞎说！！！！"
     show sintarou 9 with dissolve
@@ -412,6 +422,7 @@ label day3_1_sintarou_tuki_sora:
     sintarou "嘿嘿，月好像被甩掉了哦。"
     window hide
     show tuki 13 with dissolve
+    $ renpy.transition(Quake(0, 100, 0.1, 0.065), layer='master')
     play sound "fx/shock_big.ogg"
     window show
     tuki "（再打击！！！！）"
@@ -445,6 +456,7 @@ label day3_1_sintarou_tuki_sora:
     extend "\n哥哥不是笨蛋，也不会被我甩的。"
     show sora 12 with dissolve
     extend "\n哥哥是个帅气的人哦！"
+    $ renpy.transition(Quake(0, 60, 0.1, 0.15), layer='master')
     play sound "fx/cute2.ogg"
     show tuki 8 with dissolve
     tuki "是吗。那太好了。"
@@ -490,6 +502,7 @@ label day3_2_tomo:
     extend "哎呀，别管那么多！\n总之走吧！！"
     me "啊，我在这之前得去食堂买些东西。"
     show tomo 20 with dissolve
+    $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
     tomo "别，别管了！赶紧过来！！"
     hide tomo with dissolve
@@ -620,6 +633,7 @@ label day3_2_tomo:
     extend "\n只是，和你在一起的时候会很安心……。"
     "说到这里的时候，友的脸一下子涨红了。"
     show tomo 30 with dissolve
+    $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
     tomo "啊，我在说什么啊！！"
     extend "\n抱歉，快忘掉吧！！！！！"
@@ -627,6 +641,7 @@ label day3_2_tomo:
     extend "我，我也该吃饭了！！！"
     "友急忙地伸出手拿起了便当。"
     show tomo 28 with dissolve
+    $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
     tomo "唔咕。"
     extend "糟糕。\n喉咙被噎住了……！"
@@ -964,6 +979,7 @@ label day3_2_sintarou:
     extend "\n谢谢你，慎太郎！！！"
     extend "\n你个小可爱♪"
     "我揉起了慎太郎的脑袋。"
+    $ renpy.transition(Quake(60, 0, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
     show sintarou 32 with dissolve
     sintarou "[player_name]干嘛！不要做这么羞耻的动作！"
@@ -1108,6 +1124,7 @@ label day3_2_tubasa:
     me "我也完全猜不出来。\n毕竟舌头不那么灵敏。"
     extend "\n那两位每次都能准确猜出品牌，真厉害。"
     show tubasa 18 with dissolve
+    $ renpy.transition(Quake(0, 65, 0.1, 0.15), layer='master')
     play sound "fx/cute2.ogg"
     tubasa "嘟嘟嗯！\n[player_name]君，出局！"
     play sound "fx/boing.ogg"
@@ -1301,6 +1318,7 @@ label day3_2_saburo:
     me "嗯？"
     extend "机会难得，那就让我喂给你吃吧。"
     show saburo 3 with dissolve
+    $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
     saburo "啊！！"
     extend "你，你在说什么！！！"
@@ -1323,6 +1341,7 @@ label day3_2_saburo:
     hide cg with dissolve
     hide saburo with dissolve
     show saburo 5 at top with dissolve
+    $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute2.ogg"
     window show
     saburo "呜哦……好好吃！！！！"
@@ -1384,6 +1403,7 @@ label day3_2_saburo:
     extend "\n话说，我是不是喝得有点太多了~？"
     me "不，没什么~一想到是和三朗君间接接吻，就不禁就……。"
     show saburo 3 with dissolve
+    $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
     saburo "！？！？！"
     extend "\n啊，笨蛋！！！！说什么呢！！！！！"
@@ -1404,6 +1424,7 @@ label day3_2_saburo:
     saburo "……[player_surname]那个……"
     extend "\n和男人，接吻之类的……那种事，做过了吗？"
     play sound "fx/boing.ogg"
+    $ renpy.transition(Quake(0, 50, 0.1, 0.1), layer='master')
     me "噗！！！"
     "突然的提问让我把茶给喷出来了。"
     show saburo 12 with dissolve
@@ -1445,6 +1466,7 @@ label day3_2_saburo:
     extend "\n但是，我觉得三朗尝试去理解这些，也是非常了不起的哦。"
     "我这么说着，摸了摸三朗的头。"
     show saburo 33 with dissolve
+    $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
     saburo "白，白痴！都说了别这样……！！"
     extend "\n好不容易做好的发型，又要毁了啦！"
@@ -1534,6 +1556,7 @@ label day3_2_sakuya:
     stop music fadeout 0.5
     play music "sakuya_theme.ogg"
     show sakuya 24 at top with dissolve
+    $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute2.ogg"
     sakuya "啥啥？要请我吃午饭吗？"
     extend "\n那我点咖喱饭~♪"
@@ -1640,6 +1663,7 @@ label day3_2_sakuya:
     "作哉坏笑着。"
     me "你没有在不生气！"
     show sakuya 17 with dissolve
+    $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
     sakuya "啊！？哇，太坏了！！"
     extend "\n那才叫卑鄙！！！"
@@ -1774,6 +1798,7 @@ label day3_design:
     show tubasa 14 at topright with dissolve
     show sakuya 9 at topleft with dissolve
     extend "\n2组的代表也别东张西望的，\n应该去商讨或者进行作业才是！"
+    $ renpy.transition(Quake(0, 60, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
     show tubasa 3 with dissolve
     tubasa "（抖）"
@@ -1784,6 +1809,7 @@ label day3_design:
     extend "\n你是和小不点儿同组的吧。"
     extend "\n如果不能集中注意力的话，就去远一点的地方干活去。"
     show tubasa 7 with dissolve
+    $ renpy.transition(Quake(60, 0, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
     tubasa "好痛痛痛……别，别再拉我了啦~。"
     show sakuya 12 with dissolve
@@ -1900,11 +1926,13 @@ label day3_cooking:
     window hide
     hide tuki with dissolve
     show sora 25 at topright with dissolve
+    $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
     window show
     sora "嗯……[player_name]君切菜可真麻利，我却不怎么擅长"
     extend "\n有点要流泪了……。"
     show tuki 22 at topleft with dissolve
+    $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
     tuki "我，我也是……这可真是不容易啊。"
     play sound "fx/wow2.ogg"
@@ -1958,6 +1986,7 @@ label day3_cooking:
     extend "明明是甜品。"
     window hide
     show tuki 10 at topleft with dissolve
+    $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
     window show
     tuki "唔……嗯。\n打发奶油的时候用力不得当……。"
@@ -1973,7 +2002,9 @@ label day3_cooking:
     hide tuki with dissolve
     hide sora with dissolve
     show sora 8 at top with dissolve
+    $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
+    $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
     sora "你看，浪费时间过久了，冰淇淋都融化了~！"
     show sora 23 with dissolve
@@ -2086,6 +2117,7 @@ label day3_supply:
     show saburo 17 with dissolve
     saburo "嘴上这么说……其实是想快点参加学园祭吧~？"
     show sakuya 17 with dissolve
+    $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
     sakuya "怎么可能！！\n开咖啡店什么的，真的是麻烦得要死！"
     extend "\n稍微动动脑子就知道这是个馊主意了，猫头！！"
@@ -2117,6 +2149,7 @@ label day3_design_tomo:
     window hide
     stop music fadeout 0.5
     show tomo 20 at topleft with dissolve
+    $ renpy.transition(Quake(60, 0, 0.1, 0.15), layer='master')
     play sound "fx/cute3.ogg"
     window show
     tomo "好痛。"
@@ -2136,7 +2169,8 @@ label day3_design_tomo:
     extend "\n说不定会因此而感染！"
     window hide
     play music "emergency.ogg"
-    show cg c15 at center with lm_crossfade
+    show cg c15 at center with Radial(0.5)
+    $ renpy.transition(Quake(0, 100, 0.1, 0.065), layer='master')
     play sound "fx/cute.ogg"
     window show
     "啪嗒"
@@ -2177,10 +2211,12 @@ label day3_design_tomo:
     "啊呜"
     show sintarou 7 with dissolve
     play sound "fx/cute2.ogg"
+    $ renpy.transition(Quake(0, 40, 0.1, 0.15), layer='master')
     sintarou "喵啊啊啊啊！！间接接吻啊啊啊！！！"
     extend "\n现实中的BL啊啊啊啊！！！！"
     show tomo 32 with dissolve
     play sound "fx/boing.ogg"
+    $ renpy.transition(Quake(0, 40, 0.1, 0.15), layer='master')
     tomo "不，不不不不是的呜呜呜呜！！！！！"
     extend "\n这，这是无意识的……！"
     hide tomo with dissolve
@@ -2229,6 +2265,7 @@ label day3_design_sintarou:
     window hide
     stop music fadeout 0.5
     show sintarou 21 at topright with dissolve
+    $ renpy.transition(Quake(60, 0, 0.1, 0.15), layer='master')
     play sound "fx/cute3.ogg"
     window show
     sintarou "啊好疼啊。"
@@ -2249,7 +2286,8 @@ label day3_design_sintarou:
     extend "\n说不定会因此而感染！"
     window hide
     play music "emergency.ogg"
-    show cg c28 at center with lm_crossfade
+    show cg c28 at center with Radial(0.5)
+    $ renpy.transition(Quake(0, 100, 0.1, 0.065), layer='master')
     play sound "fx/cute.ogg"
     window show
     "啪嗒"
@@ -2288,7 +2326,9 @@ label day3_design_sintarou:
     extend "\n……哎呀，又流血了。"
     "啊呜"
     show tomo 13 with dissolve
+    $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
+    $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
     tomo "呀啊啊啊！！间接接吻了！！"
     show sintarou 21 with dissolve
@@ -2370,6 +2410,7 @@ label day3_layout_tubasa:
     me "确实……他就是有这种魅力。"
     extend "\n要真到了紧要关头，估计能成为超级赛亚人吧。"
     show tubasa 8 with dissolve
+    $ renpy.transition(Quake(0, 40, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
     tubasa "这，这种事情，要是忍知道的话会生气的吧。"
     show tubasa 5 with dissolve
@@ -2508,6 +2549,7 @@ label day3_cooking_tuki:
     show tuki 11 at top with dissolve
     tuki "嗯！？"
     hide tuki with dissolve
+    $ renpy.transition(Quake(0, 70, 0.1, 0.06), layer='master')
     play sound "fx/fall_down.ogg"
     "喀嚓！！"
     "月的强壮的胸膛就在我的眼前。"
@@ -2554,6 +2596,7 @@ label day3_cooking_tuki:
     play sound "fx/sliding_door.ogg"
     show bg classroom_evening with dissolve
     show sintarou 14 at topright with dissolve
+    $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
     window show
     sintarou "呜噢！？\n你们两个这是什么打扮！！"
@@ -2572,6 +2615,7 @@ label day3_cooking_tuki:
     sintarou "你们两个一直相互打情骂俏！"
     extend "\n这里可是学校，别太过火哦~"
     show tuki 29 with dissolve
+    $ renpy.transition(Quake(0, 40, 0.1, 0.15), layer='master')
     play sound "fx/cute3.ogg"
     tuki "什……你，你个蠢货！！！\n你可不要误会了！！"
     extend "\n这只是普通的奶油而已！！"
@@ -2839,6 +2883,7 @@ label day3_cooking_sora:
     sora "呜哇！？"
     me "诶！？"
     hide sora with dissolve
+    $ renpy.transition(Quake(0, 70, 0.1, 0.06), layer='master')
     play sound "fx/fall_down.ogg"
     "喀嚓！！"
     "空在拿碗的时候踩到湿漉漉的地板滑了一跤，失去平衡撞到了我。"
@@ -2943,10 +2988,12 @@ label day3_cooking_sora:
     extend "\n做……做……"
     play sound "fx/wow2.ogg"
     extend "做……！？"
+    $ renpy.transition(Quake(0, 70, 0.15, 0.1), layer='master')
     play sound "fx/cute2.ogg"
     me "什么什么什么啊啊啊啊！！！？？"
     extend "\n空，空，你这么大胆！！！！！！"
     sora "哎……？"
+    $ renpy.transition(Quake(0, 70, 0.15, 0.1), layer='master')
     play sound "fx/boing.ogg"
     extend "\n啊，我，我说[player_name]君，你到底在想些什么啊！？"
     extend "\n我，我可没有那个意思！！"
@@ -3152,6 +3199,7 @@ label day3_supply_sakuya:
     me "作哉君，怎么样？"
     extend "\n购物顺利吗？？"
     show sakuya 29 at top with dissolve
+    $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
     sakuya "呃！[player_surname]……。"
     show sakuya 12 with dissolve
@@ -3207,6 +3255,7 @@ label day3_supply_saburo:
     sakuya "三朗，怎么样？"
     extend "\n购物顺利吗？？"
     show saburo 21 at top with dissolve
+    $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
     saburo "哇啊！！吓死人了！！！"
     show saburo 7 with dissolve
@@ -3234,6 +3283,7 @@ label day3_supply_saburo:
     play sound "fx/eureka.ogg"
     extend "\n……如果太任性的话，我会告诉慎太郎的。"
     show saburo 12 with dissolve
+    $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute2.ogg"
     saburo "呀~~~！！放过我吧！！"
     extend "\n明白了！我这就去放回去！！\n所以，千万不要跟那家伙说！"
@@ -3298,6 +3348,7 @@ label day3_layout_2:
     window show
     sinobu "我拒绝。"
     show tubasa 7 at topright with dissolve
+    $ renpy.transition(Quake(0, 60, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
     tubasa "忍，忍君！"
     extend "\n别回答得那么快嘛……！！"
@@ -3311,6 +3362,7 @@ label day3_layout_2:
     student_c "身为后辈，就该老老实实听话。"
     extend "\n赶紧离开这里！"
     student_b "不那么做的话……你会尝到苦头的哦，小不点！！"
+    $ renpy.transition(Quake(0, 100, 0.1, 0.065), layer='master')
     play sound "fx/dash.ogg"
     "说完，一名男学生抓住了忍的前襟。"
     window hide
@@ -3343,6 +3395,7 @@ label day3_layout_2:
     extend "\n竟然敢这么狂妄地教训我们！！"
     student_a "像这种不懂世故的学弟，\n必须由前辈好好地教育一番。"
     student_c "不要误会了……这不是暴力。\n是体罚！！"
+    $ renpy.transition(Quake(0, 100, 0.1, 0.065), layer='master')
     play sound "fx/dash.ogg"
     "一名男生抓住我的胸襟。"
     show sinobu 30 at topleft
@@ -3351,6 +3404,7 @@ label day3_layout_2:
     stop music fadeout 0.5
     play sound "fx/wind_slash.ogg"
     "我迅速从外侧拍击对方抓我衣领的手臂肘关节，\n"
+    $ renpy.transition(Quake(0, 100, 0.1, 0.065), layer='master')
     play sound "fx/dash.ogg"
     "趁他失去平衡时顺势扭转其胳膊，将其直接摁倒在地。"
     window hide
@@ -3382,6 +3436,7 @@ label day3_layout_2:
     student_b "啧！！那家伙，什么时候……！"
     "听到这句话，我松开了男生的手臂，\n他站起身来的时候，老师走进了教室。"
     play sound "fx/dash.ogg"
+    $ renpy.transition(Quake(0, 100, 0.1, 0.065), layer='master')
     nameko "你们在干什么！？"
     extend "\n都已经是高三生了，一点分寸都没有吗！！"
     umi "你们是轻音部的吧。"
@@ -3607,6 +3662,7 @@ label day3_layout_2_sinobu:
     tomo "诶？为什么？\n我没听见。"
     show tubasa 7 with dissolve
     play sound "fx/cute.ogg"
+    $ renpy.transition(Quake(0, 60, 0.1, 0.15), layer='master')
     tubasa "噗嗯……没，没什么！"
     window hide
     hide tomo with dissolve
@@ -3670,6 +3726,7 @@ label day3_layout_2_tubasa:
     me "等……！"
     "我追上翼，抓住了他。"
     "（抓）"
+    $ renpy.transition(Quake(0, 100, 0.2, 0.065), layer='master')
     play sound "fx/fall_down.ogg"
     tubasa "哇！"
     "如同之前的早晨一样，翼失去了平衡，\n连带着牵着他的我的手一起摔在了地上。"
@@ -4018,6 +4075,7 @@ label day3_2_sora:
     extend "\n当时的空，还那么害怕，真可爱啊~。"
     extend "\n让我看到了那么棒的场面，我反而想要报答你啊。"
     show tuki 21 with dissolve
+    $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute2.ogg"
     tuki "噢！[player_surname]也这么想吗。"
     extend "\n其实我每次看到空害怕的样子，心里也会涌起一股热潮。"
@@ -4028,6 +4086,7 @@ label day3_2_sora:
     me "那么以后要是再有虫子，你就飞到我怀里来吧。"
     extend "\n我会温柔地安慰你的。"
     show sora 16 with dissolve
+    $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
     sora "不用了！"
     extend "\n[player_name]君大坏蛋！再也不找你帮忙了！"
@@ -4037,6 +4096,7 @@ label day3_2_sora:
     show tuki 21 with dissolve
     extend "\n现在也可以！！来吧！空！！！"
     show sora 15 with dissolve
+    $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute3.ogg"
     sora "我才不呢！！"
     extend "\n呜~……哥哥也是[player_name]君也是，都在把我当笨蛋耍！"
@@ -4278,6 +4338,7 @@ label day3_supply_2_saburo:
     window show
     me "稍微玩一下再回去吧。"
     show saburo 10 at topright with dissolve
+    $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute2.ogg"
     saburo "好嘞ー！"
     extend "\n那我们去游戏中心吧！游戏中心！！"
@@ -4552,6 +4613,7 @@ label day3_supply_2_saburo:
     me "三朗……难道说，是嫉妒了？"
     "听到这话，从后方看去，三朗脸红得一目了然。"
     show saburo 22 at top with dissolve
+    $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
     saburo "有，有什么不好！！"
     extend "\n这没办法啊！！！ 这是我真实的感受！！"
@@ -4567,6 +4629,7 @@ label day3_supply_2_saburo:
     extend "\n而且，刚才也说过了，我们只是朋友！！\n不要误会！！"
     me "好好好，是这样啊。"
     show saburo 14 with dissolve
+    $ renpy.transition(Quake(40, 0, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
     saburo "这是什么无所谓的态度！！真的超气人的！"
     show saburo 14 with dissolve
@@ -4624,12 +4687,14 @@ label day3_supply_2_sakuya:
     show saburo 7 with dissolve
     saburo "哎呀~真是帮大忙了~。"
     show saburo 2 with dissolve
+    $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute2.ogg"
     extend "\n那么~！接下来去哪玩呢？"
     show sakuya 15 with dissolve
     sakuya "啊不好意思！"
     extend "\n我还有点事要办，哒咩！"
     show saburo 11 with dissolve
+    $ renpy.transition(Quake(40, 0, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
     saburo "诶~！！为什么啊~！"
     extend "\n去玩嘛穗海~！！！"
@@ -4703,6 +4768,7 @@ label day3_supply_2_sakuya:
     hide sakuya with dissolve
     show sakuya 26 at top with dissolve
     window show
+    $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
     sakuya "等等……慢着！！"
     show sakuya 19 with dissolve
@@ -4732,6 +4798,7 @@ label day3_supply_2_sakuya:
     window show
     "草木丛生的地方传来了一阵窸窸窣窣的声音，\n不久，一个小小的脑袋从里头探了出来。"
     show tsubasa 2 at top with dissolve
+    $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
     tubasa "汪！汪！"
     me "噢噢~！真的冒出来了！！"
@@ -4781,8 +4848,9 @@ label day3_supply_2_sakuya:
     play sound "fx/eureka.ogg"
     me "怎么了，亲爱的！"
     window hide
-    hide sakuya with dissolve
-    hide cg with dissolve
+    hide sakuya with Dissolve(0.2)
+    hide cg with Dissolve(0.2)
+    $ renpy.transition(Quake(0, 50, 0.15, 0.09), layer='master')
     play sound "fx/punch2.ogg"
     window show
     "啪！"
@@ -4830,6 +4898,7 @@ label day3_supply_2_sakuya:
     extend "\n第一次看到这样的自然景色吧？"
     hide sakuya with dissolve
     show tsubasa 2 at top with dissolve
+    $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
     tsubasa "汪汪！"
     me "再稍微爬点上去，就能到个更好的地方了。"
@@ -4841,6 +4910,7 @@ label day3_supply_2_sakuya:
     show sakuya 23 with dissolve
     extend "\n啥，那是什么？"
     show tsubasa 1 with dissolve
+    $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
     tsubasa "汪！"
     window hide
@@ -4863,6 +4933,7 @@ label day3_supply_2_sakuya:
     hide sakuya with dissolve
     hide tsubasa with dissolve
     show tsubasa 2 at top with dissolve
+    $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute2.ogg"
     tsubasa "汪！汪汪！"
     window hide
@@ -5071,6 +5142,7 @@ label day3_design_2_tomo:
     hide tomo with dissolve
     stop music
     play sound "fx/dash.ogg"
+    $ renpy.transition(Quake(100, 150, 0.1, 0.07), layer='master')
     "咚"
     "我的头撞到了电线杆上。"
     "友看着这样的我，笑着说。"
@@ -5192,6 +5264,7 @@ label day3_design_2_tomo:
     tomo "诶？"
     show tomo 18 with dissolve
     play sound "fx/cute3.ogg"
+    $ renpy.transition(Quake(0, 60, 0.1, 0.15), layer='master')
     extend "啊！！！\n我忘记了收起来了！！！"
     extend "\n呜哇，别看别看！！"
     "什么！？这是友君的吗！？"
@@ -5200,6 +5273,7 @@ label day3_design_2_tomo:
     me "啊，这个电动按摩器……。"
     extend "\n原来是这样。友君每天都这样……"
     show tomo 20 with dissolve
+    $ renpy.transition(Quake(60, 0, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
     tomo "不，不不不不！！"
     extend "\n我房间里不行！！\n禁止入侵！！"
@@ -5286,6 +5360,7 @@ label day3_design_2_tomo:
     hide tomo with dissolve
     hide cg with dissolve
     show tomo 30 at top with dissolve
+    $ renpy.transition(Quake(0, 60, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
     tomo "噫！？"
     window hide
@@ -5296,6 +5371,7 @@ label day3_design_2_tomo:
     window show
     sinobu "……每次都来阳台打扰，真是不好意思。"
     show tomo 20 at topleft with dissolve
+    $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
     tomo "忍，忍！！"
     extend "\n能不能正常地进个房间啊！！\n每次都这样，心脏真的要受不了了。"
@@ -5630,6 +5706,7 @@ label day3_design_2_sintarou:
     window hide
     show bg hananoyu2 with pixellate
     window show
+    $ renpy.transition(Quake(0, 100, 0.1, 0.065), layer='master')
     play sound "fx/boing.ogg"
     sintarou "沉下去了，沉下去了呜呜呜！！！"
     window hide
@@ -5955,6 +6032,7 @@ label day3_supply_self:
     me "喂，你们两个。"
     extend "\n在这干什么呢？？"
     show saburo 21 at topright with dissolve
+    $ renpy.transition(Quake(0, 40, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
     saburo "哎，[player_surname]……。"
     show sakuya 15 at topleft with dissolve
@@ -6210,6 +6288,7 @@ label day3_sirou:
     show bg sky with fade
     unknown "呜哇！！"
     me "诶！？"
+    $ renpy.transition(Quake(0, 70, 0.15, 0.09), layer='master')
     play sound "fx/fall_down.ogg"
     "咚！"
     stop music fadeout 0.5
@@ -6297,6 +6376,7 @@ label day3_sirou:
     me "可能会有点疼，你忍一下哦。"
     "回到少年身旁，我开始用水给他洗膝盖。"
     show sirou 1 at top with dissolve
+    $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
     unknown "好痛……。"
     "痛苦的表情在少年脸上蔓延开来。"
@@ -6390,6 +6470,7 @@ label day3_sirou:
     play sound "fx/triangle.ogg"
     "只是一个喜欢少年的变态而已。"
     show sirou 9 with dissolve
+    $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
     sirou "诶~！不是这样哦！！"
     show sirou 7 with dissolve

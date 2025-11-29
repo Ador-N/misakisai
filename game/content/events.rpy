@@ -14,6 +14,7 @@ label event00:
     tomo "翼君你，"
     extend "其实很好色的吧！"
     show tubasa 20 with dissolve
+    $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
     tubasa "你突然在说什么呀！"
     show tomo 3 with dissolve
@@ -32,6 +33,7 @@ label event00:
     tomo "所以呀，"
     extend "就是这么回事啦！"
     show tubasa 7 with dissolve
+    $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
     tubasa "这，这毫无关联！！"
     window hide
@@ -59,6 +61,7 @@ label event01:
     extend "\n真是的，看着睡的很香啊……。"
     hide sinobu with dissolve
     show tomo 31 at top with dissolve
+    $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
     tomo "啊……啊嗯……那里那里哦哦哦……。"
     extend "\n电摩棒好舒服……唔呜呜。"
@@ -75,6 +78,7 @@ label event01:
     hide cg with dissolve
     show sinobu 6 at topright
     show tomo 20 at topleft with dissolve
+    $ renpy.transition(Quake(40, 0, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
     tomo "呜呀！！"
     sinobu "别在学校里发情啊。"
@@ -107,6 +111,7 @@ label event02:
     extend "想必晚上也会很激烈吧~。"
     extend "\n哎呀~真想偷窥一次啊。"
     show sora 15 with dissolve
+    $ renpy.transition(Quake(40, 0, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
     sora "你，你你你你在说什么呢，真是的！\n怎么可能...."
     show tuki 29 with dissolve
@@ -119,6 +124,7 @@ label event02:
     hide sintarou
     hide tuki
     hide sora
+    $ renpy.transition(Quake(0, 70, 0.15, 0.1), layer='master')
     sora "喂！哥，哥哥啊啊啊啊！！"
     window hide
     hide tuki with dissolve
@@ -143,6 +149,7 @@ label event03:
     pause 0.6
     show bg classroom with dissolve
     show sintarou 25 at top with dissolve
+    $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute2.ogg"
     window show
     sintarou "那么，各位！！"
@@ -209,6 +216,7 @@ label event04:
     window show
     tomo "（咕嘟……咕嘟……）"
     show tomo 4 with dissolve
+    $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
     extend "\n噗哈！！\n可乐真好喝☆"
     show tubasa 11 with dissolve
@@ -224,9 +232,11 @@ label event04:
     show tubasa 24 at top with lm_crossfade
     "翼　（啊！！这是能和友君间接接吻的机会！！"
     show tubasa 7 with dissolve
+    $ renpy.transition(Quake(40, 0, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
     extend "\n但，但是我又喝不了碳酸饮料……。"
     show tubasa 6 with dissolve
+    $ renpy.transition(Quake(0, 40, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
     extend "\n呜，呜呜呜……怎么办怎么办。"
     show tubasa 29 with dissolve
@@ -243,6 +253,7 @@ label event04:
     window show
     tubasa "那，那我就开动了！！"
     show tubasa 7 with dissolve
+    $ renpy.transition(Quake(40, 0, 0.1, 0.15), layer='master')
     play sound "fx/dash.ogg"
     extend "\n呜！？"
     hide tomo with dissolve
@@ -250,6 +261,7 @@ label event04:
     show tubasa 9 at topleft with dissolve
     tubasa "噗……咳咳！"
     show tomo 18 at topright with dissolve
+    $ renpy.transition(Quake(40, 0, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
     tomo "翼，翼君，你没事吧！？"
     window hide
@@ -276,6 +288,7 @@ label event05:
     hide cg with dissolve
     hide sora with dissolve
     show sora 9 at top with dissolve
+    $ renpy.transition(Quake(30, 0, 0.1, 0.15), layer='master')
     play sound "fx/cute3.ogg"
     window show
     sora "呜呜呜……有虫子在飞来飞去，没法过去啊啊啊…。"
@@ -283,6 +296,7 @@ label event05:
     hide sora with dissolve
     show bg gym_backside with dissolve
     show tubasa 7 at top with dissolve
+    $ renpy.transition(Quake(30, 0, 0.1, 0.15), layer='master')
     play sound "fx/cute3.ogg"
     window show
     tubasa "……。"
@@ -324,6 +338,7 @@ label event05:
     show cg remarkable at center
     show tubasa 7 at topright
     show sora 16 at topleft with dissolve
+    $ renpy.transition(Quake(0, 40, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
     window show
     sora "为什么会变成这样啊啊啊！！！"
@@ -351,6 +366,7 @@ label event06:
     show tomo 3 with dissolve
     tomo "诶~。\n光是慎酱会学习这一点，就很让人吃惊了。"
     show sintarou 23 with dissolve
+    $ renpy.transition(Quake(40, 0, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
     sintarou "你啊，这话说得好过分……。"
     show sintarou 16 with dissolve
@@ -424,8 +440,10 @@ label event07:
     sintarou "我们学校的泳衣是三角裤的原因，\n是因为校长有这方面的癖好。"
     show tomo 28 at topleft
     show tubasa 17 at topright with dissolve
+    $ renpy.transition(Quake(0, 40, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
     tubasa "奥，奥村君！"
+    $ renpy.transition(Quake(0, 40, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
     tomo "慎酱，这是真的吗！？"
     show sintarou 8 with dissolve
@@ -457,13 +475,16 @@ label event07:
     hide tubasa with dissolve
     show tomo 25 at topleft
     show tubasa 3 at topright with dissolve
+    $ renpy.transition(Quake(0, 40, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
     tubasa "友，友君！不可以听这种故事啦！！"
     extend "\n友君会变脏的！！"
     show sintarou 29 at top with dissolve
     sintarou "没事没事，一之濑同学。\n他已经脏得不能再脏了哦？"
     show tubasa 7 with dissolve
+    $ renpy.transition(Quake(0, 40, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
+    $ renpy.transition(Quake(0, 40, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
     tubasa "总之不可以！！！"
     window hide
@@ -562,9 +583,11 @@ label event09:
     saburo "哈啊？为啥啊！"
     extend "\n快点走啊~"
     show sakuya 27 with dissolve
+    $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/dash.ogg"
     sakuya "吵死了笨蛋！傻子！！废物！！！"
     show saburo 3 with dissolve
+    $ renpy.transition(Quake(40, 0, 0.1, 0.15), layer='master')
     play sound "fx/cute3.ogg"
     saburo "嘴好毒！！好可怕！！"
     window hide
@@ -602,6 +625,7 @@ label event10:
     window show
     sinobu "……所以结果是0.721。"
     show tomo 24 at topleft with dissolve
+    $ renpy.transition(Quake(0, 40, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
     tomo "原来如此！！非常感谢！"
     play sound "fx/running.ogg"
@@ -616,10 +640,12 @@ label event10:
     window hide
     hide sinobu with dissolve
     show tomo 39 at topright with dissolve
+    $ renpy.transition(Quake(0, 40, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
     window show
     tomo "这样一来，终于可以看之前的小网站了哦，老板。"
     show sintarou 13 at topleft with dissolve
+    $ renpy.transition(Quake(0, 40, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
     sintarou "干得漂亮友亲！！"
     extend "\n最近不只是隐藏链接，\n还增加了这种登录问题啊。"
@@ -647,6 +673,7 @@ label event10:
     show tomo 30
     show sintarou 21 with dissolve
     play sound "fx/cute2.ogg"
+    $ renpy.transition(Quake(0, 60, 0.1, 0.15), layer='master')
     "友＆慎太郎" "咿！！？"
     window hide
     hide tomo with dissolve
@@ -756,6 +783,7 @@ label event12:
     sakuya "喂，猫山……你从刚才开始就喘得厉害啊。"
     extend "\n怎么了？"
     show saburo 14 at topright with dissolve
+    $ renpy.transition(Quake(0, 40, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
     saburo "穗，穗海……我会忍住的……"
     extend "\n绝不会背叛我们的友情……！"
@@ -775,6 +803,7 @@ label event13:
     show bg hallway with dissolve
     show sakuya 20 at topleft
     show tomo 28 at topright with dissolve
+    $ renpy.transition(Quake(0, 40, 0.1, 0.15), layer='master')
     play sound "fx/dash.ogg"
     window show
     "咚"
@@ -783,11 +812,13 @@ label event13:
     show tomo 7 with dissolve
     tomo "啊，对，对不起。"
     show sakuya 2 with dissolve
+    $ renpy.transition(Quake(0, 40, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
     sakuya "你这笨蛋！"
     extend "\n眼睛长哪去了！走路不看路吗！！"
     extend "\n都是因为你害我肩膀疼了！\n给我医药费！"
     show tomo 5 with dissolve
+    $ renpy.transition(Quake(0, 40, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
     tomo "我，我不是道过歉了吗！"
     extend "\n你才是，诽谤我要赔我钱！"
@@ -915,12 +946,14 @@ label event15:
     hide cg with dissolve
     show tuki 2 at topleft
     show sora 15 at topright with dissolve
+    $ renpy.transition(Quake(0, 40, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
     window show
     sora "哥，哥哥！快想想办法~！！"
     show tuki 9 with dissolve
     tuki "啊，回家以后试试吧。"
     show sora 16 with dissolve
+    $ renpy.transition(Quake(0, 40, 0.1, 0.15), layer='master')
     play sound "fx/cute2.ogg"
     sora "笨蛋啊啊啊啊啊啊啊啊啊啊啊！！！！！！"
     window hide
@@ -951,6 +984,7 @@ label event16:
     sakuya "呃，是你啊……。"
     show tomo 28 at topleft with dissolve
     play sound "fx/boing.ogg"
+    $ renpy.transition(Quake(0, 40, 0.1, 0.15), layer='master')
     tomo "呃！技安！！"
     show tomo 31 with dissolve
     extend "\n我，我先出去了~！"
@@ -993,8 +1027,10 @@ label event17:
     hide sakuya with dissolve
     show saburo 12m at topright
     show sakuya 37m at topleft with dissolve
+    $ renpy.transition(Quake(30, 0, 0.1, 0.15), layer='master')
     play sound "fx/dash.ogg"
     sakuya "看招。"
+    $ renpy.transition(Quake(0, 80, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
     saburo "喵！！！"
     hide saburo with dissolve

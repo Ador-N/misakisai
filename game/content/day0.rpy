@@ -100,6 +100,7 @@ label day0_1:
     me "内，那个，不好意思！！  请给我一份传单吧！"
     show tubasa 3 at topleft with dissolve
     play sound "fx/cute.ogg"
+    $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     tubasa "咿！"
     "糟了。一上来就嘴瓢了，还大嗓门的喊了出来，反而吓到对方了。"
     show tomo 1 at topright with dissolve
@@ -125,6 +126,7 @@ label day0_1:
     extend "\n对吧！  翼！"
     show tubasa 5 with dissolve
     tubasa "嗯，托你的福。"
+    $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
     tomo "前辈~！ 请务必来参加御咲祭！！"
     extend "\n今年的御咲祭一定会很热闹的！"
@@ -283,6 +285,7 @@ label day0_3:
     boy7 "呜……你，你才是，\n最近不是跟一班那变态猫嘴家伙关系很要好吗？"
     extend "\n两只猫的关系很好呢？很亲热啊。"
     play sound "fx/boing.ogg"
+    $ renpy.transition(Quake(0, 60, 0.1, 0.15), layer='master')
     show saburo 3 with dissolve
     nekoyama "不！！！不，不是的！！才不是这样！！\n我们关系一点都不好啊！你，你在说什么啊！！\n白痴吗！！白痴！白痴白痴！！"
     "这人也太让人震惊了。"
@@ -815,6 +818,7 @@ label day0_hidden_1:
     "……嗯？"
     window hide
     play sound "fx/boing.ogg"
+    $ renpy.transition(Quake(0, 60, 0.15, 0.1), layer='master')
     window show
     me "这是什么！！？？"
     "我被捆绑在椅子上，手脚都被固定住了。"
@@ -923,6 +927,7 @@ label day0_hidden_1:
     window hide
     show bg dungeon at center with Dissolve(0.2)
     play sound "fx/boing.ogg"
+    $ renpy.transition(Quake(0, 60, 0.15, 0.1), layer='master')
     window show
     me "呜哇！！ 什么！？！？"
     extend "\n喂！！声音太大了我睡不着啊！！！"
@@ -933,6 +938,7 @@ label day0_hidden_1:
     "橙色头发的少年从漫天尘土中现身。"
     window hide
     show yuuhi 1 at top with dissolve
+    $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute2.ogg"
     play music "pinch.ogg"
     window show
@@ -1082,6 +1088,7 @@ label day0_hidden_nori:
     extend "\n这次，朔君是在做某种实验，\n虽然形式上是这样，但其实我只是在帮他忙。"
     window hide
     show yuuhi 3 at top with dissolve
+    $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
     window show
     yuuhi "哎！？"
@@ -1126,6 +1133,7 @@ label day0_hidden_nori:
     window hide
     hide nori with dissolve
     show yuuhi 1 at top with dissolve
+    $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
     window show
     yuuhi "喂，喂！你们在干什么！！"
@@ -1151,6 +1159,7 @@ label day0_hidden_nori:
     "（窃窃私语声）"
     window hide
     show yuuhi 1 at top with dissolve
+    $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
     window show
     yuuhi "喂，你们在干什么！！"
@@ -1174,6 +1183,7 @@ label day0_hidden_nori:
     window show
     yuuhi "诶……"
     show yuuhi 1 with dissolve
+    $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
     extend "哈，哈！？这，这是怎么回事啊！！"
     extend "\n因为这次的人质很可怜，所以想把人换掉吗？"
@@ -1312,6 +1322,7 @@ label day0_hidden_nori:
     hide cg with pixellate
     hide yuuhi with pixellate
     show yuuhi 11 at top with dissolve
+    $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
     window show
     yuuhi "可恶~我明明是正义的伙伴啊~！！！！\n好不容易来救你，结果却被人质反咬一口~！！！"
@@ -1435,6 +1446,7 @@ label day0_hidden_yuuhi:
     window hide
     show nori 18 at top with dissolve
     play sound "fx/cute3.ogg"
+    $ renpy.transition(Quake(30, 0, 0.1, 0.15), layer='master')
     window show
     "（微微颤抖）"
     hide nori with dissolve
@@ -1452,6 +1464,7 @@ label day0_hidden_yuuhi:
     window hide
     hide cg with dissolve
     show nori 20 at top with dissolve
+    $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
     window show
     nori "呜……啊！？"
@@ -1469,6 +1482,7 @@ label day0_hidden_yuuhi:
     extend "\n朔君……这么小的年纪，就浑身透着暴露气息，这身体也太色情了吧？"
     show nori 19 at top with dissolve
     nori "呜……闭嘴！！\n可恶，竟敢……！！！"
+    $ renpy.transition(Quake(0, 60, 0.15, 0.1), layer='master')
     play sound "fx/dash.ogg"
     show nori 20 with dissolve
     extend "\n放开我！！！快，快放开我！！！\n否则的话，我就要将你大卸八块了！！！"
@@ -1554,6 +1568,7 @@ label day0_hidden_yuuhi:
     extend "\n这世上没有不可能的事！"
     me "我好像在什么地方听过这句话……是你现学现卖？"
     show yuuhi 1 with dissolve
+    $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
     yuuhi "才不是！！这是我的原创！"
     show yuuhi 9 with dissolve
@@ -1622,6 +1637,7 @@ label day0_hidden_yuuhi:
     hide cg with dissolve
     hide yuuhi with dissolve
     show yuuhi 11 at top with dissolve
+    $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
     window show
     yuuhi "别，别说变态啦！！"
@@ -1658,6 +1674,7 @@ label day0_hidden_yuuhi:
     "就这样，我们逃离了朔，顺利地来到了外面。"
     me "夕阳君，今天真是谢谢你了。"
     show yuuhi 6 at top with dissolve
+    $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
     yuuhi "哦！"
     extend "\n不过，能够顺利逃出来，也有你的功劳。"
@@ -1682,6 +1699,7 @@ label day0_hidden_yuuhi:
     yuuhi "这，这种事要靠自己解决啊……！"
     me "自称正义的伙伴真是可爱啊。"
     show yuuhi 1 with dissolve
+    $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
     yuuhi "你说什么~！！"
     me "啊哈哈哈。"

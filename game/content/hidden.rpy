@@ -52,6 +52,7 @@ label hidden_tomo:
     show bg hotel at center with Dissolve(2.0)
     show tomo 20h at top with dissolve
     play sound "fx/cute.ogg"
+    $ renpy.transition(Quake(0, 30, 0.1, 0.15), layer='master')
     window show
     tomo "哈欠！！！"
     show tomo 8h with dissolve
@@ -69,6 +70,7 @@ label hidden_tomo:
     extend "\n你，你看，我们……都，都是恋人了……。"
     show tomo 28h with dissolve
     play sound "fx/boing.ogg"
+    $ renpy.transition(Quake(0, 30, 0.1, 0.15), layer='master')
     tomo "呃，糟糕……我自己说出来以后感觉超难为情的……！！"
     show tomo 34h with dissolve
     extend "\n呜哇，恋人，恋人啊！！"
@@ -86,6 +88,7 @@ label hidden_tomo:
     show tomo 36h with dissolve
     tomo "……那，那接下来……再做一次吧？"
     show tomo 35h with dissolve
+    $ renpy.transition(Quake(0, 30, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
     tomo "呜呜呜呜……我知道的！！我自己也知道！！！"
     extend "\n自己是大清早开始就性欲高涨的家伙啊\n这种事情我再清楚不过了！"
@@ -122,6 +125,7 @@ label hidden_tubasa:
     show tubasa 2h with dissolve
     extend "\n可，可是现在是稍微有点凉的季节，\n还是穿得暖和一点比较好哦。"
     show tubasa 33h with dissolve
+    $ renpy.transition(Quake(0, 30, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
     tubasa "……诶……啊……啊……我……我……我没穿衣服？"
     extend "\n诶……？为，为什么？？"
@@ -141,6 +145,7 @@ label hidden_tubasa:
     extend "\n……说起来，我还完全没有现实感，还不知道这是不是真的……。"
     extend "\n对，对不起……。"
     show tubasa 17h with dissolve
+    $ renpy.transition(Quake(0, 30, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
     tubasa "啊……那个，不对，不是这样的。"
     extend "\n我绝对不是讨厌！"
@@ -259,6 +264,7 @@ label hidden_tuki:
     show tuki 25h with dissolve
     extend "\n不过……一定没事的。\n空会祝福我们的。"
     show tuki 20h with dissolve
+    $ renpy.transition(Quake(0, 30, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
     tuki "其他人……暂时保密。"
     extend "\n特别是奥村和森海，绝对不能告诉他们。"
@@ -287,6 +293,7 @@ label hidden_sora:
     window show
     sora "嗯……诶……已经……早上啦。"
     show sora 13h with dissolve
+    $ renpy.transition(Quake(0, 30, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
     sora "哇！！"
     extend "\n我们昨天就那样睡着了啊……。"
@@ -352,6 +359,7 @@ label hidden_sakuya:
     show sakuya 10h with dissolve
     sakuya "……然后，接下来打算怎么做？好像还有一点时间。"
     show sakuya 20h with dissolve
+    $ renpy.transition(Quake(0, 30, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
     extend "\n……话，话说衣服！衣服放哪了啊！"
     extend "\n擅自跑到别的地方去了，\n害得我起床之后都一直这样了。"
@@ -386,6 +394,7 @@ label hidden_saburo:
     play music "gymnopedies_no1.ogg"
     show bg hotel at center with Dissolve(2.0)
     show saburo 31h at top with dissolve
+    $ renpy.transition(Quake(0, 30, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
     window show
     saburo "啊切！！！！"
@@ -401,6 +410,7 @@ label hidden_saburo:
     play sound "fx/cute2.ogg"
     saburo "……！！！！"
     show saburo 3h with dissolve
+    $ renpy.transition(Quake(0, 30, 0.1, 0.15), layer='master')
     play sound "fx/explosion2.ogg"
     saburo "哇……哇……哇啊啊啊！！"
     extend "\n我，我，做了什么啊！！！"
@@ -412,6 +422,7 @@ label hidden_saburo:
     extend "\n……但，但是，那真实的触感……。"
     extend "\n现在都还清晰记得……果然那是……。"
     show saburo 3h with dissolve
+    $ renpy.transition(Quake(0, 30, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
     saburo "咦！哇啊啊啊！？"
     extend "\n自己是怎么起的啊！！"
