@@ -69,7 +69,7 @@ label day0_1:
     boy1 "晚上好，我们是御咲学园的！"
     extend "\n下周，我们将举办御咲祭，如果方便的话，请来看一看吧！\n我们将会有很多的节目，绝对不虚此行！"
     show tubasa 1 at topleft with dissolve
-    boy2 "请，请来光顾……！"
+    boy2 "请、请来光顾……！"
     show tomo 2 with dissolve
     boy1 "翼君，再大声点！\n这样子路上的行人也听不到啊~！"
     show tubasa 2 with dissolve
@@ -97,7 +97,7 @@ label day0_1:
     pause 0.3
     window show
     play sound "fx/cute2.ogg"
-    me "内，那个，不好意思！！请给我一份传单吧！"
+    me "内、那个，不好意思！！请给我一份传单吧！"
     show tubasa 3 at topleft with dissolve
     play sound "fx/cute.ogg"
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
@@ -111,7 +111,7 @@ label day0_1:
     show tomo 3 with dissolve
     extend "好了，翼君也来！"
     show tubasa 20 with dissolve
-    tubasa "谢，谢谢……"
+    tubasa "谢、谢谢……"
     "被称为『翼』的少年，不知道是因为害怕我，还是因为紧张，整个人都僵住了。"
     "这时候，我必须重整态势……"
     me "谢谢你。突然这么大声吓到你了，真是抱歉。"
@@ -119,7 +119,7 @@ label day0_1:
     extend "\n怎么样？在学校里过得开心吗？"
     "我用温柔的语气问道，翼这才恢复了冷静。"
     show tubasa 4 with dissolve
-    tubasa "不，不，我们才是……！原来您是毕业生啊。"
+    tubasa "不、不，我们才是……！原来您是毕业生啊。"
     show tomo 4 with dissolve
     tomo "那您就是前辈呢！"
     extend "\n我超级享受校园生活的！"
@@ -139,10 +139,10 @@ label day0_1:
     "我不由得回忆起来。"
     me "话说回来，你们班的项目是什么呢？"
     show tomo 7 with dissolve
-    tomo "那个！  我们班好像是……"
+    tomo "那个！我们班好像是……"
     show tomo 8 with dissolve
     play sound "fx/triangle.ogg"
-    extend "\n…  什么来着？"
+    extend "\n…什么来着？"
     "喂喂，你表现得那么兴奋，结果却忘了自己班的项目……"
     show tubasa 6 with dissolve
     tubasa "是咖啡厅。"
@@ -153,7 +153,7 @@ label day0_1:
     extend "\n绝对会有美味的食物和饮品，"
     extend "\n请您一定要来哦！！"
     show tubasa 4 with dissolve
-    tubasa "请，请多关照。"
+    tubasa "请、请多关照。"
     play sound "fx/impact.ogg"
     "哦哦！！！男孩子的邀请啊！！当然要去啊！！一定要去的啊！！！"
     window hide
@@ -209,7 +209,7 @@ label day0_2:
     extend "\n王道的话就是女仆咖啡厅，但再加一点小创意的话，\n短裤咖啡厅，体操服咖啡厅什么的也不错啊！"
     extend "\n就算维持学生制服的样子也没问题……。"
     show sora 1 at topleft with dissolve
-    boy3 "不，不愧是慎酱，想法真厉害啊……。"
+    boy3 "不、不愧是慎酱，想法真厉害啊……。"
     show sora 3 with dissolve
     boy3 "我啊，想尝试一下店员的穿着\n时尚的衬衫和马甲，\n再系个领结的打扮啊。"
     show sintarou 1 with dissolve
@@ -282,12 +282,12 @@ label day0_3:
     show saburo 2 with dissolve
     nekoyama "又来了又来了，你就别害羞了作哉君！"
     show sakuya 3 with dissolve
-    sakuya "呜……你，你才是，\n最近不是跟一班那变态猫嘴家伙关系很要好吗？"
+    sakuya "呜……你、你才是，\n最近不是跟一班那变态猫嘴家伙关系很要好吗？"
     extend "\n两只猫的关系很好呢？很亲热啊。"
     play sound "fx/boing.ogg"
     $ renpy.transition(Quake(0, 60, 0.1, 0.15), layer='master')
     show saburo 3 with dissolve
-    nekoyama "不！！！不，不是的！！才不是这样！！\n我们关系一点都不好啊！你，你在说什么啊！！\n白痴吗！！白痴！白痴白痴！！"
+    nekoyama "不！！！不、不是的！！才不是这样！！\n我们关系一点都不好啊！你、你在说什么啊！！\n白痴吗！！白痴！白痴白痴！！"
     "这人也太让人震惊了。"
     extend "又是他们的朋友啊。"
     "话说回来，这男子学校御咲学园的学生居然会有这种对话……"
@@ -304,7 +304,7 @@ label day0_3:
     hide sakuya with dissolve
     hide saburo with dissolve
     hide cg with dissolve
-    "汉堡也吃了，为了不让别人怀疑\n还是早点回去，不然兴奋要表现出来了。"
+    "汉堡也吃完了，为了不引人怀疑\n趁着这股兴奋劲还没写在脸上，赶紧撤吧。"
     window hide
     hide bg with dissolve
     return
@@ -338,14 +338,14 @@ label day0_4:
     unknown "晚上好，下班回来的大哥哥。"
     unknown "最近气温突然降下来了呢。\n前不久的酷暑就像假的一样。"
     extend "\n这种季节的转变，好像会让人身体不适\n所以你要注意哦。"
-    me "哈，哈啊？ 说，说的是呢。"
+    me "哈、哈啊？ 说、说的是呢。"
     extend "\n最近，我们公司感冒请假的人也很多呢。"
     "现在的日本，有多少孩子会主动和路边不认识的大人\n闲聊呢。"
     "至少，我从来没有见过这样的人，\n小时候也没干过这样的事。"
     extend "\n倒不如说，现在这个世道让人不安，\n应该会被嘱咐不要和不认识的人扯上关系才对。"
     unknown "大哥哥。这里不太方便，要不换个地方，\n稍微聊一会吧？"
     extend "\n去对面的公园怎么样。"
-    me "诶，诶诶！？"
+    me "诶、诶诶！？"
     window hide
     hide nori with Dissolve(1.5)
     hide bg with Dissolve(1.5)
@@ -420,7 +420,7 @@ label day0_normal_1:
     show bg school_sepia
     window show
     "啊……好想再回到那个时候，想在学园祭上大闹一番。"
-    "学园祭当天挺开心的，\n而且之前的准备时间也很愉快。"
+    "学园祭当天当然好玩，\n但之前的准备时间也别有一番乐趣。"
     extend "\n在学园祭一星期前，学校会取消下午的课程和社团活动。\n放学后，我和朋友们就在学校一直忙活到天黑。"
     "今天，在我回到家之前看到的御咲学园的学生们，\n从明天开始，肯定会过上比平时更加开心的校园生活。"
     "啊……真棒啊~。"
@@ -615,17 +615,17 @@ label day0_hidden:
     show bg residential_area_night at center
     show nori 4 at top with dissolve
     window show
-    me "等，等一下！你说的我跟不上啊。"
-    extend "\n额…… 你究竟是哪来的小孩啊？"
+    me "等、等一下！你说的我跟不上啊。"
+    extend "\n额……你究竟是哪来的小孩啊？"
     me "已经到晚饭时间了吧？"
     extend "\n不赶快回家的话，家里的人会担心的哦。"
     me "不然的话~"
     play sound "fx/boing.ogg"
     extend "你就会被像小哥这样有怪趣味的人，\n诱拐了哦~！"
-    "我一边开玩笑地威胁一边想要摸他的头，"
+    "我一边开玩笑地威胁，一边想要摸他的头，"
     play sound "fx/wind_slash.ogg"
     hide nori with dissolve
-    extend "\n少年却拒绝了，把我的手挥开了。"
+    extend "\n少年却拒绝了，挥开了我的手。"
     window hide
     show nori 5 at top with dissolve
     window show
@@ -661,7 +661,7 @@ label day0_hidden:
     window show
     "这时，有什么东西缠住了我的身体。"
     play sound "fx/dash.ogg"
-    extend "\n这，这是什么啊？！动弹不得！！！"
+    extend "\n这、这是什么啊？！动弹不得！！！"
     "不是……绳子。"
     extend "\n又黏又滑，自己在扭动。"
     "触手……？"
@@ -765,7 +765,7 @@ label day0_normal:
     extend "\n这位小哥，你至今为止的人生中，\n可曾像这样在路边被搭话，然后得到了能实现愿望的东西？"
     unknown "没有吧？"
     extend "\n这种，如同故事的开始一般的事。"
-    me "是，是啊……。"
+    me "是、是啊……。"
     "的确，眼前突然出现一个谜之男子，"
     play sound "fx/knife.ogg"
     show cg dark at center with Dissolve(0.3)
@@ -839,7 +839,7 @@ label day0_hidden_1:
     hide nori with dissolve
     play sound "fx/dash.ogg"
     window show
-    me "你，你！！！\n是你对我做了那种事吗？！"
+    me "你、你！！！\n是你对我做了那种事吗？！"
     extend "\n这是怎么回事！什么情况啊！！"
     play sound "fx/wow2.ogg"
     me "难道说，你是想拍捆绑系的素人AV吗！？"
@@ -868,7 +868,7 @@ label day0_hidden_1:
     unknown "请放心。\n我不会做取人性命那种粗暴的事。"
     extend "\n等实验结束之后，我会消除记忆，让你回家的。"
     extend "\n在那之前，我会让你作为实验对象协助我……。"
-    me "你，你在说什么……"
+    me "你、你在说什么……"
     show nori 9 with dissolve
     unknown "你现在有想要实现的梦想吗？"
     extend "\n有想要创造的世界吗？"
@@ -901,7 +901,7 @@ label day0_hidden_1:
     hide bg with dissolve
     play sound "fx/wind_slash.ogg"
     window show
-    "呜ーーーーーー嗯"
+    "呜——————嗯"
     "嗯，这机械声是哪来的？"
     extend "\n啊~这个，是某种实验来着。"
     extend "\n他说不会做危险的实验，肯定没问题吧。"
@@ -978,7 +978,7 @@ label day0_hidden_1:
     extend "\n你那强烈正义感的内心，看上去应该很有能量。"
     extend "\n那我当然不能错过。"
     show nori 11 with dissolve
-    extend "\n……而且，我还想再看到你沉溺于快感、哭着求饶的表情！"
+    extend "\n……而且，我还想再看到你那沉溺于快感、哭着求饶的表情！"
     window hide
     play sound "fx/impact.ogg"
     show cg c90 at center with FadeWhite(0.5)
@@ -1023,7 +1023,7 @@ label day0_hidden_1:
     window show
     "咔嚓"
     "朔将刀刃抵在了我的脖子上。"
-    me "诶……那，那个，朔先生……。"
+    me "诶……那、那个，朔先生……。"
     extend "\n不，刚才你不是说…不会做什么危险的事吗……。"
     nori "啊……对不起。"
     extend "\n由于有人来碍事，我不得不撤回刚才的发言。"
@@ -1057,7 +1057,7 @@ label day0_hidden_1:
     extend "\n你脑子里都是那种东西吗！你这，下流无耻惹事精！！"
     show nori 18 with dissolve
     play sound "fx/boing.ogg"
-    nori "少，少废话！"
+    nori "少、少废话！"
     show yuuhi 5 with dissolve
     yuuhi "你看，一有什么不顺心的事，\n就用一句『少废话』打发过去……。"
     show nori 17 with dissolve
@@ -1084,7 +1084,7 @@ label day0_hidden_nori:
     stop music fadeout 0.5
     play music "infiltration.ogg"
     window show
-    me "夕，夕阳君，你冷静一下。"
+    me "夕、夕阳君，你冷静一下。"
     extend "\n这次，朔君是在做某种实验，\n虽然形式上是这样，但其实我只是在帮他忙。"
     window hide
     show yuuhi 3 at top with dissolve
@@ -1092,7 +1092,7 @@ label day0_hidden_nori:
     play sound "fx/boing.ogg"
     window show
     yuuhi "哎！？"
-    extend "\n可，可是，他强行把你带来这里啊……。"
+    extend "\n可、可是，他强行把你带来这里啊……。"
     play sound "fx/impact.ogg"
     show cg remarkable at center with FadeWhite(0.5)
     me "能被这样的美少年监禁，求之不得！！！！！"
@@ -1117,7 +1117,7 @@ label day0_hidden_nori:
     window hide
     show yuuhi 7 at topleft with dissolve
     window show
-    yuuhi "但，但是……"
+    yuuhi "但、但是……"
     show nori 15 at topright with dissolve
     nori "呵呵……大哥哥，你这话说得太好了。"
     show nori 11 with dissolve
@@ -1136,7 +1136,7 @@ label day0_hidden_nori:
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
     window show
-    yuuhi "喂，喂！你们在干什么！！"
+    yuuhi "喂、喂！你们在干什么！！"
     hide yuuhi with dissolve
     show nori 14 at top with dissolve
     play sound "fx/knife.ogg"
@@ -1185,13 +1185,13 @@ label day0_hidden_nori:
     show yuuhi 1 with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
-    extend "哈，哈！？这，这是怎么回事啊！！"
+    extend "哈、哈！？这、这是怎么回事啊！！"
     extend "\n因为这次的人质很可怜，所以想把人换掉吗？"
     me "至少这次你把我救出去了，这不挺好的嘛。"
     extend "\n夕阳君也和我一起赶快离开这儿，\n对朔君的惩罚，就留到下次再做吧！"
     extend "\n好了，快走吧！！把我带出去。"
     show yuuhi 3 with dissolve
-    yuuhi "不，可，可是……。"
+    yuuhi "不，可、可是……。"
     me "快点快点！"
     hide yuuhi with dissolve
     "我强行拉住夕阳的双手，让他背对着我。"
@@ -1242,10 +1242,10 @@ label day0_hidden_nori:
     nori "那么，我告诉你一件好事。"
     extend "\n其实……那个魔法师，\n穿着很不得了的内裤哦。"
     play sound "fx/explosion2.ogg"
-    me "很，很很很很不得了的内裤！！？！\n那是什么东西啊！！？"
+    me "很、很很很很不得了的内裤！！？！\n那是什么东西啊！！？"
     extend "\n话说为什么朔你会知道啊！？"
     show nori 16 with dissolve
-    nori "别，别在意这种小事！"
+    nori "别、别在意这种小事！"
     show nori 12 with dissolve
     extend "\n什么样的内裤，请用你自己的眼睛去确认。"
     extend "\n好了，只要你下命令的话，触手就会按你说的行动。"
@@ -1256,7 +1256,7 @@ label day0_hidden_nori:
     extend "\n他可能会把你牵扯进来，然后进行反击。"
     me "呜嗯咕呜呜呜呜呜呜……。"
     play sound "fx/cute2.ogg"
-    extend "\n对，对不起！夕阳君！！！"
+    extend "\n对、对不起！夕阳君！！！"
     extend "\n能把那条短裤脱下来，让我看看你穿的是什么内裤吗？"
     show nori 11 with dissolve
     nori "没错，夕阳。"
@@ -1265,9 +1265,9 @@ label day0_hidden_nori:
     show cg c93 1 at center with FadeWhite(0.5)
     window show
     play sound "fx/boing.ogg"
-    yuuhi "你，你们在说什么啊，这群变态！！！！"
+    yuuhi "你、你们在说什么啊，这群变态！！！！"
     extend "\n快放开我！！"
-    extend "\n再，再继续下去的话……！"
+    extend "\n再、再继续下去的话……！"
     nori "继续下去，是指？"
     extend "\n用魔法进行反击的话，大哥哥也会被波及的。"
     extend "\n作为自己遭背叛的报复，让一般人受伤这种事，\n正义的伙伴是不能做的对吧？"
@@ -1280,10 +1280,10 @@ label day0_hidden_nori:
     me "唔，嗯……也是呢。"
     extend "\n那让我稍微看一下！"
     play sound "fx/dash.ogg"
-    extend "\n拜托了！？ 仅此而已，仅此而已！！"
+    extend "\n拜托了！？仅此而已，仅此而已！！"
     nori "……真是拼命呢。你的罪恶感呢？"
     play sound "fx/cute.ogg"
-    me "吵，吵吵吵吵死了！！\n人类一失去可以得到的东西，就会突然开始珍惜！"
+    me "吵、吵吵吵吵死了！！\n人类一失去可以得到的东西，就会突然开始珍惜！"
     play sound "fx/sparkle.ogg"
     extend "\n这么梦幻的，触手×正太的场景……\n除了好好享用，还能怎么办呢！？"
     play sound "fx/wind_slash.ogg"
@@ -1414,10 +1414,10 @@ label day0_hidden_yuuhi:
     play music "infiltration.ogg"
     show cg c91 2 at center with Dissolve(0.8)
     window show
-    me "夕，夕阳……！\n你能不能想想办法让我离开这里！！"
+    me "夕、夕阳……！\n你能不能想想办法让我离开这里！！"
     extend "\n虽然被美少年囚禁，坦白说我求之不得，\n不过再这样下去生活也会受到妨碍！"
     play sound "fx/boing.ogg"
-    yuuhi "啊，啊，是啊！！\n现在可不是争执的时候。"
+    yuuhi "啊、啊，是啊！！\n现在可不是争执的时候。"
     extend "\n喂，朔！快把人质放了！！"
     nori "你有什么资格说我？"
     extend "\n你才是，被选中的人。"
@@ -1485,7 +1485,7 @@ label day0_hidden_yuuhi:
     $ renpy.transition(Quake(0, 60, 0.15, 0.1), layer='master')
     play sound "fx/dash.ogg"
     show nori 20 with dissolve
-    extend "\n放开我！！！快，快放开我！！！\n不然的话，我就要把你大卸八块了！！！"
+    extend "\n放开我！！！快、快放开我！！！\n不然的话，我就要把你大卸八块了！！！"
     hide nori with dissolve
     "虽然嘴上说得那么吓人，可终究是个孩子……"
     extend "\n他不可能是成人的我的对手。"
@@ -1494,7 +1494,7 @@ label day0_hidden_yuuhi:
     me "夕阳君，就是现在！"
     extend "\n封住朔的行动！！"
     show yuuhi 13 at top with dissolve
-    yuuhi "你，你还挺能干的嘛！！超帅哦！"
+    yuuhi "你、你还挺能干的嘛！！超帅哦！"
     show yuuhi 7 with dissolve
     extend "\n那个，能捆绑的东西……\n啊，用这个触手的残肢来吧……"
     hide yuuhi with dissolve
@@ -1503,12 +1503,12 @@ label day0_hidden_yuuhi:
     play sound "fx/wind_slash.ogg"
     show cg c92 1 at center with FadeWhite(0.5)
     window show
-    nori "快，快住手！你，你这！！"
+    nori "快、快住手！你、你这！！"
     play sound "fx/boing.ogg"
     extend "\n喂，触手们！！！\n赶快阻止这些家伙！！！"
     yuuhi "哎呀！既然没了人质，那我就按自己喜欢的来咯。"
     play sound "fx/eureka.ogg"
-    extend "\n幻影火焰！！"
+    extend "\n幻象火焰！！"
     window hide
     play sound "fx/battle3.ogg"
     show cg campfire_sparks with FadeWhite(0.4)
@@ -1546,7 +1546,7 @@ label day0_hidden_yuuhi:
     window show
     me "那个，整理一下的话，"
     extend "\n就是，操纵火焰、守护世界和平的见习魔法师，夕阳君，\n和企图征服世界的『Wolf's』成员，朔君，是吧？？？"
-    extend "\n这，这种漫画般的剧情……。"
+    extend "\n这、这种漫画般的剧情……。"
     show yuuhi 13 at top with dissolve
     yuuhi "是真的啊！"
     extend "\n我刚才的战斗也让你看过了，要再给你看一次吗？"
@@ -1586,8 +1586,8 @@ label day0_hidden_yuuhi:
     hide cg with dissolve
     hide yuuhi with dissolve
     window show
-    me "是，是么……"
-    extend "\n那，那我还有一件事想确认！\n可以去吗？"
+    me "是、是么……"
+    extend "\n那、那我还有一件事想确认！\n可以去吗？"
     show yuuhi 14 at top with dissolve
     yuuhi "嗯？这个嘛，也可以吧。"
     play sound "fx/running.ogg"
@@ -1617,8 +1617,8 @@ label day0_hidden_yuuhi:
     yuuhi "什么合情合理啊……。"
     me "啊，不是不是。"
     extend "\n如果把这幅狼狈的样子拍下来，\n我想这孩子就不会再伤害我了♪"
-    yuuhi "原，原来如此……？"
-    nori "谁，谁会盯上你这种人啊……！！"
+    yuuhi "原、原来如此……？"
+    nori "谁、谁会盯上你这种人啊……！！"
     extend "\n我已经不想再看到你的脸了！"
     me "诶~别说这种话~？"
     extend "\n只要不危害到我，我当然很欢迎你啦~。"
@@ -1640,7 +1640,7 @@ label day0_hidden_yuuhi:
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
     window show
-    yuuhi "别，别说变态啦！！"
+    yuuhi "别、别说变态啦！！"
     me "诶？"
     show yuuhi 10 with dissolve
     stop music fadeout 0.5
@@ -1649,12 +1649,12 @@ label day0_hidden_yuuhi:
     show cg c92 2 at center with dissolve
     window show
     nori "如果能做到的话，就试试吧……。"
-    me "咦，咦……？为什么突然这么强硬？？"
+    me "咦、咦……？为什么突然这么强硬？？"
     extend "\n你再表现得更讨厌一点啊。"
     "这时，朔一脸快要哭出来的表情，颤抖着用几乎听不见的声音说道。"
     play sound "fx/impact.ogg"
     show cg c92 3 with FadeWhite(0.5)
-    nori "我，我……不穿内裤……"
+    nori "我、我……不穿内裤……"
     extend "\n所以……更进一步的事情……"
     show cg remarkable with Dissolve(0.2)
     play sound "fx/explosion2.ogg"
@@ -1696,7 +1696,7 @@ label day0_hidden_yuuhi:
     extend "\n就交给我这位炎之魔法师 夕阳吧！！"
     me "就算我陷入欲求不满的状态也行吗？"
     show yuuhi 8 with dissolve
-    yuuhi "这，这种事要靠自己解决啊……！"
+    yuuhi "这、这种事要靠自己解决啊……！"
     me "自称正义的伙伴真是可爱啊。"
     show yuuhi 1 with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
