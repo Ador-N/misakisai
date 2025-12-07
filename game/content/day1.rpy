@@ -801,10 +801,10 @@ label day1_layout:
     window show
     tubasa "咦……？"
     show sinobu 5 at topleft with dissolve
-    sinobu "之前……我记得那位老师不是一直都被称作「知名爱妻狂」吗。"
+    sinobu "之前……我记得那位老师不是一直都被称作『知名爱妻狂』嘛。"
     extend "\n他在开学典礼上还秀了一番恩爱呢。"
     play sound "fx/boing.ogg"
-    "不，不好！！"
+    "不、不好！！"
     extend "\n怎么能提十年前的八卦话题啊！！"
     "我看看我看看……有没有能跨越世代的话题……"
     me "你知道御咲祭的七大不可思议吗？"
@@ -817,10 +817,10 @@ label day1_layout:
     me "诶，那里没了！？为什么啊！？"
     show sinobu 23 with dissolve
     sinobu "我怎么知道。"
-    extend "\n从刚才起，你说话就有点不符合时代，真是奇怪。"
+    extend "\n从刚才起，你说的话就有点不符合时代，真是奇怪。"
     "呜……就算变成同龄的样子，还是没有共同话题……！"
     extend "\n这就是年龄代沟吗！！"
-    "虽然我曾对梦一般的世界兴奋不已，但没想到事情会这么麻烦……。"
+    "虽然我曾对这梦境世界兴奋不已，但没想到事情会这么麻烦……。"
     me "那个……"
     show sinobu 24 with dissolve
     sinobu "什么？还有什么事吗？"
@@ -848,7 +848,7 @@ label day1_layout:
     tubasa "……"
     hide sinobu with dissolve
     hide tubasa with dissolve
-    "但果然很辛苦啊……谁来救救我……。"
+    "果然还是很难熬啊……谁来救救我……。"
     window hide
     show sinobu 23 at top with dissolve
     window show
@@ -857,52 +857,52 @@ label day1_layout:
     play music "quiet_lunch.ogg"
     show sinobu 7 with dissolve
     sinobu "我考虑了一下布置组的工作。"
-    me "是，是啊。"
+    me "是、是啊。"
     extend "\n你有什么好主意吗？"
     show sinobu 3 with dissolve
     sinobu "实际去店里参观考察之后再做考虑。"
-    me "诶，诶诶诶诶诶！！"
-    extend "\n那我们目前的讨论怎么办？"
+    me "诶、诶诶诶诶诶！！"
+    extend "\n那今天的讨论要怎么办？"
     show sinobu 23 with dissolve
-    sinobu "做不到。"
+    sinobu "没法讨论。"
     extend "\n没办法啊，不清楚的事就是怎么思考也没用。"
     show sinobu 3 with dissolve
-    extend "\n你要是有不满的话[player_surname]就由你来提个主意好了。"
+    extend "\n不满意的话，[player_surname]，你来提个主意好了。"
     me "呜……。"
     hide sinobu with dissolve
     show tubasa 19 at topright with dissolve
-    tubasa "我，我也赞成，忍的意见。"
-    extend "\n我们都没去过咖啡店，\n不知道该怎么设计布置。"
+    tubasa "我、我也赞成，忍的意见。"
+    extend "\n我们都没去过咖啡店，\n不知道该怎么设计布局。"
     show sinobu 23 at topleft with dissolve
-    sinobu "那么，待会儿我们问问慎太郎有没有什么好的店。"
+    sinobu "那么，我们待会儿问问慎太郎有没有什么好的店。"
     show sinobu 2 with dissolve
     extend "\n然后，明天去考察，看看是什么感觉。"
-    me "那，那至少也得考虑下\n用来做顾客坐的桌椅的数量。"
+    me "那、那至少也得考虑下\n给顾客坐的桌椅的数量。"
     extend "\n这样就结束讨论的话，剩下的时间就浪费了。"
     show sinobu 3 with dissolve
-    sinobu "这也不行。"
+    sinobu "这个也不行。"
     extend "\n因为我们连要申请哪个教室都不知道。"
     me "诶？不是用这间教室吗？"
     show tubasa 13 with dissolve
     tubasa "根据店铺的规模不同，教室也会不同。"
     show tubasa 6 with dissolve
     extend "\n我们是两个班合开一家店，而且还要用到火，\n所以普通的教室不行。"
-    me "原，原来是这样啊。"
+    me "原、原来是这样啊。"
     "我初中时都是听从执行委员的指挥，\n所以完全不了解情况……。"
     me "那么，我们什么时候能选教室？"
     show sinobu 24 with dissolve
     sinobu "后天开始。"
-    extend "\n负责的海老师会做决定，我们要直接和他讨论，提交申请。"
+    extend "\n因为决定权在负责的海老师手里，我们要直接去找他谈，争取把教室拿下来。"
     show tubasa 21 with dissolve
     tubasa "不然的话，班上的同学会很困扰的……。"
     me "原来如此……。"
     show sinobu 23 with dissolve
-    sinobu "目前也没有能做的，虽然时间很短，今天的讨论就到此为止。"
+    sinobu "眼下也没什么能做的了，虽然时间还早，但今天就先解散。"
     extend "\n正式的工作从明天开始。\n你们有意见吗？"
     show tubasa 6 with dissolve
     tubasa "没有。"
     me "唔……。"
-    "这，这孩子真是坚定啊……。"
+    "这、这孩子真是坚定啊……。"
     window hide
     hide sinobu with dissolve
     hide tubasa with dissolve
@@ -913,7 +913,7 @@ label day1_layout:
     extend "\n他从刚才开始好像就无法集中注意力了。"
     "这个小组……能好好完成工作吗？"
     hide tubasa with dissolve
-    me "那个……你们对开一间什么样的咖啡厅有想法吗？"
+    me "那个……你们对『要开一间什么样的咖啡厅』有想法吗？"
     stop music fadeout 1.5
     show tubasa 30 at topright with dissolve
     tubasa "……"
@@ -923,10 +923,10 @@ label day1_layout:
     "不行……他不明白。"
     play music "hurry_up.ogg"
     me "你们两个不对吧，这可不行啊。"
-    extend "\n我们是以两个班级的代表身份当执行委员的，\n我们要更负责任，积极地思考啊！"
-    me "并不是只要做好被交付的工作就够了。"
-    extend "\n自己要好好地思考着想打造什么样的咖啡店，\n然后朝着这个目标好好地努力！"
-    extend "\n如果保持这样的态度，可是做不出好的咖啡店的哦。"
+    extend "\n我们可是代表两个班级的执行委员，\n得更有责任感，更积极地去思考才行！"
+    me "光是完成交代的任务可不够。"
+    extend "\n必须自己思考想要什么样的店铺，\n然后朝着这个目标好好地努力！"
+    extend "\n如果一直是这样的态度，可是打造不出好的咖啡店的哦。"
     show sinobu 27 with dissolve
     sinobu "……"
     show tubasa 22 with dissolve
@@ -951,23 +951,23 @@ label day1_layout:
     show tubasa 4 with dissolve
     tubasa "这样的话，BGM就不要流行音乐，而是古典音乐吧。"
     show tubasa 23 with dissolve
-    tubasa "我的话……我想"
+    tubasa "我的话……我想……"
     show tubasa 4 with dissolve
-    extend "\n开一家即便独自一人进去也不会犹豫的咖啡店。"
+    extend "\n开一家『即便独自一人进去也不会犹豫』的咖啡店。"
     show sinobu 21 with dissolve
     sinobu "要实现一之濑同学的愿望的话，是需要吧台的呢。"
     me "嗯嗯！"
-    extend "\n好啦，这样讨论的话，就会出现接近理想的方案，\n然后思考这个方案的干劲也涌现出来了吧？"
-    me "顺带一提我的话，想开一家老少皆宜的咖啡店。"
-    extend "\n为此，我们需要设置一个包厢，\n最好是能准备西式和日式两种风格。"
+    extend "\n好啦，这样讨论的话，就能想出接近理想的方案，\n而且大家思考的干劲也就上来了吧？"
+    me "顺带一提，我是希望能做成一家老少皆宜的咖啡店。"
+    extend "\n为此，我们需要设置几个隔间，\n最好是能做出西式和日式两种风格。"
     show tubasa 31 with dissolve
     tubasa "这样的话，就需要去学艺室借榻榻米了呢。"
     show sinobu 7 with dissolve
-    sinobu "包厢的话用布帘隔开就可以了吧。"
-    extend "\n确实，而且光靠我们几个肯定人手不够，\n所以得讨论集体协作的事了。"
+    sinobu "隔间的话，用布帘围起来就可以了吧。"
+    extend "\n不过搬榻榻米光靠我们几个肯定人手不够，\n所以得讨论集体协作的事了。"
     me "对对！！"
-    extend "\n好嘞！你们俩都挺有干劲的嘛！！\n明天之后也保持这种气势加油干吧！"
-    extend "\n今天的任务就是想象一下你们各自理想中的咖啡厅！"
+    extend "\n很好！你们俩都挺有干劲的嘛！！\n从明天开始也要保持这个势头加油哦！"
+    extend "\n今天的作业就是想象一下你们各自理想中的咖啡厅！"
     show tubasa 31 with dissolve
     tubasa "我明白了。"
     show tubasa 4 with dissolve
@@ -977,7 +977,7 @@ label day1_layout:
     extend "\n而且还是个热血老师。"
     play sound "fx/dash.ogg"
     "咯噔"
-    me "啊，啊哈哈哈！\n太期待学园祭了，我有些兴奋过头了呢~。"
+    me "啊、啊哈哈哈！\n太期待学园祭了，我有些兴奋过头了呢~。"
     extend "\n抱歉，我有些得意忘形了~明明我也是和你们一样十五岁！"
     show tubasa 13 with dissolve
     tubasa "咦……？"
@@ -985,17 +985,17 @@ label day1_layout:
     sinobu "我们的学年应该是十三或者十四岁才对……。"
     stop music fadeout 1.5
     play sound "fx/boing.ogg"
-    me "啊，不，不对！搞错了！！\n对了！！我是十四岁了！！"
+    me "啊，不、不对！搞错了！！\n对！！我是十四岁啦！！"
     extend "\n我有些兴奋过头，连自己几岁都搞错了。\n真讨厌~啊哈哈哈。"
     show sinobu 2 with dissolve
     sinobu "……"
     play music "quiet_lunch.ogg"
     show sinobu 23 with dissolve
-    sinobu "那差不多告一段落了，\n我还有事，可以稍微离席一下吗？"
-    extend "\n我想30分钟就能回来了。"
+    sinobu "那差不多告一段落了，\n我还有点事，可以稍微离开一下吗？"
+    extend "\n大概三十分钟就能回来了。"
     show tubasa 5 with dissolve
-    tubasa "好，好的。\n也没什么特别要讨论的……"
-    extend "\n接下来就先自由活动吧。"
+    tubasa "好、好的。\n反正也没别的事要讨论了……"
+    extend "\n那接下来就先自由活动吧。"
     me "好，就这么办吧。"
     show sinobu 12 with dissolve
     sinobu "嗯。一会儿见。"
