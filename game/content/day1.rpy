@@ -1348,9 +1348,9 @@ label day1_supply:
 label day1_design_tomo:
     window show
     "跟着友去看看！"
-    extend "\n说不定会发生像刚刚那样的有趣的事情。"
+    extend "\n说不定会发生像刚才那样的有趣的事~。"
     me "那我也先离开一下。"
-    "跟慎太郎说完后，我跟着友来到走廊。"
+    "跟慎太郎说过之后，我跟着友来到走廊。"
     window hide
     show tubasa 14 at top with dissolve
     window show
@@ -1361,10 +1361,10 @@ label day1_design_tomo:
     play sound "fx/sliding_door.ogg"
     show bg hallway_evening at center with dissolve
     window show
-    "跟随着友走在顶楼的走廊上。"
-    "他要去哪里呢？前面有什么东西吗。"
+    "我尾随着友，走在顶楼的走廊上。"
+    "他要去哪里呢？前面有什么东西吗…。"
     stop music fadeout 0.5
-    "来到走廊尽头，我看到友把手放在门上，\n门上挂着「音乐教室」的门牌。"
+    "来到走廊尽头，友把手搭在了一扇门上。\n门牌上写着『音乐教室』。"
     window hide
     play music "tomo_theme.ogg"
     show tomo 18 at top with dissolve
@@ -1373,12 +1373,12 @@ label day1_design_tomo:
     window show
     tomo "哇！[player_name]君，你在尾随我吗？"
     me "啊哈哈。"
-    extend "\n友君你要去哪里，我有些好奇。"
+    extend "\n只是有些好奇友君你要去哪里。"
     show tomo 11 with dissolve
     play sound "fx/boing.ogg"
-    tomo "哎呀哎呀，[player_name]君，你才这么点年纪就喜欢跟踪别人啦？"
-    extend "\n真是未来可期呢~。"
-    "将来岌岌可危的是你们俩才对……。"
+    tomo "哎呀哎呀，[player_name]君，小小年纪就是跟踪狂了吗？"
+    extend "\n这前途还真是不可限量啊~。"
+    "将来岌岌可危的是你们俩才对吧……。"
     show tomo 2 with dissolve
     tomo "开个玩笑啦！"
     show tomo 12 with dissolve
@@ -1390,17 +1390,17 @@ label day1_design_tomo:
     show bg music_room_evening at center with dissolve
     window show
     "（叮铃铃）"
-    "音乐教室和平常的教室不一样，没有课桌\n只有靠墙排列的椅子。"
+    "音乐教室和平常的教室不一样，没有课桌，\n只有靠墙排列的椅子。"
     extend "\n可能因为这样，才会让人感觉十分宽敞。"
     "音乐教室啊……。"
-    extend "\n虽然平时除了上课之外没怎么接触过，但是墙上贴的音乐家的肖像画给我留下了深刻的印象。"
+    extend "\n虽然以前除了上课之外没怎么来过，但墙上贴的音乐家的肖像画给我留下了深刻的印象。"
     extend "\n哈哈……我也只知道贝多芬而已。"
     me "好怀念啊……。"
     window hide
     show tomo 21 at top with dissolve
     window show
     tomo "怀念？怀念什么？"
-    me "没，没什么！"
+    me "没、没什么！"
     extend "\n对了，原来友君会弹钢琴啊。"
     extend "\n有些意外呢~。"
     show tomo 2 with dissolve
@@ -1413,7 +1413,7 @@ label day1_design_tomo:
     show tomo 10 with dissolve
     extend "\n……好，就弹那个吧！"
     show cg yellow at center with dissolve
-    "刚才还在开玩笑的少年\n究竟会弹出多么有趣而又美妙的曲子呢。我有些期待"
+    "刚才还在开玩笑的少年，\n究竟会弹出多么有趣而美妙的曲子呢。我有些期待。"
     stop music fadeout 2.0
     extend "\n比如超高速『踩到猫』之类的吗。"
     extend "那个相当厉害呢。"
@@ -1429,7 +1429,7 @@ label day1_design_tomo:
     extend "……。"
     "……"
     extend "……诶？"
-    "这，这真是令人惊讶啊……。"
+    "这、这真是令人惊讶啊……。"
     extend "\n没想到他居然能弹奏出这种曲子啊！"
     "好厉害啊……。"
     extend "\n虽然对音乐一窍不通的我没法表达清楚，\n但能够让听者觉得美妙的演奏，一定称得上是优秀的演奏。"
@@ -1438,10 +1438,10 @@ label day1_design_tomo:
     extend "虽然不知道曲名。"
     "哈啊……真是令人平静啊。心情也舒畅了许多。"
     extend "\n仿佛连工作的疲倦都一扫而空了。"
-    extend "\n话说，现在是初中生啊。"
-    "真想永远听他演奏下去啊。"
-    "弹奏着钢琴的友，与平时判若两人，\n表情威风凛凛，手指动作也十分华丽。"
-    "仿佛身处梦境中，又进入了更为美妙的梦境一般。"
+    extend "\n不对，我现在可是个初中生啊。"
+    "真想永远听他演奏下去，呢。"
+    "弹起钢琴的友，和平时简直判若两人，\n神情凛然，指法华丽。"
+    "仿佛是在梦境的世界里，又做了一个更美的梦。"
     window hide
     show bg music_room_evening at center
     stop music fadeout 3.0
@@ -1453,15 +1453,15 @@ label day1_design_tomo:
     play music "tomo_theme.ogg"
     show tomo 12 with dissolve
     extend "怎么样？"
-    "弹奏完之后，友又变回了平时那和蔼的表情。"
-    "我一边拍着手，一边靠近友。"
+    "弹奏结束后，友又变回了平时那副温和的神情。"
+    "我一边鼓掌，一边向他走去。"
     me "哎呀……真的很棒啊。"
-    extend "\n好久都没有被感动过了。谢谢。"
-    extend "\n都让人想录下来做成开车的BGM了。"
+    extend "\n好久都没有被感动到了。谢谢你。"
+    extend "\n简直想录下来，当作开车时的BGM啊。"
     show tomo 6 with dissolve
-    tomo "开，开车……还早着呢。"
+    tomo "开、开车……还早着呢。"
     show tomo 4 with dissolve
-    extend "\n但是，谢谢你的收听！"
+    extend "\n不过，谢谢你愿意听！"
     show tomo 10 with dissolve
     extend "\n刚才的曲子，是萨蒂作曲的『Gymnopedies』。"
     extend "\n是我很喜欢的一首曲子~。"
@@ -1469,9 +1469,9 @@ label day1_design_tomo:
     play sound "fx/sparkle.ogg"
     show tomo 11 with dissolve
     extend "\n[player_name]君很喜欢这种题材吧？"
-    "友露出小恶魔般的笑容说到。"
-    me "没，没那种事哦！"
-    extend "\n我是很健全的……。"
+    "友露出小恶魔般的笑容说道。"
+    me "没、没那种事哦！"
+    extend "\n我是很纯洁的……。"
     show tomo 2 with dissolve
     tomo "骗人~！！"
     extend "\n刚才在教室，聊色色的事聊得那么起劲！"
@@ -1480,31 +1480,31 @@ label day1_design_tomo:
     play sound "fx/boing.ogg"
     extend "在厕所的时候也完全没有抵抗。"
     me "呜咕……"
-    extend "对，对了。\n小友你是为什么开始学钢琴的？"
+    extend "对、对了。\n友君是因为什么开始学钢琴的？"
     extend "\n你以前上过钢琴课吗？"
     show tomo 1 with dissolve
     tomo "没有。"
     extend "\n一直都是妈妈教我的。"
-    me "哦～原来妈妈还会弹钢琴啊，那很了不起啊~。"
+    me "哦~原来妈妈还会弹钢琴啊，那很了不起啊~。"
     show tomo 4 with dissolve
     tomo "嗯！妈妈就是钢琴老师！"
     show tomo 10 with dissolve
-    extend "\n弹得很好，还去了维也纳，\n还参加了那里的管弦乐团的钢琴协奏曲演出哦！"
+    extend "\n她弹得很好，还去过维也纳，\n还参加了那里的管弦乐团的钢琴协奏曲演出哦！"
     extend "\n深受那边有名的指挥的信赖呢~。"
     play sound "fx/cute.ogg"
     $ renpy.transition(Quake(0, 50, 0.1, 0.09), layer='master')
-    me "嘿，嘿~！好厉害啊！！！维也纳吗！！"
+    me "嘿、嘿~！好厉害啊！！！维也纳吗！！"
     extend "\n而且，管弦乐团！？钢琴协奏曲！"
     extend "\n指挥啊~！嗯~！"
     hide tomo with dissolve
-    "中学生说出这种厉害的词语，我不由得有些退缩。"
-    extend "\n都25岁了，还真是羞愧……。"
-    me "顺便问一下，你父亲是做什么的？"
+    "中学生说出这种厉害的词语，我不禁被震住了。"
+    extend "\n都25岁了，还真有些羞愧……。"
+    me "顺便问问，你父亲是做什么的呢？"
     window hide
     show tomo 22 at top with dissolve
     window show
     tomo "嗯~。父亲吗。"
-    extend "\n如果是有名大公司的社长……真好啊。"
+    extend "\n如果是有名大公司的社长的话……该多好啊。"
     "如果是……？"
     extend "实际上是小企业的普通员工吗。"
     show tomo 21 with dissolve
@@ -1512,55 +1512,55 @@ label day1_design_tomo:
     stop music fadeout 2.0
     hide tomo with dissolve
     show tomo 4 at topright with dissolve
-    extend "翼 ！！"
+    extend "翼——君——！！"
     extend "\n别站在门口，进来嘛！"
     "我一回头，"
     show tubasa 1 at topleft with Dissolve(0.8)
-    "发现翼偷偷站在了门口。"
+    "发现翼正偷偷摸摸地站在门口。"
     hide tubasa with dissolve
     hide tomo with dissolve
     window hide
     play music "tubasa_theme.ogg"
     show tubasa 3 at topleft with dissolve
     window show
-    tubasa "那，那个……打扰了…。"
-    "翼小声说着，靠近我。"
+    tubasa "那、那个……打扰了…。"
+    "翼小声说着，走了过来。"
     show tomo 1 at topright with dissolve
-    tomo "翼的小组也在休息？"
-    extend "\n怎么样？讨论的顺利吗？"
+    tomo "翼君的小组也在休息吗？"
+    extend "\n怎么样？讨论得顺利吗？"
     show tubasa 5 with dissolve
-    tubasa "嗯，嗯。还行吧。"
+    tubasa "嗯、嗯。还行吧。"
     show tubasa 1 with dissolve
-    "翼来回看了看友和我，然后露出了复杂的表情。"
-    "哦，他是在担心我们俩的关系吧。"
-    "察觉到这点的我，便主动向翼搭话。"
-    me "你也知道了吗？友会弹钢琴。"
+    "翼的视线在友和我之间来回游移，然后露出了复杂的表情。"
+    "哦，他是在担心我和友走得太近吧。"
+    "隐约察觉到这点的我，便主动向翼搭话。"
+    me "翼君也知道吗？友会弹钢琴。"
     show tubasa 2 with dissolve
-    tubasa "嗯，嗯。"
+    tubasa "嗯、嗯。"
     extend "\n我一开始也是听了刚才的『Gymnopedies』……"
     show tubasa 12 with dissolve
-    extend "那时候真是吓了我一大跳啊。"
+    extend "那时候，真是吓了我一大跳呢。"
     me "也是啊。"
     extend "我也被吓了一跳呢。"
     extend "\n哎呀~真是，人不可貌相呢。"
     show tomo 6 with dissolve
     tomo "你这是在夸我还是在损我啊~？？"
     me "当然是在夸你了！"
-    extend "\n友君，谢谢你让我聆听了这么美妙的音乐。"
-    extend "\n不仅是音乐，你弹奏的样子也非常华丽哦。"
+    extend "\n友君，谢谢你让我听到这么美妙的音乐。"
+    extend "\n不仅是音乐，你弹奏的样子也非常帅气哦。"
     extend "\n下次再让我欣赏一下吧。"
     show tomo 8 with dissolve
-    tomo "你，你这么夸我，我都有点害羞了……。"
+    tomo "你、你这么夸我，我都有点害羞了……。"
     show tomo 23 with dissolve
-    extend "\n不，不用谢……。"
+    extend "\n不、不用谢……。"
     show tubasa 14 with dissolve
     tubasa "……"
     show tomo 24 with dissolve
     tomo "哎呀，在这休息得似乎有点久了呢。"
-    extend "\n弹了一曲后终于清爽多了，回教室吧！"
+    extend "\n弹了一曲感觉神清气爽。好，回教室吧！"
     play sound "fx/sliding_door.ogg"
     hide tomo with dissolve
-    "说完，友从音乐教室里出来了。"
+    "说完，友便走出了音乐教室。"
     window hide
     hide tubasa with dissolve
     show tubasa 15 at top with dissolve
@@ -1568,34 +1568,34 @@ label day1_design_tomo:
     tubasa "[player_name]君……对友君是…。"
     me "诶？"
     show tubasa 8 with dissolve
-    tubasa "没，没什么！"
+    tubasa "没、没什么！"
     show tubasa 4 with dissolve
-    extend "\n我，我们也一起去！"
+    extend "\n我、我们也一起回去！"
     "真是的……这个孩子也太好懂了。"
-    me "翼……你真的喜欢友君呢。"
+    me "翼……你真的，喜欢友君呢。"
     show tubasa 8 with dissolve
     $ renpy.transition(Quake(0, 65, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
     tubasa "诶！？"
-    extend "你，你在说什么"
+    extend "你、你在说什么……！"
     me "嗯，我知道的。"
-    extend "\n就算是从我这个大人角度来看，那个孩子也非常有魅力。"
+    extend "\n毕竟就算是我这个大人看来，那孩子也确实非常有魅力啊。"
     show tubasa 2 with dissolve
-    tubasa "这，这是……什么意思？"
+    tubasa "这、这是……什么意思？"
     me "这个嘛~秘密♪"
     show tubasa 7 with dissolve
     $ renpy.transition(Quake(0, 65, 0.1, 0.15), layer='master')
     play sound "fx/cute3.ogg"
     tubasa "诶诶诶诶！"
-    extend "\n请，请告诉我，[player_name]君！！"
+    extend "\n请、请告诉我，[player_name]君！！"
     me "不行♪"
     tomo "你们两个在干什么呢~？？"
     extend "\n赶紧走吧！"
     window hide
     hide tubasa with dissolve
     window show
-    "我从正摸着耳朵的翼身边溜出来，朝门口走去，正好遇到了回来叫我们的友。"
-    "翼看着我们走远，更加焦急地跟了上来，\n我们就这样悠闲地离开了音乐教室。"
+    "我抢先一步，撇下那快要急哭的翼，径直向着从门口探出脑袋的友走去。"
+    "看到这一幕，翼愈发焦急地跟了上来。\n就这样，连同那个悠闲天真的友一起，我们离开了音乐教室。"
     window hide
     stop music fadeout 0.5
     hide bg with Dissolve(0.8)
