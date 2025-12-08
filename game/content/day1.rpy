@@ -1017,146 +1017,146 @@ label day1_cooking:
     play music "twins_theme.ogg"
     show sora 3 at topright with dissolve
     window show
-    sora "好了，既然我们担任『料理组』，"
-    extend "\n先来讨论一下，要做什么样的菜单吧。"
+    sora "好，既然我们是『料理组』，"
+    extend "\n那就先来讨论一下，要制定什么样的菜单吧。"
     show tuki 9 at topleft with dissolve
-    tuki "空喜欢吃甜食，又很了解，甜食类就交给空来考虑吧。"
-    extend "\n[player_surname]和我就一起考虑食物类的菜品吧。"
+    tuki "空喜欢甜食，对这方面也很了解，甜点类就交给空吧。"
+    extend "\n[player_surname]就和我一起考虑主食的菜单吧。"
     me "嗯，好的。"
-    "虽然我被双胞胎这少见的属性吸引，选择了这个小组，但....."
-    extend "\n一参加讨论，不由得紧张起来,先前的气势就荡然无存了。"
+    "虽说我是被双胞胎这少见的属性吸引，才选择了这个小组，但……"
+    extend "\n真到了讨论的时候，刚才那股气势不知跑哪去了，反倒莫名紧张起来。"
     show sora 12 with dissolve
     sora "甜食吗。"
-    extend "\n唔~……确实挺喜欢，\n不过进蛋糕店很让人害羞，\n实际上也没有吃过几次。"
+    extend "\n唔~……我是很喜欢，\n但进蛋糕店总觉得很不好意思，\n所以其实也没吃过多少次呢。"
     show tuki 5 with dissolve
-    tuki "为什么害羞呢？"
-    extend "\n品尝喜欢的东西，还在意周围的目光干嘛？"
+    tuki "为什么会害羞呢？"
+    extend "\n品尝喜欢的东西，还在意周围人的眼光干嘛？"
     show sora 13 with dissolve
-    sora "因，因为……那种店里都是些女孩子，\n我这样的男生进去的话，会很显眼的。"
+    sora "因、因为……那种店里全是女孩子，\n我一个男生进去，会显得格格不入啊。"
     show tuki 4 with dissolve
     tuki "什么嘛，原来是这样啊。"
     extend "\n空，你放心吧。"
-    extend "\n长得像你这样可爱，漂亮，清纯的话，\n就算在那种地方，也不会让人觉得奇怪。"
+    extend "\n像你这般可爱、漂亮又清纯的话，\n就算是在那种地方，也不会让人觉得奇怪的。"
     show sora 14 with dissolve
-    sora "什，什么啊……感觉开心不起来。"
+    sora "什、什么嘛……感觉开心不起来。"
     show tuki 12 with dissolve
     $ renpy.transition(Quake(40, 0, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
-    tuki "为，为什么啊。\n我这不是在夸你吗？"
+    tuki "为、为什么啊。\n我这不是在夸你嘛？"
     show sora 27 with dissolve
-    sora "因，因为，这不像是该对男孩子说的话啊。"
+    sora "因、因为，这不像是该对男孩子说的话啊。"
     show sora 5 with dissolve
     extend "\n你说是吧？[player_name]君。"
-    me "嗯，嗯。"
+    me "嗯、嗯。"
     show tuki 7 with dissolve
     $ renpy.transition(Quake(0, 60, 0.1, 0.15), layer='master')
     play sound "fx/dash.ogg"
-    tuki "才不会。\n这说话说给男生也是可以的。"
+    tuki "才不会。\n这些话说给男生听也是可以的。"
     extend "特别是对空这样有魅力的人来说！！"
-    extend "\n啊？[player_surname]。"
+    extend "\n是吧，[player_surname]？"
     $ renpy.transition(Quake(0, 60, 0.1, 0.15), layer='master')
     play sound "fx/cute3.ogg"
-    me "哦，哦。"
+    me "噢，嗯。"
     show tuki 1
     show sora 4 with dissolve
-    "别，别两个人都盯着我啊……！"
-    extend "\n现在的我，可没有闲心享受这种至福的状况啊啊啊啊！！"
+    "别、别两个人都盯着我啊……！"
+    extend "\n现在的我，可完全没心思去应付你们小情侣的打情骂俏啊啊啊啊！！"
     show sora 2 with dissolve
     sora "话说回来，甜品啊。"
-    extend "\n嗯……果然，还是必须有芭菲啊！"
-    extend "\n我，想试着做一次巧克力香蕉芭菲啊。"
+    extend "\n嗯……果然还是少不了芭菲呢！"
+    extend "\n我一直很想试着亲手做一次巧克力香蕉芭菲看看。"
     extend "\n其他的还有什么呢……。"
     show tuki 9 with dissolve
-    tuki "说起咖啡厅的菜品，\n果然还是三明治和吐司面包之类的面包类最多呢。"
-    extend "\n不过森海说还会加入日式和中式餐点，\n所以……"
+    tuki "说起咖啡厅的主食，\n果然还是三明治和吐司之类的面包为主流啊。"
+    extend "\n不过，森海说还会加入加入日式和中式风格，\n该如何安排才好呢……"
     show sora 3 with dissolve
     sora "[player_name]君，你有什么喜欢的甜点吗？"
     show tuki 15 with dissolve
-    tuki "[player_surname]你有什么别的食品推荐吗？"
+    tuki "[player_surname]，关于其他的菜品，你有什么主意吗？"
     $ renpy.transition(Quake(0, 60, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
-    me "哦，哦。"
+    me "哦、哦……"
     show tuki 16
     show sora 21 with dissolve
     tuki_and_sora "……？"
     "空和月面面相觑。"
     show sora 5 with dissolve
     sora "[player_name]君，你的身体还是不舒服吗？"
-    extend "\n真的不要紧？没有发烧吧？"
+    extend "\n真的不要紧吗？没有发烧吧？"
     show tuki 6 with dissolve
-    tuki "刚才已经说过了，这种时候不用客气直说就好。"
-    extend "\n否则不只是你，还会影响周围的人。"
-    me "没，没问题的！"
-    extend "\n你看~我这不是好好的吗，精神得很！！"
-    "为了不让二人担心，我摆出充满肌肉的姿势拼命地表达着。"
+    tuki "我刚才也说过吧，这种时候不用客气，直接说出来。"
+    extend "\n不然的话，不只是你，还会影响到周围的人啊。"
+    me "没、没问题的！"
+    extend "\n你看~我这不是好好的嘛，精神得很！！"
+    "为了不让二人担心，我摆出展示肌肉的姿势，拼命表现出我很健康的样子。"
     play sound "fx/eureka.ogg"
     "没错！"
-    extend "\n只要看到这两人，然后跟往常一样，想象些危险的事，"
-    extend "\n那么紧张感一定会缓解的！"
+    extend "\n只要看着他们俩，跟往常一样进行些危险的想象，"
+    extend "\n紧张感一定很快就会缓解的！"
     hide sora with dissolve
     hide tuki with dissolve
     show sora 21 at top with dissolve
-    sora "虽然也想做蛋糕，不过手工做实在太难了。"
+    sora "虽然我也想卖蛋糕，不过手工制作实在太辛苦了。"
     extend "\n到底该怎么做才好呢？"
     "赤峰空君……"
     window hide
     play sound "fx/sparkle.ogg"
     show cg c47 1 at center with dissolve
     window show
-    extend "不管怎么说，这孩子那温柔的表情真好。"
-    extend "\n这温和的表情，连看着的人也会被治愈。"
-    "另外，他的身体纤细又华丽。"
-    extend "\n但是，又不会显得单薄。"
-    extend "\n均衡的肌肉也恰到好处地遍布在了各处。"
-    extend "\n这正是集青春期少男特征于一身的迷人身材。"
-    "哈，哈……。"
+    extend "说到底，这孩子最棒的还是这副温柔的神情。"
+    extend "\n光是看着那平静的面容，就能治愈心灵了。"
+    "还有，这线条纤细而优美的身体。"
+    extend "\n但是，这也不意味着他是弱不禁风的。"
+    extend "\n柔韧的肌肉也恰到好处地附着在骨骼之上。"
+    extend "\n这简直是集青春期少年的特质于一身的，极具魅力的体型啊。"
+    "哈、哈……。"
     window hide
     hide sora with dissolve
     hide cg with dissolve
     show tuki 3 at top with dissolve
     window show
-    tuki "该不该也加入饭食和面类呢……"
-    extend "\n但是那样的话就太花时间了，和食堂的饭菜又不一样…。"
+    tuki "该不该推出一些米饭或者面类主食呢……"
+    extend "\n不过这样做似乎很费功夫，而且跟学校食堂没什么两样了……。"
     "赤峰月君……"
     window hide
     play sound "fx/sparkle.ogg"
     show cg c47 2 at center with dissolve
     window show
-    extend "与柔和的空君相比，这凛然的面容显得格外帅气。"
-    extend "\n但正因是这样的他，才更想看看\n当他沦为受的一方时，究竟会露出何等表情！\n难道不是吗！？！？"
-    "更何况，不论怎么说，这锻炼得来的，肌肉结实的身体实在是太棒了。"
-    extend "\n那结实的身体，手感一定很不错吧。"
-    extend "\n虽然我比他年长，但还是想被他强抱……。"
+    extend "与气质柔和的空君相对，这张凛然的面容真是格外帅气。"
+    extend "\n但正因他是这般硬汉，\n一旦沦为受方之时，究竟会露出怎样的表情——\n难道只有我一个人在意这点吗！？"
+    "更何况，不管怎么说，这副锻炼得来的肌肉体格简直太美妙了。"
+    extend "\n那结实壮硕的身体，手感一定很不错吧。"
+    extend "\n虽说我比他年长，但真想被他抱一次啊……。"
     hide cg with dissolve
     hide tuki with dissolve
     hide bg with dissolve
     stop music fadeout 2.0
-    "呼……呼……"
+    "呼……哈啊……"
     window hide
     show bg classroom at center with dissolve
     show sora 19 at topright with dissolve
     window show
-    sora "那，那个……[player_name]君？"
+    sora "那、那个……[player_name]君？"
     show tuki 16 at topleft with dissolve
-    tuki "从刚才开始，你的呼吸就有些粗重了。\n怎么了？"
+    tuki "从刚才开始，你的喘气声就很粗哦。\n怎么了？"
     me "啊……。"
     play sound "fx/boing.ogg"
     "呜！！糟了！"
-    extend "\n这次，反倒是露出了真面目……！"
+    extend "\n这次，反倒是露出本性了……！"
     show sora 22 with dissolve
     play music "discovery.ogg"
     sora "果然身体不舒服吧！！\n我们去医务室吧！"
     show tuki 6 with dissolve
     tuki "是啊。"
-    extend "\n[player_surname]他似乎很固执，就强行带他去吧。"
-    me "不，不是的，不是这样的，你们两个！\n这，这个情况是有原因的……"
+    extend "\n[player_surname]这家伙相当倔呢，就算硬拖也要把他带过去。"
+    me "不、不是的，不是这样的，你们两个！\n这、这是有原因的……"
     show sora 23 with dissolve
     sora "少啰嗦！"
-    extend "\n来吧，哥哥。你来拉住他的肩膀。"
+    extend "\n来，哥哥。你架住那边的肩膀。"
     show tuki 17 with dissolve
     tuki "我明白了。"
-    extend "\n准备抬起来，一，二，三！"
-    "就这样，我被空和月架着，带到了保健室。"
+    extend "\n要站起来咯，一、二、三！"
+    "就这样，我在空和月的左右搀扶下，被『押送』到了医务室。"
     stop music fadeout 0.5
     window hide
     play sound "fx/sliding_door.ogg"
@@ -1169,17 +1169,17 @@ label day1_cooking:
     window show
     teacher "嗯。"
     extend "\n体温和脉搏都很正常。\n喉咙好像也没有肿起来，应该没什么问题。"
-    extend "\n不过，你还是躺一会，等没有不舒服了再回到教室。"
+    extend "\n不过，你还是躺一会儿，等没有不舒服的感觉了再回教室。"
     show tuki 15 at topleft with dissolve
     tuki "我明白了。"
     extend "\n非常感谢您。"
     show sora 22 at topright with dissolve
     sora "好了，[player_name]君。"
     extend "\n到这边的床上来吧~。"
-    "我完全被当做病人对待了，也因为突然的展开而疲惫，"
-    extend "\n已经没有力气反驳了，只能老老实实的躺在了床上。"
+    "彻底被当成病号对待了……再加上这突如其来的展开让我身心俱疲，"
+    extend "\n我已经连反驳的力气都没了，只好乖乖地躺到了床上。"
     "啊~感觉就像在翘课一样，简直就像是漫画情节。"
-    extend "\n以前的我还很老实，做不到这种事情啊~。"
+    extend "\n以前的我还很老实，做不出这种事情啊~。"
     window hide
     hide cg with dissolve
     hide tuki with dissolve
@@ -1188,50 +1188,50 @@ label day1_cooking:
     window show
     sora "你是从什么时候开始觉得不舒服的呢？"
     extend "\n最近天气变冷了吧。"
-    extend "\n所以，才导致身体有点不舒服吗？"
+    extend "\n是不是因为这个，身体才有点不舒服呀？"
     show tuki 5 at topleft with dissolve
     tuki "要喝点什么吗？"
     extend "\n我可以把室温再调高一点。"
     extend "\n有能帮上忙的地方的话，尽管说。"
-    "啊，但是，这样也挺好的……。"
-    extend "\n能被两个少年这样温柔对待，\n我是多么幸福啊……。"
-    me "谢谢你们两个。\n但是，我真的没事，不用担心。"
+    "啊，不过，这样就挺好的……。"
+    extend "\n能被两个少年这样温柔对待，\n我还真是幸福啊……。"
+    me "谢谢你们。\n但是，我真的没事，不用担心。"
     extend "\n你们的好意我心领了。"
     show sora 4 with dissolve
     sora "是吗……\n那就好。"
     extend "\n哥哥，料理组的讨论要怎么办？"
     show tuki 4 with dissolve
-    tuki "啊，我们好像也没能帮上什么忙，\n而且老师也在这里，"
-    extend "\n我们先回教室里继续吧。"
-    me "诶。"
+    tuki "嗯，我看我们留在这里也帮不上什么忙，\n况且还有老师在照看。"
+    extend "\n不如我们先回教室，继续讨论吧。"
+    me "欸。"
     show sora 21 with dissolve
-    sora "对啊。"
-    extend "距离御咲祭也没多少时间了，\n就只做我们俩能做到的吧。"
+    sora "说得也是。"
+    extend "毕竟离御咲祭也没剩多少时间了，\n那就先去推进一下我们两个能做的工作吧。"
     me "等……！"
     hide sora with dissolve
     hide tuki with dissolve
     play sound "fx/shock.ogg"
-    "等，等一下！！"
-    extend "\n这样的话，我也想回教室……！"
-    extend "\n如果你们俩不在的话，这个状况也就没有意义了啊！！"
-    "但是，就算我说要回教室，他们也会阻止我的吧。"
+    "等、等一下！！"
+    extend "\n既然那样的话，我也要回教室……！"
+    extend "\n要是没有你们俩陪在身边，这样根本就毫无意义啊！！"
+    "不过，就算我现在说要回教室，他们两个肯定也会拦着我的吧。"
     "那么……"
     $ renpy.transition(Quake(0, 60, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
-    me "咳，咳咳！！"
-    extend "\n请，请等一下……。"
-    extend "\n你们俩都不在的话，\n我……会很寂寞的，感觉感冒也会恶化下去……。"
+    me "咳、咳咳！！"
+    extend "\n请、请等一下……。"
+    extend "\n要是你们俩都不在，\n我……一寂寞，感觉感冒都要加重了……。"
     "感什么冒啊。"
     extend "\n我是兔子吗。"
-    extend "\n都25岁了，还这么丢人现眼……。"
+    extend "\n都25岁的人了，还这么丢人现眼……。"
     "但是！！"
     play sound "fx/dash.ogg"
-    "这种至福的状况，我可不能眼睁睁看着它结束！！"
+    "面对这种天大的甜头，我怎么能眼睁睁看着它结束！！"
     show sora 19 at topright with dissolve
-    sora "唔，唔……"
-    extend "\n那么，是不是留一个人在这比较好……？"
+    sora "唔、唔……"
+    extend "\n那么，是不是留一个人在这里比较好……？"
     show tuki 2 at topleft with dissolve
-    tuki "是啊。\n另一个人回教室继续工作。"
+    tuki "行吧。\n那另一个人回教室继续工作。"
     extend "\n毕竟，我们也不能在这里讨论工作的事。"
     hide tuki with dissolve
     hide sora with dissolve
@@ -1795,7 +1795,7 @@ label day1_design_sintarou:
     sintarou "啊，我先说好了，"
     play sound "fx/wow2.ogg"
     extend "不可以做爱。"
-    "是啊，不可以做爱……做爱。。"
+    "是啊，不可以做爱……做爱。"
     play music "sintarou_theme.ogg"
     play sound "fx/boing.ogg"
     me "呃，啥？"
@@ -2495,7 +2495,7 @@ label day1_cooking_tuki:
     extend "\n真想一直这样下去啊~。"
     tuki "哈哈哈。"
     extend "\n一直这样下去的话，永远也没法恢复健康哦？"
-    "……实际上，我现在并不是身体不舒服的状态，真的想一直这样下去。。"
+    "……实际上，我现在并不是身体不舒服的状态，真的想一直这样下去。"
     "话说回来……虽然很顺利地就发展成了这样，\n可这是不是也太夸张了！！！？？"
     extend "\n在我这个正太控的旁边，一个中学二年级的男生，正和我躺在一起。"
     extend "\n做梦都没想到会遇到的场景，现在却变成了现实（？）！！！"
