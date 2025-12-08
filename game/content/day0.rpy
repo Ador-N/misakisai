@@ -791,11 +791,11 @@ label day0_normal:
     hide nori with Dissolve(1.5)
     window show
     "我把手伸进裤兜，摸到了装有小块糖果的透明小袋。"
-    me "完全没察觉……这孩子。。"
+    me "完全没察觉……这孩子。"
     "我回想起不久前还在身边的那个少年的面容。"
     extend "\n不过，那孩子很可爱啊。"
     show cg telephone_pole_night at center with Dissolve(0.6)
-    "……不如说，我更想和他，多聊聊，\n这是我想去实现的愿望。。"
+    "……不如说，我更想和他，多聊聊，\n这才是我想去实现的愿望。"
     window hide
     hide bg with Dissolve(1.0)
     hide cg with Dissolve(1.0)

@@ -3621,7 +3621,7 @@ label day3_layout_2_sinobu:
     extend "\n不深究对方也是温柔。"
     me "唔咕……。"
     sinobu "这种时候，直到该说的时候为止都是秘密。"
-    me "说的也是……那今天这个话题就打住吧。。"
+    me "说的也是……那今天这个话题就打住吧。"
     "我和忍一边聊着天，一边走着。"
     window hide
     show 夕空 evening with Dissolve(2.0)
@@ -4272,7 +4272,7 @@ label day3_2_tuki:
     sora "从旁观者来看，这已经很明显了。"
     extend "\n无论什么时候，看着哥哥的眼神都是幸福的，充满愉悦的！"
     hide sora with dissolve
-    me "啊，啊哈哈……被你占了上风了啊。。"
+    me "啊，啊哈哈……被你占了上风了啊。"
     "虽然我没有意识到，但我对月就是这么……。"
     window hide
     show tuki 5 at topleft with dissolve
@@ -5547,7 +5547,7 @@ label day3_design_2_sintarou:
     extend "\n已经不是被称作大哥哥的年龄了吗……。"
     "是这样啊……"
     extend "\n重新想想，我们之间差了10岁……"
-    extend "\n我在激动个什么啊……（害羞）。。"
+    extend "\n我在激动个什么啊……（害羞）。"
     show sintarou 29 with dissolve
     sintarou "好！不要这么消沉啊。"
     extend "\n我的接受范围可是很大的哦"
@@ -5620,7 +5620,7 @@ label day3_design_2_sintarou:
     "我沐浴过后，泡进了浴缸里。"
     "唰"
     me "哈啊啊啊……好舒服……"
-    extend "\n简直就是天堂啊啊啊。。"
+    extend "\n简直就是天堂啊啊啊……"
     "虽然慎太郎不在场很可惜，但泡澡还是十分舒服的……。"
     extend "\n热水也很好啊……不热不冷，身体能够完全放松下来。"
     extend "\n疲劳也消失得无影无踪。"

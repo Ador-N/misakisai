@@ -2453,7 +2453,7 @@ label day2_cooking:
     show tuki 4 with dissolve
     tuki "的确，非常的多汁，肉也很厚实，让人很有饱腹感。"
     extend "\n和那附近的快餐店的东西相比，美味多了。"
-    "嘛，嘛，用了那么高级的肉，\n只要不是犯了什么大的错误的话，做出的东西肯定好吃的。。"
+    "嘛，嘛，用了那么高级的肉，\n只要不是犯了什么大的错误的话，做出的东西肯定好吃的。"
     extend "\n但是，能这样看到你们两个人吃得这么开心，我非常高兴……。"
     extend "\n你们俩看起来也很好吃的样子啊……。"
     show sora 3 with dissolve
@@ -2826,7 +2826,7 @@ label day2_supply:
     show saburo 5 with dissolve
     saburo "我也是。"
     extend "\n那今天就先到这里解散吧？\n感觉你们都有想做的事情呢！"
-    "呜……时候到了啊。。"
+    "呜……时候到了啊。"
     extend "\n如果可以的话，我还想和他们在一起待得久一点啊……！！"
     hide saburo with dissolve
     hide sakuya with dissolve
@@ -2880,7 +2880,7 @@ label day2_design_tomo:
     play sound "fx/boing.ogg"
     window show
     clerk "72件么？！"
-    extend "\n哎呀~能买这么多我很开心，\n但是没有库存了哦。。"
+    extend "\n哎呀~能买这么多我很开心，\n但是没有库存了哦。"
     me "那，那就……"
     extend "\n周五之前能进货吗？"
     show tomo 20 at top with dissolve
@@ -3582,7 +3582,7 @@ label day2_design_sintarou:
     show tomo 5 with dissolve
     tomo "什，什么！！"
     me "我可没说啊！！"
-    "真是的……对上慎太郎可真没辙了啊。。"
+    "真是的……对上慎太郎可真没辙了啊。"
     hide sintarou with dissolve
     hide tomo with dissolve
     "虽然确实刚才那是偶然……但是我内心已经兴奋起来了。"
