@@ -1255,94 +1255,94 @@ label day1_supply:
     stop sound fadeout 0.5
     show saburo 6 with dissolve
     play music "discovery.ogg"
-    saburo "我们虽然是采购组，不过也没有特别要讨论的事吧？"
-    extend "\n说到底，我们只需要买材料吧？"
+    saburo "我说，咱们虽说是采购组，但这也没啥好讨论的吧？"
+    extend "\n说白了，不就是负责把材料弄来就行了吗？"
     show sakuya 1 with dissolve
-    sakuya "是啊~。"
-    extend "\n真是的……那个愚蠢的班长，他做事也太没计划性了。"
-    extend "\n我们留在这里也没有意义啊。"
-    me "不，好了好了，不要这么说嘛。"
-    extend "\n你看~……比如！\n是不是应该先讨论一下去哪里买材料呢？"
+    sakuya "就是说啊~。"
+    extend "\n真是的……那个笨蛋班长，安排得也太烂了吧。"
+    extend "\n我们留在这根本没意义啊。"
+    me "嘛、好啦好啦，别这么说嘛。"
+    extend "\n你看~……比如！\n我们可以先讨论一下去哪家店采购比较好呀？"
     show saburo 9 with dissolve
-    saburo "正因如此，我们才要等其他组的指示行动~。\n毕竟我们连要买什么都不知道。"
+    saburo "那更是得等对面的指示才行啊~。\n毕竟咱们连要买啥都不知道呢。"
     show sakuya 11 with dissolve
-    sakuya "你真蠢啊~。"
+    sakuya "你这家伙，是个笨蛋吧~。"
     hide sakuya with dissolve
     hide saburo with dissolve
     window hide
     $ renpy.transition(Quake(0, 50, 0.1, 0.1), layer='master')
     play sound "fx/punch2.ogg"
     window show
-    "咂"
-    "呜……现在的年轻人，行事真是毒辣啊……。"
+    "（受打击！！）"
+    "呜……现在的孩子，嘴巴还真是毒啊……。"
     window hide
     show saburo 17 at topright with dissolve
     window show
-    saburo "怎么办啊~穗海。\n向班长抗议，让他放我们先回去？"
+    saburo "怎么办呢~穗海。\n要不要去跟班长抗议一下，让他放咱们早点回去？"
     show sakuya 1 at topleft with dissolve
-    sakuya "不，要是做那种事的话，\n又会和那个笨蛋吵起来，变成多余的事端。"
+    sakuya "别了，真要那么干的话，\n肯定又得跟那个笨蛋吵起来，只会变得更麻烦。"
     show sakuya 15 with dissolve
-    extend "\n我们自己，随便玩玩等时间到就好了。"
+    extend "\n我们自己随便找点乐子打发时间好了。"
     show saburo 4 with dissolve
     saburo "说的也是。"
     "这么说着，两人离开了座位。"
     play sound "fx/running.ogg"
     hide saburo with dissolve
     hide sakuya with dissolve
-    me "诶？等，等等？"
+    me "诶？等、等等？"
     play sound "fx/sliding_door.ogg"
     stop music fadeout 2.0
     hide bg with dissolve
-    "我的声音没有传达到，两人离开了教室。"
+    "我的声音根本没能叫住他们，两人就这样走出了教室。"
     show bg classroom at center with dissolve
     play sound "fx/ding.ogg"
     me "………………。"
-    "诶……难道我要孤身一人吗！！？"
-    extend "\n明明回到了中学时代，应该和周围少年们畅快交流打好关系，\n享受愉快的校园生活才对的，结果一开始就这样吗！？！？"
+    "诶……难道我就这样落单了吗！！？"
+    extend "\n明明好不容易回到了初中时代，本该和身边的少年们打得火热，\n享受愉快的校园生活才对，结果开局就是这副鬼样子啊！？！？"
     stop sound fadeout 0.5
     "怎么能让这梦幻般的机会化为泡影！！"
     $ renpy.transition(Quake(0, 50, 0.1, 0.06), layer='master')
     play sound "fx/dash.ogg"
-    "嘎嗒"
+    "咣当"
     play music "cute_silly.ogg"
-    "我猛地站起身，被这声音吓到的大家看向了我。"
+    "我猛地站起身，大家被吓了一跳，纷纷转头看向我。"
     show tomo 28 at topleft with dissolve
     play sound "fx/boing.ogg"
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
-    tomo "怎，怎么了？[player_name]突然站起来干嘛！！？"
-    extend "\n是不是又想去厕所了！！？"
+    tomo "怎、怎么了？[player_name]你突然站起来干嘛！！？"
+    extend "\n是不是又想去厕所了！？？"
     show sintarou 29 at topright with dissolve
     sintarou "年轻真好啊~。"
-    me "不，不是！！"
+    me "不、不是！！"
     extend "\n我去找一下作哉君和三朗君…。"
     show tomo 21 with dissolve
     tomo "诶？"
     show tomo 5 with dissolve
     play sound "fx/cute2.ogg"
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
-    extend "\n啊！！那两人，不知不觉间不见了！！！"
-    extend "\n真是的，那些不良少年们~……。"
+    extend "\n啊！！那两个家伙，不知不觉就不见了！！！"
+    extend "\n真是的，那帮不良~……。"
     show sintarou 17 with dissolve
     sintarou "难道说，[player_name]酱被孤立了？"
     extend "\n哎呀呀~好可怜啊……。"
-    me "那个，你们知道他们俩可能去的地方吗？"
+    me "那个，你们知道他们俩可能会去哪里吗？"
     show sintarou 19 with dissolve
     sintarou "嗯~如果是三酱的话，应该是在楼顶悠闲地睡午觉吧？"
     show tomo 26 with dissolve
     tomo "技安应该是在教学楼后面。"
-    extend "\n他们俩经常在那里一起玩……。"
-    me "这样啊。谢谢你们俩！"
+    extend "\n他们俩经常在那里打打闹闹的……。"
+    me "这样啊。谢谢你们！"
     extend "\n我去看看。"
     show tomo 3
     show sintarou 1 with dissolve
-    tomo_and_shin "一路顺风。"
+    tomo_and_shin "慢走哦。"
     window hide
     hide tomo with dissolve
     hide sintarou with dissolve
     play sound "fx/sliding_door.ogg"
     show bg hallway with dissolve
     window show
-    "好，我走出教室后要去的地方是……"
+    "那么，走出教室后，我去哪里好呢……"
     return
 
 label day1_design_tomo:
