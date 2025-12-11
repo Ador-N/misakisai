@@ -1203,7 +1203,7 @@ label day1_cooking:
     show tuki 4 with dissolve
     tuki "嗯，我看我们留在这里也帮不上什么忙，\n况且还有老师在照看。"
     extend "\n不如我们先回教室，继续讨论吧。"
-    me "欸。"
+    me "诶。"
     show sora 21 with dissolve
     sora "说得也是。"
     extend "毕竟离御咲祭也没剩多少时间了，\n那就先去推进一下我们两个能做的工作吧。"
@@ -1904,162 +1904,162 @@ label day1_design_sintarou:
 
 label day1_layout_sinobu:
     window show
-    "难得的自由活动时间，就去逛逛令人怀念的学校吧。"
+    "难得的自由活动时间，就去逛逛令人怀念的校园吧。"
     me "我出去逛逛。"
     window hide
     show tubasa 5 at top with dissolve
     window show
-    tubasa "好的，我明白了。"
-    extend "\n四点半之前回来哦。"
-    me "知道了知道了。"
+    tubasa "好的，我知道了。"
+    extend "\n请在四点半之前回来哦。"
+    me "知道了啦。"
     hide bg with dissolve
     hide tubasa with dissolve
     play sound "fx/sliding_door.ogg"
-    "我这么对翼说后，离开了教室。"
+    "我对翼丢下这句话后，便走出了教室。"
     window hide
     show bg hallway at center with dissolve
     window show
-    "来到走廊上，环视四周。"
-    extend "\n其他班级好像也在为御咲祭做准备。"
-    "大家都很期待学园祭吧。"
-    extend "\n感觉整个学校都团结起来了。"
+    "来到走廊上，我环视了一圈四周。"
+    extend "\n其他班级好像也都在为御咲祭做准备。"
+    "看来大家都很期待学园祭啊～。"
+    extend "\n感觉整个学校都团结起来了呢。"
     window hide
     stop music fadeout 1.0
     play sound "fx/running.ogg"
     show bg schoolyard with dissolve
     play music "tsubame.ogg"
     window show
-    "我走出校舍，看向外面。"
-    me "那边是体育馆。"
-    extend "\n诶？那个旁边的房子……是干什么用的？"
-    "那里有一座像小号体育馆一样的建筑。"
+    "我走出教学楼，望向室外。"
+    me "那边那个是体育馆啊。"
+    extend "\n诶？它旁边那个建筑是……什么来着？"
+    "那里有一座比体育馆小一圈的建筑。"
     me "唔……不行，想不起来了。"
     extend "\n去看看吧。"
     show bg gym_backside with FadeWhite(0.5)
-    "我很在意那栋建筑是什么，走过去看……"
+    "我很在意那栋建筑是什么，于是往里面瞧了一眼……"
     window hide
     play sound "fx/wind_slash.ogg"
     show cg c31 at center with Radial(0.5)
     play music "sinobu_theme.ogg"
     window show
-    sinobu "力道太弱！"
-    extend "\n这样接下来的突刺会弱掉的！"
-    sinobu "对，让动作更漂亮。\n然后，用力突刺！"
-    extend "\n还是不够。再来一次！"
+    sinobu "收手的位置太低了！"
+    extend "\n这样接下来的突刺会没力气的！"
+    sinobu "对，架势要摆得更漂亮点。\n就这样，用力刺出去！"
+    extend "\n出拳前手还是抬起来了。再来一次！"
     first_year "是！"
-    "那里有忍和一个像一年级的学生。"
-    extend "\n从铺着模仿榻榻米的垫子这点来看，这里应该是武道场。"
+    "里面站着忍，还有一个看起来像是一年级的学生。"
+    extend "\n从铺着仿榻榻米纹路的软垫这点来看，这里应该是武道场。"
     sinobu "嗯。\n虽然比刚才要好点了，但还不够。"
-    extend "\n我来示范一下，你好好看。"
+    extend "\n我来示范一下，你看好了。"
     first_year "是！"
     show cg remarkable with FadeWhite(0.5)
     play sound "fx/wind_slash.ogg"
-    "咻啪！"
-    "好快……！"
-    "移动重心也不会晃动的身体。"
-    extend "\n以最短距离笔直打出的锐利突刺。"
-    extend "\n难以想象从这样娇小的肉体中会释放出这样让人震惊的力量。"
+    "咻——啪！"
+    "好、好快……！"
+    "无论重心如何移动，身体的轴心都纹丝不动。"
+    extend "\n这是以最短距离笔直打出的、锐利的突刺。"
+    extend "\n难以想象从这样娇小的肉体中，会释放出这样让人震惊的力量。"
     "即使是外行人，也能看出他的实力有多强。"
     me "这样就理解了在厕所时为什么……。"
     window hide
     hide cg with dissolve
     window show
-    "我一个人在点头的时候，"
+    "正当我独自频频点头时，"
     show tomo 4 at top with dissolve
     tomo "[player_name]君！\n你在干嘛？"
     me "哇！"
     "我回头一看，友正站在那里。"
     show tomo 12 with dissolve
     tomo "嗯？你在看空手道社的自主训练吗？"
-    extend "\n因为忍也在吧。"
-    extend "\n毕竟一年级的说想要找前辈陪练啊。"
+    extend "\n啊~是因为忍在啊。"
+    extend "\n毕竟有一年级的说想要找前辈帮忙指导啊。"
     me "是这样啊。"
     extend "\n居然特地抽空陪学弟练习，真是温柔呢。"
     show tomo 6 with dissolve
-    tomo "毕竟忍的空手道在县内可是顶级水平啊~。"
-    extend "\n不只是学弟，前辈们也都很追捧他，\n早上和放学后，社团活动之外的空闲时间他也都会去陪他们练习。"
+    tomo "毕竟忍的空手道在县内可是顶尖水平嘛~。"
+    extend "\n不只是学弟，连前辈们都抢着找他。\n不管是早上还是放学后，哪怕是没有社团活动的时候，他都会陪大家练习哦。"
     me "诶~！！"
-    extend "\n那他应该很受学弟欢迎吧！"
+    extend "\n那他应该很受学弟们欢迎吧！"
     show tomo 38 with dissolve
-    tomo "没错没错！\n一年级的经常来他教室。"
-    extend "\n情人节的时候，他大概收到了有三十盒左右的巧克力！"
+    tomo "没错没错！\n一年级的老是跑来教室找他呢。"
+    extend "\n情人节的时候，他大概收到了三十盒的巧克力！"
     play sound "fx/eureka.ogg"
     me "诶！？？三十盒！？"
     show tomo 25 with dissolve
-    tomo "当然是全部都出自男同学手啦！"
-    extend "毕竟我们可是男校。"
+    tomo "当然是全部都出自男同学之手啦！"
+    extend "毕竟我们是男校嘛。"
     play sound "fx/explosion2.ogg"
-    "什，什什什什什什什什么！"
-    "什么情况！\n现在的御咲学园，男人给男人送巧克力已经真么普遍了吗！？"
+    "什、什什什什什什什什么！"
+    "什么情况！\n现在的御咲学园，男生给男生送巧克力已经这么普遍了吗！？"
     extend "\n太羡慕了……简直就像天堂一样……！"
     show tomo 8 with dissolve
-    tomo "[player_name]……口水快滴下来了。"
+    tomo "[player_name]君……口水都快滴下来了哦。"
     me "哈……！"
-    extend "\n不是，这真是太厉害了！！"
-    "忍也是，还有这所学校也太厉害了吧。"
+    extend "\n不、不是，这真是太厉害了！！"
+    "忍也是，还有这所学园也太强了吧。"
     show tomo 10 with dissolve
-    tomo "还有~！"
-    extend "\n忍还经常被高等部的前辈告白。"
-    "好，好厉害！！"
+    tomo "还有哦~！"
+    extend "\n忍还经常被高中部的前辈告白呢。"
+    "好、好厉害！！"
     extend "\n这不就像是BL游戏的世界吗！！！"
     extend "\n现在这都成家常便饭了吗！"
     extend "\n我中学的时候可没这些事啊！"
     show tomo 31 with dissolve
-    tomo "不过\n忍这么受欢迎我也能理解~。"
-    extend "\n乍一看，就长得像个女孩子……"
+    tomo "嘛，不过……\n忍这么受欢迎我也能理解~。"
+    extend "\n乍一看，长得就像个女孩子……"
     show tomo 7 with dissolve
-    extend "不过\n其实他本人很在意这个的，所以你还是少说点比较好。"
-    me "嗯，嗯嗯！！"
+    extend "哎呀，\n这一点他本人还挺在意的，还是少提为好。"
+    me "嗯、嗯嗯！！"
     "确实，他长得这么漂亮……。"
-    extend "\n而且还是县内数一数二的武道家，\n被这种反差吸引而为之着迷也是可以理解的。"
+    extend "\n而且还是县内数一数二的武道高手，\n被这种反差吸引而迷恋上他也是情理之中啊。"
     show tomo 11 with dissolve
     play sound "fx/boing.ogg"
     tomo "咦~？"
-    extend "\n[player_name]君也是，难道说，\n也喜欢上忍了吗？"
-    me "你，你你你你说什么呢……！"
+    extend "\n[player_name]君，难道说，\n也喜欢上忍了吗？"
+    me "你、你你你你说什么呢……！"
     show tomo 24 with dissolve
-    tomo "没有没有~我们学校，\n以前就是有很多这样的，\n不用害羞的！"
-    me "诶，什么意思……？"
+    tomo "没有没有~我们学校，\n从以前开始就很多那样的啦，\n不用害羞嘛！"
+    me "诶，『那样的』是什么意思……？"
     show tomo 38 with dissolve
-    tomo "就是有很多同志！"
+    tomo "就是有很多男男情侣啊！"
     play sound "fx/cute2.ogg"
-    "什，什么啊啊啊啊啊啊啊！！！！"
-    me "这，这怎么可能啊！！"
+    "什、什么啊啊啊啊啊啊啊！！！！"
+    me "怎、怎么可能啊！！"
     extend "\n我完全不知道有这回事啊！"
     show tomo 27 with dissolve
-    tomo "那是……"
-    extend "\n只是偶然和[player_name]你没有缘吧？"
+    tomo "那个嘛……"
+    extend "\n只是和[player_name]君没有缘分吧？"
     play sound "fx/shock.ogg"
-    "冲击！！！"
-    me "怎……么能……。"
-    extend "\n我想变……回初中生……。"
+    "（受打击！！！）"
+    me "怎……怎么会……。"
+    extend "\n好想……好想变回初中生……。"
     show tomo 26 with dissolve
-    tomo "[player_name]君啊，别灰心。"
-    extend "\n我们现在正是初中生活最精彩的部分。"
+    tomo "[player_name]君，振作一点啊。"
+    extend "\n我们现在不正是在体验初中生活最精彩的部分嘛。"
     window hide
     hide tomo with dissolve
     show sinobu 23 at topright with Dissolve(0.8)
     window show
     sinobu "……你们从刚才开始就在说什么啊？"
-    "我向声音传来的武道场看去，不知何时忍已经来到了我的身边。"
-    extend "\n他汗流浃背，微微喘气的样子显得格外性感。"
+    "我朝传来声音的武道场望去，发现忍不知什么时候已经走到了这边。"
+    extend "\n他汗流浃背、微微喘气的样子显得格外性感。"
     show tomo 17 at topleft with dissolve
     tomo "哦！忍~练习辛苦了！！"
-    me "……你，你好！忍。"
-    extend "\n已经结束练习了吗？"
+    me "……你、你好！忍君。"
+    extend "\n练习已经结束了吗？"
     show sinobu 2 with dissolve
     sinobu "嗯。"
     extend "\n友和[player_surname]君怎么会在这里？"
     me "因为是自由活动时间，所以我们出来散散步。"
     show tomo 10 with dissolve
     tomo "我也差不多~。"
-    me "不过话说回来，忍！\n你真的很帅啊！！"
-    extend "\n我从没见过你那样的动作！"
+    me "不过话说回来，忍君！\n你真的很帅啊！！"
+    extend "\n我从来没见过这么精彩的身手！"
     hide tomo with dissolve
     hide sinobu with dissolve
     show sinobu 22 at top with dissolve
     sinobu "……谢谢。"
-    extend "\n但我还有很多不足之处啊。"
+    extend "\n我还有很多不足之处啊。"
     me "别谦虚了~。"
     extend "\n我也有学过一点武术，\n但完全敌不过你啊。"
     show sinobu 12 with dissolve
@@ -2077,7 +2077,7 @@ label day1_layout_sinobu:
     "就在这时，友的手机响了。"
     stop sound fadeout 1.0
     tomo "喂，你好~慎酱？"
-    extend "\n啊，抱歉抱歉！我马上回去了！"
+    extend "\n啊，抱歉抱歉！我马上就回去了！"
     "哔"
     show tomo 40 at top with dissolve
     tomo "慎酱叫我马上回去。"
@@ -2086,38 +2086,38 @@ label day1_layout_sinobu:
     extend "\n待会儿见！"
     play sound "fx/running.ogg"
     hide tomo with dissolve
-    "这么说完，友便跑向了我们来时的方向。"
+    "这么说完，友便朝来时的方向跑去了。"
     window hide
     show sinobu 4 at top with dissolve
     window show
     sinobu "……所以，你们刚才在聊什么？"
-    me "嗯，那个~是关于忍你很受欢迎的事……。"
+    me "嗯，那个~是关于忍君很受欢迎的事……。"
     show sinobu 10 with dissolve
     sinobu "……是吗。"
     extend "\n真是的，友真是个大嘴巴啊。"
     me "啊哈哈哈。"
-    extend "\n我是不是不应该去听啊……？"
+    extend "\n我是不是不该听啊……？"
     show sinobu 4 with dissolve
     sinobu "也没什么啦。毕竟也是实话。"
     extend "\n而且能受到欢迎也是件值得高兴的事。"
     show sinobu 20 with dissolve
-    sinobu "……那个啊，[player_surname]君。"
-    extend "\n说实话，我是想早点结束小组讨论的，\n因为刚才那个后辈在等我。"
-    extend "\n……抱歉，擅自把时间按我的需要安排。"
-    me "诶，没事！完全没问题的。"
-    extend "\n我知道忍很重视后辈的事。"
-    extend "\n而且，我们已经把能商量的事都商量完了，所以不用担心。\n不用在意的。"
+    sinobu "……那个，[player_surname]君。"
+    extend "\n说实话，之所以想早点结束小组讨论，\n是因为刚才那个学弟在等我。"
+    extend "\n……抱歉，是我擅自为了配合自己的时间，才赶了进度。"
+    me "诶，没事！完全没关系哦。"
+    extend "\n我知道忍很重视学弟的事。"
+    extend "\n而且，我们已经把能商量的事都商量完了，所以没事的。\n别放在心上哦。"
     show sinobu 27 with dissolve
     sinobu "……嗯，谢谢。"
-    extend "\n从明天开始，为了不给你们添麻烦，放学后的训练我就不去了。"
-    "忍这么说着，他刚才在教室里表现出的冷淡的态度完全消失，\n取而代之的是感到抱歉的消沉情绪。"
+    extend "\n从明天开始，为了不给你们添麻烦，放学后的指导练习我就不去了。"
+    "忍这么说着，与刚才在教室里那种冷淡的态度截然不同，\n正一脸歉疚地垂着头。"
     play sound "fx/sparkle.ogg"
-    "这……从某种意义上，也是反差萌！"
+    "这……从某种意义上，也是反差萌吧！！"
     show sinobu 12 with dissolve
     sinobu "那么，差不多该回去了。不能迟到。"
-    me "啊，啊啊，是啊！"
+    me "啊、啊啊，是啊！"
     hide sinobu with dissolve
-    "我一边注意着别被他发现我的想法，\n一边和忍一起回到了教室。"
+    "我小心翼翼地不让他察觉到我的小心思，\n随后和忍一起回到了教室。"
     stop music fadeout 0.5
     window hide
     hide sinobu with Dissolve(1.0)
