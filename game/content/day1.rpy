@@ -978,14 +978,14 @@ label day1_layout:
     play sound "fx/dash.ogg"
     "咯噔"
     me "啊、啊哈哈哈！\n太期待学园祭了，我有些兴奋过头了呢~。"
-    extend "\n抱歉，我有些得意忘形了~明明我也是和你们一样十五岁！"
+    extend "\n抱歉，我有些得意忘形了~明明我也是和你们一样15岁！"
     show tubasa 13 with dissolve
     tubasa "咦……？"
     show sinobu 5 with dissolve
-    sinobu "我们的学年应该是十三或者十四岁才对……。"
+    sinobu "我们的学年应该是13或者14岁才对……。"
     stop music fadeout 1.5
     play sound "fx/boing.ogg"
-    me "啊，不、不对！搞错了！！\n对！！我是十四岁啦！！"
+    me "啊，不、不对！搞错了！！\n对！！我是14岁啦！！"
     extend "\n我有些兴奋过头，连自己几岁都搞错了。\n真讨厌~啊哈哈哈。"
     show sinobu 2 with dissolve
     sinobu "……"
@@ -1604,46 +1604,46 @@ label day1_design_tomo:
 label day1_design_sintarou:
     show bg classroom_evening at center
     window show
-    "连动起来都觉得没劲，还是留在教室吧。"
-    "我再次凝视着放在我桌上的画。"
+    "连动起来都觉得没劲，还是留在教室里吧。"
+    "我重新端详起放在桌上的画。"
     extend "\n先不说我，慎太郎画得比友好太多了。"
     stop music fadeout 0.5
-    me "慎太郎你很擅长画画呢！"
-    extend "\n你喜欢这类的东西？"
+    me "慎太郎君很擅长画画呢！"
+    extend "\n你喜欢这类东西吗？"
     window hide
     play music "sintarou_theme.ogg"
     show sintarou 1 at top with dissolve
     window show
     sintarou "算是吧~。"
     extend "\n咱非常喜欢动漫和漫画呢。"
-    me "是这样啊！！\n我也经常看这类的！"
+    me "是这样啊！！\n我也经常看这些哦！"
     extend "\n知道『魔法少女小袁』吗？"
     "『魔法少女小袁』，是一部在部分群体中很有人气的深夜动画。"
     extend "\n……如果是『魔法少年』的话，在我心中的评价会更高。"
     show sintarou 4 with dissolve
-    sintarou "知道知道！！那个超有趣的～！\n很在意之后的展开哦～。"
+    sintarou "知道知道！！那个超有趣的~！\n很在意之后的展开哦~。"
     show sintarou 25 with dissolve
     play sound "fx/dash.ogg"
-    extend "\n关于那个Q太郎。"
-    "哦！没想到他也看啊！！"
+    extend "\n啊~Q太郎兄啊。"
+    "哦~没想到连他也在看！！"
     extend "\n不过，像这样能聊到共同话题真是令人高兴。"
     extend "\n看来我和这孩子兴趣相仿啊！"
     show sintarou 12 with dissolve
     sintarou "想看朔和夕阳变得更乱七八糟啊！"
-    "嗯？还在画吗~。看起来很享受啊。"
-    extend "\n我看看，他画的到底是什么？"
+    "嗯？他还在画吗~。看起来很享受啊。"
+    extend "\n我看看，到底在画什么呢？"
     "……诶。"
-    me "慎，慎太郎，那个角色是……。"
+    me "慎、慎太郎，那个角色是……。"
     window hide
     show cg c22 at center with dissolve
     window show
     sintarou "这个？"
-    extend "\n嗯~……就算是你，[player_name]估计也不知道吧？"
+    extend "\n嗯~……就算是[player_name]酱，估计也不知道吧？"
     extend "\n这是漫画《见习魔术师的任务！》里的角色。"
     play sound "fx/eureka.ogg"
     me "！！！"
-    extend "\n我知道！！当然我知道啊！！！我全集都有收藏！"
-    extend "\n我可是真爱粉！"
+    extend "\n我知道！！当然我知道啊！！！全集我都有收藏！"
+    extend "\n我的『那个』可是经常受它照顾啊！"
     window hide
     hide cg with dissolve
     hide sintarou with dissolve
@@ -1652,92 +1652,92 @@ label day1_design_sintarou:
     play sound "fx/cute2.ogg"
     $ renpy.transition(Quake(0, 60, 0.1, 0.15), layer='master')
     sintarou "真的吗！！没想到[player_name]酱居然也在看啊啊啊！！！完全没想到！"
-    extend "\n既然这样，你早说嘛~！"
-    me "因，因为那个是……\n毕竟它是成人向，内容也很那个。"
+    extend "\n什么嘛——既然这样早点告诉我啊~！"
+    me "因、因为那个是……\n毕竟它是成人向，内容也很那个。"
     extend "\n难道说，慎太郎你喜欢这种类型的？"
     show sintarou 7 with dissolve
-    sintarou "当然喜欢！简直是我最喜欢的！"
+    sintarou "当然最喜欢了desu！！！那可是我的超级大本命哦！"
     extend "\n像刚才说的《魔法少女小袁》，我觉得如果是魔法少年就好了！"
     play sound "fx/explosion3.ogg"
-    "他居然也跟我有同样的想法！！"
-    "这家伙……居然是个正太控啊！"
-    extend "\n真，真是岂有此理！！！！"
+    "跟我想到一块去了啊啊啊啊！！"
+    "这可真是……明明自己是正太却是个正太控吗，这孩子！"
+    extend "\n真、真是太犯规了！！！！"
     show sintarou 9 with dissolve
     sintarou "没想到在这里能遇到志同道合的朋友……！"
     show sintarou 8 with dissolve
-    extend "\n朋友们都不是正太控，所以没法和他们提起，\n从今以后，我们就一起尽情聊正太萌的话题吧！！"
-    me "嗯，正有此意！"
-    "在现实中遇到正太控朋友，简直就像中了头奖一样，\n我们不禁热情地握了手。"
+    extend "\n因为友亲并不怎么喜欢正太，所以我一直没法跟他畅快聊，\n但是从今以后，我们就一起尽情聊正太萌的话题吧！！"
+    me "嗯、嗯！！求之不得！"
+    "在现实中遇到正太控朋友，简直就像中了头奖一样，\n我们不禁热情地握了握手。"
     show sintarou 27 with dissolve
-    sintarou "《见习魔法师》的作者画风不太稳定呢。"
-    extend "\n初期和现在的画风变化好大。"
-    me "确实。\n初期的画里阴影很多，现在却变得很清爽了。"
-    extend "\n毕竟每个人对画风的喜好都是不一样的，\n正因如此，可能这样能迎合更多人的喜好吧。"
+    sintarou "话说《见习魔法师》的作者画风不太稳定呢~"
+    extend "\n早期和现在的画风差太多了吧~。"
+    me "确实。\n早期的阴影很多，现在变淡之后画面清爽了不少呢。"
+    extend "\n毕竟每个人对画风的喜好都不一样，\n正因如此，可能这样能迎合更多人的喜好吧。"
     show sintarou 15 with dissolve
     sintarou "原来是这样~。"
-    extend "\n如果手里有全集的话，就能在其中发现自己喜欢的画风，像这样吗？"
+    extend "\n如果手里有全集的话，总能在里面找到自己喜欢的画风，是这样吗？"
     me "对对！！"
-    extend "顺带一提，我是属于初期党的！\n因为整体色调偏暗，所以正太的肌肤才会显得更加白皙。"
+    extend "顺带一提，我是早期党！\n因为整体色调偏暗，才更能衬托出正太那美好的肌肤啊……"
     show sintarou 1 with dissolve
-    sintarou "诶~我是更喜欢现在这个~。"
+    sintarou "诶~我倒是更喜欢现在这样~。"
     show sintarou 2 with dissolve
-    extend "\n因为初期的画风太混乱了，现在的画风更好阅读。"
-    extend "\n虽然阴暗的氛围和SM风格稍微差了一点。"
-    me "说到阅读性，那个作者的用词也是相当有趣呢。"
-    extend "\n就算没有错，但表达方式很奇怪，可能有些难读懂。"
+    extend "\n因为早期的画面太混乱了，还是现在的更好阅读。"
+    extend "\n虽然那种阴暗的氛围和SM的感觉稍微差了一点。"
+    me "说到阅读性，那个作者的用词还挺有趣的呢。"
+    extend "\n虽然语法没错，但措辞怪怪的，读起来有点费劲。"
     show sintarou 17 with dissolve
     sintarou "啊~我懂。"
-    extend "\n实际上，错别字和缺字也是屡见不鲜，在色情场景出现更是令人扫兴。"
+    extend "\n实际上错别字和缺字也挺多啊，尤其是H场景里搞这一出，瞬间就萎了~。"
     me "嗯嗯！"
-    extend "\n说起来，色情场景里也是有着触手，机械之类的，比较特殊呢。"
-    extend "\n虽然作者是喜欢V形线，所以着重于夕阳的V字比基尼，\n但我对竞赛的泳装不是特别感兴趣……。"
+    extend "\n说起来，那些H场景也是，什么触手啊机械啊，口味很特殊呢。"
+    extend "\n虽然作者是喜欢V形线，所以着重于夕阳的V字比基尼，\n但我对竞泳裤系的不太感兴趣啊……。"
     show sintarou 25 with dissolve
     play sound "fx/dash.ogg"
     $ renpy.transition(Quake(0, 60, 0.1, 0.09), layer='master')
-    sintarou "你根本就不懂啊！！"
-    extend "披风下的比基尼，那个才好啊！"
+    sintarou "你这家伙根本就不懂啊！！"
+    extend "披风底下穿比基尼，那个才好啊！"
     "好热……！好热血啊！！！"
-    extend "\n初中生就能说出这么专业的话了……！！"
+    extend "\n明明只是个初中生，居然能探讨得如此深入……！！"
     "这不就是披着孩子皮的大人嘛。"
-    extend "\n等等，我就是这样的啊。"
-    me "初中生却能说出这么多话，真是吓我一跳。"
+    extend "\n等等，我自己就是这样的啊。"
+    me "明明是初中生却能聊这种话题，真是吓我一跳。"
     extend "\n慎太郎君不像是孩子呢。"
     show sintarou 4 with dissolve
     sintarou "呼呼~彼此彼此吧~。"
-    extend "所谓小大人吧？"
-    extend "\n[player_name]你才是，内心其实已经30岁了吧~？"
+    extend "这就是所谓小大人吧？"
+    extend "\n[player_name]酱才是，内心其实已经30岁了吧~？"
     show sintarou 9 with dissolve
-    extend "\n那种「初中生外皮的大人」在同人志上也有过哦~"
-    me "真，真失礼！！"
-    extend "\n我才25啊！！"
+    extend "\n那种『初中生外皮的大人』在同人志上也有过哦~"
+    me "太、太失礼了！！"
+    extend "\n我才只有25岁！！"
     "『小大人』也不是那个意思啊！"
     show sintarou 14 with dissolve
     sintarou "咦？25？"
     play sound "fx/boing.ogg"
     "啊"
-    extend "\n不妙！！！"
-    me "只是开玩笑啦~♪"
-    extend "\n啊，啊哈哈！\n开玩笑啦~。"
+    extend "\n糟、糟糟糟了！！！"
+    me "“骗~你的啦♪"
+    extend "\n啊、啊哈哈！\n都说是开玩笑啦~。"
     show sintarou 18 with dissolve
     sintarou "呼~嗯。"
-    extend "这个玩笑也太无聊了。"
+    extend "这玩笑的数字还真是不上不下呢。"
     show sintarou 2 with dissolve
-    sintarou "不过，真的发生了那种事的话就有趣了呢。"
-    extend "\n外表是孩子！头脑是大人！就像某位名侦探一样。"
+    sintarou "不过，真的发生了那种事的话也很有趣呢。"
+    extend "\n外表看似小孩！智慧却过于常人！就像某个名侦探君一样。"
     show sintarou 13 with dissolve
-    extend "\n话说，那个孩子也很可爱呢！眼镜正太万岁！！"
-    extend "\n那种长相，还什么都懂，真是让人受不了！"
+    extend "\n说起来，那个孩子也很可爱对吧！眼镜正太万岁！！"
+    extend "\n而且虽然是那种样子，却什么都懂~，真是让人受不了！"
     play sound "fx/cute2.ogg"
     "哇哦又说了一样的话！！"
     extend "\n这是命运吗！？！？"
-    "……我俩这么心有灵犀，所以讲实话也没关系吧？"
+    "……既然我俩这么心有灵犀，所以讲实话也没关系吧？"
     play sound "fx/sparkle.ogg"
     show cg orange at center
     show sintarou 3 with dissolve
-    extend "我觉得，慎太郎一定能理解我，相信我。"
-    "话说，难道慎太郎其实跟我一样，是个成年人？"
-    "说到底，为什么我要将这件事保密呢？"
-    extend "\n毕竟再怎么写实，这都是梦。"
+    extend "如果是慎太郎的话，感觉他能理解我，相信我。"
+    "或者说，难道慎太郎其实跟我一样，是个成年人？"
+    "说到底，我为什么要将这件事保密啊。"
+    extend "\n虽说无比真实，但这毕竟还是在梦里不是吗。"
     "哼！管他呢！"
     hide cg with dissolve
     hide sintarou with dissolve
@@ -1746,8 +1746,8 @@ label day1_design_sintarou:
     show sintarou 12 at top with dissolve
     sintarou "嗯~？又要去厕所做那种事？"
     extend "\n你真是的[player_name]酱~"
-    me "行，行啦！！"
-    "我硬是把闹腾的慎太郎带离教室，走向厕所。"
+    me "行、行啦！！"
+    "我硬是把嬉皮笑脸的慎太郎带出了教室，往厕所走去。"
     window hide
     play sound "fx/running.ogg"
     hide sintarou with dissolve
@@ -1756,131 +1756,131 @@ label day1_design_sintarou:
     show bg washroom at center with dissolve
     show sintarou 3 at top with dissolve
     window show
-    "进到厕所后，我慢慢开始说起实话。"
+    "进到厕所后，我慢慢讲起了事情的原委。"
     me "慎太郎……"
-    extend "其实我啊，虽然外表是初中生，但真实年龄是25岁。"
+    extend "其实我，虽然外表是初中生，但真实年龄是25岁。"
     extend "\n准确来说，就只有外表变回初中生了……。"
     show sintarou 28 with dissolve
     sintarou "……"
     "慎太郎什么也没说，摆出一副异常认真的表情听着。"
     extend "\n他是不是在思考什么？"
-    me "然，然后，刚才跟你聊天时，我突然想到，"
-    extend "\n难道说，慎太郎也跟我一样，实际是成年人……。"
-    "话说到一半，慎太郎终于开口了。"
+    me "然、然后，刚才跟你聊天时，我突然想到，"
+    extend "\n难道说，慎太郎也跟我一样，其实是成年人……。"
+    "话说到一半，慎太郎终于开了口。"
     show sintarou 24 with dissolve
-    sintarou "不对。"
-    me "诶"
+    sintarou "并不是。"
+    me "诶？"
     show sintarou 19 with dissolve
-    sintarou "很遗憾，我真的是十四岁。"
+    sintarou "很遗憾，但我确实是货真价实的14岁。"
     extend "\n并不是什么成年人。"
-    me "这，这样啊……也是。"
+    me "这、这样啊……也是呢。"
     show sintarou 18 with dissolve
-    sintarou "所以，[player_name]关于你说的"
+    sintarou "所以，关于[player_name]你说的事，"
     extend "你有证据吗？"
-    me "证，证据……？"
+    me "证、证据……？"
     show sintarou 29 with dissolve
-    sintarou "嗯。[player_name]能证明你心里是个大人的证据。"
-    extend "\n这种事突然说出来，我想谁都不会相信的。"
-    "慎太郎所说的话，完全是正确的。"
-    extend "\n这种事，怎么可能让人轻易相信。我很清楚。"
-    "即便如此，我认为慎太郎和其他人不同，他能接受我。"
+    sintarou "嗯。证明[player_name]的内在是大人的证据。"
+    extend "\n毕竟突然说这种话，我想谁都不会相信的吧。"
+    "慎太郎所说的话，是完全正确的。"
+    extend "\n这种事，怎么可能让人轻易相信。这点我也很清楚。"
+    "即便如此，我原本认为慎太郎和其他人不同，他能接受我。"
     me "证据嘛……。"
-    "我失去了依靠，我的目光迷茫地飘浮在半空中。"
+    "失去了心灵的依托，我的视线开始在空中飘忽游移。"
     extend "\n脑子一片空白。"
     "虽然我一直认为这只是梦，"
-    extend "\n但没人相信这件事，给我带来了这么大的打击……。"
+    extend "\n但『不被信任』这种事，竟然给我带来这么大的打击……。"
     window hide
     show sintarou 9 with dissolve
     window show
     sintarou "啊，我先说好了，"
     play sound "fx/wow2.ogg"
-    extend "不可以做爱。"
-    "是啊，不可以做爱……做爱。"
+    extend "不可以做H的事。"
+    "是啊，不行呢……H的事。"
     play music "sintarou_theme.ogg"
     play sound "fx/boing.ogg"
     me "呃，啥？"
     "慎太郎出人意料的发言让我吃了一惊。"
     show sintarou 12 with dissolve
-    sintarou "不是~，我本以为[player_name]你会说「用身体证明！！」或者什么的，\n然后顺势带入那种感觉里呢~。"
+    sintarou "不是~，我本以为[player_name]酱会说『用身体证明！！』之类的，\n然后顺势带入那种感觉里呢~。"
     show sintarou 13 with dissolve
-    sintarou "但是很抱歉，色情的技巧并不能证明什么哦。"
+    sintarou "但是很抱歉，H的技巧并不能证明什么哦。"
     extend "\n因为也有技巧堪比大人一样的小孩子啊♪"
     "慎太郎得意洋洋地拍了拍自己的胸膛。"
-    "没，没想到他会这么想……！我竟然……！！"
-    extend "\n该死……不仅外表，连思维也要变得年轻灵活才行！！"
+    "居、居然还有这种思路……！我竟然……！！"
+    extend "\n可恶……要是不仅仅是外表，连思维也一起变年轻就好了！！"
     "不，还没完……。还没完，现在开始思考！"
-    extend "我还很年轻！！"
-    me "呵，呵呵~！\n那就让我看看你的技巧吧！"
-    extend "\n不然的话，就说明根本没有这样的小孩子，\n而我就要用我的技巧来证明自己个大人哦。"
+    extend "我还很年轻呢！！"
+    me "呵、呵呵~！\n那就让我看看你的技巧吧！"
+    extend "\n不然的话，就说明根本没有这样的小孩子，\n而我就要用我的技巧来证明自己是个大人哦。"
     show sintarou 21 with dissolve
     sintarou "唔！你真敢说啊！！"
     show sintarou 23 with dissolve
     extend "\n真是的，没办法了啊……。"
     "慎太郎这么说着，把手放在了衬衫的纽扣上。"
     play music "fx/cute2.ogg"
-    extend "\n这，这是要来真的啊……！！？"
+    extend "\n这、这是要来真的啊……！！？"
     show sintarou 4 with dissolve
     sintarou "开玩笑的~♪"
     extend "\n才不会让你得逞呢，这位客官。"
     "慎太郎把手停在了纽扣上，然后微微一笑。"
     show sintarou 1 with dissolve
-    sintarou "这样的话，不管是哪边，[player_name]都会如愿，"
+    sintarou "那样的话，不管结果怎样都正中[player_name]酱的下怀，"
     show sintarou 2 with dissolve
-    extend "\n不如，从现在开始，咱要认真地观察[player_name]\n，判断你内心是否真的是大人！"
-    me "诶……也就是说，你相信我说的话了？"
+    extend "\n不如，从现在开始，咱要认真地观察[player_name]酱，\n帮你鉴定一下你的内在到底是不是大人！"
+    me "诶……也就是说，你愿意相信我说的话了？"
     show sintarou 13 with dissolve
-    sintarou "嘛~啊~。"
-    extend "\n虽然没有完全肯定，但[player_name]看起来不擅长说谎，\n我认为可能性不是0啊~。"
+    sintarou "嘛~算是吧~。"
+    extend "\n虽然不是完全肯定，但[player_name]酱看起来就不擅长说谎，\n我认为可能性不是零哦~。"
     show sintarou 2 with dissolve
-    sintarou "而且！咱啊，很喜欢这种像是漫画一样的展开呢！"
+    sintarou "再说了！咱啊，很喜欢这种像是漫画一样的展开呢！"
     "原来如此啊。"
-    extend "\n作为一成不变的校园的调味料，享受一下这种展开吧。"
+    extend "\n那就作为一成不变的校园生活的调味料，享受一下这种展开吧。"
     show sintarou 1 with dissolve
     sintarou "好了~话也说完了，差不多该回教室了吧！"
     hide sintarou with dissolve
-    "我突然看了看手表，指针指着四点二十五分。"
+    "我不经意间看了一眼手表，指针指着已经指向了四点二十五分。"
     extend "\n已经这么晚了啊。"
     show cg orange at center with Dissolve(0.8)
-    "总觉得，时间过得很快。"
-    extend "\n不知道是不是慎太郎气场的问题"
-    extend "\n和这孩子一起，时间过得飞快啊。"
+    "明明我刚才还很消沉，却在不知不觉间被『慎太郎的节奏』带着重新振作了起来。"
+    extend "\n明明应该是我占尽优势，却在不知不觉间被『慎太郎的节奏』逆转了局势。"
+    extend "\n正因为是和这孩子在一起，时间才会感觉过得这么快吧。"
     "我总觉得，拥有着不可思议魅力的慎太郎，非常的可靠。"
-    extend "\n就算他的内心并不是成年人，但只要他能相信我的话，我就很开心了。"
+    extend "\n就算他的内心并不是成年人，但他愿意相信我说的话，这本身就让我很开心了。"
     window hide
     hide cg with dissolve
     show sintarou 17 at top with dissolve
     window show
-    sintarou "呜唉~回到家里，澡堂的工作还在等着我啊~。"
-    extend "\n今天要干那个，还有打扫澡堂也好麻烦啊~。"
+    sintarou "呜唉~回到家还有澡堂的工作在等着我啊~。"
+    extend "\n今天要干那个『那个』，还有打扫澡堂也好麻烦啊~。"
     "慎太郎自言自语道。"
-    me "啊，这么说来，刚才和友君聊过天，听说\n慎太郎的家里是开澡堂的。"
+    me "啊，这么说来，刚才和友君聊过，听说\n慎太郎的家里是开澡堂的。"
     extend "\n真厉害啊~。"
     show sintarou 16 with dissolve
-    sintarou "也没什么大不了的啦~毕竟很破旧。\n现在就只有老主顾会来。"
-    extend "\n如果方便的话，[player_name]酱也来一趟吧。"
+    sintarou "也没什么大不了的啦~毕竟很破旧了。\n现在就只有老主顾会来。"
+    extend "\n如果不嫌弃的话，[player_name]酱也来玩一次吧。"
     show sintarou 4 with dissolve
-    extend "\n我会好好款待你的哦~。"
-    me "款待？是什么样的款待？"
+    extend "\n我会请你吃好吃的关东煮哦~。"
+    me "关东煮？为什么会有那个？"
     show sintarou 2 with dissolve
-    sintarou "会准备点心之类的啦~。"
+    sintarou "因为店里还有一个小食堂哦~。"
     extend "\n这样做客人也会很高兴的啦~。"
     me "是这样啊。"
-    extend "\n那，今天就去一趟吧！"
+    extend "\n那，干脆今天就去一趟吧！"
     "都还没分开，就有点恋恋不舍了！"
-    extend "\n啊，如果顺利的话，说不定还会给我洗背什么的！！"
+    extend "\n啊，如果运气好，说不定还有擦背服务什么的！！"
     show sintarou 23 with dissolve
     sintarou "啊，今天不行。"
     me "诶？为什么？"
     show sintarou 16 with dissolve
-    sintarou "不，不是啦~那个~……"
+    sintarou "不、不是啦~那个~……"
     show sintarou 29 with dissolve
-    extend "总之，今天不行！"
-    extend "\n明天来明天来！！要不然就是后天！"
-    me "嗯，嗯。知道了。"
+    extend "总之，今天就是不行！"
+    extend "\n明天来！明天！！要不然就是后天！"
+    me "嗯、嗯。知道了。"
     hide sintarou with dissolve
     "这还真是出乎意料啊。到底是为什么呢……？"
-    extend "\n和他说的那个是不是有什么关系呢。"
-    "我托着下巴思考着，这时正要出厕所的慎太郎回过头。"
+    extend "\n和他说的『那个』是不是有什么关系呢。"
+    "正当我托着下巴思考时，刚要走出厕所的慎太郎回过头来。"
     window hide
     play sound "fx/sparkle.ogg"
     show cg c23 at center with Radial(0.5)
@@ -1888,7 +1888,7 @@ label day1_design_sintarou:
     show sintarou 18 at top with dissolve
     sintarou "[player_name]大哥哥！"
     show sintarou 4 with dissolve
-    extend "\n我啊，对小孩外表下的大人技术很感兴趣，\n也想看看大人在小孩的身体中能变的多下流呢♪"
+    extend "\n咱啊，对外表是小孩的大人技巧很感兴趣呢，\n也很想看看，身为大人的你困在小孩子的身体里，究竟会如何意乱情迷呢♪"
     "说着，他解开衬衫的一颗扣子给我看，\n然后轻快地走出厕所。"
     play sound "fx/running.ogg"
     hide sintarou with dissolve
