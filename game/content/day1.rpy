@@ -2130,11 +2130,11 @@ label day1_layout_tubasa:
     "对对！"
     extend "\n我要留在教室里，想问这孩子一些事呢~♪"
     play music "tubasa_theme.ogg"
-    me "翼同学！"
+    me "翼——君——！"
     window hide
     show cg c39 2 at center with dissolve
     window show
-    tubasa "嗯，嗯。"
+    tubasa "是、是。"
     hide bg with dissolve
     extend "\n什么事？"
     me "你从刚才开始就一直心神不宁的，\n是有什么在意的事吗？"
@@ -2142,40 +2142,40 @@ label day1_layout_tubasa:
     $ renpy.transition(Quake(0, 60, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
     tubasa "诶？"
-    extend "\n那个，没，没没没没什么！！"
-    "呼呼，真是个好懂的孩子啊！"
-    extend "\n大概，这孩子很在意和自己一起站在讲台的森海友吧。"
+    extend "\n那个，没、没没没没什么！！"
+    "哼哼，真是个好懂的孩子啊！"
+    extend "\n大概是，这孩子很在意和自己一起站在讲台上的森海友吧。"
     play sound "fx/sparkle.ogg"
     extend "\n这就是现实中的BL！！！美妙的青春啊！！"
     play sound "fx/eureka.ogg"
-    "好！！\n作为御咲学园的毕业生，为了后辈也得帮一把！！"
+    "好！！\n作为御咲学园的毕业生，为了学弟也得帮一把！！"
     extend "\n毕竟，这可是近距离观看少年们的恋爱故事的好机会♪"
-    me "喂喂，难得的自由活动时间，\n要不要去散个步？"
-    tubasa "诶……但，但是我……"
-    "翼再次看向了友。"
-    "原来如此……是因为在意他到一刻都离不开他啊！！！"
+    me "呐呐，难得的自由活动时间，\n要不要出去散散步？"
+    tubasa "诶……可、可是我……"
+    "翼又偷偷瞥了一眼友的方向。"
+    "原来如此……是因为在意他到片刻都不想分离啊！！！"
     show bg classroom at center
-    "既然如此……我就把嘴贴到了翼的耳边"
+    "既然如此……我凑到翼的耳边，"
     window hide
     hide cg with dissolve
     window show
-    me "翼同学……你喜欢森海友同学对吧？"
+    me "翼君……你喜欢森海友君对吧？"
     show tubasa 18 at top with dissolve
     play sound "fx/boing.ogg"
     $ renpy.transition(Quake(40, 0, 0.1, 0.15), layer='master')
-    tubasa "什！什什什什！？！？！？"
+    tubasa "什——！什什什什！？！？！？"
     extend "\n[player_name]君！？！"
-    me "关于那个，我有话要对你说~"
-    extend "\n喂！你愿意和我一起去吗？"
+    me "关于那个，我有话想对你说~"
+    extend "\n呐！你会跟我一起来的吧？"
     window hide
     hide tubasa with dissolve
     hide bg with dissolve
     play sound "fx/sliding_door.ogg"
     show bg hallway at center with dissolve
     window show
-    "翼无从抵抗，只能跟在我后面。"
+    "翼毫无招架之力，只能跟在我身后。"
     "眼前，可爱的少年陷入爱情的困扰。"
-    extend "\n这怎么能不插一脚呢！不，是一定得插一脚！！"
+    extend "\n面对这种事，我怎么能不插一脚呢！不，是一定得插一脚！！"
     window hide
     stop music fadeout 0.5
     play sound "fx/running.ogg"
@@ -2183,36 +2183,36 @@ label day1_layout_tubasa:
     show bg stairs at center with dissolve
     play music "discovery.ogg"
     window show
-    me "好……就在这附近吧？"
+    me "好……这附近应该就可以了吧？"
     show tubasa 20 at top with dissolve
-    tubasa "那，那个……刚才你说的到底...！！"
-    me "不是啦~我只是看着你们俩，就隐约这么觉得了。"
+    tubasa "那、那个……刚才你说的到底是…！！"
+    me "哎呀~我只是看着你们俩，就隐约这么觉得了。"
     show tubasa 3 with dissolve
     play sound "fx/shock.ogg"
     tubasa "不是吧……你怎么会发现的……。"
     show tubasa 18 with dissolve
-    extend "\n啊！！不，不是的！！"
-    extend "\n因，因为都是男生，所以绝对不会有那种事情……！！\n对吧？你看……诶，内个！"
-    me "哼哼。\n就算都是男生，和能否恋爱也没有关系。"
-    extend "\n倒不如说，最近国内的同性恋者似乎增加了。"
+    extend "\n啊！！不、不是的！！"
+    extend "\n因、因为都是男生，所以绝对不会有那种事情的……！！\n对吧？你看……那个、那个——！"
+    me "哼哼。\n就算都是男生，和能不能恋爱也没关系啊。"
+    extend "\n倒不如说，最近国内的同性恋群体似乎变多了哦。"
     show tubasa 3 with dissolve
-    tubasa "我，我并不是！\n同，同性恋什么的……！"
-    extend "\n那，那那那那那那！！"
+    tubasa "我、我才不是！\n同、同性恋什么的……！"
+    extend "\n那个、那个那个那个——！！"
     me "原~来如此。"
     extend "\n也就是说，你和森海友君无关性别，\n而是喜欢上了他本人吧。"
     play sound "fx/cute3.ogg"
-    "噗！！"
-    "翼的脸就像着了火一样红。"
+    "（嘭！！）"
+    "翼的脸像着了火一样红。"
     show tubasa 33 with dissolve
     $ renpy.transition(Quake(0, 40, 0.1, 0.065), layer='master')
     play sound "fx/boing.ogg"
-    tubasa "阿哇，阿哇哇哇哇哇……！"
+    tubasa "啊哇、啊哇哇哇哇哇……！"
     me "契机是什么呢？"
     extend "\n什么时候开始喜欢上的呢？"
     show tubasa 7 with dissolve
     $ renpy.transition(Quake(40, 0, 0.1, 0.065), layer='master')
     play sound "fx/boing.ogg"
-    tubasa "契，契契契契契机……？！\n从，从从从什么时候开始的！？\n喜……喜欢……！？"
+    tubasa "契、契契契契契机……？！\n从、从从从什么时候开始的！？\n喜……喜欢……！？"
     "翼，像个坏掉的人偶一样，不断地重复着这句话。"
     me "所以呢所以呢！"
     extend "\n翼君你，想传达自己的心意吗？"
@@ -2221,163 +2221,163 @@ label day1_layout_tubasa:
     play sound "fx/boing.ogg"
     tubasa "心意……！？！？"
     extend "\n心心心心心……！传传传传传……？！"
-    "他慌慌张张的样子实在是太可爱了，我不禁捉弄了他一下。"
-    me "啊哈哈哈抱歉抱歉。"
-    extend "\n好像稍微捉弄过头了。"
+    "他慌慌张张的样子实在是太可爱了，我忍不住捉弄了他一下。"
+    me "啊哈哈哈，抱歉抱歉。"
+    extend "\n好像稍微捉弄过头了呢。"
     show tubasa 9 with dissolve
     tubasa "哈啊哈啊哈啊……捉弄……唔……？"
     stop music fadeout 1.0
-    me "话题跳得太快了对吧？"
-    extend "\n翼的反应实在是太有趣了，所以，一不小心就"
+    me "是我一下子把话题跳得太快了呢。"
+    extend "\n翼君的反应实在是太有趣了，我就忍不住……呐。"
     play music "tubasa_theme.ogg"
     show tubasa 3 with dissolve
-    tubasa "呜，呜呜呜呜……好过分，[player_name]君……。"
+    tubasa "呜、呜呜呜呜……好过分，[player_name]君……。"
     me "抱歉啦！"
     extend "\n总之你放心吧。\n我会把这件事保密的。"
     "……话虽如此，看翼这个样子，估计已经有不少人注意到了。"
     show tubasa 20 with dissolve
-    tubasa "秘，秘密什么的，我还没……\n承认我喜欢友君呢……。"
-    me "呼~。\n那就算友君跟其他人交往了你也无所谓呀~。"
-    extend "\n啊！说不定我开始喜欢上友君了！\n等下就去告白吧~！"
+    tubasa "保、保密什么的，我还没……\n承认我喜欢友君呢……。"
+    me "哼~嗯。\n那就算友君跟其他人交往了，你也无所谓吧~。"
+    extend "\n啊！说不定我开始喜欢上友君了！\n等下就去告白好了~！"
     show tubasa 7 with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
     tubasa "哇啊啊啊啊！！\n不行不行！！绝对不行！！！"
     me "啊哈哈哈！"
-    extend "\n瞧，你明明都有这种反应了，\n难道不打算承认自己喜欢他吗？"
+    extend "\n瞧，你明明都有这种反应了，\n难道还不打算承认自己喜欢他吗？"
     show tubasa 19 with dissolve
-    tubasa "呜，呜呜……这……。"
+    tubasa "呜、呜呜……那是……。"
     me "如果没有特别的感情，应该不会有这种反应吧？"
     show tubasa 1 with dissolve
     tubasa "呜呜……可是，就算喜欢……"
-    extend "\n我这种又土又胆小又笨的人，\n根本不可能受到对方的青睐……肯定也不会进展顺利……。"
-    me "哦，真是从一开始就特别消极啊。"
-    extend "\n翼同学，我打算帮助你们。"
+    extend "\n我这种又土又胆小又笨的人，\n他根本就不可能看得上我……肯定也不会进展顺利……。"
+    me "啊，真是还没开始就想打退堂鼓啊。"
+    extend "\n翼君，我打算帮助你们。"
     show tubasa 23 with dissolve
     tubasa "帮助……？"
     me "啊！也就是所谓的爱情的丘比特！"
-    extend "\n为了让你的心意传达给友，我会帮助你的！"
+    extend "\n为了让你的心意能传达到友那里，我会帮助你的！"
     show tubasa 8 with dissolve
-    tubasa "爱，爱情……！？"
+    tubasa "爱、爱情……！？"
     extend "\n啾啾啾啾啾啾啾啾，丘比特~？"
     me "怎么样？"
     extend "\n作为一个男人，要努力一下吗？"
     show tubasa 7 with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
-    tubasa "不，不行不行不行。"
+    tubasa "不、不行不行不行。"
     extend "\n这种事我做不到！"
     me "比想象中还要消极啊……"
     extend "\n既然这么喜欢友，\n那就更加积极一点啊。"
     show tubasa 30 with dissolve
-    tubasa "因为……因为……。\n我……就算维持现状也无所谓啊。"
-    extend "\n即便不能结合，只要能作为要好的朋友，我就……"
-    me "可是翼。"
-    extend "\n照这样发展下去，就像我刚刚说的，\n友说不定有一天会和别人交往的。"
+    tubasa "因为……因为……。\n我觉得……就算保持现状也没关系嘛。"
+    extend "\n即便不能在一起，只要能继续做要好的朋友，我就……。"
+    me "可是，翼。"
+    extend "\n照这样发展下去，就像我刚刚说的，\n友说不定哪天就和别人交往了。"
     extend "\n翼，到时候你能作为朋友为他送上祝福吗？"
     show tubasa 3 with dissolve
-    tubasa "那，那样我做不到啊……"
-    extend "\n我绝对不允许友和其他人交往什么的……。"
+    tubasa "那、那样我做不到啊……"
+    extend "\n友君和其他人交往什么的，我绝对不要啊……。"
     me "对吧？"
     extend "\n我也没说马上就要告白啊。"
-    extend "\n所以，才要慢慢的做好准备，\n好让翼君能将自己的心意传达给友君。"
+    extend "\n我是说，我们要一起做准备，\n好让翼君能够一点点地将心意传达给友君。"
     show tubasa 23 with dissolve
     tubasa "传达心意的准备…。"
-    me "平时不做好准备，\n等友君被别人抢走的时候，可就没法抵抗了。"
+    me "平时不做好准备，\n等友君被别人抢走的时候，可就没法抵抗了哦。"
     show tubasa 6 with dissolve
-    tubasa "呜呜……也，也是啊…。"
-    me "我只不过是想协助你而已。"
-    extend "\n与其独自烦恼，还不如找其他人商量，这样心情也会轻松一些，\n而且我认为这么做也会朝着更好的方向发展。"
+    tubasa "呜呜……也、也是啊…。"
+    me "我也只是想协助你而已。"
+    extend "\n与其独自烦恼，还不如找其他人商量，这样心情也会轻松一些，\n而且我觉得，这么做也会朝着更好的方向发展。"
     show tubasa 32 with dissolve
-    tubasa "……确，确实是这样……\n[player_name]君，感觉被你彻底看透了……"
+    tubasa "……确、确实是这样……\n[player_name]君，感觉我被你彻底看透了……"
     extend "\n哈啊……为什么会被发现啊……"
-    me "因为~翼同学\n你就像把心事写在脸上一样，非常好懂啊……。"
+    me "因为~翼君你啊，\n就像把心事写在脸上一样，非常好懂啊……。"
     show tubasa 17 with dissolve
     play sound "fx/cute2.ogg"
-    tubasa "诶！！这，这样吗！？"
+    tubasa "诶！！这、这样吗！？"
     me "嗯。真的。"
     show cg dark at center
     show tubasa 7 with dissolve
     play sound "fx/shock.ogg"
     tubasa "（失落）"
     show tubasa 8 with dissolve
-    tubasa "那，那么说来……难道说……\n我的心情可能被友君给发现……。"
+    tubasa "那、那么说来……难道说……\n我的心情可能被友君给发现……。"
     me "嗯~……也不是没有这种可能……。"
     hide cg with dissolve
     show tubasa 9 with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
-    tubasa "呜，骗人的吧……！该，该怎么办啊……"
+    tubasa "呜，骗人的吧……！该、该怎么办啊……"
     extend "\n这样下去的话，会被友君讨厌的啊啊啊！！"
     me "没事没事！\n就算被发现了，你肯定也不会被讨厌的！"
     extend "\n而且，我也在你身边！\n从现在开始，不管是御咲祭的准备，还是对友君的恋情，都一起努力吧！"
     show tubasa 3 with dissolve
-    tubasa "好，好的……我会加油的……！"
+    tubasa "好、好的……我会加油的……！"
     "很好……总算是圆满收场了。"
-    extend "\n接下来，不知道会看到什么样子的恋爱发展呢……。"
-    extend "\n咕呵呵呵呵"
+    extend "\n接下来，不知道会看到什么样的恋爱发展呢……。"
+    extend "\n咕嘿嘿嘿嘿~"
     window hide
     hide tubasa with dissolve
     pause 0.3
     stop music fadeout 0.3
     window show
-    sakuya "好恶心。"
+    sakuya "真恶心。"
     play sound "fx/dash.ogg"
     $ renpy.transition(Quake(50, 100, 0.1, 0.065), layer='master')
-    "咂"
-    "呜……就算你不说出来也……"
-    extend "\n诶，啥？"
+    "（受打击！）"
+    "呜……倒也不用说得这么直白吧……"
+    extend "\n等等，诶？"
     window hide
     play music "sakuya_theme.ogg"
     show tubasa 21 at topright with dissolve
     window show
-    tubasa "作，作哉君……？"
+    tubasa "作、作哉君……？"
     show sakuya 6 at topleft with dissolve
-    sakuya "你从刚才开始就在说恋爱啊丘比特什么的，到底是怎么回事？"
-    extend "\n那些和你们这种边缘人无缘吧。"
+    sakuya "你从刚才开始就在说恋爱啊丘比特什么的，到底是在说什么？"
+    extend "\n那些事情和你们这种边缘人无缘吧。"
     me "难道说……刚才的话你全都听见了……？"
     show sakuya 9 with dissolve
-    sakuya "我才没听。根本不感兴趣。"
+    sakuya "我才没听。也没兴趣。"
     hide tubasa with dissolve
     hide sakuya with dissolve
     show sakuya 6 at top with dissolve
     extend "\n喂，你这家伙。"
-    "作哉靠近我，小声对我说道。"
+    "作哉靠近我，小声说道。"
     window hide
     show cg c40 at center with FadeWhite(0.5)
     window show
     hide sakuya with dissolve
-    sakuya "你可别做多余的事。"
-    extend "\n要是你太嚣张了我可不饶你。\n知道了吧？"
+    sakuya "少给我多管闲事。"
+    extend "\n再敢得意忘形，我可不会饶了你。\n听懂了吗？"
     window hide
     play sound "fx/running.ogg"
     hide cg with Dissolve(1.0)
     stop music fadeout 1.4
     window show
-    "留下这句话，作哉回到了教室。"
+    "丢下这句话，作哉就回到了教室。"
     play music "tubasa_theme.ogg"
     show tubasa 21 at top with dissolve
-    tubasa "[player_name]嗯……他对你说了些什么……？"
+    tubasa "[player_name]君……他对你说了些什么……？"
     me "没事，没什么大不了的。"
-    extend "\n话说回来，翼同学也很不容易呢……。"
+    extend "\n话说回来，翼君也很不容易呢……。"
     show tubasa 22 with dissolve
-    tubasa "什么……？"
-    "但是，少年之间的复杂恋爱关系……"
+    tubasa "诶……？"
+    "不过，少年之间这复杂的恋爱关系……"
     play sound "fx/explosion2.ogg"
-    extend "\n这真是让我感到无比萌啊……！！"
-    extend "\n谢谢你，御咲学园！！同时，也谢谢你，梦想世界！！"
+    extend "\n这可真是……我简直要被萌死了啊……！！"
+    extend "\n谢谢你，御咲学园！！同时，也谢谢你，这个梦境世界！！"
     me "好……不管会遇到什么困难，"
     play sound "fx/cute2.ogg"
-    extend "\n都要克服，一定要抵达幸福的结局！！"
+    extend "\n我都一定会克服，和你们抵达Happy End！！"
     show tubasa 19 with dissolve
-    tubasa "……？？！\n你在说些什么啊！？"
-    extend "\n我完全跟不上……。"
-    me "别管那么多！！"
+    tubasa "……？？！\n到底是怎么一回事啊！？"
+    extend "\n我完全跟不上你……。"
+    me "好啦好啦！！"
     extend "\n话也说完了，是时候回教室了！"
-    extend "\n作为执行委员，迟到可不好！"
+    extend "\n作为执行委员，迟到可不好哦！"
     show tubasa 2 with dissolve
-    tubasa "哎……啊，好的……。"
-    "翼还跟不上这突如其来的转折，好像还有些摸不着头脑，\n我们强行结束了话题，回到了教室。"
+    tubasa "诶……啊，好的……。"
+    "面对这突如其来的急展开，翼好像还有些摸不着头脑。\n但我强行终止了话题，然后回到了教室。"
     window hide
     hide tubasa with dissolve
     stop music fadeout 0.5
