@@ -2387,56 +2387,56 @@ label day1_layout_tubasa:
 label day1_cooking_tuki:
     show bg infirmary at center
     window show
-    me "那，那么，月君！"
-    extend "\n不好意思，你能留下来吗？"
+    me "那、那么，月君！"
+    extend "\n不好意思，能不能请你留下来？"
     window hide
     show tuki 18 at topleft with dissolve
     window show
     tuki "嗯，我知道了。"
-    extend "\n居然说些像是小孩子一样的话，真是拿你没办法啊。"
-    "月像是要戏弄我似的微笑着。"
+    extend "\n竟然说些像小孩子一样的话，真拿你没办法啊。"
+    "月带着几分调侃地微笑着。"
     extend "\n居然被比我小十岁的人这么说……。"
-    me "呜……啊，啊哈哈……。"
+    me "呜……啊、啊哈哈……。"
     show sora 2 at topright with dissolve
     sora "那么，我就先回教室了。"
-    extend "\n[player_name]君，保重啊！"
+    extend "\n[player_name]君，多保重哦！"
     show tuki 9 with dissolve
     tuki "料理组的工作，就拜托你了。"
     show sora 10 with dissolve
     sora "嗯，我会尽我所能的。"
     play sound "fx/sliding_door.ogg"
     hide sora with dissolve
-    "空这么说完，就从保健室里出去了。"
+    "说完，空便走出了保健室。"
     window hide
     hide tuki with dissolve
     window show
-    doctor "哎呀，让大哥哥来陪在身边啊。"
+    doctor "哎呀，是哥哥留下来陪在他身边啊。"
     show tuki 4 at top with dissolve
     tuki "是的，因为[player_surname]说寂寞什么的。"
     me "呜咕……。"
     hide tuki with dissolve
-    "虽然我很拼命地劝他们不要离开，\n但被这么一说，还是不由得脸红了起来。"
-    extend "\n真是丢脸的成年人……。"
+    "虽说我刚才确实是拼命挽留他们，\n但被这么一说，还是不由得脸红了起来。"
+    extend "\n明明是个成年人，真是太丢人了……。"
     "我不由得把头埋进了被子里。"
     doctor "哎呀呀，[player_surname]君也还只是个小孩子呢。"
-    me "啊，啊哈哈……。"
+    me "啊、啊哈哈……。"
     teacher "不过，这样我就放心了。"
-    extend "\n老师有点事要去办公室一趟，\n赤峰同学你能帮我看一会儿吗？"
+    extend "\n老师有点事要去办公室一趟，\n赤峰同学，能麻烦你帮忙照看一会儿吗？"
     show tuki 15 at top with dissolve
-    tuki "好的，我知道了。"
+    tuki "是，我明白了。"
     teacher "谢谢。"
     extend "\n那我就先走一步了。"
     play sound "fx/sliding_door.ogg"
-    "就这样，连保健老师也离开了，\n保健室里，就剩我和月两个人了。"
+    "于是，连保健老师也离开了。\n保健室里，只剩下月和我两个人了。"
     window hide
     hide tuki with dissolve
     window show
     me "对不起啊……月君，我这么任性。"
     show tuki 9 at top with dissolve
     tuki "没关系的。"
-    extend "\n空感冒的时候也说过同样的话，\n你变成这样，也一定是没办法的事情吧。"
-    me "嗯……我突然就觉得很寂寞啊。"
-    "与其说具体的人，不如说，我是思恋这种少年感。"
+    extend "\n空感冒的时候也说过同样的话，\n所以你会这样，肯定也是没办法的事吧。"
+    me "嗯……突然就觉得很寂寞呢。"
+    "与其说是想找人陪，倒不如说只是想念美少年了啊。"
     hide tuki with dissolve
     "然后，月把椅子拉到了床边，把手伸了过来。"
     window hide
@@ -2445,26 +2445,26 @@ label day1_cooking_tuki:
     show cg c58 at center with zoominout
     play sound "fx/boing.ogg"
     window show
-    me "……月，月君。"
+    me "……月、月君。"
     extend "\n你在做什么呢？"
-    "月把手放到了我的头上，就像哄小孩一样摸着我。"
-    tuki "空感冒的时候，说这样做能让他平静下来。"
+    "月把手放在我的头上，就像哄小孩子一样抚摸着我。"
+    tuki "空感冒的时候，他说这样做能让他平静下来。"
     extend "\n……你不喜欢吗？"
-    "虽然我不讨厌，但被小孩摸头，总觉得有点难为情。"
-    extend "\n但是，他的手却十分轻柔，还带着能让人安心的温暖，\n让我感到有些不可思议。"
-    me "不，不是……没有那种事。"
-    "我暂时沉浸在了这种舒适感里。"
-    tuki "……还有，其它想要我做的事情吗？"
+    "虽然我不讨厌，但被小孩子摸头，总觉得有点难为情。"
+    extend "\n但是，他的手法十分轻柔，还带着能让人安心的温暖，\n真是一种不可思议的感觉。"
+    me "不、不是……没有那种事。"
+    "我暂时沉浸在这份舒适之中。"
+    tuki "……还有其它想要我做的事吗？"
     extend "\n只要是我力所能及的，无论什么都可以。\n不用客气，尽管说。"
-    me "没，没事的。"
-    extend "\n我又不是感冒了，不用这么顾虑我的。"
+    me "没、没事的。"
+    extend "\n我又不是感冒了，不用这么费心的。"
     tuki "你在说什么呢。"
-    extend "\n像这样小看这些琐碎小事的话，\n是会把事情闹大的，反而会延长病情的哦。"
-    me "那是当然，但是…。"
-    tuki "这种时候，就放下你的执念，坦率地向我撒娇吧。"
+    extend "\n像这样轻视小病的话，\n可是会恶化，反而拖得更久哦。"
+    me "话是这么说没错……。"
+    tuki "这种时候，就放下那种执念，坦率地向我撒娇吧。"
     extend "\n这样做，对你来说也会很轻松的。"
     "这孩子，真是成熟……。"
-    extend "\n与年龄差距无关，让人不禁想要向他撒娇。"
+    extend "\n让我甚至忘记了年龄的差距，不禁想要向他撒娇了。"
     me "……那么，除了摸摸我的头以外，"
     extend "\n能不能……和我睡在一起？"
     "不由得，就吐露出了真心话。"
@@ -2473,39 +2473,39 @@ label day1_cooking_tuki:
     hide cg with dissolve
     show tuki 5 at top with dissolve
     window show
-    tuki "和我睡一个被窝吗？"
+    tuki "一起挤一张床吗？"
     extend "\n但是，要是我进去的话就会很挤了，而且也会很热吧。"
-    me "就是说这样才好！\n你想啊，生病的时候会觉得心里不安嘛，所以～。"
-    extend "\n这样做就能让我更加安心……"
+    me "就是挤一点才好嘛！\n你想啊，生病的时候会觉得心里不安嘛，所以~。"
+    extend "\n这样做的话，我就能更安心一点……之类的……。"
     "连我自己都感到心口一痛……。"
-    extend "\n不过，这孩子的话一定……。"
+    extend "\n不过，如果是这孩子的话肯定……。"
     show tuki 9 with dissolve
     tuki "既然你都这么说了，那就没办法了。"
-    extend "\n那你能稍微靠边一些吗？"
+    extend "\n那，你能稍微往边上挪一挪吗？"
     me "谢谢你！"
-    extend "\n来来！ 请进！！"
+    extend "\n来来来！请进！！"
     hide tuki with dissolve
-    "我退到一边，月爬上了床，躺到我旁边。"
-    extend "\n这次他把手放到我的背上，\n开始有节奏地轻拍我的背。"
+    "我往旁边腾出位置后，月便爬上了床，躺在了我的身旁。"
+    extend "\n这次，他把手放到我的背上，\n蓬、蓬，开始有节奏地、温柔地拍着我的背。"
     window hide
     show cg c59 at top with Radial(1.0)
     window show
-    tuki "怎么样？这样冷静下来了吗？"
-    me "嗯……谢谢你。\n真感觉很安心。"
+    tuki "怎么样？这样能安下心来了吗？"
+    me "嗯……谢谢你。\n真的很舒服呀。"
     extend "\n真想一直这样下去啊~。"
     tuki "哈哈哈。"
-    extend "\n一直这样下去的话，永远也没法恢复健康哦？"
-    "……实际上，我现在并不是身体不舒服的状态，真的想一直这样下去。"
+    extend "\n一直这样下去的话，可是永远也没法好起来的哦？"
+    "……实际上，我压根就没生病，就算一直这样也无所谓的说……。"
     "话说回来……虽然很顺利地就发展成了这样，\n可这是不是也太夸张了！！！？？"
-    extend "\n在我这个正太控的旁边，一个中学二年级的男生，正和我躺在一起。"
-    extend "\n做梦都没想到会遇到的场景，现在却变成了现实（？）！！！"
+    extend "\n在我这个正太控的旁边，一个初中二年级的男生，正和我躺在一起。"
+    extend "\n这梦寐以求的场景，现在竟变成了现实（？）！！！"
     play sound "fx/heartbeat.ogg"
     "我心跳得越来越快。"
     play sound "fx/sparkle.ogg"
     show cg adult with Dissolve(0.8)
     "啊……真想把脸埋在他年轻健壮的胸肌里……。"
     extend "\n想要强抱他……不，应该说想要被他强抱！！"
-    extend "\n能够被这样的帅哥抱，就算是男人也会觉得幸福吧……。"
+    extend "\n能够被这样的帅哥抱，就算是男人也会觉得很幸福吧……。"
     stop music fadeout 0.5
     hide cg with Dissolve(0.8)
     hide bg with Dissolve(0.8)
@@ -2522,24 +2522,24 @@ label day1_cooking_tuki:
     extend "\n[player_surname]……？"
     "我的身体不受控制地动了起来。"
     me "抱歉，月君。"
-    extend "\n我，忍不住……。"
+    extend "\n我，忍不住就……。"
     tuki "……真是拿你没办法啊。"
-    extend "\n对啊，是我让你随心所欲的。"
+    extend "\n也是啊……是我让你随心所欲的。"
     extend "\n那就随你所愿吧。"
     show cg adult at center with dissolve
-    "月把手绕过我的背，紧紧地拥抱着我。"
-    extend "\n我把脸埋进那结实的身体里，用全身感受着月。"
+    "月把手绕到我的背后，紧紧地抱住了我。"
+    extend "\n我把脸埋进那结实的胸膛，全身心地感受着月。"
     play sound "fx/explosion3.ogg"
-    "那一刻，我的开关完全打开了。"
-    "无论是梦境还是现实，都可以！！  无论变成什么样都可以！！"
-    extend "\n我都要做我想做的事！！！"
+    "那一刻，我的开关彻底被打开了。"
+    "无论是梦境还是现实，都无所谓了！！无论变成什么样也都无所谓了！！"
+    extend "\n我就要随心所欲大干特干！！！"
     show cg remarkable with FadeWhite(0.3)
     play sound "fx/fall_down.ogg"
     "啪嚓"
-    "我变成扑在月身上的姿势。"
+    "我调整姿势，整个人压在了月的身上。"
     tuki "[player_surname]……？"
     "这种机会，只有现在才有！！"
-    extend "\n好，在这个真实的梦里面，得好好发泄一下平时的欲求不满才行……！"
+    extend "\n来吧，在这个无比真实的梦境里，必须得好好发泄一下平日里的欲求不满才行……！"
     me "果然比起被人抱，我还是想抱别人……！！"
     extend "\n美味的少年啊……"
     play sound "fx/eureka.ogg"
@@ -2548,7 +2548,7 @@ label day1_cooking_tuki:
     hide bg with Dissolve(0.2)
     hide cg with Dissolve(0.2)
     play sound "fx/wind_slash.ogg"
-    "啪"
+    "（啪！）"
     window hide
     play music "fx/tsubame.ogg"
     show bg infirmary at center with DefocusWhite(1.4)
@@ -2565,7 +2565,7 @@ label day1_cooking_tuki:
     extend "\n我和月君不是一起躺在床上……。"
     show tuki 22 with dissolve
     tuki "你在说什么呢。"
-    extend "\n我怎么可能抢病人的床。"
+    extend "\n我怎么会抢病人的床。"
     me "诶……啊……啊！？！？"
     stop music fadeout 0.5
     play sound "fx/shock_big.ogg"
@@ -2580,12 +2580,12 @@ label day1_cooking_tuki:
     show tuki 15 at top with dissolve
     window show
     tuki "看起来身体已经好了不少，太好了。"
-    extend "\n医生也回来了，时间也差不多了，\n我先回教室了，[player_surname]你呢？"
-    me "呜……我，我也回去……。"
-    "既然是梦……刚才正到关键……\n就让我再稍微多做一会儿美梦啊啊啊……！！！！"
+    extend "\n医生也回来了，时间也差不多了，\n我先回教室了，[player_surname]君你呢？"
+    me "呜……我、我也回去……。"
+    "既然是梦……刚才正到关键之处……\n就让我再稍微多做一会儿美梦啊啊啊……！！！！"
     extend "\n呜呜……。"
     hide tuki with dissolve
-    "就这样，我的欲望落空，我们回到了教室。"
+    "就这样，我的欲望落了空，我们回到了教室。"
     window hide
     stop music fadeout 0.5
     hide bg with Dissolve(0.9)
