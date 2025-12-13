@@ -2593,19 +2593,19 @@ label day1_cooking_tuki:
 
 label day1_supply_sakuya:
     window show
-    "去教学楼后面吧！"
-    "但是，到底为什么会去那种地方呢？"
-    extend "\n说到校后……"
+    "去教学楼后面看看吧！"
+    "不过，到底为什么会待在那种地方啊？"
+    extend "\n提到教学楼后面的话……"
     extend "嗯……。"
     "告白……？"
-    "不对不对，那样友君也知道的话就很奇怪了。"
-    extend "\n说起来，他好像说「卿卿我我」什么的……。"
+    "不对不对，那样友君也知道这件事的话就很奇怪了。"
+    extend "\n说起来，他好像说了『卿卿我我』什么的……。"
     show cg adult at center with FadeWhite(0.5)
     play sound "fx/wow2.ogg"
-    "难，难道说，是告白之后的事！？！？"
-    extend "\n不对，那就不该是校后，而是在体育馆仓库吧！！"
-    extend "\n话说回来，御咲学园是男子学校，居然也有这种事！？！？？"
-    "我怀着各种各样的臆测，向着校后走去。"
+    "难、难道说，是告白之后的那种事！？！？"
+    extend "\n不对，那就不该在教学楼后面，而是体育馆仓库吧！！"
+    extend "\n话说回来，御咲学园明明是男校，居然真的会有这种事吗！？！？？"
+    "脑海中浮现出各种各样的臆测，我朝着教学楼后面走去。"
     stop music fadeout 2.0
     window hide
     hide bg with dissolve
@@ -2613,7 +2613,7 @@ label day1_supply_sakuya:
     play music "fx/tsubame.ogg"
     show bg schoolyard at center with Radial(0.7)
     window show
-    me "说是校后，学校这么大……到底在哪呢……"
+    me "虽说是教学楼的后面，但其实学校还挺大的……到底在哪儿呢……。"
     show bg gym_backside with dissolve
     "我刚转过教学楼的拐角，就听到了声音。"
     window hide
@@ -2622,23 +2622,23 @@ label day1_supply_sakuya:
     $ renpy.transition(Quake(0, 60, 0.15, 0.1), layer='master')
     sakuya "小翼！我喜欢你啊啊啊！！！"
     me "！？！？"
-    "刚，刚才的声音……是作哉君！！"
-    extend "\n「喜欢你」……果然还是告白了啊！！？！？"
+    "刚、刚才的声音……是作哉君！！"
+    extend "\n『喜欢你』……果然是在告白吗！！？！？"
     play sound "fx/boing.ogg"
-    extend "\n而且，还是那位一之濑翼同学！？？！"
-    "我怀着激动的心情，悄悄地看过去。"
+    extend "\n而且，对象还是那位一之濑翼同学！？？！"
+    "我按捺不住心中的期待，悄悄探出头去。"
     window hide
     show bg school_backside with dissolve
     window show
-    me "嗯，啊……一个人……？"
+    me "嗯，啊……只有一个人……？"
     extend "\n作哉君只是蹲在那……。"
-    "难道说，是在练习告白？正当我这么想着的时候，\n"
+    "难道说，是在练习告白？正当我这么想着的时候——\n"
     stop music fadeout 0.5
     show cg remarkable at center with FadeWhite(0.5)
     play sound "fx/wind_slash.ogg"
-    "作哉怀里突然飞出什么！"
+    "有什么东西从作哉的怀里窜了出来！"
     unknown "汪！汪汪！！"
-    sakuya "啊，喂小翼！"
+    sakuya "啊，喂，小翼！"
     extend "\n你要去哪啊！！"
     window hide
     play music "emergency.ogg"
@@ -2647,54 +2647,54 @@ label day1_supply_sakuya:
     play sound "fx/boing.ogg"
     "是狗！！"
     extend "\n为什么在这里？"
-    "就在我思索的时候，那只狗冲着我跑来。"
-    me "呜，呜哇！等，等等！！"
+    "就在我思索的时候，那只狗径直朝我扑了过来。"
+    me "呜、呜哇！等、等等！！"
     window hide
     hide cg with dissolve
     $ renpy.transition(Quake(0, 60, 0.15, 0.1), layer='master')
     play sound "fx/fall_down.ogg"
     window show
-    "我下意识地坐倒在地。"
-    extend "\n而狗则无视了我，径直地舔舐我的脸。"
+    "我一屁股跌坐在了地上。"
+    extend "\n而狗则不管我这副模样，只是不停地舔着我的脸颊。"
     play sound "fx/running.ogg"
     show sakuya 17 at top with dissolve
-    sakuya "诶，[player_surname]！！你怎么会在这里！！？"
-    me "作，作哉！"
-    extend "\n这狗狗……快，快想想办法啊~…。"
-    "我的脸被口水所浸湿，向作哉请求道。"
+    sakuya "诶，[player_surname]！！你这家伙，怎么会在这里！！？"
+    me "作、作哉！"
+    extend "\n这狗狗……快、快想想办法啊~……。"
+    "顶着满脸的口水，我向作哉发出了求救。"
     show sakuya 26 with dissolve
     sakuya "啊……"
-    extend "喂，小翼！快离开这个人。"
+    extend "喂，小翼！快从那个人身上下来。"
     "作哉这么说着，"
     stop music fadeout 1.0
-    "小翼就老实地听从了他，离开了我的身边。"
+    "小翼便乖乖听话，从我身上离开了。"
     window hide
     play music "sakuya_theme.ogg"
     show cg c76 at center with Radial(0.5)
     window show
-    sakuya "乖孩子……真乖真乖~。"
-    "作哉抚摸着狗狗的头，温柔地抱了上去。"
+    sakuya "好啦好啦……真是个乖孩子~。"
+    "作哉抚摸着狗狗的头，温柔地将它抱进了怀里。"
     me "作哉君……这只狗到底是怎么回事？"
     sakuya "最近，经常能看到它出现在学校里。"
-    extend "\n因为它很亲近人，忍不住觉得很可爱，就照顾它一下。"
+    extend "\n因为它很亲近人，我觉得怪可爱的，就顺便照顾照顾它。"
     extend "\n对吧？小翼。"
-    "作哉露出了和平时的他无法想象的温柔表情，抚摸着小翼的头。"
+    "作哉露出了和平时的他难以想象的温柔表情，抚摸着小翼的头。"
     me "原来作哉君喜欢狗啊。"
-    extend "\n刚才我还以为你喊「翼我喜欢你！」之类的\n结果居然是「好喜欢狗啊！」，吓我一跳。"
-    extend "\n我还以为作哉君要向翼告白呢。"
+    extend "\n刚才我还以为你喊『翼我喜欢你！』之类的，\n真是吓了我一跳。"
+    extend "\n我还以为作哉君是在向二班的翼君告白呢。"
     hide cg with dissolve
     hide sakuya with dissolve
     show tsubasa 3 at topright
     show sakuya 2 at topleft with dissolve
     play sound "fx/boing.ogg"
-    sakuya "什……！！！ 你，你傻吗！！！\n谁会喜欢那种懦弱无力的家伙啊！！"
+    sakuya "哈……！！！你、你是白痴吗！！！\n谁会喜欢那种懦弱无力的家伙啊！！"
     extend "\n开什么玩笑啊！"
     "作哉这么说着，表情又变回了平时傲娇的样子。"
-    me "抱，抱歉抱歉！"
-    extend "\n没想到你在和狗狗说话……。"
+    me "抱、抱歉抱歉！"
+    extend "\n我也没想到你是在和狗狗说话……。"
     show sakuya 12 with dissolve
-    sakuya "什，什么啊……和狗狗说话也不行吗？"
-    me "不是那样的。"
+    sakuya "干、干嘛啊……和狗狗说话不行吗？"
+    me "不是那个意思啦。"
     extend "\n就是~觉得很可爱。"
     hide sakuya with dissolve
     hide tsubasa with dissolve
@@ -2702,51 +2702,51 @@ label day1_supply_sakuya:
     play sound "fx/punch3.ogg"
     "啪！！！"
     show sakuya 27 at top with dissolve
-    sakuya "吵，吵死了！！！信不信我揍你！！！"
-    me "已，已经揍了……。"
+    sakuya "吵、吵死了！！！信不信我揍你！！！"
+    me "已、已经揍了……。"
     hide sakuya with dissolve
     show sakuya 27 at topleft
     show tsubasa 5 at topright with dissolve
-    tubasa "咕……\n（舔舔）"
+    tubasa "呜嗯……\n（舔舔）"
     show sakuya 28 with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
-    sakuya "啊，对不起，翼。吓到你了吗？"
-    extend "\n我不是对翼说的。\n只是对这个笨蛋说的，不用害怕。"
+    sakuya "啊，对不起，小翼。吓到你了吗？"
+    extend "\n我不是对小翼说的。\n只是在凶这个蠢货而已，不用害怕。"
     play sound "fx/triangle.ogg"
-    "然后，这个差别。"
-    extend "\n对狗温柔，对人严厉……这种类型我还是第一次听说。"
+    "差距还真大啊。"
+    extend "\n对狗温柔，对人严厉……这种属性我还是第一次听说。"
     extend "\n傲犬？"
-    extend "不对，是犬娇？"
-    me "我刚刚就在想\n那只小狗，叫「翼」是吗？"
-    extend "\n难道说是作哉给起的吗？"
+    extend "不对，是犬娇吗？"
+    me "我刚刚就在想，\n那只小狗，叫『小翼』是吗？"
+    extend "\n难道说是作哉起的名字吗？"
     show sakuya 17 with dissolve
-    sakuya "哈，哈啊？？不是！！当然不是啊！\n谁会喜欢和那个白痴一之濑起一样的名字啊。"
-    extend "\n原本就有名字的，原本就有！"
+    sakuya "哈、哈啊？？才不是！！怎么可能啊！\n谁会特意取个跟那个白痴一之濑一样的名字啊。"
+    extend "\n是它原本就是这个名字，原本！"
     hide sakuya with dissolve
     hide tsubasa with dissolve
     show sakuya 2 at top with dissolve
     play sound "fx/dash.ogg"
-    extend "\n真是……开什么玩笑！！！"
+    extend "\n你长得像个笑话就算了，别开这种玩笑好不好！！！"
     hide sakuya with dissolve
     show sakuya 2 at topleft
     show tsubasa 6 at topright with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
-    tsubasa "嗯～！"
+    tsubasa "嗯~！"
     show sakuya 28 with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
-    sakuya "啊，啊哈。不是啦～。"
+    sakuya "啊、啊哈。不是啦~。"
     extend "\n不是说小翼，我只是在说那个大笨蛋蠢货啦。"
-    me "但是，那只小狗是野狗吧？\n你是怎么知道它原来的名字？"
+    me "但是，那只小狗是野狗吧？\n你是怎么知道它原来的名字的？"
     show sakuya 29 with dissolve
-    sakuya "少，少啰嗦！！！这很重要吗！！！"
+    sakuya "少、少啰嗦！！！这很重要吗！！！"
     hide sakuya with dissolve
     hide tsubasa with dissolve
     play sound "fx/wind_slash.ogg"
     show sakuya 27 at top with dissolve
-    extend "\n赶紧给我滚！！\n不然的话，我可要再揍你一顿哦！！！"
+    extend "\n赶紧给我滚！！\n不然的话，我可要再揍你一顿了！！！"
     hide sakuya with dissolve
     show sakuya 27 at topleft
     show tsubasa 5 at topright with dissolve
@@ -2755,7 +2755,7 @@ label day1_supply_sakuya:
     tsubasa "嗯！"
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
-    extend "汪汪～！"
+    extend "汪汪~！"
     show sakuya 28 with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
@@ -2767,19 +2767,19 @@ label day1_supply_sakuya:
     "这是完全被驯化了啊……。"
     window hide
     window show
-    me "翼酱……是吗？"
-    extend "\n虽然说是野狗，但那小东西毛色很好，\n而且，连项圈都戴上了，"
-    extend "\n全部都是作哉君做的吗？"
+    me "小翼酱……是吗？"
+    extend "\n虽然说是野狗，但这孩子毛色很好，\n而且，连项圈都戴上了，"
+    extend "\n这些全部都是作哉君做的吗？"
     show sakuya 19 at top with dissolve
-    sakuya "是啊……有意见吗？"
+    sakuya "是啊……你有意见？"
     me "没有没有……只是觉得好厉害。简直就像真的狗主人一样。"
-    extend "\n小翼能得到如此温柔的主人，真是太幸福了。"
+    extend "\n小翼能有这么温柔的主人，真是太幸福了。"
     hide sakuya with dissolve
     show tsubasa 2 at top with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
     tsubasa "汪！"
-    me "哈哈，好厉害！\n居然会好好回答。"
+    me "哈哈，好厉害！\n居然会好好回答呢。"
     hide sakuya with dissolve
     hide tsubasa with dissolve
     show tsubasa 3 at topright
@@ -2818,55 +2818,55 @@ label day1_supply_sakuya:
     hide tsubasa with dissolve
     show sakuya 21 at top with dissolve
     sakuya "差不多就这样。"
-    me "好，好厉害……居然全部都会听从指示。"
+    me "好、好厉害……全部都乖乖照做了呢。"
     show sakuya 24 with dissolve
-    sakuya "那当然。小翼很聪明啊！"
+    sakuya "那当然。因为小翼很聪明啊！"
     extend "\n对了，给你奖励。"
     hide sakuya with dissolve
-    "作哉从口袋里拿出狗食似的东西，\n放到了小翼的头上。"
+    "作哉从口袋里拿出像是狗粮的东西，\n轻轻地放在小翼的头上。"
     show sakuya 6 at topleft
     show tsubasa 3 at topright with dissolve
-    sakuya "小翼，待着。"
+    sakuya "小翼，等。"
     play sound "fx/footsteps.ogg"
     "听到这么说，它就像石化了一样纹丝不动。"
     sakuya "……。"
     me "……。"
-    tsubasa "…。"
+    tsubasa "……。"
     sakuya "……"
     stop sound fadeout 0.5
     show sakuya 24 with dissolve
-    extend "好了！"
+    extend "好！"
     show tsubasa 2 with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute3.ogg"
-    "在我说完的同时，他突然动了下头\n然后完美地接住了从天而降的饵食，并将其送入口中。"
+    "随着这声令下，小翼灵活地晃了一下脑袋，\n完美接住了掉下来的狗粮，吃进了嘴里。"
     "我不禁为它的精彩表现鼓起了掌。"
     hide tsubasa with dissolve
     hide sakuya with dissolve
-    me "太，太棒了！！"
-    extend "\n没想到居然这么听话！"
+    me "太、太棒了！！"
+    extend "\n没想到居然被训练得这么好！"
     show sakuya 21 at top with dissolve
     sakuya "哼哼。\n我已经习惯照顾狗狗了啊。"
-    me "意思是，你家也养了狗？"
+    me "意思是，你家也养了狗吗？"
     show sakuya 5 with dissolve
     sakuya "虽然现在已经没有了，但我以前养过。"
     extend "\n那时候，我学到了不少照顾狗狗的方法。"
-    me "诶~厉害啊。"
+    me "诶~真厉害啊。"
     extend "\n一般来说，这种事都是交给父母的，\n没想到你居然一直自己来照顾。"
     show sakuya 7 with dissolve
-    sakuya "也没什么啦……只是因为喜欢而已。"
-    "作哉害羞地说道。"
+    sakuya "也没什么……只是因为喜欢而已。"
+    "作哉有些害羞地说道。"
     extend "\n和平时的他形成鲜明的对比，我的心跳加快了起来。"
     hide sakuya with dissolve
     show sakuya 7 at topleft
     show tsubasa 3 at topright with dissolve
-    me "我说，我可以摸摸它吗？"
+    me "呐呐，我可以摸摸看吗？"
     show sakuya 21 with dissolve
     sakuya "可以。"
-    extend "\n放心吧，它绝对不会闹腾或者咬你。"
-    me "谢谢。那……"
+    extend "\n放心吧，它绝对不会闹腾或者咬你的。"
+    me "谢谢。那我就……"
     "抚摸抚摸"
-    "我轻轻地抚摸作哉的头发。"
+    "我轻轻地抚摸起作哉的头发。"
     hide sakuya with dissolve
     hide tsubasa with dissolve
     show sakuya 29 at top with dissolve
@@ -2875,60 +2875,60 @@ label day1_supply_sakuya:
     sakuya "！！？"
     me "哇啊~果然很顺滑。好棒啊。"
     show sakuya 27 with dissolve
-    sakuya "……你傻吗！！！"
+    sakuya "……你白痴吗！！！"
     play sound "fx/dash.ogg"
     "啪！！"
     "作哉无情地甩开了我的手。"
-    me "咦……你不是说不会打人或咬人吗…。"
+    me "诶……你不是说绝对不会闹腾或者咬人的吗……。"
     show sakuya 8 with dissolve
     sakuya "怎么想都是说小翼吧！"
     extend "\n居然像猫山一样做这种无聊的事！！！"
-    me "啊哈哈。对不起对不起。\n开玩笑的啦……。"
-    "这次我成功地把手放在了小翼身上。温柔的抚摸着"
+    me "啊哈哈。对不起对不起。\n开个玩笑嘛……。"
+    "这一次，我终于把手放在了小翼头上，温柔地抚摸起来。"
     hide sakuya with dissolve
     show tsubasa 3 at topright with dissolve
     play sound "fx/sparkle.ogg"
     me "哦哦~！我摸到了！！！"
-    extend "\n我，我以前从来没摸过动物，\n好感动啊！！！"
+    extend "\n我、我以前都没怎么摸过动物，\n好感动啊！！！"
     show sakuya 23 at topleft with dissolve
-    sakuya "什么嘛……你对人做这种胡闹的事，对动物倒这么纯洁啊。"
-    extend "\n因为小翼是个好孩子，所以会允许像你一样的家伙摸他的。"
+    sakuya "什么嘛……明明敢对人胡来，面对动物倒是挺纯情的嘛。"
+    extend "\n因为小翼是个好孩子，所以才允许像你这样的家伙摸的。"
     show sakuya 14 with dissolve
     extend "\n心怀感激吧。"
     me "嗯。\n哎呀~今天来这里真是来对了。"
     show sakuya 15 with dissolve
-    sakuya "啊对了。\n你怎么知道我在这里的？"
+    sakuya "啊，对了。\n你怎么知道我在这里的？"
     me "是友告诉我的，他说你大概在这里。"
     show sakuya 10 with dissolve
     sakuya "是那家伙啊……。"
-    extend "\n喂，[player_surname]。\n你可千万别把小翼的事告诉别人啊。"
-    extend "\n把这话也跟那家伙说一声。"
-    me "哎？为什么？"
+    extend "\n喂，[player_surname]。\n小翼的事，绝对不准告诉别人。"
+    extend "\n顺便也转告那家伙一声。"
+    me "诶？为什么？"
     show sakuya 26 with dissolve
     sakuya "要是让其他人知道了，传出去的话，\n会有许多看热闹的人跑来看小翼，"
-    extend "\n那些没有知识的笨蛋说不定会给小翼喂一些对它有害的东西，\n要是有那些不认识的人接二连三跑来，小翼也会害怕的。"
-    me "原来如此……明白了，\n我也会跟友说的。"
+    extend "\n那些没常识的蠢货说不定会给小翼喂一些对它有害的东西，\n而且要是陌生人成群结队地过来，小翼也会害怕的。"
+    me "原来如此……明白了，\n我会跟友君说的。"
     show sakuya 5 with dissolve
-    sakuya "好，拜托了。"
-    "作哉和我说完话之后，翼好像拼命想要表达些什么。"
+    sakuya "好，那就拜托了。"
+    "作哉和我刚一说完，小翼便拼命想要表达些什么。"
     show tsubasa 2 with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
     tsubasa "汪！汪！"
-    me "作哉，这是？"
+    me "作哉君，这是？"
     show sakuya 24 with dissolve
     sakuya "让你抱抱它。"
     extend "\n来吧，温柔地把它抱起来。"
-    me "但是……我不仅没有抱过狗，\n连孩子都没抱过……"
+    me "但是……我不仅没有抱过狗，\n连小孩子都没抱过……"
     show sakuya 1 with dissolve
     sakuya "……真是的，拿你没办法啊。"
     extend "\n要这样抱。"
     hide sakuya with dissolve
     hide tsubasa with dissolve
-    "作哉一边说着，一边靠近小翼，\n如字面意思一样手把手地教我怎么抱小翼。"
+    "说完，作哉便向我走来，\n开始——如字面意思那般——手把手地教我该怎么抱小翼。"
     show cg purple at center with FadeWhite(0.5)
     play sound "fx/sparkle.ogg"
-    "作，作哉靠得好近……！"
+    "作、作哉君靠得好近……！"
     extend "\n这已经算是紧贴状态了……！！"
     "我呼吸变得急促起来。"
     window hide
@@ -2937,22 +2937,22 @@ label day1_supply_sakuya:
     hide tsubasa with dissolve
     show sakuya 17 at top with dissolve
     window show
-    sakuya "喂，冷静点，好好抱紧它啊！\n它会掉下来的！"
-    extend "\n你要是不小心松手，我可饶不了你啊！！"
-    me "嗯，嗯，我知道了…。"
-    "啊……没想到，他竟然会离我这么近……。"
-    extend "\n平时因为散发出一种难以接近的气息，这份喜悦显得更加强烈！！！"
+    sakuya "喂，冷静点，好好抱紧它啊！\n小翼会掉下来的！"
+    extend "\n要是敢把它摔了，我可饶不了你啊！！"
+    me "嗯、嗯，我知道了…。"
+    "啊……没想到，他竟然会靠我这么近……。"
+    extend "\n正因为平时散发着一种难以接近的气息，这份喜悦才显得更加强烈！！！"
     hide sakuya with dissolve
-    "然后，我虽然笨拙，但还是抱着小翼\n沉浸在柔软的毛发上，第一次体会到了抱小狗的感觉。"
+    "虽然动作笨拙，但我总算是抱住了小翼。\n一边沉浸在那柔软毛发的触感中，一边享受着这初次的拥抱体验。"
     window hide
     show sakuya 5 at top with dissolve
     window show
     sakuya "小翼好像也很喜欢你啊。"
     me "好高兴啊……没想到我们这么合得来。"
-    extend "\n以前我一直以为，狗这样的动物只会汪汪地叫着，\n像在威吓人一样。"
+    extend "\n以前我一直以为，狗这样的动物只会汪汪地叫，\n像在威吓人一样。"
     show sakuya 10 with dissolve
     sakuya "……要是你愿意，以后也多来陪小翼玩吧。"
-    me "咦，可以吗？"
+    me "诶，可以吗？"
     show sakuya 9 with dissolve
     sakuya "嘛，毕竟……小翼好像也挺喜欢你的……"
     extend "\n就破例允许你再陪它玩玩吧。"
@@ -2961,7 +2961,7 @@ label day1_supply_sakuya:
     hide sakuya with dissolve
     show tsubasa 1 at top with dissolve
     tsubasa "汪！"
-    "就在我拉进与小翼和作哉的关系时，突然意识到集合的时间快到了。\n"
+    "感觉与作哉、小翼的距离稍微拉近了一些。突然，我意识到集合的时间快到了。\n"
     hide tsubasa with dissolve
     "放下了小翼后，我们也回到了教室。"
     window hide
