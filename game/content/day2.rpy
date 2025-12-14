@@ -2016,7 +2016,7 @@ label day2_layout:
     hide tubasa with dissolve
     hide cg with dissolve
     hide bg with dissolve
-    "···"
+    "…"
     window hide
     show bg meffen_cafe at center with dissolve
     play music "quiet_lunch.ogg"
@@ -2204,7 +2204,7 @@ label day2_cooking:
     hide sora with dissolve
     hide cg with dissolve
     window show
-    "···"
+    "…"
     window hide
     stop music fadeout 0.5
     show bg akamine_house1 at center with FadeWhite(0.5)
@@ -3447,7 +3447,7 @@ label day2_design_sintarou:
     hide bg with dissolve
     hide cg with dissolve
     window show
-    "···"
+    "…"
     window hide
     window show
     play sound "fx/wow2.ogg"
@@ -5896,7 +5896,7 @@ label day2_bad_end:
     hide bg with dissolve
     hide cg with dissolve
     window show
-    "···"
+    "…"
     window hide
     play music "fx/tsubame.ogg"
     show bg protagonist_home at center with Dissolve(1.0)

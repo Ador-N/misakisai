@@ -3,7 +3,7 @@
 
 label day1:
     window show
-    "···"
+    "…"
     window hide
     pause 0.5
     window show
@@ -285,7 +285,7 @@ label day1_2:
     "现在的我[player_surname][player_name]是初中二年生！"
     extend "\n身体是孩子，头脑是大人！"
     extend "\n就像某位名侦探一样，带着外挂，轻松攻略吧！"
-    "···"
+    "…"
     window hide
     show bg school_building_morning with dissolve
     window show
@@ -3526,8 +3526,8 @@ label day1_3:
     extend "那我也回家吧……"
     play sound "fx/boing.ogg"
     $ renpy.transition(Quake(0, 40, 0.15, 0.1), layer='master')
-    extend "呃，我到底该怎么做啊！？？"
-    "冷静点，冷静啊。这是梦。"
+    extend "呃，我到底该怎么办啊！？？"
+    "冷静点，冷静。这是梦。"
     extend "\n绝不是现实……"
     extend "没错吧？"
     "就算我回到家里，也能顺利地被家人接受吧。"
@@ -3562,7 +3562,7 @@ label day1_3_sinobu:
 label day1_3_tubasa:
     show tubasa 2 at top with dissolve
     window show
-    tubasa "那，那个，[player_name]君，怎么了？"
+    tubasa "那、那个，[player_name]君，怎么了？"
     me "不，没什么……。"
     hide tubasa with dissolve
     return
@@ -3586,7 +3586,7 @@ label day1_3_tuki:
 label day1_3_saburo:
     show saburo 6 at top with dissolve
     window show
-    saburo "[player_surname]，你干什么呢？"
+    saburo "[player_surname]，你在干什么？"
     me "不，没什么……。"
     hide saburo with dissolve
     return
@@ -3601,7 +3601,7 @@ label day1_3_sakuya:
 
 label day1_4:
     window show
-    "难不成，不，或许……。"
+    "难不成……不，或许……。"
     extend "\n怀着难以抹去的不安，我踏上了归途。"
     window hide
     show bg sidewalk_evening with Dissolve(2.0)
@@ -3611,25 +3611,25 @@ label day1_4:
     window show
     "……嗯。"
     extend "房子看上去和原来一样。"
-    "可话虽如此，家的外观和以前相比也没什么太大的变化。"
-    extend "\n如果能证明是我回到了中学时代的话，就能确信这不过是做梦了。"
-    "初中时还有的东西，在25岁的时候却已经失去了啊……。"
-    extend "\n呜"
+    "可话虽如此，我家的外观和以前相比其实也没什么太大的变化。"
+    extend "\n如果能证明我回到了中学时代的话，就能确信这不过是做梦了。"
+    "有什么东西是初中时还在，但到了25岁时却已经没有了的吗……。"
+    extend "\n唔——"
     extend "…"
     extend "…"
     extend "啊，对了！"
     extend "自行车！！"
-    "是我远赴邻镇时的必备工具，心爱的座驾。"
-    extend "\n在我初中毕业时坏掉了，就扔掉了。"
+    "是我远赴邻镇时的必备工具，我的爱车。"
+    extend "\n刚好在初中毕业的时候坏掉了，就被我扔了。"
     "嗯，自行车的话记得是放在车库里……"
-    "···"
+    "……"
     show bg dark with dissolve
     "……"
     play sound "fx/shock_big.ogg"
     extend "没有！！？？"
-    "也就是说，在梦中的现在与现实中处在同一时代吗。"
+    "也就是说，梦中的『现在』与现实处在同一时代吗。"
     "这下我越发觉得不安起来了……。"
-    extend "\n难道这不是梦，而是现实。"
+    extend "\n难道这不是梦，而是现实——"
     stop music fadeout 0.5
     mother "哎呀，你在做什么呢？"
     play sound "fx/boing.ogg"
@@ -3638,67 +3638,66 @@ label day1_4:
     window hide
     show お母さん c21 at center with Radial(0.5)
     window show
-    extend "映入眼帘的正是我母亲骑着我的爱车，还载着购物袋的身姿。"
-    me "妈，妈妈……！！"
-    mother "啊，忘记把钥匙放在花盆下面了。对不起。"
-    extend "\n[player_name]，你在这等了多久呢？"
-    me "妈妈啊啊啊！！"
+    extend "映入眼帘的正是我母亲骑着我的爱车、车上还堆着购物袋的身影。"
+    me "妈、妈妈……！！"
+    mother "啊，妈妈是不是忘记把钥匙留在花盆底下了呀？对不起哦。"
+    extend "\n[player_name]酱，你在这等了多久呢？"
+    me "妈——妈——啊啊啊！！"
     window hide
     play music "nostalgia.ogg"
     show お母さん adult with dissolve
     window show
-    "母亲的身姿还是十年前，我初中时的样子。"
-    "我一下从怀念和紧张中解放开来，"
-    extend "\n不由得回想起初中时的心境，我一边感到羞耻，一边哭着扑到了母亲怀里。"
-    mother "真是的，这孩子……太夸张了。"
+    "母亲的样子，还是十年前——还是我初中时代的那副模样。"
+    "我一下从怀念和紧张中解脱出来，"
+    extend "\n不由得回想起初中时的心境，哪怕觉得丢脸，我还是像个孩子一样扑进母亲怀里哭了起来。"
+    mother "真是的，这孩子……太夸张了吧。"
     window hide
     hide お母さん with Dissolve(1.0)
     hide bg with Dissolve(1.0)
     window show
-    "···"
+    "…"
     window hide
     show bg living_room_night at center with Radial(1.0)
     window show
     father "[player_name]下周有文化祭吧。"
     extend "\n你们班要做什么？"
     "晚饭的时候，父亲问我。"
-    me "咖啡厅。"
+    me "咖啡厅哦。"
     extend "\n和风，西式，中式，什么都有的咖啡厅。"
-    "现在的孩子还真是讲究啊。"
-    extend "\n0"
-    me "其实~到最后，只是单纯地，没有想好要做什么，\n所以就全部混在一起了。\n不过呢，倒也挺不错的。"
+    mother "也就是所谓的『和洋折衷』呢。现在的孩子还真是讲究啊。"
+    me "其实~说到底，单纯是因为大家的意见统一不了，\n所以就全部混在一起了。"
     father "哈哈，原来如此。"
-    extend "\n对了，妈妈是要去参加文化祭吧。"
-    mother "是啊。"
+    extend "\n对了，妈妈是要去参加文化祭的吧。"
+    mother "是呀。"
     extend "\n和笠崎太太，岸谷太太约好了要一起去。"
     father "哎呀~我要是没有工作的话也想去参加啊。"
     extend "\n偶尔也得回归童心，和孩子们一起享受啊。"
-    mother "哎呀哎呀，男人不论到什么时候都不会忘记孩子气呢。"
-    "···"
+    mother "哎呀哎呀，男人不论到什么时候都忘不了那颗童心呢。"
+    "…"
     window hide
     show bg protagonist_home_night with Dissolve(0.9)
     window show
     "一家人齐聚一堂吃饭，这是多久以前的事了啊……。"
-    extend "\n回想起来，自从我开始工作后，就几乎没有和母亲独处过。"
+    extend "\n回想起来，自从我工作以后，几乎都是只和母亲两个人吃饭。"
     extend "\n和父亲下班时间对不上，近来连碰面的机会都很少。"
     "合家团聚是最棒的调味料。"
     hide bg with dissolve
     stop music fadeout 2.0
-    "在温暖的气氛中吃的母亲的料理，总比平时更加美味。"
+    "在温馨的气氛中吃的母亲的料理，比平时更加美味了。"
     window hide
     play sound "fx/door_open.ogg"
     show bg protagonist_room_night at center with dissolve
     window show
     me "……呼。"
     "我回到自己的房间，坐在床上。"
-    me "来这个世界之前，记得也是这个时候睡着了吧。"
-    "如果，现在闭上眼睛"
-    extend "就能从梦中醒来吗？。"
+    me "来这个世界之前，我也是像现在这样，在这里睡着了吧。"
+    "如果，现在闭上眼睛的话，"
+    extend "会不会就从梦中醒来了呢……。"
     "还想……"
     extend "留在这个世界啊……"
-    extend "再稍微多待一会啊……。"
-    "明天还能"
-    extend "再与大家见面就好。"
+    extend "再稍微多待一会儿也好……。"
+    "真希望明天，"
+    extend "还能再见到大家啊。"
     window hide
     hide bg with dissolve
     return

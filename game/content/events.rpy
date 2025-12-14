@@ -617,7 +617,7 @@ label event10:
     hide sinobu with dissolve
     hide bg with dissolve
     window show
-    "···"
+    "…"
     window hide
     stop music fadeout 1.0
     show bg classroom at center with dissolve
@@ -714,7 +714,7 @@ label event11:
     stop music fadeout 1.0
     hide bg with Dissolve(0.6)
     window show
-    "···。"
+    "…。"
     window hide
     play sound "fx/tsubame.ogg"
     show bg sky at center with Radial(0.5)

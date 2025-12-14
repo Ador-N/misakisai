@@ -501,7 +501,7 @@ label end_tomo:
     hide tubasa with dissolve
     hide bg with dissolve
     "居然把小孩子弄哭了，我真是个很过分的大人。"
-    "···"
+    "…"
     window hide
     show bg gym_backside_night with Dissolve(0.8)
     window show
@@ -529,7 +529,7 @@ label end_tomo:
     show bg gym_backside_night at center with Dissolve(0.8)
     show sinobu 4i at top with dissolve
     window show
-    "···"
+    "…"
     show sinobu 22i with dissolve
     sinobu "其实我也很不甘心。"
     show sinobu 20i with dissolve
@@ -538,7 +538,7 @@ label end_tomo:
     hide sinobu with dissolve
     hide bg with dissolve
     window show
-    "···"
+    "…"
     window hide
     show bg shoe_locker_night at center with Dissolve(0.8)
     window show
@@ -751,7 +751,7 @@ label end_tomo:
     hide tomo with Dissolve(0.8)
     hide cg with Dissolve(0.8)
     window show
-    "···"
+    "…"
     "梦的记忆是模糊的。"
     extend "\n在醒过来的同时，也会忘记这场梦。"
     extend "\n只留下甜美的回忆，其他的一切都被带去忘却的彼方而消散。"
@@ -987,7 +987,7 @@ label end_sintarou:
     play sound "fx/running.ogg"
     hide bg with dissolve
     window show
-    "···"
+    "…"
     play music "fx/night_insects.ogg"
     window hide
     show bg shoe_locker_night at center with dissolve
@@ -1193,7 +1193,7 @@ label end_sintarou:
     hide cg with Dissolve(0.8)
     hide sintarou with Dissolve(0.8)
     window show
-    "···"
+    "…"
     "梦的记忆是模糊的。"
     extend "\n在醒过来的同时，也会忘记这场梦。"
     extend "\n只留下甜美的回忆，其他的一切都被带去忘却的彼方而消散。"
@@ -1444,7 +1444,7 @@ label end_sinobu:
     hide bg with dissolve
     hide tubasa with dissolve
     window show
-    "···"
+    "…"
     play music "fx/night_insects.ogg"
     window hide
     show bg shoe_locker_night at center with dissolve
@@ -1628,7 +1628,7 @@ label end_sinobu:
     hide cg with Dissolve(0.8)
     hide sinobu with Dissolve(0.8)
     window show
-    "···"
+    "…"
     "梦的记忆是模糊的。"
     extend "\n在醒过来的同时，也会忘记这场梦。"
     extend "\n只留下甜美的回忆，其他的一切都被带去忘却的彼方而消散。"
@@ -1906,7 +1906,7 @@ label end_tubasa:
     window hide
     hide bg with dissolve
     window show
-    "···"
+    "…"
     window hide
     play music "fx/night_insects.ogg"
     show bg shoe_locker_night at center with Dissolve(0.8)
@@ -2055,7 +2055,7 @@ label end_tubasa:
     hide cg with Dissolve(0.8)
     hide tubasa with Dissolve(0.8)
     window show
-    "···"
+    "…"
     "梦的记忆是模糊的。"
     extend "\n在醒过来的同时，也会忘记这场梦。"
     extend "\n只留下甜美的回忆，其他的一切都被带去忘却的彼方而消散。"
@@ -2370,7 +2370,7 @@ label end_sora:
     hide tuki with dissolve
     hide sora with dissolve
     window show
-    "···"
+    "…"
     "梦的记忆是模糊的。"
     extend "\n在醒过来的同时，也会忘记这场梦。"
     extend "\n只留下甜美的回忆，其他的一切都被带去忘却的彼方而消散。"
@@ -2692,7 +2692,7 @@ label end_tuki:
     hide tuki with dissolve
     hide sora with dissolve
     window show
-    "···"
+    "…"
     "梦的记忆是模糊的。"
     extend "\n在醒过来的同时，也会忘记这场梦。"
     extend "\n只留下甜美的回忆，其他的一切都被带去忘却的彼方而消散。"
@@ -2995,7 +2995,7 @@ label end_futago:
     hide tuki with dissolve
     hide sora with dissolve
     window show
-    "···"
+    "…"
     "梦的记忆是模糊的。"
     extend "\n在醒过来的同时，也会忘记这场梦。"
     extend "\n只留下甜美的回忆，其他的一切都被带去忘却的彼方而消散。"
@@ -3311,7 +3311,7 @@ label end_saburo:
     hide bg with dissolve
     stop music fadeout 0.5
     window show
-    "···"
+    "…"
     window hide
     play music "fx/night_insects.ogg"
     show bg shoe_locker_night at center with Dissolve(0.8)
@@ -3462,7 +3462,7 @@ label end_saburo:
     hide cg with Dissolve(0.8)
     hide saburo with Dissolve(0.8)
     window show
-    "···"
+    "…"
     "梦的记忆是模糊的。"
     extend "\n在醒过来的同时，也会忘记这场梦。"
     extend "\n只留下甜美的回忆，其他的一切都被带去忘却的彼方而消散。"
@@ -3628,7 +3628,7 @@ label end_sakuya:
     window hide
     hide bg with dissolve
     window show
-    "···"
+    "…"
     window hide
     play music "fx/night_insects.ogg"
     show bg shoe_locker_night at center with Dissolve(0.8)
@@ -3957,7 +3957,7 @@ label end_sakuya:
     hide tsubasa with Dissolve(0.8)
     hide sakuya with Dissolve(0.8)
     window show
-    "···"
+    "…"
     "梦的记忆是模糊的。"
     extend "\n在醒过来的同时，也会忘记这场梦。"
     extend "\n只留下甜美的回忆，其他的一切都被带去忘却的彼方而消散。"
@@ -4363,7 +4363,7 @@ label end_sirou:
     "喂，快醒醒啊。\n到早上了啊。"
     window hide
     window show
-    "···。"
+    "…。"
     window hide
     play music "fx/tsubame.ogg"
     show bg protagonist_home at center with Dissolve(1.0)
@@ -4505,7 +4505,7 @@ label end_all:
     hide sinobu with dissolve
     hide tuki with dissolve
     window show
-    "···"
+    "…"
     window hide
     show tomo 28i at topright with dissolve
     window show
@@ -4526,7 +4526,7 @@ label end_all:
     window hide
     hide sakuya with dissolve
     window show
-    "···"
+    "…"
     show tubasa 19i at topleft
     show sinobu 16i at topright with dissolve
     play sound "fx/triangle.ogg"
@@ -4866,7 +4866,7 @@ label end_all:
     hide tuki with dissolve
     pause 0.6
     window show
-    "···。"
+    "…。"
     window hide
     play music "fx/tsubame.ogg"
     show bg protagonist_home at center with Dissolve(1.0)

@@ -393,7 +393,7 @@ label day0_normal_1:
     extend "\n我看了看友给我的传单。"
     "御咲学园吗……让我回想起了初中时代啊。"
     stop music fadeout 2.0
-    "···\n···"
+    "…\n…"
     window hide
     play music "reminiscence.ogg"
     show bg school_sepia with FadeWhite(2.0)
@@ -427,7 +427,7 @@ label day0_normal_1:
     window hide
     show bg protagonist_room_night with FadeWhite(2.0)
     window show
-    "···"
+    "…"
     "然后，和传单一起拿出的另一样东西。\n是那个谜之美少年给我的糖。"
     window hide
     stop music fadeout 2.0
@@ -687,7 +687,7 @@ label day0_hidden:
     hide nori with DefocusBlack(5.0)
     hide bg with DefocusBlack(5.0)
     pause 0.4
-    "···。"
+    "…。"
     window hide
     show bg residential_area_night at center with Radial(0.7)
     show nori 8 at top with Dissolve(0.7)
@@ -803,7 +803,7 @@ label day0_normal:
 
 label day0_hidden_1:
     window show
-    "···"
+    "…"
     window hide
     show bg dungeon at center with DefocusWhite(2.4)
     play music "fx/cave_ambience.ogg"
@@ -1360,7 +1360,7 @@ label day0_hidden_nori:
     extend "\n和刚才一样，我闭上眼，\n开始在脑海中描绘自己想实现的愿望。"
     window hide
     window show
-    "···。"
+    "…。"
     window hide
     play music "fx/tsubame.ogg"
     show bg protagonist_home at center with Dissolve(1.0)
@@ -1539,7 +1539,7 @@ label day0_hidden_yuuhi:
     hide yuuhi with dissolve
     hide bg with dissolve
     window show
-    "···"
+    "…"
     window hide
     play music "fx/cave_ambience.ogg"
     show bg dungeon at center with dissolve
@@ -1666,7 +1666,7 @@ label day0_hidden_yuuhi:
     hide nori with Dissolve(0.8)
     window hide
     window show
-    "···。"
+    "…。"
     window hide
     show bg residential_area_night at center with Dissolve(0.8)
     play music "going_home.ogg"
@@ -1715,7 +1715,7 @@ label day0_hidden_yuuhi:
     hide cg with Dissolve(0.8)
     hide yuuhi with Dissolve(0.8)
     window show
-    "···。"
+    "…。"
     window hide
     play music "fx/tsubame.ogg"
     show bg protagonist_home at center with Dissolve(1.0)

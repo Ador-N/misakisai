@@ -3895,7 +3895,7 @@ label day3_layout_2_tubasa:
     hide sakuya with Dissolve(0.7)
     hide bg with Dissolve(0.7)
     window show
-    "···"
+    "…"
     window hide
     return
 
@@ -5684,7 +5684,7 @@ label day3_design_2_sintarou:
     hide bg with dissolve
     hide cg with dissolve
     window show
-    "···"
+    "…"
     window hide
     show bg hananoyu at center with dissolve
     window show
@@ -5713,7 +5713,7 @@ label day3_design_2_sintarou:
     window hide
     hide bg with Dissolve(0.9)
     window show
-    "···"
+    "…"
     window hide
     show bg sintarou_room at center with DefocusBlack(5.0)
     play music "good_atmosphere.ogg"
