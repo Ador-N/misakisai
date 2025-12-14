@@ -2410,7 +2410,7 @@ label day1_cooking_tuki:
     window hide
     hide tuki with dissolve
     window show
-    doctor "哎呀，是哥哥留下来陪在他身边啊。"
+    doctor "哎呀，是哥哥留下来陪在身边啊。"
     show tuki 4 at top with dissolve
     tuki "是的，因为[player_surname]说寂寞什么的。"
     me "呜咕……。"
@@ -2427,7 +2427,7 @@ label day1_cooking_tuki:
     teacher "谢谢。"
     extend "\n那我就先走一步了。"
     play sound "fx/sliding_door.ogg"
-    "于是，连保健老师也离开了。\n保健室里，只剩下月和我两个人了。"
+    "于是，连保健老师也离开了。\n保健室里，只剩下我和月两个人了。"
     window hide
     hide tuki with dissolve
     window show
@@ -2972,8 +2972,8 @@ label day1_supply_sakuya:
 label day1_cooking_sora:
     show bg infirmary at center
     window show
-    me "那，那么，空！"
-    extend "\n不好意思，你能留下来吗？"
+    me "那、那么，空君！"
+    extend "\n不好意思，能不能请你留下来？"
     window hide
     show sora 2 at topright with dissolve
     window show
@@ -2982,7 +2982,7 @@ label day1_cooking_sora:
     extend "\n[player_name]君居然说出了这种孩子气的话！"
     "空用开玩笑的口吻笑道。"
     extend "\n居然被比我小十岁的人这么说……。"
-    me "呜……啊，啊哈哈……。"
+    me "呜……啊、啊哈哈……。"
     show tuki 9 at topleft with dissolve
     tuki "那么，我就先回教室了。"
     extend "\n空，[player_name]就拜托你了哦。"
@@ -2994,28 +2994,28 @@ label day1_cooking_sora:
     window hide
     hide sora with dissolve
     window show
-    teacher "哎呀，弟弟会陪在你身边呢。"
+    teacher "哎呀，是弟弟留下来陪在身边啊。"
     show sora 1 at top with dissolve
-    sora "是的。\n[player_name]说他会很寂寞，所以"
+    sora "是的。\n[player_name]君说他会很寂寞，所以。"
     me "呜咕……。"
     hide sora with dissolve
-    "虽然我很拼命地劝他们不要离开，\n但被这么一说，还是不由得脸红了起来。"
-    extend "\n真是丢脸的成年人……。"
+    "虽说我刚才确实是拼命挽留他们，\n但被这么一说，还是不由得脸红了起来。"
+    extend "\n明明是个成年人，真是太丢人了……。"
     "我不由得把头埋进了被子里。"
     doctor "哎呀呀，[player_surname]君也还只是个小孩子呢。"
-    me "啊，啊哈哈……。"
+    me "啊、啊哈哈……。"
     teacher "不过，这样我就放心了。"
-    extend "\n老师有点事要去办公室一趟，\n赤峰同学你能帮我看一会儿吗？"
+    extend "\n老师有点事要去办公室一趟，\n赤峰同学，能麻烦你帮忙照看一会儿吗？"
     show sora 2 at top with dissolve
     sora "好的，我知道了。"
     teacher "谢谢。"
     extend "\n那我就先走一步了。"
     play sound "fx/sliding_door.ogg"
-    "就这样，连保健老师也离开了，\n保健室里就只剩下我和空两个人了。"
+    "于是，连保健老师也离开了，\n保健室里就只剩下我和空两个人了。"
     window hide
     hide sora with dissolve
     window show
-    me "抱歉啊……空，说了这么任性的话。"
+    me "抱歉啊……空君，我说了这么任性的话。"
     show sora 24 at top with dissolve
     sora "没事啦。"
     extend "\n我明白你的心情。"
@@ -3024,19 +3024,19 @@ label day1_cooking_sora:
     "与其说具体的人，不如说，我是思恋这种少年感。"
     show sora 20 with dissolve
     sora "……呼啊~……。"
-    extend "\n呜……感觉我也困了。"
+    extend "\n呜……我也开始困了呐。"
     show sora 33 with dissolve
     sora "真好呢~[player_name]君能躺在床上……"
     show sora 24 with dissolve
-    extend "\n这么说可能不太好，身体不舒服可真方便呢"
+    extend "\n——啊，这样说好像不太好。毕竟你是因为身体不舒服才躺着的嘛。"
     show sora 1 with dissolve
     sora "保健室的床，软软的睡上去很舒服吧。"
-    extend "\n房间里也很温暖，有种被温柔的守护着的感觉。"
+    extend "\n房间里也很暖和，总感觉……像是被温柔地守护着一样。"
     extend "\n我之前身体不舒服的时候，也睡过一次~"
     me "是这样啊。"
     extend "\n说起来，好像确实是这样。"
     stop music fadeout 2.0
-    extend "被褥也保持的很干净……。"
+    extend "被褥也很干净……。"
     me "啊。"
     play sound "fx/eureka.ogg"
     "我想到了一个好主意。"
@@ -3044,20 +3044,20 @@ label day1_cooking_sora:
     me "要不，一起睡吧？"
     extend "\n床上很舒服的~。"
     show sora 19 with dissolve
-    sora "诶！？可，可是……。"
-    me "如果是在其他床上的话，可能会被老师发现，毕竟已经被收拾得很干净了，"
-    extend "\n但在这个床上的话，老师回来之前，都不会有问题的。"
+    sora "诶！？可、可是……。"
+    me "如果是在其他床上的话，可能会被老师发现，毕竟已经被收拾得很干净了。"
+    extend "\n但在这个床上的话，老师回来之前，都不会有问题吧。"
     show sora 18 with dissolve
     sora "是这样吗……。"
     me "而且我也没有感冒什么的，"
     extend "\n不会被传染，所以没问题的！"
-    "我拉开被褥，为他腾出了一个位置。"
+    "我往被窝的边缘挪了挪，给空腾出了位置。"
     me "来吧！"
     show sora 25 with dissolve
     sora "唔~嗯……"
     show sora 34 with dissolve
     extend "\n只睡一会儿的话，应该没问题的吧。"
-    extend "\n那就，承蒙好意……打扰了~。"
+    extend "\n那我就，承蒙好意……打扰了~。"
     hide sora with dissolve
     "空脱掉鞋子上了床，在我身旁躺了下来。"
     window hide
@@ -3066,13 +3066,13 @@ label day1_cooking_sora:
     sora "诶嘿嘿……。"
     extend "\n啊~果然很舒服呢…。"
     extend "\n躺下来以后，反而更困了呢……。"
-    sora "[player_name]君，抱歉，\n如果老师来了的话……就叫醒我……。"
+    sora "[player_name]君，抱歉，\n如果老师来了的话……记得叫……醒……我……。"
     show cg c49 2 with Dissolve(1.0)
-    "呼ー呼ー……。"
+    "呼……呼……。"
     "就，这么快就睡着了！！！"
     "话说回来……虽然很顺利地就发展成了这样，\n可这是不是也太夸张了！！！？？"
-    extend "\n我自认为办事还挺利索的，没想到会顺利到这种程度。"
-    "这，这孩子不会是不懂得怀疑别人吧？"
+    extend "\n就连我自己，都没想到事情会进展得这么顺利啊。"
+    "这、这孩子不会是不懂得怀疑别人吧？"
     extend "\n这真是毫无防备啊……！！！"
     extend "\n再这样下去，我都不知道会干出什么事情来啊！？"
     window hide
@@ -3080,7 +3080,7 @@ label day1_cooking_sora:
     hide bg with dissolve
     hide cg with dissolve
     window show
-    "*蠕动"
+    "（蹭来蹭去……）"
     window hide
     show bg infirmary at center with dissolve
     $ renpy.transition(Quake(0, 60, 0.15, 0.1), layer='master')
@@ -3092,27 +3092,27 @@ label day1_cooking_sora:
     "掀开被子一看，原来是空翻了过来，\n压在了我的身上。"
     show cg adult at center with dissolve
     play sound "fx/sparkle.ogg"
-    me "这，这个是啊啊啊啊……！！！"
-    "这，这是多么至福的状况啊啊啊啊！！！"
-    "不，不不不不不不……等等等等。"
+    me "这、这个是啊啊啊啊……！！！"
+    "这、这是多么诱人的状况啊啊啊啊！！！"
+    "不、不不不不不不……等等等等。"
     extend "\n绝对不能失控。"
-    extend "\n我必须要保持一个成人的，绅士的冷静……！"
+    extend "\n作为成年人、作为绅士，必须冷静才行……！"
     extend "\n再慢慢地，改变一下体位吧……慢慢地。"
     hide bg with dissolve
     hide cg with dissolve
-    "蹭……蹭……"
-    sora "呜……嗯…。"
-    "滋滋滋"
+    "（蹭……蹭……）"
+    sora "唔……嗯……。"
+    "（蹭——蹭——）"
     window hide
     show bg infirmary at center with dissolve
     $ renpy.transition(Quake(0, 60, 0.15, 0.1), layer='master')
     play sound "fx/boing.ogg"
     window show
     me "！！！"
-    "空的脚，气势汹汹地闯入了我的双腿之间。"
+    "空的脚，猛地闯入了我的双腿之间。"
     show cg adult at center with dissolve
     me "啊呜呜呜呜呜……！！"
-    "空的脚直接给了我刺激。"
+    "从空的腿上，传来了一股直接的刺激。"
     "怎么办……怎么办……。"
     extend "\n这种刺激，实在是忍不住了！！！"
     "……。"
@@ -3120,16 +3120,16 @@ label day1_cooking_sora:
     show cg c49 2 with Dissolve(1.5)
     play sound "fx/heartbeat.ogg"
     window show
-    "……对了，这是梦……。"
+    "……对了，这只是梦吧……。"
     extend "\n如果是梦的话……对少年做些色色的事情也可以……。"
-    "我心中的邪念开始支配我的内心。"
-    "有什么好顾虑的……随心所欲地做就好了[player_name]！！"
+    "邪恶的念头开始支配我的内心。"
+    "有什么好顾虑的……随心所欲地上吧[player_name]！！"
     play sound "fx/eureka.ogg"
-    extend "\n这样的机会，只有现在了！"
+    extend "\n这千载难逢的机会，只有现在了！"
     show cg adult with dissolve
-    me "空也邀请我了……。"
-    "我完全打开了开关，扑在了空的身上。"
-    "好，在这个真实的梦里面，得好好发泄一下平时的欲求不满才行……！"
+    me "是空君先诱惑我的哦……。"
+    "开关彻底被打开的我，整个人压在了空的身上。"
+    "来吧，在这个无比真实的梦境里，必须得好好发泄一下平日里的欲求不满才行……！"
     me "美味的少年啊……"
     play sound "fx/cute2.ogg"
     extend "我开动了！！"
@@ -3137,27 +3137,27 @@ label day1_cooking_sora:
     hide bg with Dissolve(0.2)
     hide cg with Dissolve(0.2)
     play sound "fx/wind_slash.ogg"
-    "啪嚓"
+    "（啪！）"
     window hide
     play music "fx/tsubame.ogg"
     show bg infirmary at center with DefocusWhite(1.4)
     show sora 2 at top with dissolve
     window show
-    sora "……啊，早上好。"
-    extend "\n你醒了吗？"
-    "我一看旁边，空正坐在床边的椅子上。"
+    sora "……啊，早啊。"
+    extend "\n你醒啦？"
+    "我往旁边一看，空正坐在床边的椅子上。"
     show sora 25 with dissolve
     sora "呼啊……"
     show sora 24 with dissolve
-    extend "\n[player_name]君看着睡得好香，我也不由得有些犯困，\n不知不觉靠在你身上就睡着了。"
+    extend "\n[player_name]君看着睡得好香，我也不由得有些犯困，\n就靠在床边睡着了。"
     extend "\n诶嘿嘿……。"
     me "咦……？"
     extend "\n我，刚才还……咦？"
     extend "\n空君，我们不是一起在床上睡的吗……。"
     show sora 21 with dissolve
-    sora "诶？\n虽然是靠着你的，但我可没钻到里面去。"
-    extend "\n因为我的体重，让你有那种感觉吗？"
-    extend "\n对不起。"
+    sora "诶？\n虽然是靠着你的，但我可没有钻到里面去呀。"
+    extend "\n因为我的体重压到了，让你有那种感觉吗？"
+    extend "\n抱歉哦。"
     me "诶……啊……啊！？！？"
     stop music fadeout 0.5
     play sound "fx/shock_big.ogg"
@@ -3171,13 +3171,13 @@ label day1_cooking_sora:
     hide sora with dissolve
     show sora 3 at top with dissolve
     window show
-    sora "不过，太好了。\n你看起来恢复得差不多了。"
-    extend "\n老师也已经回来了，而且集合时间也到了，\n我打算回教室，[player_name]君打算怎么办？"
-    me "呜……我，我也回去……。"
-    "既然是梦……刚才正到关键……\n就让我再稍微多做一会儿美梦啊啊啊……！！！！"
+    sora "不过，太好了。\n你看起来精神多了呢。"
+    extend "\n老师也回来了，而且马上也到集合时间了，\n我打算回教室，[player_name]君打算怎么办？"
+    me "呜……我、我也回去……。"
+    "既然是梦……刚才正到关键之处……\n就让我再稍微多做一会儿美梦啊啊啊……！！！！"
     extend "\n呜呜……。"
     hide sora with dissolve
-    "就这样，我的欲望落空，我们回到了教室。"
+    "就这样，我的欲望落了空，我们回到了教室。"
     window hide
     stop music fadeout 0.5
     hide bg with Dissolve(0.9)
