@@ -1056,7 +1056,7 @@ label day1_cooking:
     extend "\n是吧，[player_surname]？"
     $ renpy.transition(Quake(0, 60, 0.1, 0.15), layer='master')
     play sound "fx/cute3.ogg"
-    me "噢，嗯。"
+    me "啊，嗯。"
     show tuki 1
     show sora 4 with dissolve
     "别、别两个人都盯着我啊……！"
@@ -3198,24 +3198,24 @@ label day1_supply_saburo:
     show bg rooftop with Radial(0.5)
     play music "fx/tsubame.ogg"
     window show
-    me "打开了…。"
-    extend "\n哎~现在已经可以进来了啊。"
-    "第一次看到的屋顶上，放着几张长椅，\n看起来只像是一个休息场所。"
+    me "打开了……。"
+    extend "\n诶~现在已经开放使用了啊。"
+    "第一次踏足的屋顶上，放着几张长椅，\n看起来只像是一个休息场所。"
     "是在我毕业之后才整修好的吧。"
-    me "噢？在那边的是…。"
-    "在最里面的长椅上躺着一个人，引起了我的注意。"
+    me "嗯？在那边的是……。"
+    "最里面的长椅上躺着一个人，引起了我的注意。"
     window hide
     play sound "fx/sparkle.ogg"
     show cg c65 at center with FadeWhite(0.8)
     window show
     me "……是三朗君啊。"
     stop music fadeout 0.5
-    "我靠近之后，看到三朗的头发在风中飘动，\n似乎睡得很香的样子。"
+    "走近一看，只见三朗任由微风吹拂着头发，\n一脸惬意地睡着。"
     play music "lively_boys.ogg"
-    "好，好可爱啊……！"
-    "睡脸看起来感觉很幸福，越看越觉得可爱起来。"
+    "好、好可爱啊……！"
+    "睡脸看起来感觉很幸福，越看越觉得可爱。"
     "还想看更多。"
-    "我顺着这个想法，把脸凑了过去。"
+    "顺着这份冲动，我把脸凑了过去。"
     window hide
     show cg c66 1 with Radial(0.5)
     window show
@@ -3225,7 +3225,7 @@ label day1_supply_saburo:
     play sound "fx/boing.ogg"
     $ renpy.transition(Quake(0, 80, 0.1, 0.07), layer='master')
     extend "\n……什！？？？？"
-    "三朗察觉我的气息后微微睁开了眼睛，然后猛然睁大了眼睛。"
+    "察觉我的气息后，三朗微微睁开了眼睛，然后猛地瞪大了。"
     window hide
     hide cg with Dissolve(0.3)
     show saburo 12 at top with dissolve
@@ -3234,91 +3234,91 @@ label day1_supply_saburo:
     window show
     saburo "你你你你你在干什么！啊啊啊！！！"
     "三朗他，坐起来的同时把我也推开了。"
-    me "啊哈哈。\n早上好啊，三朗。"
+    me "啊哈哈。\n早上好啊，三朗君。"
     show saburo 3 with dissolve
     $ renpy.transition(Quake(0, 60, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
     saburo "早上好个鬼啊！！！你在搞什么啊！！"
-    extend "\n居然在人家睡觉的时候把脸凑上来！"
-    me "啊~三朗的睡脸实在是太可爱了，我一不小心就……。"
+    extend "\n居然趁人家睡觉的时候把脸凑上来！"
+    me "哎呀～因为三朗君的睡脸实在是太可爱了，我一不小心就……。"
     "我坦率地阐述了感想。"
     show saburo 14 with dissolve
     $ renpy.transition(Quake(40, 0, 0.1, 0.15), layer='master')
     play sound "fx/cute3.ogg"
-    saburo "（发抖……！）\n这，这算什么啊……你也是那边？\n是那种人吗……？"
-    me "诶？那种是指？？"
+    saburo "（发抖……！）\n搞、搞什么啊……你也是『那个』？\n是那种人吗……？"
+    me "诶？『那种』是指？"
     show saburo 3 with dissolve
-    saburo "别，别装傻啊你这笨蛋！！明明很清楚！！！"
-    extend "\n听好了！我可是一点兴趣都没有！！"
+    saburo "别、别装傻啊你这笨蛋！！你明明很清楚吧！！！"
+    extend "\n听好了！我可是坚定的直男！！"
     extend "\n不要误会啊！！我对女人才有兴趣！！"
     extend "\n我只喜欢大胸大屁股！！！"
     "啊~原来如此，是这么回事啊。"
     extend "\n明明我什么都没说，你也不用这么拼命地辩解吧。"
     me "知道啦，知道啦。"
     extend "\n我可不是因为那种想法才凑近的。"
-    extend "\n只是，那个……该说是好奇心吗，\n我想知道你的睡脸是什么样子的。"
+    extend "\n只是，那个……该说是好奇心吗，\n有点在意你的睡脸是什么样子的。"
     show saburo 8 with dissolve
-    saburo "你问我睡脸是什么样子的？什么意思啊这……"
+    saburo "睡脸是什么样子的？这算啥啊……。"
     show saburo 11 with dissolve
     extend "\n不过算了！既然你这么说了，那就这样吧。"
     show saburo 18 with dissolve
-    saburo "啊~啊，[player_surname]把我吵醒，搞得一点睡意也没了。"
-    extend "\n到四点半之前干什么呢~。"
-    me "抱，抱歉打扰你睡觉了。"
+    saburo "啊~啊，都怪[player_surname]，害我睡意全都没了。"
+    extend "\n到四点半之前干什么好呢~。"
+    me "抱、抱歉打扰你睡觉了。"
     extend "\n话说回来，你睡着了还能注意到我。"
     show saburo 6 with dissolve
-    saburo "啊啊，我对这种事很敏感呢。"
+    saburo "啊啊，我对这种事很敏感的。"
     extend "\n气息，细微的动作什么的，我可是很擅长察觉的。"
-    "就像是猫一样。"
+    "简直就像猫一样。"
     stop music fadeout 2.0
     hide saburo with dissolve
     extend "\n敏感啊……"
-    extend "真好啊。"
+    extend "那可是件好事呢。哼哼。"
     window hide
     play music "saburo_theme.ogg"
     show saburo 18 at top with dissolve
     window show
-    saburo "话说回来，好无聊啊~。\n没什么可做啊~↑"
-    extend "\n社团活动也休息。"
-    me "你在什么社团啊？"
+    saburo "话说回来，好无聊啊~。\n真——是没什么事做啊~↑"
+    extend "\n社团活动也休息呐。"
+    me "你在什么社团？"
     show saburo 5 with dissolve
     saburo "篮球部。"
     extend "\n和穗海一起。"
     me "诶~是这样啊。"
     play sound "fx/sparkle.ogg"
-    "穿着篮球部队服……真是不错啊！！"
-    extend "\n那个暴露度挺高的。"
-    "因为是无袖所以可以随意地观看腋下。\n宽松的短裤下，若隐若现的大腿，还有，更里面的地方！"
+    "穿着篮球部队服的样子……肯定相当不错吧！！"
+    extend "\n那玩意的露出度可是相当高呢。"
+    "因为是无袖所以可以随意地看到腋下。\n宽松的短裤下，若隐若现的大腿，还有，更里面的地方！"
     play sound "fx/impact.ogg"
     show cg remarkable at center with Dissolve(0.2)
     extend "\n真让人受不了啊……真想亲眼看看。"
     extend "\n一定要让他和作哉君一起穿穿看！"
     hide saburo with dissolve
     hide cg with dissolve
-    "正当我想着这些的时候，三朗突然从长凳上站了起来。"
+    "正当我想着这些的时候，三朗突然从长椅上站了起来。"
     show saburo 19 at top with dissolve
     play sound "fx/eureka.ogg"
-    saburo "对了~！"
-    extend "\n喂，[player_surname]！我教你一个好事。\n来一下这边。"
+    saburo "对~了~！"
+    extend "\n喂，[player_surname]！告诉你个好玩的东西。\n来一下这边。"
     play sound "fx/running.ogg"
     hide saburo with dissolve
-    "这样说着，三朗向屋顶的深处走去。"
-    "『教你一个好事』……。"
+    "这么说着，三朗向屋顶的深处走去。"
+    "『好玩的东西』……。"
     show cg adult at center with FadeWhite(0.5)
     play sound "fx/wow2.ogg"
     extend "听到初中二年级男生的话，我不禁开始幻想。"
-    "当我满怀期待地走近，三朗就看向别处傻笑起来。"
+    "当我满怀期待地走近，发现三朗正站在那儿向外张望，脸上还挂着猥琐的坏笑。"
     window hide
     hide cg with dissolve
     show saburo 10 at top with dissolve
     window show
-    me "嗯？你在看什么？？"
-    saburo "你看，那里，仔细看看！"
+    me "嗯？你在看什么？"
+    saburo "你看，那里，给我仔~细地看！"
     "这么说着，他指向了某一点。"
     window hide
     show cg landscape at center with dissolve
     window show
-    extend "在那一点的前方，有另一所学校。"
+    extend "在那一点的前方，是另一所学校。"
     me "那里……是御咲女子学院？"
     extend "\n诶~刚好能从这里看到呢。"
     saburo "没错！"
@@ -3330,20 +3330,20 @@ label day1_supply_saburo:
     show saburo 20 at top with dissolve
     window show
     saburo "偷窥这个词也太失礼了！！"
-    extend "\n『健全的初中生男性，在对平时疲惫的身体进行视觉保养』\n我可是有正当的理由的哦！"
+    extend "\n『健全的初中男生，在对平时疲惫的身体进行眼部保养』，\n我可是有正当的理由的哦！"
     hide saburo with dissolve
     play sound "fx/triangle.ogg"
     "这种在外面就叫「偷窥」。"
     me "体操服……吗。"
     "我无视了女子学院，看向三朗。"
-    "什么嘛……所谓教我好事，原来是这样啊。"
+    "什么嘛……所谓好玩的东西，原来就是这个啊。"
     extend "\n如果是看到那个而性奋的三朗君，我倒是会感兴趣啊。"
     extend "\n如果是这孩子穿的体操短裤，那我倒很想看……。"
     window hide
     window show
     me "嗯，三朗君的短裤……真不错……真让人受不了啊…。"
     show saburo 10 at top with dissolve
-    saburo "就是啊！！\n女生的体操服果然是最好的！？"
+    saburo "就是啊！！\n女生的体操服果然是最好的！！！"
     "不知道他是怎么听的，三朗一脸天真无邪地高兴回道。"
     stop music fadeout 0.5
     window hide
@@ -3351,13 +3351,13 @@ label day1_supply_saburo:
     hide cg with dissolve
     hide saburo with dissolve
     window show
-    unknown "我也是，和[player_name]酱的想法一致呢~。"
+    unknown "咱也跟[player_name]酱的想法一致呢~。"
     extend "\n真想看看三酱穿体操短裤的样子啊~。"
     show bg rooftop at center
     show saburo 21 at top with dissolve
     "三＆我" "诶！？"
     hide saburo with dissolve
-    "我们向着声音的来源看去，那里"
+    "我们向着声音的来源看去，那里——"
     window hide
     play music "sintarou_theme.ogg"
     show sintarou 9 at top with dissolve
@@ -3367,7 +3367,7 @@ label day1_supply_saburo:
     show saburo 12 at topright with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
-    saburo "你，你你你你这家伙！！！！\n为什么你会在这里啊！！！？"
+    saburo "你、你你你你这家伙！！！！\n为什么你会在这里啊！！！？"
     me "慎太郎君的组也休息了吗？"
     show sintarou 13 at topleft with dissolve
     sintarou "是~啊~。\n今天也没什么特别要做的事！"
@@ -3375,13 +3375,13 @@ label day1_supply_saburo:
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute2.ogg"
     saburo "呜呀呀！！"
-    me "诶，好厉害的警戒啊…。"
+    me "诶，好厉害的警戒啊……。"
     show sintarou 29 with dissolve
-    sintarou "就是呢~。\n这只小猫咪，怎么都不肯亲近我呢~。"
+    sintarou "就是说嘛~。\n这只小猫咪，怎么都不肯亲近咱呢~。"
     show sintarou 4 with dissolve
-    extend "\n不过，那种地方也确实很可爱呢！"
+    extend "\n不过嘛，这一点也正是可爱之处呢！"
     show saburo 3 with dissolve
-    saburo "吵，吵死了！！\n和你在一起的时候，总是会被牵着鼻子走！"
+    saburo "吵、吵死了！！\n和你在一起的时候，总是会被牵着鼻子走！"
     extend "\n拜托了，你快到一边去吧~！！！"
     show sintarou 11 with dissolve
     sintarou "真无情啊~明明都是老交情了。"
@@ -3400,72 +3400,72 @@ label day1_supply_saburo:
     extend "\n啊，你在胡说什么啦这个白痴！！！"
     show sintarou 1 at topleft with dissolve
     sintarou "还是一如既往的合拍呢♪"
-    extend "\n你就趁着这股劲，到我们的世界来吧。"
+    extend "\n就趁着这股势头，干脆来到『这边』的世界算了。"
     show saburo 3 with dissolve
-    saburo "谁，谁会去啊！！"
-    extend "\n我是普通人！！我只对女人有兴趣！！"
+    saburo "谁、谁会去啊！！"
+    extend "\n我可是直男！我只对女人有兴趣！！"
     extend "\n我只喜欢巨乳丰臀！！"
     show sintarou 11 with dissolve
-    sintarou "好好好。\n我已经听腻了小三朗的这些台词啦～。"
-    extend "\n你要是不增加点变化，是当不了艺人的啦~♪"
+    sintarou "好好好。\n小三朗的这些台词咱已经听腻啦~。"
+    extend "\n你要是不加点新花样，是当不了搞笑艺人的啦~♪"
     hide saburo with dissolve
     hide sintarou with dissolve
     play sound "fx/shock.ogg"
     show cg dark at center
     show saburo 15 at top with dissolve
-    saburo "真，真的假的……\n我还只是个生手而已……"
+    saburo "真、真的假的……\n看来我也还差得远啊……"
     play sound "fx/entrance.ogg"
     show cg remarkable
     show saburo 22 with dissolve
-    extend "但是我，永不言弃！！\n我绝对不会放弃当艺人的梦想！！"
-    extend "\n我要让全世界的人都因我而露出笑脸！！！！！！"
+    extend "但是我，永不言弃！！\n我绝对不会放弃当搞笑艺人的梦想！！"
+    extend "\n我要让全世界的人都充满笑容！！——作为一名搞笑『艺人』！！"
     hide saburo with dissolve
     hide cg with dissolve
     show sintarou 8 at topleft with dissolve
-    sintarou "你是想说，作为同性恋艺人的梦想，对吧？"
+    sintarou "你是想说，作为『基人』的梦想，对吧？"
     show saburo 2 at topright with dissolve
-    saburo "啊，没错没错。\n我是同性恋！我要把我的魅力传递给全世界的同性恋！！"
+    saburo "啊，没错没错。\n就是『基人』啊！我要让全世界的基佬都见识一下我的魅力——"
     show saburo 3 with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/dash.ogg"
-    extend "\n不对，乱说什么，笨蛋！！！！！！！"
+    extend "\n不对，乱说什么呢，笨蛋！！！！！！！"
     show cg light-blue at center with dissolve
     "慎＆我" "（鼓掌）"
     hide saburo with dissolve
     hide cg with dissolve
     hide sintarou with dissolve
     show saburo 8 at top with dissolve
-    saburo "别拍手别拍手！"
+    saburo "不许鼓掌不许鼓掌！"
     show saburo 15 with dissolve
     extend "\n啊啊啊啊啊啊啊，不行……我最近果然很奇怪啊。"
-    extend "\n从那天开始……从那件事发生的那天开始，\n我好像就朝着不妙的方向前进啊啊啊。"
+    extend "\n就是从那天开始……从发生了那件事的那天开始，\n我就感觉自己在往某条错误的道路上狂奔啊啊啊。"
     "我无视在一旁抱着脑袋痛苦的三朗，向慎太郎耳语道。"
     window hide
     hide saburo with dissolve
     window show
-    me "慎太郎啊。\n你该不会是想把三朗带去耽美之道吧？"
+    me "慎太郎君。\n难道说，你是想把三朗君带上耽美之道吧？"
     show sintarou 13 at top with dissolve
     sintarou "答对了！"
     show sintarou 12 with dissolve
-    extend "\n怎么怎么？[player_name]你是不是也挺想那啥的？？"
+    extend "\n什么什么？[player_name]酱原来也好这口吗？"
     me "呃……嘛，有一点吧……。"
     show sintarou 1 with dissolve
     sintarou "嚯嚯！\n这下可得到了重要情报。"
-    extend "\n阿三他啊~就差一步就要过来了，\n但是却在最后的最后坚持住迟迟不肯过来啊~。"
-    "什，什么！！！"
+    extend "\n阿三他啊~就差一步就要过来了，\n可他总是在最后死撑着，怎么都不肯跨过那条线呢~。"
+    "什、什么！！！"
     me "原来如此……是这样啊。"
     show sintarou 9 with dissolve
-    sintarou "嘛，做太强硬也不好，\n我就慢慢进攻了~。"
-    "我倒是觉得这已经很过分了，不过先不说这些。"
+    sintarou "嘛，做得太强硬也不好，\n我就慢慢进攻咯~。"
+    "虽然我觉得那样也挺过分的，不过先不说这些。"
     hide sintarou with dissolve
-    "但是，这样一来，我总算明白为什么三朗会如此的慌张了。"
+    "但是，这样一来，我总算明白为什么三朗会如此慌张了。"
     extend "\n原来如此……原来如此啊。三朗君，原来是这样啊！"
-    extend "\n看来我这里也得稍微出点力了！！"
+    extend "\n看来我也得稍微出点力了！！"
     "在青春期，即使心怀憧憬，也常常因莫名的胆怯而无法迈出一步。"
     extend "\n而作为大人，为这样的少年推上一把乃是理所当然的事！"
     play sound "fx/eureka.ogg"
     show cg adult at center with Dissolve(0.3)
-    "笑"
+    "（笑）"
     "我不禁笑了出来。"
     extend "\n看来接下来会有一出好戏哦！"
     window hide
@@ -3475,19 +3475,19 @@ label day1_supply_saburo:
     show saburo 18 at top with dissolve
     window show
     saburo "唉……算了。"
-    extend "\n也消磨了不少时间，我先回教室了！"
+    extend "\n时间也打发得差不多了，我先回教室了！"
     hide saburo with dissolve
     show saburo 14 at topright with dissolve
     extend "\n喂！！[player_surname]什么都不知道，不要给他灌输一些奇怪的东西啊！"
     show sintarou 4 at topleft with dissolve
-    sintarou "不不，那是只属于我们两个的秘密哦~♪"
+    sintarou "没~有哦。那是只属于我们两个的秘密呢~♪"
     show saburo 3 with dissolve
-    saburo "白，白痴！！不是那种意思啊！！！"
-    extend "\n我要先走了！别靠得太近！！"
+    saburo "白、白痴！！不是那种意思啊！！！"
+    extend "\n我真的走了啊！你们别靠过来！！"
     play sound "fx/running.ogg"
     hide saburo with dissolve
-    "三朗说完，从楼顶逃也似的回去了。"
-    me "慎太郎君，你的兴趣不错啊。"
+    "三朗说完，从楼顶逃也似地回去了。"
+    me "慎太郎君，你的恶趣味真不错啊。"
     hide sintarou with dissolve
     show sintarou 29 at top with dissolve
     sintarou "对吧？"
