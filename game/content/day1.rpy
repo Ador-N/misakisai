@@ -23,11 +23,11 @@ label day1:
     unknown "[player_name]"
     "那孩子的手触碰着我的肩膀。"
     extend "\n我为了看清楚对方的脸，强行抬起昏沉的头，站起身子。"
-    "咔嚓\n"
+    "（咔嚓）\n"
     stop music fadeout 1.0
     play sound "fx/wind_slash.ogg"
     show bg classroom at center with Radial(0.5)
-    "铛！！！"
+    "（铛！！！）"
     play sound "fx/dash.ogg"
     $ renpy.transition(Quake(0, 200, 0.1, 0.065), layer='master')
     play music "emergency.ogg"
@@ -670,15 +670,15 @@ label day1_design:
     sinobu "烦死了。"
     play sound "fx/punch.ogg"
     $ renpy.transition(Quake(100, 0, 0.1, 0.065), layer='master')
-    "咚！\n"
+    "（咚！）\n"
     hide tomo with dissolve
     play sound "fx/punch2.ogg"
     $ renpy.transition(Quake(100, 0, 0.1, 0.065), layer='master')
-    "砰！！\n"
+    "（砰！！）\n"
     hide sintarou with dissolve
     play sound "fx/punch3.ogg"
     $ renpy.transition(Quake(0, 500, 0.1, 0.065), layer='master')
-    "砰砰！！"
+    "（砰砰！！）"
     window hide
     play sound "fx/impact.ogg"
     show sinobu c7 1 at center with FadeWhite(0.5)
@@ -976,7 +976,7 @@ label day1_layout:
     sinobu "是啊。"
     extend "\n而且还是个热血老师。"
     play sound "fx/dash.ogg"
-    "咯噔"
+    "（咯噔）"
     me "啊、啊哈哈哈！\n太期待学园祭了，我有些兴奋过头了呢~。"
     extend "\n抱歉，我有些得意忘形了~明明我也是和你们一样15岁！"
     show tubasa 13 with dissolve
@@ -1303,7 +1303,7 @@ label day1_supply:
     "怎么能让这梦幻般的机会化为泡影！！"
     $ renpy.transition(Quake(0, 50, 0.1, 0.06), layer='master')
     play sound "fx/dash.ogg"
-    "咣当"
+    "（咣当）"
     play music "cute_silly.ogg"
     "我猛地站起身，大家被吓了一跳，纷纷转头看向我。"
     show tomo 28 at topleft with dissolve
@@ -2073,12 +2073,12 @@ label day1_layout_sinobu:
     hide tomo with dissolve
     hide sinobu with dissolve
     play sound "fx/vibrate.ogg"
-    "嗡嗡嗡嗡"
+    "（嗡嗡嗡嗡）"
     "就在这时，友的手机响了。"
     stop sound fadeout 1.0
     tomo "喂，你好~慎酱？"
     extend "\n啊，抱歉抱歉！我马上就回去了！"
-    "哔"
+    "（哔）"
     show tomo 40 at top with dissolve
     tomo "慎酱叫我马上回去。"
     show tomo 1 with dissolve
@@ -2535,7 +2535,7 @@ label day1_cooking_tuki:
     extend "\n我就要随心所欲大干特干！！！"
     show cg remarkable with FadeWhite(0.3)
     play sound "fx/fall_down.ogg"
-    "啪嚓"
+    "（啪嚓）"
     "我调整姿势，整个人压在了月的身上。"
     tuki "[player_surname]……？"
     "这种机会，只有现在才有！！"
@@ -2700,7 +2700,7 @@ label day1_supply_sakuya:
     hide tsubasa with dissolve
     $ renpy.transition(Quake(0, 80, 0.15, 0.1), layer='master')
     play sound "fx/punch3.ogg"
-    "啪！！！"
+    "（啪！！！）"
     show sakuya 27 at top with dissolve
     sakuya "吵、吵死了！！！信不信我揍你！！！"
     me "已、已经揍了……。"
@@ -2877,7 +2877,7 @@ label day1_supply_sakuya:
     show sakuya 27 with dissolve
     sakuya "……你白痴吗！！！"
     play sound "fx/dash.ogg"
-    "啪！！"
+    "（啪！！）"
     "作哉无情地甩开了我的手。"
     me "诶……你不是说绝对不会闹腾或者咬人的吗……。"
     show sakuya 8 with dissolve

@@ -193,7 +193,7 @@ label day0_2:
     show tuki 1 at Position(xpos=-90, xanchor=0.0, yalign=0.0) with dissolve
     show sinobu 1 at Position(xpos=520, xanchor=0.0, yalign=0.0) with dissolve
     window show
-    "我顺着声音看过去，发现四个背对着这边的男孩正呆立在那儿。"
+    "我顺着声音看过去，发现四个背对着这边的男孩正站在那儿。"
     extend "\n现在这个时间，应该是刚结束社团活动的御咲学园学生回家的时间吧。"
     "真是走运啊！今天真的很顺。"
     extend "\n机会难得，我决定听听他们的讨论。"
@@ -338,7 +338,7 @@ label day0_4:
     unknown "晚上好，下班回来的大哥哥。"
     unknown "最近气温突然降下来了呢。\n前不久的酷暑就像假的一样。"
     extend "\n这种季节的转变，好像会让人身体不适\n所以你要注意哦。"
-    me "哈、哈啊？ 说、说的是呢。"
+    me "哈、哈啊？说、说的是呢。"
     extend "\n最近，我们公司感冒请假的人也很多呢。"
     "现在的日本，有多少孩子会主动和路边不认识的大人\n闲聊呢。"
     "至少，我从来没有见过这样的人，\n小时候也没干过这样的事。"
@@ -901,17 +901,17 @@ label day0_hidden_1:
     hide bg with dissolve
     play sound "fx/wind_slash.ogg"
     window show
-    "呜——————嗯"
+    "（呜——————嗯）"
     "嗯，这机械声是哪来的？"
     extend "\n啊~这个，是某种实验来着。"
     extend "\n他说不会做危险的实验，肯定没问题吧。"
     extend "\n嗯……睡吧……。"
     stop music fadeout 4.0
-    "·"
+    "…"
     pause 1.0
-    "·"
+    "…"
     pause 1.0
-    "·"
+    "…"
     pause 1.0
     play sound "fx/eureka.ogg"
     show bg remarkable at center with FadeWhite(0.5)
@@ -923,7 +923,7 @@ label day0_hidden_1:
     play sound "fx/phantom_fire.ogg"
     show bg phantom_fire with Radial(0.4)
     window show
-    "砰啊啊啊啊啊啊啊啊啊！！！！！！"
+    "（砰啊啊啊啊啊啊啊啊啊！！！！！！）"
     window hide
     show bg dungeon at center with FadeBlack(0.2)
     play sound "fx/boing.ogg"
@@ -1021,7 +1021,7 @@ label day0_hidden_1:
     play sound "fx/knife.ogg"
     show cg c91 1 at center with FadeWhite(0.5)
     window show
-    "咔嚓"
+    "（咔嚓）"
     "朔将刀刃抵在了我的脖子上。"
     me "诶……那、那个，朔先生……。"
     extend "\n不，刚才你不是说…不会做什么危险的事吗……。"
@@ -1203,7 +1203,7 @@ label day0_hidden_nori:
     play sound "fx/wind_slash.ogg"
     show cg c89 with FadeWhite(0.5)
     window show
-    "咻噜噜噜噜！！！"
+    "（咻噜噜噜噜！！！）"
     "触手捉住了背向这边，手被控制的夕阳。"
     window hide
     play sound "fx/impact_japanese.ogg"
@@ -1295,7 +1295,7 @@ label day0_hidden_nori:
     window hide
     show cg c93 3 with Radial(0.5)
     window show
-    "偷瞄"
+    "（偷瞄）"
     play music "bwv147.ogg"
     show cg adult with FadeWhite(0.5)
     "……。"
@@ -1368,7 +1368,7 @@ label day0_hidden_nori:
     hide bg with dissolve
     window show
     play sound "fx/alarm.ogg"
-    "哔哔哔哔哔哔哔哔哔"
+    "（哔哔哔哔哔哔哔哔哔）"
     window hide
     show bg protagonist_room_morning at center with Radial(0.5)
     window show
@@ -1516,7 +1516,7 @@ label day0_hidden_yuuhi:
     play sound "fx/phantom_fire.ogg"
     show cg phantom_fire with Radial(0.4)
     window show
-    "轰轰轰轰轰轰轰"
+    "（轰轰轰轰轰轰轰）"
     "伴随着刺耳的轰鸣声，夕阳施放出火焰，将触手烧得一干二净。"
     yuuhi "好耶！这样一来他就动不了了吧！"
     extend "\n嘿嘿，真是个惨不忍睹的反派啊~！"
@@ -1723,7 +1723,7 @@ label day0_hidden_yuuhi:
     hide bg with dissolve
     window show
     play sound "fx/alarm.ogg"
-    "哔哔哔哔哔哔哔哔哔"
+    "（哔哔哔哔哔哔哔哔哔）"
     window hide
     show bg protagonist_room_morning at center with Radial(0.5)
     window show
