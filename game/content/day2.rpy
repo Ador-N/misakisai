@@ -426,78 +426,79 @@ label day2_1_sinobu:
     stop music fadeout 0.3
     window show
     unknown "[player_surname]君……！"
-    "咕嗯！！"
+    me "诶？"
+    "（猛地一拉）"
     play sound "fx/wind_slash.ogg"
     me "呜哇！！！"
     play sound "fx/sudden_brake.ogg"
-    "叽叽！！！！"
+    "（急刹车声——！！！！）"
     $ renpy.transition(Quake(0, 100, 0.2, 0.065), layer='master')
     play sound "fx/fall_down.ogg"
     show bg sky with dissolve
     "事发突然，我完全没反应过来。"
-    extend "\n有人拉住了我的袖子，一辆卡车从我眼前驶过。"
-    driver "好险，小鬼！！\n要好好遵守红绿灯！！！"
-    "我听着卡车的临别台词，呆呆地望着前方，只见红灯亮着。"
+    extend "\n有人拉住了我的袖子，而一辆卡车从我眼前驶过。"
+    driver "好险，小鬼！！\n给我好好看红绿灯啊！！！"
+    "我听着卡车司机骂骂咧咧的声音，呆呆地望向前方，只见红灯亮着。"
     window hide
     play music "emergency.ogg"
     show cg c32 at center with FadeWhite(0.5)
     window show
     sinobu "哈啊……千钧一发。"
-    extend "\n[player_surname]君，过马路要看红绿灯啊。"
+    extend "\n[player_surname]君，过马路看红绿灯这种规矩要好好遵守啊。"
     "和我搭话的，是忍。"
     extend "\n被忍拉着手倒下后，\n我被他抱在怀里，倒在人行道上。"
     stop music fadeout 2.0
     show bg school_route
     "果然，忍长得非常漂亮啊……像女孩子一样。"
-    extend "\n我呆呆地望着忍，这么想着。"
+    extend "\n呆住的我近距离看着忍，心里这么想着。"
     window hide
     hide cg with dissolve
     play music "going_to_school.ogg"
     show sinobu 2 at top with dissolve
     window show
     sinobu "你在发什么呆呢。"
-    "我站了起来，看着绿灯，边走边说道。"
-    me "抱，抱歉，忍君。"
-    extend "\n因为从早上开始就发生了一些好事，我有些兴奋……。"
+    "忍把我扶了起来，看着绿灯亮起，边走边说道。"
+    me "抱、抱歉，忍君。"
+    extend "\n因为从早上开始就遇上了一些好事，我有些兴奋……。"
     show sinobu 3 with dissolve
     sinobu "……这样啊。"
     extend "\n兴奋得直接不看红绿灯就过马路很危险，可不要太飘飘然哦。"
     play sound "fx/boing.ogg"
-    me "呜，确实……"
+    me "呜，你说得对……"
     extend "\n我会注意的。"
     show sinobu 5 with dissolve
     sinobu "……所以，发生了什么？"
     me "诶？"
     sinobu "发生了什么好事，让你兴奋得这么走神？"
-    me "啊，不是……只是想到今天能像这样和大家一起度过，\n就觉得很高兴。"
+    me "啊，不是……只是想到今天也能像这样和大家一起度过，\n就觉得很高兴。"
     show sinobu 23 with dissolve
     sinobu "……这样啊。"
-    extend "\n要是我兴奋到不小心被车撞到了，那可就一无所有了呢。"
-    extend "\n平安无事就好。"
-    me "是的……。"
+    extend "\n结果因为太兴奋而被车撞到的话，可就本末倒置了呢。"
+    extend "\n你能平安无事就好。"
+    me "是……。"
     show sinobu 4 with dissolve
     sinobu "……。"
     me "……。"
     show cg sky at center with dissolve
     play sound "fx/triangle.ogg"
-    "不，不行啊啊啊……话题完全无法继续下去。"
+    "不、不行啊啊啊……话题完全无法进行下去。"
     extend "\n但是，我可不能气馁！"
     extend "\n好不容易能和如此可爱的男孩子一起上学。"
-    extend "\n我一定要好好享受这个时间！！"
+    extend "\n我一定要好好享受这段时光！！"
     window hide
     hide cg with dissolve
     hide sinobu with dissolve
     window show
-    me "忍，忍君，你有什么喜欢和不喜欢的吗？"
+    me "忍、忍君，你有不吃的东西吗？"
     show sinobu 3 at top with dissolve
     sinobu "没有。"
     me "那，你平常都看什么电视节目？"
     show sinobu 5 with dissolve
-    sinobu "看MHK的『新闻时钟7』。"
-    me "那，那你平时都是在哪里玩的呢~？"
+    sinobu "看MHK的『新闻7点钟』。"
+    me "那、那你平时都是在哪里玩的呢~？"
     show sinobu 4 with dissolve
     sinobu "宝咲。"
-    "呜……完全不知道该如何继续对话啊！！"
+    "咕唔……完全不知道该怎么展开话题啊！！"
     "但是，"
     play sound "fx/entrance.ogg"
     "我不会气馁！"
@@ -507,41 +508,41 @@ label day2_1_sinobu:
     "我不能哭啊~！！"
     show cg remarkable with Dissolve(0.2)
     play sound "fx/tadaa.ogg"
-    extend "\n加油加油[player_name]我一定要加油！！！"
+    extend "\n加油加油，[player_name]酱——！！！"
     window hide
     hide cg with Dissolve(0.2)
     hide sinobu with Dissolve(0.2)
     window show
-    me "那，那你喜欢玩什么游戏呢？"
+    me "那、那你喜欢玩什么游戏呢？"
     show sinobu 2 at top with dissolve
     sinobu "……战斗类的。"
     me "……喜欢看什么动画？"
     show sinobu 8 with dissolve
     sinobu "……战斗类的。"
-    "战斗类的啊……我也不太懂。"
-    extend "\n话说，我得从我了解的领域切入！"
+    "战斗类的啊……我也不太懂呢。"
+    extend "\n话说回来，从我擅长的领域切入不就好了嘛！"
     me "那那那，喜欢看什么漫画？"
     show sinobu 6 with dissolve
-    sinobu "……『北O神拳』。"
+    sinobu "……《东斗神拳》。"
     play sound "fx/eureka.ogg"
-    "居然是《北O神拳》！！！"
+    "居然是《东斗神拳》啊！！！"
     extend "\n唔……虽然总听到这部作品是神作，但我没看过。"
     extend "\n可恶啊~，要是读过这部作品，就能和他有更多的话题了！！"
-    me "你为什么喜欢《北O神拳》呢？"
+    me "你喜欢《东斗神拳》的什么地方呢？"
     show sinobu 11 with dissolve
     play sound "fx/sparkle.ogg"
-    sinobu "登场人物个性鲜明且帅气。"
-    extend "\n男人们那种硬汉般的生活方式真是太棒了。"
+    sinobu "登场人物个个都很热血帅气。"
+    extend "\n男人们那种硬汉般的生存方式真是太棒了。"
     show sinobu 29 with dissolve
     extend "\n无论是我方，还是敌方，都不是一味地使用暴力，"
-    extend "\n而是抱着各自的信念，并且赌上信念与之战斗。"
-    me "哦，哦哦~！\n你很喜欢这部作品啊。"
+    extend "\n而是各自怀揣着信念，并赌上这份信念去战斗的啊。"
+    me "哦、哦哦~！\n看来你很喜欢这部作品啊。"
     show sinobu 12 with dissolve
     sinobu "嗯。"
-    extend "\n[player_surname]君看过吗？"
-    me "没，没看过~……一直没机会，就没读过。"
+    extend "\n[player_surname]君也看过吗？"
+    me "没、没有呢~……一直没找到机会，就没读过。"
     extend "\n啊，对了！下次可以借我看看吗？"
-    extend "\n如，如果可以的话……。"
+    extend "\n如、如果可以的话……。"
     show sinobu 26 with dissolve
     sinobu "可以哦。"
     extend "\n不过一口气读完27卷很困难，我会按顺序借给你的。"
@@ -550,11 +551,11 @@ label day2_1_sinobu:
     "太好了！这样一来就有了共同的爱好！！"
     extend "\n简直就像恋爱中的少女一样，不过我在意的不是这个。"
     extend "\n只要能和他友好相处，然后看到他各种各样的表情就可以了。"
-    me "你是什么时候开始读《北O神拳》的呢？"
-    extend "\n是因为朋友之间流行起来的吗？"
+    me "你是什么时候开始读《东斗神拳》的呢？"
+    extend "\n是因为在朋友之间流行起来了吗？"
     show sinobu 3 with dissolve
     sinobu "不是。"
-    extend "\n我开始读这本书是因为憧憬强大的男人。"
+    extend "\n是因为我憧憬强大的男人，所以才开始读的。"
     me "强大的男人？"
     extend "\n但是，你现在也已经足够强了吧！"
     extend "\n空手道在县里也名列前茅吧？"
@@ -562,22 +563,22 @@ label day2_1_sinobu:
     sinobu "现在还算可以……"
     extend "\n不过，以前很弱，"
     show sinobu 20 with dissolve
-    extend "身心都很弱。"
+    extend "身心都是。"
     me "是吗。\n那你能变强真是太好了！"
     extend "\n就像梦想实现了的感觉吧？"
     show sinobu 22 with dissolve
-    sinobu "怎么说呢……我还不知道。"
-    me "你打算变得更强！"
-    extend "\n好厉害啊~。"
+    sinobu "怎么说呢……我还，不太清楚。"
+    me "你是打算变得更强啊！"
+    extend "\n真厉害~。"
     show sinobu 1 with dissolve
-    sinobu "……关于我空手道水平的事是从朋友那里听说的吗？"
+    sinobu "……关于我空手道水平的事是从友那里听说的吗？"
     me "嗯。"
     extend "\n昨天，在武道场里。"
     show sinobu 18 with dissolve
     sinobu "……这样啊。"
     "这样的忍，不知为何看起来很高兴。"
     hide sinobu with dissolve
-    "我侧眼看了看他，觉得和忍的关系也变好了，\n心情愉快地去学校了。"
+    "我侧眼看着这样的他，感觉似乎和忍的关系稍微变好了些，\n于是心情愉快地向学校走去。"
     window hide
     stop music fadeout 0.5
     hide bg with dissolve
@@ -589,45 +590,45 @@ label day2_1_tubasa:
     play music "cute_silly.ogg"
     show tubasa 12 at top with dissolve
     window show
-    tubasa "诶嘿嘿……昨晚能和友君通电话真是太好了。"
+    tubasa "诶嘿嘿……昨晚能和友君通电话真是太好了啊。"
     show tubasa 34 with dissolve
-    extend "\n呜~！有点困的友君也好可爱啊……。"
+    extend "\n呜~！睡意朦胧的友君也好可爱啊……。"
     show tubasa 4 with dissolve
-    extend "\n不过话说回来，他真的好喜欢色色的事情啊。"
-    extend "\n我可得继续努力学习，不输给友君才行啊。"
+    extend "\n不过话说回来，他真的好喜欢色色的话题啊。"
+    extend "\n我可得继续努力学习，跟上友君的节奏才行啊。"
     show tubasa 11 with dissolve
-    tubasa "如，如果这样的话，到时候，这种时候到了，\n说不定我能帮助他一下呢……诶嘿嘿……。"
+    tubasa "如、如果这样的话，万一到了『那种时候』，\n说不定我就能好好辅助他了……诶嘿嘿……。"
     show cg adult at center
     show tubasa 4 with dissolve
     play sound "fx/sparkle.ogg"
-    extend "哈啊……这种时候……友君的裸体……。"
+    extend "哈啊……那种场面……友君的裸体……。"
     show tubasa 3 with dissolve
-    extend "\n呜呜！光是想象就让人无法控制了！！"
+    extend "\n呜呜！光是想象就让人受不了了啊！！"
     show tubasa 11 with dissolve
-    tubasa "之前偶然闻到的屁股的味道也是那么的好闻，\n我真想吃一口啊♪"
+    tubasa "之前偶然闻到的胯下的味道，也是那么的好闻，\n如果可以的话，真想啊呜一口把他吃掉呢♪"
     show cg dark
     play sound "fx/heartbeat.ogg"
     show tubasa 38 with dissolve
     extend "\n……干脆干脆，把他带回去，把他关起来好了……。"
     show tubasa 34 with dissolve
-    extend "\n这样的话，友君就一辈子……我是说说的……啊哈哈。"
+    extend "\n这样的话，友君就一辈子……开玩笑的啦……啊哈哈。"
     window hide
     hide tubasa with dissolve
     hide cg with dissolve
     $ renpy.transition(Quake(0, 100, 0.15, 0.069), layer='master')
     play sound "fx/shock.ogg"
     window show
-    "高涨的心情一下子冷却了。"
-    extend "\n从早上开始就看到了不能看的东西……。"
-    "据说乖巧的孩子内心都是蕴藏着惊人能量的，\n竟，竟然到这个地步……。"
-    "翼，我之前太小看你对友的爱了……。"
-    "他沉浸在妄想中，摇摇晃晃地穿过马路。"
+    "刚才还高涨的心情瞬间冷却了。"
+    extend "\n一大早的，我就看见了不该看的东西啊……。"
+    "据说乖巧的孩子内心都是蕴藏着惊人能量的，\n但没、没想到竟然到了这种地步……。"
+    "翼君，我之前太小看你对友的爱了……。"
+    "他沉浸在妄想中，摇摇晃晃地走上斑马线。"
     stop music fadeout 0.3
-    me "翼！！！\n危险！！！！！"
+    me "翼君！！！\n危险——！！！！！"
     show tubasa 17 at top with dissolve
     tubasa "诶？"
     play sound "fx/wind_slash.ogg"
-    "咚\n"
+    "（猛地一拉）\n"
     show tubasa 8 with dissolve
     play sound "fx/fall_down.ogg"
     $ renpy.transition(Quake(0, 65, 0.1, 0.06), layer='master')
@@ -635,83 +636,83 @@ label day2_1_tubasa:
     tubasa "呜哇！！！"
     show bg sky with dissolve
     play sound "fx/sudden_brake.ogg"
-    extend "\n吱！！"
+    extend "\n（急刹车声——！！！！）"
     "千钧一发。"
-    extend "我用力拉住了翼的衣角，\n勉强防止了他与卡车相撞。"
-    driver "好险，小鬼！！\n要好好遵守红绿灯！！！"
-    "然后抛下这句话，卡车就开走了。"
+    extend "我拼尽全力拉住了翼的衣角，\n勉强防止了他与卡车相撞。"
+    driver "好险，小鬼！！\n给我好好看红绿灯啊！！！"
+    "抛下这句话，卡车就开走了。"
     extend "\n信号灯还是红的。"
-    me "呼~真是好险……"
-    extend "\n翼，我知道你正在幻想，但是\n过马路之前要先看信号灯啊。"
+    me "呼~好险啊……"
+    extend "\n翼君，我知道你想事情想得很入迷，但是\n过马路之前要先看红绿灯啊。"
     window hide
     play music "emergency.ogg"
     show cg c41 at center with FadeWhite(0.5)
     window show
     tubasa "啊……咦……[player_name]君……？"
     "翼似乎还没反应过来发生了什么。"
-    "他被我拉住之后摔倒了，\n然后我就抱着他瘫倒在人行道上。"
-    "乌黑的头发与洁白的肌肤形成鲜明的对比，好色情啊……。"
-    extend "\n我还是第一次这么近距离地看到他的脸，\n即便是我们正倒在地上，我还是不禁看得入迷了。"
+    "被我拉倒在地的翼，\n此刻正以一种被我抱在怀里的姿势，倒在人行道上。"
+    "乌黑的头发与白皙的皮肤形成鲜明的对比，好色情啊……。"
+    extend "\n我还是第一次这么近距离地看他的脸，\n即便是我们正倒在地上，我还是不禁看得入迷了。"
     tubasa "我……啊！！！"
-    "翼终于明白了现状，然后恢复了平时的纯朴。"
-    tubasa "对，对对对对不起！！！"
-    extend "\n我，我，那个，我在发呆……！"
-    extend "\n真，真的非常对不起！！"
-    me "没，没关系的没关系的。\n话说，你能平安无事真是太好了。"
+    "翼终于理解了现状，变回了平时那副纯真朴实的样子。"
+    tubasa "对、对对对对不起！！！"
+    extend "\n我、我，那个，我在发呆……！"
+    extend "\n真、真的非常对不起！！"
+    me "没、没关系的没关系的。\n比起那个，你能平安无事真是太好了。"
     extend "\n……。"
-    "这样看来，果然很可爱呢。"
-    extend "\n柔弱，时常警惕又战战兢兢的样子，\n就像小动物一样，让我涌起想保护他的母爱。"
-    tubasa "那……那个……那个……我们该走了…。"
+    "像这样看着，他果然好可爱啊。"
+    extend "\n柔弱，时常警惕又战战兢兢的样子，\n就像小动物一样，让我不由自主地想去保护。"
+    tubasa "那……那个……嗯……是不是该……。"
     me "啊！抱歉抱歉。"
     stop music fadeout 2.0
     show bg school_route
-    "连我都在发呆怎么行！"
-    "我放开了翼的手，让他站了起来，迈开步子。"
+    "连我也跟着发呆是怎么回事！"
+    "我放开了翼的手，扶他站了起来，然后迈开了脚步。"
     window hide
     hide cg with dissolve
     play music "going_to_school.ogg"
     show tubasa 9 at top with dissolve
     window show
-    tubasa "真，真的是太感谢你了！！"
-    extend "\n[player_name]要是没有你的话，我可能已经在车祸启示录的节目里出现了"
+    tubasa "真、真的是太感谢你了！！"
+    extend "\n要是没有[player_name]君的话，我可能已经在车祸启示录的节目里出现了。"
     show tubasa 1 with dissolve
     extend "\n呜呜……我到底在干什么啊…。"
     me "不客气。"
-    extend "\n下次在路边意淫的时候就克制一点吧。"
+    extend "\n下次在路边意淫的时候，还是克制一点吧。"
     show tubasa 19 with dissolve
     tubasa "诶诶？"
-    me "不过，没办法呢。\n毕竟对友君那么着迷啊……。"
-    extend "\n哎呀~翼意外的闷骚呢！！\n居然会想那种事情~♪"
+    me "不过，也没办法呢。\n毕竟对友君那么着迷啊……。"
+    extend "\n哎呀~翼君意外地很闷骚呢！！\n居然会想那种事情~♪"
     show tubasa 8 with dissolve
     $ renpy.transition(Quake(0, 65, 0.1, 0.15), layer='master')
     play sound "fx/cute3.ogg"
-    tubasa "诶，诶诶诶诶！？"
-    extend "\n那个那个！！\n你，你到底在说什么啊！？"
-    me "在过人行横道之前，你不是在自言自语吗。"
+    tubasa "诶、诶诶诶诶！？"
+    extend "\n那个那个！！\n你、你到底在说什么啊！？"
+    me "在过马路之前，你不是在自言自语吗。"
     show tubasa 22 with dissolve
     tubasa "不会吧……我说出来了吗……？"
-    me "嗯"
+    me "嗯。"
     show cg dark at center
     show tubasa 7 with dissolve
     play sound "fx/shock_big.ogg"
-    tubasa "（啊啊啊啊啊啊！！）"
+    tubasa "（受暴击！！！）"
     hide cg with dissolve
     show tubasa 3 with dissolve
-    tubasa "呜呜呜，真想找个洞钻进去"
-    "没，没想到你这么没有自觉……真是让人担心啊。"
+    tubasa "呜呜呜，我想找个地缝钻进去。"
+    "没、没想到竟然是无意识的……真是让人担心啊。"
     extend "\n恋爱，居然会让人这么盲目吗。"
-    me "别这样啊，别这么沮丧！"
-    extend "\n不如说，听到的人是我反而更好呢！"
-    extend "\n这样一来，我就能更好的支持你的恋爱了！"
+    me "嘛嘛，别那么消沉啦！"
+    extend "\n倒不如想，幸好听到的人是我！"
+    extend "\n这样一来，我就能更好地支持你的恋爱了！"
     show tubasa 1 with dissolve
-    tubasa "这样吗……"
-    me "是啊！"
-    extend "\n所以，你看，打起精神来！"
+    tubasa "是这样吗……"
+    me "没错！"
+    extend "\n所以啊，来，打起精神吧！"
     show tubasa 22 with dissolve
     tubasa "好……好的……打起精神……"
-    "虽说这么说，翼还是很萎靡。"
-    me "喂喂，你的语气和说的内容不一致啊。"
-    extend "\n……嗯？那是……友和忍！"
+    "嘴上这么说，翼还是很萎靡。"
+    me "喂——，你说话的内容和语气完全不符啊~。"
+    extend "\n……嗯？那是……友君和忍君！"
     window hide
     hide tubasa with dissolve
     show cg residential_area at center with dissolve
@@ -719,8 +720,8 @@ label day2_1_tubasa:
     show tomo 12 at topleft with dissolve
     window show
     tubasa "啊，真的呢……"
-    "两个人从拐角里走出来，一边笑着一边说着什么。"
-    tubasa "呜呜……他们看起来好开心啊"
+    "两个人从拐角里走出来，正有说有笑地聊着天。"
+    tubasa "呜呜……他们看起来好开心啊。"
     me "那两个人经常待在一起，关系果然很好吧？"
     window hide
     hide tomo with dissolve
@@ -728,23 +729,23 @@ label day2_1_tubasa:
     hide cg with dissolve
     show tubasa 14 at top with dissolve
     window show
-    tubasa "何止是关系好……那两个人是青梅竹马啊。"
-    extend "\n他们住在同一栋公寓里，所以两家人的关系都很好。"
+    tubasa "何止是关系好……那两个人可是青梅竹马啊。"
+    extend "\n他们住在同一栋公寓里，而且两家人的关系也很好。"
     "原来如此……是这样啊。"
     extend "\n还有昨天的作哉。看来翼的恋爱道阻且长啊。"
     show tubasa 3 with dissolve
     tubasa "呜呜…怎么办啊……！"
-    me "怎么办是……"
+    me "什么怎么办……"
     extend "\n好不容易见到了，不和他们搭个话怎么行呢！"
     show tubasa 20 with dissolve
-    tubasa "可，可是，刚才说了，两位是青梅竹马啊！"
-    extend "\n我肯定没法介入他们之间……。"
-    me "要是那样的话，就更应该搭个话了！！"
-    extend "\n恋爱，怎么缩短与对方的距离是很重要的。"
-    extend "\n像这样积极的搭话，\n能让你和友君的关系更加亲近的！！"
+    tubasa "可、可是，刚才说了，那两位是青梅竹马啊！"
+    extend "\n肯定没有我这种人能插足的余地……。"
+    me "正因如此，才更要去搭话啊！！"
+    extend "\n所谓恋爱，最重要的就是如何缩短与对方的距离。"
+    extend "\n像这样积极地搭话，\n能让你和友君的关系更加亲近的！！"
     show tubasa 9 with dissolve
     tubasa "……呜，嗯……说得对啊。"
-    extend "\n那，那我去了！"
+    extend "\n那、那我去了！"
     me "好。"
     extend "\n加油哦，期待恋爱的少年！！"
     show tubasa 7 with dissolve
@@ -753,8 +754,8 @@ label day2_1_tubasa:
     play sound "fx/running.ogg"
     hide tubasa with dissolve
     "像是逃跑一般朝他们那边去了。"
-    "从后面看的话，好像顺利加入到那两人中了。"
-    "看着少年们其乐融融的对话，\n虽然只剩下我独自走向学校，但还是很愉快。"
+    "从后面看去，看来是顺利加入到那两人之中了。"
+    "眺望着少年们那其乐融融聊天的背影，\n虽是独自一人，我还是心情愉快地向学校走去了。"
     window hide
     stop music fadeout 0.5
     hide bg with dissolve
