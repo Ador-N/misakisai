@@ -767,79 +767,80 @@ label day2_1_futago:
     window show
     unknown "[player_surname]！！"
     unknown "危险！！"
-    "咕嗯！！"
+    me "诶？"
+    "（猛地一拉）"
     play sound "fx/wind_slash.ogg"
     me "呜哇！！！"
     play sound "fx/sudden_brake.ogg"
-    "叽叽！！！！"
+    "（急刹车声——！！！！）"
     $ renpy.transition(Quake(0, 100, 0.2, 0.065), layer='master')
     play sound "fx/fall_down.ogg"
     show bg sky with dissolve
     "事发突然，我完全没反应过来。"
-    extend "\n有人拉住了我的袖子，一辆卡车从我眼前驶过。"
-    driver "好险，小鬼！！\n要好好遵守红绿灯！！！"
-    "我听着卡车的临别台词，呆呆地望着前方，只见红灯亮着。"
+    extend "\n有人拉住了我的袖子，而一辆卡车从我眼前驶过。"
+    driver "好险，小鬼！！\n给我好好看红绿灯啊！！！"
+    "我听着卡车司机骂骂咧咧的声音，呆呆地望向前方，只见红灯亮着。"
     window hide
     play music "emergency.ogg"
     show cg c50 at center with FadeWhite(0.5)
     window show
-    tuki "在做什么呢，[player_surname]。"
-    extend "\n明明是红灯，你没注意吗？"
-    sora "不过，没事真是太好了……。"
+    tuki "在想什么呢，[player_surname]。"
+    extend "\n明明是红灯，你没有注意吗？"
+    sora "不过，你没事真是太好了……。"
     extend "\n下次可要小心点哦。"
-    "和我说话的是月和空。"
-    extend "\n我被他们一把拉住，左抱右架地倒在了人行道上。"
+    "和我说话的，是月和空。"
+    extend "\n被两人拉倒在地的我，此刻正被他们左抱右架地倒在人行道上。"
     stop music fadeout 2.0
     show bg school_route
     "虽然他们俩长得并不一样，但都是美男子……。"
-    extend "\n我呆呆地看着他们，这么想道。"
+    extend "\n呆住的我近距离看着两人，心里这么想着。"
     window hide
     hide cg with dissolve
     play music "going_to_school.ogg"
     show tuki 22 at topleft with dissolve
     window show
-    tuki "真是……[player_surname]君竟然做出这样的蠢事。"
-    "我被他们拉了起来，绿灯亮起，开始迈开步子的月说道。"
-    me "对，对不起，两位。"
-    extend "\n因为从早上开始就发生了一些好事，我有些兴奋……。"
+    tuki "真是的……[player_surname]君竟然会犯这种低级错误啊。"
+    "月把我扶了起来。确认绿灯亮起后，他一边迈开步子，一边说道。"
+    me "对、对不起，两位。"
+    extend "\n因为从早上开始就遇上了一些好事，我有些兴奋……。"
     show sora 5 at topright with dissolve
     sora "我说你啊。"
     show sora 20 with dissolve
-    extend "\n都已经不是小孩子了，可不要太过兴奋，\n做出什么放肆的举动哦。"
-    me "对，对不起……。"
-    extend "\n但，但是，初中生还算是小孩子吧？"
+    extend "\n都已经不是小孩子了，可不要因为太兴奋，\n就做出出格的事哦。"
+    me "对、对不起……。"
+    extend "\n但、但是，初中生还算是小孩子吧？"
     show tuki 17 with dissolve
-    tuki "你在说什么呢。"
-    extend "\n现在日本的成年时间比以前要晚，\n在战前的日本和其他国家，像我们这岁数的人也已经算是大人了。"
+    tuki "你在胡说什么呢。"
+    extend "\n只是现代日本对『成年』的界定比较晚而已，\n在战前的日本或者其他国家，像我们这个年纪，也已经算是大人了啊。"
     show sora 23 with dissolve
     sora "没错没错。"
-    extend "\n为了不让我们的祖先大人蒙羞，\n得好好做人才行呢。"
-    "噢，噢噢……多么出色的孩子们啊……。"
-    extend "\n我这个年纪的时候，完全没有这种自觉。"
+    extend "\n为了不让我们的祖先大人蒙羞，\n我们得脚踏实地好好做人才行呢。"
+    "噢、噢噢……多么懂事的孩子们啊……。"
+    extend "\n我这个年纪的时候，完全没有这种自觉啊……。"
     me "你们两个人能这么自律，真的好厉害。"
     show tuki 6 with dissolve
     tuki "赤峰家的教育方针就是这样吧。"
     show sora 5 with dissolve
-    sora "我们家好像也是历史悠久的家族，所以可能比较传统吧。"
-    me "诶~这样吗。"
-    extend "\n也就是说，你们家从很早以前就一直这样了？"
+    sora "听说我们家算是历史悠久的名门，所以可能比较传统吧。"
+    me "诶~这样啊。"
+    extend "\n也就是说，你们家的房子也是从很久以前就一直保留着的吗？"
     show tuki 4 with dissolve
     tuki "是的。\n虽然随着时代的变迁，我们家的房子也做过几次改建，但基本还是木结构的老房子。"
-    extend "\n在家里要穿和服可能也是一项传统。"
+    extend "\n也许这也是家规吧，我们在家里都是穿和服的。"
     show sora 26 with dissolve
     sora "和服很好哦~。"
-    extend "\n既舒适又很沉稳，还很暖和，\n而且可以配合体型进行调整，所以很耐穿！"
+    extend "\n穿起来宽松舒适让人很安心，还很暖和，\n而且可以配合体型进行调整，所以很耐穿！"
     show sora 11 with dissolve
     extend "\n大家都应该多穿穿和服的。"
     me "太厉害了。"
-    extend "\n你们真的很重视日本的文化啊~。"
+    extend "\n你们真的很珍视日本文化啊~。"
     extend "\n穿和服的话……"
     show cg adult at center with Dissolve(0.2)
     play sound "fx/sparkle.ogg"
-    extend "那么内衣也会是以前那种叫做「兜裆布」的东西吗！"
+    extend "该不会连内裤也是那种传统的『兜裆布』吧！"
     hide tuki
     hide sora
-    "怎么会"
+    "开玩笑的啦，怎么可能……"
     show tuki 5 at top
     hide cg with Dissolve(0.1)
     stop music fadeout 0.1
@@ -851,42 +852,42 @@ label day2_1_futago:
     $ renpy.transition(Quake(0, 60, 0.1, 0.06), layer='master')
     play sound "fx/boing.ogg"
     me "诶诶诶诶诶诶诶诶！？！？！？！"
-    extend "\n这，这这这真的！？！？！？！"
+    extend "\n这、这这这是真的！？！？！？！"
     show tuki 9 at topleft with dissolve
     tuki "是真的。"
-    extend "\n不用那么吃惊吧。\n我们平时都是穿着的。"
+    extend "\n也不用那么吃惊吧。\n我们一直都是穿这个的哦。"
     show tuki 8 with dissolve
     extend "\n对吧，空。"
     show sora 14 at topright with dissolve
-    sora "嗯，嗯。"
-    extend "\n是这样没错……但是你这么直白地说出来，还是有点羞耻的呢……。"
-    me "那，那个啊，这真的是出于好奇，\n并没有什么不良的居心，还请不要误解，"
-    extend "\n可，可以让我稍微看一下吗？？"
-    extend "\n毕，毕竟，我还没有亲眼见过兜裆布，想亲眼看一下！！"
-    "虽说完全没有觊觎之心是骗人的，但也的确好奇。"
+    sora "嗯、嗯。"
+    extend "\n是这样没错……但是你这么直白地说出来，还是有点害羞啊……。"
+    me "那、那个啊，这真的是出于好奇，\n绝没有什么下流的想法，还请不要误解，"
+    extend "\n可、可以让我稍微看一下吗？"
+    extend "\n毕、毕竟，我还没有亲眼见过兜裆布，想看看实物啊！！"
+    "虽说完全没有觊觎之心是骗人的，但也的确很好奇。"
     show sora 8 with dissolve
     $ renpy.transition(Quake(0, 40, 0.1, 0.15), layer='master')
     play sound "fx/cute3.ogg"
-    sora "不，不要啊！\n在路边给人看也太不像话了！！"
-    me "那，那之后去厕所呢！！！"
+    sora "不、不要啊！\n在路边给人看这种东西也太不像话了！！"
+    me "那、那之后去厕所呢！！！"
     show tuki 1 with dissolve
     tuki "不用掩人耳目，可以在体育课换衣服的时候看嘛。"
     show tuki 6 with dissolve
-    extend "\n如果真的那么珍贵的话，下次我借你一条怎么样？"
-    extend "\n话虽如此，穿着别人的内裤，你应该还是\n会觉得有些不好吧。"
-    me "不，不会的！！！\n倒不如说，那样更好呢！！！！！"
+    extend "\n既然你觉得那么稀奇的话，下次我借你一条怎么样？"
+    extend "\n话虽如此，毕竟是穿别人的贴身衣物，\n再怎么说心里多少还是会有点抗拒吧。"
+    me "不、不会的！！！\n倒不如说，那样更好呢！！！！！"
     show tuki 5 with dissolve
     tuki "是吗……"
     hide tuki with dissolve
     hide sora with dissolve
     show tuki 17 at top with dissolve
     extend "嗯？"
-    "盯……"
+    "（盯……）"
     hide tuki with dissolve
     show sora 4 at topright with dissolve
     sora "怎么了？哥哥。"
     show tuki 1 at topleft with dissolve
-    tuki "空，[player_surname]君的眼睛，你看。"
+    tuki "空，你看，[player_surname]君的眼睛。"
     show sora 4 with dissolve
     sora "嗯~？"
     hide tuki with dissolve
@@ -896,30 +897,30 @@ label day2_1_futago:
     hide sora with dissolve
     show sora 27 at topright
     show tuki 8 at topleft with dissolve
-    tuki "[player_surname]君对于兜裆布的关心，好像不是出于好奇吧？"
+    tuki "[player_surname]君对于兜裆布的关心，好像不是单纯出于好奇吧？"
     play sound "fx/boing.ogg"
     $ renpy.transition(Quake(0, 50, 0.1, 0.06), layer='master')
-    "惊！"
-    me "啊，啊哈哈哈！！"
-    extend "\n才没那回事呢~？"
-    extend "\n我才没什么企图呢~？"
+    "（咯噔！）"
+    me "啊、啊哈哈哈！！"
+    extend "\n才没那回事哦~？"
+    extend "\n我也没什么企图哦~？"
     extend "\n没什么特别的啦~"
     show sora 29 with dissolve
     sora "语气不对劲。"
     show tuki 20 with dissolve
-    tuki "很可疑呢。"
+    tuki "太可疑了。"
     show cg dark at center with Dissolve(0.3)
     play sound "fx/shock.ogg"
     hide bg with dissolve
     hide tuki with dissolve
-    "这，这是怎么回事！？"
-    extend "\n糟糕……这样下去的话，好不容易得到的能观摩少年崭新兜裆布的机会\n就要溜走了！！"
+    "这、这是怎么回事！？"
+    extend "\n糟糕……这样下去的话，好不容易能弄到少年刚脱下的兜裆布的机会，\n就要溜走了！！"
     extend "\n必须得想办法啊！！"
     show cg sky with dissolve
     play sound "fx/boing.ogg"
     me "啊，那个，是这样的！！"
-    extend "\n我从来没有看过兜裆布，"
-    extend "\n能借到兜裆布，又想到还能学到东西，\n所以我才会很期待，才兴奋起来了~！！"
+    extend "\n因为我从来没见过兜裆布，"
+    extend "\n一想到能借来、而且还能亲自穿在身上，\n所以我才会很期待，才兴奋起来了~！！"
     show bg remarkable at center
     show sora 28 at topright
     show tuki 7 at topleft
@@ -929,8 +930,8 @@ label day2_1_futago:
     play sound "fx/impact_japanese.ogg"
     tuki_and_sora "你这眼神，是心怀不轨的眼神！！"
     play sound "fx/shock_big.ogg"
-    "啊！！！"
-    "完，完全被看穿了。"
+    "（受打击！！！）"
+    "完、完全被看穿了。"
     extend "\n多么敏锐的洞察力啊……。"
     extend "\n小的诚惶诚恐，赤峰兄弟……。"
     window hide
@@ -938,20 +939,20 @@ label day2_1_futago:
     hide tuki with dissolve
     hide sora with dissolve
     window show
-    me "我，我认输了……。"
+    me "我、我认输了……。"
     extend "\n话说回来，你们两个，是怎么知道的？"
     show sora 11 at topright with dissolve
-    sora "因为天天都在锻炼啊。"
+    sora "因为我们每天都在锻炼嘛。"
     me "锻炼？锻炼什么？"
     show tuki 9 at topleft with dissolve
-    tuki "这……。"
+    tuki "那个嘛……。"
     show cg sky at center with dissolve
     play sound "fx/chime.ogg"
-    "叮铃叮铃叮铃叮铃"
+    "（叮铃叮铃叮铃叮铃）"
     sora "啊！糟糕！！预备铃响了！"
     extend "\n你们俩，快点！"
     play sound "fx/running.ogg"
-    "因为说话说得太投入，我们上学要迟到了，便向学校跑去。"
+    "因为聊得太投入，我们上学要迟到了，便向学校跑去。"
     window hide
     stop music fadeout 0.5
     hide bg with dissolve
