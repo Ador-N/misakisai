@@ -75,18 +75,18 @@ label day2_1_tomo:
     window show
     unknown "[player_name]君，\n危险！！！"
     me "诶？"
-    "咕嗯！！"
+    "（猛地一拉）"
     play sound "fx/wind_slash.ogg"
     me "呜哇！！！"
     play sound "fx/sudden_brake.ogg"
-    "叽叽！！！！"
+    "（急刹车声——！！！！）"
     $ renpy.transition(Quake(0, 100, 0.2, 0.065), layer='master')
     play sound "fx/fall_down.ogg"
     show bg sky with dissolve
     "事发突然，我完全没反应过来。"
-    extend "\n有人拉住了我的袖子，一辆卡车从我眼前驶过。"
-    driver "好险，小鬼！！\n要好好遵守红绿灯！！！"
-    "我听着卡车的临别台词，呆呆地望着前方，只见红灯亮着。"
+    extend "\n有人拉住了我的袖子，而一辆卡车从我眼前驶过。"
+    driver "好险，小鬼！！\n给我好好看红绿灯啊！！！"
+    "我听着卡车司机骂骂咧咧的声音，呆呆地望向前方，只见红灯亮着。"
     window hide
     play music "emergency.ogg"
     show cg c10 at center with FadeWhite(0.5)
@@ -94,11 +94,11 @@ label day2_1_tomo:
     tomo "呼~，差一点就……"
     extend "\n喂！[player_name]君！！\n过马路要看红绿灯呀！"
     "和我说话的，是友。"
-    extend "\n被友拉住了袖子倒下的我\n以被他抱住的姿势倒在人行道上。"
+    extend "\n被友拉住袖子倒下的我，\n此刻正以一种被他抱在怀里的姿势，倒在人行道上。"
     stop music fadeout 2.0
     show bg school_route
-    "果然眼睛圆滚滚的很可爱啊……。"
-    extend "\n呆住的我近距离看着友这么想道。"
+    "果然眼睛圆滚滚的，很可爱啊……。"
+    extend "\n呆住的我近距离看着友，心里这么想着。"
     window hide
     hide cg with dissolve
     hide tomo with dissolve
@@ -106,10 +106,10 @@ label day2_1_tomo:
     show tomo 26 at top with dissolve
     window show
     tomo "真是的~。"
-    extend "\n啊~真的好危险！"
-    "友让我站起来，看着绿灯开始走了，边走边对我说道。"
-    me "对，对不起，友。"
-    extend "\n因为从早上开始就发生了一些好事，我有些兴奋……。"
+    extend "\n啊~还好你没事！"
+    "友让我站了起来，确认绿灯亮起后，边走边对我说道。"
+    me "对、对不起，友君。"
+    extend "\n因为从早上开始就遇上了一些好事，我有些兴奋……。"
     show tomo 27 with dissolve
     tomo "好事？什么好事？"
     extend "\n啊，难道说~"
@@ -127,43 +127,43 @@ label day2_1_tomo:
     tomo "有什么问题嘛！"
     show tomo 25 with dissolve
     extend "\n[player_name]君明明也挺喜欢这种话题的啊！。"
-    me "也，也算不上太喜欢吧~。"
+    me "也、也算不上太喜欢吧~。"
     show tomo 3 with dissolve
-    tomo "嗯~。"
+    tomo "我的朋友~。"
     show tomo 2 with dissolve
-    extend "\n喂你听我说啊？"
-    extend "\n明明自己是变态，却不承认。\n没什么比这样更丑恶了哦～"
+    extend "\n你知道吗？"
+    extend "\n自己明明是变态，却不承认。\n没有什么比这样更丑陋了哦~"
     me "呜……。"
     show tomo 15 with dissolve
     play sound "fx/impact_japanese.ogg"
     tomo "男人全都是变态，这是常识！"
     show tomo 39 with dissolve
-    extend "\n……嗯，好像是小慎也这么说过。"
-    me "你们两个应该多有点小孩该有的样子为好…。"
+    extend "\n……嗯，好像小慎也这么说过。"
+    me "你们两个应该多有点小孩该有的样子才对…。"
     show tomo 11 with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
-    tomo "毕竟我是小孩子嘛～小孩子对性的好奇心是很强烈的嘛～"
+    tomo "人家本来就是小孩子嘛~小孩子对性的好奇心就是很强烈的嘛~"
     me "嘿。"
     extend "\n那么就让我来满足你对性的好奇心吧？"
     show tomo 28 with dissolve
     tomo "诶。"
     me "哎呀~你都说到这份上啦。"
-    extend "\n作为友君的知心好友我也想帮助你，"
+    extend "\n作为友君的知心好友，我也想帮助你，"
     extend "\n不，是必须帮助你。"
     show tomo 18 with dissolve
-    tomo "不，不是，可是……你看！"
+    tomo "不、不是，可是……你看！"
     show tomo 19 with dissolve
     extend "那种事情可不能随便做，\n忍也这么说过……。"
     "哈哈哈。"
-    extend "\n像这样，一旦被邀请做这种事就开始畏首畏尾起来，\n这点来说还是很像小孩子的。"
-    me "这是，因为，如果对方是不认识的人，\n或者不怀好意的大人的话，吧？"
-    extend "\n我们可是，你看，朋友嘛。所以……。"
+    extend "\n像这样，一旦真的被邀请做这种事就畏首畏尾起来，\n这点来说还是很像小孩子的。"
+    me "那是针对陌生人、或者坏心眼的大人，\n只有对方是那种人的情况，才不能随便做，对吧？"
+    extend "\n我们可是，你看，朋友嘛。所以说……。"
     play sound "fx/wind_slash.ogg"
     show cg adult at center with FadeWhite(0.4)
     "我牵起友的手。"
-    tomo "别，别，"
-    me "好吗？"
+    tomo "不……不……"
+    me "好不好嘛？"
     window hide
     hide tomo with dissolve
     hide cg with dissolve
@@ -171,45 +171,45 @@ label day2_1_tomo:
     $ renpy.transition(Quake(0, 60, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
     window show
-    tubasa "小，小友！！！"
+    tubasa "友、友君！！！"
     play sound "fx/boing.ogg"
     "友＆我" "哇！"
-    "突然从电线杆后方现身的翼把我们俩都吓了一跳，\n于是我们俩不约而同地惊叫了出来。"
-    extend "\n这什么情况，他是怎么跑出来的……难道有「任意门」吗？"
+    "被突然从电线杆阴影里冒出来的翼吓了一跳，\n我们俩不约而同地叫出了声。"
+    extend "\n这什么情况，他是怎么冒出来的……难道是有『任意门』吗？"
     window hide
     hide tubasa with dissolve
     show tomo 28 at topleft
     show tubasa 16 at topright with dissolve
     window show
     tubasa "[player_name]君！"
-    extend "\n请，请不要说这种骗的友\n团团转的话了！！"
+    extend "\n请、请不要说这种骗得友君\n团团转的话了！！"
     show tomo 29 with dissolve
-    tomo "小，小翼。\n早，早上好……。"
+    tomo "小、小翼。\n早、早上好……。"
     show tubasa 8 with dissolve
     tubasa "啊……那个……"
     show tubasa 3 with dissolve
-    extend "早，早上好……。"
-    "虽然他为了友的事，鼓足干劲地出现了，\n但气势却在转眼间萎缩下去了，"
+    extend "早、早上好……。"
+    "虽然他为了友的事鼓足干劲地冲了出来，\n但这股气势转眼间就萎缩下去了，"
     show tubasa 15 with dissolve
-    "又像平时一样畏畏缩缩的。"
+    "他又变回了平时那副畏畏缩缩的样子。"
     extend "\n居然认真到这种程度……。"
     extend "我是不是有点得意忘形了。"
-    me "我，我是在开玩笑的！翼。"
+    me "我、我是在开玩笑的！翼君。"
     extend "\n友也是，对不起！"
-    extend "\n本想配合你来着，\n但好像玩笑开的过火了？"
+    extend "\n本来只是想顺着你说的来着，\n但好像玩笑开得过火了？"
     show tomo 20 with dissolve
     $ renpy.transition(Quake(40, 0, 0.1, 0.15), layer='master')
     play sound "fx/cute3.ogg"
-    tomo "不是不是完全不是！"
+    tomo "不对不对完全不对——！"
     show tomo 19 with dissolve
-    extend "\n总觉得[player_name]君……说的语气好像很认真，好羞耻啊……"
+    extend "\n总觉得[player_name]君说的……语气好像很认真，感觉好羞耻啊……"
     show tubasa 14 with dissolve
     tubasa "……。"
     "友害羞地说道，而翼则露出一副复杂的表情\n看向了我这边。"
     hide tubasa with dissolve
     hide tomo with dissolve
     show tubasa 10 at top with dissolve
-    "我对着翼耳语。"
+    "我对着翼耳语道。"
     me "~~~~~。"
     show tubasa 17 with dissolve
     tubasa "诶？"
@@ -230,10 +230,10 @@ label day2_1_tomo:
     "我这么说着，就跑了起来。"
     hide tomo with dissolve
     play sound "fx/running.ogg"
-    extend "\n友一边喊着「等等！」一边追了上来。当然了，翼也跟在后面。"
+    extend "\n友一边喊着『等等！』一边追了上来。当然了，翼也紧随其后。"
     play sound "fx/running.ogg"
     hide tubasa with dissolve
-    extend "\n我一边感受着这种似曾相识的感觉，一边向着学校走去。"
+    extend "\n我一边感受着这种似曾相识的感觉，一边向着学校跑去。"
     window hide
     stop music fadeout 0.5
     hide bg with dissolve
@@ -244,31 +244,31 @@ label day2_1_sintarou:
     stop music fadeout 0.3
     window show
     unknown "喂[player_name]君！！\n危险啊啊！！！"
-    "咕嗯！！"
+    me "诶？"
+    "（猛地一拉）"
     play sound "fx/wind_slash.ogg"
-    extend "咚"
     me "呜哇！！！"
     play sound "fx/sudden_brake.ogg"
-    "叽叽！！！！"
+    "（急刹车声——！！！！）"
     $ renpy.transition(Quake(0, 100, 0.2, 0.065), layer='master')
     play sound "fx/fall_down.ogg"
     show bg sky with dissolve
     "事发突然，我完全没反应过来。"
-    extend "\n有人拉住了我的袖子，一辆卡车从我眼前驶过。"
-    driver "好险，小鬼！！\n要好好遵守红绿灯！！！"
-    "我听着卡车的临别台词，呆呆地望着前方，只见红灯亮着。"
+    extend "\n有人拉住了我的袖子，而一辆卡车从我眼前驶过。"
+    driver "好险，小鬼！！\n给我好好看红绿灯啊！！！"
+    "我听着卡车司机骂骂咧咧的声音，呆呆地望向前方，只见红灯亮着。"
     window hide
     play music "emergency.ogg"
     show cg c24 at center with FadeWhite(0.5)
     window show
-    sintarou "好，好危险哦！"
-    extend "\n哎呀~不要一大早的就让我这样提心吊胆的啊[player_name]君。\n啊~真是可喜可贺可喜可贺。"
+    sintarou "千、千钧一发——Safe！"
+    extend "\n哎呀~不要一大早的就让我这样提心吊胆的啊[player_name]桑~。\n啊~真是可喜可贺可喜可贺。"
     "正在跟我说话的，是慎太郎。"
-    extend "\n被慎太郎拉倒在地的我，\n被他抱在怀里，瘫倒在了人行道上。"
+    extend "\n被慎太郎拉倒在地的我，\n被他抱在怀里，瘫倒在人行道上。"
     stop music fadeout 2.0
     show bg school_route
-    "真是让人安心啊……。"
-    extend "\n呆滞的我，在慎太郎的身边看着他。"
+    "那双下垂眼和看起来软乎乎的脸颊，真让人安心啊……。"
+    extend "\n呆住的我近距离看着慎太郎，心里这么想着。"
     window hide
     play music "going_to_school.ogg"
     hide sintarou with dissolve
@@ -279,49 +279,49 @@ label day2_1_sintarou:
     show sintarou 10 with dissolve
     extend "\n我还真是吓了一跳啊~。"
     "慎太郎把我扶了起来，绿灯亮起。一边走着，他一边说道。"
-    me "抱，抱歉啊，慎太郎。"
-    extend "\n因为从早上开始就发生了一些好事，我有些兴奋……。"
+    me "抱、抱歉啊，慎太郎。"
+    extend "\n因为从早上开始就遇上了一些好事，我有些兴奋……。"
     show sintarou 4 with dissolve
-    sintarou "什么好事？什么什么？"
+    sintarou "好事？什么什么？"
     extend "\n啊~难道说~你找到了，\n能证明自己内在其实是25岁的证据什么的？"
-    me "那，那个……。"
+    me "那、那个还没……。"
     show sintarou 15 with dissolve
     sintarou "什么~嘛。那到底是什么啊？"
-    me "没，没什么……只是，作为一个初中生，\n在今天也能和慎太郎你们一起度过快乐的学园生活什么的，"
+    me "没、没什么……只是，作为一个初中生，\n在今天也能和慎太郎你们一起度过快乐的校园生活什么的，"
     extend "\n让我实在是高兴得不得了啊。"
     show sintarou 14 with dissolve
     sintarou "……。"
     "慎太郎呆呆地看着我。"
     extend "\n怎么了，我说了什么奇怪的话吗？"
     show sintarou 9 with dissolve
-    sintarou "哎呀~你真让人搞不明白啊~"
+    sintarou "哎呀~你这人设还真是做全套的啊~"
     me "诶？"
     show sintarou 20 with dissolve
-    sintarou "怎么说呢，咱只是想强调你是个初中生啊！"
-    extend "\n就连咱这个老江湖，一大早就也有点被惊到了呀。"
+    sintarou "你是要强调『当个初中生对现在的我来说是非日常体验』，对吧！"
+    extend "\n就连咱这个老江湖，一大早都被你搞得有点懵了呀。"
     show sintarou 13 with dissolve
-    sintarou "不过，你的学园生活还长着呢，\n关于这件事，咱会慢慢替你验证的~。"
+    sintarou "嘛，你的校园生活还长着呢，\n关于那件事，咱会慢慢替你验证的~。"
     me "还长着呢……吗。"
     "这生活，要持续到什么时候呢。"
-    extend "\n到底，还有多久呢。"
-    extend "\n忽然脑海中闪过疑问。"
+    extend "\n真的，『还长着』吗……。"
+    extend "\n忽然，脑海中闪过疑问。"
     "不，现在考虑这个也没意义。"
-    "只要我展现真心的话，就会自然而然地表现得像个大人。"
-    extend "\n继续这样，让慎太郎相信我是个大人吧。"
+    "只要我展现真心的话，就会自然而然地表现得像大人。"
+    extend "\n只要继续这样下去，就能让慎太郎相信我是个大人吧。"
     show sintarou 14 with dissolve
-    sintarou "啊~那边是啥！\n"
+    sintarou "啊~那边是——！"
     window hide
     hide sintarou with dissolve
     show sintarou 7 at topleft with dissolve
     $ renpy.transition(Quake(0, 60, 0.1, 0.15), layer='master')
     play sound "fx/cute2.ogg"
     window show
-    extend "喂！小三朗！！"
+    extend "\n喂——！小三朗——！！"
     "顺着慎太郎的视线看去，三朗正站在人行道的那头。"
     show saburo 12 at topright with dissolve
     $ renpy.transition(Quake(40, 0, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
-    saburo "诶！！"
+    saburo "呃！！"
     show saburo 15 with dissolve
     extend "\n一大早就遇见这个不像话的家伙啊……。"
     show sintarou 27 with dissolve
@@ -331,30 +331,30 @@ label day2_1_sintarou:
     show cg adult at center
     play sound "fx/wow2.ogg"
     show sintarou 12 with dissolve
-    extend "我们可是连彼此的黑痣都数得过来的好伙伴啊。"
+    extend "咱们可是连彼此身上有多少颗痣都知道的关系呢~。"
     show saburo 25 with dissolve
-    saburo "是啊……\n那天晚上我们还一起数了呢……那个夜晚好热。"
+    saburo "是啊……\n那天晚上我们还一起把角角落落都数遍了呢……真是火热的一晚。"
     hide cg with Dissolve(0.2)
     hide sintarou with Dissolve(0.2)
     hide saburo with Dissolve(0.2)
     show saburo 3 at topright with Dissolve(0.2)
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/dash.ogg"
-    extend "\n话说你这是在说什么鬼话！！！怎么可能嘛，你是白痴吗！！\n你的脑袋里面装的都是什么啊！"
+    extend "\n不对，你这是在说什么鬼话啊！！！怎么可能有那种事啊你个白痴！！\n你的脑袋里面装的都是什么啊！"
     show sintarou 9 at topleft with dissolve
-    sintarou "嘛，别害羞啦，别害羞啦。"
+    sintarou "嘛，别那么害羞嘛，别害羞嘛。"
     show saburo 14 with dissolve
     saburo "才不是害羞！"
     show saburo 15 with dissolve
-    extend "\n真是的……[player_surname]君，一大清早的和这家伙一起上学有够受的吧。\n辛苦了。"
-    me "不是，没有那回事。"
-    extend "\n拜他所赐，我一大清早就心情愉快了。"
+    extend "\n真是的……[player_surname]也是，一大清早的和这家伙一起上学有够受的吧。\n辛苦了。"
+    me "没有那回事哦。"
+    extend "\n拜他所赐，我一大清早就心情很愉快呢。"
     show sintarou 4 with dissolve
-    sintarou "喂~！"
-    extend "\n刚才我们两人还说了悄悄话呢~。"
+    sintarou "是吧~！"
+    extend "\n刚才我们俩还说了悄悄话呢~。"
     show saburo 6 with dissolve
     saburo "悄悄话？"
-    extend "\n什么嘛。"
+    extend "\n是什么啊。"
     me "啊，不是……那是……。"
     show sintarou 12 with dissolve
     sintarou "是秘密所以肯定不会告诉你啦~。"
@@ -363,56 +363,56 @@ label day2_1_sintarou:
     show sintarou 7 with dissolve
     $ renpy.transition(Quake(0, 60, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
-    sintarou "喵ー！\n难道说三朗是在嫉妒吗？？"
+    sintarou "喵——！\n难道说小三朗是在吃醋吗？？"
     show sintarou 12 with dissolve
-    extend "\n三朗酱，放心！\n之后我会创造咱们两人独处的时间哦♪"
+    extend "\n安~啦！\n之后咱也会给三朗酱留出充足的『二人世界』时间的啦♪"
     show saburo 3 with dissolve
-    saburo "我，我我我我我我才不要呢！"
+    saburo "我、我我我我我我才不要呢！"
     show saburo 15 with dissolve
     extend "\n唔……和这家伙在一起果然会让人变得奇怪！！"
     show saburo 11 with dissolve
-    extend "\n我就先走了！\n那，再见啦！！"
+    extend "\n我就先走了！\n回见！！"
     play sound "fx/running.ogg"
     hide saburo with dissolve
     "三朗慌慌张张地跑掉了。"
-    extend "\n就像夫妻相声一样。"
+    extend "\n简直就像是夫妻相声一样啊。"
     hide sintarou with dissolve
     me "慎太郎，你真喜欢三朗啊。"
     window hide
     show sintarou 1 at top with dissolve
     window show
     sintarou "是啊~♪"
-    extend "\n从前三朗酱来到澡堂以后，\n我就被他迷的神魂颠倒了呢~。"
+    extend "\n自从之前三朗酱来过我家的澡堂以后，\n咱就被他迷得神魂颠倒了呢~。"
     play sound "fx/eureka.ogg"
-    me "在，在澡堂里做了什么！！？"
+    me "在、在澡堂里做了什么！！？"
     extend "\n速速道来！！！"
     show sintarou 4 with dissolve
-    sintarou "不～行♪"
-    extend "\n这里是我和三朗酱之间的秘密哦~。"
+    sintarou "不~行♪"
+    extend "\n这是咱和三朗酱之间的秘密哦~。"
     me "唔……是吗。"
     "唔……好不容易现实BL就在眼前，\n不告诉我细节简直太折磨人了。"
-    "嗯~其实，三朗的肉体超级色情之类的……？"
-    extend "\n脱下衣服以后会很厉害哦！！之类的话。"
+    "嗯~其实是，三朗君的身体超级色情之类的……？"
+    extend "\n『脱下衣服以后会很厉害哦！！』之类的感觉？"
     show sintarou 25 with dissolve
-    sintarou "所以，我无论如何\n都想把那孩子拉进这个世界！"
-    me "拉进这个世界吗……厉害啊。"
-    extend "\n我在初中时候，即便有心仪的孩子，\n但想着他肯定是直男就放弃了啊。"
+    sintarou "所以啊，咱无论如何\n都想把那孩子拉进『这边』的世界！"
+    me "拉进这边吗……厉害啊。"
+    extend "\n我初中的时候，即便有心仪的男孩子，\n但想着『他肯定是直男』就放弃了啊~。"
     show sintarou 9 with dissolve
-    sintarou "那孩子身上有资质哦~。"
+    sintarou "那孩子可是很有潜力的哦~。"
     show sintarou 13 with dissolve
-    extend "\n再加把劲就能追到手了，\n今后我也会继续努力的~！"
-    me "即使追到了，之后又会怎么样呢？"
+    extend "\n再加把劲就能追到手了，\n今后咱也会继续努力的~！"
+    me "如果真的追到了，之后会做什么呢？"
     show cg dark at center
     play sound "fx/shock.ogg"
     show sintarou 5 with dissolve
-    sintarou "我会把他的痣数清清楚楚地调查清楚！"
+    sintarou "咱要把他身上的黑痣数量彻底数个遍！"
     "奥村慎太郎，可怕的孩子……。"
     hide cg with dissolve
-    me "小孩子做这种事可不好！！"
+    me "只有小孩子自己做这种事可不好！！"
     extend "\n如果真有那一天的话，我作为监护人一定也要在场吧！"
     show sintarou 1 with dissolve
-    sintarou "哇~[player_name]君如果能证明自己其实是大人的话～"
-    extend "\n我很期待那一天哦~♪"
+    sintarou "嘛~前提是[player_name]君如果能证明自己其实是大人的话~"
+    extend "\n咱很期待那一天哦~♪"
     me "当然，我一定会证明的！！"
     hide sintarou with dissolve
     "鼓足一整天的干劲后，我们一同向学校走去。"
