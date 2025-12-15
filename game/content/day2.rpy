@@ -8,45 +8,45 @@ label day2:
     hide bg with dissolve
     window show
     play sound "fx/alarm.ogg"
-    "哔哔哔哔哔哔哔哔哔"
+    "（哔哔哔哔哔哔哔哔哔）"
     me "嗯……。"
     window hide
     show bg protagonist_room_morning at center with Radial(0.5)
     window show
-    mother "[player_name]！ 已经早上了！快点起来！！"
+    mother "[player_name]——！已经早上咯——快点起床——！！"
     "客厅里传来妈妈的声音。"
-    me "……还得去公司才行呢。"
+    me "……得去公司了。"
     stop sound fadeout 1.0
     "我慢慢爬出被窝后，又听到了母亲的声音。"
     mother "你在干什么呀~？"
     extend "\n你要是再磨磨蹭蹭的，上学可就要迟到咯~！"
     "嗯？"
-    "我猛地站起身，在镜子前照了照自己，"
+    "我猛地站起身，往穿衣镜里一看——"
     stop music fadeout 0.5
     play music "lively_boys.ogg"
     play sound "fx/eureka.ogg"
     show 効果 remarkable at center with FadeWhite(0.5)
     "\n出现的竟然是一副看着笨笨的初中生模样！"
-    extend "\n我竟然是初中生的模样！！"
+    extend "\n我依然还是初中生的模样！！"
     "梦还没醒。"
     extend "我好像在梦里醒了……！"
     window hide
     hide 効果 with dissolve
     window show
     me "好！！！"
-    extend "\n我今天也一定能准时去学校的！！！！！"
+    extend "\n今天我也要精神百倍地去上学！！！！！"
     play sound "fx/door_open.ogg"
-    "咔嚓！"
+    "（咔嚓！）"
     window hide
     pause 0.3
     window show
-    mother "怎，怎么了？突然大声说话。"
+    mother "怎、怎么了？突然大喊大叫的。"
     extend "\n是身体不舒服吗？今天要不先不去学校了？"
     me "没有没有！没事的！！"
     "我满面笑容地向母亲表示我没事，\n母亲却带着一脸不安的表情回到了客厅。"
-    "以前的母亲，总是会因为我一点点小事就担心不已。"
-    extend "\n可如今在现实中她却对我冷淡许多。"
-    "不经意间感受到了自己的成长，也感受到了来自家人的爱。"
+    "以前的母亲，总是会因为我一点点小事就担心不已啊。"
+    extend "\n如今现实中的她已经对我冷淡许多了。"
+    "不经意间，我感受到了自己的成长，也感受到了来自家人的爱。"
     "啊，糟糕。"
     extend "要是再沉浸在感伤当中，我真的就要迟到了。"
     window hide
@@ -60,11 +60,11 @@ label day2_1:
     play music "going_to_school.ogg"
     window show
     me "哈啊~天气真好。"
-    extend "\n我居然会开始期待起上学来，\n要是当时还是初中生的时候就能这样想的话就好了。"
-    "身体轻盈……。"
+    extend "\n我居然会开始期待起上学来，\n要是初中时代的时候就能这样想的话就好了。"
+    "身体好轻盈……。"
     extend "\n世界仿佛以我为中心旋转着。"
     "我带着雀跃的心情跑了起来。"
-    extend "\n这时"
+    extend "\n这时——"
     window hide
     hide bg with dissolve
     return
