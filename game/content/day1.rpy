@@ -3319,7 +3319,7 @@ label day1_supply_saburo:
     show cg landscape at center with dissolve
     window show
     extend "在那一点的前方，是另一所学校。"
-    me "那里……是御咲女子学院？"
+    me "那里……是御咲女子学园？"
     extend "\n诶~刚好能从这里看到呢。"
     saburo "没错！"
     extend "\n然后啊，要是时机正好，\n就能看到在操场上集合，穿着体操短裤的女孩子们了♪"
@@ -3335,7 +3335,7 @@ label day1_supply_saburo:
     play sound "fx/triangle.ogg"
     "这种在外面就叫「偷窥」。"
     me "体操服……吗。"
-    "我无视了女子学院，看向三朗。"
+    "我无视了女子学园，看向三朗。"
     "什么嘛……所谓好玩的东西，原来就是这个啊。"
     extend "\n如果是看到那个而性奋的三朗君，我倒是会感兴趣啊。"
     extend "\n如果是这孩子穿的体操短裤，那我倒很想看……。"
