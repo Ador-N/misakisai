@@ -1370,88 +1370,88 @@ label day2_2:
     play music "going_to_school.ogg"
     window show
     "上午的课很快结束了。"
-    extend "\n嗯～好不容易成为初中生，课却太短了，真是不满足。"
+    extend "\n嗯~。明明好不容易成了初中生，课程太短了，感觉有些意犹未尽啊。"
     show bg classroom with Dissolve(0.8)
-    "同学们大部分都回去了，只有班委们留了下来，聚在一起。"
+    "大部分同学都回去了，只有执行委员们留了下来，聚在一起。"
     window hide
     show tomo 1 at topleft with dissolve
     window show
-    tomo "哎呀，4小时的课程，真是转眼即逝啊~。"
+    tomo "哎呀，一天只上四节课的话，真是一眨眼就过去了啊~。"
     show tomo 24 with dissolve
-    extend "\n真好啊~这种开放感！真是太棒了！"
+    extend "\n真好啊~这种解放感！真是太棒了！"
     show saburo 2 at topright with dissolve
-    saburo "我懂我懂！\n和考试前的课程又不一样了啊！"
+    saburo "我懂我懂！\n这感觉跟考试前那种缩短课时完全不一样啊~！"
     show saburo 17 with dissolve
-    extend "\n现在啊~根本不用担心学习了啊！"
+    extend "\n因为现在完~全不用考虑学习的事嘛！"
     show saburo 7 with dissolve
     extend "\n要是能一直维持这种状态就好了呢~。"
     hide tomo with dissolve
     show sintarou 10 at topleft with dissolve
-    sintarou "那个，放学后真是让人坐立不安啊。"
+    sintarou "就是说啊~考试前的放学时间反而让人坐立不安呢。"
     show sintarou 16 with dissolve
-    extend "\n一个人的时间太多，总觉得有种被逼到尽头的感觉，\n好难受啊啊啊啊。"
+    extend "\n一个人待着的时间又多，越想越容易把自己逼到死胡同里，\n好难受哦。"
     hide saburo with dissolve
     show sakuya 9 at topright with dissolve
-    sakuya "说到底，\n学校学的东西将来也没用啊！"
+    sakuya "说到底，\n学校学的这些东西，将来也没用啊！"
     show sakuya 8 with dissolve
-    extend "\n特别是历史和古典！！根本没必要学嘛。\n真是够了啊。"
+    extend "\n特别是历史和古文！！根本没必要学嘛。\n真烦人。"
     hide sintarou with dissolve
     show tomo 26 at topleft with dissolve
-    tomo "同意！那玩意儿学了有什么用嘛！！"
+    tomo "我同意技安说的！那玩意儿学了有什么用嘛！！"
     show tomo 27 with dissolve
-    extend "\n教育部的那些老头老太太们,\n肯定是为了让我们受罪才\n特意出那种难懂的题目吧。"
+    extend "\n教育部的那些老头老太太们,\n肯定是为了让我们受罪，\n才特意出那种难懂的题目吧。"
     hide sakuya with dissolve
     show saburo 25 at topright with dissolve
-    saburo "唉~。\n好想快点变成自由的大人啊~。"
+    saburo "唉~。\n真想快点变成自由的大人啊~。"
     hide tomo with dissolve
     show sintarou 17 at topleft with dissolve
-    sintarou "我受够了被R十八束缚的生活啊……。"
+    sintarou "我已经受够了被R-18束缚的生活啊……。"
     hide saburo with dissolve
     hide sintarou with dissolve
     "啊哈哈哈。我学生时代也这么想过。"
-    "但是年轻人啊……等你们变成大人后，\n就会深刻感受到以前学过的那些课程将成为你们的精神食粮啊~。"
-    extend "\n等你们成为大人后，就很难复习以前学过的课程了，\n所以你们现在必须好好学习，掌握知识，否则会很麻烦的~！！"
+    "但是啊，年轻人们……等变成了大人，\n才会切身感受到，那些课程都会成为人生的养分啊~。"
+    extend "\n等成了大人，想复习学生时代的课程可是很难的，\n所以，不趁现在好好学习掌握知识的话，以后可是会很困扰的哦~！！"
     "……这种话，你们现在肯定听不懂吧~。"
     window hide
     show tubasa 6 at top with dissolve
     window show
-    tubasa "唉……我姑且有认真地听讲，\n还打算好好复习准备考试，"
+    tubasa "唉……虽然我有在认真听讲，\n也觉得自己有好好复习备考，"
     show tubasa 1 with dissolve
     extend "\n但为什么考试成绩总是提不上去呢……。"
     show sinobu 7 at topleft with dissolve
     sinobu "可能是归纳总结得不好吧……？"
     show sora 5 at topright with dissolve
-    sora "如果在教科书上做的标记太多，\n之后回顾的时候，就搞不清哪里是重点了。"
+    sora "如果在课本上做的标记太多，\n之后回顾的时候，就搞不清哪里是重点了。"
     show sora 34 with dissolve
-    extend "\n按频率不同，改变做标记的方式也许会比较好！"
+    extend "\n根据重要程度的不同，改变做标记的方式也许会比较好！"
     hide sinobu with dissolve
     show tuki 5 at topleft with dissolve
-    tuki "之后，不只是输入知识，还要输出。"
+    tuki "还有，不只要吸收知识，还要把学到的东西运用出来。"
     show tuki 4 with dissolve
-    extend "\n这个练习，找个人和你对答案才会有效果。"
+    extend "\n这种练习，找个人互相出题考对方会很有效果。"
     show tuki 22 with dissolve
-    extend "\n就算积累了很多知识，如果一直不交流的话，也不会知道学的怎么样的，\n如果学到的知识不应用的话就没有意义了。"
+    extend "\n即使积累了知识，如果只是藏在肚子里，也不会知道学的怎么样的。\n学到的知识不应用的话就没有意义了。"
     show tubasa 7 with dissolve
-    tubasa "呜呜……您说的是。"
+    tubasa "呜呜……你说得对。"
     show tubasa 19 with dissolve
-    extend "\n我上次考试把考试范围搞错了，\n结果考的很差……。"
+    extend "\n我上次考试把考试范围搞错了，\n结果考得很差……。"
     show sora 9 with dissolve
-    sora "这，这可真是很严重的失败呢……。"
+    sora "那、那还真是个严重的失误呢……。"
     hide tubasa with dissolve
     hide sora with dissolve
     hide tuki with dissolve
     "这样看来，学生也挺不容易的。"
-    extend "\n每天被学习和社团活动追着跑，怎么做都做不完。"
-    extend "\n某种意义上，这还挺幸福的。"
+    extend "\n每天被学习和社团活动追着跑，事情怎么做都做不完。"
+    extend "\n不过从某种意义上来说，这也算是挺幸福的。"
     window hide
     show tomo 21 at top with dissolve
     window show
-    tomo "啊，已经到这个时候了吗！"
+    tomo "啊，都这个时候啦！"
     show tomo 1 with dissolve
-    extend "\n那我们就分组，开始工作吧。"
+    extend "\n那就各自分组，开始工作吧——。"
     show tomo 12 with dissolve
-    extend "\n今天没有时间限制，随便怎么做都行哦。"
-    "喂喂，和昨天相比，今天的安排还真是随便啊，班长……。"
+    extend "\n今天没有时间限制，自由发挥就好——。"
+    "喂喂，和昨天比起来，今天的安排还真是随便啊，委员长大人……。"
     hide tomo with dissolve
     "那么，今天去帮助哪个小组呢？"
     window hide
@@ -1461,7 +1461,7 @@ label day2_2:
 label day2_design:
     hide 班選択 with dissolve
     window show
-    "去「服装组」看看吧！"
+    "去『服装组』看看吧！"
     window hide
     stop music fadeout 0.5
     hide bg with dissolve
@@ -1469,16 +1469,16 @@ label day2_design:
     play music "quiet_lunch.ogg"
     show tomo 1 at topleft with dissolve
     window show
-    tomo "那么，[player_name]君，整理好东西！"
+    tomo "那么，[player_name]君，快收拾东西！"
     extend "\n小慎准备好了吗~？"
     show sintarou 1 at topright with dissolve
     sintarou "当然OK！"
-    me "诶诶诶诶！？\n要，要回去了？"
-    extend "委员的工作呢？？"
+    me "诶诶诶诶！？\n要、要回去了？"
+    extend "委员的工作呢？"
     show tomo 2 with dissolve
-    tomo "当然会做啦！"
+    tomo "当然要做啦！"
     show sintarou 13 with dissolve
-    sintarou "我们接下来就要前往现场采购了哦。"
+    sintarou "我们接下来就要去实地采购了哦。"
     window hide
     hide tomo with dissolve
     hide sintarou with dissolve
@@ -1493,40 +1493,40 @@ label day2_design:
     window hide
     show sintarou 8 at topright with dissolve
     window show
-    sintarou "像这样的乡下小镇\n东西都不太齐全呢！"
+    sintarou "毕竟像这种乡下小镇，\n东西都不太齐全嘛！"
     show sintarou 4 with dissolve
-    extend "\n去梅咲那边吧~"
+    extend "\n所以咱想去梅咲那边看看~。"
     show tomo 10 at topleft with dissolve
-    tomo "那边是大城市，应该有很多好东西吧！。"
-    me "梅咲么~……\n有公司的人在啊。"
+    tomo "那边是大城市，应该有很多好东西吧！"
+    me "梅咲啊~……\n有公司的人在啊……。"
     show sintarou 15 with dissolve
     sintarou "公司？什么意思？"
-    me "啊，不，因为那里有很多上班族，\n我这个小孩子在那会紧张啊~！"
+    me "啊，不，是因为那里到处都是上班族，\n我这个小孩子在那里会紧张啊~！"
     show sintarou 9 with dissolve
     sintarou "嗯~？好可疑……"
-    extend "你，肯定在隐瞒着什么吧？"
-    "啪嗒！"
+    extend "你这家伙，莫非是在隐瞒什么吧？"
+    "（咯噔！）"
     show tomo 25 with dissolve
     tomo "啊，我知道了！"
-    extend "\n[player_name]君在和梅咲哪家公司的人谈恋爱吧，一定是这样的！。"
+    extend "\n[player_name]君在和梅咲哪个上班族谈恋爱吧，绝对是！"
     show sintarou 6 with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute2.ogg"
-    sintarou "什么啊！！"
-    extend "\n那可一定要见见啊！！"
-    me "不，不是的~！！！！"
+    sintarou "什么！！"
+    extend "\n那可务必要让我们拜见一下啊！！"
+    me "不、不是啦~！！！！"
     show sintarou 18 with dissolve
     sintarou "真是的~不用这么害羞嘛。"
     show tomo 4 with dissolve
-    tomo "有什么不好的嘛！介绍给我们吧~。"
+    tomo "有什么关系嘛！介绍给我们吧~。"
     extend "\n我们会帮你保密的！"
     show sintarou 12 with dissolve
     sintarou "[player_name]君挺厉害的嘛！"
-    extend "\n没想到你竟然和大人交往。"
-    me "绝对不是！！！"
+    extend "\n看起来这么单纯，结果居然在和大人交往什么的。"
+    me "绝对不是——！！！"
     play sound "fx/dash.ogg"
     $ renpy.transition(Quake(0, 60, 0.15, 0.1), layer='master')
-    extend "\n我感兴趣的只有像你们这么可爱的少年！！！"
+    extend "\n我感兴趣的，只有像你们这么可爱的少年啊！！！"
     stop music fadeout 0.5
     play sound "fx/ding.ogg"
     show bg dark
@@ -1534,10 +1534,10 @@ label day2_design:
     show sintarou 14 with dissolve
     "……"
     play music "discovery.ogg"
-    extend "\n诶……我刚刚说了什么……？"
-    "等到我反应过来的时候已经晚了。"
+    extend "\n诶……我、刚刚、说了什么……？"
+    "等到我反应过来的时候，已经晚了。"
     extend "\n友和慎太郎盯着我，一言不发，愣在原地。"
-    extend "\n更别提他们周围的人也用好奇的眼光看着我。"
+    extend "\n甚至连周围的人，都用那种看可疑分子的眼光看着我。"
     stop sound fadeout 0.5
     window hide
     hide sintarou with dissolve
@@ -1550,33 +1550,33 @@ label day2_design:
     window show
     tomo "啊，还有个空座位。"
     extend "\n[player_name]君，你坐吧。"
-    me "诶？不用了，"
+    me "诶？我不用了，"
     show sintarou 1 at topright with dissolve
-    sintarou "不不~\n我们之中精神上最疲劳的就是\n[player_name]君了吧，"
-    extend "\n请，请坐。"
+    sintarou "不不~\n毕竟我们之中，精神上最『疲劳』的就是\n[player_name]酱了嘛，"
+    extend "\n请坐。"
     me "呜……"
     hide sintarou with dissolve
     hide tomo with dissolve
     show bg train_interior_seat with dissolve
     "我无言以对，\n只能坐下了。"
-    "虽然他们都很成熟，可刚才我说的那句话是不是太吓人了……。"
-    "我不安地抬头，抬眼望去……"
+    "就算他们再怎么早熟，我刚才的那句话果然还是太吓人了吧……。"
+    "我感到一阵不安，抬起了一直低着的头，结果……"
     stop sound fadeout 0.5
-    extend "\n我看到友和慎太郎抓着吊环站着，"
+    extend "\n映入眼帘的，是抓着吊环站立着的友和慎太郎的——"
     window hide
     play sound "fx/sparkle.ogg"
     show cg c9 at center with Radial(0.5)
     window show
-    extend "两，两腿之间……！！！"
+    extend "裆、裆部……！！！"
     play music "bwv147.ogg"
     "神啊……"
-    extend "这是人类所期望的愉悦！！！"
+    extend "这就是，世人仰望的喜悦啊——！！！"
     "啊……这飘渺的香味是……。"
-    extend "\n要，要受不了了……！！"
-    extend "\n不行……视线离不开这里了……。"
+    extend "\n受、受不……了了……！！"
+    extend "\n不行……视线根本无法移开……。"
     "幸运的是，似乎没有谁注意到我下流的念头。"
-    "为了不让周围的人察觉到青春期热血贲张的欲念，我极力让自己举止自然"
-    extend "\n在去梅咲的整段路程里，我都沉浸在幸福之中"
+    "为了不让周围的人察觉到我那青春期热血贲张的邪念，我极力让自己举止自然，"
+    extend "\n在去梅咲的整段路程里，我都沉浸在幸福之中。"
     window hide
     hide tomo with dissolve
     hide sintarou with dissolve
@@ -1592,21 +1592,21 @@ label day2_design:
     show bg umesaki_station_front with dissolve
     show sintarou 8 at topright with dissolve
     window show
-    sintarou "哎呀~这果然是个都市啊。"
+    sintarou "哎呀~果然这里是大城市呢。"
     show tomo 10 at topleft with dissolve
-    tomo "来到这种地方，总感觉令人兴奋呢~。"
-    extend "\n住在这附近的人真令人羡慕啊。"
-    me "是吗~？\n如果我要是住在这的话，我肯定会更喜欢像御咲一样的小镇。"
-    extend "\n这种都市人口多，车辆也多，\n吵吵闹闹的，一点都不安静。"
+    tomo "来到这种地方，总让人感觉很兴奋呢~。"
+    extend "\n真羡慕住在这一带的人啊。"
+    me "是吗~？\n我的话，如果要住，还是更喜欢像御咲那样沉稳安静的小镇呢。"
+    extend "\n这种大城市人口多，车辆也多，\n吵吵闹闹的，一点都不安静。"
     show tomo 27 with dissolve
-    tomo "诶~？[player_name]，你这话就像个大叔一样！"
+    tomo "诶~？[player_name]君这话就像大叔说的一样！"
     play sound "fx/boing.ogg"
-    me "别这么说！我可才25岁啊！！"
+    me "太失礼了！我也才25岁啊！！"
     show tomo 21
     show sintarou 14 with dissolve
     tomo_and_shin "哈？"
-    me "别别别，我是在说公司里认识的一个人，他25岁，"
-    extend "\n他当时就是这么对我说的~！"
+    me "不、不是，是那个，我是在说公司认识的一个人，才25岁，"
+    extend "\n他当时就是这么对我说的啦~！"
     show sintarou 6 with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute2.ogg"
@@ -1621,21 +1621,21 @@ label day2_design:
     tomo "有照片吗！？"
     extend "让我看看！！！"
     play sound "fx/explosion2.ogg"
-    me "额啊啊啊！！！不是的不是的！！"
-    extend "\n才不是那样啊！！！！"
-    "这两个人还是一如既往地把我耍得团团转啊……。"
-    "我头脑一时发热，现在又一下子冷静下来，突然想起了某件事。"
-    me "对了。关于这一点，那个人也告诉过我。"
+    me "呜哇啊啊啊！！！不是的不是的！！"
+    extend "\n都说了不是那样啊！！！！"
+    "还是老样子，总被这两个人折腾得够呛……。"
+    "我那因一时冲动而发热的大脑，现在一下子冷却了下来，突然想起了一件事。"
+    me "对了。这也是那个人说过的，"
     extend "\n这一带治安不太好，要小心哦。"
     extend "\n尤其是像我们这样，既弱小又身怀巨款的小孩子，\n特别容易成为被抢劫的目标。"
     show tomo 2 with dissolve
     tomo "没问题啦！"
-    extend "\n就算真的有，只要全力逃跑就能解决问题！"
+    extend "\n就算真的有，只要全力逃跑就冇问题啦！"
     show sintarou 2 with dissolve
-    sintarou "而且，现在还不到中午呢~。"
-    extend "\n人也很多，应该没问题吧~。"
+    sintarou "而且，现在才刚过中午嘛~。"
+    extend "\n人也很多，没事的啦~。"
     me "嗯……说的也是。"
-    "现在还早，是不是想太多啦。"
+    "天还这么亮，可能是我想太多了吧。"
     me "嗯，那我们就出发吧。"
     "我们走向附近的购物中心。"
     window hide
@@ -1647,7 +1647,7 @@ label day2_design:
     show bg shopping_mall_exterior at center with Radial(1.5)
     pause 0.5
     window show
-    "购物中心内，虽然现在是工作日的白天，但是顾客也很多。\n十分热闹，充满了活力。"
+    "走进购物中心，虽然是工作日的白天，但顾客依然很多。\n这里十分热闹，充满了活力。"
     window hide
     play sound "fx/crowd_noise.ogg"
     show bg shopping_mall_interior with Dissolve(2.0)
@@ -1656,14 +1656,14 @@ label day2_design:
     tomo "哇哦~！情绪高涨~！！"
     show sintarou 8 at topright with dissolve
     sintarou "就是说啊！！好大啊~！"
-    extend "\n反正还有时间，\n不如干脆就过会儿再来买东西吧！"
+    extend "\n反正还有时间，\n难得来一趟，等会儿我们顺便逛逛街吧！"
     show tomo 4 with dissolve
     tomo "赞成~！"
     extend "\n毕竟很少有机会能来梅咲，\n今天就好好享受吧♪"
-    "虽然平时很稳重，但这种时候就会显得和小孩子一样。"
+    "虽然平时很稳重，但这种时候还是挺像小孩子的嘛。"
     "我不禁嘴角上扬。"
-    me "那我们就赶紧工作吧！"
-    extend "\n去服装店，还有首饰店看看吧！"
+    me "那我们就速战速决，赶紧把工作搞定吧！"
+    extend "\n去服装店，还有饰品店看看吧！"
     show cg remarkable at center
     play sound "fx/tadaa.ogg"
     show tomo 13
@@ -1679,17 +1679,17 @@ label day2_design:
     play music "umesaki2.ogg"
     show tomo 1 at topleft with dissolve
     window show
-    tomo "我觉得慎很适合穿这种休闲风的衣服~！"
+    tomo "我觉得小慎很适合穿这种休闲风的衣服~！"
     extend "\n你看你看。"
     show sintarou 1 at topright with dissolve
-    sintarou "是吗？"
+    sintarou "是——吗——？"
     extend "\n还不错呢~。"
     show sintarou 2 with dissolve
-    extend "\n反倒是友，我觉得穿这个会很适合！\n啊，不过这种比较清纯的风格也挺适合你的~！"
+    extend "\n反倒是友亲，我觉得穿这个会很适合！\n啊，不过这种比较清纯的风格也挺适合你的~！"
     show tomo 24 with dissolve
-    tomo "真的吗！"
+    tomo "真的吗——！"
     extend "\n嗯嗯。下次挑战一下吧。"
-    "友和慎太郎几乎都忘记了工作，\n在试衣间前试了试便服，兴致勃勃的。"
+    "友和慎太郎几乎都忘记了工作，\n在全身镜前拿着便服在身上比划，兴致勃勃地聊着。"
     "如果我还是大人的话，\n这样的衣服就可以直接买来送他们俩了……！"
     show tomo 28 with dissolve
     $ renpy.transition(Quake(30, 0, 0.1, 0.15), layer='master')
@@ -1699,23 +1699,23 @@ label day2_design:
     sintarou "光是……这件衬衫就一万日元啊……。"
     play sound "fx/boing.ogg"
     "什么！！？"
-    extend "这可吓死我了！！"
+    extend "这可吓死人了！！"
     extend "\n现在的年轻人的衣服居然这么贵吗！"
-    "光是一件衬衫就要花一万块，连我这个社会人都有点吃不消了。"
-    extend "\n反过来说，幸好现在的我是小孩……。"
-    me "这，这毕竟是城市里的店嘛……"
-    extend "\n稍微贵一点也正常……不是吗？。"
+    "一件衬衫就要花一万块，连我这个社会人都有点吃不消了。"
+    extend "\n反过来说，幸好现在的我是个小孩……。"
+    me "这、这毕竟是城市里的店嘛……"
+    extend "\n稍微贵一点也是没办法的事……吧。"
     show tomo 26 with dissolve
     tomo "嗯……这样啊。"
     show sintarou 14 with dissolve
-    sintarou "是啊。\n顺便问下，服装费最多可以花多少？"
+    sintarou "对了。\n顺便问问，服装费最多可以花多少？"
     show tomo 9 with dissolve
-    tomo "5万日元……。"
+    tomo "五万日元……。"
     show sintarou 16 with dissolve
-    sintarou "天，天呐……。"
+    sintarou "天、天呐……。"
     extend "嗯……。"
     show sintarou 19 with dissolve
-    extend "\n既然这样，那我们就把这商场内的店铺全部逛一遍，\n努力找到便宜一点的吧！"
+    extend "\n既然这样，那我们就把这商场里的店铺全部逛一遍，\n努力找到便宜一点的吧！"
     show tomo 16 with dissolve
     tomo "了解！"
     me "要是在御咲周围的话，\n说不定能找到更便宜一些的店……。"
@@ -1729,43 +1729,43 @@ label day2_design:
     show bg shopping_mall_interior at center with Dissolve(1.5)
     show tomo 26 at topleft with dissolve
     window show
-    tomo "大略逛了一圈感觉，最便宜也要4千日元啊……。"
+    tomo "大略逛了一圈，感觉最便宜也要四千日元啊……。"
     show sintarou 2 at topright with dissolve
-    sintarou "看样子这家店的价位是最便宜的，\n那就这家店吧！"
+    sintarou "看样子这家店的价位是最低的了，\n那就这家吧！"
     me "嗯？"
-    extend "\n喂！这边有一千日元起卖的区域哦。"
+    extend "\n喂——！这边有均一价一千日元的区域哦。"
     show tomo 4 with dissolve
-    tomo "好！！[player_name]君！"
+    tomo "干得漂亮！！[player_name]君！"
     show sintarou 8 with dissolve
     sintarou "噢~！"
-    extend "\n虽然缺乏冲击力，但要是再搭配些其他服装的话，\n看起来应该会很不错！"
+    extend "\n虽然稍微有点缺乏视觉冲击力，但要是再搭配些其他服装的话，\n看起来应该会很不错！"
     show tomo 8 with dissolve
-    tomo "嗯，我们班加上隔壁班一共72人……。\n然后……。"
-    me "但这样就不太够了。"
-    extend "\n不过，没必要连厨房的人的衣服也准备。\n并且让两个轮班的人共用一套衣服的话，只需要准备一半的衣服就可以了。"
+    tomo "嗯，我们两个班总共有72个人……。\n那个……那个……。"
+    me "那样就不太够了。"
+    extend "\n不过，没必要连后厨的衣服都准备，\n并且让两个轮班的人共用一套的话，只需要准备一半的数量就可以了吧。"
     show tomo 12 with dissolve
-    tomo "是这样没错啦。"
+    tomo "话是这么说啦。"
     extend "\n但是难得有这个机会，我想让大家都穿上一样的衣服。"
     show tomo 1 with dissolve
-    tomo "这样会感觉比较团结，也会留下更深刻的印象，"
-    extend "\n最重要的是，可以让大家有深刻的印象，"
+    tomo "这样会感觉比较团结，而且还能作为实物留下来，"
+    extend "\n最重要的是，这可以成为印象深刻的回忆，"
     show tomo 4 with dissolve
-    extend "我想，那样的话大家一定会很高兴的。"
+    extend "那样的话，我想大家一定会很开心的。"
     show sintarou 4 with dissolve
     sintarou "嗯嗯。"
-    extend "\n如果大家穿一样的衣服的话，\n日后回忆起来就会觉得“第一组也好，第二组也好，都很不错啊”。"
+    extend "\n如果大家都能穿一样的衣服的话，\n日后回忆起来，就会觉得『一班也好，二班也好，都很不错啊』。"
     show sintarou 20 with dissolve
-    sintarou "而且，只有厨房的人没有统一的衣服穿，\n感觉会有些不好。"
+    sintarou "而且，只有后厨的同学没有衣服穿的话，\n也有点太可怜了嘛。"
     "原来如此。"
-    extend "\n睹物怀旧，也是触发回忆的契机。"
+    extend "\n睹物怀旧，也是触发回忆的契机啊。"
     me "……嗯，我知道了！"
-    extend "\n作为2年一，二班的御咲祭执行委员的服装制作班负责人，"
+    extend "\n作为二年一、二班的御咲祭执行委员的服装组的一员！！"
     extend "\n我会想办法让大家都能穿上统一的制服的！"
     show tomo 1
     show sintarou 8 with dissolve
     tomo_and_shin "嗯！"
-    me "那么，接下来到外面去搜寻一下吧。"
-    extend "\n这里店都关门了。"
+    me "那么，接下来到外面去找找看吧。"
+    extend "\n看样子这里已经没有更好的店了。"
     "我们离开了购物中心。"
     window hide
     hide tomo with dissolve
@@ -1780,31 +1780,31 @@ label day2_design:
     sintarou "呐呐！\n那里好像很不错啊？"
     show tomo 1 at topleft with dissolve
     tomo "真的！"
-    extend "\n上面写着「500日元」！"
-    extend "\n在那里的话，应该能在预算内买到所有人的衣服！"
-    me "好！就去那里吧。"
+    extend "\n上面挂着好大的『500日元』的牌子！"
+    extend "\n那里的话，应该能在预算内搞定全员的服装！"
+    me "好！就去那家看看吧。"
     window hide
     hide sintarou with dissolve
     hide tomo with dissolve
     hide bg with dissolve
     show bg clothing_store with Dissolve(1.0)
     window show
-    "店内商品杂乱无章的排列着，没有统一感。"
-    extend "\n但是，每一件商品的品味都不错。"
-    extend "\n我感觉能在这家店里找到不错的商品。"
+    "店内的商品排列得毫无章法，完全没有统一感。"
+    extend "\n但是，每一件单品的品味都不错。"
+    extend "\n我有一种预感，在这家店里说不定能淘到什么宝贝。"
     window hide
     show sintarou 6 at topright with dissolve
     window show
-    sintarou "呐呐！这个不挺好的吗？？"
-    "慎太郎喊了出来，手上举着一条毫无花纹的红色领带。"
+    sintarou "呐呐！这个不挺好的吗？"
+    "慎太郎高声一喊。他举起的，是一条没有任何花纹的、简约的红色领带。"
     show sintarou 4 with dissolve
-    sintarou "现在也别在乎什么时尚不时尚了。"
+    sintarou "现在也顾不上什么时尚啊华丽啊之类的了。"
     extend "\n简单就是最好的！"
     show tomo 4 at topleft with dissolve
     tomo "是啊。"
-    extend "\n一开始只是想给别人看，展示我们和其他班级的不同。"
-    extend "\n但是，现在重要的是给周围的人留下好印象。"
-    me "没错，我们应该，不对，应该说我们班的大家，\n要让这次的庆典，成为美好的回忆，"
+    extend "\n起初我太在意其他班级，只想着要展示『与众不同』。"
+    extend "\n但是，重要的不是把外表弄得光鲜亮丽给其他人看，"
+    me "而是我们，不对，是班上的大家，\n要如何把这次御咲祭变成美好的回忆留存下来，"
     extend "对吧？"
     show sintarou 1 with dissolve
     sintarou "嗯嗯。"
