@@ -2839,32 +2839,32 @@ label day2_design_tomo:
     show bg clothing_store at center
     stop music fadeout 0.5
     window show
-    me "我说小友，你试试戴戴看。"
+    me "作为尝试，友君，你试着戴戴看吧。"
     window hide
     play music "tomo_theme.ogg"
     show tomo 18 at top with dissolve
     window show
     tomo "诶，我吗？"
     show tomo 31 with dissolve
-    extend "\n可，可是我，不会系领带啊……啊哈哈。"
-    me "那就让我帮你系吧。"
-    "我话还没说完，就脱下友的立领制服，把手搭在他的脖子上。"
-    "我在系领带的时候，友被我的突然靠近吓了一跳，一直低着头。"
+    extend "\n可、可是我，不会系领带啊……啊哈哈。"
+    me "那我来帮你系吧。"
+    "话音刚落，我就扒下了友的立领校服，把手绕到了他的脖子上。"
+    "我在系领带的时候，友或许是因这突然的近距离接触而感到惊讶，一直低着头。"
     window hide
     show cg c11 at center with Radial(0.5)
     window show
-    me "这样就好了！"
+    me "这样就好啦！"
     extend "\n嗯，很适合你！\n对吧？慎太郎。"
-    sintarou "没错！"
-    extend "而且还完美地被拍下来了！\n友，很适合你哦~。"
-    tomo "啊，谢谢。"
+    sintarou "那当然！"
+    extend "咱已经完美地用手机拍下来了哟！\n友亲，很适合你哦~。"
+    tomo "谢、谢谢……。"
     extend "\n我这还是第一次系领带，所以有点害羞……。"
     me "毕竟你还是个孩子嘛。"
     extend "\n等你出社会了，就算不想系也会被逼着系的，\n趁现在练习习惯一下比较好哦。"
-    tomo "呜~……"
-    extend "\n[player_name]君有时候会把我们当作小孩子看呢。"
-    extend "\n就连发言都像大叔一样。"
-    me "啊哈哈，这也是作为社畜的觉悟~。"
+    tomo "唔~……"
+    extend "\n[player_name]君有时候会把我们当小孩子看呢。"
+    extend "\n就连碎碎念都像大叔一样。"
+    me "啊哈哈，这也是听那个上班族说的~现学现卖啦。"
     window hide
     hide cg with dissolve
     hide sintarou with dissolve
@@ -2872,29 +2872,29 @@ label day2_design_tomo:
     show tomo 27 at topleft
     show sintarou 15 at topright with dissolve
     window show
-    sintarou "话说回来……虽然找到了合适的服装\n但是有72个库存吗？"
+    sintarou "话说回来……虽然找到了合适的，\n但是会有72条的库存吗？"
     show tomo 21 with dissolve
     tomo "这么说来……。"
-    me "我，我去问问店员！"
-    "拿着领带去收银台，向店员询问。"
+    me "我、我去问问店员！"
+    "我拿着领带走向收银台，询问了店员。"
     window hide
     hide tomo with dissolve
     hide sintarou with dissolve
     play sound "fx/boing.ogg"
     window show
-    clerk "72件么？！"
-    extend "\n哎呀~能买这么多我很开心，\n但是没有库存了哦。"
-    me "那，那就……"
+    clerk "72条吗？！"
+    extend "\n哎呀~你能买这么多我是很高兴啦，\n但没那么多库存啊……。"
+    me "那、那样的话……"
     extend "\n周五之前能进货吗？"
     show tomo 20 at top with dissolve
-    tomo "拜托了！作为学校祭的服装必须要的！！"
-    clerk "嗯~……我会先跟对方联系一下的。"
-    extend "\n能稍微等一会吗？"
-    me "好的，多谢了。"
+    tomo "拜托您了！这是学园祭要用的服装，真的很需要！！"
+    clerk "嗯~……我先跟供货商联系一下吧。"
+    extend "\n能稍微等一会儿吗？"
+    me "好的，谢谢您。"
     hide tomo with dissolve
     "店员走进了储藏间，开始打电话。"
-    "说起来，我也好久没有被人用对待小孩子的语气说话了……"
-    extend "\n正当我这么想的时候，慎太郎突然一跳。"
+    "说起来，我也好久没有被人用对待小孩子的语气说话了啊……"
+    extend "\n正当我这么想的时候，慎太郎突然跳了起来。"
     window hide
     show sintarou 21 at topright with dissolve
     $ renpy.transition(Quake(40, 0, 0.15, 0.1), layer='master')
@@ -2902,78 +2902,78 @@ label day2_design_tomo:
     window show
     sintarou "啊……！！！\n糟糕了……怎么办啊。"
     show tomo 28 at topleft with dissolve
-    tomo "怎么了，小慎。"
+    tomo "怎么了？慎酱。"
     show sintarou 16 with dissolve
-    sintarou "刚才去购物中心的厕所的时候，\n好像把书包忘在那了…。"
+    sintarou "刚才在购物中心上厕所的时候，\n好像把书包忘在那了……。"
     show tomo 18 with dissolve
-    tomo "真的诶！小慎空着手呢！！"
+    tomo "哇真的诶！慎酱你两手空空嘛！！"
     extend "\n为什么之前没注意到啊。"
     show sintarou 10 with dissolve
-    sintarou "我马上跑去把包拿回来，\n店员打完电话的话，你就在这里等等我吧~。"
-    me "知道了。要小心哦。"
+    sintarou "咱这就冲刺去那边拿回来，\n要是店员打完电话了，你们就在这儿等等咱吧~。"
+    me "知道啦。要小心哦。"
     play sound "fx/running.ogg"
     hide sintarou with dissolve
     "说完之后，慎太郎朝着购物中心跑去。"
     hide tomo with dissolve
     show tomo 12 at top with dissolve
-    tomo "店员的电话好像还要一会才能打完，\n我去外面的自动贩卖机买点果汁来。"
+    tomo "店员的电话好像还要打一会儿，\n我去外面的自动贩卖机买点果汁来。"
     extend "\n[player_name]君有什么想喝的吗？"
-    me "我都可以的。"
-    extend "\n就当是让你帮我跑腿了，不好意思啊。"
+    me "我就不用了。"
+    extend "\n要是让小孩子帮我跑腿，我会过意不去的。"
     show tomo 24 with dissolve
-    tomo "这算什么。彼此彼此嘛！"
+    tomo "这算什么。我们谁跟谁嘛！"
     play sound "fx/running.ogg"
     hide tomo with dissolve
-    "友笑着这样说着，从店里走了出去。"
-    "与此同时，店员也打完了电话从店里出来了。"
+    "友笑着这么说道，走出了店门。"
+    "与此同时，店员也打完了电话，从储藏间走了出来。"
     window hide
     window show
     clerk "久等了。"
-    extend "\n是72套吧？"
-    extend "\n周五就能送到，\n应该能赶上学园祭。太好了。"
+    extend "\n是72条吧？"
+    extend "\n供货商说周五就能送过来，\n应该能赶上学园祭。太好了呢。"
     me "是吗！！\n真的非常感谢！"
     extend "\n给您添麻烦了。"
-    clerk "没事没事。"
+    clerk "哪里哪里。"
     extend "\n那就麻烦你在这张纸上写下代表人的姓名和收货地址。"
-    extend "\n有笔吗？"
+    extend "\n带笔了吗？"
     stop music fadeout 1.0
-    "正当我准备取出笔记本，看向提包的瞬间，\n"
+    "我正打算从包里拿出笔来，视线无意间扫向前方，"
     show bg downtown with FadeWhite(0.5)
     show tomo 5 at top with dissolve
-    "从前面的窗户看到了友和一个像是大学生的陌生男子。"
-    extend "\n他们好像在争吵些什么。发生什么了吗？"
+    "\n透过窗户，我看到了友，以及两个像是大学生模样的陌生男子。"
+    extend "\n他们好像在争吵些什么。发生什么事了吗？"
     hide tomo with dissolve
     hide bg with dissolve
-    me "不好意思！我先出去一下！"
+    me "不好意思！我稍微离开一下！"
     window hide
     play sound "fx/running.ogg"
     show bg downtown at center with dissolve
     play music "hurry_up.ogg"
     window show
-    "我急忙来到外面，在他们视野的死角偷看。"
+    "我急忙跑到外面，躲在他们的视野死角里窥探着情况。"
     window hide
     show tomo 5 at top with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
     window show
-    tomo "还，还给我！我的钱包！！"
+    tomo "还、还给我！我的钱包！！"
     boy_a "我看看我看看……切，装的钱可真少啊。"
-    boy_b "毕竟是个小鬼。"
-    extend "\n嗯……？那个信封是什么？给我看看。"
-    "男子把友的口袋中的信封抢走。"
+    boy_b "毕竟是个初中小鬼。"
+    extend "\n嗯……？那个信封是什么？拿过来。"
+    "男子一把夺过了友口袋里的信封。"
     show tomo 18 with dissolve
-    tomo "啊，那是……！不，不要！！！"
+    tomo "啊，那是……！不、不行！！！"
     extend "\n那些钱，是大家很重要的服装费！！！"
     show tomo 30 with dissolve
     extend "住手！！还给我！！！"
     boy_b "服装费？那是什么？"
-    extend "\n初中生不能带着这么多钱到处走吧。"
-    extend "\n因此，这些就由我们来保管了。"
-    "友从口袋中取出手机，\n按了几下按钮，把屏幕展示给他们看。"
+    extend "\n初中生带着这种巨款到处乱晃可是不行的哟。"
+    extend "\n所以说，这笔钱就先由哥哥们替你保管啦。"
+    "友从口袋中掏出手机，\n按了几下，把屏幕怼到两人面前。"
     show tomo 32 with dissolve
-    tomo "还给我！！！再，不然我报警！！"
+    tomo "还给我！！！不、不然我就报警了！！"
     boy_b "啊？从刚才开始就叽叽歪歪的烦死了。"
-    extend "\n在事情变得麻烦之前让你闭嘴吧。"
+    extend "\n看来在事情变麻烦之前，先让你闭嘴吧。"
     "说着，男子举起拳头。"
     show tomo 30 with dissolve
     tomo "噫……！"
@@ -2983,86 +2983,86 @@ label day2_design_tomo:
     show cg c12 1 at center with FadeWhite(0.5)
     hide tomo with dissolve
     window show
-    "咚"
+    "（咚）"
     play sound "fx/dash.ogg"
     $ renpy.transition(Quake(0, 200, 0.1, 0.065), layer='master')
-    extend "\n我飞奔出去，别开男子的手臂，躲开了拳头。"
+    extend "\n我飞奔而出，别开男子的手臂，躲开了拳头。"
     boy_b "什！？你是谁啊！"
     boy_a "什么啊，是朋友啊？"
-    extend "\n你一个小孩来这儿这种小路干什么？"
+    extend "\n跑到这种偏僻巷子里来，你个小鬼想干嘛啊？"
     me "喂，把钱还给我。"
     show cg c12 2 with dissolve
     extend "\n不然的话，哥哥我就要惩罚你了哦！"
     play sound "fx/punch2.ogg"
-    "我扭住了他的手腕。"
+    "我顺势扭住了刚才别开的那只手的手腕。"
     man2 "呜！？"
-    "就在那个男人忍受不住，瘫倒下来的时候，\n我用一只手和体重把他的手腕扭住。"
+    "趁着男人痛得失去平衡向前栽倒之际，\n我用单手加上全身的体重，锁住了他的手腕。"
     play sound "fx/boing.ogg"
-    man2 "好疼疼疼疼疼疼！！！我投降！我投降！！"
-    man1 "你这混蛋……你这小孩不要得意忘形啊！"
+    man2 "好疼疼疼疼疼疼！！！投降！我投降！！"
+    man1 "你这混蛋……区区初中生小鬼少给我得意忘形啊！"
     play sound "fx/wind_slash.ogg"
-    "另一个男人向我挥来的拳头，被我空出来的手给挡开了。"
-    extend "\n我扭动他的手腕，然后用体重压制住他，那个男人就跪下了。"
-    me "真没想到，你们俩会一起从正面进攻啊。"
-    extend "\n两人夹击的话我不敢说，但你们这样进攻的话\n真让我省了不少心呢。"
-    me "很遗憾，从我初中开始就像野孩子一样东跑西跑了，\n所以只有体力是很有信心的。"
-    extend "\n而且，这7年来一直都在练习合气道。"
+    "另一个男人向我挥来的拳头，被我空出来的手给格挡开了。"
+    extend "\n我顺势扭过他的手腕施加体重，那男人便跪倒在地。"
+    me "还真是懂礼貌啊，两个人居然都这么干脆地从我正前方攻过来。"
+    extend "\n两人夹击的话我还不敢说，但你们这样进攻的话，\n真让我省了不少心呢。"
+    me "很遗憾，从我初中开始就像野孩子一样东跑西跑了，\n唯独对体力一直很有自信呢。"
+    extend "\n而且，这七年来一直都在练习合气道。"
     extend "\n区区小混混，我可不会输给你们啊。"
     window hide
     hide cg with dissolve
     show tomo 5 at top with dissolve
     window show
-    tomo "把我们的买衣服的钱还给我！！！！！"
-    "友撞向了那个失去平衡的男人。"
+    tomo "把我们的服装费还给我！！！！！"
+    "友朝着那两个失去平衡的男人，狠狠地给了一记猛撞。"
     hide tomo with dissolve
     $ renpy.transition(Quake(50, 100, 0.2, 0.065), layer='master')
     play sound "fx/dash.ogg"
     male1_and_2 "咕啊啊！！"
-    "男人们一边哀嚎着，一边飞了出去。"
-    extend "\n没过多久，骚动吸引了周围的人们。"
-    male1 "喂，喂，糟了。赶紧逃先撤吧。"
+    "男人们一边哀嚎着，一边被撞飞了出去。"
+    extend "\n没过多久，察觉到骚动的人们聚集了过来。"
+    male1 "喂、喂，糟了。赶紧逃吧。"
     male2 "切。一群臭小鬼！给我记住！！"
     play sound "fx/running.ogg"
     stop music fadeout 1.0
-    "留下这句话后，他们推开看热闹的人们消失了。"
+    "留下这句狠话后，他们推开看热闹的人们，消失不见了。"
     me "……真是的，所以我才讨厌城里啊。"
-    "我捡起那两个家伙弄掉的友的钱包和信封袋，如此喃喃自语。"
+    "我捡起那两个家伙弄掉的友的钱包和信封，如此喃喃自语。"
     me "友，没事吧？没受伤吧？"
     window hide
     play music "tomo_theme.ogg"
     show tomo 29 at top with dissolve
     window show
-    tomo "嗯，没事。"
+    tomo "嗯、嗯，没事。"
     show tomo 18 with dissolve
-    extend "\n……话说回来，[player_name]君真厉害啊！\n一个人就干掉他们了啊。"
-    me "不是啦，我没有把他们干掉。"
-    extend "\n只是引导他们攻击后，按住他们的手，让他们动弹不得而已。"
+    extend "\n……话说回来，[player_name]君真厉害啊！\n竟然一个人就干掉他们了啊。"
+    me "不是啦，也不算是干掉他们吧。"
+    extend "\n只是引导他们攻击后，顺势按住他们，让他们动弹不得而已。"
     show tomo 12 with dissolve
-    tomo "你的战斗方式很奇怪，但很酷哦！"
+    tomo "那种不带暴力攻击性的战斗方式，冷静又帅气哦！"
     show tomo 33 with dissolve
     extend "\n谢谢你，[player_name]君。"
-    extend "\n[player_name]君不在的话，他们肯定就得逞了。"
+    extend "\n要是[player_name]君不在的话，他们肯定就得逞了。"
     me "不客气。"
     extend "\n不过友也勇敢地反击到了最后啊。"
     extend "\n并且，最后给对方致命一击的也是友哦。"
     extend "\n虽然还只是个孩子，却相当有胆量啊。"
     show tomo 31 with dissolve
-    tomo "这，这样吗……？"
-    extend "\n总之为了保住服装费我们拼尽了全力……"
+    tomo "这、这样吗……？"
+    extend "\n总之我当时满脑子只想着一定要守住服装费，就一股脑地冲上去了……。"
     me "了不起哦，真棒。"
     extend "\n真不愧是我的友君。"
-    "我这么说完，摸了摸友的头。"
+    "我这么说着，摸了摸友的头。"
     show tomo 33 with dissolve
-    tomo "嗯，嗯。"
+    tomo "嗯、嗯。"
     show tomo 34 with dissolve
     extend "\n……嘿嘿。"
     "友低着头变得满脸通红。"
     me "你在害羞个什么劲啊~。"
-    extend "\n啊，对了，买果汁给你作为奖励。"
+    extend "\n啊，对了，买果汁给你作为奖励吧。"
     show tomo 29 with dissolve
     tomo "诶，不用了！不用的！"
-    me "别客气别客气。这种时候就别客气了！"
-    "我这么说着，半强硬地问出了友想要什么，\n买来果汁，回到店里。"
+    me "拿着拿着。这种时候就别客气啦！"
+    "我这么说着，半强硬地问出了友想喝什么，\n买了果汁，然后回到店里。"
     stop music fadeout 0.5
     window hide
     hide tomo with dissolve
@@ -3070,20 +3070,20 @@ label day2_design_tomo:
     show bg clothing_store at center with Dissolve(1.0)
     play music "umesaki.ogg"
     window show
-    "和店员签完合同后，我开始喝起果汁，这时慎太郎也回来了。"
+    "和店员办完手续正在喝果汁的时候，慎太郎也回来了。"
     window hide
     play sound "fx/running.ogg"
     show sintarou 17 at topright with dissolve
     window show
-    sintarou "久等了！！"
-    extend "\n哎呀，真是不好意思。\n偶不小心把包弄丢了。"
+    sintarou "久等了——！！"
+    extend "\n哎呀，真是不好意思。\n我居然也会不小心~。"
     me "包没事就好。"
-    extend "\n里面的东西也还好吧？"
+    extend "\n里面的东西也都在吧？"
     show sintarou 13 with dissolve
     sintarou "嗯，没事的！"
-    extend "\n话说回来，课本都放在学校了，所以……"
+    extend "\n话说咱的书都留在学校了，所以包里没什么。"
     show tomo 25 at topleft with dissolve
-    tomo "反过来，要是有陌生人打开慎酱的包，\n也会被吓到拿不出手吧。"
+    tomo "反过来说，要是有陌生人看到了慎酱包里的东西，\n估计会吓得都不敢下手偷吧。"
     me "里面到底装了什么啊……。"
     window hide
     hide sintarou with Dissolve(0.9)
@@ -3092,24 +3092,24 @@ label day2_design_tomo:
     stop music fadeout 0.5
     show bg umesaki_station_front_night at center with Dissolve(1.0)
     window show
-    "就这样，总算结束了服装组的活动，我们踏上了回家之路。"
+    "就这样，总算结束了服装组的我们，踏上了回家的路。"
     extend "\n夕阳完全落下，街道上的灯光，让这个城市变得更加繁华。"
-    "从梅咲站，和周围的上班族一起挤上了电车。"
+    "我们从梅咲站，和周围的上班族一起挤上了电车。"
     window hide
     play sound "train.ogg"
     show bg train_interior_night with Dissolve(1.5)
     window show
     me "呜哇……这个时间的电车果然很拥挤啊……。"
-    "下班回家的各位，今天的工作辛苦了！"
-    extend "\n要是我没有变回孩子的话，\n恐怕就会成为这些筋疲力尽的上班族的一员了吧。"
+    "下班回家的各位，今天的工作辛苦了！……那啥的。"
+    extend "\n要是我没有变回孩子的话，\n恐怕也是这群筋疲力尽的上班族的一员了吧。"
     "车门关上，电车开始行进。"
-    extend "\n但是，刚开始加速，电车就紧急停车了。"
+    extend "\n但是，刚开始加速的瞬间，电车突然紧急停车了。"
     me "哎呀。"
-    "没抓牢扶手的我，因为电车的颠簸向前倒下。"
-    extend "\n不由得，把手伸向了前面的物体。"
+    "没抓牢扶手的我，因为电车的惯性向前倒去。"
+    extend "\n下意识地，我把手伸向了前面的物体。"
     stop sound fadeout 0.5
     play sound "fx/cute.ogg"
-    "啪嗒"
+    "（捏~）"
     window hide
     play music "cute_silly.ogg"
     show tomo 18 at top with dissolve
@@ -3117,26 +3117,26 @@ label day2_design_tomo:
     window show
     tomo "呜呀！？"
     show tomo 20 with dissolve
-    extend "\n喂喂[player_name]君！"
-    extend "\n你，你在摸哪里啊！"
-    me "呜哇！抱，抱歉！！"
-    extend "\n我不是故意的……。"
+    extend "\n喂、喂，[player_name]君！"
+    extend "\n你、你在摸哪里啊！"
+    me "呜哇！抱、抱歉！！"
+    extend "\n我不是那个意思……。"
     hide tomo with dissolve
     show tomo 35 at topleft
     show sintarou 7 at topright with dissolve
-    sintarou "哦~。\n难不成是痴汉play？！"
+    sintarou "哦~\n难不成是痴汉Play？！"
     show sintarou 9 with dissolve
     extend "\n[player_name]酱也相当大胆啊~。"
     me "所以说不是啦！"
-    extend "\n只是碰巧啦！碰巧！！"
+    extend "\n只是碰巧啦！碰巧（Tamatama）！！"
     show sintarou 12 with dissolve
-    sintarou "只是碰到了蛋蛋？"
+    sintarou "只是碰巧碰到了蛋蛋（Tama）吗？"
     play sound "fx/triangle.ogg"
-    "无聊……。"
+    "真无聊……。"
     hide tomo with dissolve
     hide sintarou with dissolve
-    "虽然确实刚才那是偶然……但是我内心已经兴奋起来了。"
-    extend "\n看着刚刚碰到的手心，凑近鼻子闻了闻味道。"
+    "虽然刚才那确实是偶然……但我内心已经兴奋起来了。"
+    extend "\n我盯着刚才碰到了那里的手掌，凑近鼻子闻了闻味道。"
     play sound "fx/sparkle.ogg"
     show cg adult at center with dissolve
     me "（好香啊……。）"
@@ -3148,27 +3148,27 @@ label day2_design_tomo:
     window show
     tomo "……。"
     show sintarou 14 at topright with dissolve
-    sintarou "怎么了？小友，你都弯着腰了。"
+    sintarou "怎么了？小友，你怎么把腰弯成那样啊。"
     extend "\n是不是闹肚子了？"
     show tomo 20 with dissolve
-    tomo "没，没什么！！"
+    tomo "没、没什么！！"
     hide tomo with dissolve
     hide sintarou with dissolve
     conductor "诶~非常抱歉，让您久等了。"
-    extend "\n刚才有下车的乘客的行李与车体有接触，\n所以紧急停车了。"
+    extend "\n刚才有下车的乘客的行李与车体发生了接触，\n导致列车紧急停车。"
     extend "\n现在即将重新发车。"
     window hide
     stop music fadeout 0.5
     hide bg with dissolve
     window show
-    conductor "下一站~宝咲，宝咲站到了。下一站到终点御咲站。"
+    conductor "下一站~宝咲，宝咲站到了。下一站是终点御咲站。"
     window hide
     show bg train_interior_night at center with dissolve
     show tomo 23 at topleft with dissolve
     window show
-    tomo "那我就在这里下车了。"
+    tomo "那个，我就在这里下车了。"
     show tomo 19 with dissolve
-    extend "\n[player_name]君，小慎，再见了。"
+    extend "\n[player_name]君，慎酱，再见了。"
     me "哦。"
     show sintarou 8 at topright with dissolve
     sintarou "小友，再见~！"
@@ -3180,18 +3180,18 @@ label day2_design_tomo:
     hide bg with dissolve
     play sound "train.ogg"
     window show
-    "电车又再次朝终点开去。"
+    "电车再次朝终点开去。"
     window hide
     show bg train_interior_night at center with dissolve
     show sintarou 27 at top with dissolve
     window show
-    sintarou "小友的样子，总感觉怪怪的。"
-    me "嗯……怎么了吗。是累了吗。"
-    "确实，比平时要安静不少的友让我有些在意，"
-    extend "\n但我想他应该是走了一天，又被混混欺负，有些累了。"
+    sintarou "小友的样子，总感觉怪怪的呢。"
+    me "嗯……是怎么了呢。大概是累了吧。"
+    "确实，友比平时要安静许多，这虽让我有些在意，"
+    extend "\n但我想他应该是走了一整天，又被不良少年缠上，所以累了吧。"
     stop sound fadeout 2.0
     show cg misaki_station_night at center with Dissolve(0.7)
-    extend "\n在御咲站和慎太郎分别后，我就这么回家了。"
+    extend "\n在御咲站和慎太郎分别后，我就直接回家了。"
     window hide
     hide bg with Dissolve(0.8)
     hide cg with Dissolve(0.8)
@@ -3203,30 +3203,30 @@ label day2_design_tomo:
     play sound "fx/door_open.ogg"
     me "我回来了~。"
     mother "欢迎回来~。"
-    extend "\n今天回来的有点晚啊。"
+    extend "\n今天回来得有点晚啊。"
     me "嗯。"
-    extend "\n然后去梅咲买学园祭要用的东西了。"
-    mother "哦，是这样啊。"
-    extend "\n不过那里晚上很危险的，不要玩到太晚哦。"
-    me "我知道。毕竟我已经不是第一次去了。"
+    extend "\n我去了趟梅咲，去采购学园祭要用的东西了。"
+    mother "哎呀，是这样啊~。"
+    extend "\n不过，那一带晚上很危险的，可不能在那里待到太晚哦？"
+    me "我知道啦。又不是第一次去了。"
     extend "\n呼~今天也好开心啊。"
     play sound "fx/beer.ogg"
-    "我慢慢地从冰箱里取出罐装啤酒，打开了盖子。"
-    "噗。"
-    mother "喂，等一下！！[player_name]！？\n为什么要喝啤酒！！"
-    extend "\n你，还是未成年人吧！。"
+    "我慢条斯理地从冰箱里取出罐装啤酒，打开了拉环。"
+    "（噗——嘶）"
+    mother "等、等一下！！[player_name]！？\n为什么要喝啤酒啊！！"
+    extend "\n你，还是未成年人吧！"
     play sound "fx/boing.ogg"
     me "啊！！"
-    "糟了！！不小心就养成平时的习惯了……。"
-    me "啊，啊哈哈。\n抱歉抱歉。"
-    extend "我搞错了，以为这是果汁。\n啊哈哈哈。"
-    "我干笑着掩饰过去了。"
+    "糟了！！下意识地就按平时的习惯……。"
+    me "啊、啊哈哈。\n抱歉抱歉。"
+    extend "我搞错了，以为这是果汁啊。\n啊哈哈哈。"
+    "我干笑着掩饰了过去。"
     mother "真是的……"
-    extend "\n你将来也想成为爸爸那样的\n一回家就开瓶大口喝啤酒的酒鬼吗？"
-    extend "\n我可不要啊~"
-    me "会，会那样吗~\n啊哈哈哈……。"
-    "总，总算蒙混过去了。好险好险。"
-    "在学校里说话也要注意点才好……。"
+    extend "\n真担心你将来也像爸爸一样，\n变成那种一回家就非得喝啤酒的酒鬼呢。"
+    extend "\n我可不要啊~↑"
+    me "会、会那样吗~\n啊哈哈哈……。"
+    "总、总算蒙混过去了。好险好险。"
+    "在学校里，也得注意别说漏嘴了啊……。"
     return
 
 label day2_design_sintarou:
@@ -3771,10 +3771,10 @@ label day2_design_sintarou:
 
 label day2_end:
     window show
-    "这之后，和回家的爸爸一起，\n又像昨天一样，全家聚在一起吃晚饭。"
+    "在那之后，加上回家的父亲，\n我们又像昨天一样，全家聚在一起吃晚饭。"
     "真是幸福呢。"
     extend "\n以后也想一直在这个世界生活下去。"
-    "我的想法，比昨天更加坚定。"
+    "这种想法，比昨天更加坚定了。"
     extend "\n我这么觉得。"
     window hide
     hide bg with Dissolve(1.0)
@@ -3782,19 +3782,19 @@ label day2_end:
     show bg protagonist_room_night at center with Dissolve(1.0)
     window show
     "回到自己的房间后，我躺在床上。"
-    "这真是个幸福的世界。"
+    "这真是个幸福的世界啊。"
     extend "\n我想让大家幸福，想让大家都露出更多的笑容。"
     extend "\n为此，"
-    me "我会尽全力面对，一定要让御咲祭成功！"
+    me "我会尽全力面对挑战，一定要让御咲祭取得成功！"
     "在那之前，请让我做个好梦吧，神啊。"
-    extend "\n说起来啊……"
-    me "呼啊~。"
+    extend "\n话说回来……"
+    me "呼啊~……。"
     stop music fadeout 2.0
     "小孩子也太容易睡着了吧。"
-    extend "\n本来还想再醒一会儿，\n看会儿电视，玩会儿电脑，打会儿手枪！！"
-    extend "\n享受一下一个人的时间。"
-    "……就当是为了梦里吧。"
-    "闭上眼睛，慢慢沉入睡眠……。"
+    extend "\n如果是平时，我肯定还得再醒一会儿，\n看会儿电视，玩会儿电脑，打会儿手枪！！"
+    extend "\n本来还想再享受一下独处时光。"
+    "……既然是在梦里，就忍耐一下吧。"
+    "闭上眼睛，慢慢沉入梦乡……。"
     hide bg with DefocusBlack(5.0)
     "Zzz"
     window hide
