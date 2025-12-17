@@ -2155,7 +2155,7 @@ label day2_layout:
     extend "\n为了缓和气氛，BGM最好选择节奏慢一些的。"
     show tubasa 6 with dissolve
     tubasa "这样啊……"
-    extend "\n总之今天的工作平安无事地结束了，太好了……。"
+    extend "\n总之今天的工作平安结束了，太好了……。"
     me "哎呀……话说回来，\n刚才穿的女仆装真的很适合你们！"
     hide sinobu with dissolve
     hide tubasa with dissolve
@@ -3804,45 +3804,45 @@ label day2_layout_tubasa:
     show bg meffen_cafe_evening at center
     stop music fadeout 0.5
     window show
-    me "尤其是翼！"
-    extend "\n虽说看起来绝对不是女孩子，\n但身为男孩子被强行换上女装的感觉简直绝了！！"
-    extend "\n这绝对是受宅男欢迎的！"
+    me "尤其是翼君！"
+    extend "\n虽然并不是那种『像女孩子』的感觉，\n但那种男孩子被迫穿上女装的感觉简直太让人欲罢不能了！！"
+    extend "\n绝对会戳中那些特殊爱好人群的XP的！"
     window hide
     play music "tubasa_theme.ogg"
     show tubasa 8 at topright with dissolve
     window show
-    tubasa "这，这是什么评价……！"
+    tubasa "这、这是什么评价……！"
     show sinobu 10 at topleft with dissolve
     sinobu "完全搞不懂是在夸人还是在损人呢。"
-    "这时，我小声地对翼说。"
-    me "要是看到那副样子，友一定会很开心的。"
+    "说着，我凑到翼耳边悄悄说道。"
+    me "要是看到你那副模样，友君肯定会很开心的哦。"
     hide tubasa with dissolve
     hide sinobu with dissolve
     show tubasa 21 at top with dissolve
     tubasa "啊……"
-    me "之后我把照片发给你哦。"
+    me "我之后把照片发给你哦。"
     show tubasa 3 with dissolve
-    tubasa "……不，不过，那种……太难为情了啦…。"
+    tubasa "……不、不过，那种事……太难为情了啦…。"
     "翼下意识红了脸。"
     window hide
     hide tubasa with dissolve
     show sinobu 2 at topleft with dissolve
     window show
-    sinobu "……没事啦。"
-    extend "\n友看到那种照片不会有什么的。"
+    sinobu "……没事的。"
+    extend "\n友看到那种照片不会觉得怎么样的。"
     show tubasa 8 at topright with dissolve
     $ renpy.transition(Quake(0, 40, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
-    tubasa "忍，忍君！！？你听到了吗！？"
+    tubasa "忍、忍君！！？你听到了吗！？"
     show sinobu 11 with dissolve
     sinobu "嘿嘿。"
-    me "你看，青梅都这么说了，！！"
-    extend "\n呐！还是发给他看看吧。"
+    me "你看，青梅都这么说了！！"
+    extend "\n呐！试着发给他看看嘛。"
     show tubasa 7 with dissolve
-    tubasa "我，我才不要。"
+    tubasa "唔唔唔唔唔……。"
     show sinobu 12 with dissolve
-    sinobu "他反而会高兴的。"
-    extend "\n友好像也挺在意翼的。"
+    sinobu "倒不如说他会很高兴的。"
+    extend "\n友好像也挺在意翼君的。"
     show tubasa 21 with dissolve
     tubasa "诶！？"
     me "是这样吗？"
@@ -3851,24 +3851,24 @@ label day2_layout_tubasa:
     extend "\n他经常提起翼呢。\n说翼很可爱，很治愈。"
     show tubasa 12 with dissolve
     play sound "fx/sparkle.ogg"
-    tubasa "友，友君……。"
+    tubasa "友、友君……。"
     "翼听到了忍的话，脸变得更红了。"
     show tubasa 23 with dissolve
-    tubasa "……我，我知道啦。"
+    tubasa "……我、我知道啦。"
     extend "\n之后……我会发给他的……！"
     window hide
     hide tubasa with dissolve
     hide sinobu with dissolve
     window show
     clerk2 "看起来很高兴呢！"
-    extend "\n好了，三份蛋糕套餐，拿好了哦~。"
-    clerk3 "真是让人忍不住啊~！\n少年们欢闹的样子……身体和心灵都得到了治愈~！！"
+    extend "\n来，三份蛋糕套餐，让大家久等啦~。"
+    clerk3 "真是让人欲罢不能啊~！\n少年们欢闹的样子……身体和心灵都得到了治愈~！！"
     extend "\n呐，店长！"
     play sound "fx/cute2.ogg"
-    manager "啊。\n一定要好好地记在心里。"
+    manager "啊。\n要好好地烙印在眼底哦。"
     extend "\n这种机会可不多见啊……！！"
-    "旁人看来，我们俩应该是在谈论恋爱话题吧\n就像是女高中生一样。"
-    extend "\n不过，一旦开始恋爱，无论男人还是女人都会兴奋得\n难以自持，情不自禁地欢呼雀跃起来。"
+    "在旁人看来，我们应该是在谈论恋爱话题吧，\n就像是女高中生一样。"
+    extend "\n不过，一旦陷入恋爱，就算是男人也会\n小鹿乱撞、不知不觉变得飘飘然欢呼雀跃啊。"
     "我们一边吃着蛋糕，翼一边发送了彩信。"
     window hide
     hide bg with Dissolve(0.7)
@@ -3880,22 +3880,22 @@ label day2_layout_tubasa:
     show bg meffen_cafe_evening with Dissolve(0.8)
     show tubasa 1 at topright with dissolve
     window show
-    tubasa "……一直没有……回信过来……。"
+    tubasa "……怎么……还没回信呢……。"
     show sinobu 9 at topleft with dissolve
     sinobu "服装组的工作还没做完吗？"
     me "肯定是这样了。"
-    extend "\n耐心等待吧，翼同学。"
+    extend "\n耐心等等吧，翼君。"
     show tubasa 22 with dissolve
-    tubasa "是，是啊。"
-    me "话说回来，这蛋糕真好吃啊。"
-    extend "\n……嗯？忍。\n你的脸蛋上粘了奶油哦。"
-    extend "\n让我来帮你擦掉吧。"
+    tubasa "是、是啊。"
+    me "话说回来，这个蛋糕真好吃啊。"
+    extend "\n……嗯？忍。\n你的脸蛋上沾到奶油了哦。"
+    extend "\n来来，大哥哥帮你弄掉吧。"
     show sinobu 6 with dissolve
-    sinobu "别把我当成小孩子啊。"
+    sinobu "别把我当小孩子啊。"
     play sound "fx/dash.ogg"
     $ renpy.transition(Quake(0, 60, 0.13, 0.06), layer='master')
-    "啪嚓"
-    "愉快地度过了一段时光后，我们结束了蛋糕的品尝，\n向照顾我们的店长小姐和女仆们表达了感谢，然后离开了店里。"
+    "（啪！）"
+    "度过了愉快的时光，吃完蛋糕后，\n我们向多受照顾的店长和女仆小姐们道了谢，走出了店门。"
     window hide
     stop music fadeout 0.5
     hide tubasa with dissolve
@@ -3905,9 +3905,9 @@ label day2_layout_tubasa:
     show bg downtown_evening at center with Radial(0.5)
     show sinobu 26 at topleft with dissolve
     window show
-    sinobu "今天的活儿也做完了，就在这里解散吧。"
+    sinobu "今天的工作这就结束了，就在这里解散吧。"
     extend "\n辛苦了，明天见。"
-    me "哦。"
+    me "噢。"
     show tubasa 5 at topright with dissolve
     tubasa "好的，辛苦了。"
     extend "\n明天见……。"
@@ -3916,7 +3916,7 @@ label day2_layout_tubasa:
     hide sinobu with dissolve
     window show
     "就这样，今天的布置组的工作，平安地完成了。"
-    extend "\n那我也回家吧。"
+    extend "\n好了，那我也该回家了吧~。"
     window hide
     hide tubasa with dissolve
     show tubasa 30 at top with dissolve
@@ -3925,9 +3925,9 @@ label day2_layout_tubasa:
     extend "\n你还有时间吗……？"
     me "诶？嗯，有吧。"
     "翼看起来非常不安，就像是在寻求帮助一般。"
-    me "……去对面的公园吧，就我们俩聊聊。"
+    me "……那我们就去对面的公园，两个人稍微聊聊吧。"
     show tubasa 22 with dissolve
-    tubasa "这，这样就帮大忙了。"
+    tubasa "这、这样就帮大忙了。"
     stop music fadeout 0.5
     window hide
     hide tubasa with Dissolve(0.8)
@@ -3935,40 +3935,40 @@ label day2_layout_tubasa:
     show bg park_bench with Dissolve(2.0)
     pause 0.3
     window show
-    me "所以，怎么了？"
+    me "所以，是出什么事了吗？"
     show tubasa 15 at top with dissolve
     tubasa "我还没收到……友君发来的回信。"
-    extend "\n从那之后已经过去不少时间了。\n服装班的工作一定也已经结束了。"
+    extend "\n从那之后已经过去不少时间了。\n服装组的工作一定也已经结束了。"
     extend "\n可……。"
-    me "他只是偶然漏掉了你的信息吧。"
-    extend "\n过一会就会察觉到并回信的。"
+    me "他只是碰巧没看彩信吧。"
+    extend "\n过一会注意到了就会回的啦。"
     show tubasa 1 with dissolve
-    tubasa "友君回信的速度一向很快。"
-    extend "\n所以我觉得他很少会漏掉我的信息。"
-    me "嗯~那难道说，他把手机忘在了家里吗！"
-    extend "\n如果真是这样，那等他回家后肯定会……。"
+    tubasa "友君回信的速度一向很快的。"
+    extend "\n所以我觉得，他几乎不可能漏看信息的。"
+    me "嗯~那会不会是，把手机忘在家里了之类的！"
+    extend "\n如果是那样的话，等他回了家，肯定会……。"
     show tubasa 20 with dissolve
-    tubasa "今天早上，我看见友君在摆弄手机。"
+    tubasa "今天早上，我还看到友君在玩手机。"
     extend "\n所以应该不会是忘在了家里……。"
-    me "唔，唔嗯……。"
+    me "唔、唔嗯……。"
     show tubasa 21 with dissolve
     tubasa "……怎么办啊……我……。"
     extend "\n给他看了那样的照片……如果，被他讨厌了的话……。"
-    "翼的眼睛里，浮现出泪水。"
-    me "没，没事的！"
-    extend "\n你看，忍不也说友不会讨厌的吗。"
+    "翼的眼睛里，噙满了泪水。"
+    me "没、没事的！"
+    extend "\n你看，忍君不也说友不会讨厌的吗。"
     show tubasa 27 with dissolve
     tubasa "但是……但是……。"
     me "再等等吧。"
     extend "\n没事的！"
-    extend "\n所以，好了……别哭了。"
-    "我看到翼哭泣的样子，就再也忍不下去了，想要抱住他。"
-    extend "\n但是，翼拒绝了我，粗暴地擦干眼泪，看向我这边。"
+    extend "\n所以，好啦……别哭了。"
+    "看着这样的翼，我实在是于心不忍，正想要伸手抱住他。"
+    extend "\n然而，翼却拒绝了我的拥抱，他胡乱地擦干流下的泪水，看向了我。"
     play sound "fx/cute.ogg"
     $ renpy.transition(Quake(60, 0, 0.1, 0.15), layer='master')
     show tubasa 18 with dissolve
-    tubasa "我，我才没有哭呢！"
-    extend "\n只，只是夕阳有点耀眼……那个……。"
+    tubasa "我、我才没有哭呢！"
+    extend "\n只、只是夕阳有点耀眼……那个……。"
     stop music fadeout 1.5
     show tubasa 27 with dissolve
     extend "\n呜呜……呜呜……。"
@@ -3977,8 +3977,8 @@ label day2_layout_tubasa:
     show cg evening at center with Dissolve(0.7)
     window show
     "……他真的很喜欢友君啊……。"
-    extend "\n不然的话，不会哭得这么伤心的。"
-    extend "\n但是，他还是隐瞒了这件事，果然他也是个男孩子。"
+    extend "\n不然的话，是不会哭得这么伤心的。"
+    extend "\n不过，看他拼命想要掩饰的样子，果然这孩子也是个男子汉啊。"
     me "没事没事。"
     extend "\n你很喜欢友君吧？"
     extend "\n那就得相信他才行，对吧？"
@@ -3989,26 +3989,26 @@ label day2_layout_tubasa:
     window show
     tubasa "呜呜，呜呜……。"
     me "好了，别哭哭啼啼的！"
-    extend "\n相信友君吧！"
-    extend "\n一味地往坏处想的话，事情可不会因此就好转哦。"
+    extend "\n我们要相信友君！"
+    extend "\n总是一味地往坏处想的话，事情可是不会好转的哦。"
     show tubasa 20 with dissolve
-    tubasa "……嗯……是……这样啊。"
+    tubasa "……嗯……说得……是呢。"
     extend "\n我也得相信……得相信友君才行！"
     show tubasa 23 with dissolve
-    extend "\n那，那个，我去厕所洗把脸。"
-    extend "\n对不起，你等我一下。"
+    extend "\n那、那个，我去厕所洗把脸。"
+    extend "\n抱歉，请稍微等我一下……。"
     window hide
     play sound "fx/running.ogg"
     hide tubasa with dissolve
     window show
     "翼边说边跑向厕所。"
-    "真是个好孩子啊。"
+    "真是……让人心疼的好孩子啊。"
     show cg adult at center with dissolve
     extend "\n真想和他谈恋爱，好好疼爱他……。"
     stop music fadeout 0.3
     play sound "fx/boing.ogg"
     $ renpy.transition(Quake(50, 50, 0.07, 0.06), layer='master')
-    "……我脑子有病吗。"
+    "……我是白痴吗。"
     extend "\n我到底在想什么啊！！"
     extend "\n只是看到一个哭泣的男孩，就兴奋起来了……。"
     window hide
@@ -4024,43 +4024,43 @@ label day2_layout_tubasa:
     hide tubasa with dissolve
     hide cg with dissolve
     window show
-    "我一边自言自语，一边思考着这些，翼回来了。"
+    "我一边自言自语，一边思考着这些的时候，翼回来了。"
     window hide
     show cg c42 1 at center with Radial(0.5)
     window show
-    tubasa "[player_name]君！友给我回信息了！！"
-    extend "\n[player_name]君说的没错，友只是刚好没看到而已。"
-    tubasa "友说我穿这套衣服很适合，很可爱……！"
+    tubasa "[player_name]君！友君给我回信息了！！"
+    extend "\n[player_name]君说的没错，他只是刚好没看到而已。"
+    tubasa "他说我穿这套衣服很适合，很可爱……！"
     extend "\n太好了……真是太好了……。"
-    me "……是，是吗~太好了！"
-    extend "\n你看，凡事不要那么悲观嘛。"
+    me "……是、是吗~那真是太好了！"
+    extend "\n你看，凡事不能总是想得那么悲观嘛。"
     show cg c42 2 with dissolve
-    tubasa "嗯……真的。"
-    extend "\n[player_name]君说得没错。"
-    tubasa "……总感觉，[player_name]君一直在给我加油打气……。"
-    extend "\n要是我一个人的话，说不定早就被不安击溃了。"
+    tubasa "嗯……真的是呢。"
+    extend "\n[player_name]君说得对。"
+    tubasa "……总感觉，我一直都在受[player_name]君的照顾啊……。"
+    extend "\n如果只有我一个人的话，说不定早就被不安击溃了。"
     extend "\n真的非常感谢。\n这份恩情我一定会还的。"
-    me "不用谢啦。\n我只是喜欢才做这种事的！"
-    extend "\n比起这个，以后也继续加油吧。"
+    me "不用谢啦。\n说到底，这也只是因为我自己乐意才这么做的！"
+    extend "\n比起这个，今后也要加油哦。"
     extend "\n翼的恋爱，道阻且长呢~！"
     show cg c42 1 with dissolve
-    tubasa "好的！"
-    extend "\n但是，[player_name]君在的话，就一定没问题的。"
-    "看到翼的笑容，我感觉一阵内疚。"
-    "对啊……我这种人是不能干涉初中生恋爱的。"
-    extend "\n我最终只能作为局外人去守望他们。"
+    tubasa "是！"
+    extend "\n不过，因为有[player_name]君陪在我身边，肯定没问题的。"
+    "看到翼的笑容，我却感到了一阵罪恶感。"
+    "对啊……我不应该介入初中生们的恋爱之中。"
+    extend "\n我应该彻底作为一个局外人去守望他们才对。"
     window hide
     hide cg with Dissolve(0.8)
     window show
     "……。"
-    extend "\n但是，"
+    extend "\n但是——"
     window hide
     show tubasa 36 at top with dissolve
     window show
-    tubasa "那么，回去吧，[player_name]君。"
+    tubasa "那么，我们回去吧，[player_name]君。"
     show cg evening at center with dissolve
-    "看到这样的笑容，让我觉得自己的想法动摇了。"
-    extend "\n这种感觉"
+    "看到这样的笑容，那份决心，就不由得动摇了。"
+    extend "\n我有这种预感。"
     stop music fadeout 1.0
     window hide
     hide tubasa with Dissolve(1.0)
@@ -4072,30 +4072,30 @@ label day2_layout_tubasa:
     window show
     me "我回来了~。"
     mother "欢迎回来~。"
-    extend "\n今天回来的有点晚啊。"
+    extend "\n今天回来得有点晚啊。"
     me "嗯。"
-    extend "\n御咲站往学校反方向走了一段，在咖啡店参观了一下。"
-    mother "哦，是这样啊。"
-    extend "\n不过那里晚上很危险的，不要玩到太晚哦。"
-    me "我知道。毕竟我已经不是第一次去了。"
+    extend "\n从御咲站往学校反方向走，去咖啡店看了看。"
+    mother "哎呀，是这样啊~。"
+    extend "\n不过，那一带晚上很危险的，可不能在那里待到太晚哦？"
+    me "我知道啦。又不是第一次去了。"
     extend "\n呼~今天也好开心啊。"
     play sound "fx/beer.ogg"
-    "我慢慢地从冰箱里取出罐装啤酒，打开了盖子。"
-    "噗。"
-    mother "喂，等一下！！[player_name]！？\n为什么要喝啤酒！！"
-    extend "\n你，还是未成年人吧！。"
+    "我慢条斯理地从冰箱里取出罐装啤酒，打开了拉环。"
+    "（噗——嘶）"
+    mother "喂，等一下！！[player_name]！？\n为什么要喝啤酒啊！！"
+    extend "\n你，还是未成年人吧！"
     play sound "fx/boing.ogg"
     me "啊！！"
-    "糟了！！不小心就养成平时的习惯了……。"
-    me "啊，啊哈哈。\n抱歉抱歉。"
-    extend "我搞错了，以为这是果汁。\n啊哈哈哈。"
-    "我干笑着掩饰过去了。"
+    "糟了！！下意识地就按平时的习惯……。"
+    me "啊、啊哈哈。\n抱歉抱歉。"
+    extend "我搞错了，以为这是果汁啊。\n啊哈哈哈。"
+    "我干笑着掩饰了过去。"
     mother "真是的……"
-    extend "\n你将来也想成为爸爸那样的\n一回家就开瓶大口喝啤酒的酒鬼吗？"
-    extend "\n我可不要啊~"
-    me "会，会那样吗~\n啊哈哈哈……。"
-    "总，总算蒙混过去了。好险好险。"
-    "在学校里说话也要注意点才好……。"
+    extend "\n真担心你将来也像爸爸一样，\n变成那种一回家就非得喝啤酒的酒鬼呢。"
+    extend "\n我可不要啊~↑"
+    me "会、会那样吗~\n啊哈哈哈……。"
+    "总、总算蒙混过去了。好险好险。"
+    "在学校里，也得注意别说漏嘴了啊……。"
     return
 
 label day2_layout_sinobu:
