@@ -4108,8 +4108,8 @@ label day2_layout_sinobu:
     show sinobu 4 at top with dissolve
     window show
     sinobu "……。"
-    me "我之前就有这样的感觉~。"
-    extend "\n看起来也不像男孩子，女装一定很适合你！"
+    me "其实我从以前就这么觉得了~。"
+    extend "\n毕竟你也并不是不像女孩子嘛，我就猜那种打扮肯定很适合你！"
     show sinobu 27 with dissolve
     sinobu "……。"
     me "那个……忍君？"
@@ -4118,11 +4118,11 @@ label day2_layout_sinobu:
     show sinobu 30 with dissolve
     stop music fadeout 0.5
     play sound "fx/wind_slash.ogg"
-    extend "\n……就算你这么说，我也不会高兴的。"
-    "说完，忍背过了身。"
+    extend "\n……就算你这么说，我也一点都高兴不起来。"
+    "说完，忍背过了身去。"
     hide sinobu with dissolve
     show tubasa 17 at topright with dissolve
-    tubasa "忍，忍君？"
+    tubasa "忍、忍君？"
     show sinobu 20 at topleft with dissolve
     sinobu "……总觉得今天好累啊。"
     extend "\n不好意思，我先回去了。"
@@ -4131,10 +4131,10 @@ label day2_layout_sinobu:
     extend "\n那个……忍君！！"
     play sound "fx/running.ogg"
     hide sinobu with dissolve
-    "好像没听到我的声音，忍离开了咖啡店。"
-    "难道惹他生气了？"
-    extend "\n不会吧……这种时候，应该脸红害羞才对吧……。"
-    "面对预料外的事态，我开始心急如焚。"
+    "忍仿佛完全没听到我的声音一般，就这样走出了咖啡店。"
+    "难道说，惹他生气了？"
+    extend "\n不会吧……这种时候，剧情不应该是『红着脸害羞』才对吗……。"
+    "面对这始料未及的事态，我开始感到了焦躁。"
     "刚刚我说的话有那么糟糕吗？"
     extend "\n快想想快想想……。"
     hide tubasa with dissolve
@@ -4144,8 +4144,8 @@ label day2_layout_sinobu:
     show bg gym_backside at center
     show tomo 31 at top with FadeWhite(1.0)
     window show
-    tomo "你看\n忍受欢迎也是可以理解的吧~。"
-    extend "\n他乍一看就像个女孩子一样……"
+    tomo "你看\n忍这么受欢迎我也能理解~。"
+    extend "\n乍一看，长得就像个女孩子……"
     show tomo 7 with dissolve
     extend "啊，不过，\n他本人非常在意这件事，还是不说为妙。"
     window hide
@@ -4162,17 +4162,17 @@ label day2_layout_sinobu:
     window hide
     show tubasa 23 at top with dissolve
     window show
-    tubasa "忍君，到底怎么了呢……。"
+    tubasa "忍君，到底是发生什么事了呢……。"
     me "怎么办……我……并不是那个意思……。"
-    "就是啊……昨天不是才说过吗！"
-    extend "\n男生被人说像女孩子会高兴吗？"
+    "是啊……昨天不是才说过吗！"
+    extend "\n男孩子被别人说像女孩子，怎么可能会高兴啊？"
     extend "\n更何况，忍自己还对这种说法非常介意！！"
-    me "我去追忍。"
+    me "我……去追忍。"
     show tubasa 21 with dissolve
     tubasa "诶！？"
-    me "翼，不必担心，在这里享受下午茶吧。"
-    extend "\n另外……记得取消我们点的套餐。"
-    extend "\n那么，我先走了！"
+    me "翼君你就留在这里慢慢休息吧。"
+    extend "\n还有……把我们那份蛋糕套餐给退了吧。"
+    extend "\n那，我先走了！"
     show tubasa 8 with dissolve
     tubasa "诶诶……啊啊……好的，我知道了。"
     window hide
@@ -4184,55 +4184,55 @@ label day2_layout_sinobu:
     play sound "fx/running.ogg"
     show bg downtown_evening with FadeBlack(0.5)
     window show
-    "我离开咖啡店，顺着来路跑了起来。"
-    "25岁了，为什么还不能考虑到对方的心情……。"
-    extend "\n忍……抱歉，对不起！"
-    "我忘我地奔跑着，在视野的一角，一个男孩映入眼帘。"
+    "我冲出咖啡店，顺着来时的路飞奔而去。"
+    "明明都25岁了，为什么还不能考虑到对方的心情……。"
+    extend "\n忍……抱歉。对不起！对不起！！"
+    "正当我忘我地奔跑着时，视野的一角，映出了一个伫立在路边的男孩子的身影。"
     window hide
     stop music fadeout 0.5
     play sound "fx/running.ogg"
     show bg park_walkway with FadeWhite(0.5)
     pause 0.3
     window show
-    me "忍！！！"
+    me "忍——！！！"
     show sinobu 5 at top with Dissolve(0.8)
     sinobu "[player_surname]君……"
     "忍转过头来。"
-    me "哈啊……哈啊……还好你没有离我太远……。"
+    me "哈啊……哈啊……太好了……还好你没跑去太远的地方……。"
     show sinobu 20 with dissolve
     sinobu "……你是特意跑过来的吗？"
     me "是的……。"
     me "我！"
-    extend "\n说了些伤害忍的话……"
+    extend "\n说了伤害忍君的话……"
     extend "\n做了一些没有分寸的事……"
     extend "\n所以我想向你道歉……！"
-    me "真的……真的很抱歉！！！！"
+    me "真的……真的非常对不起！！！！"
     "我深深地低下头。"
     show sinobu 3 with dissolve
     sinobu "……。"
     extend "\n[player_surname]君，抬起头来。"
     extend "\n我其实……并没有生气。"
-    me "但是……对不起！！"
-    extend "\n我应该要更多地考虑忍的心情后再行动。"
-    extend "\n好好地思考一下，这种事情……"
+    me "可是……对不起！！"
+    extend "\n我本该更多地考虑到忍的心情再说话的。"
+    extend "\n如果好好地思考一下，这种事情就不会……"
     show sinobu 1 with dissolve
     sinobu "……。"
-    me "只是……那是我最真实的感想。"
-    extend "\n虽然希望不要产生误解，不过比喻有点不恰当……"
-    extend "\n并不是想捉弄，或者瞧不起忍的意思，而是看到忍穿着女仆装，\n我真的被打动了。"
+    me "只是……那确实是我最真实的感想。"
+    extend "\n我不希望你误会，虽然比喻可能很糟糕……"
+    extend "\n但我并没有想捉弄，或者瞧不起忍的意思，\n看到穿着女仆装的忍，我真的被触动了。"
     show sinobu 3 with dissolve
     sinobu "……。"
-    extend "\n那么，你就试试换种说法。告诉我，"
-    extend "\n[player_surname]君对我所抱有的感情是什么样的。"
+    extend "\n那么，你就试试换种说法。"
+    extend "\n用别的词汇，把[player_surname]君当时对我的感想说出来。"
     "……。"
     window hide
     hide sinobu with dissolve
     play music "good_scene.ogg"
     show bg evening with dissolve
     window show
-    me "……忍你很了不起哦……。"
-    extend "\n学习也很优秀，空手道也很厉害，容貌……不对，\n做事认真又老实，也深得大家的信任。"
-    extend "\n这样的忍，即使穿上女仆装也是那么的威风凛凛……"
+    me "……忍你真的很了不起哦……。"
+    extend "\n学习又好，空手道又强，容貌……不对，\n性格稳重又认真，深得大家的信赖。"
+    extend "\n即使穿上了女仆装，这样的忍也依然显得威风凛凛……真的非常迷人……。"
     sinobu "……。"
     me "真是太棒了……。"
     "……。"
@@ -4242,89 +4242,89 @@ label day2_layout_sinobu:
     window show
     sinobu "呵呵……这句话听起来倒还可以。"
     me "忍……。"
-    "看到忍的微笑，我的紧张也缓和了。"
+    "看到忍露出了微笑，我紧绷的神经也终于放松了下来。"
     show sinobu 34 with dissolve
-    sinobu "我所憧憬的，是坚强，正直，坚韧，\n守护重要的人……。"
-    extend "\n为了成为那样的人，我正在以自己的方式努力。"
+    sinobu "我所憧憬的，是坚强，正直，坚韧，\n以及能够守护重要之人……。"
+    extend "\n为了成为那样的人，我一直都在以自己的方式努力着。"
     show sinobu 20 with dissolve
-    sinobu "可是，只要照镜子，映入眼帘的就不是理想中的自己。"
-    extend "\n所以……我实在不想去关注自己的容貌。"
+    sinobu "可是，只要照镜子，映入眼帘的却是那个与理想相去甚远的自己。"
+    extend "\n一看到这副模样就会让我想起这残酷的现实……所以我实在不想让别人提及我的容貌。"
     show sinobu 27 with dissolve
-    sinobu "所以……刚才我一气之下就离开了。"
+    sinobu "所以……刚才我一气之下，就冲出店外了。"
     extend "\n平时的话还能勉强控制，但今天实在是……"
-    "就算他人觉得好看，自己也未必会喜欢。"
+    "在他人眼里看似美好的东西，在自己眼里却未必如此啊。"
     extend "\n反之亦然……。"
     me "忍。"
-    extend "无论你的外表如何，\n我都看得到，你拥有一颗和理想中一样纯洁的灵魂。"
+    extend "无论你的外表如何，\n在我眼里，你拥有一颗和理想中一样纯洁的灵魂。"
     show sinobu 18 with dissolve
     sinobu "……谢谢你。"
-    extend "\n我还是第一次听到有人这样对我说。"
+    extend "\n还是第一次有人……这样对我说。"
     show sinobu 34 with dissolve
-    sinobu "[player_surname]君觉得我是那样的人。"
+    sinobu "既然知道[player_surname]君是用这种眼光看着我的，"
     extend "\n所以，我已经不生气也不伤心了。"
     show sinobu 29 with dissolve
     extend "\n只觉得，非常开心。"
-    me "……你居然能够如此轻易地原谅对方，\n真了不起啊，忍。"
+    me "……居然能够做到如此彻底的宽恕，\n忍，你真的非常了不起啊。"
     extend "\n就算是我赶到的时候，你也是强忍着心中的怒火，\n努力让自己保持平静吧。"
     show sinobu 28 with dissolve
     sinobu "！"
     show sinobu 20 with dissolve
-    sinobu "……而且，当时我对自己无法原谅对方而感到焦躁。"
-    extend "\n但如果原谅了对方，说不定我还是会无法原谅那样自己……。"
+    sinobu "……而且那个时候，我也在对那个『无法原谅你的自己』感到焦躁。"
+    extend "\n但如果轻易原谅了你，说不定我又会变得无法原谅那样软弱的自己……。"
     show sinobu 26 with dissolve
-    extend "\n[player_surname]君巧妙地化解了我们的困境。"
+    extend "\n[player_surname]君巧妙地化解了我进退两难的纠结。"
     show sinobu 15 with dissolve
     sinobu "所以说……。"
-    "忍含糊其辞。"
-    me "嗯？  怎么了？"
+    "忍含糊其辞起来。"
+    me "嗯？怎么了？"
     show sinobu 13 with dissolve
-    sinobu "[player_surname]君的话，那样子说我的话，就是那个……"
+    sinobu "如果是[player_surname]君的话，其实，那个……。"
     stop music fadeout 2.0
-    me "嗯"
+    me "嗯。"
     show sinobu 14 with dissolve
-    sinobu "……说我“可爱”其实也可以的……。"
-    extend "\n那个……通过刚才的，我也明白你是什么意思了。"
+    sinobu "……说我『可爱』其实也可以的……。"
+    extend "\n那个……毕竟通过刚才那番话，我也明白你那是什么意思了。"
     me "忍……！！"
     window hide
     play sound "fx/cute.ogg"
     show cg c33 at center with FadeWhite(0.5)
     play music "sinobu_theme.ogg"
     window show
-    "我不禁抱住了忍。"
-    me "你啊~你真是一个好孩子啊！！"
-    extend "\n好乖好乖！！！"
-    sinobu "诶……等一下，不要贴得太紧！"
-    extend "\n停，停下来……喂！不要摸我头啊。[player_name]。"
-    "在我心中挣扎的忍可爱极了，让我忍不住想要抱紧他。"
+    "我不由分说地一把抱住了忍。"
+    me "你啊~你真是个好孩子啊！！"
+    extend "\n哦~乖啦乖啦！！！"
+    sinobu "诶……等、等一下，不要贴得太紧！"
+    extend "\n停、停下来……喂！不要摸我头啊，[player_name]。"
+    "在我怀里拼命挣扎的忍实在是太惹人怜爱了，让人忍不住想要把他抱得更紧。"
     window hide
     hide sinobu with dissolve
     hide cg with dissolve
     show sinobu 15 at top with dissolve
     window show
     sinobu "真是的！"
-    extend "\n……那我们就回刚才的咖啡厅吧。"
-    extend "\n我们丢下了一之濑同学，\n也得向店里的工作人员道个谢。"
-    "忍终于被我放开了，他说道。"
+    extend "\n……那，我们就回刚才那家咖啡店吧。"
+    extend "\n毕竟把一之濑君一个人丢在那儿了，\n而且也想好好向店里的人道个谢。"
+    "终于被我放开了的忍，如此说道。"
     me "嗯，就这么办！"
-    extend "\n……啊，我和忍的蛋糕套餐，\n取消掉了。"
+    extend "\n……啊，不过忍和我那份蛋糕套餐，\n我已经取消掉了。"
     show sinobu 21 with dissolve
     sinobu "没事的，不必在意。"
-    extend "\n真是的……你虽然急忙地追赶我，\n但还挺冷静呢。"
+    extend "\n真是的……明明刚才那么拼命地追过来，\n这种地方却意外地很冷静呢。"
     extend "\n呵呵……。"
     "啊，笑了。"
-    "虽然不至于大笑，但微笑的他更可爱了。"
-    extend "\n我想多看看他……但是，又不想让别人看到。"
+    "虽然不是那种开怀大笑，但微笑着的他显得更可爱了。"
+    extend "\n还想多看看啊……但是，说不定不想让其他人看到这副表情呢。"
     play sound "fx/boing.ogg"
-    "哎，我在想什么呢。我自以为了不起吗。"
+    "……我到底在想些什么啊。以为自己是谁啊，我。"
     show sinobu 1 with dissolve
     sinobu "……[player_name]？"
     play sound "fx/cute.ogg"
-    me "呀！？"
+    me "咿呀！？"
     show sinobu 9 with dissolve
     sinobu "怎么了……？突然不说话。"
-    extend "\n我不是在挖苦你，别因此伤心哦。"
+    extend "\n刚才不是在挖苦你，别因此伤心哦。"
     me "啊？啊，嗯！"
-    extend "\n我才是，让你为我操心了。"
+    extend "\n我才是，让你为我操心了，抱歉。"
     extend "\n我只是稍微想了一下事情。"
     show sinobu 12 with dissolve
     sinobu "……这样啊。"
@@ -4333,13 +4333,13 @@ label day2_layout_sinobu:
     hide sinobu with dissolve
     show bg evening with dissolve
     window show
-    "我俩说着，往「美馨儿咖啡」走去了。"
-    "……他不追问这一点也挺好的。"
-    extend "\n和忍在一起，能平静下来呢……。"
-    "怀着甜蜜的心情，我和忍回到咖啡店，"
+    "我俩说着，往『Mädchen Café』走去了。"
+    "……像这样不刨根问底，也让人觉得很舒服。"
+    extend "\n和忍在一起，总觉得心情能平静下来呢……。"
+    "怀着甜蜜的心情，我和忍回到了咖啡店。"
     hide bg with dissolve
     stop music fadeout 2.0
-    extend "\n在那里和等待着我的翼汇合，完成了布置组今天的任务。"
+    extend "\n在那里和等待着我们的翼汇合，完成了布置组今天的任务。"
     window hide
     pause 0.4
     show bg living_room_night at center with Radial(1.0)
@@ -4348,30 +4348,30 @@ label day2_layout_sinobu:
     play sound "fx/door_open.ogg"
     me "我回来了~。"
     mother "欢迎回来~。"
-    extend "\n今天回来的有点晚啊。"
+    extend "\n今天回来得有点晚啊。"
     me "嗯。"
-    extend "\n御咲站往学校反方向走了一段，在咖啡店参观了一下。"
-    mother "哦，是这样啊。"
-    extend "\n不过那里晚上很危险的，不要玩到太晚哦。"
-    me "我知道。毕竟我已经不是第一次去了。"
+    extend "\n从御咲站往学校反方向走，去咖啡店看了看。"
+    mother "哎呀，是这样啊~。"
+    extend "\n不过，那一带晚上很危险的，可不能在那里待到太晚哦？"
+    me "我知道啦。又不是第一次去了。"
     extend "\n呼~今天也好开心啊。"
     play sound "fx/beer.ogg"
-    "我慢慢地从冰箱里取出罐装啤酒，打开了盖子。"
-    "噗。"
-    mother "喂，等一下！！[player_name]！？\n为什么要喝啤酒！！"
-    extend "\n你，还是未成年人吧！。"
+    "我慢条斯理地从冰箱里取出罐装啤酒，打开了拉环。"
+    "（噗——嘶）"
+    mother "喂，等一下！！[player_name]！？\n为什么要喝啤酒啊！！"
+    extend "\n你，还是未成年人吧！"
     play sound "fx/boing.ogg"
     me "啊！！"
-    "糟了！！不小心就养成平时的习惯了……。"
-    me "啊，啊哈哈。\n抱歉抱歉。"
-    extend "我搞错了，以为这是果汁。\n啊哈哈哈。"
-    "我干笑着掩饰过去了。"
+    "糟了！！下意识地就按平时的习惯……。"
+    me "啊、啊哈哈。\n抱歉抱歉。"
+    extend "我搞错了，以为这是果汁啊。\n啊哈哈哈。"
+    "我干笑着掩饰了过去。"
     mother "真是的……"
-    extend "\n你将来也想成为爸爸那样的\n一回家就开瓶大口喝啤酒的酒鬼吗？"
-    extend "\n我可不要啊~"
-    me "会，会那样吗~\n啊哈哈哈……。"
-    "总，总算蒙混过去了。好险好险。"
-    "在学校里说话也要注意点才好……。"
+    extend "\n真担心你将来也像爸爸一样，\n变成那种一回家就非得喝啤酒的酒鬼呢。"
+    extend "\n我可不要啊~↑"
+    me "会、会那样吗~\n啊哈哈哈……。"
+    "总、总算蒙混过去了。好险好险。"
+    "在学校里，也得注意别说漏嘴了啊……。"
     return
 
 label day2_cooking_tuki:
