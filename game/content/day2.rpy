@@ -1819,7 +1819,7 @@ label day2_design:
 label day2_layout:
     hide 班選択 with dissolve
     window show
-    "去一趟「布置组」吧！"
+    "去『布置组』看看吧！"
     window hide
     stop music fadeout 0.5
     hide bg with dissolve
@@ -1832,15 +1832,15 @@ label day2_layout:
     tubasa "已经决定好去哪家店了吗？"
     show sinobu 12 with dissolve
     sinobu "嗯。"
-    extend "\n昨天慎太郎给我们推荐了几家不错的店，\n地图也已经准备好了，应该没问题。"
-    me "那让我看看地图。"
-    extend "\n原来是在车站的反方向啊，我不太熟悉那边。"
-    extend "\n「美馨儿咖啡」……好奇特的店名。"
+    extend "\n昨天慎太郎给我推荐了一家不错的店，\n连地图都帮我准备好了，应该没问题。"
+    me "让我看看地图。"
+    extend "\n原来如此，是在车站的另一头啊。那一带我没怎么去过呢。"
+    extend "\n『Mädchen Café』……还真是个少见的店名啊。"
     show tubasa 5 with dissolve
-    tubasa "但，但是，总感觉那里很时尚。"
+    tubasa "不、不过，总觉得名字听起来很时髦呢。"
     extend "\n究竟是什么样的地方呢……"
     show sinobu 23 with dissolve
-    sinobu "如果要实地考察的话，这里非常适合，我觉得会是很好的一个地方。"
+    sinobu "慎太郎说『要做参考的话非这里莫属』，把那里夸上天了，我想应该是个不错的地方吧。"
     extend "\n那么，出发吧。"
     window hide
     hide sinobu with dissolve
@@ -1853,198 +1853,198 @@ label day2_layout:
     play music "fx/tsubame.ogg"
     show bg downtown with Dissolve(2.0)
     window show
-    "我们根据地图来到「美馨儿咖啡」的附近。"
+    "我们跟着地图，来到了『Mädchen Café』的附近。"
     window hide
     show tubasa 10 at topright with dissolve
     window show
-    tubasa "这附近的道路我不太熟悉……。"
+    tubasa "这一带的街景，看着很陌生呢……。"
     show sinobu 17 at topleft with dissolve
     sinobu "嗯。"
-    extend "\n因为从车站下车后，我都是直接朝着御咲学园那边走的。"
-    me "在地图上……应该是在这附近吧。"
+    extend "\n因为从车站下车后，我们一般只往御咲学园那个方向走。"
+    me "看地图的话，确实是……这附近没错。"
     extend "\n但是，附近没有看到像咖啡店的建筑啊~。"
-    "我环顾四周，只看到一些小楼。"
+    "我环顾四周，只看到一排排狭窄的小楼。"
     show tubasa 2 with dissolve
-    tubasa "要是知道店的外观就好了。"
+    tubasa "要是早点问清楚店铺的外观就好了呢。"
     show sinobu 17 with dissolve
     sinobu "嗯……"
     show sinobu 9 with dissolve
-    extend "咦，咦。"
-    "忍用手指着的方向，有一块挂在大楼外面的看板。"
+    extend "啊，看那个。"
+    "顺着忍手指的方向看去，只见大楼上挂着一块招牌。"
     show sinobu 2 with dissolve
-    sinobu "『美馨儿咖啡』好像在那栋大楼的四楼。"
+    sinobu "『Mädchen Café』好像在那栋大楼的四楼。"
     show tubasa 19 with dissolve
-    tubasa "真的耶。"
-    extend "\n咦……可是，就在这栋大楼里吗……？"
+    tubasa "真的诶。"
+    extend "\n咦……可是，开在这种大楼里……？"
     "那栋大楼的外观实在令人不敢恭维。"
-    me "看来，好像和我们想象的咖啡厅\n很不一样呢…。"
+    me "看来，好像和我们想象的咖啡厅……\n很不一样呢……。"
     show sinobu 7 with dissolve
-    sinobu "但是，一定就在这里。"
+    sinobu "不过，肯定是这里没错了。"
     extend "\n总之先去看看吧。"
     show tubasa 3 with dissolve
-    tubasa "这样好吗？"
-    extend "\n如果，里面有恐怖的人……。"
-    me "没事的，翼。"
-    extend "\n不能只看外表。"
+    tubasa "这、这样真的没问题吗？"
+    extend "\n万一，里面有可怕的人的话……。"
+    me "没事的，翼君。"
+    extend "\n不能以貌取人嘛。"
     extend "\n这种地方的居酒屋，出乎意料地是家不错的店呢。"
     show tubasa 21 with dissolve
-    tubasa "居，居酒屋？"
-    extend "\n你去过吗？"
+    tubasa "居、居酒屋？"
+    extend "\n你去过那种地方吗？"
     me "啊……被父亲带去吃过饭！"
-    extend "\n因为那里也卖软饮料呢！"
-    extend "\n总，总之，先进去看看吧。"
+    extend "\n毕竟那种店里，也是有卖软饮料的嘛！"
+    extend "\n总、总之，先进去看看吧。"
     show sinobu 6 with dissolve
     play sound "fx/eureka.ogg"
-    sinobu "万一不行就打倒他们。"
+    sinobu "万一有情况，就干掉他们。"
     show tubasa 7 with dissolve
     $ renpy.transition(Quake(0, 60, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
-    tubasa "你，你在说什么啊！"
-    extend "\n噫噫噫，好可怕啊！！"
-    me "没事的！"
-    extend "\n好了，走吧。"
+    tubasa "干、干掉什么啊啊啊！"
+    extend "\n噫噫噫好可怕啊——。"
+    me "都说没事啦！"
+    extend "\n好，走吧。"
     hide sinobu with dissolve
     hide tubasa with dissolve
     play sound "fx/running.ogg"
     hide bg with dissolve
-    "我拖着胆怯的翼进入了大楼，坐上电梯。\n向四楼进发。"
+    "我拖着瑟瑟发抖的翼走进大楼，\n乘电梯上了四楼。"
     window hide
     play music "haunted_music_room.ogg"
     show bg meffen_cafe_hallway at center with Radial(1.0)
     pause 0.4
     window show
-    "门打开后，我们面前是一排排整齐的门。"
-    extend "\n这里是经过改建的酒店吗。"
+    "电梯门一开，映入眼帘的是一排排整齐的房门。"
+    extend "\n这里难道是把酒店改建后使用的吗？"
     window hide
     show sinobu 5 at topleft with dissolve
     window show
-    sinobu "『美馨儿咖啡』就在最里面。"
+    sinobu "『Mädchen Café』好像是最里面的那个房间。"
     show tubasa 8 at topright with dissolve
-    tubasa "真，真的要去吗？！"
+    tubasa "真、真的要去吗？！"
     show tubasa 7 with dissolve
-    extend "\n别，别去啊~。"
+    extend "\n算、算了吧~。"
     show tubasa 8 with dissolve
-    extend "\n里面要是有恐怖的人该怎么办啊！"
+    extend "\n里面要是有恐怖的人该怎么办啊啊啊！"
     show sinobu 25 with dissolve
-    sinobu "就算你这么说，也不能就这样回去吧。"
+    sinobu "虽说如此，但总不能就这样回去吧。"
     play sound "fx/eureka.ogg"
     extend "\n没事的，如果有情况的话我会把他们打倒的。"
     show tubasa 7 with dissolve
     $ renpy.transition(Quake(0, 60, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
-    tubasa "请不要说得这么简单啊啊啊啊。"
+    tubasa "请不要说得那么轻巧啊啊啊啊。"
     "翼相当害怕，而忍则相当有攻击性。"
-    extend "\n他们两个都是第一次经历这种情况，所以才会这么警戒。"
-    extend "\n没办法了……这里由我来打头阵吧。"
+    extend "\n看来两人都是第一次来这种地方，所以都在警戒着吧。"
+    extend "\n没办法了……这种时候，就由我来打头阵吧。"
     me "你们俩就在这里等着。"
     extend "\n我去看看情况。"
     show tubasa 17 with dissolve
-    tubasa "但，但是，这样[player_name]君会有危险的！"
+    tubasa "但、但是，这样[player_name]君会有危险的！"
     show sinobu 6 with dissolve
     sinobu "就是啊。"
     extend "\n你能打倒他们吗？"
-    me "哼哼！没问题。"
+    me "哼哼！没问题的。"
     extend "\n这种时候，就该交给大人来处理♪"
     show tubasa 22
     show sinobu 27 with dissolve
-    "忍＆翼" "……。"
-    "我留下满脸惊讶的两人，"
+    "翼＆忍" "……。"
+    "我留下满脸讶异的两人，"
     hide sinobu with dissolve
     hide tubasa with dissolve
     play sound "fx/running.ogg"
     show bg dark with dissolve
-    "走向里面的门。"
+    "径直走向里面的那扇门。"
     "哈哈。"
     extend "\n虽然从外观来看破烂不堪，但这毕竟是慎太郎介绍的店……。"
-    extend "\n不可能这么危险吧……！！"
-    extend "\n没有可怕的人……"
-    extend "是吧小慎！！！"
-    "要开喽……一，二，三！！"
+    extend "\n怎么可能是那种危险的地方嘛……！！"
+    extend "\n肯定没有可怕的人……"
+    extend "对吧——慎酱！！！"
+    "要开喽……一、二、三！！"
     stop music fadeout 0.5
     play sound "fx/door_open.ogg"
     show bg remarkable with dissolve
-    "咔嚓！！"
-    "在打开门的瞬间，"
+    "（咔嚓！！）"
+    "在打开门的瞬间，闯入我眼帘的竟然是——"
     window hide
     play music "maid_cafe.ogg"
     show bg meffen_cafe with Radial(1.5)
     pause 0.4
     window show
     play sound "fx/sparkle.ogg"
-    unknown "欢迎回来，主人！！！"
-    "眼前出现的是，发出爽朗的欢呼声，穿着女仆装的女孩子。"
+    unknown "欢迎回家，主人！！！"
+    "发出这声娇滴滴的高亢欢呼的，是一群身穿女仆装的女孩子们。"
     play sound "fx/cute.ogg"
     me "诶？！？"
-    "不由地发出了惊慌失措的声音。"
+    "我不由得发出了惊慌失措的声音。"
     window hide
     show sinobu 25 at topleft with dissolve
     window show
     sinobu "[player_surname]君……？"
     show tubasa 21 at topright with dissolve
-    tubasa "这，这是怎么回事……。"
-    "说起来……「Madchen」在德语中的意思是「女仆」。"
-    extend "\n也就是说，「Madchen Cafe」是……"
+    tubasa "这、这到底是怎么回……。"
+    "说起来……『Mädchen』在德语中的意思是『女仆』。"
+    extend "\n也就是说，『Mädchen Café』是……"
     hide sinobu with dissolve
     hide tubasa with dissolve
     $ renpy.transition(Quake(0, 100, 0.1, 0.065), layer='master')
     play sound "fx/boing.ogg"
-    extend "\n女仆咖啡厅！？？！"
+    extend "\n女仆咖啡厅啊啊啊！？？！"
     window hide
     window show
-    clerk1 "哎呀，这身学生服！您是御咲学园的学生吧。"
+    clerk1 "哎呀，这身校服！是御咲学园的学生吧。"
     extend "\n稍微等一下哦！"
     clerk1 "店长~！！御咲学园的学生来了！"
     "女仆向店里的深处喊道。"
-    manager "哦！终于来了呢~。"
-    extend "\n我都等得不耐烦了呢。"
-    "然后，就出现了一位穿着40岁左右的管家装的男性。"
-    manager "嗯，慎太郎跟我说过了。"
+    manager "哦！终于来了吗~。"
+    extend "\n可让我好等啊。"
+    "紧接着，一位身穿管家服、看起来40多岁的男性出现了。"
+    manager "呀呀，我都听慎太郎君说过了哦。"
     extend "\n你们打算在学园祭的时候开咖啡厅？"
-    extend "\n不嫌弃的话，就来我的店里面好好地参观学习一下吧！"
+    extend "\n不嫌弃敝店的话，就请尽情参观吧"
     me "啊，好的。那就拜托您了。"
-    "我完全搞不清状况，一问三不知，只能这样敷衍过去。"
-    manager "那么，今天一天要在这边工作是后边的两个人吗？"
-    extend "\n一个人考察我们店的布置和装潢，\n另外两个人要学习女仆的接待服务，这样安排如何？"
+    "我完全跟不上事态的发展，也没搞懂到底怎么回事，只能机械地随口应答。"
+    manager "那么，今天要做一日店员的，是后面的两个人吗？"
+    extend "\n我听说是——一个人考察我们店的布置和装潢，\n另外两个人要跟女仆们实际学习接待服务来着？"
     me "诶，啊啊，好的。那就拜托您了。"
-    "我完全搞不清状况，一问三不知，只能这样敷衍过去。"
-    clerk1 "那么，二位。"
-    extend "\n请在这里换衣服吧♪"
+    "我完全跟不上事态的发展，也没搞懂到底怎么回事，只能机械地随口应答。"
+    clerk1 "那么，两位客人。"
+    extend "\n请来这边换衣服吧♪"
     stop music fadeout 0.5
     show cg dark at center
     play sound "fx/triangle.ogg"
     show tubasa 17 at topright
     show sinobu 28 at topleft with dissolve
-    sintarou "诶……？"
+    "翼＆忍" "诶……？"
     hide sinobu with dissolve
     hide tubasa with dissolve
     hide cg with dissolve
     hide bg with dissolve
-    "…"
+    "……"
     window hide
     show bg meffen_cafe at center with dissolve
     play music "quiet_lunch.ogg"
     window show
     "再次向店长打听后得知，他似乎和慎太郎关系很好。"
-    extend "\n这次，慎太郎听闻我们在学园祭的时候打算开咖啡厅，\n就拜托店长让我们来店里参考一下。"
+    extend "\n这次，听说我们在学园祭打算开咖啡店，\n他就主动提议如果不介意的话，可以来店里参考看看。"
     me "原来是这样啊。"
-    extend "\n让您费心了"
-    manager "没有没有！"
-    extend "\n我才应该这么说呢，因为我一直承蒙慎太郎的关照。"
-    extend "\n能帮上忙的机会可不多，\n这是我的荣幸哦。"
-    me "但是，真的可以吗？"
+    extend "\n特意给您添麻烦，真是谢谢了。"
+    manager "哪里哪里！"
+    extend "\n我才应该这么说呢，因为我一直承蒙慎太郎君的关照啊。"
+    extend "\n我也就只有这种时候能派上点用场，\n所以就厚着脸皮来多管闲事啦。"
+    me "但是，真的没问题吗？"
     extend "\n初中生是不允许打工的吧……。"
     manager "这点没有问题！"
-    extend "已经得到上面的许可了，\n算是「尝试周」的一部分哦！"
-    me "原来如此…。"
+    extend "已经得到上面的许可了，\n算是『社会职业体验周』的一部分哦！"
+    me "原来如此……。"
     "我们聊得正起劲时，"
     play sound "fx/cute.ogg"
-    clerk2 "呀！！好可爱啊～！"
+    clerk2 "呀啊——！！两个人，都超级可爱啊~！"
     play sound "fx/cute2.ogg"
     clerk3 "小正太萌翻了呢~！受不了了啊！"
     manager "哦。"
     extend "\n看来是时候了。"
-    "心砰砰跳"
-    "帘子的后面，有着打扮成女仆模样的两个人。"
+    "（心砰砰跳……）"
+    "帘子的后面，站着打扮成女仆模样的两人。"
     stop music fadeout 0.5
     clerk1 "那么，现在开始介绍！"
     "帘子缓缓拉开……。"
@@ -2054,63 +2054,63 @@ label day2_layout:
     play music "lively_boys.ogg"
     window show
     manager "哦哦哦哦！！！"
-    extend "\n太，太棒了！！！！"
-    extend "\nNice boy！！！！"
+    extend "\n太、太棒了！！！！"
+    extend "\nNice正太！！！！"
     extend "Nice女装！！！！"
-    sinobu "……呜……慎太郎这个混蛋……。"
-    extend "\n我绝对要收拾你……！！！"
-    tubasa "这，这身打扮……羞死人了。"
-    me "你们两个啊！实在是太可爱了！！！"
-    extend "\n最棒了！！！"
+    sinobu "……呜……慎太郎那个混蛋……。"
+    extend "\n我绝对要……宰了他……！！！"
+    tubasa "这、这身打扮……羞死人了。"
+    me "你、你们两个！实在是太可爱了！！！"
+    extend "\n简直是最棒了！！！"
     extend "\n店长，相机！"
     extend "\n快拍下来吧！！"
     manager "当然啦！！！"
-    extend "\n来，两位！看这边～。"
-    extend "\n茄子！"
+    extend "\n来来来，两位！看这边~。"
+    extend "\n茄——子！"
     clerk2 "呀啊！！好萌~！！！"
-    clerk3 "小正太，啊哈哈！！！"
-    sinobu "[player_surname]……我要换人。"
-    tubasa "我，我也想换人。"
-    extend "\n说到底，为什么会变成这样啊！"
-    manager "为了学习接待客人的方法，最好的办法就是在咖啡店体验吧？"
-    extend "\n好好学习，然后再教给班上的同学。"
+    clerk3 "小正太，哈啊、哈啊！！！"
+    sinobu "[player_surname]……咱们换换。"
+    tubasa "我、我也想换。"
+    extend "\n说到底，事情为什么会变成这样啊！"
+    manager "想要学习待客之道，最好的办法就是在实际的咖啡店体验一番吧？"
+    extend "\n要好好学习，之后再去教给班上的同学们哦。"
     window hide
     hide cg with dissolve
     window show
-    me "……店长，你也喜欢这种事情吗？"
-    manager "啊啊！不如说最喜欢这种事情！！"
-    extend "\n但是，实际上也不能让少年去工作。"
-    extend "\n因为需求量很大，所以只能让女孩子来。"
-    extend "\n她们仔细看的话也很可爱。"
+    me "……店长，原来你也喜欢这种事情吗？"
+    manager "啊啊！倒不如说，这才是我的最爱！！"
+    extend "\n但是，因为实际不能雇佣少年去工作，"
+    extend "\n而市场需求量又大，所以只能勉为其难地让女孩子来了啊。"
+    extend "\n不过，那些孩子们仔细看的话，也很可爱就是了。"
     me "男女通吃吗~。"
     extend "\n真有你的，店长。"
-    manager "不这样可混不下去啊，\n不然可就没法在世上活下去了。"
+    manager "哎呀，如果不变得圆滑一点，\n可是没法在这个世道上混下去的啊。"
     "店长叹了一口气。"
-    sinobu "你们两个别悠闲地讨论这种处世之道……。"
+    sinobu "你们两个，别在那里一脸悠哉地讨论什么处世之道啊……。"
     tubasa "是啊！也考虑一下我们的心情啊！"
     play sound "fx/sparkle.ogg"
-    me "啊啊……真是可爱啊，你们两个！\n不管你们说什么都很可爱……"
-    extend "或者说，你们无论做什么，都是最棒最可爱的~！！！！"
+    me "啊啊……真是可爱啊，你们两个！\n不管说什么都很可爱……"
+    extend "不对，就算什么都不做，或者无论做什么，总之就是最棒的啊~！！！！"
     manager "女仆们。"
-    extend "\n今天一天之内\n就要将这些孩子们教育成出色的正太女仆！"
+    extend "\n今天一天之内，\n要把这几个孩子，给我教育成出色的正太女仆！"
     play sound "fx/cute2.ogg"
     clerk "了解！！"
     "于是，御咲祭前的准备工作就这样开始了。"
-    "虽然忍和翼看起来还是有点抗拒，"
-    extend "\n但或许是因为他们明白了只能听从女仆的热血指导，\n慢慢地就顺从了。"
+    "虽然忍和翼看起来还是相当抗拒，"
+    extend "\n但不知是因为明白了反抗也是徒劳的现状还是怎么的，\n慢慢地就顺从了。"
     window hide
     show cg c33 2 at center with Radial(0.5)
     window show
-    clerk2 "忍君翼君，微笑微笑~！"
-    tubasa_and_sinobu "……(笑)。"
+    clerk2 "忍君翼君，笑容要更多一点~！"
+    tubasa_and_sinobu "……(强颜欢笑)。"
     clerk1 "嗯，做得不错。"
-    extend "\n那再来一遍。"
-    extend "\n主人，嗨！"
+    extend "\n那么再来一次，从问候开始。"
+    extend "\n来，预备——起！"
     show cg c33 1 with dissolve
-    tubasa_and_sinobu "欢，欢迎回来，主人。"
-    clerk1 "不行不行！再大声点！！"
-    clerk2 "要给主人送上少年们的声音啊！"
-    extend "\n就像过去的唱诗班男孩子们一样！"
+    tubasa_and_sinobu "欢、欢迎回来，主人。"
+    clerk1 "不行！声音再大一点！！"
+    clerk2 "要将少年那美好的声音传达给主人啊！"
+    extend "\n就像过去的阉伶那样！\n（注：『阉伶』指在童年时接受阉割手术的男性歌手，去势的目的是为了保持童声。）"
     $ renpy.transition(Quake(0, 60, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
     show cg c33 2 with dissolve
@@ -2121,17 +2121,17 @@ label day2_layout:
     hide cg with dissolve
     window show
     sinobu "……咕。"
-    tubasa "呜……。"
-    me "你们俩～！"
-    extend "\n再对我说一遍~！！"
+    tubasa "呜呜……。"
+    me "你们俩~！"
+    extend "\n再对我说一遍嘛~！！"
     window hide
     show cg c33 3 at center with FadeBlack(0.5)
     play sound "fx/eureka.ogg"
     window show
     tubasa_and_sinobu "（瞪）"
     me "啊……不是……。"
-    extend "\n没什么……。"
-    "但是，那冰冷的视线让我受不了了……！！"
+    extend "\n没、没事……。"
+    "但是，那冰冷的视线，也让我欲罢不能啊……！！"
     window hide
     hide cg with dissolve
     hide bg with dissolve
@@ -2143,19 +2143,19 @@ label day2_layout:
     window show
     sinobu "……好累。"
     tubasa "我也是……。"
-    "经过女仆的严酷训练后，\n他们换上了学生服。"
+    "结束了女仆们地狱般严酷的特训，\n两人换回了校服。"
     me "辛苦了！"
-    extend "\n你们的努力没有白费！这样就能好好接待客人了。"
-    extend "\n店长说等会儿会请你们吃蛋糕套餐！"
+    extend "\n真的非常努力了呢！这样一来，接待客人方面就没问题了。"
+    extend "\n店长说，等会儿会请你们吃蛋糕套餐！"
     show sinobu 5 with dissolve
     sinobu "是吗……"
-    extend "\n话说回来，[player_surname]君呢？"
+    extend "\n话说回来，[player_surname]君那边怎么样了？"
     me "啊。"
-    extend "\n店长告诉我，要怎么布置店内，怎样才能让店看起来更加好看，\n还有菜单的设计和所需材料等等。"
+    extend "\n我跟店长请教了很多， 比如怎样的布局能让店铺显得更美观，\n还有必要的材料啊、菜单的绘制方法之类的。"
     extend "\n为了缓和气氛，BGM最好选择节奏慢一些的。"
     show tubasa 6 with dissolve
     tubasa "这样啊……"
-    extend "\n总之今天的工作平安结束了，太好了……。"
+    extend "\n总之今天的工作平安无事地结束了，太好了……。"
     me "哎呀……话说回来，\n刚才穿的女仆装真的很适合你们！"
     hide sinobu with dissolve
     hide tubasa with dissolve
