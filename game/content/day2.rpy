@@ -2164,7 +2164,7 @@ label day2_layout:
 label day2_cooking:
     hide 班選択 with dissolve
     window show
-    "要不要去『料理组』玩玩！"
+    "要不去『料理组』玩玩！"
     window hide
     stop music fadeout 0.5
     hide bg with dissolve
@@ -2174,33 +2174,33 @@ label day2_cooking:
     me "那么，今天要做什么呢？"
     show tuki 9 at topleft with dissolve
     tuki "烹饪室被其他班级使用了，没法在那里做菜。"
-    extend "\n所以，今天就在我们家开发新菜品吧。"
-    me "哎，真的吗！？"
-    extend "\n我也可以去你们的家吗！？"
+    extend "\n所以，今天就去我们家开发新菜品吧。"
+    me "诶，真的吗！？"
+    extend "\n我、我也可以去你们两人的家里打扰吗！？？"
     show sora 3 at topright with dissolve
     sora "当然可以。"
-    extend "\n家里会有点乱，希望你不要太介意。"
-    me "怎，怎么会！完全没问题！！！"
+    extend "\n虽然家里可能会有点乱，只要你不介意就好。"
+    me "怎、怎么会！完全没问题！！！"
     extend "\n只要是男孩子住的地方，无论是什么样的地方都没关系！"
     show tuki 15 with dissolve
     tuki "哈哈哈，你还真是会说些有趣的话啊。"
-    extend "\n食材应该已经由佣人买回来了。\n就这样直接过去吧。"
+    extend "\n食材应该已经由佣人买回来了。\n我们就直接回去吧。"
     show sora 14 with dissolve
-    sora "明明都说好由我们去买，他们真是的！。\n总是把我们当成小孩子，总是这么爱管闲事。"
-    "佣，佣人……？什么啊？"
-    extend "\n这个词汇，我只在电视剧和漫画里听过。"
+    sora "明明都说好由我们去买了，真是的。\n总是把我们当成小孩子，这么爱管闲事。"
+    "佣、佣人……？什么啊？"
+    extend "\n这种词，我只在电视剧和漫画里才听过啊？"
     show tuki 3 with dissolve
-    tuki "毕竟他们从我俩小时候就一直照顾着我们。"
-    extend "\n对他们来说，我俩还是小孩子吧。"
-    extend "\n就连打扫道场，直到最近才肯让我们自己去做。"
+    tuki "毕竟他们从我俩小时候起就一直负责照顾了。"
+    extend "\n对他们来说，我们大概永远都还是小孩子吧。"
+    extend "\n就连打扫道场，也是直到最近才肯让我们自己去做。"
     show sora 22 with dissolve
-    sora "毕竟，道场是我们使用的，就要我们自己来打扫。"
-    extend "\n带着感恩的心打扫，那一天的训练才能够结束。"
+    sora "毕竟是自己使用的道场，当然想亲手打扫干净啊。"
+    extend "\n只有带着感恩的心完成打扫，那一天的训练才算真正结束。"
     "道场？训练？？"
     extend "\n完全跟不上话题啊。"
-    "难道他们家像《难波 1/3》那样，家就是道场吗。"
+    "难道他们家像《乱马 1/3》里那样，家就是道场吗。"
     show cg school_building_morning at center with dissolve
-    "不对，怎么可能有这种事啊。\n啊哈哈哈哈哈哈哈"
+    "不对，怎么可能有这种事啊。\n啊哈哈哈哈哈哈哈。"
     window hide
     hide bg with dissolve
     hide tuki with dissolve
@@ -2222,31 +2222,31 @@ label day2_cooking:
     window show
     play music "akamine_house.ogg"
     "然而，真的有这种事。"
-    "这，这栋房子是怎么回事！"
-    extend "\n居然有这么豪华的中庭……。"
-    extend "\n就像是接待重要合作伙伴的高级和风餐厅！！"
+    "这、这栋房子是怎么回事啊！"
+    extend "\n居然还有这么豪华的中庭……。"
+    extend "\n这规格，简直就像是接待重要客户时才会去的那种高级日料店吧！！"
     show sora 5 at topright with dissolve
     sora "[player_name]君，怎么了？\n你从刚才起就心神不宁的。"
     show tuki 16 at topleft with dissolve
     tuki "没事吧？"
-    extend "\n如果这房间住得不舒服的话，我们会为你换一个的。"
+    extend "\n如果这间屋子待着不自在，我们可以换个房间。"
     play sound "fx/boing.ogg"
     $ renpy.transition(Quake(0, 60, 0.1, 0.06), layer='master')
-    me "没，没事！请不必如此！！"
-    extend "\n今，今天有幸能被招待到此地，\n真的是我的荣幸……非常感谢。"
-    me "不好意思，现在才自我介绍。鄙人[player_surname][player_name]。\n今天请多多关照。"
-    extend "\n那个，名片……"
-    extend "等下？"
+    me "没、没事！请不必如此！！"
+    extend "\n今、今天鄙人有幸能受邀来到此地，\n实乃三生有幸……感激不尽！！"
+    me "请恕我失礼，自我介绍晚了。鄙人[player_surname][player_name]，\n今天还请多多关照。"
+    extend "\n那个，名片、名片……"
+    extend "等等？"
     play sound "fx/cute.ogg"
     $ renpy.transition(Quake(0, 60, 0.1, 0.06), layer='master')
-    extend "没有！！在哪！？放到哪去了？"
+    extend "没有！！在哪！？放到哪里去了？"
     show sora 1 with dissolve
     sora "啊哈哈哈。\n[player_name]君，你怎么了？"
     extend "\n你是在模仿什么吗？"
     show tuki 15 with dissolve
     tuki "简直就像哪里新来的员工一样。"
-    me "啊，啊哈哈……抱歉抱歉。"
-    extend "\n因为我还是第一次来这种豪宅里，所以不自觉就紧张起来了…。"
+    me "啊、啊哈哈……抱歉抱歉。"
+    extend "\n因为我还是第一次来这种豪宅里，所以不自觉就紧张起来了……。"
     show sora 24 with dissolve
     sora "豪宅什么的，太夸张了。"
     extend "\n这里是你的朋友的家，不必客气，当成自己家就好。"
@@ -2256,24 +2256,24 @@ label day2_cooking:
     play sound "fx/sliding_door.ogg"
     window show
     servant "请恕我打扰了。请用茶。"
-    extend "\n[player_surname]君，一直以来月和空都承蒙您照顾。"
+    extend "\n[player_surname]君，一直以来月和空都承蒙您照顾了。"
     extend "\n今后还请多多关照。"
-    me "是，是！！  我，我才该说这些！"
+    me "是、是！！ 我、我才该这么说！"
     extend "\n一直以来，无论是眼睛、心灵还是在那方面，都承蒙他们关照了！！"
     servant "……？"
     show sora 1 at topright with dissolve
-    sora "对吧？  他就是个有趣的人吧？"
+    sora "你看吧？就如我所说的，他是个很有趣的人吧？"
     show tuki 4 at topleft with dissolve
     tuki "时不时就会说出些让人摸不着头脑的话，\n但气氛却会因此变得愉快。"
-    servant "哦呵呵呵……是的呢。"
-    extend "\n月，空，按你们嘱咐的，厨房现在可以使用了。"
-    extend "\n我不在真的没问题吗？"
+    servant "呵呵……确实如此呢。"
+    extend "\n月，空，按你们吩咐的，厨房现在可以使用了。"
+    extend "\n真的不需要我在场帮忙吗？"
     show tuki 9 with dissolve
-    tuki "啊啊……这可是学校的任务。"
+    tuki "啊啊……这毕竟是学校活动的一环。"
     extend "\n课题就是不依靠家人的帮助，靠自己的力量完成。"
-    extend "\n就由我们来完成吧。"
+    extend "\n就由我们自己来完成吧。"
     servant "我明白了。"
-    extend "\n如果还有什么问题，请随时叫我。\n那么，我就先告辞了。"
+    extend "\n如果还有什么需要，请随时叫我。\n那么，我就先告辞了。"
     play sound "fx/sliding_door.ogg"
     "佣人这么说着，便离开了房间。"
     hide tuki with dissolve
@@ -2292,32 +2292,32 @@ label day2_cooking:
     "赤峰家的厨房，与和风的宅邸并不相称，意外地很现代化。"
     show tuki 18 at topleft with dissolve
     tuki "这里是第二厨房。"
-    extend "\n在有大量客人来拜访的时候，就用来辅助第一厨房。"
+    extend "\n通常是在客人很多的时候，用来辅助第一厨房的。"
     extend "\n今天可以尽情使用这里，放心吧。"
     show sora 24 at topright with dissolve
-    sora "我们平时并没有这么频繁地使用，\n所以没有好好地保养过。"
-    extend "\n可能看起来不干净，还请见谅。"
-    me "是，是吗……不，已经非常干净了！！"
+    sora "因为平时不怎么使用，\n所以没能好好保养。"
+    extend "\n可能不够整洁，还请见谅。"
+    me "是、是吗……不，已经非常干净了！！"
     hide tuki with dissolve
     hide sora with dissolve
-    extend "\n如果这样算脏的话，那我家厨房又算什么……。"
-    "诚，诚惶诚恐，赤峰家主人……。"
+    extend "\n如果这样算脏的话，那我家厨房又算什么啊……。"
+    "诚、诚惶诚恐，赤峰家的少爷们……。"
     extend "\n这么大的房子，厨房却只有这么小。"
     extend "\n落差感好大啊……。"
     window hide
     show tuki 17 at topleft with dissolve
     window show
-    tuki "如果我们因为准备菜谱时间拖得太久，或是把厨房弄脏了，\n而影响大家准备晚饭的时间就不好了。"
+    tuki "要是工作拖得太久，或者把厨房弄脏了，\n影响到别人准备晚饭就不好了。"
     show sora 11 at topright with dissolve
-    sora "我们就在这间厨房里加油研究吧。"
-    "我环视了一圈厨房，发现里头放着食材，还有几本烹饪书籍。"
+    sora "所以我们就在这间厨房里加油研究吧。"
+    "我环顾了一下四周，发现放着几代食材，还有几本烹饪书籍。"
     extend "\n是佣人准备的吗……。"
-    extend "\n能事先计划好需要的东西，让佣人做好周全的准备……\n真不愧是住在这所豪宅里的人，他们真是管理的好手。"
+    extend "\n能事先计划好需要的东西，让佣人做好周全的准备……\n真不愧是住在这等豪宅里的人，他们真是管理的好手。"
     show sora 3 with dissolve
     sora "那就按照昨天说的，分头干活吧。"
     show tuki 4 with dissolve
     tuki "嗯。"
-    "我们就这样分头开始了工作。"
+    "就这样，我们各自开始了工作。"
     window hide
     hide tuki with dissolve
     hide sora with dissolve
@@ -2326,55 +2326,55 @@ label day2_cooking:
     window show
     "我参考烹饪书籍，和月一起做菜。"
     show tuki 8 at top with dissolve
-    tuki "唔，照烧三明治，完成了。"
+    tuki "唔，照烧猪肉三明治完成了。"
     show tuki 18 with dissolve
-    extend "\n味道应该相当不错，[player_surname]愿意尝一下味道嘛？"
+    extend "\n我觉得味道应该还过得去，[player_surname]君愿意尝一下味道吗？"
     "说着，月把三明治递给了我。"
     "（咽口水）"
-    "是男孩子亲手做的……光是这个就已经很美味了！！！"
+    "是男孩子亲手做的料理……光凭这一点就已经很美味了！！！"
     hide tuki with dissolve
     "（大口咬）"
     extend "\n（嚼嚼）"
-    "诶"
-    "骗人的吧……竟然……"
+    "诶？"
+    "不会吧……这、这种味道……"
     show cg remarkable at center with Dissolve(0.2)
     play sound "fx/tadaa.ogg"
-    me "真，真好吃！！！！！！太好吃了吧！！！！"
-    extend "\n面包里夹的照烧猪肉！"
-    extend "\n到底用的什么调味料，才能这么好吃啊！？？"
+    me "真、真好吃！！！！！！太好吃了吧！！！！"
+    extend "\n这面包里夹的照烧猪肉！"
+    extend "\n到底是怎么调味的，才能这么好吃啊！？？"
     window hide
     hide cg with dissolve
     show tuki 6 at top with dissolve
     window show
-    tuki "只是按照食谱做而已。"
+    tuki "我只是完全按照食谱上写的做的而已哦。"
     me "诶！骗人的吧？？"
-    extend "\n能，能不能，把那本书给我看看。"
-    "嗯……并没有什么特别的调味料。"
+    extend "\n能、能不能，把那本书给我看看。"
+    "嗯……并没有什么特别的调味料啊。"
     extend "\n那么，就应该是猪肉本身很美味……？"
-    me "月，这个，是用的高档的肉吗？"
+    me "月，这个，是用了什么高档肉吗？"
     show tuki 5 with dissolve
-    tuki "是高野黑猪。"
-    extend "\n家里的佣人准备的。"
+    tuki "是鹿儿岛黑猪。"
+    extend "\n是佣人帮我们准备的。"
     play sound "fx/boing.ogg"
     $ renpy.transition(Quake(0, 60, 0.1, 0.06), layer='master')
-    me "高，高高高高野……！？！？"
+    me "鹿、鹿鹿鹿鹿儿岛黑猪……！？！？"
     "喂喂喂等等！！"
     extend "\n区区一个照烧三明治，竟然用了这么好的肉！！！"
-    me "喂，喂喂喂！！\n现在我们只是在做学园祭的菜品啊。"
-    extend "\n要是买那种高价的肉，预算可就不够了哦！"
+    me "喂、喂喂！！\n我们现在只是在做学园祭的菜品啊。"
+    extend "\n用这么名贵的肉，预算可就不够了哦！"
     show tuki 11 with dissolve
     tuki "……啊，是这样啊。"
-    "所，所以说有钱人家的少爷真是……。"
-    extend "\n不过话说回来，明明听说是要做学园祭的菜，\n却准备了这么贵的肉，佣人也太可怕了吧……。"
-    me "算，算了，当天就用便宜的食材吧，\n今天就专心研究料理吧。"
+    "所、所以说这些阔少爷啊……。"
+    extend "\n不过话说回来，明明听说是要做学园祭的菜，\n却还会准备这种顶级食材的佣人也太可怕了……。"
+    me "算、算了，当天就用便宜的食材吧，\n今天就先专心掌握烹饪方法。"
     show tuki 17 with dissolve
-    tuki "是啊，就这么办吧。"
+    tuki "也对，那就这么办吧。"
     window hide
     hide tuki with dissolve
     show sora 10 at top with dissolve
     window show
     sora "哥哥！[player_name]君，快看快看！！"
-    extend "\n我做好好吃的芭菲了哦！"
+    extend "\n我做了看起来超级好吃的芭菲哦！"
     "空一边喊着一边飞奔过来，然后把芭菲端了过来……"
     window hide
     play sound "fx/sparkle.ogg"
@@ -2382,109 +2382,109 @@ label day2_cooking:
     hide tuki
     hide sora
     window show
-    me "那，那个，空啊……那个芭菲……。"
+    me "那、那个，空君……那个芭菲……。"
     sora "诶嘿嘿。"
-    extend "\n把喜欢的点心全部装进去之后，就变成了这个样子了。"
+    extend "\n把喜欢的点心全部装进去之后，就变成这个样子了。"
     play sound "fx/ding.ogg"
-    "非常……大……。"
-    me "等，等等等等等等！！！"
-    extend "\n能快乐地研究美食，这种心情非常棒！"
-    extend "\n但，但是啊，月也说了，这些美食终究得在学园祭上制作！"
-    extend "\n当天可做不了那么大的芭菲啊！！"
+    "真的……好大啊……。"
+    me "等、等等等等等一下！！！"
+    extend "\n想要开心地做出美味料理的这份热情和心意是很棒啦！"
+    extend "\n但、但是啊，就像我对月君说的那样，这终究是学园祭用的菜单！"
+    extend "\n这么巨大的芭菲，当天根本不可能量产得出来啊！！"
     stop sound fadeout 0.5
     hide cg with dissolve
     show sora 33 at top with dissolve
     play sound "fx/boing.ogg"
-    sora "啊，是这样吗……。"
-    me "总之啊，你们两个都想想接下来的事吧！！"
-    extend "\n简单！快速！简易！"
-    extend "\n之后为了教会大家做法，\n也为了当天可以制作，不遵守这个规则是行不通的。"
+    sora "啊，对哦……。"
+    me "总之啊，你们两个都给我把这三点记在脑子里！！"
+    extend "\n便宜！迅速！简单！"
+    extend "\n既然之后还要教班上的大家怎么做，\n而且当天还要现场制作，如果不遵守这几点，是行不通的哦。"
     hide sora with dissolve
     show tuki 17 at topleft with dissolve
     tuki "……确实是，[player_surname]君说的对。"
-    extend "\n我们的想法太天真了。"
+    extend "\n看来我们的想法太天真了。"
     show sora 13 at topright with dissolve
-    sora "并不是只要我们觉得满意就可以了。"
+    sora "毕竟不能只让我们自己觉得满意就行了呢。"
     extend "\n[player_name]君的话我们记在心上了。再试一次吧。"
     hide tuki with dissolve
     hide sora with dissolve
-    "说完，我们回到了各自的位置，重新开始开发。"
+    "说完，我们回到了各自的位置，重新开始了菜单开发。"
     window hide
     hide bg with dissolve
     show bg akamine_house1_evening at center with Dissolve(0.8)
     window show
-    "过了几个小时，我们参考料理书，烹调料理，"
-    extend "\n然后再以此为基础构思出新的菜单，制作出来，"
-    extend "\n三人制作的料理，盛放在桌上。"
+    "几个小时过去，我们参考着烹饪书进行烹调，"
+    extend "\n并以此为基础构思，制作出了全新的菜单。"
+    extend "\n不知不觉间，桌上已经摆好了盛放着三人作品的盘子。"
     window hide
     show bg akamine_kitchen with dissolve
     show sora 3 at topright with dissolve
     window show
-    sora "哥哥做的三明治，看起来好好吃~！"
+    sora "哥哥做的三明治，看起来好好吃哦~！"
     show tuki 15 at topleft with dissolve
-    tuki "空做的芭菲看起来也很好吃。"
+    tuki "空做的芭菲看起来也很有水准。"
     extend "\n你们做得真好。"
     me "嗯嗯！每个看起来都很不错。"
     extend "\n那么，我们现在开始试吃吧！"
     show sora 1 with dissolve
     sora "嗯！"
-    extend "\n在做菜的时候，一直在看着很好吃的料理，\n肚子好饿。"
+    extend "\n做菜的时候一直看着这些美食，\n肚子早就饿扁啦。"
     extend "\n我开动了！"
     hide sora with dissolve
     hide tuki with dissolve
-    "然后，我们开始吃试作品。"
+    "接着，我们开始品尝起这些试作品。"
     window hide
     show sora 3 at topright with dissolve
     window show
-    sora "嗯，很好吃！"
+    sora "嗯，好香！"
     show sora 1 with dissolve
     extend "\n哥哥，这个照烧三明治，真的很好吃呢！！"
     show tuki 9 at topleft with dissolve
     tuki "是吗，那太好了。"
-    extend "\n当天没法使用这种肉，\n所以我就试着在调味上下功夫。"
+    extend "\n因为当天没法使用这种肉，\n所以我就试着在调味上下功夫。"
     show tuki 1 with dissolve
     extend "\n……嗯？这个汉堡是谁做的？"
     me "啊，是我做的。"
     show sora 26 with dissolve
-    sora "哇啊~味道好香啊~。"
+    sora "哇啊~闻起来好诱人啊~。"
     extend "\n我开动了！"
     extend "\n……。"
     show sora 10 with dissolve
     play sound "fx/cute2.ogg"
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
-    extend "\n嗯！这个也，非常的好吃！！"
+    extend "\n嗯！这个也，非常好吃！！"
     show tuki 4 with dissolve
-    tuki "的确，非常的多汁，肉也很厚实，让人很有饱腹感。"
-    extend "\n和那附近的快餐店的东西相比，美味多了。"
-    "嘛，嘛，用了那么高级的肉，\n只要不是犯了什么大的错误的话，做出的东西肯定好吃的。"
-    extend "\n但是，能这样看到你们两个人吃得这么开心，我非常高兴……。"
-    extend "\n你们俩看起来也很好吃的样子啊……。"
+    tuki "的确，口感非常多汁且肉质厚实，饱腹感很强。"
+    extend "\n比那一带快餐店里卖的东西要美味得多。"
+    "嘛，虽说如此，用了那么顶级的肉，\n只要不是犯了什么离谱的错误，做出的东西肯定好吃啊……。"
+    extend "\n不过，看到你们两个吃得这么开心，我真的很欣慰……。"
+    extend "\n说起来，你们俩看起来也很好吃的样子啊……。"
     show sora 3 with dissolve
     sora "啊，对了！"
-    extend "\n光我们几个人吃的话有点多，\n让妈妈，还有佣人们也尝尝吧。"
+    extend "\n光我们几个人吃的话分量太多了，\n也让妈妈还有佣人们尝尝吧。"
     show tuki 18 with dissolve
     tuki "是啊。"
-    extend "\n毕竟都花了不少功夫，必须要向他们道谢才行。"
-    "养育了这么孝顺的好孩子，父母也会高兴的。"
-    extend "\n而且，双胞胎还是两位美男子……。"
+    extend "\n毕竟麻烦了大家不少事情，理应向他们表达谢意。"
+    "能培养出这么孝顺的好孩子，父母也会感到很欣慰吧。"
+    extend "\n而且，双胞胎还是一对绝世美少年……。"
     play sound "fx/sparkle.ogg"
-    extend "\n赤峰家……太棒了！！"
+    extend "\n赤峰家……简直太棒了！！"
     window hide
     hide tuki with dissolve
     hide sora with dissolve
     hide bg with dissolve
     show bg akamine_house1_evening at center with Dissolve(0.8)
     window show
-    "点到为止地试吃过之后，剩下的就交给佣人们，然后我们就开始收拾了。"
+    "试吃得差不多之后，剩下的就交给佣人们，然后我们就开始收拾了。"
     extend "\n月和我负责洗碗，空负责擦干并放入橱柜。"
-    extend "\n佣人又想来给他们两人收拾，"
-    extend "可月和空说优先准备其他人的晚饭。\n这次佣人老老实实放弃了。"
+    extend "\n虽然家仆又想过来帮忙，"
+    extend "可月和空说优先准备其他人的晚饭。\n这次佣人老老实实退下了。"
     window hide
     stop music fadeout 2.0
     show bg akamine_kitchen with dissolve
     show sora 13 at top with dissolve
     window show
-    sora "……嗯，里面有个黑色的……？"
+    sora "……嗯，碗柜里面有什么黑乎乎的东西……？"
     window hide
     hide sora with dissolve
     hide bg with dissolve
@@ -2494,22 +2494,22 @@ label day2_cooking:
     $ renpy.transition(Quake(0, 100, 0.2, 0.06), layer='master')
     play sound "fx/explosion2.ogg"
     "呀啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊！！！！！！！！！"
-    "空大声的尖叫响彻整个厨房。"
+    "空的尖叫声响彻整个厨房。"
     play music "emergency.ogg"
     show bg akamine_kitchen with FadeBlack(0.3)
-    me "空，空！？"
+    me "空、空君！？"
     show tuki 12 at topleft with dissolve
     tuki "怎么了！？发生什么了！？"
     show sora 16 at topright with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
-    sora "哥，哥哥！！"
-    extend "\n碗，碗碗碗柜里有……大蜘蛛啊……！！"
+    sora "哥、哥哥！！"
+    extend "\n碗、碗碗碗柜里有……大蜘蛛啊……！！"
     show sora 8 with dissolve
-    extend "\n哇啊，哇啊啊啊啊啊它过来了啊啊啊啊啊！！！！！！！！"
+    extend "\n哇、哇啊啊啊啊啊它过来了啊啊啊啊啊！！！！！！！！"
     play sound "fx/running.ogg"
     hide sora with dissolve
-    "空完全慌了，到处乱窜。"
+    "彻底陷入恐慌的空，在厨房里四处乱窜。"
     hide tuki with dissolve
     show tuki 12 at top with dissolve
     tuki "空！冷静点！！"
@@ -2518,9 +2518,9 @@ label day2_cooking:
     extend "\n让空遇上这种事情……罪该万死！！！"
     hide tuki with dissolve
     play sound "fx/wind_slash.ogg"
-    "月边说边拿起旁边拖把，\n瞄准那个在厨房里四处移动的蜘蛛。"
-    "可对手可不是一般的蜘蛛啊。"
-    extend "\n是面对人类也不怕的勇猛果敢的蜘蛛，\n简直就像经历无数战争的大将一般。"
+    "月边说边拿起旁边的拖把，\n瞄准那个在厨房里四处爬动的蜘蛛。"
+    "然而，对手也不是寻常的蜘蛛啊。"
+    extend "\n它毫无畏惧人类之色，展现出一种勇猛果敢的姿态，\n简直就像从无数次战火中幸存下来的大将一般。"
     return
 
 label day2_supply:
@@ -4378,58 +4378,58 @@ label day2_cooking_tuki:
     show bg akamine_kitchen at center
     window show
     me "月，我来助你一臂之力！！"
-    "我把书桌上的烹饪书卷起来，站在月的身旁。"
+    "我把书桌上的烹饪书卷成筒状，摆好架势站在月身边。"
     window hide
     show tuki 19 at top with dissolve
     window show
     tuki "你快和空一起逃！！"
-    extend "\n这里我一个人想办法……！"
-    me "你在说什么呢！\n在战场上丢下少年，正太控听到后都要傻眼了！"
+    extend "\n这里交给我一个人就够了……！"
+    me "你在说什么傻话！\n在战场上丢下少年，正太控听到后都要感到羞耻啊！"
     extend "\n不管月说什么，我都要和你战斗到底。"
     extend "\n空已经出去了，你不用担心！！"
     show tuki 17 with dissolve
-    tuki "是吗……\n那你就好好表现表现吧。"
+    tuki "是吗……\n既然如此，那就让我见识一下你的气魄吧。"
     window hide
     show cg remarkable at center with dissolve
     window show
-    tuki "正如你所见，对方不仅反应迅速，对声响也很敏感。"
-    extend "\n慢慢将敌人逼到绝路的战法是行不通的"
-    me "原来如此。\n也就是说必须一击必杀吗。"
+    tuki "正如你所见，对手动作极快，且对声音反应灵敏。"
+    extend "\n那种慢慢逼近的战法对它是不起作用的。"
+    me "原来如此。\n也就是说，必须一击必杀吗。"
     window hide
     hide tuki with dissolve
     hide cg with dissolve
     show tuki 8 at top with dissolve
     window show
     tuki "是的。"
-    extend "\n但是，敌方只有一只，我方有两个人……必须要利用这优势。"
-    extend "\n这里就采取前后夹击吧。\n我从右侧，[player_surname]君在左侧，数到3的同时发动攻击。"
-    me "明白！！\n动作可不要慢了哦！"
+    extend "\n而且，敌方只有一只，而我方有两个人……必须要利用这份优势。"
+    extend "\n这里就采取前后夹击吧。\n我从右侧，[player_surname]君从左侧，数到三的同时发动攻击。"
+    me "明白！！\n还真敢说啊。"
     show tuki 18 with dissolve
     tuki "哼……真会说。"
     show tuki 7 with dissolve
-    extend "\n那我要上了。\n一，二"
+    extend "\n那么，要上了。\n一，二——"
     stop music fadeout 0.5
     play sound "fx/wind_slash.ogg"
     hide bg with Dissolve(0.2)
     hide tuki with Dissolve(0.2)
-    tuki "3！！！！"
+    tuki "三！！！！"
     show cg remarkable at center with FadeWhite(0.5)
     $ renpy.transition(Quake(0, 70, 0.2, 0.06), layer='master')
     play sound "fx/punch.ogg"
-    "啪嚓"
+    "（啪嚓！）"
     "！？！？"
     play music "discovery.ogg"
     window hide
     show cg c60 with zoominout
     window show
-    "被干掉的人是我。"
-    "由于我手短，没能提前一步冲出去。"
-    extend "\n留有退路的敌人迅速躲开了攻击，\n月的拖把向冲出去的我袭来。"
-    me "咕嘿……好，好臭啊…。"
-    tuki "对，对不起！！"
-    extend "\n可恶……武器不同，时机也差了点。"
+    "被干掉的，是我。"
+    "我这种手短的人，偏偏还抢先一步冲出去，真是失策。"
+    extend "\n留有退路的敌人迅速躲开了攻击，\n而月的拖把，就这样直接拍在了冲出去的我身上。"
+    me "咕嘿……好、好臭啊……。"
+    tuki "对、对不起！！"
+    extend "\n可恶……武器不同，时机也差了些。"
     stop music fadeout 2.0
-    me "呜呜……这样下去的话，就算攻击了也会被躲开啊。\n到底该怎么做……。"
+    me "唔唔……这样下去的话，就算再怎么攻击，也会被它躲开的吧。\n到底该怎么办……。"
     show bg akamine_kitchen at center
     extend "\n我们，难道赢不了他吗……？"
     window hide
@@ -4439,12 +4439,12 @@ label day2_cooking_tuki:
     window show
     tuki "我可不喜欢当窝囊废。"
     extend "\n无论身处什么状况，都要与对手对抗到底。"
-    extend "\n如果时机不对，就攻击到时机对为止！"
+    extend "\n既然默契还不够，那就攻击到我们合拍为止！"
     me "……噢！"
-    extend "\n不愧是月，很男子汉，很帅气啊！"
+    extend "\n不愧是月，这番话很有男子汉气概，真帅啊！"
     show tuki 7 with dissolve
-    tuki "那种话等胜利后再说！"
-    extend "\n要上了哦！\n一，二"
+    tuki "那种话，等胜利后再说！"
+    extend "\n要上了哦！\n一，二——"
     play sound "fx/wind_slash.ogg"
     show cg remarkable at center with FadeWhite(0.5)
     hide bg
@@ -4453,60 +4453,60 @@ label day2_cooking_tuki:
     tuki "三！！！"
     $ renpy.transition(Quake(0, 70, 0.2, 0.06), layer='master')
     play sound "fx/punch2.ogg"
-    "扑咚"
+    "（扑咚）"
     show bg akamine_kitchen at center
-    "月用拖把堵住了敌人逃跑的退路，\n但敌人迅速地迂回逃走了。"
+    "我挥出的重击再次落空，月用拖把封锁了敌人的退路，\n但敌人竟然灵活地一个迂回，再次逃出生天。"
     hide tuki with FadeWhite(0.5)
     hide cg with FadeWhite(0.5)
     me "可恶~太狡猾了……！！！"
     show tuki 19 at top with dissolve
-    tuki "还没结束……还没放弃！"
-    extend "\n我是赤峰家的长子！我一定会击败敌人的！！"
+    tuki "还没结束……还没到放弃的时候！"
+    extend "\n我乃赤峰家长男——月！定要亲手将这强敌讨伐！！！"
     hide tuki with dissolve
     window hide
     window show
     play sound "fx/sliding_door.ogg"
-    "嘎啦"
+    "（嘎啦——）"
     sora "哥哥！"
     "朝着声音的方向看去，"
     window hide
     play sound "fx/running.ogg"
     show sora 23 at topright with dissolve
     window show
-    extend "是手拿着棒状的袋子的空。"
+    extend "只见空手里抱着一个长条形的布袋跑了进来。"
     show tuki 12 at topleft with dissolve
     tuki "空！？"
-    extend "\n我不是让你先走吗！\n为什么要回来啊！？"
+    extend "\n我不是让你先走吗！\n为什么要回来！？"
     show sora 10 with dissolve
-    sora "是为了和哥哥一起战斗，一起前进！！\n"
+    sora "是为了和哥哥一起战斗，一起前进！！"
     window hide
     play sound "fx/wind_slash.ogg"
     show cg c48 1 at center with FadeWhite(0.5)
     window show
-    extend "把这个，收下！！"
+    extend "\n哥哥，接住这个！！"
     play sound "fx/impact_japanese.ogg"
     show cg c48 2 with FadeWhite(0.5)
     tuki "这是……。"
-    extend "\n空，感谢你！"
-    extend "\n正好我想要这个呢！！"
-    "月接住了的东西，"
-    extend "是一把竹刀！"
+    extend "\n感激不尽，空！"
+    extend "\n这正是我现在最渴望的神兵利器！！"
+    "月顺势接住并顺滑地抽出了袋中的东西——"
+    extend "那竟然是一把竹刀！"
     play sound "fx/boing.ogg"
-    me "不应该拿杀虫剂吗！？\n为什么是竹刀！！？"
+    me "不应该拿杀虫剂吗！？\n为什么会是竹刀啊！！？"
     sora "赤峰家代代都是武士。"
     extend "\n手持长刀，将自身流派发展到极致的先祖们创立了道场，\n将其命名为赤峰道场，将剑术传承到了后世。"
-    extend "\n当背负着赤峰之名的我们面对敌人时，手上要拿着刀！"
-    tuki "没错，模拟刀的竹刀，能让我们发挥出最大的力量。"
-    extend "\n手持武士刀的武士，就像他的刀锋一样，用刀背保护同伴，\n刀刃则只面向敌人，而且必胜无疑。"
-    extend "\n这就是赤峰家流武士的信念！！"
+    extend "\n当背负着赤峰之名的我们面对敌人时，唯有持刀方能一战！"
+    tuki "没错，仿照刀形制作的竹刀，能让我们发挥出最大的力量。"
+    extend "\n手持兵刃的武士，当如单刃之刀——以『峰』保护同伴，\n以『刃』直面强敌，且必胜无疑。"
+    extend "\n此乃我赤峰家流武士之心得！！"
     hide bg
     hide tuki
     hide sora
-    tuki "[player_surname]，你给我把拖把拿过来……。\n这样东西正好适合当武器。"
-    extend "\n上！\n呜哦哦哦！！！"
+    tuki "[player_surname]！把拖把接过去……。\n这样一来，武器的长度就对得上了。"
+    extend "\n要上了！\n唔哦哦哦！！！"
     show cg remarkable with Radial(0.5)
     play sound "fx/explosion2.ogg"
-    "我和拿着竹刀的月，气势汹汹地攻击蜘蛛！"
+    "我与手持竹刀的月合力出击，气势汹汹地刺向蜘蛛！"
     $ renpy.transition(Quake(0, 70, 0.2, 0.06), layer='master')
     play sound "fx/dash.ogg"
     "虽然蜘蛛勉强避开了拖把，但最终还是成了月竹刀下的亡魂。"
@@ -4515,7 +4515,7 @@ label day2_cooking_tuki:
     show cg c52 with Dissolve(2.0)
     window show
     tuki "……你可别怪我。"
-    extend "\n我有自己的必须保护的人。"
+    extend "\n我也有……必须要保护的人。"
     "……那个，这是什么电视剧吗？"
     stop music fadeout 2.0
     window hide
@@ -4528,46 +4528,46 @@ label day2_cooking_tuki:
     show tuki 4 at top with dissolve
     window show
     tuki "[player_surname]，我得好好感谢你的帮助。"
-    extend "\n多亏了你，我们才能成功获胜。"
-    me "不，不是的，说到底击败对方的还是月……。"
+    extend "\n多亏了你，我们才能出色地赢得这场胜利。"
+    me "不、不是的，说到底给它致命一击的还是月君啊……。"
     show tuki 18 with dissolve
     tuki "别因为结果而忽略了过程。"
-    extend "\n没有那些帮助者，就不会有胜利的结局。"
-    extend "\n别因为自己的表现而妄自菲薄。"
+    extend "\n胜利是建立在协助者的奉献之上的。"
+    extend "\n对于展现了男子气概的自己，没必要这么谦虚。"
     show tuki 4 with dissolve
-    tuki "[player_surname]我对你刮目相看了哦。"
-    "……呃，我们，刚才不还在考虑菜单吗……。"
-    extend "\n这是什么气氛，仿佛刚刚经历了赌上性命的决斗一样！？"
+    tuki "[player_surname]，我对你刮目相看了哦。"
+    "……那个，我们刚才难道不是在研究烹饪菜单吗……？"
+    extend "\n这种仿佛刚刚结束了一场赌上性命的决斗般的气氛到底是怎么回事啊！？"
     hide tuki with dissolve
     window hide
     show sora 3 at topright with dissolve
     window show
-    sora "对了！\n[player_name]君，要不要到我们道场练习？"
+    sora "对了！\n[player_name]君，要不要到我们的道场练习？"
     extend "\n一定会变得比现在更加强大的！！"
     show tuki 15 at topleft with dissolve
     tuki "嗯，这个建议不错。"
     extend "\n让我们一同锻炼身心吧。"
-    me "啊，哈哈……不是的~感谢你的邀请，但是，\n我已经在别的道场练习了……！"
-    extend "\n我觉得，赤峰道场对我来档次有些太高了~。"
+    me "啊，哈哈……那个~虽然很感谢你们的邀请，\n但我已经在别的道场练习了……！"
+    extend "\n赤峰道场对我来说，档次可能稍微高了一点点~什么的。"
     show tuki 6 with dissolve
-    tuki "嚯嚯，哪一个道场？"
-    extend "\n从刚才你的动作来看，应该不只是空手道吧？"
+    tuki "嚯嚯，是哪一个道场？"
+    extend "\n从刚才的动作来看，你应该不单单只练过徒手格斗吧？"
     show sora 4 with dissolve
-    sora "这附近的道场，也只有我家的剑道场了呢~。"
-    extend "\n你的动作到底是从哪里学来的啊，我很想知道……。"
+    sora "这一带除了我家，基本就没有其他剑道场了呢~。"
+    extend "\n你到底是在哪里习得那种身手的，我也很好奇啊……。"
     "诶……为什么话题突然就变成这个样子了？？"
     play sound "fx/cute.ogg"
     $ renpy.transition(Quake(0, 80, 0.15, 0.1), layer='master')
-    extend "\n这，这个，不是在说如何消灭蜘蛛的吗！？"
-    extend "\n对方是蜘蛛，而舞台就是厨房对吧！！？"
+    extend "\n这、这明明只是在聊怎么抓蜘蛛的话题对吧！？"
+    extend "\n对手只是只蜘蛛，而舞台不过是间厨房而已啊！！？"
     return
 
 label day2_cooking_sora:
     show bg akamine_kitchen at center
     window show
-    me "空，冷静一下！"
-    extend "\n这里就交给月，总之我们先离开这里！"
-    "我抓住了正在四处逃窜的空，然后拉着他的手走出了厨房。"
+    me "空君，冷静一下！"
+    extend "\n这里就交给月君处理，总之我们先离开这儿！"
+    "我抓住了正乱了分寸的空，拉着他的手快步走出了厨房。"
     play sound "fx/running.ogg"
     stop music fadeout 0.5
     window hide
@@ -4576,40 +4576,40 @@ label day2_cooking_sora:
     show bg akamine_house2_evening with dissolve
     window show
     sora "……呜呜……呜呜。"
-    "虽然空已经恢复冷静了，但是身体却还在轻微地颤抖。"
-    "虽然不合时宜，但是我看着空这副模样，突然觉得他好可爱。"
-    "为了让空冷静下来，我温柔地抱住空，然后轻轻地抚摸他的后背。"
-    extend "\n然后，空的颤抖也逐渐平息了，没过多久，就冷静下来了。"
+    "虽然空已经逐渐恢复了冷静，但身体仍在微微发抖。"
+    "虽然有些不合时宜，但看着空这副模样，我心底竟泛起了一阵怜爱之情。"
+    "为了让他安定下来，我温柔地抱住空，然后轻轻地抚摸他的后背。"
+    extend "\n渐渐地，空的颤抖逐渐平息，过了一会儿，终于彻底平静下来。"
     window hide
     show sora 9 at top with dissolve
     window show
     sora "呜哇……好可怕……。"
     me "好了好了，已经没事了。"
-    extend "\n这里的话你大可放心的哦。"
+    extend "\n在这里就放心吧。"
     show sora 20 with dissolve
     sora "呜呜……对不起，让你看见我这副丢人的样子了。"
-    extend "\n我，我实在是害怕蜘蛛啊……。"
-    me "那也是没办法的啊。"
-    extend "\n虽然我对虫子没什么感觉，但是，刚才那样的话我也会被吓到的啊。"
+    extend "\n真的，对昆虫和蜘蛛之类的最没办法了……。"
+    me "这也难怪啊。"
+    extend "\n虽然我对虫子倒还算无感，但刚才那种大块头，确实挺吓人的。"
     show sora 18 with dissolve
     sora "哈啊……呼……。"
     show sora 33 with dissolve
-    extend "\n唔嗯……已经冷静不少了……。"
-    me "话说回来，哭得这么厉害的空君也很可爱啊~。"
+    extend "\n唔嗯……已经好多了……。"
+    me "话说回来，哭鼻子的空君也很可爱啊~。"
     extend "\n没想到你居然会慌张成这样。"
     show sora 27 with dissolve
-    sora "真是的！别，别嘲笑我了。"
-    extend "\n因为，我还是第一次看到这么大的东西呢……。"
+    sora "真是的！别、别取笑我啦。"
+    extend "\n因为，那么大的东西，我还是第一次见到嘛……。"
     play sound "fx/cute2.ogg"
     "这句台词，是不是有点下流？"
     show sora 25 with dissolve
     sora "……不过，还是谢谢你救了我。"
     me "没事没事，不用客气。"
-    extend "\n拯救可爱的小男生，可是身为正太控的我理所应当要做的事！"
+    extend "\n拯救可爱的男孩子，可是身为正太控理所应当要做的事啊！"
     show sora 14 with dissolve
     sora "你在说什么啊……。"
-    me "嗯……月君的情况也挺让人在意的。"
-    extend "\n……他没事吧？"
+    me "嗯……月君那边的情况也挺让人在意的。"
+    extend "\n……他没问题吧？"
     stop music fadeout 0.5
     window hide
     play music "fx/wind.ogg"
@@ -4619,7 +4619,7 @@ label day2_cooking_sora:
     sora "啊，对了！"
     extend "哥哥还在厨房里……。"
     show sora 18 with dissolve
-    extend "\n怎，怎么办啊……虽然很担心他，但回去之后又……。\n呜呜……。"
+    extend "\n怎、怎么办啊……虽然很担心他，但如果要再回去面对那个东西的话……\n呜呜……。"
     show sora 13 with dissolve
     sora "……。"
     show sora 22 with dissolve
@@ -4627,64 +4627,64 @@ label day2_cooking_sora:
     window hide
     hide cg with FadeWhite(0.5)
     window show
-    sora "……不对！"
+    sora "……不、不行！"
     play music "japanebattle.ogg"
     extend "\n哥哥正在战斗，身为弟弟的我怎么可以逃跑！"
     show sora 17 with dissolve
-    extend "\n不能给赤峰家的二少爷丢脸！"
+    extend "\n身为赤峰家的二少爷，我绝不能做出这种没出息的事！"
     hide sora with dissolve
     play sound "fx/wind_slash.ogg"
     "这么说着，空气势十足地站起身来。"
     window hide
     show sora 22 at top with dissolve
     window show
-    sora "[player_name]君就在这里等我吧！"
-    extend "\n我去救他回来！"
-    me "诶，诶诶？！"
-    extend "\n但是，究竟该怎么……？"
+    sora "[player_name]君，就在这里等我吧！"
+    extend "\n我去助哥哥一臂之力！"
+    me "诶、诶诶？！"
+    extend "\n但是，你打算怎么帮……？"
     play sound "fx/running.ogg"
     hide sora with dissolve
-    "空没有回答我的问题，而是朝着厨房走去。"
-    me "喂，我也要一起去！！"
+    "还没等我问完，空就已经头也不回地冲向了厨房。"
+    me "等等，我也要一起去！！"
     play sound "fx/running.ogg"
     window hide
     hide bg with dissolve
     show bg akamine_kitchen at center with dissolve
     show tuki 19 at top with Dissolve(0.8)
     window show
-    tuki "可恶，挺能干的嘛……\n用不惯的拖把是打不倒那家伙的……。"
+    tuki "可恶，真难对付……\n用这种不习惯的拖把，根本没法把它解决掉……。"
     extend "\n但是，要是放跑这家伙的话，空会再次陷入危险……。"
-    extend "\n这种时候要是有那个就好了……！"
+    extend "\n这种时候，要是有『那个』就好了……！"
     hide tuki with dissolve
     play sound "fx/fall_down.ogg"
     show sora 23 at topright with dissolve
     sora "哥哥！"
     show tuki 12 at topleft with dissolve
     tuki "空！？"
-    extend "\n我不是让你先走吗！\n为什么要回来啊！？"
+    extend "\n我不是让你先走吗！\n为什么要回来！？"
     show sora 10 with dissolve
     sora "是为了和哥哥一起战斗，一起前进！！"
     window hide
     play sound "fx/wind_slash.ogg"
     show cg c48 1 at center with FadeWhite(0.5)
     window show
-    extend "把这个，收下！！"
+    extend "哥哥，接住这个！！"
     play sound "fx/impact_japanese.ogg"
     show cg c48 2 with FadeWhite(0.5)
-    tuki "这个是……。"
-    extend "\n空，感谢你！"
-    extend "\n正好我想要这个呢！！"
-    "月接住了的东西，"
-    extend "是一把竹刀！"
+    tuki "这是……。"
+    extend "\n感激不尽，空！"
+    extend "\n我现在正需要这家伙呢！！"
+    "月稳稳接住的东西，"
+    extend "竟然是一把竹刀！"
     play sound "fx/boing.ogg"
-    me "不应该拿杀虫剂吗！？\n为什么是竹刀！！？"
+    me "不应该拿杀虫剂吗！？\n为什么会是竹刀啊！！？"
     sora "赤峰家代代都是武士。"
     extend "\n手持长刀，将自身流派发展到极致的先祖们创立了道场，\n将其命名为赤峰道场，将剑术传承到了后世。"
-    extend "\n当背负着赤峰之名的我们面对敌人时，手上要拿着刀！"
-    tuki "没错，模拟刀的竹刀，能让我们发挥出最大的力量。"
-    extend "\n手持武士刀的武士，就像他的刀锋一样，用刀背保护同伴，\n刀刃则只面向敌人，而且必胜无疑。"
-    extend "\n这就是赤峰家流武士的信念！！"
-    tuki "呜哦哦哦哦！！！！！"
+    extend "\n当背负着赤峰之名的我们面对敌人时，唯有持刀方能一战！"
+    tuki "没错，仿照刀形制作的竹刀，能让我们发挥出最大的力量。"
+    extend "\n手持武士刀的武士，当如单刃之刀——以『峰』保护同伴，\n以『刃』直面强敌，且必胜无疑。"
+    extend "\n此乃我赤峰家流武士之心得！！"
+    tuki "唔哦哦哦哦！！！！！"
     show cg remarkable with Radial(0.5)
     play sound "fx/explosion2.ogg"
     "月握着竹刀，气势汹汹地向蜘蛛刺去！"
@@ -4693,7 +4693,7 @@ label day2_cooking_sora:
     show cg c52 with Dissolve(2.0)
     window show
     tuki "……你可别怪我。"
-    extend "\n我有自己的必须保护的人。"
+    extend "\n我也有……必须要保护的人。"
     "……那个，这是什么电视剧吗？"
     stop music fadeout 2.0
     window hide
@@ -4707,26 +4707,26 @@ label day2_cooking_sora:
     show tuki 9 at topleft with dissolve
     window show
     tuki "空，谢谢你。"
-    extend "\n多亏了你，我们才能成功获胜。"
+    extend "\n多亏了你，我们才能出色地赢得这场胜利。"
     show sora 32 with dissolve
-    sora "没事……我相信哥哥一定能赢。"
-    "……呃，我们，刚才不还在考虑菜单吗……。"
-    extend "\n这是什么气氛，仿佛刚刚经历了赌上性命的决斗一样！？"
+    sora "没那回事……因为我相信哥哥一定能赢。"
+    "……那个，我们刚才难道不是在研究烹饪菜单吗……？"
+    extend "\n这种仿佛刚刚结束了一场赌上性命的决斗般的气氛到底是怎么回事啊！？"
     show sora 3 with dissolve
-    sora "我能够帮上哥哥的忙，[player_name]君也帮了大忙了。"
+    sora "我之所以能帮上哥哥的忙，也是多亏了[player_name]君。"
     extend "\n[player_name]君不在的话，我一定会慌张失措，\n不可能冷静地做出那样的判断的。"
     show tuki 18 with dissolve
     tuki "是这样啊……[player_surname]君，非常感谢。"
-    extend "\n谢谢你帮助了空，也顺便救了我。"
-    me "没，没有啦~我什么都没做……。"
+    extend "\n谢谢你帮助了空，也间接帮了我，感激不尽。"
+    me "没、没有啦~我其实真的没做什么……。"
     show tuki 15 with dissolve
-    tuki "没那回事。"
-    extend "\n要是你不在的话，我或许会输掉这场战斗。"
-    extend "\n这是在场所有人的胜利。"
+    tuki "此言差矣。"
+    extend "\n如果你不在，这场战斗或许真的会输掉。"
+    extend "\n这是由在场的所有人共同夺取的胜利。"
     play sound "fx/cute.ogg"
     $ renpy.transition(Quake(0, 80, 0.15, 0.1), layer='master')
-    "所，所以说，这个是关于杀死蜘蛛的话题吧！？"
-    extend "\n对方是蜘蛛，而舞台就是厨房对吧！！？"
+    "这、这明明只是在聊怎么抓蜘蛛的话题对吧！？"
+    extend "\n对手只是只蜘蛛，而舞台不过是间厨房而已啊！！？"
     return
 
 label day2_supply_sakuya:
