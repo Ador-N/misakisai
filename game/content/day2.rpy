@@ -5333,20 +5333,20 @@ label day2_cooking_self:
     window hide
     play sound "fx/sliding_door.ogg"
     window show
-    servant "三位，有什么事吗？\n我好像，听到很大的声音了……。"
+    servant "三位，出什么事了吗？\n我刚才好像听到这里传出了很大的动静……。"
     show tuki 18 at topleft with dissolve
-    tuki "啊。\n厨房里出现了一只大蜘蛛，我们已经处理好了。"
-    servant "啊呀啊呀……那空一定受了不少罪吧。\n没事吧？"
-    extend "\n一会儿我给你端温热的茶来。"
+    tuki "啊。\n厨房里出现了一只大蜘蛛，不过我已经处理好了。"
+    servant "啊呀啊呀……那空少爷一定受了不少罪吧。\n您没事吧？"
+    extend "\n晚些时候，我会为您送些热茶过来的。"
     show sora 1 at topright with dissolve
     sora "谢谢。"
     show sora 3 with dissolve
-    extend "\n对了，我们的手艺怎么样？"
-    extend "\n我有点想知道母亲和其他的佣人怎么看。"
-    servant "嗯，非常好。"
-    extend "\n大家吃得很开心，觉得非常美味。"
-    extend "\n到时候也请你们像今天一样努力。"
-    extend "\n那我先去端茶了。"
+    extend "\n对了，我们刚才试做的那些菜，大家觉得怎么样？"
+    extend "\n我很在意母亲和其他的佣人们怎么看。"
+    servant "嗯，非常出色。"
+    extend "\n大家都在说非常美味，吃得很开心呢。"
+    extend "\n到了学园祭当天，也请各位像今天这样继续努力。"
+    extend "\n那么，我先去准备茶水了。"
     play sound "fx/sliding_door.ogg"
     "佣人先生说着，再次离开了厨房。"
     window hide
@@ -5354,15 +5354,15 @@ label day2_cooking_self:
     hide sora with dissolve
     show sora 11 at topright with dissolve
     window show
-    sora "太好了！哥哥，[player_name]君。"
+    sora "太好了！哥哥，还有[player_name]君。"
     show tuki 9 at topleft with dissolve
     tuki "是啊。"
-    me "嗯"
+    me "嗯。"
     show cg red at center with dissolve
     "……这就是赤峰家的家风吧。"
-    extend "\n我觉得自己明白了他俩早上说的那句话。"
+    extend "\n对于两人早上说的那番话，我现在似乎也能理解一些了。"
     "家里还有其他的人什么的，真是个奇怪的家啊。"
-    extend "\n不过，在这个奇怪的家里，大家却能互相理解。"
+    extend "\n但在那深处，却有着紧密相连的羁绊与坚定的信念。"
     extend "\n我感受到了和自己家里不同的，别样的家的温暖。"
     window hide
     hide sora with dissolve
@@ -5371,45 +5371,45 @@ label day2_cooking_self:
     show tuki 15 at topleft with dissolve
     window show
     tuki "对了，[player_surname]。"
-    extend "\n作为感谢你的帮助，今晚就在家里做晚饭给你吃吧。"
+    extend "\n作为你今天帮了忙的谢礼，今晚就留在家里，让我们请你吃顿饭吧。"
     show sora 3 at topright with dissolve
     sora "啊~说得对！"
-    extend "\n[player_name]君，你一定要留下来吃晚饭哦！！"
-    me "嗯~……\n抱歉，你们这么热情邀请我，我很高兴，不过这次就不用了。"
-    extend "\n因为妈妈正在家里等我回去吃饭。"
+    extend "\n[player_name]君，请务必留下来尝尝我们的手艺！！"
+    me "唔~……\n抱歉，虽然听到你们邀请我很高兴，但这次我就先心领了。"
+    extend "\n因为妈妈正在家里等我回去吃饭呢。"
     show sora 1 with dissolve
-    sora "这样啊……那，没办法了。"
-    extend "\n[player_name]君，你能够考虑到母亲的心情，真不简单。"
+    sora "这样啊……那就没办法了。"
+    extend "\n[player_name]君能够考虑到母亲的心情，很了不起呢。"
     me "啊哈哈，是吗？"
-    extend "\n硬要说的话，可能是因为我想念自己的家了。"
-    extend "\n最近这段时间，我很开心能和家人一起吃饭。"
+    extend "\n硬要说的话，可能是我在这儿待着待着，有点想念自己家了吧。"
+    extend "\n最近这段时间，能和家人坐在一起吃饭，让我觉得特别开心。"
     show tuki 8 with dissolve
-    tuki "你才来没几个小时，就开始想家了？"
-    extend "\n看来你还是太小了呢。"
-    me "不，不好意思！"
-    extend "\n别看我这样，其实我比你们大十岁哦！"
+    tuki "明明才来了几个小时，就开始想家了吗？"
+    extend "\n看来你也有挺幼稚的一面啊。"
+    me "太、太失礼了！"
+    extend "\n别看我这样，其实我比你们大10岁哦！"
     show sora 34 with dissolve
-    sora "你的意思是，你精神年龄很大吗？"
-    extend "\n毕竟你在关键时刻总是很可靠的，所以这倒也说不定……。"
-    me "关键时刻……你们是想说，平时我看上去就是个小孩吗……？"
+    sora "你的意思是，你的精神年龄很大吗？"
+    extend "\n毕竟你在关键时刻总是很可靠的，这么说倒也解释得通……。"
+    me "关键时刻可靠的意思是……平时我看起来就跟外表一样是个小孩吗……？"
     show tuki 1
     show sora 4 with dissolve
     tuki_and_sora "嗯。"
     play sound "fx/shock.ogg"
-    "失落！！"
+    "（受打击！！）"
     show tuki 4 with dissolve
-    tuki "总之，不用那么在意。"
-    extend "\n因为我们的成长才刚刚开始。"
-    me "哎，哎呀……过25岁后，代谢就会变差，\n记忆力和理解力也会逐渐衰退啊……。"
+    tuki "好啦，不用那么在意。"
+    extend "\n毕竟我们的成长才刚刚开始。"
+    me "不、不……过了25岁之后，代谢就会变差，\n记忆力和理解力也会逐渐衰退啊……。"
     show sora 26 with dissolve
     sora "啊哈哈哈！\n[player_name]君，你在说什么呢？"
-    extend "\n果然很有趣呢！"
+    extend "\n你果然很有趣呢！"
     hide tuki with dissolve
     hide sora with dissolve
-    "就这样，虽然在途中经历了一场战斗，但还是成功开发出了料理，\n"
+    "就这样，虽然在途中经历了一场战斗，但我们最终还是成功开发出了学园祭的料理。"
     hide bg with dissolve
     stop music fadeout 2.0
-    "顺利完成了第二天的料理组的工作。"
+    "\n料理组第二天的任务，算是圆满结束了。"
     window hide
     pause 0.4
     show bg living_room_night at center with Radial(1.0)
@@ -5418,30 +5418,30 @@ label day2_cooking_self:
     play sound "fx/door_open.ogg"
     me "我回来了~。"
     mother "欢迎回来~。"
-    extend "\n今天回来的有点晚啊。"
+    extend "\n今天回来得有点晚啊。"
     me "嗯。"
-    extend "\n我在朋友家里开发咖啡店的菜单。"
-    mother "哦，是这样啊。"
-    extend "\n居然特地把厨房借给你们，真是亲切呢。\n你们有好好遵守规矩吧？"
-    me "没事啦，又不是小孩子了。"
+    extend "\n我在朋友家里帮忙开发咖啡店的菜单呢。"
+    mother "哎呀，是这样啊~。"
+    extend "\n特意把厨房借给你们，真是好心啊。\n你们有好好遵守规矩吧？"
+    me "没问题啦。我又不是小孩子了。"
     extend "\n呼~今天也好开心啊。"
     play sound "fx/beer.ogg"
-    "我慢慢地从冰箱里取出罐装啤酒，打开了盖子。"
-    "噗。"
-    mother "喂，等一下！！[player_name]！？\n为什么要喝啤酒！！"
-    extend "\n你，还是未成年人吧！。"
+    "我慢条斯理地从冰箱里取出罐装啤酒，打开了拉环。"
+    "（噗——嘶）"
+    mother "喂，等一下！！[player_name]！？\n为什么要喝啤酒啊！！"
+    extend "\n你，还是未成年人吧！"
     play sound "fx/boing.ogg"
     me "啊！！"
-    "糟了！！不小心就养成平时的习惯了……。"
-    me "啊，啊哈哈。\n抱歉抱歉。"
-    extend "我搞错了，以为这是果汁。\n啊哈哈哈。"
-    "我干笑着掩饰过去了。"
+    "糟了！！下意识地就按平时的习惯……。"
+    me "啊、啊哈哈。\n抱歉抱歉。"
+    extend "我搞错了，以为这是果汁啊。\n啊哈哈哈。"
+    "我干笑着掩饰了过去。"
     mother "真是的……"
-    extend "\n你将来也想成为爸爸那样的\n一回家就开瓶大口喝啤酒的酒鬼吗？"
-    extend "\n我可不要啊~"
-    me "会，会那样吗~\n啊哈哈哈……。"
-    "总，总算蒙混过去了。好险好险。"
-    "在学校里说话也要注意点才好……。"
+    extend "\n真担心你将来也像爸爸一样，\n变成那种一回家就非得喝啤酒的酒鬼呢。"
+    extend "\n我可不要啊~↑"
+    me "会、会那样吗~\n啊哈哈哈……。"
+    "总、总算蒙混过去了。好险好险。"
+    "在学校里，也得注意别说漏嘴了啊……。"
     return
 
 label day2_design_self:
@@ -5452,56 +5452,56 @@ label day2_design_self:
     show tomo 8 at topleft with dissolve
     window show
     tomo "嗯~……"
-    extend "\n但是，我连领带怎么系都不知道啊……。"
+    extend "\n但是，我完全不懂怎么系领带呀……。"
     show sintarou 23 at topright with dissolve
-    sintarou "我也是……。"
-    me "啊啊，你们都是穿学生服，所以还没有系领带的机会啊。"
-    extend "\n那么，我来系一下吧。"
+    sintarou "咱也是……。"
+    me "啊，对哦。因为校服是立领的学生装，所以平时还没什么系领带的机会啊。"
+    extend "\n既然这样，那我自己来试一下好了。"
     window hide
     hide tomo with dissolve
     hide sintarou with dissolve
     pause 0.3
     window show
-    me "……嗯，大概这样吧？"
+    me "……嗯，大概就是这种感觉吧？"
     show sintarou 8 at topright
     show tomo 1 at topleft with dissolve
     tomo "哦~！！很不错嘛！"
-    sintarou "嗯嗯！很适合你呢[player_name]酱！"
-    extend "\n而且，打领带的动作很熟练呢。"
+    sintarou "嗯嗯！很适合你呢，[player_name]酱！"
+    extend "\n话说回来，你打领带的动作还真是熟练呢。"
     show sintarou 4 with dissolve
-    extend "\n下次也教教咱怎么打领带吧~。"
+    extend "\n下次也教教咱怎么打领带嘛~。"
     show tomo 4 with dissolve
     tomo "也教教我也教教我~！"
-    extend "\n这样的话，穿便服的时候也可以戴领带了。"
+    extend "\n这样的话，穿便服的时候也可以搭配领带了。"
     me "嗯，可以啊。"
-    extend "\n下次，我再仔细地手把手教你们。"
+    extend "\n下次我再找个机会，仔细地、『手把手地』教教你们。"
     hide tomo with dissolve
     hide sintarou with dissolve
     show sintarou 12 at top with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
-    sintarou "哇哦……那个说法，很色吧？"
+    sintarou "哇哦……那个说法，听起来色色的呢~？"
     me "嗯~？"
-    extend "\n这样的话，就把你们分别叫到房间里，\n一对一指导。"
+    extend "\n这样的话，就把你们分别叫到房间里，\n进行一对一的指导怎么样？"
     show sintarou 29 with dissolve
     sintarou "哇哦♪，真期待啊。"
     hide sintarou with dissolve
     show tomo 38 at topleft with dissolve
     play sound "fx/eureka.ogg"
-    tomo "那样也不错，但这里就干脆来个3P如何？"
+    tomo "那样也不错，不过这里干脆挑战一下3P如何？"
     show sintarou 9 at topright with dissolve
     sintarou "3P啊……"
     show sintarou 5 with dissolve
     play sound "fx/cute.ogg"
-    extend "\n按照我们这个阵容来看，感觉会是很不得了的事情啊~。"
+    extend "\n按照咱这个阵容来看，感觉会是很不得了的事情啊~。"
     show tomo 2 with dissolve
-    tomo "说得对~。"
+    tomo "没错没错~。"
     show tomo 11 with dissolve
     play sound "fx/cute2.ogg"
-    extend "\n特别是，[player_name]感觉会做非常不得了的事情啊~。"
+    extend "\n特别是，[player_name]感觉做出非常过火的事情来呢~。"
     play sound "fx/boing.ogg"
-    me "为，为什么一定要我啊……。"
-    extend "\n其他人先不说，和我比起来你们俩也没差多少啊。"
+    me "为、为什么偏偏是我啊……。"
+    extend "\n其他人先不说，我觉得你们两个跟我比起来，也没什么大差别吧。"
     hide sintarou with dissolve
     hide tomo with dissolve
     show sintarou 15 at top with dissolve
@@ -5509,13 +5509,13 @@ label day2_design_self:
     show cg adult at center
     play sound "fx/sparkle.ogg"
     show sintarou 22 with dissolve
-    extend "其，其实，\n连怎么生小孩我都不知道哦。"
+    extend "其、其实咱啊，\n连小宝宝是怎么生出来的都不知道哦。"
     hide sintarou with dissolve
     show sintarou 23 at topright
     show tomo 22 at topleft with dissolve
-    tomo "小慎。"
+    tomo "慎酱。"
     play sound "fx/sparkle.ogg"
-    extend "记得是，\n是天女从天而降把小孩送到人间的哦。"
+    extend "我记得那个，\n应该是鹳鸟从天上送过来的哦。"
     window hide
     hide tomo with dissolve
     hide sintarou with dissolve
@@ -5523,13 +5523,13 @@ label day2_design_self:
     play sound "fx/ding.ogg"
     window show
     me "……。"
-    "多么明显的睁眼说瞎话。"
-    extend "\n这么一看，不管现在怎么说装成熟，\n我都能明白这两个人和「初」完全不搭边了……。"
+    "真虚伪啊。"
+    extend "\n这么一看，不管现在怎么装纯，\n『纯情』这词根本跟他们沾不上边吧……。"
     stop sound fadeout 0.5
     window hide
     show cg umesaki at center with Dissolve(0.7)
     window show
-    "总算是找到了合适的领带的我们，订了两个班的量，\n顺利地完成了今天的服装班的工作。"
+    "总算是找到了合适的领带的我们，订购了两个班的量，\n顺利地完成了今天服装组的工作。"
     stop music fadeout 2.0
     window hide
     hide bg with Dissolve(0.9)
@@ -5543,30 +5543,30 @@ label day2_design_self:
     play sound "fx/door_open.ogg"
     me "我回来了~。"
     mother "欢迎回来~。"
-    extend "\n学园祭的准备工作做的怎么样了？"
+    extend "\n学园祭的准备工作做得怎么样了？"
     me "嗯。"
-    extend "\n然后去梅咲买学园祭要用的东西了。"
-    mother "哦，是这样啊。"
-    extend "\n不过那里晚上很危险的，不要玩到太晚哦。"
-    me "我知道。毕竟我已经不是第一次去了。"
+    extend "\n我去了趟梅咲，去采购学园祭要用的东西了。"
+    mother "哎呀，是这样啊~。"
+    extend "\n不过，那一带晚上很危险的，可不能在那里待到太晚哦？"
+    me "我知道啦。又不是第一次去了。"
     extend "\n呼~今天也好开心啊。"
     play sound "fx/beer.ogg"
-    "我慢慢地从冰箱里取出罐装啤酒，打开了盖子。"
-    "噗。"
-    mother "喂，等一下！！[player_name]！？\n为什么要喝啤酒！！"
-    extend "\n你，还是未成年人吧！。"
+    "我慢条斯理地从冰箱里取出罐装啤酒，打开了拉环。"
+    "（噗——嘶）"
+    mother "等、等一下！！[player_name]！？\n为什么要喝啤酒啊！！"
+    extend "\n你，还是未成年人吧！"
     play sound "fx/boing.ogg"
     me "啊！！"
-    "糟了！！不小心就养成平时的习惯了……。"
-    me "啊，啊哈哈。\n抱歉抱歉。"
-    extend "我搞错了，以为这是果汁。\n啊哈哈哈。"
-    "我干笑着掩饰过去了。"
+    "糟了！！下意识地就按平时的习惯……。"
+    me "啊、啊哈哈。\n抱歉抱歉。"
+    extend "我搞错了，以为这是果汁啊。\n啊哈哈哈。"
+    "我干笑着掩饰了过去。"
     mother "真是的……"
-    extend "\n你将来也想成为爸爸那样的\n一回家就开瓶大口喝啤酒的酒鬼吗？"
-    extend "\n我可不要啊~"
-    me "会，会那样吗~\n啊哈哈哈……。"
-    "总，总算蒙混过去了。好险好险。"
-    "在学校里说话也要注意点才好……。"
+    extend "\n真担心你将来也像爸爸一样，\n变成那种一回家就非得喝啤酒的酒鬼呢。"
+    extend "\n我可不要啊~↑"
+    me "会、会那样吗~\n啊哈哈哈……。"
+    "总、总算蒙混过去了。好险好险。"
+    "在学校里，也得注意别说漏嘴了啊……。"
     return
 
 label day2_layout_self:
@@ -5574,59 +5574,59 @@ label day2_layout_self:
     show sinobu 4 at top with dissolve
     window show
     sinobu "嗯嗯。"
-    extend "\n那样的话，[player_surname]君也穿一下试试看吧。"
+    extend "\n既然如此，我觉得[player_surname]君也穿一次试试看比较好。"
     show sinobu 11 with dissolve
     play sound "fx/eureka.ogg"
-    extend "\n会是一次很好的尝试。"
+    extend "\n这会是一次难得的经验。"
     hide sinobu with dissolve
     hide tubasa with dissolve
     show sinobu 12 at topleft
     show tubasa 18 at topright with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
-    tubasa "是，是啊。"
-    extend "\n明明我们都穿了，[player_name]君不穿的话，可就太狡猾了"
-    me "不，不是啦~毕竟！我可是只负责观赏的啊！！"
+    tubasa "是、是呀。"
+    extend "\n明明我们都穿了，[player_name]君不穿的话，可就太狡猾了！"
+    me "不、不是啦~毕竟！我就是专门负责欣赏的那一派啊！！"
     hide sinobu with dissolve
     hide tubasa with dissolve
     show sinobu 10 at top with dissolve
     sinobu "你在说什么莫名其妙的话……"
     show sinobu 9 with dissolve
-    extend "\n抱歉，能打扰一下吗？"
+    extend "\n不好意思，能打扰一下吗？"
     window hide
     hide sinobu with dissolve
     window show
-    "忍说完后，把女仆叫了过来。"
+    "忍说完，立刻把旁边的女仆小姐叫了过来。"
     stop music fadeout 2.0
     show sinobu 7 at top with dissolve
-    sinobu "他说也想试试女仆装…。"
+    sinobu "他说也想试试女仆装……。"
     play sound "fx/boing.ogg"
-    me "等！  忍！  ？"
+    me "等、等下！忍君！？"
     play music "lively_boys.ogg"
     play sound "fx/sparkle.ogg"
-    clerk2 "哎呀♪  是这样吗？"
-    clerk1 "呜呼呼，ok！☆"
+    clerk2 "哎呀♪是这样吗？"
+    clerk1 "呜呼呼，OK！☆"
     play sound "fx/eureka.ogg"
-    extend "\n即便你这样的朴素系男生，只要交给我们，\n就能变成心~动的正太女仆哦~！"
+    extend "\n像你这种朴素系的男孩子，只要交给我们，\n绝对能把你变身成令人心~动的正太女仆哦~！"
     play sound "fx/wind_slash.ogg"
     show cg remarkable at center with FadeWhite(0.5)
     "这么说着，女仆小姐们从两边把我抬了起来。"
     play sound "fx/dash.ogg"
-    "什……什么啊力气竟然这么大！！？"
+    "什……什么啊，力气竟然这么大！！？"
     window hide
     hide cg with Dissolve(0.3)
     hide sinobu with Dissolve(0.3)
     hide tubasa with Dissolve(0.3)
     window show
-    me "那个！诶！？ 为什么？ ！！"
+    me "那个！诶！？怎么回事？！为什么啊！！！"
     play sound "fx/cute.ogg"
     clerk2 "不用那么害羞啦~。"
     play sound "fx/cute2.ogg"
     clerk1 "交给我们吧♪"
     play sound "fx/ding.ogg"
     show cg dark at center with dissolve
-    "嘶嘶嘶嘶嘶……"
-    "我非常丢脸地被女仆二人组拖进了里面的房间。"
+    "（嘶嘶嘶嘶嘶……）"
+    "我就这样狼狈不堪地被两名女仆拖进了后面的更衣室。"
     window hide
     hide cg with dissolve
     show sinobu 11 at topleft with dissolve
@@ -5634,17 +5634,17 @@ label day2_layout_self:
     stop sound fadeout 0.5
     sinobu "呵。"
     show tubasa 4 at topright with dissolve
-    tubasa "诶嘿嘿。这是看到我们的样子笑出来的惩罚呢。"
+    tubasa "诶嘿嘿。这是看到我们的样子笑出来的惩罚哦。"
     window hide
     show cg meffen_cafe_hallway at center with Dissolve(0.7)
     window show
-    "就这样，我被迫换上了一副无论怎么看都不适合我的女仆打扮，\n还要遭受难以言喻的屈辱。"
+    "就这样，我被迫换上了一身无论谁看都完全不合适的女仆装，\n陷入了那番笔墨难以形容的屈辱境地之中。"
     play sound "fx/dash.ogg"
-    "到底谁会获利呢……。"
+    "这种事……到底是谁在获利啊……。"
     window hide
     show cg downtown_evening with Dissolve(0.7)
     window show
-    "一边想着这样的事情，一边结束了在「美馨儿咖啡」的参观，\n我们完成了布置组的工作。"
+    "一边想着这样的事情，一边结束了在『Mädchen Café』的参观。\n布置组第二天的任务，总算是告一段落了。"
     window hide
     stop music fadeout 2.0
     hide bg with Dissolve(0.9)
@@ -5658,35 +5658,35 @@ label day2_layout_self:
     play sound "fx/door_open.ogg"
     me "我回来了~。"
     mother "欢迎回来~。"
-    extend "\n今天回来的有点晚啊。"
+    extend "\n今天回来得有点晚啊。"
     me "嗯。"
-    extend "\n御咲站往学校反方向走了一段，在咖啡店参观了一下。"
-    mother "哦，是这样啊。"
-    extend "\n不过那里晚上很危险的，不要玩到太晚哦。"
-    me "我知道。毕竟我已经不是第一次去了。"
+    extend "\n从御咲站往学校反方向走，去咖啡店看了看。"
+    mother "哎呀，是这样啊~。"
+    extend "\n不过，那一带晚上很危险的，可不能在那里待到太晚哦？"
+    me "我知道啦。又不是第一次去了。"
     extend "\n呼~今天也好开心啊。"
     play sound "fx/beer.ogg"
-    "我慢慢地从冰箱里取出罐装啤酒，打开了盖子。"
-    "噗。"
-    mother "喂，等一下！！[player_name]！？\n为什么要喝啤酒！！"
-    extend "\n你，还是未成年人吧！。"
+    "我慢条斯理地从冰箱里取出罐装啤酒，打开了拉环。"
+    "（噗——嘶）"
+    mother "喂，等一下！！[player_name]！？\n为什么要喝啤酒啊！！"
+    extend "\n你，还是未成年人吧！"
     play sound "fx/boing.ogg"
     me "啊！！"
-    "糟了！！不小心就养成平时的习惯了……。"
-    me "啊，啊哈哈。\n抱歉抱歉。"
-    extend "我搞错了，以为这是果汁。\n啊哈哈哈。"
-    "我干笑着掩饰过去了。"
+    "糟了！！下意识地就按平时的习惯……。"
+    me "啊、啊哈哈。\n抱歉抱歉。"
+    extend "我搞错了，以为这是果汁啊。\n啊哈哈哈。"
+    "我干笑着掩饰了过去。"
     mother "真是的……"
-    extend "\n你将来也想成为爸爸那样的\n一回家就开瓶大口喝啤酒的酒鬼吗？"
-    extend "\n我可不要啊~"
-    me "会，会那样吗~\n啊哈哈哈……。"
-    "总，总算蒙混过去了。好险好险。"
-    "在学校里说话也要注意点才好……。"
+    extend "\n真担心你将来也像爸爸一样，\n变成那种一回家就非得喝啤酒的酒鬼呢。"
+    extend "\n我可不要啊~↑"
+    me "会、会那样吗~\n啊哈哈哈……。"
+    "总、总算蒙混过去了。好险好险。"
+    "在学校里，也得注意别说漏嘴了啊……。"
     return
 
 label day2_supply_self:
     window show
-    me "三朗！\n我能和你一起去吗？"
+    me "三朗君！\n我能和你一起去吗？"
     window hide
     show saburo 7 at top with dissolve
     window show
@@ -5697,11 +5697,11 @@ label day2_supply_self:
     hide saburo with dissolve
     window show
     play sound "fx/shock.ogg"
-    me "（失落！）"
-    extend "\n那，那么，就去作哉同学的那里……。"
+    me "（受打击！）"
+    extend "\n那、那么，就去作哉君那边……。"
     show sakuya 19 at top with dissolve
     sakuya "不行。"
-    extend "\n因为我也想一个人行动，所以别跟着来。"
+    extend "\n我也想一个人行动，别跟过来。"
     return
 
 label day2_supply_self_1:
@@ -5709,38 +5709,38 @@ label day2_supply_self_1:
     hide saburo with dissolve
     window show
     play sound "fx/shock_big.ogg"
-    me "（失落失落！）"
+    me "（受暴击！！）"
     window hide
     show saburo 2 at top with dissolve
     window show
-    saburo "啊哈哈。别在意，[player_surname]。"
-    extend "\n那么，你们两位，明天再见啦~。"
+    saburo "啊哈哈。别放心上嘛，[player_surname]。"
+    extend "\n那你们两个，明天再见啦~。"
     window hide
     play sound "fx/running.ogg"
     hide saburo with dissolve
     show sakuya 5 at top with dissolve
     window show
-    sakuya "行，那我先走了。"
-    extend "\n我也走了。"
+    sakuya "哦，走啦。"
+    extend "\n行了，我也出发了。"
     show sakuya 15 with dissolve
-    extend "\n你别傻站着了，快回去吧。"
+    extend "\n你也别傻站着了，快点回家吧。"
     window hide
     play sound "fx/running.ogg"
     hide sakuya with dissolve
     window show
     play sound "fx/ding.ogg"
-    "呼……"
-    "我独自伫立，身旁的风无情地吹过。"
-    "话说回来，居然两个人都单独想去某个地方，\n到底是什么地方呢……？"
+    "（呼……）"
+    "我独自伫立，身旁一阵冷风无情地吹过。"
+    "话说回来，这两个人居然都有非要单独行动才行的地方，\n到底是什么地方呢……？"
     stop music fadeout 2.0
     show cg sky at center with dissolve
     "哈啊……。"
     extend "\n早知道，第一天就该跟他们更亲近些的。"
     stop sound fadeout 0.5
-    extend "\n呼呼……。"
+    extend "\n真是太惨了……。"
     hide cg with Dissolve(1.0)
     hide bg with Dissolve(1.0)
-    "就这样，我今天一天的校园生活悲惨地拉下了帷幕。"
+    "就这样，我今天的校园生活，在那份悲凉的气氛中拉下了帷幕。"
     window hide
     pause 0.4
     show bg living_room_night at center with Radial(0.9)
@@ -5749,31 +5749,31 @@ label day2_supply_self_1:
     play sound "fx/door_open.ogg"
     me "我回来了~。"
     mother "欢迎回来~。"
-    extend "\n今天回来的有点晚啊。"
+    extend "\n今天回来得有点晚啊。"
     me "嗯。"
     extend "\n我今天跟朋友出去玩了哦。"
-    mother "哦，是这样啊。"
-    extend "\n也别忘记写作业啊。"
-    me "知道啦，我都这么大个人了。"
+    mother "哎呀，是这样啊~。"
+    extend "\n那作业也要好好写完哦。"
+    me "知道啦，我又不是小孩子了。"
     extend "\n呼~今天也好开心啊。"
     play sound "fx/beer.ogg"
-    "我慢慢地从冰箱里取出罐装啤酒，打开了盖子。"
-    "噗。"
+    "我慢条斯理地从冰箱里取出罐装啤酒，打开了拉环。"
+    "（噗——嘶）"
     mother "喂，等一下！！[player_name]！？"
     play sound "fx/boing.ogg"
-    extend "为什么还要喝啤酒！！"
-    extend "\n你，还是未成年人吧！。"
+    extend "为什么要喝啤酒啊！！"
+    extend "\n你，还是未成年人吧！"
     me "啊！！"
-    "糟了！！不小心就养成平时的习惯了……。"
-    me "啊，啊哈哈。\n抱歉抱歉。"
-    extend "我搞错了，以为这是果汁。\n啊哈哈哈。"
-    "我干笑着掩饰过去了。"
+    "糟了！！下意识地就按平时的习惯……。"
+    me "啊、啊哈哈。\n抱歉抱歉。"
+    extend "我搞错了，以为这是果汁啊。\n啊哈哈哈。"
+    "我干笑着掩饰了过去。"
     mother "真是的……"
-    extend "\n你将来也想成为爸爸那样的\n一回家就开瓶大口喝啤酒的酒鬼吗？"
-    extend "\n我可不要啊~"
-    me "会，会那样吗~\n啊哈哈哈……。"
-    "总，总算蒙混过去了。好险好险。"
-    "在学校里说话也要注意点才好……。"
+    extend "\n真担心你将来也像爸爸一样，\n变成那种一回家就非得喝啤酒的酒鬼呢。"
+    extend "\n我可不要啊~↑"
+    me "会、会那样吗~\n啊哈哈哈……。"
+    "总、总算蒙混过去了。好险好险。"
+    "在学校里，也得注意别说漏嘴了啊……。"
     return
 
 label day2_supply_self_2:
@@ -5782,17 +5782,17 @@ label day2_supply_self_2:
     window hide
     show sakuya 19 at top with dissolve
     window show
-    sakuya "啊~……不好意思，[player_surname]。\n这次我想一个人去行动。"
+    sakuya "啊~……抱歉，[player_surname]。\n这次我想一个人行动。"
     show sakuya 5 with dissolve
-    extend "\n所以，我们下次再见"
+    extend "\n所以，下次再说吧。"
     window hide
     hide sakuya with dissolve
     window show
     play sound "fx/shock.ogg"
-    me "（失落！）"
-    extend "\n那，那么，三朗君要一起来吗……。（这句话应该是翔平说的）"
+    me "（受打击！）"
+    extend "\n那、那……三朗君呢？你要一起吗……"
     show saburo 7 at top with dissolve
-    saburo "抱歉，我也想一个人去。"
+    saburo "抱歉，我也有个地方想一个人去看看。"
     return
 
 label day2_bad_end:
@@ -5800,13 +5800,13 @@ label day2_bad_end:
     hide bg with Dissolve(0.2)
     play sound "fx/break.ogg"
     window show
-    "咔嚓！！"
+    "（咔嚓！！）"
     window hide
     play music "fx/wind.ogg"
     window show
-    me "什么！？？"
+    me "什、什么情况！？？"
     "到底发生了什么！？！！"
-    extend "\n虽然我睁着眼睛，但是眼前却一片漆黑！！？"
+    extend "\n虽然我睁着眼睛，眼前却一片漆黑！！？"
     window hide
     play sound "fx/wind_slash.ogg"
     show bg cave_space at center with dissolve
@@ -5816,40 +5816,40 @@ label day2_bad_end:
     unknown "好，这下就能把人救出来了！"
     extend "\n喂，你！没事吧？"
     "声音传来的同时，一位橙色头发的少年出现在我的眼前。"
-    me "诶……你，你是……？"
-    extend "\n我刚才还和他们在一起……。"
+    me "诶……你、你是……？"
+    extend "\n我刚才还和那群孩子待在一起……。"
     play sound "fx/boing.ogg"
     extend "\n诶……诶？？为什么？？？"
     show yuuhi 14 with dissolve
-    unknown "也难怪你会混乱。\n你到刚才为止都还处于被梦境迷惑的状态。"
+    unknown "你会感到混乱也是理所当然的。\n直到刚才为止，你都被强行困在了那个梦境之中。"
     show yuuhi 6 with dissolve
     extend "\n但是，已经没事了！\n因为我已经让你清醒过来了！！"
     window hide
     hide yuuhi with dissolve
     window show
-    "梦境……"
+    "梦……"
     play sound "fx/eureka.ogg"
-    extend "对，是我的梦！！"
+    extend "对，那是我的梦！！"
     extend "\n我那快乐又幸福的梦，就是被你强行夺走了吗！？"
     play sound "fx/explosion2.ogg"
-    extend "\n也就是说……我再也无法见到那梦境了吗！？"
+    extend "\n也就是说……我再也无法回到那个学园生活，再也见不到他们了吗！！？？"
     window hide
     play sound "fx/shock_big.ogg"
     window show
-    me "怎，怎么可以这样啊啊啊啊啊！！\n你都对我做了什么啊啊啊啊！！"
+    me "怎、怎么可以这样啊啊啊啊啊！！\n你都对我做了什么啊啊啊啊！！"
     extend "\n好不容易……好不容易，"
     extend "才有了梦境里的学园生活……。"
     show yuuhi 3 at top with dissolve
-    unknown "你，你为什么会那么失望啊。"
-    extend "\n你这不正是得救了吗？"
-    extend "\n真是个让人搞不清情况的家伙啊……。"
+    unknown "你、你为什么会那么失望啊。"
+    extend "\n你现在可是得救了啊。"
+    extend "\n真是个莫名其妙的家伙……。"
     play sound "fx/dash.ogg"
-    me "因，因为……如果就那样的话，\n说不定还能跟他们发生更加更加色情的事啊！"
+    me "因、因为……如果不被打断的话，\n说不定在那之后，我还能和那群孩子发生更多、更色的事情呢！！"
     extend "\n呜呜呜呜呜……。"
     hide yuuhi with dissolve
-    "就是啊。"
-    extend "\n将来要是能和他们变得更加亲密的话，说不定……！！"
-    "事已至此……事已至此……！！！"
+    "没错。"
+    extend "\n只要再继续待下去，我就能和他们变得更加亲密，甚至还能……！！"
+    "事到如今……事到如今……！！！"
     window hide
     pause 0.4
     window show
@@ -5858,30 +5858,30 @@ label day2_bad_end:
     show yuuhi 8 at top with dissolve
     $ renpy.transition(Quake(40, 0, 0.1, 0.15), layer='master')
     play sound "fx/cute3.ogg"
-    unknown "什，什么啊？？\n你又突然笑起来，真让人不舒服……。"
-    extend "\n难道说，你还没有睡醒吗？"
-    me "没……托你的福，我意识已经清醒不少了。"
-    extend "\n所以，我现在知道应该怎么做选择了！"
+    unknown "什、什么啊？？\n突然笑得这么让人毛骨悚然……。"
+    extend "\n难道说，你还没彻底醒过来吗？"
+    me "不……托你的福，我的意识现在已经无比清晰了。"
+    extend "\n正因如此，我也知道应该做出什么选择了！"
     show yuuhi 3 with dissolve
-    unknown "什，什么啊，你这是。"
-    me "没能和那些可爱的男孩子们亲密贴贴，"
+    unknown "哈？你在说什么莫名其妙的话。"
+    me "既然没能和那些可爱的男孩子们贴贴，"
     play sound "fx/impact_japanese.ogg"
-    extend "\n我要和你贴到爽！！！！"
+    extend "\n我就要和你贴到爽啊啊啊啊啊！！！！"
     play sound "fx/wind_slash.ogg"
     hide bg with dissolve
     hide yuuhi with dissolve
-    "我勇敢地向眼前的小子飞扑过去。"
+    "我发了疯似地向眼前的少年飞扑了过去。"
     window hide
     show bg cave_space at center
     show yuuhi 2 at top with dissolve
     $ renpy.transition(Quake(0, 60, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
     window show
-    unknown "呜，呜哇！！？为啥啊！？"
-    extend "\n我明明是好心救了你，你为啥要袭击我啊……！？！？"
+    unknown "呜、呜哇！！？搞什么啊！？"
+    extend "\n我明明是好心救了你，为什么反而被袭击了啊……！？！？"
     show yuuhi 1 with dissolve
     play sound "fx/eureka.ogg"
-    extend "\n可恶……既然如此，那就让你吃点苦头！"
+    extend "\n可恶……既然如此，那就别怪我让你吃点苦头了！"
     stop music fadeout 0.3
     window hide
     play sound "fx/battle3.ogg"
@@ -5892,7 +5892,7 @@ label day2_bad_end:
     play sound "fx/phantom_fire.ogg"
     show cg phantom_fire with Radial(0.4)
     window show
-    "砰！！！"
+    "（砰！！！）"
     window hide
     hide yuuhi with dissolve
     hide nori with dissolve
@@ -5907,28 +5907,28 @@ label day2_bad_end:
     hide bg with dissolve
     window show
     play sound "fx/alarm.ogg"
-    "哔哔哔哔哔哔哔哔哔"
+    "（哔哔哔哔哔哔哔哔哔）"
     window hide
     show bg protagonist_room_morning at center with Radial(0.5)
     window show
-    me "啊……已经天亮了啊……？"
-    extend "\n唔~总觉得好像没有睡觉呢……。"
+    me "啊……已经早上了啊……？"
+    extend "\n嗯~总觉得没睡够呢…。"
     stop sound fadeout 0.5
-    "我一边自言自语一边起床，看向桌子上面，\n上面放着一张传单。"
+    "我一边嘀咕着一边起床，看向桌子，\n上面放了一张传单。"
     play sound "fx/paper.ogg"
-    me "嗯？这是……啊，对哦对哦，昨天回来的时候拿到的。"
-    extend "\n那些正太们，真的好可爱啊……。"
+    me "嗯？这是……啊，对对，是昨天回去的时候拿到的。"
+    extend "\n那些小家伙们，真的好可爱啊……。"
     play sound "fx/triangle.ogg"
-    me "……不过仔细一想，下周要去出差啊。"
-    extend "\n这下子是逃不掉了啊……唉……。"
-    me "嗯……身体莫名有股焦味啊。\n难道是妈妈做饭又失败了吗？"
+    me "……不过仔细想想，下周要出差啊。"
+    extend "\n这下可去不了了……沮丧…。"
+    me "嗯……怎么身上有点焦糊味啊。\n难道妈妈做菜又失败了吗？"
     hide bg with dissolve
     "我洗了个澡，做好前往公司的准备，和往常一样出门了。"
     window hide
     play sound "fx/door_open.ogg"
     show bg sky at center with Radial(0.7)
     window show
-    me "好嘞！ 今天也要加油啊！！"
+    me "好！今天也要加油！！"
     window hide
     stop music fadeout 1.0
     hide bg with FadeWhite(1.0)
