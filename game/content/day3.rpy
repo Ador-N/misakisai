@@ -8,35 +8,35 @@ label day3:
     hide bg with dissolve
     window show
     play sound "fx/alarm.ogg"
-    "哔哔哔哔哔哔哔哔"
-    "伴随着麻雀的鸣叫，闹钟的声音响起了。"
+    "（哔哔哔哔哔哔哔哔）"
+    "伴随着麻雀的呢喃，闹钟的铃声响了起来。"
     window hide
     show bg protagonist_room_morning at center with FadeWhite(0.5)
     play sound "fx/wind_slash.ogg"
     window show
-    "砰！！"
-    "我一边敲着闹钟，一边用力地起了床。"
-    extend "\n就这样走向镜子！确认自己还是个初中生！！"
+    "（砰！！）"
+    "我一边敲着闹钟，一边用力地翻身坐起。"
+    extend "\n就这样径直冲向全身镜，确认镜子里依然是那个初中生模样的自己！！"
     stop sound fadeout 0.5
     play music "lively_boys.ogg"
     show cg remarkable at center with FadeWhite(0.5)
     play sound "fx/eureka.ogg"
-    me "呦西ー！！！"
+    me "哟——西！！！"
     extend "\n今天也还是一如既往的不起眼！完美！！"
     window hide
     hide cg with dissolve
     window show
     play sound "fx/door_open.ogg"
-    "喀嚓"
-    mother "[player_name]ー！还不起来！！"
+    "（喀嚓）"
+    mother "[player_name]！还不起来！！"
     extend "\n哦，咦？居然已经起床了，真稀奇呢~。"
     extend "\n一大早就对着镜子傻笑什么呢……。\n你什么时候变得那么自恋啦？"
     me "没啦没啦，没有那么夸张啦~♪"
     extend "\n哼哼~！年轻的身体真好啊！"
     mother "什么呀，真奇怪……。"
     extend "\n可别是染上什么奇怪的癖好了……。"
-    "嘛，虽然我确实对奇怪的兴趣全力奔走中……。"
-    extend "\n心情超好的我，快速地吃完了早饭，飞奔出了家门。"
+    "嘛，虽然我确实朝着『奇怪的兴趣』全力疾走中就是了……。"
+    extend "\n心情超好的我，匆匆忙忙吃完早饭，便飞奔出了家门。"
     window hide
     stop music fadeout 0.5
     hide bg with dissolve
@@ -48,11 +48,11 @@ label day3_1:
     play music "going_to_school.ogg"
     window show
     me "嗯！"
-    extend "\n今天也是晴天啊~！！"
-    "沐浴着阳光，我的情绪更加高涨。"
+    extend "\n今天也是大晴天呐~！！"
+    "沐浴着清晨的阳光，我的情绪愈发高涨。"
     "真是太棒了！初中生活太爽了！！！"
     extend "\n今天也要和御咲学园的大家度过快乐的一天啊！！"
-    extend "\n只是一想到自己要是太过兴奋就会像昨天那样差点被车撞到，\n就觉得必须得多多注意才行……"
+    extend "\n不过，千万得注意别因为太得意忘形，又搞得像昨天那样差点被车撞到，\n一定要加倍小心才行……。"
     window hide
     hide bg with dissolve
     return
@@ -63,19 +63,19 @@ label day3_1_tomo_sinobu:
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
     window show
-    tomo "喂~，[player_name]小忍！"
+    tomo "喂~，[player_name]君——！"
     hide tomo with dissolve
     show tomo 12 at topright
     show sinobu 1 at topleft with dissolve
-    "我朝着声音的方向看去，发现友和忍正一起走来。"
+    "我朝着声音传来的方向看去，发现友和忍正朝这边走来。"
     show tomo 4 with dissolve
     tomo "早上好~！"
     show sinobu 8 with dissolve
     sinobu "早。"
-    me "早上好！！  友君，忍君！"
-    extend "\n呀呀~  你们今天也真是魅力四射啊！"
+    me "早上好！！友君，忍君！"
+    extend "\n哎呀~你们今天也是魅力四射啊！"
     play sound "fx/sparkle.ogg"
-    extend "真的让人想把你们直接吃掉啊哈哈！"
+    extend "简直让人想把你们直接吃掉啊，哈哈哈哈！"
     hide tomo with dissolve
     hide sinobu with dissolve
     show tomo 21 at topright
@@ -83,101 +83,101 @@ label day3_1_tomo_sinobu:
     play sound "fx/triangle.ogg"
     "友＆忍" "……哈？"
     "哎呀，不好。"
-    extend "\n在高亢的情绪下，不小心说出了真心话。"
+    extend "\n在高涨的情绪驱使下，不小心说出了真心话。"
     window hide
     hide tomo with dissolve
     hide sinobu with dissolve
     show tomo 8 at topright with dissolve
     window show
-    tomo "总，总觉得[player_name]你最近好像性格变了呢。"
-    extend "\n感觉以前不是这样？"
+    tomo "总、总觉得[player_name]你最近好像性格变了呢。"
+    extend "\n感觉以前不是这样的？"
     show sinobu 2 at topleft with dissolve
     sinobu "你是不是被友和慎太郎洗脑了？"
     show tomo 16 with dissolve
     tomo "唔！"
-    extend "\n我们可没有和别人说过这些呢！"
+    extend "\n我们可没有随随便便去影响别人呢！"
     show sinobu 11 with dissolve
-    sinobu "竟然没有自觉，真是可怜呢……"
+    sinobu "连这点自觉都没有，真是可怜……"
     show sinobu 10 with dissolve
-    extend "\n物以类聚，人以群分啊。"
+    extend "\n这就叫近朱者赤，近墨者黑。"
     me "哈哈哈。"
-    extend "\n说起来，你们两个都是从同一个方向走过来的，\n你们住的地方很近吗？"
+    extend "\n说起来，你们两个是从同一个方向过来的，\n你们住得很近吗？"
     show sinobu 1 with dissolve
     sinobu "嗯。"
-    extend "\n我们住在宝咲同一个公寓哦。"
+    extend "\n我们住在宝咲同一栋公寓里。"
     show tomo 1 with dissolve
     tomo "我在301室，忍在201室。"
-    extend "\n所以，除了忍在早上有社团活动要晨练的时候，\n我们总是上下学一起走的~！"
-    me "嘿~！一大家住在一起啊。"
-    extend "\n那忍君，是不是楼上每天都很吵闹呢？"
+    extend "\n所以，除了忍有社团晨练的时候以外，\n我们上下学基本上都在一起~！"
+    me "嘿~！原来大家住在一起啊。"
+    extend "\n那忍君，你楼上应该每天都很吵吧？"
     show tomo 27 with dissolve
     play sound "fx/boing.ogg"
-    tomo "这句话是什么意思？"
+    tomo "这话是什么意思啊？"
     show sinobu 4 with dissolve
-    sinobu "确实是。"
+    sinobu "确实很吵。"
     show sinobu 12 with dissolve
-    extend "……但是，偶尔练习的钢琴声，\n也能成为读书时不错的BGM。"
+    extend "……不过，他偶尔练习钢琴的声音，\n倒是挺适合当读书时的BGM。"
     show tomo 2 with dissolve
     tomo "哼哼！能帮上忙是我的荣幸！！"
     show tomo 40 with dissolve
-    extend "\n不过，每次我“做坏事”的时候\n希望你别再从窗户闯进来了......。"
-    me "从窗户！？这是什么意思？？"
+    extend "\n但是，能不能拜托你，每次我『干坏事』的时候，\n别再从窗户闯进来了啊……。"
+    me "窗户！？那是怎么回事？？"
     hide tomo with dissolve
     hide sinobu with dissolve
     show tomo 15 at top with dissolve
-    tomo "别看忍这个样子，他运动神经可是非常了得的。"
-    extend "\n他可以从自己房间的阳台跳到隔壁家的天花板上，\n又从那里跳到我房间的阳台上。"
+    tomo "别看忍这副样子，他的运动神经可是非常了得。"
+    extend "\n他能从自己房间的阳台跳到隔壁家的屋檐上，\n再直接纵身一跃，跳到我房间的阳台里来。"
     "真像漫画里才会有的场景啊……简直就像忍者一样。"
-    extend "\n不如说，我反而觉得忍君才是做了什么坏事的人吧……。"
+    extend "\n不如说，我反而觉得忍君才是干了什么坏事的人吧……。"
     show tomo 29 with dissolve
-    tomo "这孩子，真是可怕啊……。"
+    tomo "就是说啊，这孩子真的挺可怕的……。"
     hide tomo with dissolve
     show sinobu 3 at topleft with dissolve
-    sinobu "倒是友才做了奇怪的事情吧。"
+    sinobu "那还不是因为友总是做些奇怪的事。"
     extend "\n真是的，不知道什么时候才能学着变成熟点。"
     show tomo 23 at topright with dissolve
     tomo "唔唔！"
     show tomo 6 with dissolve
-    extend "\n忍居住的楼层下面，\n时不时地传来游戏里招式的叫喊声哦~！"
+    extend "\n说起这个，忍住的那一楼，\n时不时能听到游戏招式的叫喊声哦~！"
     show sinobu 13 with dissolve
     $ renpy.transition(Quake(30, 0, 0.1, 0.08), layer='master')
     play sound "fx/boing.ogg"
     sinobu "（惊）"
     show tomo 2 with dissolve
-    tomo "哼哼~嗯♪我知道哦~。"
-    extend "\n忍开始学习空手道，是因为受到了漫画的影响！"
-    extend "\n从这点来看，你还是个小孩子呢~？↑"
+    tomo "哼哼~嗯♪我可是全都知道的哦~。"
+    extend "\n忍开始学习空手道，是因为受到了漫画的影响吧！"
+    extend "\n从这点来看，你还真是个小孩子呢~？↑"
     show sinobu 14 with dissolve
-    sinobu "……行，所以呢。"
+    sinobu "……有什么关系，不可以吗。"
     show tomo 25 with dissolve
-    tomo "哦~。还是说，还有什么其他理由吗？"
+    tomo "哦~。还是说，其实还有什么别的理由？"
     show sinobu 15 with dissolve
     sinobu "……秘密。"
     show tomo 40 with dissolve
     tomo "唔~！你这个保密怪~！！"
     show sinobu 6 with dissolve
-    sinobu "是友嘴巴太大了。"
+    sinobu "是友太大嘴巴了。"
     show tomo 3 with dissolve
-    tomo "还有就是……对了！"
+    tomo "还有啊……对了！"
     show tomo 9 with dissolve
     extend "拜托你好好学学做饭吧。"
     show tomo 27 with dissolve
     extend "\n究竟是用了什么方法才能做出那么可怕的东西啊。"
-    extend "\n炸牡蛎也没那么难做吧？。"
+    extend "\n再这样下去，炸牡蛎做成炸弹牡蛎也不是梦了啊。"
     $ renpy.transition(Quake(0, 60, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
     show sinobu 16 with dissolve
-    sinobu "人，人各有所长啦。"
+    sinobu "人、人各有所长，总有不擅长的事情嘛。"
     show tomo 26 with dissolve
-    tomo "不对不对……就算是这样，\n也不至于把可乐当成酱油加进去啊。"
+    tomo "不对不对……再怎么说，\n也不至于把可乐当成酱油加进去啊。"
     show sinobu 17 with dissolve
-    sinobu "那，那是……那个……。"
+    sinobu "那、那是……那个……。"
     show tomo 6 with dissolve
-    tomo "不过最近啊，\n我也已经习惯忍做的那些怪菜了。"
+    tomo "不过最近啊，\n我也已经习惯忍做的那些神秘料理了。"
     show tomo 31 with dissolve
-    extend "\n下次一定要把蛋包饭做好！"
+    extend "\n下次做蛋包饭的时候，一定要成功啊！"
     show sinobu 7 with dissolve
-    sinobu "嗯。下次不会再把番茄酱和红味噌搞混了。"
+    sinobu "嗯。下次绝对不会再把番茄酱和红味噌搞混了。"
     window hide
     show cg c34 1 at center with Radial(0.5)
     window show
@@ -189,8 +189,8 @@ label day3_1_tomo_sinobu:
     hide sinobu with dissolve
     hide cg with dissolve
     window show
-    "之后，我听着他们俩的“相声”走向了学校。"
-    extend "\n今天也是美好的一天。"
+    "之后，我一边听着他们俩没完没了的拌嘴，一边走向学校。"
+    extend "\n今天也一定会是美好的一天。"
     window hide
     stop music fadeout 0.5
     hide bg with dissolve
@@ -201,23 +201,23 @@ label day3_1_saburo_sakuya_tubasa:
     show bg school_route at center with dissolve
     show saburo 10 at top with dissolve
     window show
-    saburo "哦，[player_surname]呀！"
-    extend "\n早上好~。"
+    saburo "哦，是[player_surname]呀！"
+    extend "\n早~安。"
     hide saburo with dissolve
-    "我朝着声音的方向望去，看到了"
+    "我朝着声音传来的方向看去，"
     show saburo 1 at top
     show sakuya 31 at topright with dissolve
-    "三朗，作哉，以及"
+    "只见三朗、作哉，"
     show tubasa 5 at topleft with dissolve
-    "翼一起走了过来。"
+    "还有翼正并排走来。"
     show sakuya 23 with dissolve
     sakuya "早上好。"
     show tubasa 31 with dissolve
-    tubasa "早，早上好。"
-    me "早上好！！  大家！"
-    extend "\n哎呀~  今天天气也很好呀！"
+    tubasa "早、早上好。"
+    me "早上好！！大家！"
+    extend "\n哎呀~今天也让人心情大好啊！"
     play sound "fx/sparkle.ogg"
-    extend "真的让人想把你们直接吃掉啊哈哈！"
+    extend "简直让人想把你们直接吃掉啊，哈哈哈哈！"
     hide saburo with dissolve
     hide tubasa with dissolve
     hide sakuya with dissolve
@@ -227,58 +227,58 @@ label day3_1_saburo_sakuya_tubasa:
     play sound "fx/triangle.ogg"
     "三＆作" "……哈？"
     "哎呀，不好。"
-    extend "\n在高亢的情绪下，不小心说出了真心话。"
+    extend "\n在高涨的情绪驱使下，不小心说出了真心话。"
     window hide
     hide saburo with dissolve
     hide sakuya with dissolve
     hide tubasa with dissolve
     show tubasa 22 at topleft with dissolve
     window show
-    tubasa "那，那个，你怎么了……？"
+    tubasa "那、那个，你是哪里不舒服吗……？"
     show sakuya 10 at topright with dissolve
-    sakuya "我觉得比起去学校，你还是先去一趟医院比较好？"
+    sakuya "我觉得比起去学校，你更应该先去医院挂个号吧？"
     show saburo 16 at top with dissolve
     saburo "同感。"
-    extend "\n看着男人还那么色眯眯的，真让人有点不舒服啊~？"
-    "啊啊……这，这冷淡的视线我可受不了啊……！！"
+    extend "\n看着男孩子还觉得可爱什么的，是不是稍微有点怪啊~？"
+    "啊啊……这、这冷冰冰的视线简直让人欲罢不能……！！"
     play sound "fx/cute2.ogg"
-    extend "\n你们可能没有意识到，可对我们正太控来说这可是夸奖哦！"
+    extend "\n你们可能不觉得有什么，但对我们正太控来说，这可是最高的奖赏啊！"
     show saburo 8 with dissolve
     saburo "呜哇，表情好怪。"
     show sakuya 15 with dissolve
-    sakuya "恶心。"
+    sakuya "真恶心。"
     show tubasa 32 with dissolve
     tubasa "……。"
     play sound "fx/dash.ogg"
     $ renpy.transition(Quake(0, 50, 0.1, 0.09), layer='master')
-    "呜……被说到这份儿上，我有点生气了。"
-    extend "\n要是太过得意忘形，会让他们对我印象变差的。"
-    me "啊，啊哈哈哈！开玩笑的啦！"
-    extend "\n别那么害怕啦~。"
+    "呜……被说到这份上，连我也感觉胸口中了一箭。"
+    extend "\n再这么得意忘形下去，好感度就真的要跌到底谷了。"
+    me "啊、啊哈哈哈！开玩笑的啦！"
+    extend "\n别这么疏远我嘛~。"
     show saburo 17 with dissolve
-    saburo "[player_surname]君的玩笑话听起来并不好笑，\n别老说那种话比较好……。"
+    saburo "[player_surname]君的玩笑话听起来并不好笑，\n还是少说两句比较好……。"
     show tubasa 19 with dissolve
-    tubasa "说，说得也是。吓了我一跳。"
+    tubasa "是、是啊。真的吓了我一跳。"
     show sakuya 9 with dissolve
     sakuya "一大清早就遇到一之濑，还遇到了这种恶心的家伙，\n今天真是倒霉呢~。"
     show tubasa 7 with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute3.ogg"
-    tubasa "怎，怎么会……。"
+    tubasa "怎、怎么这样……"
     show saburo 4 with dissolve
-    saburo "对吧，穗海。"
+    saburo "别这么说，穗海。"
     show saburo 2 with dissolve
-    extend "\n一之濑你也不用在意。\n这家伙，正处在叛逆期啊！"
+    extend "\n一之濑，你也不用在意。\n这家伙，正处在叛逆期啊！"
     show sakuya 2 with dissolve
     sakuya "谁叛逆期啊笨蛋。"
     show tubasa 9 with dissolve
     tubasa "呜呜……。"
     show sakuya 16 with dissolve
-    sakuya "你老这样扭扭捏捏的，烦不烦啊！"
+    sakuya "就是受不了你这种动不动就委屈巴巴的样子，看着就烦！"
     show saburo 4 with dissolve
-    saburo "但是，真不可思议啊~。\n明明你总是这么说，却总是提到一之濑的事情呢。"
+    saburo "不过还真是不可思议呐~。\n嘴上嫌弃成这样，却总是提到一之濑的事情呢。"
     show saburo 18 with dissolve
-    extend "\n你说[player_surname]，这是为什么啊？"
+    extend "\n呐，[player_surname]，你觉得是为什么？"
     play sound "fx/impact_japanese.ogg"
     me "答案就是，恋爱！！！"
     hide sakuya with dissolve
@@ -286,39 +286,39 @@ label day3_1_saburo_sakuya_tubasa:
     hide tubasa with dissolve
     play sound "fx/punch3.ogg"
     $ renpy.transition(Quake(0, 150, 0.1, 0.07), layer='master')
-    "啪！！"
-    me "呜"
+    "（啪！！）"
+    me "呜……"
     show sakuya 17 at top with dissolve
-    sakuya "啊，别说蠢话了！！！\n谁会喜欢上翼那家伙！！"
+    sakuya "少、少在那儿胡说八道！！！\n谁会看上这种家伙啊！！"
     show sakuya 27 with dissolve
     extend "\n我要宰了你这混蛋！！"
     hide sakuya with dissolve
     show saburo 17 at topleft with dissolve
-    saburo "话说，他已经给你补刀了啊…。"
+    saburo "喂喂，你这补刀简直是给人判死刑了啊……。"
     show sakuya 2 at topright with dissolve
     play sound "fx/boing.ogg"
-    sakuya "少，少啰嗦！！！"
+    sakuya "少、少啰嗦！！！"
     extend "\n啊~可恶！！一个个都让人火大！！"
     extend "\n不陪你们玩了！我要走了！！"
-    "说完，作哉"
+    "说完，作哉就"
     play sound "fx/running.ogg"
     hide sakuya with dissolve
-    "跑向了学校。"
+    "气急败坏地跑向了学校。"
     show tubasa 2 at topright with dissolve
-    tubasa "那，那个……[player_name]君，没事吧？"
+    tubasa "那、那个……[player_name]君，你没事吧？"
     show saburo 2 with dissolve
-    saburo "真是个开不起玩笑的家伙呢~。"
-    "两个人扶着我，让我站了起来。"
-    me "呼呼呼……被少年殴打，被少年抱起来……"
+    saburo "真是个开不起玩笑的家伙啊~。"
+    "两人伸手把我从地上扶了起来。"
+    me "呼呼呼……被少年殴打，又被少年温柔地扶起来……"
     play sound "fx/eureka.ogg"
-    extend "\n无论哪个，都是我所期望的…。"
+    extend "\n无论哪个，都是我想要的啊……。"
     play sound "fx/triangle.ogg"
     show tubasa 22
     show saburo 9 with dissolve
-    saburo "……果然[player_surname]还是别开这种玩笑比较好呢。"
-    tubasa "……也是呢……那我撤了……。"
+    saburo "……果然[player_surname]还是别开这种玩笑比较好。"
+    tubasa "……也是呢……我都被吓到了……。"
     "一早就能融入少年们的日常，真幸福啊……。"
-    extend "\n今天也是美好的一天。"
+    extend "\n今天也一定会是美好的一天。"
     window hide
     hide saburo with dissolve
     hide tubasa with dissolve
@@ -331,16 +331,16 @@ label day3_1_sintarou_tuki_sora:
     show bg school_route at center with dissolve
     show sintarou 8 at topleft with dissolve
     window show
-    sintarou "早！[player_name]酱！哈喽！"
-    "我朝着声音传来的方向看去，慎太郎和赤峰兄弟一起走了过来。"
+    sintarou "早啊[player_name]酱！哈喽——！"
+    "我朝着声音传来的方向看去，发现慎太郎和赤峰兄弟正朝这边走来。"
     show sora 3 at topright with dissolve
     sora "早上好，[player_name]君。"
     show tuki 9 at top with dissolve
-    tuki "早上好。"
-    me "早上好！！  大家！"
-    extend "\n呀呀~  你们今天也真是魅力四射啊！"
+    tuki "早。"
+    me "早上好！！大家！"
+    extend "\n哎呀~你们今天也是魅力四射啊！"
     play sound "fx/sparkle.ogg"
-    extend "真的让人想把你们直接吃掉啊哈哈！"
+    extend "简直让人想把你们直接吃掉啊，哈哈哈哈！"
     hide sintarou with dissolve
     hide tuki with dissolve
     hide sora with dissolve
@@ -350,22 +350,22 @@ label day3_1_sintarou_tuki_sora:
     play sound "fx/triangle.ogg"
     "慎＆月＆空" "……哈？"
     "哎呀，不好。"
-    extend "\n在高亢的情绪下，不小心说出了真心话。"
+    extend "\n在高涨的情绪驱使下，不小心说出了真心话。"
     window hide
     hide sintarou with dissolve
     hide sora with dissolve
     hide tuki with dissolve
     show sora 14 at topright with dissolve
     window show
-    sora "[player_name]君……莫，莫非，今天身体也不舒服？"
+    sora "[player_name]君……莫、莫非，今天身体也不舒服吗？"
     show tuki 5 at top with dissolve
     tuki "没必要勉强自己去学校吧？"
     extend "\n再这样下去会影响到学园祭的。"
     show sintarou 17 at topleft with dissolve
-    sintarou "嗯~体温好像也没什么问题。"
-    "哈哈哈。完全把我当病号了啊。"
-    extend "\n被这么可爱的男孩子们包围，真是太让人上头了！"
-    extend "\n倒不如说，我没出手就已经算是很冷静了。"
+    sintarou "嗯~看起来倒像是没发烧呢。"
+    "哈哈哈。完全被当成病号对待了啊。"
+    extend "\n不过，被这么多可爱的男孩子包围，脑子当然会烧坏啊！"
+    extend "\n不如说，我到现在还没出手，已经算是很冷静了。"
     show sintarou 29 with dissolve
     sintarou "不过啊！\n要是论变态程度的话，我可不会输给你哦！"
     show sora 4
@@ -374,42 +374,42 @@ label day3_1_sintarou_tuki_sora:
     $ renpy.transition(Quake(0, 60, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
     show sintarou 21 with dissolve
-    sintarou "等……！"
-    extend "\n别这么轻易就点头答应嘛。"
+    sintarou "喂……！"
+    extend "\n答应得这么干脆，咱可是一点面子都没了啊。"
     show sintarou 9 with dissolve
-    sintarou "不过~要说奇怪程度的话，我觉得你们两个也半斤八两吧。"
+    sintarou "不过~要说奇怪程度的话，咱觉得你们二位也半斤八两吧。"
     show sintarou 12 with dissolve
-    extend "\n毕竟……你们每晚都做些奇奇怪怪的事吧。\n明明是亲兄弟~！欸嘿嘿。"
+    extend "\n毕竟……你们每晚都玩得挺尽兴的吧？\n明明是亲兄弟~！欸嘿嘿。"
     play sound "fx/eureka.ogg"
-    me "你，你们在说什！！！"
+    me "你、你们在说什！！！"
     $ renpy.transition(Quake(40, 0, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
     show sora 16 with dissolve
     sora "小慎！那个那个那个！！！"
     show sora 15 with dissolve
-    extend "\n不，不要说这种话！！！"
+    extend "\n不、不是的！我们才没有做那种事！！！"
     show tuki 12 with dissolve
     tuki "你在说什么呢。实际上每晚都，欸嘿嘿……"
     $ renpy.transition(Quake(0, 100, 0.1, 0.07), layer='master')
     play sound "fx/punch.ogg"
     hide tuki with dissolve
-    extend "\n啪嚓！"
+    extend "\n（啪嚓！）"
     show sora 16 with dissolve
     $ renpy.transition(Quake(60, 0, 0.1, 0.15), layer='master')
     sora "哇啊啊啊啊！！真是的！"
-    extend "\n我都不想听你瞎说！！！！"
+    extend "\n哥哥你不需要说那些多余的话！！！！"
     show sintarou 9 with dissolve
-    sintarou "嘿嘿~空害羞了吧~。"
+    sintarou "哎呀~空害羞的样子真好玩~。"
     show tuki 4 at top with dissolve
-    tuki "空可爱的地方就是这点。"
+    tuki "空可爱的地方就在于此。"
     show tuki 3 with dissolve
-    extend "\n他为什么会这么可爱呢。"
+    extend "\n真的，他怎么能这么可爱呢。"
     show tuki 10 with dissolve
-    extend "\n可爱到我有时候都害怕我受不了。"
+    extend "\n可爱到我有时候都害怕我会受不了。"
     show sora 15 with dissolve
-    sora "你……烦不烦啊！！"
+    sora "够了——！！烦死啦！！"
     show sora 17 with dissolve
-    extend "\n哥哥这个笨蛋！哼！！"
+    extend "\n哥哥这个笨蛋！再也不理你了！！"
     window hide
     hide sora with dissolve
     hide sintarou with dissolve
@@ -418,18 +418,18 @@ label day3_1_sintarou_tuki_sora:
     show tuki 13 at top with Dissolve(0.2)
     play sound "fx/shock.ogg"
     window show
-    tuki "（打击！！！）"
-    sintarou "嘿嘿，月好像被甩掉了哦。"
+    tuki "（受打击！！！）"
+    sintarou "啊~完蛋，月被甩掉了呢。"
     window hide
     show tuki 13 with dissolve
     $ renpy.transition(Quake(0, 100, 0.1, 0.065), layer='master')
     play sound "fx/shock_big.ogg"
     window show
-    tuki "（再打击！！！！）"
+    tuki "（受暴击！！！！）"
     show tuki 14 with dissolve
     play sound "fx/ding.ogg"
-    tuki "啊……被拒绝了……。"
-    extend "\n我……好像要失去生存的意义了…。"
+    tuki "啊……被甩了……。"
+    extend "\n我……好像已经找不到生存下去的意义了……。"
     "月的身体摇摇晃晃，好像马上就要被风吹走一样。"
     window hide
     play sound "fx/fall_down.ogg"
@@ -437,41 +437,41 @@ label day3_1_sintarou_tuki_sora:
     hide cg with dissolve
     show sora 18 at topright with dissolve
     window show
-    sora "啊……不，不用这么失落吧……。"
+    sora "啊……不、不用这么失落吧……。"
     show sintarou 11 at topleft with dissolve
     sintarou "这就是号称全校最强的剑道部主将吗……。"
-    me "现在好像是个人都能给他一记暴击呢。\n（注：“面打ち”作为剑道术语无法直译，这里是基于赤峰兄弟身份玩了一个梗）"
+    me "现在好像是个人都能给他一记暴击呢。\n（注：『面打ち』作为剑道术语无法直译，这里是基于赤峰兄弟身份玩了一个梗）"
     hide sintarou with dissolve
     hide sora with dissolve
     show sora 19 at topright with dissolve
-    sora "哥……哥哥！对不起，我说过头了。"
-    extend "\n好了，快起来！"
+    sora "哥、哥哥！对不起，是我说得太过分了。"
+    extend "\n所以，好了，快站起来！"
     extend "\n再这样下去要上学迟到了。"
     show tuki 10 at topleft with dissolve
-    tuki "呜呜……空……"
+    tuki "唔……空……"
     extend "\n我……是笨蛋吗……？"
-    extend "\n是被甩了吗……？"
+    extend "\n是真的被甩了吗……？"
     show sora 20 with dissolve
-    sora "唉……都不是。"
-    extend "\n哥哥不是笨蛋，也不会被我甩的。"
+    sora "唉……都不是啦。"
+    extend "\n哥哥才不是笨蛋，也不会被我甩的。"
     show sora 12 with dissolve
-    extend "\n哥哥是个帅气的人哦！"
+    extend "\n你是我最最帅气的哥哥哦！"
     $ renpy.transition(Quake(0, 60, 0.1, 0.15), layer='master')
     play sound "fx/cute2.ogg"
     show tuki 8 with dissolve
     tuki "是吗。那太好了。"
     me "恢复得也太快了吧！"
     show tuki 4 with dissolve
-    tuki "身为空的帅气哥哥，我不能这样闷闷不乐呀！"
+    tuki "身为空的帅气哥哥，那就绝对不能在那儿垂头丧气。"
     extend "\n要是空在这期间出事了怎么办？"
     show sintarou 13 at top with dissolve
-    sintarou "好啊好啊，一大早的磕得那么甜！！"
-    "啊…至福……"
-    extend "\n一大早就加入到了少年们的热闹对话，还不用上班，能去学校上学！"
+    sintarou "好啊好啊，一大早的嗑得那么甜！！"
+    "啊……好幸福……。"
+    extend "\n一大早就能加入少年们这么热闹的对话，还不用上班，能去学校上学！"
     hide sintarou with dissolve
     hide sora with dissolve
     hide tuki with dissolve
-    "今天也是美好的一天。"
+    "今天也一定会是美好的一天。"
     window hide
     stop music fadeout 0.5
     hide bg with dissolve
