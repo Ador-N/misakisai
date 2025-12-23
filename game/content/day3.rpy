@@ -3904,35 +3904,35 @@ label day3_3:
     show bg hallway at center with dissolve
     play music "going_to_school.ogg"
     window show
-    "吃完午饭后，我们再次聚集在了教室里。"
-    extend "\n走廊上，放学回家的学生们也盯着这边看。"
+    "吃过午饭，我们再次回到教室集合。"
+    extend "\n走廊上，几个正准备回家的学生往教室里探头张望。"
     show bg classroom with dissolve
-    student1 "哦，执行委员啊。辛苦了~！"
+    student1 "噢，是执行委员们啊。辛苦啦~！"
     student2 "今天也要一起商量吗？"
-    extend "\n我很期待你们的咖啡店会是什么样的！"
+    extend "\n你们打算开什么样的咖啡店，我可是很期待的哦！"
     student3 "等到了我们可以帮忙的阶段，随时都可以来找我们哦。"
-    extend "\n反正就算早点回去，也只是玩游戏而已。"
+    extend "\n反正就算早早回家，也就是玩游戏打发时间而已。"
     window hide
     show tomo 4 at topleft with dissolve
     window show
-    tomo "噢，非常感谢！！"
-    extend "\n我们一定会让咖啡店变得非常棒的！！"
+    tomo "噢——谢谢你们！！"
+    extend "\n我们一定会打造出一个超棒的咖啡店的！！"
     show sora 10 at topright with dissolve
-    sora "能听到你这么说，我们现在干劲满满！"
+    sora "能听到你们这么说，我们现在干劲满满！"
     hide sora with dissolve
     hide tomo with dissolve
     show saburo 7 at topright with dissolve
-    saburo "我们采购组，什么还没做呢~。"
+    saburo "虽然我们采购组到现在还啥都没干呢~。"
     show sakuya 1 at topleft with dissolve
     sakuya "嘘。少说废话，蠢货。"
     hide saburo with dissolve
     hide sakuya with dissolve
     student1 "一之濑作为委员代表也很辛苦吧？"
-    extend "\n虽然平时话不多，但有什么事情的话还请告诉我哦。"
+    extend "\n虽然平时没怎么和你说过话，但有什么需要帮忙的尽管告诉我哦。"
     show tubasa 17 at top with dissolve
-    tubasa "嗯，嗯。谢谢……。"
+    tubasa "好、好的。谢谢你们……。"
     hide tubasa with dissolve
-    "学生们说着，从我们身边走过。"
+    "说完，学生们便有说有笑地离开了。"
     me "友情真是美妙啊……。"
     show tuki 4 at topleft with dissolve
     tuki "是啊。"
@@ -3941,15 +3941,15 @@ label day3_3:
     sintarou "再加上颜值也很高♪"
     show sinobu 6 at topright with dissolve
     play sound "fx/boing.ogg"
-    sinobu "那不重要。"
+    sinobu "那根本没关系吧。"
     hide tuki with dissolve
     hide sintarou with dissolve
     hide sinobu with dissolve
-    "看着学弟之间温暖的气氛，我作为毕业生感到很自豪。"
-    extend "\n大家都各有各的干劲。"
-    extend "\n今年的御咲祭一定也会很美妙。"
-    "……御咲祭结束后，我还能继续做这个梦吗？"
-    extend "\n我来到这个世界之前许的愿只和学园祭有关。"
+    "看着学弟们能拥有如此暖心的伙伴，作为毕业生，我感到很自豪。"
+    extend "\n每个人都这么有干劲，"
+    extend "\n今年的御咲祭一定会办得很精彩。"
+    "……御咲祭结束后，我还能继续待在这个梦境里吗？"
+    extend "\n在我来到这个世界之前，许下的愿望确实只到学园祭为止。"
     extend "\n也就是说……"
     window hide
     return
@@ -3958,7 +3958,7 @@ label day3_3_tomo:
     show tomo 7 at top with dissolve
     window show
     tomo "[player_name]君，怎么了吗？"
-    me "没，没有，没事。"
+    me "没、没事，没什么。"
     hide tomo with dissolve
     return
 
@@ -3966,7 +3966,7 @@ label day3_3_sintarou:
     show sintarou 22 at top with dissolve
     window show
     sintarou "怎么了~[player_name]酱。"
-    me "没，没有，没事。"
+    me "没、没事，没什么。"
     hide sintarou with dissolve
     return
 
@@ -3974,7 +3974,7 @@ label day3_3_sinobu:
     show sinobu 2 at top with dissolve
     window show
     sinobu "怎么了？"
-    me "没，没有，没事。"
+    me "没、没事，没什么。"
     hide sinobu with dissolve
     return
 
@@ -3982,7 +3982,7 @@ label day3_3_tubasa:
     show tubasa 1 at top with dissolve
     window show
     tubasa "[player_name]君……？"
-    me "没，没事，没事。"
+    me "没、没事，没什么。"
     hide tubasa with dissolve
     return
 
@@ -3990,7 +3990,7 @@ label day3_3_sora:
     show sora 5 at top with dissolve
     window show
     sora "[player_name]君，怎么了？"
-    me "没，没事，没事。"
+    me "没、没事，没什么。"
     hide sora with dissolve
     return
 
@@ -3998,15 +3998,15 @@ label day3_3_tuki:
     show tuki 6 at top with dissolve
     window show
     tuki "怎么了？[player_surname]。"
-    me "没，没事，没事。"
+    me "没、没事，没什么。"
     hide tuki with dissolve
     return
 
 label day3_3_saburo:
     show saburo 6 at top with dissolve
     window show
-    saburo "怎么了？[player_surname]。"
-    me "没，没事，没事。"
+    saburo "怎么啦？[player_surname]。"
+    me "没、没事，没什么。"
     hide saburo with dissolve
     return
 
@@ -4014,21 +4014,21 @@ label day3_3_sakuya:
     show sakuya 10 at top with dissolve
     window show
     sakuya "喂，怎么了？"
-    me "没，没事，没事。"
+    me "没、没事，没什么。"
     hide sakuya with dissolve
     return
 
 label day3_4:
     window show
     "现在去想这些也没用。"
-    extend "\n集中精神做眼前的事吧。"
+    extend "\n先集中精神做眼前的事吧。"
     show tomo 13 at top with dissolve
-    tomo "好，各位！\n今天也继续作为御咲祭实行委员加油吧！！"
+    tomo "好——各位！\n今天也继续作为御咲祭实行委员加油吧！！"
     show tomo 17 with dissolve
     extend "\n那么，各个小组开始行动！！"
     hide tomo with dissolve
     "好。"
-    extend "\n今天，帮什么忙好呢……？"
+    extend "\n今天，去哪边帮忙好呢……？"
     window hide
     show 班選択 choose_group_message at center with dissolve
     return
