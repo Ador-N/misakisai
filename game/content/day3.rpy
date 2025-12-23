@@ -1691,7 +1691,7 @@ label day3_2_sakuya:
 label day3_design:
     hide 班選択 with dissolve
     window show
-    "去『服装制作组』看看吧！"
+    "去『服装组』看看吧！"
     window hide
     stop music fadeout 0.5
     hide bg with dissolve
@@ -1699,65 +1699,65 @@ label day3_design:
     play music "quiet_lunch.ogg"
     show sintarou 1 at topright with dissolve
     window show
-    sintarou "小友。\n今天到底要做什么啊~？"
-    extend "\n在周五服装到手前，闲着也没事做吧？"
+    sintarou "友亲~。\n今天到底要做什么啊~？"
+    extend "\n在周五服装送到手之前，咱们是不是就没事做了？"
     show tomo 7 at topleft with dissolve
-    tomo "就是啊。"
-    extend "\n预算也所剩不多了，要额外再买些东西也不太可能……。"
+    tomo "就是说啊——"
+    extend "\n预算也没剩下多少了，想再买些东西也不太可能……。"
     show tomo 9
     show sintarou 16 with dissolve
     tomo_and_shin "嗯嗯……。"
-    me "那么，做全员的名牌怎么样？"
-    extend "\n要是做名牌的话，应该不会那么贵，\n只要有纸和笔就能做。"
+    me "那么，给全员做一份名牌怎么样？"
+    extend "\n做这种胸牌的话应该花不了多少钱，\n只要有纸和笔就能做。"
     show sintarou 8 with dissolve
-    sintarou "哦~！[player_name]酱，好主意~！！"
+    sintarou "哦哦~！[player_name]酱，好主意~！！"
     show tomo 1 with dissolve
-    tomo "嗯！不错啊。"
-    extend "\n那么，马上开始作业吧！"
-    extend "\n首先要去买板子。"
+    tomo "嗯！不错嘛。就这么办。"
+    extend "\n那我们赶紧开始干活吧！"
+    extend "\n首先得去买名牌的底板，"
     show tomo 21 with dissolve
-    extend "\n有在哪儿卖的吗？"
+    extend "\n那种东西哪儿有卖的？"
     show sintarou 15 with dissolve
-    sintarou "在百元店里会有吧。"
-    extend "\n不过，这附近有那种店吗？"
-    me "那么，在网上买不就好了？"
+    sintarou "百元店里应该就有吧。"
+    extend "\n不过说起来，这附近有那种店吗？"
+    me "那种东西，在网上买不就好了？"
     show tomo 28 with dissolve
-    tomo "网上买……！！"
+    tomo "网、网购……！！"
     show tomo 27 with dissolve
-    extend "\n我说，小慎。\n我们昨天还特地跑到梅咲去买服装，\n那些网上有卖的……。"
+    extend "\n我说，慎酱。\n我们昨天还特地跑到梅咲去买服装，\n那些东西网上也全部都有吧……。"
     show sintarou 21 with dissolve
     stop music fadeout 0.5
-    sintarou "友，友！ 不能再说下去了！！"
+    sintarou "友、友亲！不能再说下去了！！"
     play music "hurry_up.ogg"
     show tomo 30 with dissolve
-    tomo "可，可是慎太郎酱！\n我们之前那么辛苦，真的有必要吗？"
+    tomo "可、可是慎太郎亲！\n我们之前那么辛苦，真的有必要吗？"
     show cg c14 at center with zoominout
     play sound "fx/dash.ogg"
     sintarou "笨蛋！！"
-    tomo "呜呜"
+    tomo "呜呜。"
     window hide
     hide cg with dissolve
     hide sintarou with dissolve
     hide tomo with dissolve
     window show
     play sound "fx/triangle.ogg"
-    "……这好像有什么事情要发生了呢。"
+    "……这两个人，又开始了啊。"
     show tomo 30 at topleft
     show sintarou 26 at topright with dissolve
-    sintarou "这世上没有无用的东西！"
-    extend "\n过去不是用来后悔的……而是用来吸取教训的！"
+    sintarou "这世上没有什么是徒劳的！"
+    extend "\n过去并不是用来后悔的……而是为了给未来铺路！"
     show sintarou 24 with dissolve
     extend "\n所以，我们必须向前看，继续前进！！"
     show tomo 29 with dissolve
-    tomo "慎，慎太郎酱……！"
+    tomo "慎、慎太郎亲……！"
     show sintarou 20 with dissolve
-    sintarou "友酱！"
+    sintarou "友亲！"
     show cg adult at center
     play sound "fx/sparkle.ogg"
     show tomo 13 with dissolve
-    tomo "慎太郎酱……！"
+    tomo "慎太郎亲……！"
     show sintarou 7 with dissolve
-    sintarou "友酱！！！"
+    sintarou "友亲！！！"
     me "好，卡！"
     extend "\n那么，接下来就去拍床戏吧！！"
     hide cg with dissolve
@@ -1768,21 +1768,21 @@ label day3_design:
     show tomo 25 with dissolve
     tomo "不要~！变态~！！"
     me "男人都有兽欲！"
-    extend "\n不是吗，两位…。"
+    extend "\n对吧……二位大人。"
     show tomo 38 with dissolve
-    tomo "呼……您说得是。"
+    tomo "呵……全凭大人吩咐。"
     show sintarou 12 with dissolve
-    sintarou "哎呀，你也有不对的地方啊…。"
-    me "我可不像慎太郎大人那般…。"
+    sintarou "哎呀哎呀……你这家伙，也真是够坏的啊……。"
+    me "哪里哪里，比起代官大人您，我还差得远呢……。\n（注：『代官大人』原指江户时代的地方官，但在日本时代剧中常被塑造成反派形象）"
     window hide
     hide tomo with dissolve
     hide sintarou with dissolve
     show sakuya 11 at topleft with dissolve
     window show
     sakuya "喂，小不点儿。"
-    extend "\n你不阻止那群蠢货吗？。"
+    extend "\n你不去阻止一下那群蠢货吗？"
     show sinobu 19 at topright with dissolve
-    sinobu "……我已经不打算去阻止了…。"
+    sinobu "……我已经不打算阻止了……。"
     window hide
     hide sinobu with dissolve
     hide sakuya with dissolve
@@ -1792,29 +1792,29 @@ label day3_design:
     hide tubasa with dissolve
     show sakuya 6 at top with dissolve
     play sound "fx/boing.ogg"
-    sakuya "唔……"
+    sakuya "唔……。"
     hide sakuya with dissolve
     hide tubasa with dissolve
     show tubasa 14 at topright with dissolve
     show sakuya 9 at topleft with dissolve
-    extend "\n2组的代表也别东张西望的，\n应该去商讨或者进行作业才是！"
+    extend "\n二班的代表，你也别在那儿东张西望了，\n赶紧去商量工作或者干活！"
     $ renpy.transition(Quake(0, 60, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
     show tubasa 3 with dissolve
     tubasa "（抖）"
-    "面对着一脸羡慕地注视着服装组的翼，\n作哉用带着刺儿的话语泼了他冷水。"
+    "面对一脸羡慕地注视着服装组那边欢快气氛的翼，\n作哉毫不留情地用带刺的话泼了冷水。"
     show sakuya 2 with dissolve
-    sakuya "喂，一～之～濑～！"
+    sakuya "喂，说你呢，一~之~濑~！"
     show sakuya 8 with dissolve
-    extend "\n你是和小不点儿同组的吧。"
-    extend "\n如果不能集中注意力的话，就去远一点的地方干活去。"
+    extend "\n你是和小不点儿一组的吧。"
+    extend "\n如果不能集中注意力的话，就到远一点的地方干活去。"
     show tubasa 7 with dissolve
     $ renpy.transition(Quake(60, 0, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
-    tubasa "好痛痛痛……别，别再拉我了啦~。"
+    tubasa "疼疼疼……别、别拽我呀~。"
     show sakuya 12 with dissolve
     sakuya "……。"
-    "一脸无奈的作哉强行拉着哭哭啼啼的翼走了。"
+    "带着几分无奈的作哉，强行把快要哭出来的翼拉走了。"
     stop music fadeout 1.0
     extend "\n那两人，说不定关系还不错呢。"
     window hide
@@ -1824,21 +1824,21 @@ label day3_design:
     play music "quiet_lunch.ogg"
     window show
     me "好。那我们也开始做自己能做的事吧。"
-    extend "\n先把那块板子放下，先做个名牌吧"
+    extend "\n底板的事先放一放，先把名牌的内页做出来。"
     show tomo 1 at topleft with dissolve
-    tomo "啊，老师说有剩余的画纸。"
-    "我顺着友的指向看去，的确还有几张图画纸。"
+    tomo "啊，如果是纸的话，老师说那边有剩下的画纸可以用哦。"
+    "我顺着友的指向看去，的确还有几张颜色各异的图画纸。"
     me "嗯。\n有这些应该足够了吧。"
     show tomo 12 with dissolve
-    tomo "是吗！"
-    extend "\n那么接下来就用美工刀和剪刀裁剪成合适大小的……"
+    tomo "是啊！"
+    extend "\n那么接下来，只要用美工刀和剪刀裁成合适的大小……。"
     show tomo 21 with dissolve
     extend "\n啊，不过，到底要裁成什么尺寸才好呢？"
     show sintarou 2 at topright with dissolve
-    sintarou "我家澡堂就有名牌\n照着那个裁不就好了吗？"
+    sintarou "我这儿刚好有张我家澡堂的名牌，\n照着这个来裁不就好了吗？"
     show tomo 4 with dissolve
-    tomo "小慎真是聪明！"
-    extend "\n那么，嚓嚓嚓嚓嚓嚓~♪"
+    tomo "慎酱真是聪明！"
+    extend "\n那么接下来就——嚓嚓嚓嚓嚓嚓~♪"
     "那么，从哪个颜色开始剪呢。"
     hide sintarou with dissolve
     hide tomo with dissolve
@@ -2154,30 +2154,30 @@ label day3_design_tomo:
     window show
     tomo "好痛。"
     show sintarou 27 at topright with dissolve
-    sintarou "友，怎么了？"
+    sintarou "友亲，怎么了？"
     show tomo 26 with dissolve
-    tomo "手指破了。"
+    tomo "不小心切到手指了。"
     show sintarou 10 with dissolve
     sintarou "没事吧？"
-    extend "\n好像有点出血呢。"
+    extend "\n哎呀——已经渗出血了呢。"
     me "友，没事吧？"
-    extend "\n给我看看。"
-    "我抓住友的手臂，看了看他的伤口。"
+    extend "\n让我看看。"
+    "我一把抓过友的手臂，仔细查看他的伤口。"
     play sound "fx/shock.ogg"
-    "啊啊啊\n我心爱的男生的手指居然受了伤！"
+    "啊啊啊！\n我心爱的男生的手指居然受伤了啊啊啊！"
     extend "\n看上去伤口好像不深，但还是不能大意。"
-    extend "\n说不定会因此而感染！"
+    extend "\n说不定会因此感染！"
     window hide
     play music "emergency.ogg"
     show cg c15 at center with Radial(0.5)
     $ renpy.transition(Quake(0, 100, 0.1, 0.065), layer='master')
     play sound "fx/cute.ogg"
     window show
-    "啪嗒"
-    extend "\n啪嗒"
+    "（含住）"
+    extend "\n（舔）"
     tomo "呀啊！"
-    extend "\n等，[player_name]君？！！"
-    "正太的手简直是美味！！"
+    extend "\n等、等下，[player_name]君？！！"
+    "正太的手指，简直是美味！！"
     sintarou "噢！[player_name]酱做得不错~♪"
     extend "\n舔伤口这种动作，现在即便在漫画里都很少见了~！"
     me "在之前的漫画里倒是挺常见的。"
@@ -2189,12 +2189,12 @@ label day3_design_tomo:
     show tomo 19 at top with dissolve
     window show
     tomo "啊，嗯。"
-    extend "\n谢谢，[player_name]君。"
+    extend "\n谢谢你，[player_name]君。"
     play sound "fx/sliding_door.ogg"
     hide tomo with dissolve
     hide sintarou with dissolve
     show bg hallway with dissolve
-    "我出了教室，朝保健室走去。"
+    "我走出教室，快步朝保健室走去。"
     window hide
     play sound "fx/running.ogg"
     hide bg with dissolve
@@ -2202,13 +2202,13 @@ label day3_design_tomo:
     show bg classroom at center with dissolve
     show sintarou 12 at topright with dissolve
     window show
-    sintarou "唔呵呵~友酱~。"
+    sintarou "嗯哼哼~友酱~。"
     extend "\n你的脸好红啊~？"
     show tomo 30 at topleft with dissolve
-    tomo "啊，啊啊被那样对待是当然的啊啊啊！？"
+    tomo "啊、啊啊当众做了那种事脸红也是理所当然的吧啊啊啊！？"
     show tomo 7 with dissolve
     extend "\n……啊，又流血了。"
-    "啊呜"
+    "啊呜~"
     show sintarou 7 with dissolve
     play sound "fx/cute2.ogg"
     $ renpy.transition(Quake(0, 40, 0.1, 0.15), layer='master')
@@ -2217,8 +2217,8 @@ label day3_design_tomo:
     show tomo 32 with dissolve
     play sound "fx/boing.ogg"
     $ renpy.transition(Quake(0, 40, 0.1, 0.15), layer='master')
-    tomo "不，不不不不是的呜呜呜呜！！！！！"
-    extend "\n这，这是无意识的……！"
+    tomo "不、不不不不是的呜呜呜呜！！！！！"
+    extend "\n这、这是无意识的反应……！"
     hide tomo with dissolve
     hide sintarou with dissolve
     show bg school_building_morning with dissolve
@@ -2230,18 +2230,18 @@ label day3_design_tomo:
     show bg classroom at center with dissolve
     play music "cute_silly.ogg"
     window show
-    "我从保健室拿了创可贴回来后，把创可贴给了友，继续工作。"
-    "但是，友的样子和刚才有点不一样。"
+    "我从保健室回来后，把创可贴交给友并重新开始了工作。"
+    "但是，气氛明显和刚才不太一样了。"
     show tomo 23 at topleft with dissolve
-    extend "\n即使和友目光对上了，"
+    extend "\n即使和友目光相对，"
     show tomo 8 with dissolve
-    "视线也会很快被移开。"
+    "他也会立刻移开视线。"
     "感觉像被避开了一样……？"
-    extend "\n舔手指果然还是做过火了……。"
+    extend "\n舔手指果然还是做过火了吗……。"
     show sintarou 12 at topright with dissolve
     sintarou "（嘿嘿）"
-    "在略显尴尬的氛围中，我们把所有的纸都切分完毕"
-    extend "\n各自写上所有同学的名字，任务全部完成了。"
+    "在略显尴尬的氛围中，我们把所有的纸都裁剪完毕，"
+    extend "\n各自写上所有同学的名字，总算完成了任务。"
     window hide
     hide sintarou with dissolve
     hide tomo with dissolve
@@ -2249,11 +2249,11 @@ label day3_design_tomo:
     window show
     sintarou "哎呀~今天的任务完成得意外早啊。"
     show tomo 21 at topleft with dissolve
-    tomo "怎么办。"
-    extend "\n没必要勉强在学校留到这么晚，今天就解散吧？"
+    tomo "怎么办呢。"
+    extend "\n反正也没必要硬留在学校里，今天就解散吧？"
     play sound "fx/boing.ogg"
     "什么！！"
-    extend "\n也就是说，今天愉快的校园生活已经结束了吗？"
+    extend "\n也就是说，我今天愉快的校园生活就到此为止了吗？"
     return
 
 label day3_design_sintarou:
@@ -5055,19 +5055,19 @@ label day3_supply_2_sakuya:
 
 label day3_design_2_tomo:
     window show
-    "这样下去欲求不满可是会收不回来的啊！！"
-    "现在就是一不做二不休……！！"
-    me "那要不要现在就一起去玩？"
-    extend "\n说起来~去你家怎么样？"
+    "这样下去，我的欲求不满可没法平复啊！！"
+    "事到如今，只能一不做二不休了……！！"
+    me "那要不要现在去哪里玩玩？"
+    extend "\n说起来~去友君家里怎么样？"
     hide tomo with dissolve
     hide sintarou with dissolve
     show tomo 28 at top with dissolve
     tomo "诶，我家？"
     show tomo 7 with dissolve
-    extend "\n也行啊，不过没什么好玩的。啊，倒是有Uii。"
-    extend "\n但是老妈出门了，所以也没什么零食。"
-    me "完全不要紧！"
-    extend "\n正好也想见识一下友的家是什么样的。"
+    extend "\n可以是可以啦，不过没什么好玩的。啊，倒是有Uii。"
+    extend "\n而且我妈出门了，可能连招待你的点心都没有。"
+    me "完全没关系！"
+    extend "\n正好也想见识一下友君的家是什么样的。"
     hide tomo with dissolve
     show tomo 12 at topleft
     show sintarou 12 at topright with dissolve
@@ -5075,14 +5075,14 @@ label day3_design_2_tomo:
     sintarou "嚯嚯……原来如此。"
     show sintarou 13 with dissolve
     sintarou "抱歉了，二位！\n这次我就不去了。"
-    extend "\n还要去澡堂帮忙呢。"
-    "说完慎太郎凑近我，贴着我的耳朵说。"
+    extend "\n还得去澡堂帮忙呢。"
+    "说完，慎太郎突然凑近我，趴在我的耳边低声说道："
     hide sintarou with dissolve
     hide tomo with dissolve
     show sintarou 4 at top with dissolve
-    sintarou "身为男人就要一不做二不休哦！"
+    sintarou "身为男人，最重要的就是要主动出击！"
     extend "\n我会为你加油的~♪"
-    me "什！不，不是，不是这样的！"
+    me "什！不、不是，我不是那个意思！"
     show sintarou 20 with dissolve
     sintarou "别害羞啦！"
     show sintarou 31 with dissolve
@@ -5095,23 +5095,23 @@ label day3_design_2_tomo:
     tomo "诶，什么什么？"
     sintarou "没什么~！"
     extend "\n那么，我就先走一步了！"
-    "说完慎太郎"
+    "说完，慎太郎"
     play sound "fx/sliding_door.ogg"
     hide sintarou with dissolve
     hide tomo with dissolve
-    "就离开了教室。"
+    "飞也似地跑出了教室。"
     window hide
     show tomo 7 at top with dissolve
     window show
     tomo "慎酱也真辛苦啊。"
     show tomo 3 with dissolve
-    extend "\n不过，我们现在要回家了，\n要是一起去就好了……。"
+    extend "\n不过，我们反正也要回家，\n他要是能跟我们一起走就好了……。"
     show tomo 21 with dissolve
     extend "\n是吧？[player_name]君。"
-    me "诶。啊，不是，啊哈哈。是啊。"
-    "慎太郎这家伙。被他这么一说，就算我不愿意也会在意的。"
-    extend "\n不，我也没觉得讨厌！！"
-    "我一个人烦恼着，往友家走去。"
+    me "诶。啊、那个，啊哈哈。是啊。"
+    "慎太郎这家伙。被他这么一说，即便我不想也会开始在意起来了啊。"
+    extend "\n不，我也没觉得在意这种事有什么不好的！！"
+    "我一个人在心里烦闷着，朝友家走去。"
     window hide
     hide tomo with dissolve
     stop music fadeout 2.5
@@ -5122,45 +5122,45 @@ label day3_design_2_tomo:
     show bg residential_area with Dissolve(1.5)
     window show
     "话说，仔细想想，"
-    extend "他妈妈不在的话，就……\n"
+    extend "既然他妈妈不在家……\n"
     play music "lively_boys.ogg"
     play sound "fx/eureka.ogg"
-    "我们两人独处……！！"
-    extend "\n这，这，我应该要意识到的吧！！"
-    extend "\n不行。我心跳加速，感觉心快要从胸口裂开……！！！"
+    "那不就是我们两人独处……！！"
+    extend "\n这、这，我得提前做好心理建设吧！？！？"
+    extend "\n不行，心跳快到胸口都要炸开了……！！！"
     "没事吧。"
-    extend "发型OK？"
-    extend "\n表情没有变得很奇怪？没有油光满面？"
+    extend "发型OK吗？"
+    extend "\n表情没有变得很奇怪？没有油光满面吧？"
     extend "\n服装……姑且扣上第一个扣子吧。"
     extend "\n去别人家里，要保持安静！"
-    "剩下的就是……"
+    "还有还有……"
     window hide
     show tomo 18 at top with dissolve
     window show
-    tomo "喂，[player_name]君"
+    tomo "喂——[player_name]君！"
     extend "\n你要去哪里啊~？"
     me "诶？呜哇！？"
     hide tomo with dissolve
     stop music
     play sound "fx/dash.ogg"
     $ renpy.transition(Quake(100, 150, 0.1, 0.07), layer='master')
-    "咚"
+    "（咚！）"
     "我的头撞到了电线杆上。"
-    "友看着这样的我，笑着说。"
+    "看到我这样，友笑着说道："
     window hide
     show tomo 31 at top with dissolve
     play music "quiet_lunch.ogg"
     window show
-    tomo "什么啦～。"
+    tomo "“真是的~你到底在干嘛啦~。"
     extend "\n看，已经到公寓啦。\n快进去快进去！"
     window hide
     hide tomo with dissolve
     show bg moriumi_apartment with Dissolve(1.5)
     window show
-    "友所指的方向，是3层高的可爱公寓，\n其外观上有着淡茶色的砖瓦拼图。"
+    "友指着的，是一栋有着淡茶色砖纹装饰、\n一共三层楼的可爱小公寓。"
     show tomo 12 at top with dissolve
-    tomo "我家，就在这里的最上面，右手边的拐角房间！"
-    "上了楼梯后，打开了301号室的门。"
+    tomo "最上面那一层，右手边的转角房间就是我家！"
+    "我们走上楼梯，推开了301号室的大门。"
     show tomo 2 with dissolve
     tomo "请进，请进！"
     me "打扰了。"
@@ -5172,60 +5172,60 @@ label day3_design_2_tomo:
     window show
     tomo "你随便坐吧。我先去泡茶了。"
     hide tomo with dissolve
-    me "嗯，嗯。谢谢你特地招待我。"
+    me "嗯、嗯。谢谢你特地招待我。"
     "我在客厅的沙发上坐下，环顾四周。"
     "这里就是友的家啊……。"
-    "家具收拾得干干净净，四处点缀着花盆和画作。"
+    "家具收拾得井井有条，四处点缀着盆栽和装饰画。"
     extend "\n西洋风，很时髦的感觉啊。大概是妈妈的品味吧。"
-    "然后，"
-    extend "四散在周围，友君的味道……！"
-    extend "\n闻着这个味道，感觉心情莫名平静。"
-    extend "\n之后再问问他是用什么洗洁剂来洗衣服吧？"
+    "以及，"
+    extend "空气中弥漫着的，友君的味道……！"
+    extend "\n闻着这股香味，感觉心情莫名平静了下来。"
+    extend "\n待会儿，要不要顺便问问他家里用的是什么洗涤剂呢？"
     "正当我这么想着的时候，友把茶送了过来。"
     show tomo 4 at top with dissolve
     tomo "请用！"
     me "谢谢。"
-    "这就是友君家用的杯子吗……。"
+    "这就是友平时用的杯子吗……。"
     show tomo 12 with dissolve
     play sound "fx/sparkle.ogg"
-    extend "\n是友君多次亲吻过，这个杯子……。"
+    extend "\n是友君无数次亲吻过的杯子……。"
     extend "\n我要开动了！！"
-    "（咽口水）"
+    "（咕嘟）"
     extend "\n嗯！真好喝！！！！"
     show tomo 1 with dissolve
     tomo "那，玩什么呢~？"
-    extend "\n游戏的话，有赛车和卡丁车，你想玩哪一种~？"
+    extend "\n游戏的话，有大乱斗和赛车，你想玩哪一种~？"
     show tomo 10 with dissolve
-    extend "\n啊，还有《寂静陵》哦！这是从忍那借来的。"
-    me "嗯~选赛车的话，卡丁车如何！"
+    extend "\n啊，还有《寂静陵》哦！这是从忍那里借来的。"
+    me "嗯~那就拉里奥赛车吧！"
     show tomo 4 with dissolve
     tomo "OK~♪"
     "友打开电视，启动游戏。"
     hide tomo with dissolve
     stop music fadeout 1.0
-    "……看来，友的游戏技术不是很好。"
-    extend "\n虽然我也不太会玩游戏，但还是打得挺开心的。"
+    "……看样子，友的游戏水平似乎并不算很高。"
+    extend "\n虽然我也不太会玩游戏，但两人打得还挺势均力敌的。"
     window hide
     play music "tomo_theme.ogg"
     show cg c16 at center with zoominout
     window show
     play sound "fx/cute.ogg"
-    tomo "喵ー！！好爽！！！\n居然撞到障碍了！！！"
-    extend "\n哇啊ー！被他甩得越来越远了ー！"
+    tomo "喵呜——！！库巴烦死了！！！\n居然用红龟壳砸我！！！"
+    extend "\n哇啊——！名次一直在往下掉——！"
     play sound "fx/cute3.ogg"
-    me "哇哦，真的假的~你刚刚是不是转了弯啊！！"
-    extend "\n啊啊可恶，掉下去了啊啊啊……啊ー啊，垫底了……。"
-    tomo "好，我来一发雷劈！！！"
+    me "哇哦，真的假的~我明明转过弯了啊！！"
+    extend "\n啊啊可恶，掉下去了啊啊啊……完蛋，垫底了……。"
+    tomo "好，闪电来了！！！"
     play sound "fx/cute2.ogg"
     extend "\n吃我这招啊啊！！！"
-    me "哇哈哈！正好掉到赛道外的我可就不管了哦……"
-    extend "\n我的道具~好，来了，护甲！！！"
-    extend "\n不想被撞到的人就给我躲开啊啊啊！"
+    me "刚掉到赛道外的我可是无敌状态，雷劈无效……。"
+    extend "\n我的道具~好，来了，炮弹！！！"
+    extend "\n不想被撞飞的家伙通通给我闪开啊啊啊！"
     play sound "fx/explosion2.ogg"
-    extend "呀哈！保险费又要涨了！"
+    extend "呀哈——！保险费又要涨了！"
     play sound "fx/shock.ogg"
     tomo "呀啊啊啊别过来啊啊啊啊！！！"
-    "旁人看来，肯定会觉得这游戏玩法毫无章法。\n但正因为同为低水平的人，我们才能专注于游戏本身。"
+    "旁人看来，肯定会觉得我们玩得毫无章法。\n但正因为水平都不怎么样，我们反而玩得格外投入。"
     window hide
     hide tomo with dissolve
     hide cg with dissolve
@@ -5233,32 +5233,32 @@ label day3_design_2_tomo:
     show bg moriumi_living_room_evening at center with dissolve
     window show
     me "呜……3D眩晕症要犯了。"
-    extend "\n哎呀，不过说真的，现在的游戏真的是气势非凡，和红白机简直是天壤之别。"
+    extend "\n哎呀，不过说真的，现在的游戏画面表现力确实不一样啊。和红白机简直是天壤之别。"
     window hide
     show tomo 12 at top with dissolve
     window show
-    tomo "稍微休息一下？"
-    me "嗯，那就休息一下吧。"
-    extend "\n说起来，你房间在哪？"
+    tomo "要休息一下吗？"
+    me "嗯，那就打扰了。"
+    extend "\n说起来，友君的房间是哪间？"
     show tomo 7 with dissolve
-    tomo "啊，在那边，很乱的哦~？"
+    tomo "啊，在那边，不过里面很乱的哦~？"
     extend "\n衣服什么的都扔在地上。"
     me "完全没问题哦~。"
     extend "\n我想看看，可以吗？"
     show tomo 8 with dissolve
-    tomo "那也好……不过不要到处乱看！"
-    me "哎呀，竟然要瞒着我吗~？好见外啊……"
-    "我打开房门，走进了友的房间。"
+    tomo "好吧，倒是可以……。但别到处乱翻哦！"
+    me "哎呀，难不成有什么不可告人的秘密吗~？咱们之间还这么见外……。"
+    "我推开房门，走进了友的房间。"
     window hide
     hide tomo with dissolve
     play sound "fx/door_open.ogg"
     show bg tomo_room_evening with FadeWhite(0.5)
     window show
-    "这里弥漫着友的味道，和整洁的客厅不同，\n正如友所说，房间确实有些杂乱，很有青春期少年的风格。"
+    "这间屋子里，友君的味道变得更加浓郁了。和整洁的客厅不同，\n正如他所说，这里略显凌乱，充满了青春期少年特有的生活气息。"
     "现实中也是这种感觉啊~。"
     play sound "fx/cute2.ogg"
-    "嗯？这比基尼内裤是什么？？"
-    me "友，这个……？"
+    "嗯？这比基尼内裤是怎么回事？？"
+    me "友君，这个难道是……？"
     window hide
     show tomo 7 at top with dissolve
     window show
@@ -5266,59 +5266,59 @@ label day3_design_2_tomo:
     show tomo 18 with dissolve
     play sound "fx/cute3.ogg"
     $ renpy.transition(Quake(0, 60, 0.1, 0.15), layer='master')
-    extend "啊！！！\n我忘记了收起来了！！！"
+    extend "啊——！！！\n我忘记收起来了！！！"
     extend "\n呜哇，别看别看！！"
     "什么！？这是友君的吗！？"
-    extend "\n哦哦……他有这种兴趣吗……。"
-    extend "\n……待会儿偷偷拿回去吧。"
+    extend "\n哦哦……他还有这种趣味啊……。"
+    extend "\n……要不待会儿偷偷拿回去吧。"
     me "啊，这个电动按摩器……。"
-    extend "\n原来是这样。友君每天都这样……"
+    extend "\n原来是这样。友君每天都用这个来……。"
     show tomo 20 with dissolve
     $ renpy.transition(Quake(60, 0, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
-    tomo "不，不不不不！！"
-    extend "\n我房间里不行！！\n禁止入侵！！"
+    tomo "不、不不不不！！"
+    extend "\n果然我的房间绝对不行！！\n禁止入内！！"
     stop music fadeout 2.0
     "咦，这反应倒是有些出乎意料。"
-    extend "\n我一直以为，看他和慎太郎关系那么好，\n这种程度会完全不为所动的……。"
-    me "没事，不用在意啦~！\n我们都是男生嘛~？"
-    extend "\n来来来，照惯例来吧！"
+    extend "\n平时看他跟慎太郎插科打诨的样子，\n我还以为这种程度他会完全不为所动的……。"
+    me "好啦，别在意这些~！\n我们都是男生嘛~？"
+    extend "\n来，拿出你平时那股劲头来！"
     show tomo 35 with dissolve
     tomo "……如果是别人的话，我不会这么激动的。"
-    me "啊？"
+    me "诶？"
     window hide
     play music "good_scene.ogg"
     hide tomo with dissolve
     show cg c17 1 at center with Dissolve(2.0)
     window show
-    tomo "……怎么说呢，[player_name]你……感觉有些不一样。"
-    "友突然露出一本正经的表情，坐到床上低下了头。"
+    tomo "……总觉得，[player_name]君……感觉有些不一样。"
+    "友的表情突然变得严肃起来，他坐到床边，低下了头。"
     me "呃……那个……。"
-    tomo "我，我不知道。\n我为什么会变成这样啊！"
-    extend "\n好奇怪。啊，啊哈哈。"
+    tomo "我、我也不知道。\n我为什么会变成这样啊！"
+    extend "\n好奇怪啊。啊、啊哈哈。"
     "友无力地笑了笑。"
     "……。"
-    "换做平时的我，会直接推倒他，\n然后强行撬开他的心房，走进他的世界……。"
-    extend "\n但看到他这副表情，这次我就完全没那个想法了。"
+    "换做平时的我，这种时候大概会顺势把他推倒，\n然后强行撬开他的心房，闯进他的世界……。"
+    extend "\n但看到他这副表情，这一次，我完全生不出那样的念头。"
     show cg c17 2 with dissolve
-    "我坐到友的身旁，摸了摸他的头。"
+    "我坐到友的身旁，轻轻地摸了摸他的头。"
     me "一点也不奇怪。"
-    extend "\n友，你慢慢想就行了，\n如果能明白自己为什么会有那种感觉，那就再好不过了。"
+    extend "\n友，慢慢来就行。\n如果能明白自己为什么会有那种感觉，那就再好不过了。"
     tomo "[player_name]君……。"
     me "嗯？怎么了？"
-    tomo "啊……呜……"
-    extend "\n果然没什么！！"
-    extend "\n那个……嗯！我，再稍微想一下！！"
+    tomo "啊……呜……。"
+    extend "\n果然还是没什么！！"
+    extend "\n那个……嗯！我，会再稍微想一想的！！"
     show cg yellow with FadeWhite(0.7)
-    "在这个梦的世界里，遇到了各种各样的少年。"
+    "在这个梦境世界里，我遇到了各种各样的少年。"
     extend "\n大家都很可爱。"
-    extend "\n每个人都有各自的魅力，老实说，我也想象过。"
-    "但是，现在，坐在眼前的这个人是……"
+    extend "\n每个人都有各自的魅力，老实说，我也产生过一些下流的幻想。"
+    "但是，现在坐在眼前的这个孩子……"
     extend "友，是特别的。"
-    extend "\n他肯定对我怀有与对待其他人不同的，特别的感情。"
-    extend "\n这世界是梦什么的，已经无所谓了。"
+    extend "\n这种感情，绝对与对待其他孩子时的心情不同。"
+    extend "\n这个世界究竟是不是梦境，已经无所谓了。"
     extend "\n我想坦率地与友相处。"
-    "所以在友自己察觉到之前，先等一下吧。"
+    "所以，在友自己察觉到那份心情之前，我就在这里陪着他，等他一下吧。"
     hide tomo with Dissolve(0.7)
     hide cg with Dissolve(0.7)
     hide bg with Dissolve(0.7)
@@ -5326,20 +5326,20 @@ label day3_design_2_tomo:
     window hide
     show bg moriumi_living_room_evening at center with dissolve
     window show
-    me "啊，在梦醒之前。"
+    me "啊，不过，最好是在梦醒之前哦。"
     window hide
     show tomo 23 at top with dissolve
     window show
-    tomo "嗯？什么意思？"
-    me "没什么，就我个人的想法。"
-    extend "\n那么，我差不多该告辞了。\n打扰了！明天再见。"
+    tomo "诶？你在说什么呀？"
+    me "不，没什么，自言自语而已。"
+    extend "\n那么，我差不多该告辞了。\n打扰了！明天见。"
     stop music fadeout 2.5
     window hide
     hide tomo with dissolve
     play sound "fx/door_open.ogg"
     show bg moriumi_apartment_evening with dissolve
     window show
-    "就这样，我从友家出来，朝自己家走去。"
+    "就这样，我离开了友的家，踏上了回家的路。"
     window hide
     play sound "fx/running.ogg"
     hide bg with Dissolve(0.8)
@@ -5355,9 +5355,9 @@ label day3_design_2_tomo:
     tomo "哈啊……。"
     play sound "fx/wind_slash.ogg"
     show cg remarkable at center with dissolve
-    "唰！！"
+    "（唰！！）"
     play sound "fx/sliding_door.ogg"
-    extend "\n哗啦哗啦"
+    extend "\n（嘎啦嘎啦）"
     hide tomo with dissolve
     hide cg with dissolve
     show tomo 30 at top with dissolve
@@ -5374,42 +5374,42 @@ label day3_design_2_tomo:
     show tomo 20 at topleft with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
-    tomo "忍，忍！！"
-    extend "\n能不能正常地进个房间啊！！\n每次都这样，心脏真的要受不了了。"
+    tomo "忍、忍啊！！"
+    extend "\n能不能正常地进来啊！！\n每次都这样，心脏真的要受不了了。"
     show sinobu 3 with dissolve
-    sinobu "因为，现在从玄关进的话，\n[player_name]不就和我擦肩而过了吗？"
+    sinobu "因为，现在从玄关进的话，\n不就正好跟[player_name]撞个正着了吗？"
     show tomo 27 with dissolve
-    tomo "就，就这种程度而已，没什么大不了的吧。"
+    tomo "那、那也没什么大不了的吧。"
     show sinobu 5 with dissolve
-    sinobu "我可是很困扰的。"
+    sinobu "我可是会很困扰的。"
     show sinobu 7 with dissolve
     extend "\n……然后呢，心意传达了吗？"
     show tomo 29 with dissolve
-    tomo "呜……还，还没。"
+    tomo "呜……还、还没。"
     show sinobu 10 with dissolve
     sinobu "哈啊……真是没出息的男人。"
     show tomo 19 with dissolve
-    tomo "这，这也没办法吧！！"
-    extend "\n我还是第一次做这种事啊！！"
+    tomo "这、这也没办法吧！！"
+    extend "\n这种事，我还是第一次经历啊！！"
     show sinobu 5 with dissolve
-    sinobu "是啊。"
+    sinobu "也是呢。"
     extend "\n一开始听说的时候，我也吓了一跳。"
     show tomo 35 with dissolve
-    tomo "嗯…。"
+    tomo "嗯……。"
     stop music fadeout 2.0
     show sinobu 4 with dissolve
     sinobu "打算什么时候说啊？"
     show sinobu 5 with dissolve
-    extend "\n不过我觉得你也不用勉强去说就是了。"
+    extend "\n嘛，虽然我觉得你也没必要非得勉强去说就是了。"
     window hide
     show cg moon_night at center with dissolve
     window show
     tomo "……！"
-    extend "\n再，再让我考虑一下。"
+    extend "\n再、再让我考虑一下。"
     show tomo 37 with dissolve
     extend "\n在御咲祭之前，我会给出答案的。"
     show sinobu 4 with dissolve
-    sinobu "这样啊…。"
+    sinobu "这样啊……。"
     window hide
     hide tomo with Dissolve(1.0)
     hide sinobu with Dissolve(1.0)
