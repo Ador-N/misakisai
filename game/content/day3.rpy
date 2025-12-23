@@ -485,10 +485,10 @@ label day3_2_tomo:
     play music "quiet_lunch.ogg"
     window show
     "……呼。今天的课程也结束了。"
-    extend "\n上午的时间真的好短啊。要是上班的话现在才开始呢。"
+    extend "\n上午的时间真的好短啊。要是上班的话，现在才算正式开始呢。"
     show bg classroom with dissolve
     "那么，赶紧吃完午饭，开始委员的工作吧。"
-    extend "\n正打算起身去食堂时，后方的友站了起来。"
+    extend "\n正当我起身准备去食堂时，发现友就站在我的身后。"
     window hide
     show tomo 19 at top with dissolve
     window show
@@ -497,16 +497,16 @@ label day3_2_tomo:
     me "嗯？啊啊，可以啊。"
     extend "\n不过，为什么要在楼顶？"
     show tomo 35 with dissolve
-    tomo "因，因为……"
+    tomo "因、因为……"
     show tomo 31 with dissolve
-    extend "哎呀，别管那么多！\n总之走吧！！"
-    me "啊，我在这之前得去食堂买些东西。"
+    extend "哎呀，别管那么多啦！\n总之快走吧！！"
+    me "啊，等等，我得先去食堂买点吃的才行。"
     show tomo 20 with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
-    tomo "别，别管了！赶紧过来！！"
+    tomo "没、没关系啦！总之你先过来！！"
     hide tomo with dissolve
-    "跟在友后面来到楼顶后，\n"
+    "跟着友来到屋顶，\n"
     stop music fadeout 0.5
     window hide
     play sound "fx/running.ogg"
@@ -517,45 +517,45 @@ label day3_2_tomo:
     play music "fx/tsubame.ogg"
     show bg rooftop with Radial(1.0)
     window show
-    extend "这里只是个有着几个长凳\n看上去像是休息点的地方。"
-    "风景很美，今天的气温恰到好处，还有小风吹拂，十分舒适。"
-    me "诶~这里原来还蛮不错的嘛~。"
-    extend "\n之前还被封锁着的来着。"
+    extend "发现这里是一处只放了几张长凳、\n宽敞得像休息区一样的地方。"
+    "风景很美，气温也恰到好处，还有微风拂面，感觉十分舒爽。"
+    me "诶~原来这里是这样子的啊~。"
+    extend "\n我记得以前这里是被封锁着的。"
     window hide
     show tomo 21 at top with dissolve
     window show
-    tomo "那是什么时候的事情了？"
+    tomo "那是什么时候的事情啊？"
     show tomo 12 with dissolve
-    extend "\n至少，在我们入学之后就一直开着哦。"
+    extend "\n至少，从我们入学以来，这里就一直是对外开放的哦。"
     "友笑着说道。"
     show tomo 6 with dissolve
     tomo "我之前就在想，"
-    extend "\n[player_name]君你，有时说话像个大人呢。"
+    extend "\n[player_name]君，有时说话像个大人呢。"
     extend "\n是受到了什么漫画的影响吗？"
-    me "没，没有~大概就是这样吧~？"
-    "这蒙混过关，我也是相当的不擅长啊！"
-    extend "\n现在只有把话题转开……！！"
-    me "那，那么，友君。"
-    extend "\n为什么今天是只有我们两个人呢？\n平时都是和大家一起吃饭的。"
+    me "没、没有~大概就是那种感觉吧~？"
+    "这种蒙混过关的借口，连我自己都觉得尴尬啊！"
+    extend "\n不行，得赶紧转移话题……！！"
+    me "那、那么，友君。"
+    extend "\n为什么今天只有我们两个人呀？\n你平时都是和大家一起吃饭的。"
     show tomo 8 with dissolve
-    tomo "这，这是因为……"
+    tomo "稍、稍微有点原因啦……"
     show tomo 15 with dissolve
-    extend "来，这个！"
+    extend "给，这个！"
     window hide
     stop music fadeout 0.5
     play music "tomo_theme.ogg"
     show cg c13 at center with Radial(0.5)
     window show
-    "友拿出2个便当，然后其中的一个递给了我。"
-    me "诶，这个，难道说……？"
-    "是友君亲手做的便当！？？？"
+    "友拿出了两个便当盒，将其中的一个朝我递了过来。"
+    me "诶，这个难道是……？"
+    "是友酱亲手做的便当！？？？"
     play sound "fx/explosion2.ogg"
     extend "\n男孩子亲手做的便当啊啊啊啊啊啊啊啊啊！！！！！！"
-    tomo "嗯，嗯。\n你看，算是昨天的回礼，这样。"
-    extend "\n这种事情要是被别人看到就不太好了！\n所以，才让你来屋顶的……。"
-    "友稍微红着脸扭扭捏捏地说着。"
+    tomo "嗯、嗯。\n算是对昨天的回礼吧。"
+    extend "\n这种事情要是被其他男孩子看到会很丢脸的！\n所以，才特意把你带到屋顶来……。"
+    "友微微红着脸，扭扭捏捏地说着。"
     play sound "fx/cute2.ogg"
-    extend "\n好想把你可爱的模样吃掉啊！！！！！！"
+    extend "\n这么可爱的你我也好想直接吃掉啊友酱！！！！！！"
     me "原来是这样啊。"
     extend "\n非常感谢。我很开心！"
     extend "\n那么我就不客气了，我开动啦！"
@@ -563,46 +563,46 @@ label day3_2_tomo:
     play sound "fx/sparkle.ogg"
     show cg yellow with FadeWhite(0.5)
     window show
-    "打开盒盖，里面的便当盒里装得满满的。\n是一个分量感十足的便当。"
-    extend "\n虽然里面的摆放看着大大咧咧的，但是这才像男孩子做的便当。真让人食欲大增！"
-    "我从中取了一个比较大的鸡蛋烧，送入口中。"
-    "啊呜"
+    "打开盒盖，只见里面塞得满满当当，\n是个分量十足的便当。"
+    extend "\n虽然摆放得有些随意，但正是这种男孩子气的感觉，反而让人更有食欲。"
+    "我从便当盒里夹起一块硕大的鸡蛋烧，送入口中。"
+    "啊呜~"
     window hide
     hide cg with dissolve
     hide tomo with dissolve
     show tomo 40 at top with dissolve
     window show
-    tomo "怎，怎么样……？"
+    tomo "怎、怎么样……？"
     "友显得异常紧张，向我问道。"
     me "嗯！！太好吃了！！！"
     show tomo 31 with dissolve
-    tomo "真的？太好了！"
+    tomo "真的吗？太好了！"
     show tomo 2 with dissolve
-    extend "\n不过，我本来就知道我做的会很好吃！"
-    "友像是松了口气一样"
-    extend "\n立刻一脸得意，摆出洋洋自满的架势，和往常一样做了个怪相。"
-    me "啊哈哈，但是真的很好吃哦！友有自信也是应该的。"
-    extend "\n我还以为你已经习惯吃忍做的料理，口味被同化了，却没想到做的便当那么好吃，甚至想每天都吃呢！"
+    extend "\n嘛，虽然我原本就对自己很有信心啦！"
+    "友先是如释重负地松了口气，"
+    extend "\n但随即又立刻摆出一副得意洋洋的架势，和往常一样做了个鬼脸。"
+    me "啊哈哈，不过真的很好吃哦！友有自信也是应该的。"
+    extend "\n我还以为你已经习惯吃忍君做的料理，稍微有点担心来着。不过要是能做出这么好吃的便当，我甚至想以后每天都吃呢。"
     show tomo 35 with dissolve
-    tomo "哪，哪有那样啦。"
-    "因为我直白地表达了我的感想，他又表现出了一点害羞的样子。"
-    extend "\n味道浓郁也是我所偏爱的，\n分量很足，对于食量很大的我来说也十分满意。"
-    "啊啊，真想让他嫁给我！"
-    me "弹钢琴和烹饪都很擅长，　　　　没想到你还挺多才多艺的。"
+    tomo "哪、哪有那么夸张啦。"
+    "面对我不带奉承、发自内心的感想，友又露出了一丝羞涩。"
+    extend "\n这种浓郁的调味也是我偏好的，\n分量很足，对于食量很大的我来说也十分满意。"
+    "啊啊~真想让他嫁给我啊。"
+    me "无论是弹钢琴还是做料理，友君你意外地拥有很多细腻的特长呢。"
     show tomo 4 with dissolve
-    tomo "啊哈哈，忍也是这么说的。"
+    tomo "啊哈哈，那个啊。月也这么说过我呢~。"
     show tomo 31 with dissolve
     extend "\n不过……也是不得不这样做的。"
     show tomo 22 with dissolve
-    tomo "我没有爸爸，家里只有我和我妈妈，"
-    extend "\n虽然妈妈对我很好，但是之前也说过，她经常去国外演奏。所以家务活自然而然就落到我身上了。"
+    tomo "我没有爸爸，家里只有我和我妈妈。"
+    extend "\n而且之前也提过，我妈妈经常要去国外演出，所以家务活什么的，自然而然就学会了。"
     show tomo 31 with dissolve
-    tomo "不过，在这方面，忍也帮了我很多。"
-    extend "\n妈妈也说，因为有忍照顾我，她才能安心去工作。"
+    tomo "不过这些方面，我也会找忍帮忙就是了。"
+    extend "\n妈妈也说，正因为有忍他们一家在，她才能放心地去工作。"
     me "这样啊……。"
     show cg sky at center with dissolve
     "原来如此……。"
-    extend "\n他在音乐室里所说的那些奇怪的话，原来是这样啊。"
+    extend "\n之前在音乐室时那些不可思议的感慨，就是因为这样吗。"
     extend "\n虽然平时都装出很开朗的样子，"
     extend "\n但是果然有时候会觉得孤单寂寞吧。"
     "想到这里，我感到胸口一紧。"
@@ -611,19 +611,19 @@ label day3_2_tomo:
     hide tomo with dissolve
     window show
     me "友。"
-    extend "\n难过的时候我会支持你的，我很可靠的哦。"
+    extend "\n觉得难过的时候，我会支持你的，尽管依靠我吧，我很可靠的哦。"
     show tomo 33 at top with dissolve
-    tomo "[player_name]君......"
+    tomo "[player_name]君……"
     show tomo 34 with dissolve
-    extend "\n谢啦！ 但是，我完全没问题的。"
+    extend "\n谢啦！但是，我完全没问题的。"
     show tomo 31 with dissolve
-    extend "\n毕竟现在已经没有任何烦恼了！\n而且忍和大家在身边，我每天都很开心。"
-    me "是么是么。那就好。"
-    extend "\n但是，可不要勉强哦。"
-    "我轻轻地把手放在友的头上，摸了摸。"
+    extend "\n我现在已经没有任何烦恼了！\n毕竟忍和大家都在身边，每天都过得很开心呐。"
+    me "是吗是吗，那就好。"
+    extend "\n但是，可不要勉强自己哦。"
+    "我伸手轻轻地把手放在友的头上，摸了摸。"
     show tomo 36 with dissolve
-    tomo "……不知怎么的，[player_name]君不像是我们这个年纪的人。"
-    extend "\n感觉你更年长，总感觉……就像是父亲一样……。"
+    tomo "……不知怎么的，[player_name]君，有时候感觉你真的一点都不像同龄人。"
+    extend "\n感觉要年长得多得多，总觉得……就像是父亲一样……"
     "确实，实际上我比你们要年长得多，"
     extend "\n但是还没到能被称为父亲的年龄。"
     extend "\n……难道我身上大叔味这么重吗……。"
@@ -638,30 +638,30 @@ label day3_2_tomo:
     tomo "啊，我在说什么啊！！"
     extend "\n抱歉，快忘掉吧！！！！！"
     show tomo 20 with dissolve
-    extend "我，我也该吃饭了！！！"
-    "友急忙地伸出手拿起了便当。"
+    extend "我、我也该吃饭了！！！"
+    "友急忙把筷子伸向便当盒。"
     show tomo 28 with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
-    tomo "唔咕。"
-    extend "糟糕。\n喉咙被噎住了……！"
-    me "你吃得也太快了。"
-    extend "来喝点茶水。"
+    tomo "唔……咳！"
+    extend "糟糕。\n噎、噎住了……！"
+    me "你吃得太急了。"
+    extend "来，喝口茶。"
     hide tomo with dissolve
-    "我把茶倒到友带来的水壶里，把水壶递给了他。"
-    "咕嘟咕嘟……"
+    "我往友带来的水壶盖里倒了些茶水，递给了他。"
+    "（咕嘟咕嘟……）"
     window hide
     show tomo 9 at top with dissolve
     window show
     tomo "噗哈……"
     extend "谢了。真是得救了。"
-    me "真是的，友你这家伙……真是让人没办法啊。"
+    me "真是的，友……你这家伙真是让人没办法啊。"
     show cg sky at center with dissolve
-    tomo "……你看，就是这种时候你就...。"
+    tomo "……你看，就是这种地方。"
     "友低声自语。"
     me "嗯？"
-    tomo "没，没什么！"
-    "就这样我和友两个人，享受了幸福的午餐时光。"
+    tomo "没、没什么！"
+    "就这样，我和友两个人，享受了这段幸福的午餐时光。"
     window hide
     stop music fadeout 0.5
     hide bg with dissolve
@@ -676,7 +676,7 @@ label day3_2_sinobu:
     play music "quiet_lunch.ogg"
     window show
     "……呼。今天的课程也结束了。"
-    extend "\n上午的时间真的好短啊。要是上班的话现在才开始呢。"
+    extend "\n上午的时间真的好短啊。要是上班的话，现在才算正式开始呢。"
     show bg classroom with dissolve
     "那么，赶紧吃完午饭，开始委员的工作吧。"
     extend "\n正要起身去食堂的时候，忍站在了我身后。"
@@ -702,134 +702,134 @@ label day3_2_sinobu:
     play music "fx/crowd_noise.ogg"
     show bg cafeteria with Dissolve(2.0)
     window show
-    "我来到充满活力的食堂，翻看着菜单。"
-    me "真怀念啊~。"
-    extend "\n呃……要做什么呢。"
-    extend "\n我记得蛋包荞麦面很好吃来着……。"
+    "来到热闹非凡的食堂，我扫视着上方的菜单。"
+    me "真怀念呐~。"
+    extend "\n呃……吃点什么好呢。"
+    extend "\n我记得这家的蛋包荞麦面很好吃来着……。"
     window hide
     show sinobu 9 at top with dissolve
     window show
-    sinobu "[player_name]君原来喜欢蛋包面呀。"
+    sinobu "[player_name]原来喜欢蛋包荞麦面啊。"
     me "嗯？"
     extend "\n喜欢是喜欢，但是算不上最喜欢~。"
     show sinobu 8 with dissolve
-    sinobu "那么，你最喜欢什么？"
-    me "嗯~你这样问的话我有些迷惘了……"
-    extend "\n嗯……先不考虑！\n我们先点菜吧。"
+    sinobu "那，最喜欢什么呢？"
+    me "嗯~被你这么一问，我还真有点纠结啊……。"
+    extend "\n嗯……先不考虑这个问题了！\n我们先点菜吧。"
     show sinobu 26 with dissolve
-    sinobu "……我也吃蛋包荞麦面吧…。"
+    sinobu "……那我也点蛋包荞麦面好了……。"
     window hide
     hide sinobu with dissolve
     window show
     me "嗯。"
     extend "\n阿姨！两份蛋包荞麦面！！"
-    cafeteria_lady "收到！两份蛋包荞麦面！"
-    "我们在后厨向阿姨点完菜并拿到食材后，\n阿姨就在烹饪的同时跟我们搭起话来。"
+    cafeteria_lady "收到！两份蛋包荞麦面——！"
+    "听完点菜，阿姨一边利索地准备食材，\n一边有一搭没一搭地跟我们搭起话来。"
     cafeteria_lady "你们两个是新面孔啊。"
-    extend "\n是一年级的？"
-    me "啊……我是二年级的，第一次来食堂…。"
+    extend "\n是一年级的吗？"
+    me "啊……我们是二年级的，第一次来食堂吃饭……。"
     cafeteria_lady "这样啊。"
-    extend "\n哎呀~旁边这位，估计见过一次就忘不了的！"
-    extend "\n原来这所学校里，还有这么像女孩子的男孩呀，长得真可爱！"
-    "说着，阿姨朝着忍走了过去。"
+    extend "\n哎呀~毕竟像旁边这位同学，只要见过一次肯定就忘不了！"
+    extend "\n没想到咱们学校里，还有长得这么像女孩的男孩子呀，真漂亮！"
+    "说着，阿姨的目光落在了忍的身上。"
     stop music fadeout 2.0
-    "这位阿姨简直就在忍的雷区蹦迪！我心提到了嗓子眼。"
-    extend "\n我也紧张地看向忍。"
+    "这位阿姨简直就是在忍的雷区蹦迪啊！我吓得心都提到了嗓子眼，"
+    extend "\n紧张地用余光偷瞄忍的反应。"
     window hide
     play music "sinobu_theme.ogg"
     show sinobu 21 at top with dissolve
     window show
-    sinobu "……我是男孩子啦。"
-    extend "\n来碗大碗煮荞麦面。"
+    sinobu "……其实内在并没有很柔弱啦。"
+    extend "\n阿姨，请给我换成大份的。"
     "忍微笑着说道。"
-    cafeteria_lady "好，那我就给你上大碗的了。"
-    extend "\n毕竟还是长身体的年纪啊……好好成为优秀的人吧！！"
+    cafeteria_lady "好！那我可就期待啦。"
+    extend "\n正是长身体的时候呢……为了成为优秀的男子汉，可要多吃点哦！！"
     extend "\n你呢？"
-    me "啊，那我也要大碗的。"
+    me "啊，那我也要大份的。"
     cafeteria_lady "嗯嗯！"
-    extend "\n年轻的男孩子就该是这样！"
+    extend "\n年轻的男孩子就该有这种气势！"
     hide bg with dissolve
     hide sinobu with dissolve
-    "然后，我和忍就各拿了一份大碗煮荞麦面。"
+    "于是，我和忍接过了各自那份分量十足的蛋包荞麦面。"
     window hide
     show bg cafeteria at center with dissolve
     show sinobu 27 at top with dissolve
     window show
     sinobu "抱歉，就为了陪我……"
-    extend "\n大碗的份钱我会付的。"
+    extend "\n差价的部分我会付的。"
     me "不用这么客气啦！"
-    extend "\n比起这个，阿姨刚才说的话，你不生气吗？"
+    extend "\n比起这个，阿姨刚才说的话，你真的不在意吗？"
     show sinobu 4 with dissolve
-    sinobu "……说不生气是骗人的，但我也没放在心上。"
-    extend "\n这样胡思乱想也不好。"
+    sinobu "……说完全不在意那是骗人的，但我并不打算放在心上。"
+    extend "\n总不能恶意揣测别人的好意。"
     me "这样啊。"
     show sinobu 21 with dissolve
     sinobu "嗯。"
-    extend "\n……而且，我还觉得，外表和内在的反差还挺好的。"
+    extend "\n……而且我觉得，外表和内在存在这种反差，倒也挺不错的。"
     "我惊讶地瞪大了眼睛。"
     extend "\n没想到忍会说这种话……！"
     show sinobu 26 with dissolve
-    sinobu "……我们去结个账吧。"
-    me "好，好的。"
+    sinobu "……我们去结账吧。"
+    me "好、好的。"
     hide bg with dissolve
     hide sinobu with dissolve
-    "我跟着忍一起去结账，然后面对面地坐了下来。"
+    "我跟着忍结了账，两人来到空位面对面坐了下来。"
     window hide
     show bg cafeteria at center with dissolve
     show sinobu 5 at top with dissolve
     window show
-    sinobu "那么，你最喜欢什么？"
-    me "嗯~我想想啊。\n我现在最喜欢的是荞麦面！"
-    extend "\n在乡下老家吃到的荞麦面可好吃了~！↑"
-    extend "\n其实直到现在，我才终于感受到它的美味之处。"
+    sinobu "那么，刚才那个问题——你最喜欢吃的东西是什么？"
+    me "嗯~我想想啊。\n我现在最喜欢的应该是荞麦面吧！"
+    extend "\n乡下的那种手工荞麦面可好吃了~！↑"
+    extend "\n最近我才慢慢体会到它的美味呢。"
     show sinobu 26 with dissolve
     sinobu "是这样啊。"
     extend "\n那，你喜欢看什么电视节目？"
-    me "唔嗯……我经常看深夜动画……"
-    extend "\n还有，最近开始看大河剧了~。"
+    me "唔嗯……以前经常看深夜动画……"
+    extend "\n不过最近也开始看大河剧了~。"
     show sinobu 21 with dissolve
     sinobu "这样啊。"
     sinobu "那，你平时会去哪里玩？"
-    me "去梅咲吧。"
-    extend "\n正好公司也在那里……诶，怎么？"
-    "这句话……和我昨天早上问忍的是一样的……。"
-    me "你今天为什么问了这么多问题？"
+    me "一般是去梅咲吧。"
+    extend "\n正好公司也在那……诶，等等？"
+    "这台词……简直和我昨天早上问忍的一模一样啊。"
+    me "为什么今天突然问我这么多问题？"
     show sinobu 31 with dissolve
-    sinobu "……[player_name]我就是想更加了解一下你。"
+    sinobu "……因为我想更加了解[player_name]的事情。"
     me "诶？"
     show sinobu 18 with dissolve
     sinobu "[player_name]君一直在关注我，"
-    extend "\n昨天我才注意到这一点......现在[player_name]君也更让我想要深入了解了"
+    extend "\n直到昨天我才终于意识到这一点……所以，我也变得想要深入了解[player_name]君了。"
     show sinobu 32 with dissolve
-    extend "\n……这样是不是很奇怪？"
-    "我不禁怀疑起自己耳朵来。"
-    extend "\n没想到忍竟然会说出这样的话……！"
-    "这是我在做梦吗？不对，是梦中之梦！？"
+    extend "\n……这样会很奇怪吗？"
+    "我不禁怀疑起自己的耳朵。"
+    extend "\n这种话竟然能从忍的口中听见……！"
+    "这是在做梦吗？不对，是梦中之梦吗！？"
     me "不不不，一点也不奇怪！！"
     extend "\n倒不如说，我很开心！"
     window hide
     show cg c36 at center with Radial(0.5)
     window show
     sinobu "……我也很开心哦。"
-    extend "\n[player_name]君真是帮了大忙了，多亏有你，我才得以稍微向前看，重新振作了起来。"
+    extend "\n多亏了[player_name]君，我终于能稍微积极地看待自己的外貌了。"
     extend "\n谢谢你。"
-    me "感觉有点难为情啊……"
-    extend "\n不，不用谢！"
-    sinobu "……今天我带了《北O之拳》第五卷，待会儿在教室交给你。"
-    extend "\n毕竟要是在这里给，可能会被老师发现。"
+    me "总觉得有点害羞呐……"
+    extend "\n不、不用谢！"
+    sinobu "……今天我带了《东斗神拳》前五卷，待会儿在教室交给你。"
+    extend "\n在这里给的话，可能会被老师发现。"
     me "是吗~谢谢！"
-    extend "\n下次一定要聊聊这个！"
+    extend "\n下次一定好好聊聊剧情！"
     sinobu "嗯。"
-    me "什锦荞麦面真好吃。"
+    me "这份蛋包荞麦面，真的很好吃呢。"
     sinobu "嗯，很好吃。"
-    extend "\n下次我想去乡下吃荞麦面。"
+    extend "\n下次，我想去乡下吃荞麦面。"
     me "嗯！好呀！"
-    extend "\n虽然有点贵，但我知道一家好吃的店！"
-    extend "\n忍肯定能爱上那个味道！"
-    sinobu "……很期待能尝一次。"
+    extend "\n虽然价格稍微贵一点，但我知道一家很好吃的店！"
+    extend "\n忍肯定能爱上那个味道的！"
+    sinobu "……我很期待。"
     me "我也是！"
-    extend "\n今天的忍真是积极啊。"
-    sinobu "……偶尔这样。"
+    extend "\n今天的忍，感觉格外积极呢。"
+    sinobu "……偶尔也要这样嘛。"
     window hide
     hide sinobu with dissolve
     hide cg with dissolve
@@ -847,57 +847,57 @@ label day3_2_futago:
     play music "quiet_lunch.ogg"
     window show
     "……呼。今天的课程也结束了。"
-    extend "\n上午的时间真的好短啊。要是上班的话现在才开始呢。"
+    extend "\n上午的时间真的好短啊。要是上班的话，现在才算正式开始呢。"
     show bg classroom with dissolve
     stop music fadeout 2.0
     "那么，赶紧吃完午饭，开始委员的工作吧。"
-    extend "\n正当我们准备起身前往食堂的时候，手持提篮的月和空走了过来。"
+    extend "\n正当我起身打算去食堂时，月和空提着手提篮朝我走了过来。"
     play music "twins_theme.ogg"
     show sora 1 at topright
     show tuki 9 at topleft with dissolve
     tuki "[player_surname]，现在是午饭时间吗？"
     sora "如果不介意的话，就和我们一起吃吧！"
     me "嗯？啊啊，可以啊。"
-    extend "\n我，现在想去食堂，可以吗？"
+    extend "\n不过我本来打算去食堂买点吃的，没问题吗？"
     show sora 2 with dissolve
-    sora "没必要去的，[player_name]君。"
-    me "诶？什么意思？？"
+    sora "没那个必要哦，[player_name]君。"
+    me "诶？什么意思？"
     show tuki 15 with dissolve
-    tuki "昨天，佣人们吃了我们做的料理，说是很美味。\n他们非要和我们客气，还特地给[player_surname]君做了便当。"
+    tuki "昨天，佣人们吃了我们做的料理，大家都赞不绝口。\n他们非要表达谢意，所以特意为[player_surname]君做了便当。"
     window hide
     show cg c53 at center with Radial(0.5)
     window show
-    "月这么说着，把和自己那盒便当不一样的\n另一个便当从袋子里取了出来。"
+    "月这么说着，把和自己那盒便当不一样的\n另一盒便当从袋子里取了出来。"
     me "真的吗！？"
-    extend "\n哇啊啊~！！好开心啊！\n谢谢你特意带过来！！！"
+    extend "\n哇啊啊~！！好开心啊！\n谢谢你们特意带过来！！！"
     extend "\n我明明也没做什么……。"
-    tuki "没什么啦。"
-    extend "\n[player_surname]君如果没给我们建议的话，我们可能都没法意识到自己的问题。"
-    sora "而且，你做的菜也很好吃！"
-    me "是，是吗……"
-    extend "\n那就好。"
-    tuki "啊啊，请你下次也一定要来哦。"
-    sora "那么，把桌子推过来，大家一起开动吧！"
+    tuki "并非如此。"
+    extend "\n如果当时没有[player_surname]君的建议，我们可能至今都无法察觉到自己的问题。"
+    sora "而且，昨天大家聚在一起热热闹闹的，真的很开心！"
+    me "是、是吗……"
+    extend "\n那就太好了。"
+    tuki "啊啊，以后也请务必再来玩。"
+    sora "那么，把桌子拼在一起，大家一起开动吧！"
     window hide
     hide cg with dissolve
     hide tuki with dissolve
     hide sora with dissolve
     window show
-    "大家把各自的桌椅拉了过来，然后在桌子前打开便当。"
+    "大家把各自的桌椅拉了过来，然后打开了便当盒。"
     me "嗯嗯~好香啊！！"
-    extend "\n那么我就不客气了！！"
-    "我开始大口吃了起来……"
+    extend "\n那我就不客气了！！"
+    "（大口嚼）"
     play sound "fx/sparkle.ogg"
     show cg adult at center with Radial(0.5)
     "嗯，好好吃！！！"
-    extend "\n不愧是每天在那么豪华的宅邸里做饭的人……。"
-    "在各种专业级的配菜之中，我不小心看到了一个看起来不太像样的鸡蛋烧。"
+    extend "\n真不愧是每天在那种豪宅里掌勺的大厨手艺……。"
+    "在各种专业级的配菜之中，我注意到了一块略显笨拙的鸡蛋烧。"
     window hide
     hide cg with dissolve
     hide sora with dissolve
     hide tuki with dissolve
     window show
-    me "嗯？这煎鸡蛋……有点咸。"
+    me "嗯？这个鸡蛋烧……好像稍微有点咸呢。"
     return
 
 label day3_2_sintarou:
@@ -907,38 +907,38 @@ label day3_2_sintarou:
     play music "quiet_lunch.ogg"
     window show
     "……呼。今天的课程也结束了。"
-    extend "\n上午的时间真的好短啊。要是上班的话现在才开始呢。"
+    extend "\n上午的时间真的好短啊。要是上班的话，现在才算正式开始呢。"
     show bg classroom with dissolve
     "那么，赶紧吃完午饭，开始委员的工作吧。"
-    extend "\n正当我起身去食堂吃饭的时候，慎太郎提着塑料袋走了过来。"
+    extend "\n正当我起身打算去食堂时，慎太郎提着一个塑料袋凑了过来。"
     window hide
     show sintarou 8 at top with dissolve
     window show
     sintarou "[player_name]酱~"
     extend "\n我们一起吃午饭吧~！"
     me "嗯？啊啊，可以啊。"
-    extend "\n我，现在想去食堂，可以吗？"
+    extend "\n不过我打算去食堂吃，没问题吧？"
     show sintarou 31 with dissolve
     sintarou "OK。"
     show sintarou 13 with dissolve
-    extend "\n啊，不用钱的！"
-    me "诶？为啥？"
+    extend "\n啊，不用带钱也没关系哦！"
+    me "诶？为什么？"
     extend "\n你要请客嘛？？"
     show sintarou 12 with dissolve
-    sintarou "诶~都这么大了，还在乎这点钱吗~？"
-    me "诶？不是，可是，还要你请客什么的……。"
+    sintarou "诶~你都这把年纪的人了，还好意思跟小孩子计较这点钱吗~？"
+    me "诶？不、不是……可是你刚才不是说不用钱吗……。"
     show sintarou 13 with dissolve
     sintarou "不要在意这种细节~。"
     me "……？"
-    extend "\n慎太郎你带便当来的吗？"
-    "看着他手里的塑料袋我问道。"
+    extend "\n慎太郎你带了便当吗？"
+    "我盯着他手里的塑料袋问道。"
     show sintarou 4 with dissolve
-    sintarou "唔呵呵。"
-    extend "\n那是秘密！"
+    sintarou "嗯哼哼。"
+    extend "\n到食堂之前，这是秘密！"
     show sintarou 2 with dissolve
-    extend "\n总之，走吧！！"
+    extend "\n总之，走啦走啦！！"
     hide sintarou with dissolve
-    "我被慎太郎拉着手一起去食堂。"
+    "我就这样被慎太郎拉着，朝食堂走去。"
     window hide
     stop music fadeout 0.5
     play sound "fx/running.ogg"
@@ -949,22 +949,22 @@ label day3_2_sintarou:
     play music "fx/crowd_noise.ogg"
     show bg cafeteria with Dissolve(2.0)
     window show
-    me "我可没带钱啊。"
-    extend "\n没事吗？"
+    me "我真的没带钱哦。"
+    extend "\n没关系吗？"
     window hide
     show sintarou 4 at top with dissolve
     window show
     sintarou "没事没事！"
-    "慎太郎一边说一边从塑料袋里拿出一个重箱，\n然后打开了盖子。"
+    "慎太郎边说边从塑料袋里拿出一个食盒，\n然后打开了盖子。"
     play sound "fx/tadaa.ogg"
     show cg remarkable at center with dissolve
-    sintarou "锵锵！！！"
-    extend "\n这！这是我家食堂里各种菜品的浓缩版，\n[player_name]君独享的便当哦~！！"
-    "在那里，有着各种各样非常美味的配菜。"
+    sintarou "锵锵——！！！"
+    extend "\n怎么样！我把我家食堂里各种菜色都塞进去了，\n这是专门为[player_name]酱制作的特供便当哦~！！"
+    "盒子里整齐地摆放着琳琅满目的配菜。"
     me "真的吗！！？"
     extend "\n哇啊啊啊啊啊！！！太开心了！！！"
     stop music fadeout 2.0
-    "虽然说是食堂的菜单，但这是慎太郎从早上开始就拼命制作的便当！"
+    "虽说本就是他家食堂的菜单，但这是慎太郎大清早拼命制作的便当！"
     extend "\n怎么可能不开心呢！！"
     window hide
     hide cg with dissolve
@@ -972,94 +972,94 @@ label day3_2_sintarou:
     play music "sintarou_theme.ogg"
     show sintarou 30 at top with dissolve
     window show
-    sintarou "因为我说过前天不可以来澡堂，"
-    extend "\n而且昨天回来晚了，没时间做便当，"
-    extend "\n至少让你在食堂里吃点什么吧。"
-    me "为，为了我……！"
+    sintarou "因为前天说了不让你来澡堂，"
+    extend "\n昨天又因为回来得太晚没顾上，"
+    extend "\n所以至少想让你尝尝我家的菜色呐。"
+    me "是、是特意为了我……！"
     extend "\n谢谢你，慎太郎！！！"
-    extend "\n你个小可爱♪"
+    extend "\n真是的，你也太可爱了吧~！你这小家伙♪"
     "我揉起了慎太郎的脑袋。"
     $ renpy.transition(Quake(60, 0, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
     show sintarou 32 with dissolve
-    sintarou "[player_name]干嘛！不要做这么羞耻的动作！"
-    "慎太郎的脸蛋微微泛红，不好意思的说道。"
+    sintarou "[player_name]酱！在、在这种地方做这种事太羞耻了啦……"
+    "慎太郎的脸蛋微微泛红，有些局促地低头说道。"
     extend "\n好想把你也吃掉啊，慎太郎！！！！！"
-    me "那我们就赶紧开动吧！"
-    "我从锅中捞出一个肉丸子，放入口中。"
-    "啊呜"
+    me "那我就不客气，赶紧开动啦！！"
+    "我从食盒里夹起一颗裹满芡汁的肉丸送入口中。"
+    "啊呜~"
     show sintarou 4 with dissolve
     sintarou "怎么样？"
     extend "\n我家食堂的菜很不错吧？"
     me "嗯，好吃！！！"
-    extend "\n居然能在澡堂的厨房里做出这么好吃的饭菜！"
-    extend "\n毫无疑问，比一般的店高了好几个档次啊！！"
+    extend "\n真没想到澡堂里竟然能做出这么美味的饭菜！"
+    extend "\n这水准绝对比外面的普通餐厅高出好几个档次啊！！"
     show sintarou 13 with dissolve
     sintarou "对吧~。"
-    extend "\n那，你就尽情享受吧！"
-    extend "\n我暂时离开一下哦~。"
-    me "嗯？你去哪里了？"
+    extend "\n呐，你就尽情享受吧！"
+    extend "\n我稍微离开一下哦~。"
+    me "嗯？你要去哪儿？"
     show sintarou 4 with dissolve
-    sintarou "我来加热这个。"
-    "说着，慎太郎端着一个小小的盒饭走进了食堂里。"
+    sintarou "去把这个加热一下。"
+    "说着，慎太郎拿着一个小包装盒走进了食堂后厨。"
     play sound "fx/running.ogg"
     hide sintarou with dissolve
-    extend "\n他还打算给我们上什么菜吗？"
-    "我毫不客气地继续吃着，慎太郎很快就回来了。"
+    extend "\n难道还有什么好菜要上吗？"
+    "我正毫不客气地吃着，慎太郎很快就回来了。"
     window hide
     play sound "fx/running.ogg"
     show cg c27 at center with Radial(0.5)
     window show
     sintarou "久等了~！"
-    extend "\n给你！\n这是热乎乎的关东煮哦。"
-    "打开包装的盖子时，看到蒸汽中隐约闪现着竹轮和鸡蛋。"
-    me "还特意加热了啊！"
+    extend "\n给！\n热乎乎的关东煮来喽。"
+    "揭开包装盖，在腾起的阵阵热气中，竹轮和鸡蛋若隐若现。"
+    me "还特意去加热了啊！"
     # show sintarou 3 at top with dissolve
-    sintarou "凉掉的关东煮可不好吃呢~。"
+    sintarou "凉掉的关东煮那还能叫关东煮嘛~。"
     # show sintarou 31 with dissolve
-    extend "\n来来，吃吧吃吧。\n我对我家的关东煮的味道可是很有自信的哦~！"
+    extend "\n来，趁热吃吧。\n我对我家的关东煮的味道可是很有自信的哦~！"
     me "还有比之前的菜更有自信的作品啊……"
-    extend "\n那么，我也开动啦！"
+    extend "\n那么，这一份我也开动啦！"
     window hide
     hide cg with dissolve
     # hide sintarou with dissolve
     window show
-    "呼呼……（大口嚼）"
+    "呼——呼……（大口嚼）"
     play sound "fx/cute2.ogg"
-    me "好好吃！！！太好吃了慎太郎！！"
+    me "好好吃！！！真的太好吃了，慎太郎！！"
     show cg orange at center with dissolve
     play sound "fx/sparkle.ogg"
-    "好吃！！！好吃极了！！！"
-    extend "\n高汤充分的浸透到了食材里，\n这种咸味也完全符合我的口味！"
+    "简直太美味了啊啊啊啊啊！！"
+    extend "\n高汤充分浸透到了食材里，\n浓郁的咸鲜味也完全符合我的口味！"
     me "太好吃了！！"
-    extend "\n我都想让慎太郎的爸爸和妈妈把秘方告诉我了！"
+    extend "\n我都想拜托你爸爸妈妈把秘方传授给我了！"
     window hide
     hide cg with dissolve
     show sintarou 20 at top with dissolve
     window show
-    sintarou "呼呼♪对吧对吧！"
+    sintarou "哼哼♪是吧是吧！"
     show sintarou 9 with dissolve
-    extend "\n这个关东煮可是我亲手做的哦～！！"
-    extend "\n咕嘟咕嘟咕嘟煮了很久，\n才能这么好吃呢！！"
-    me "这全凭慎太郎一个人吗！！？"
+    extend "\n这道关东煮，可是咱亲手做的哦~！！"
+    extend "\n我可是搜了又搜、查了很多攻略，\n最后才总算研究出这个味道的呢！！"
+    me "这竟然是你一个人完成的！！？"
     me "……好厉害啊，慎太郎。"
-    extend "\n以他的年龄，能在自家店里帮忙，还能自己钻研做饭，\n他积极进取的精神很令人钦佩。"
-    extend "\n跟我初中那时候相比真的是不一样。"
+    extend "\n明明只是这个年纪，不仅能在店里帮忙，还会自己钻研厨艺。\n这种向上心和干劲真的很了不起。"
+    extend "\n跟我初中那时候相比简直是天上地下啊。"
     show sintarou 30 with dissolve
-    sintarou "能得到你的夸奖，是咱的荣幸。"
+    sintarou "能得到你的夸奖，咱深感荣幸。"
     show sintarou 4 with dissolve
-    extend "\n不过，每天往梅咲跑，\n拼命打工的[player_name]君还是比我强多了呢。"
+    extend "\n不过，比起每天都要跑去梅咲，\n在那儿拼命工作的[player_name]酱，咱这点努力根本不算什么啦。"
     me "不不不，那是因为我已经是大人了……"
     extend "\n诶？"
     show sintarou 33 with dissolve
-    sintarou "哼哼♪\n我说过吧，[player_name]君说的话我可是很相信的！"
+    sintarou "哼哼♪\n我不是说过嘛，[player_name]酱说的话，我可是全都相信的哦。"
     show sintarou 34 with dissolve
-    extend "\n所以，大家，[player_name]酱，一起加油吧！"
+    extend "\n所以，[player_name]酱，也要加油呀！"
     me "慎太郎……。"
-    "慎太郎的一句话，让我心里热了起来。"
+    "慎太郎轻描淡写的一句话，却让我的胸口一阵发热。"
     me "嗯。\n我会努力的。"
     hide sintarou with dissolve
-    "多亏了慎太郎，我才能充分享受幸福的午餐时光。"
+    "多亏了慎太郎，我尽情享受了一段无比幸福且充满力量的午餐时光。"
     window hide
     stop music fadeout 0.5
     hide bg with dissolve
@@ -1072,37 +1072,37 @@ label day3_2_tubasa:
     play music "quiet_lunch.ogg"
     window show
     "……呼。今天的课程也结束了。"
-    extend "\n上午的时间真的好短啊。要是上班的话现在才开始呢。"
+    extend "\n上午的时间真的好短啊。要是上班的话，现在才算正式开始呢。"
     "那么，赶紧吃完午饭，开始委员的工作吧。"
     play sound "fx/sliding_door.ogg"
     show bg hallway with dissolve
     stop music fadeout 2.0
-    extend "\n我正打算去食堂，翼便向我搭话了。"
+    extend "\n我正打算去食堂，刚走出教室，翼便叫住了我。"
     window hide
     play sound "fx/running.ogg"
     show tubasa 9 at top with dissolve
     play music "tubasa_theme.ogg"
     window show
-    tubasa "那，那个……[player_name]君。"
+    tubasa "那、那个……[player_name]君。"
     me "嗯，怎么了？"
     show tubasa 2 with dissolve
-    tubasa "你现在要吃午饭了吗？"
+    tubasa "你现在是要去吃午饭吗？"
     me "嗯。"
     show tubasa 22 with dissolve
     tubasa "那个……呃……。"
     me "……？"
     show tubasa 1 with dissolve
     tubasa "……。"
-    me "……翼也要一起去吃午饭吗？"
-    extend "\n你找我有事吧？"
+    me "……翼君也要一起去吃午饭吗？"
+    extend "\n又想找我商量事情吧？"
     show tubasa 13 with dissolve
-    tubasa "啊？啊……嗯，嗯！"
+    tubasa "啊？啊……嗯、嗯！"
     show tubasa 4 with dissolve
     extend "\n要是你还愿意听我说的话，我会很高兴的……"
-    "翼看起来很害羞，扭扭捏捏地说道。"
+    "翼看起来很害羞，扭扭捏捏地说着。"
     "啊啊真是的！他真是可爱极了！！"
     extend "\n我不由自主就想保护他……。"
-    "我一边控制住自己激动的情绪，一边走向了食堂。"
+    "我一边压住因翼的举止而变得兴奋的情绪，一边朝食堂走去。"
     window hide
     hide tubasa with dissolve
     hide bg with dissolve
@@ -1114,108 +1114,108 @@ label day3_2_tubasa:
     window show
     "我们点好餐，结账，然后面对面地坐了下来。"
     show tubasa 31 at top with dissolve
-    tubasa "你，你看昨晚的『小鬼使』了吗？"
+    tubasa "你、你看昨晚的《小鬼使》了吗？"
     me "啊？哦，看了看了。"
-    extend "\n昨晚是盲猜系统特辑吧！\n今崎在节目里的反应都太搞笑了！"
+    extend "\n昨晚是盲猜系列那一集吧！\n每次今崎的反应都很有趣啊！"
     show tubasa 4 with dissolve
-    tubasa "是啊。\n我对那两位「民谣」成员的印象最为深刻。"
+    tubasa "是啊。\n我对コキリコ那两位的印象最深刻。\n（注：『コキリコ』影射ココリコ，是《小鬼使》中的常驻组合）"
     show tubasa 5 with dissolve
-    extend "\n舔着蛋黄酱，猜出那个牌子，这种事真的能做到吗？\n如果是我，恐怕一开始就会猜错。"
-    me "我也完全猜不出来。\n毕竟舌头不那么灵敏。"
-    extend "\n那两位每次都能准确猜出品牌，真厉害。"
+    extend "\n舔一下蛋黄酱就能猜出品牌，这种事真的能做到吗？\n如果是我，恐怕一开始就会猜错。"
+    me "我也肯定不行。\n舌头没有那么灵敏。"
+    extend "\n那几位也是啊，每次被打屁股，还能继续猜，真够拼的。"
     show tubasa 18 with dissolve
     $ renpy.transition(Quake(0, 65, 0.1, 0.15), layer='master')
     play sound "fx/cute2.ogg"
     tubasa "嘟嘟嗯！\n[player_name]君，出局！"
     play sound "fx/boing.ogg"
-    me "诶？\n突，突然怎么了？"
+    me "诶？\n突、突然怎么了？"
     stop music fadeout 2.0
     show tubasa 19 with dissolve
     tubasa "那个……那个……其实只是，"
-    extend "\n想稍微试试……而已。"
-    "鼓起勇气尝试的翼，害羞地说道。"
+    extend "\n想稍微模仿一下试试……而已。"
+    "鼓起勇气却冷场了的翼，非常害羞地说道。"
     play music "tubasa_theme.ogg"
     play sound "fx/sparkle.ogg"
     "糟糕……太可爱了……！！\n这孩子到底怎么回事啊啊啊啊啊啊啊啊！！"
     extend "\n午饭什么的已经无所谓了……。"
-    extend "\n我想把他吃了！带回家！！！"
+    extend "\n好想吃掉他！好想把他带回家！！！"
     show tubasa 5 with dissolve
-    tubasa "啊……虽然节目内容不同，\n今晚的《三文鱼宫殿》也很好看。"
+    tubasa "啊……虽然是不同类型的节目，\n今晚还有《三文鱼宫殿》哦。"
     extend "\n我也很喜欢这个节目……。"
     "嗯……？话说回来，翼今天话还真多。"
-    extend "\n而且，不是在说友君，而是正在说综艺节目……。"
-    me "翼，你今天似乎挺有精神的。"
+    extend "\n而且，谈论的不是关于友的事，全是综艺节目的话题……。"
+    me "翼君，你今天感觉挺有精神的呢。"
     extend "\n发生什么事了？"
     show tubasa 23 with dissolve
-    tubasa "诶？不……没什么……和平常一样。"
+    tubasa "诶？不……没什么……和平常一样哦。"
     me "是吗。"
-    extend "\n总感觉，和平时不一样就是了…。"
+    extend "\n总感觉，和平时的样子不太一样呢……。"
     show tubasa 37 with dissolve
-    tubasa "……[player_name]君一直听我说友的事情，所以这次，我也想和你聊些普通的话题。"
+    tubasa "……因为一直都在和[player_name]君聊友君的事，所以我在想，偶尔也想像这样聊聊普通的话题……。"
     show tubasa 22 with dissolve
-    extend "\n而，而且，总是听我发牢骚也不太好……。"
-    extend "\n果然……很奇怪吗？"
-    me "不，不是，没有很奇怪哦！！"
-    extend "\n……但是，你看，好不容易两人独处了，\n为了翼的恋情修成正果，不聊聊这个话题怎么行！"
+    extend "\n而、而且，总让你听我发牢骚也不太好……。"
+    extend "\n果然……还是很奇怪吗？"
+    me "不、不是，一点也不奇怪哦！！"
+    extend "\n……但是，你看，难得有两人独处的机会，\n为了翼的恋情修成正果，不聊聊这个话题怎么行！"
     stop music fadeout 2.0
     show tubasa 15 with dissolve
     tubasa "诶……。"
-    extend "\n好，好的。没错……。"
-    "翼一副寂寞的表情，说道。"
-    "……我也想看他开心地笑着，聊着愉快的话题。"
-    "但是，感觉这么一来，就不能老实地支持翼的恋情……。"
-    me "话，话说回来，你和友成为朋友的契机是什么呢？"
+    extend "\n好、好的。也是呢……。"
+    "翼露出有些寂寞的表情，说道。"
+    "……我也很想和他聊些愉快的闲话，多看看他的笑容。"
+    "但是，感觉这么一来，我就没法再真心实意地去为他的恋情加油了……。"
+    me "说、说起来，你和友君成为朋友的契机是什么呢？"
     show tubasa 13 with dissolve
-    tubasa "啊，那个……我担任二年级二班的班长，友担任二年级一班的班长，"
-    extend "\n在二年级时第一次班会的时候，他向我搭话了。"
+    tubasa "啊，那个……我是二年二班的班长，友君是一班的班长。"
+    extend "\n在二年级刚开学第一次集合的时候，他主动向我搭了话。"
     window hide
     play music "reminiscence.ogg"
     show cg c44 at center with FadeWhite(1.5)
     window show
-    tomo "哟~！ 你，是哪个组的？ 我是1组的。"
-    tubasa "诶……那，那个……。"
-    tomo "我叫森海友！\n是2年1班的班长！今后请多关照！"
-    extend "\n对了，你几班？叫什么名字？"
-    tubasa "那个……我是2班的。"
+    tomo "哟~！你是哪个班的？我是一班的。"
+    tubasa "诶……那、那个……。"
+    tomo "我叫森海友！\n是二年一班的班长！今后请多指教啦！"
+    extend "\n呐，你是几班的？叫什么名字？"
+    tubasa "那个……我是二班的。"
     extend "\n我叫一之濑翼。"
     tomo "啊~一之濑同学吗！\n去年体育课打手球的时候，我听到老师叫你了！"
     extend "\n那时你好像被批评了啊~。\n发生什么事了吗？"
-    tubasa "手，手球……啊啊。"
+    tubasa "手、手球……啊啊。"
     extend "\n那时，老师说我干劲不足所以批评我了……。"
-    extend "\n我，不擅长运动……所以站在场边……。"
-    tomo "是吗是吗！\n我也不擅长运动啊~。"
+    extend "\n我不擅长运动，就躲在场边……。"
+    tomo "这样啊这样啊！\n我也不擅长运动啊~。"
     extend "\n不过学习也不擅长就是了！"
-    tubasa "我，我也一样……。"
-    extend "\n但是友性格好像跟我完全相反，挺开朗的。"
-    tomo "哪里哪里！\n我们是一样的！"
-    "小友就像和熟人说话一样和我亲近地搭话。"
-    "或许对有些人来说，这种行为有些厚脸皮，"
-    extend "\n但是对消极的我来说，他积极地引领我让我十分舒适，让我十分感激。"
+    tubasa "我、我也一样……。"
+    extend "\n不过友君的性格和我完全相反，感觉很开朗呢。"
+    tomo "没那回事啦！\n我们是一样的！"
+    "友君当时就像对待老熟人一样，亲切地和我聊着。"
+    "或许对有些人来说，这种做法会显得有些自来熟，"
+    extend "\n但是对消极的我来说，他这种积极的引导反而让我感到很舒服，让我十分感激。"
     window hide
     hide cg with FadeWhite(1.5)
     hide tubasa with FadeWhite(1.5)
     window show
     me "原来如此。"
-    extend "\n然后，在和他相处的过程中，被他吸引了，"
-    extend "\n已经渐渐地产生了超越普通朋友的感情了吧。"
+    extend "\n所以，在相处的过程中逐渐被他吸引，"
+    extend "\n慢慢产生了超越友情的情感吧。"
     window hide
     show tubasa 35 at top with dissolve
     window show
-    tubasa "……啊，对……。"
-    "如果是积极地引导他的话，我也是能够……。"
+    tubasa "……是、是的……。"
+    "如果只是积极引导的话，我也能……。"
     "不，但是，我和翼在一起的时间并不长。"
-    extend "\n翼是过了相当长的时间才喜欢上友的……。"
-    "我对着如此喜欢着友的翼说"
+    extend "\n翼是因为长时间的积累才喜欢上友的……。"
+    "我对着如此喜欢着友的翼说道："
     stop music fadeout 2.0
     me "……我会支持你的哦。"
-    "连我自己都对这个声音感到惊讶，我这么说着，语气也显得很空洞。"
+    "连我自己都对这个声音感到惊讶。它和我脑中的想法完全不同，听起来也很单薄。"
     show tubasa 23 with dissolve
     tubasa "[player_name]君……。"
-    me "诶……什，什么事？"
+    me "诶……什、什么事？"
     show tubasa 15 with dissolve
-    tubasa "……啊，没什么。"
+    tubasa "……不，没什么。"
     hide tubasa with dissolve
-    "就这样，我和翼两个人，一边感到开心，\n一边怀着复杂的心情一起度过了午餐时间。"
+    "就这样，我和翼两个人一边感受着共处的喜悦，\n一边怀着复杂的心情，度过了这段午餐时光。"
     window hide
     hide bg with dissolve
     return
@@ -1227,38 +1227,38 @@ label day3_2_saburo:
     play music "quiet_lunch.ogg"
     window show
     "……呼。今天的课程也结束了。"
-    extend "\n上午的时间真的好短啊。要是上班的话现在才开始呢。"
+    extend "\n上午的时间真的好短啊。要是上班的话，现在才算正式开始呢。"
     "那么，赶紧吃完午饭，开始委员的工作吧。"
     play sound "fx/sliding_door.ogg"
     stop music fadeout 2.0
     show bg hallway with dissolve
-    extend "\n正当我打算前往食堂的时候，三朗向我搭话了。"
+    extend "\n我正打算去食堂，刚走出教室，三朗便凑了上来。"
     window hide
     play sound "fx/running.ogg"
     show saburo 5 at top with dissolve
     play music "saburo_theme.ogg"
     window show
     saburo "啊，[player_surname]。"
-    extend "\n太巧了！\n要不要一起去吃饭？"
+    extend "\n来得正好，\n要不要一起去吃饭？"
     me "啊，当然可以了！"
-    extend "\n我没带便当，打算在食堂吃，OK嘛？"
+    extend "\n我没带便当，正打算去食堂呢，没问题吗？"
     saburo "没那个必要啦♪"
     window hide
     show cg c70 at center with Radial(0.5)
     window show
-    "这样说着，三朗向我展示了他手上的塑料袋。"
+    "说着，三朗得意地显摆了一下手里拎着的塑料袋。"
     saburo "我先在食堂里把[player_surname]的饭菜也买好啦！"
-    me "诶……真的是，还特地让你费心，真不好意思。"
+    me "诶……这怎么好意思，让你特意费心了。"
     extend "\n花了多少钱？"
-    saburo "没事啦！\n今天由我来请客！"
-    me "可，可是……。"
-    saburo "好了好了，今天就乖乖吃吧！"
-    extend "\n毕竟你昨天在人行道上帮了我，对我有恩呢！\n而且你昨天还请我们去咖啡店喝咖啡。"
-    extend "\n还有……就是你，也愿意听我说话。"
-    me "……知道了。"
-    extend "\n那我就恭敬不如从命，接受你的好意了。"
-    saburo "啊哈哈。\n我还以为我是个不会做这种事的人咧~。"
-    extend "\n去屋顶吧，我们去那里吃饭！\n好嘞，走吧~！"
+    saburo "没事啦！\n今天由我请客！"
+    me "可、可是……。"
+    saburo "好啦好啦，今天你就乖乖让我请这一回吧！"
+    extend "\n毕竟你昨天在人行道上救了我一命，对我有恩呢！\n而且你昨天还请我们去咖啡店喝咖啡。"
+    extend "\n还有……就是，你还愿意耐心地听我发牢骚。"
+    me "……好吧。"
+    extend "\n那我就恭敬不如从命，谢谢款待了。"
+    saburo "啊哈哈。\n你在这种地方还真是挺周到的啊~。"
+    extend "\n去屋顶吧，我们去那里吃！\n好嘞，走吧~！"
     "就这样，我们朝着屋顶出发了。"
     window hide
     hide saburo with dissolve
@@ -1272,13 +1272,13 @@ label day3_2_saburo:
     show saburo 2 at top with dissolve
     window show
     saburo "嗯~……！"
-    extend "\n果然，比起待在建筑物里，还是去外面吃才爽啊~。"
-    "我们到了屋顶后，三朗一边伸懒腰一边说道。"
-    me "前天也是这样，你喜欢屋顶吗？"
+    extend "\n果然，比起待在教学楼里，还是出来透透气更舒服啊~。"
+    "到了屋顶后，三朗一边伸懒腰一边说道。"
+    me "前天也是这样呢，三朗君很喜欢屋顶吗？"
     show saburo 10 with dissolve
     saburo "超喜欢的！"
-    extend "\n一边晒着太阳，一边暖暖地睡个午觉，\n真的是太爽了~。"
-    "哈哈，简直就像只猫一样。"
+    extend "\n一边晒着太阳，一边暖烘烘地睡个午觉，\n真的是太爽了~。"
+    "哈哈，简直就像只猫一样呢。"
     show saburo 1 with dissolve
     saburo "那就坐到长凳上吃吧！"
     window hide
@@ -1287,56 +1287,56 @@ label day3_2_saburo:
     play music "saburo_theme.ogg"
     window show
     saburo "来，这是你的，这是我的！"
-    "三朗一边说着，一边把饭盒递给了我。"
+    "说着，三朗将一份便当递到了我的手中。"
     me "嗯……？"
-    extend "\n这个，是食堂里份量最多最贵的炸鸡便当EX！！！"
-    extend "\n真，真的可以不用把钱付给你吗？"
-    "侧着身子一看，三朗吃的却是普通的炒面便当，\n虽然这份炸鸡便当我挺喜欢的，但真的没有吃下去的心情。"
+    extend "\n这不是食堂里份量最大、也是最贵的『超大份炸鸡便当EX』吗！！！"
+    extend "\n真、真的可以不用把钱付给你吗？"
+    "看着另一边的三朗正准备吃的只是一份普通的炒面便当，\n这样的落差让我即便心怀感激，也有些难以下嘴。"
     window hide
     hide cg with dissolve
     hide saburo with dissolve
     show saburo 2 at top with dissolve
     window show
     saburo "不用不用！不用在意。"
-    extend "\n那么，我开动了ー！！"
-    "三朗这样说着，开始吃起了炒面。"
+    extend "\n那么，我开动咯——！！"
+    "说完，三朗便吃起了炒面。"
     hide saburo with dissolve
-    extend "\n虽然嘴上逞强，但三朗还是被炸鸡的香气吸引着。"
-    extend "\n而他似乎也难以抵抗，于是用眼睛的余光看了看我的便当。"
-    me "……三朗，给你！吃吧。"
-    "看着这样的三朗，我用筷子夹起了一块炸鸡，递给了他。"
+    extend "\n然而，嘴上虽然逞强，炸鸡那股毫不留情的香味却还是不断地诱惑着他。"
+    extend "\n似乎难以彻底抗拒那份诱惑，他还是用余光看了看我手中的便当。"
+    me "……三朗君，来！给你吃。"
+    "看着这样的三朗，我用筷子夹起了一块炸鸡，递到了他的面前。"
     window hide
     show saburo 24 at top with dissolve
     window show
-    saburo "嗯……可以吗？"
-    me "反正还剩下很多呢，"
-    extend "\n而且还是你请客的，一块炸鸡而已，不用在意啦。"
+    saburo "诶……真、真的可以吗？"
+    me "反正还有很多呢。"
+    extend "\n况且这可是你请客买的，分你一块完全没关系啦。"
     show saburo 1 with dissolve
-    saburo "这样啊……？\n[player_surname]君说可以的话，那我就恭敬不如从命啦……！"
-    extend "\n那么，就放在那里吧。"
-    "三朗把炒面往旁边挪了挪，腾出了一个空位。"
+    saburo "是吗……？\n既然[player_surname]君都这么说了，那我就恭敬不如从命啦……！"
+    extend "\n那，就放这儿吧。"
+    "三朗把炒面往旁边拨了拨，腾出了一个空位。"
     me "嗯？"
     extend "机会难得，那就让我喂给你吃吧。"
     show saburo 3 with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
     saburo "啊！！"
-    extend "你，你在说什么！！！"
-    me "这样的话，我就把这块炸鸡给你吃~。"
-    extend "\n希望你能够接受我的好意啊~。"
+    extend "你、你在说什么呢！！！"
+    me "只有这样才能吃到这块炸鸡哦~。"
+    extend "\n你就乖乖接受我的这份好意嘛~。"
     show saburo 8 with dissolve
     saburo "呜咕……！！"
-    "三朗又想吃面前的炸鸡，但是又觉得害羞\n"
+    "三朗似乎在眼前的炸鸡和羞耻心之间挣扎着，\n"
     show cg light-blue at center with dissolve
-    "不一会，他转向我这边，张开嘴巴，闭上了眼睛。"
-    saburo "好啦！！这不就行了嘛！给我！"
+    "但过了一会儿，他还是红着脸转向我，张开嘴，闭上了眼睛。"
+    saburo "好啦！！这样就行了吧！快给我！"
     me "OK♪"
-    "呵呵……年轻男孩子都是很喜欢肉的呢！"
+    "呵呵……年轻男孩子果然抵抗不了肉类的诱惑啊！"
     play sound "fx/sparkle.ogg"
     extend "\n你那露出的虎牙也真可爱啊，三朗酱！！！"
-    me "好，啊~嗯！"
-    "啊呜"
-    "（吃）"
+    me "好，啊——嗯！"
+    "啊呜~"
+    "（嚼嚼）"
     window hide
     hide cg with dissolve
     hide saburo with dissolve
@@ -1345,52 +1345,52 @@ label day3_2_saburo:
     play sound "fx/cute2.ogg"
     window show
     saburo "呜哦……好好吃！！！！"
-    extend "\n之前总能看到别人吃，看起来挺香的样子。\n果然，这东西汁水又丰富又好吃啊！！"
-    extend "\n等我下次有空的时候就买来吃吧~！"
-    me "啊哈哈。\n终于也是满足你吃炸鸡的心愿了呢，真的太好了。"
+    extend "\n以前总看到别人吃得那么香，\n果然这炸鸡多汁又好吃啊！！"
+    extend "\n以后等手头宽裕了，我也要买来吃~！"
+    me "啊哈哈。\n能让你达成炸鸡初体验的心愿真是太好了。"
     show saburo 10 with dissolve
-    saburo "真的呢~！"
-    extend "\n谢谢你，[player_surname]。"
-    me "哪里哪里，不用谢。"
+    saburo "确实啊~！"
+    extend "\n谢啦，[player_surname]。"
+    me "不客气不客气。"
     show saburo 24 with dissolve
-    saburo "……啊，对了！\n我忘了给你拿饮料了。"
-    "这样说着，三朗哗啦哗啦地翻着手上的塑料袋，取出了乌龙茶。"
+    saburo "……啊，对了！\n忘了把喝的拿出来了。"
+    "这样说着，三朗在塑料袋里哗啦哗啦地翻找了一阵，取出了一瓶乌龙茶。"
     hide saburo with dissolve
     window hide
     show saburo 16 at top with dissolve
     window show
-    saburo "啊……抱歉，[player_surname]。\n我买来的饮料，就只有这个了。"
-    extend "\n已经没钱了，一起喝吧？"
-    "诶，意思是……这是和男孩子间接接吻的机会！？！？"
+    saburo "啊……抱歉，[player_surname]。\n喝的我就只买了这一瓶。"
+    extend "\n我已经没钱了……所以饮料就分着喝，可以吗？"
+    "诶，那不就是……和男孩子间接接吻的机会！？！？"
     play sound "fx/eureka.ogg"
     show cg remarkable at center with Dissolve(0.2)
-    extend "\n来啦……终于到啦……要来了！！！"
-    "三朗！！\n务必在喝饮料时在瓶口沾一点你的口水呀！！！"
-    extend "\n全部由我帮你舔干净哦……！！"
+    extend "\n来了……终于来了……这是命运的高塔在召唤我啊！！！"
+    "三朗酱！！\n务必请你在喝的时候，在瓶口留下你的唾液吧！！！"
+    extend "\n剩下的部分，就由我帮你舔干净哦哦哦……！！"
     window hide
     hide cg with Dissolve(0.2)
     hide saburo with Dissolve(0.2)
     window show
-    me "完，完全没关系的！！"
-    extend "不如说，谢谢！"
+    me "完、完全没关系的！！"
+    extend "不如说，谢谢你分给我！"
     show saburo 1 at top with dissolve
-    saburo "行。"
-    extend "\n那我就先喝啦…。"
+    saburo "噢。"
+    extend "\n那我就先喝啦……。"
     hide saburo with dissolve
-    "咕噜咕噜"
-    "我就这样亲眼见证了，\n三朗把塑料水瓶放到嘴边，把乌龙茶喝下去。"
+    "（咕噜咕噜）"
+    "我目不转睛地盯着三朗，\n确认他的嘴唇紧贴着瓶口，把乌龙茶喝了下去。"
     window hide
     show saburo 5 at top with dissolve
     window show
-    saburo "好，[player_surname]……"
+    saburo "给……喂，[player_surname]。"
     show saburo 6 with dissolve
-    extend "\n诶，你在看什么啊……。"
+    extend "\n你盯着我看什么啊……。"
     extend "\n你已经这么渴了吗？"
-    me "啊……嗯，是啊！"
+    me "啊……嘛、嘛，是啊！"
     hide saburo with dissolve
-    "我看着三朗递来的水。"
-    extend "\n三朗喝了之后，那里面还混了一些三朗的口水……我就心怀感激地喝了吧！！！"
-    "咕嘟咕嘟咕嘟咕嘟"
+    "我盯着三朗递来的水。"
+    extend "\n这可是三朗喝过、里面绝对混入了他的成分的神圣茶水……我就心怀感激地收下了！！！"
+    "（咕噜咕噜咕噜咕噜）"
     play sound "fx/explosion2.ogg"
     show cg remarkable at center with Dissolve(0.2)
     me "好喝！！"
@@ -1399,80 +1399,80 @@ label day3_2_saburo:
     hide cg with dissolve
     show saburo 8 at top with dissolve
     window show
-    saburo "哈，哈啊？\n你到底在说什么啊？"
-    extend "\n话说，我是不是喝得有点太多了~？"
-    me "不，没什么~一想到是和三朗君间接接吻，就不禁就……。"
+    saburo "哈、哈啊？\n你到底在说什么啊？"
+    extend "\n话说，你这家伙是不是喝得也太多了点~？"
+    me "不，没什么~一想到是和三朗君间接接吻，就不知不觉……。"
     show saburo 3 with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
     saburo "！？！？！"
-    extend "\n啊，笨蛋！！！！说什么呢！！！！！"
-    extend "\n还，还说间接接吻什么的……你……！！"
-    "听到我的话后，三朗突然慌张起来。"
-    "这种地方好可爱啊~♪"
+    extend "\n啊，笨蛋！！！！你在胡说什么呢！！！！！"
+    extend "\n还、还说间接接吻什么的……你这家伙……！！"
+    "听到我的话，三朗突然慌张起来。"
+    "啊，这种地方真的很可爱呢~♪"
     hide saburo with dissolve
     window hide
     show saburo 26 at top with dissolve
     stop music fadeout 2.0
     window show
-    saburo "……说起来，昨天你我给看的本子里的图，\n也有两个男人接吻…。"
-    me "哎。"
-    extend "\n啊，啊啊~是这样吗……？"
-    "听到三朗突然降低语调小声嘟囔，我开始慌张起来，喝了口乌龙茶。"
+    saburo "……说起来，昨天你给我看的本子里的图，\n也有两个男人接吻来着……。"
+    me "诶。"
+    extend "\n啊、啊哈~是这样吗……？"
+    "听到三朗突然压低声音小声嘟囔，我顿时慌了神，赶紧又灌了一口乌龙茶。"
     play music "good_atmosphere.ogg"
     show saburo 28 with dissolve
-    saburo "……[player_surname]那个……"
+    saburo "……[player_surname]……那个……"
     extend "\n和男人，接吻之类的……那种事，做过了吗？"
     play sound "fx/boing.ogg"
     $ renpy.transition(Quake(0, 50, 0.1, 0.1), layer='master')
-    me "噗！！！"
-    "突然的提问让我把茶给喷出来了。"
+    me "噗——！！！"
+    "突如其来的直球提问让我把刚喝的茶喷了出来。"
     show saburo 12 with dissolve
-    saburo "啧！！弄脏了吧！"
+    saburo "你这家伙，弄得好脏啊！！"
     extend "\n搞什么嘛……。"
-    me "咳咳……三朗君突然问这种事……。"
-    extend "\n咳……我有点吓到了……。"
+    me "咳咳……还不是因为三朗君突然问这种问题……。"
+    extend "\n咳……吓了我一跳……。"
     show saburo 16 with dissolve
-    saburo "因，因为我很在意啊，这没办法吧！"
-    extend "\n……然后呢，怎么样？做过吗……。"
-    me "没有……啊，算是有过吧……。"
+    saburo "因、因为我很在意啊，这也没办法吧！"
+    extend "\n……所以呢，到底怎么样？做过吗……。"
+    me "没有……唔，算是有过吧……。"
     show saburo 23 with dissolve
-    saburo "嗯~……然后，感觉怎么样？"
-    me "哎！？？感，感觉……"
+    saburo "嗯~……那，感觉怎么样？"
+    me "诶！？？感、感觉……"
     extend "\n啊……挺舒服的……吧。"
     show saburo 26 with dissolve
-    saburo "嘿……两个男人也觉得舒服啊。"
-    me "那肯定啊。"
+    saburo "嘿……原来两个男人之间也会觉得舒服啊。"
+    me "那当然了。"
     extend "\n只要有爱，无论对方是谁，都会很舒服很幸福的~！"
     show saburo 18 with dissolve
-    saburo "只要有爱……啊。"
+    saburo "只要有爱……吗。"
     extend "\n那是不是说，性别什么的就无所谓了？"
-    me "当然啊。"
+    me "当然。"
     extend "\n爱与性别，年龄，身份都没有关系哦。"
     show saburo 16 with dissolve
     saburo "……是这样吗……。"
-    me "三朗好像还对这方面有些纠结呢。"
+    me "三朗君，对这方面的事情还是有些纠结呢。"
     show saburo 17 with dissolve
-    saburo "是啊……。"
-    me "其实自己是异性恋，还是同性恋都无所谓，\n也不需要明确自己到底是哪一种哦。"
-    extend "\n只是，当自己喜欢上一个人的时候，\n无论对方是谁，重要的是能不能正视自己的心情。"
+    saburo "算是吧……。"
+    me "其实，自己究竟是异性恋还是同性恋，都无所谓，\n也没必要急着去下定义。"
+    extend "\n我觉得真正重要的是，当你喜欢上一个人的时候，\n无论对方是谁，你是否能正视自己的那份心情。"
     show saburo 29 with dissolve
-    saburo "正视自己吗……你居然能说出这么好的话。"
+    saburo "正视自己吗……你这家伙，竟然能说出这么深刻的话啊。"
     extend "\n我也觉得这是很重要的……。"
     show saburo 30 with dissolve
-    extend "\n听到你这么说，稍微好受点了。"
+    extend "\n听了你这番话，心里一下子轻松不少。"
     extend "\n谢谢。"
     me "不用谢！"
-    extend "\n但是，我觉得三朗尝试去理解这些，也是非常了不起的哦。"
+    extend "\n不过，我觉得像这样努力尝试去理解这些复杂问题的三朗君，也非常了不起哦。"
     "我这么说着，摸了摸三朗的头。"
     show saburo 33 with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
-    saburo "白，白痴！都说了别这样……！！"
-    extend "\n好不容易做好的发型，又要毁了啦！"
-    "三朗这么说着，他的脸上却是一副幸福的表情，\n是我看错了吗……。"
+    saburo "白、白痴！快住手啦……！！"
+    extend "\n好不容易打理好的发型，要被你弄乱了啦！"
+    "三朗这么说着，脸上却是一副幸福的表情……\n是我的错觉吗……。"
     show cg sky at center with dissolve
-    extend "\n于是，我和三朗就这样一起享受了幸福的午餐。"
+    extend "\n就这样，我与三朗一起，尽情享受了这段极其幸福的午餐时光。"
     window hide
     stop music fadeout 0.5
     hide bg with dissolve
@@ -1487,7 +1487,7 @@ label day3_2_sakuya:
     play music "quiet_lunch.ogg"
     window show
     "……呼。今天的课程也结束了。"
-    extend "\n上午的时间真的好短啊。要是上班的话现在才开始呢。"
+    extend "\n上午的时间真的好短啊。要是上班的话，现在才算正式开始呢。"
     "那么，赶紧吃完午饭，开始委员的工作吧。"
     play sound "fx/sliding_door.ogg"
     stop music fadeout 2.0
@@ -1498,7 +1498,7 @@ label day3_2_sakuya:
     play music "sakuya_theme.ogg"
     window show
     sakuya "喂。"
-    me "啊，是作哉。"
+    me "啊，是作哉君。"
     extend "\n怎么了？"
     show sakuya 10 with dissolve
     sakuya "……。"
@@ -1508,39 +1508,39 @@ label day3_2_sakuya:
     me "……"
     extend "？"
     show sakuya 12 with dissolve
-    sakuya "没，没什么事。再见！！"
+    sakuya "没、没什么事。再见！！"
     play sound "fx/running.ogg"
     hide sakuya with dissolve
     play sound "fx/boing.ogg"
     me "诶诶！？"
-    extend "\n等……等一下！！"
-    "我转身将作哉叫住。"
-    "你，你是有什么事才来和我搭话的吧！？"
-    extend "\n你这样我根本搞不懂啊！"
+    extend "\n等等……等一下！！"
+    "我连忙叫住已经转身要走的作哉。"
+    "你绝对是有事才来找我的吧！？"
+    extend "\n就这样直接走掉的话，我完全搞不懂你在想什么啊！"
     window hide
     show sakuya 10 at top with dissolve
     window show
     sakuya "……嗯？"
-    "这，这下只能出此下策了……。"
-    me "我，我，我准备去吃午饭了！"
-    extend "\n方便的话，作哉你要不要一起来吃？"
+    "既然如此，只能出此下策了……。"
+    me "那、那个，我准备去吃午饭了！"
+    extend "\n方便的话，作哉君要不要和我一起？"
     show sakuya 4 with dissolve
-    sakuya "哈，哈啊？"
-    extend "\n和你这种人一起……"
-    me "没事没事！！"
-    extend "\n这不是正好能让我们一起照顾小翼嘛！"
-    extend "\n边吃午饭，边聊小翼的话题岂不是美事一件！！"
+    sakuya "哈、哈啊？"
+    extend "\n和你这家伙一起……"
+    me "好啦好啦！！"
+    extend "\n反正我们平时不也是一起照顾小翼的嘛！"
+    extend "\n边吃午饭边聊小翼的事，肯定能聊得很热闹的！！"
     show sakuya 32 with dissolve
-    sakuya "……好，好吧，既然你这么坚持的话…。"
-    "说完，作哉准备去食堂。"
-    "看他并没有回去教室的意思，原来他早就带够钱了。"
+    sakuya "……好、好吧，既然你这么坚持的话……。"
+    "说完，作哉便向食堂走去。"
+    "看他并没有回教室的意思，看来早就带够钱了。"
     extend "\n果然，他肯定是打算邀请我一起吃午饭。"
     play sound "fx/sparkle.ogg"
     show cg purple at center with FadeWhite(0.5)
     "哼哼哼……这家伙！！"
-    extend "\n就算想邀请我，直接说出来不就好了。"
+    extend "\n既然想邀请我，直说不就好了。"
     extend "\n不过，这也是他的魅力所在啊♪"
-    "我抑制住对作哉可爱性格的兴奋，前往了食堂。"
+    "我一边压下因作哉那可爱性格而泛起的躁动，一边走向食堂。"
     window hide
     hide bg with dissolve
     hide sakuya with dissolve
@@ -1551,138 +1551,138 @@ label day3_2_sakuya:
     play music "fx/crowd_noise.ogg"
     show bg cafeteria with Dissolve(2.0)
     window show
-    me "嗯~我就点一份咖喱牛肉吧~。"
-    extend "\n你点什么？"
+    me "嗯~我就点一份炸猪排咖喱吧~。"
+    extend "\n作哉君吃什么？"
     stop music fadeout 0.5
     play music "sakuya_theme.ogg"
     show sakuya 24 at top with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute2.ogg"
-    sakuya "啥啥？要请我吃午饭吗？"
-    extend "\n那我点咖喱饭~♪"
-    me "诶？不，不是想请你……"
-    extend "\n算了，也可以啊。"
+    sakuya "啥？要请我吃啊？"
+    extend "\n那就多谢款待啦~♪"
+    me "诶？不、不是想请你……"
+    extend "\n算了，也可以吧。"
     show sakuya 11 with dissolve
     play sound "fx/boing.ogg"
     sakuya "真的吗！"
     show sakuya 1 with dissolve
     extend "\n……开玩笑的。"
-    extend "\n我怎么可能让你请客啊。\n真是的，你根本就不懂我在开玩笑嘛~。"
-    me "哈，哈啊…。"
-    "最近的年轻人真搞不懂……。"
-    extend "\n但平时看起来总是不太开心的作哉，现在居然会开玩笑，\n说明他对我放开了戒心，我们之间能坦诚相待了呢？"
-    "一想到这点，我就有点开心了。"
+    extend "\n我怎么可能让你请客啊。\n真是的，你这家伙一点幽默细胞都没有啊~。"
+    me "哈、哈啊……。"
+    "真搞不懂最近的年轻人……。"
+    extend "\n不过，平时总是阴沉着脸像是在生谁气的作哉，竟然会开这种玩笑，\n是不是说明他已经对我放下了戒心，开始慢慢向我敞开心扉了呢？"
+    "这么一想就觉得有些开心了。"
     show sakuya 5 with dissolve
-    sakuya "嗯，我吃蛋包饭。"
-    "我们各自拿到点单的料理，结完账，\n面对面坐到座位上，开始吃了起来。"
+    sakuya "嗯，那我就要蛋包饭吧。"
+    "我们各自拿到点好的饭菜，结完账，\n面对面坐到座位上，开始吃了起来。"
     window hide
     hide sakuya with dissolve
     hide bg with dissolve
     show bg cafeteria at center with dissolve
     show sakuya 23 at top with dissolve
     window show
-    sakuya "你点的肉排炒饭看起来好好吃啊！"
-    extend "\n给我尝一口嘛~。"
+    sakuya "你点的炸猪排咖喱看起来好好吃啊！"
+    extend "\n给我尝一口吧~。"
     "说着，作哉把盘子伸到我面前。"
     "没有拒绝权么……。"
     extend "这孩子真是……。"
-    me "好，给你。"
-    "我把一片肉排放到作哉的盘子上。"
+    me "好好好，给你。"
+    "我夹起一块炸猪排，放到作哉的盘子里。"
     show sakuya 24 with dissolve
-    sakuya "谢谢！"
-    me "那么，我也可以尝一口你的蛋包饭吗？"
+    sakuya "谢啦！"
+    me "那，我也可以尝一口你的蛋包饭吗？"
     show sakuya 4 with dissolve
     play sound "fx/boing.ogg"
-    sakuya "诶！"
-    me "诶！干嘛啊~！！"
-    extend "\n这种时候不就交换嘛！"
+    sakuya "诶——！"
+    me "诶什么诶啊！！"
+    extend "\n这种时候不都应该交换一下嘛！"
     show sakuya 14 with dissolve
-    sakuya "你听说过『阿加佩』（Agape，意为基督教中指人与神的无私互爱，也用来特指一种与圣餐相关的共餐活动。）这个词吗？"
+    sakuya "你听说过『阿加佩』这个词吗？\n（注：Agape，意为基督教中指人与神的无私互爱，也用来特指一种与圣餐相关的共餐活动）"
     me "我不信基督教，不知道。"
     extend "\n不过我知道『礼尚往来』。"
     show sakuya 19 with dissolve
-    sakuya "……真是的，没办法了。"
+    sakuya "……切，真拿你没办法。"
     extend "\n给你。"
     hide sakuya with dissolve
-    "作哉很不情愿地在盘子里放了一勺蛋包饭。"
+    "作哉象征性地往我盘子里拨了那么一丁点儿蛋包饭。"
     window hide
     show sakuya 21 at top with dissolve
     window show
-    sakuya "哼哼，你可得感谢我。"
+    sakuya "哼哼，心怀感激地收下吧。"
     me "啊，好的……"
-    extend "\n不好意思，作哉……谢谢你特地……"
+    extend "\n真是不好意思，作哉先生……多谢您特意分给我这么珍贵的……"
     play sound "fx/dash.ogg"
-    extend "\n……不对，为什么只有我在垂头丧气啊！！\n我不也给了你吃的嘛！"
+    extend "\n……不对，喂！！凭什么只有我低声下气的啊！！\n咱俩地位明明是平等的吧！！"
     show sakuya 24 with dissolve
-    sakuya "啊哈哈！！真是有趣的吐槽！"
-    extend "\n[player_surname]我终于知道你是什么样的人了呢~。"
-    "说完，作哉开心地笑了。"
-    "……啊，总觉得这种感觉……稍微有点不错呢。"
+    sakuya "啊哈哈！！这吐槽接得漂亮！"
+    extend "\n[player_surname]，你总算开始懂我的节奏了嘛~。"
+    "说完，作哉开心地大笑起来。"
+    "……啊，总觉得这种气氛……感觉其实还不错呢。"
     window hide
     show cg c79 at center with Radial(0.5)
     window show
-    sakuya "怎么了？还在笑？"
-    me "不，稍微有点吧。"
-    extend "\n一想到和作哉君是朋友，就有点忍不住。"
-    sakuya "是朋友？？？"
-    extend "\n那是什么意思啊？"
-    me "意思就是，比起一开始，我们的关系已经变得很好了。"
-    sakuya "是，是这样吗……？"
-    me "是这样哦。"
-    extend "\n一开始的时候，作哉君看起来一直不开心，\n总是感觉你好像在生气一样，有点可怕。"
-    sakuya "你，你在说些什么啊……"
-    extend "\n我又没有那么生气。"
-    me "不不不，你生气了你生气了。"
-    extend "\n你身上一直散发着一股气场呢。"
+    sakuya "干嘛？你还在笑啊？"
+    me "没，只是觉得……。"
+    extend "\n一想到和作哉君像这样当朋友，就不禁笑出来了。"
+    sakuya "当朋友？？？"
+    extend "\n那是，什么意思啊。"
+    me "意思就是说，比起一开始，我们的关系已经变得很好了。"
+    sakuya "是、是吗……？"
+    me "是哦。"
+    extend "\n刚开始那会儿，作哉君看起来一直闷闷不乐的，\n总给人一种在生谁的气的感觉，说实话还挺可怕的呢。"
+    sakuya "你、你在胡说什么啊……"
+    extend "\n我又没那么生气。"
+    me "不不不，你就是生气了，特别明显。"
+    extend "\n你身上一直散发着那种冷冰冰、满是倒刺的气场呢。"
     show cg purple with FadeWhite(0.5)
     play sound "fx/cute.ogg"
-    sakuya "我没生气。"
+    sakuya "我才没有——"
     play sound "fx/cute2.ogg"
-    me "你生气了。"
+    me "你就是有——"
     show cg remarkable with Radial(0.5)
     play sound "fx/explosion1.ogg"
-    sakuya "我没生气！！！"
+    sakuya "没——有——！"
     play sound "fx/explosion3.ogg"
-    me "你生气了！！！"
+    me "就——有——！"
     window hide
     hide cg with dissolve
     hide sakuya with dissolve
     show sakuya 21 at top with dissolve
     play sound "fx/eureka.ogg"
     window show
-    sakuya "如果下次你还这么说的话，我就再拿你一个猪排。"
+    sakuya "你再敢说我有，我就再拿一块炸猪排。"
     play sound "fx/boing.ogg"
-    me "这，这太卑鄙了！！"
+    me "这、这也太卑鄙了！！"
     show sakuya 3 with dissolve
     sakuya "诶！哪里卑鄙了！！"
-    extend "\n我可没有故意欺负你。\n来，repeat after me。"
-    me "你生……你生……"
+    extend "\n我可没有故意欺负你。\n来，跟着我念。"
+    me "你……你生……"
     show sakuya 14 with dissolve
     sakuya "嗯~？"
-    extend "\n按照你刚刚说的话，我要拿走你一块猪排了哦。"
+    extend "\n接下来的话要是说错了，可是要牺牲掉一块猪排的哦？"
     "作哉坏笑着。"
-    me "你没有在不生气！"
+    me "……你、你不是没在生气！"
     show sakuya 17 with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
-    sakuya "啊！？哇，太坏了！！"
+    sakuya "啊！？哇，你也太狡猾了吧！！"
     extend "\n那才叫卑鄙！！！"
     me "诶嘿~♪我可没有卑鄙！"
-    "什么嘛，我和作哉除了讨论小翼的事情之外，关系不也能维持得挺好的嘛。"
-    extend "\n无论多么无聊的对话，只要和作哉在一起，就会感到非常快乐。"
+    "没想到，即使不聊关于小翼的话题，我们也能相处得这么融洽。"
+    extend "\n无论多么无聊的对话，只要是和作哉在一起，我都会觉得非常快乐。"
     window hide
     hide sakuya with dissolve
     window show
-    me "啊，说起来……你不给小翼喂食吗？"
+    me "啊，说起来……不用给小翼喂食吗？"
     show sakuya 5 at top with dissolve
-    sakuya "哦，狗一天只喂两餐，早饭和晚饭就可以了。"
-    extend "\n午饭的话，就喂一点零食就行了。"
+    sakuya "哦，狗狗的话，一天其实只要喂早晚两顿就行了。"
+    extend "\n午饭的话，稍微喂一点零食就好。"
     me "这样啊。"
-    extend "\n那等吃完午饭，我们就一起去喂小翼吧！"
+    extend "\n那等吃完午饭，我们就一起去喂它吧！"
     show sakuya 35 with dissolve
     sakuya "好。"
     hide sakuya with dissolve
-    "就这样，我和作哉两个人一起度过了愉快的中午。"
+    "就这样，我和作哉两个人一起，度过了愉快的午餐时光。"
     window hide
     stop music fadeout 0.5
     hide bg with dissolve
@@ -4037,44 +4037,44 @@ label day3_2_sora:
     show bg classroom at center
     show sora 19 at top with dissolve
     window show
-    sora "啊，这是我做的。"
+    sora "啊，这个是我做的。"
     show sora 33 with dissolve
-    extend "\n……果然还是做得不太好啊？"
-    "空稍微客气地说道。"
+    extend "\n……果然还是不太好吃吗？"
+    "空有些拘谨地说道。"
     play sound "fx/boing.ogg"
     me "诶！？？"
-    extend "\n居，居然是这样！！？？？"
+    extend "\n居、居然是这样！！？？？"
     show cg dark at center with Dissolve(0.2)
     play sound "fx/ding.ogg"
-    "真，真的假的啊！！！  你早点说啊啊啊！！"
-    extend "\n早知道这样，我就说些更加动听的感想了！！！！"
-    extend "\n我也是个蠢货，居然没发现这一点！！！！"
-    extend "\n看吧，空的表情这么悲伤……啊啊啊啊啊……！！！"
+    "真、真真真真的假的啊！！！你早说啊啊啊！！"
+    extend "\n早知道这样，我就说些更加动听的感想了！！！！！"
+    extend "\n我也是个蠢货，明明味道和其他菜不太一样，居然没发现！！！"
+    extend "\n看吧，空都露出这么悲伤的表情了……啊啊啊啊啊……！！！"
     stop sound fadeout 0.5
     window hide
     hide cg with dissolve
     hide sora with dissolve
     window show
-    me "不，不对啊！！  我喜欢这种稍微辣一点的味道"
-    extend "\n不如说，我一直都想要吃这种辣味煎鸡蛋啊！！！"
-    extend "\n没想到空会给我做，我做梦都没想到啊！！"
-    extend "\n真的很好吃！！  很好吃！！"
+    me "不、不，不对！其实我超喜欢这种偏咸的口味！"
+    extend "\n不如说，我一直都想要吃这种偏咸的鸡蛋烧啊！！！"
+    extend "\n没想到空君竟然会为我做这些，我做梦都没想到！！"
+    extend "\n真的很好吃！！超级美味！！"
     window hide
     show sora 30 at top with dissolve
     window show
-    sora "[player_name]……谢，谢谢你。"
+    sora "[player_name]……谢谢你。"
     show sora 31 with dissolve
-    extend "\n你这样说的话，我做这个就很值了。"
+    extend "\n能听到你这么说，我很开心哦。"
     hide sora with dissolve
     show tuki 4 at topleft with dissolve
     tuki "空也说，想跟佣人一起向你道谢。"
     me "道谢？"
     extend "\n我有为空做过什么吗？"
     show sora 24 at topright with dissolve
-    sora "……想，想起来了，昨天，在2号厨房出现虫子的时候，\n你帮助了我，还安慰了我……我想报答你。"
-    me "啊，是这样吗。"
-    extend "\n当时的空，还那么害怕，真可爱啊~。"
-    extend "\n让我看到了那么棒的场面，我反而想要报答你啊。"
+    sora "……就、就是昨天啊，在第二厨房出现虫子的时候，\n你不仅帮了我，还一直温柔地安慰我……这是那件事的回礼哦。"
+    me "啊，是那件事啊。"
+    extend "\n那时候空君吓得战战兢兢的样子，真的很可爱呢~。"
+    extend "\n让我看到了那么棒的场面，我反而还想报答你啊。"
     show tuki 21 with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute2.ogg"
@@ -4084,80 +4084,80 @@ label day3_2_sora:
     sora "呜，你们俩太过分了~！！"
     show sora 27 with dissolve
     extend "\n我真的很害怕虫子！"
-    me "那么以后要是再有虫子，你就飞到我怀里来吧。"
+    me "那么，下次要是再出现虫子，你就直接扑到我怀里来。"
     extend "\n我会温柔地安慰你的。"
     show sora 16 with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
-    sora "不用了！"
+    sora "才、才不要！"
     extend "\n[player_name]君大坏蛋！再也不找你帮忙了！"
     show tuki 18 with dissolve
-    tuki "那你就飞到我怀里来吧。"
+    tuki "那就扑到我的怀里来吧。"
     extend "\n就算没有虫子我也不会介意的。"
     show tuki 21 with dissolve
     extend "\n现在也可以！！来吧！空！！！"
     show sora 15 with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute3.ogg"
-    sora "我才不呢！！"
-    extend "\n呜~……哥哥也是[player_name]君也是，都在把我当笨蛋耍！"
+    sora "绝对不去！！"
+    extend "\n呜~……哥哥也是，[player_name]君也是，都在把我当笨蛋耍吧！"
     show tuki 4 with dissolve
     tuki_and_me "没有没有。"
     show sora 16 with dissolve
     sora "骗人！"
-    extend "\n不管你们了！"
-    "我和月微笑地看着嘟着嘴的空。"
+    extend "\n不理你们了！"
+    "月和我看着气鼓鼓的空，会心一笑。"
     window hide
     hide sora with dissolve
     hide tuki with dissolve
     window show
-    me "空真可爱啊~。"
+    me "空君真的很可爱呢~。"
     show tuki 18 at top with dissolve
-    tuki "啊，真的非常可爱…。"
-    me "真好啊，月，你有个这么可爱的弟弟。"
+    tuki "啊，真的非常可爱……。"
+    me "真好啊，月君，你有个这么可爱的弟弟。"
     extend "\n太羡慕你了。"
     show tuki 8 with dissolve
-    tuki "吼吼吼。毕竟我是当哥哥的。"
+    tuki "哼哼。毕竟我是当哥哥的。"
     me "嘿~。"
-    extend "\n那我当空的男朋友怎么样？~"
+    extend "\n既然如此，那我就来填补一下『恋人』这个位置怎么样？~"
     show tuki 15 with dissolve
-    tuki "嚯嚯……在身为哥哥面前说这话啊。\n你胆子挺大的嘛。"
-    me "啊哈哈，骗你的啦。"
-    extend "\n我要真这么做，估计会被你一刀两断吧。"
+    tuki "嚯……在身为哥哥的我面前说这话啊。\n你胆子挺大的嘛。"
+    me "啊哈哈，开玩笑的啦。"
+    extend "\n我要是真那么做，感觉会被月君一刀两断呢。"
     show tuki 18 with dissolve
-    tuki "真弱啊。"
-    extend "\n作为男人，无论何时，\n都要做好这种程度的觉悟去挑战。"
+    tuki "太软弱了。"
+    extend "\n身为男人，无论何时，\n都要做好这种程度的觉悟去发起挑战才对。"
     me "哦，这回答有点意外啊。"
-    extend "\n就算要挑战你也不介意吗？"
+    extend "\n难道说，这种程度的挑战，你都不介意吗？"
     show tuki 9 with dissolve
-    tuki "挑战又不需要我的许可。而且"
+    tuki "挑战这种事不需要谁的许可。而且，"
     extend "\n[player_surname]也有优点，值得期待呢。"
-    me "是，是吗……"
+    me "是、是吗……"
     extend "\n能得到赤峰家长子的评价，我感到很荣幸。"
     show tuki 4 with dissolve
-    tuki "嘻嘻……这样啊。"
-    extend "\n那你就坦诚接受吧。"
-    me "……哦，好的。"
+    tuki "呵呵……这样啊。"
+    extend "\n那你就坦率地接受吧。"
+    me "……噢，嗯。"
     hide tuki with dissolve
-    "本想开玩笑，没想到他这么认真……。"
-    extend "\n不过，看来他还是给我面子的。"
+    "本来只想开个玩笑，没想到他这么认真……。"
+    extend "\n看来，他还是很给我面子的。"
     window hide
     show sora 14 at topright with dissolve
     window show
-    sora "我说你们俩啊！\n从刚才开始就在嘀嘀咕咕地说什么呢？"
-    "心情好转的空看向这边。"
+    sora "我说你们！\n从刚才开始就在嘀嘀咕咕什么呢——？"
+    "已经消了气的空，疑惑地看向我们。"
     show tuki 18 at topleft with dissolve
     tuki "没什么。"
-    extend "\n呐，[player_surname]。"
+    extend "\n对吧，[player_surname]。"
     me "嗯。就是聊空很可爱啦。"
     show tuki 9 with dissolve
-    tuki "对。"
+    tuki "没错。"
     show sora 12 with dissolve
     sora "唔……总感觉你们两个越来越像了啊……。"
-    extend "\n不要啦~。光是哥哥一个人就够我忙活的了了，\n[player_name]君一起来的话，我一定会晕倒的。"
+    extend "\n不要啦~。光是应付哥哥一个就够我忙活的了，\n要是[player_name]君也来的话，我一定会晕过去的。"
     show cg school_building_morning at center with Dissolve(0.7)
     tuki_and_me "哈哈哈哈。"
-    "就这样，我和空，月一起，享用了这顿热闹而又幸福的午餐。"
+    "就这样，我和空、月一起，享受了一顿热闹又幸福的午餐。"
     window hide
     hide bg with dissolve
     hide cg with dissolve
@@ -4172,27 +4172,27 @@ label day3_2_tuki:
     window show
     tuki "这个，是我试着做的……"
     show tuki 23 with dissolve
-    extend "果然，味道不怎么样吧？"
-    extend "\n……抱歉。毕竟我也是第一次做煎鸡蛋。"
-    "月有些顾虑地说道。"
+    extend "果然，味道还是不怎么样吗？"
+    extend "\n……抱歉。毕竟我也是第一次做鸡蛋烧。"
+    "月的语气中带着一丝顾虑。"
     play sound "fx/boing.ogg"
     me "诶！？？"
-    extend "\n居，居然是这样！！？？？"
+    extend "\n居、居然是这样！！？？？"
     show cg dark at center with Dissolve(0.2)
     play sound "fx/ding.ogg"
-    "真，真的假的啊！！！  你早点说啊啊啊！！"
-    extend "\n早知道这样，我就说些更加动听的感想了！！！！"
-    extend "\n我也是个蠢货，居然没发现这一点！！！！"
-    extend "\n看吧，月露出了这么悲伤的表情……啊啊啊啊啊……！！！"
+    "真、真真真真的假的啊！！！你早说啊啊啊！！"
+    extend "\n早知道这样，我就说些更加动听的感想了！！！！！"
+    extend "\n我也是个蠢货，明明味道和其他菜不太一样，居然没发现！！！"
+    extend "\n看吧，月都露出这么悲伤的表情了……啊啊啊啊啊……！！！"
     stop sound fadeout 0.5
     window hide
     hide cg with dissolve
     hide tuki with dissolve
     window show
-    me "不，不对啊！！  我喜欢这种稍微辣一点的味道"
-    extend "\n不如说，我一直都想要吃这种辣味煎鸡蛋啊！！！"
-    extend "\n没想到月竟然会为我做这些，我做梦都没想到！！"
-    extend "\n真的很好吃！！  很好吃！！"
+    me "不、不，不对！其实我超喜欢这种偏咸的口味！"
+    extend "\n不如说，我一直都想要吃这种偏咸的鸡蛋烧啊！！！"
+    extend "\n没想到月君竟然会为我做这些，我做梦都没想到！！"
+    extend "\n真的很好吃！！超级美味！！"
     window hide
     show tuki 24 at top with dissolve
     window show
@@ -4200,37 +4200,37 @@ label day3_2_tuki:
     extend "\n能听到你这么说，我很开心哦。"
     hide tuki with dissolve
     show sora 2 at topright with dissolve
-    sora "哥哥和佣人也想一起向你道谢。"
+    sora "哥哥说他也想跟着佣人们一起向你道谢呢。"
     me "道谢？"
-    me "我有做过什么让月高兴的事情吗？"
+    me "我有做过什么让月君高兴的事情吗？"
     show tuki 25 at topleft with dissolve
     tuki "就是昨天，在第二厨房发现虫子时帮了我一把。"
-    extend "\n[player_surname]虽然你当时说只是举手之劳，但我现在还是很感谢你。"
-    me "啊，对哦对哦。\n那么，我就坦率地接受这份谢意好了。"
-    extend "\n话说回来，拿着竹刀站在一起的月\n真的好帅啊~。"
+    extend "\n虽然[player_surname]你当时说只是举手之劳，但我至今仍心怀感激。"
+    me "啊，对哦对哦。\n那么，我就坦率地接受这份心意好了。"
+    extend "\n话说回来，昨天月君手持竹刀严阵以待的样子，\n真的好帅啊~。"
     show sora 1 with dissolve
     sora "啊，果然[player_name]君也是这么想的吗？"
-    extend "\n我也总是看哥哥的剑术入迷"
-    extend "\n同样的双胞胎兄弟，为什么你会有这么大差别呢。\n啊哈哈哈。"
+    extend "\n我也总是看哥哥练剑看得入迷呢。"
+    extend "\n明明是双子，为什么差别会这么大呢，真是值得我好好学习啊。\n啊哈哈哈。"
     me "兼具了成熟和帅气的少年，像你这种人物\n现在可不常见哦~。"
     extend "\n在学校里肯定很受欢迎的吧？"
     show tuki 23 with dissolve
     tuki "你……你们两个，夸过头了。"
-    extend "\n没有那么了不起啦。"
+    extend "\n我并没那么了不起。"
     me "哎呀哎呀？"
-    extend "\n明明是月君先说不要对我谦虚的呢，怎么轮到你谦虚了？"
+    extend "\n明明是月君先对我说不要谦虚的呢，怎么轮到你谦虚了？"
     show tuki 26 with dissolve
     tuki "呜……[player_surname]可真是会欺负人呢。"
-    me "啊哈哈！\n我说空啊。"
-    extend "\n月君他不仅是帅，\n好像还有这么可爱的一面哦~。"
+    me "啊哈哈！\n呐，空。"
+    extend "\n月君他不仅是帅，\n看来也有这种非常可爱的一面哦~。"
     show sora 24 with dissolve
-    sora "真的耶~！\n我第一次看到哥哥这个样子！"
+    sora "真的耶~！\n我也是第一次看到哥哥这个样子！"
     extend "\n确实，和平时不同，很可爱呢。"
     show tuki 10 with dissolve
-    tuki "连……连空也……"
+    tuki "连、连空你也……"
     show tuki 23 with dissolve
     extend "\n你们两个都欺负我啊，太坏了。"
-    me "才不是！"
+    me "哪有啦！"
     extend "\n我们只是说出自己真实的感想而已啦。"
     extend "\n对吧？空。"
     show sora 11 with dissolve
@@ -4238,7 +4238,7 @@ label day3_2_tuki:
     extend "\n哥哥啊，身为男子汉，可不能连这种事都容不下啊！"
     show tuki 26 with dissolve
     tuki "唔……唔嗯。"
-    "空和我看着脸红低下头去的月，会心地笑了。"
+    "空和我看着脸红低下头的月，会心一笑。"
     window hide
     hide sora with dissolve
     hide tuki with dissolve
@@ -4248,51 +4248,51 @@ label day3_2_tuki:
     show sora 26 at top with dissolve
     sora "诶嘿嘿……。"
     show sora 32 with dissolve
-    extend "\n虽然没有直接说过这种话，\n但其实我一直觉得能当哥哥的弟弟真是太好了。"
-    extend "\n我很尊敬哥哥，也觉得哥哥很了不起。"
+    extend "\n虽然没有直接说过这种话，\n但其实我一直觉得，能当哥哥的弟弟真是太好了。"
+    extend "\n我不仅尊敬他，也一直以他为傲哦。"
     me "要是月君听到这些，一定会很开心吧~。"
     show sora 13 with dissolve
-    sora "不，不准说出去！"
-    extend "\n要是说了，哥哥一定会得意忘形的……。"
+    sora "不、不准告诉他！"
+    extend "\n要是说了，哥哥肯定会得意忘形的……。"
     me "啊哈哈。"
-    extend "\n月君也有点天真过头的地方啊。"
+    extend "\n月君在某些地方也有点天然呆啊。"
     show sora 14 with dissolve
     sora "是啊~。"
-    extend "\n哥哥他啊，肯定身体里有个开关什么的，\n一打开开关的话，就会变成失控的疯狂机车了。"
-    me "这，这说法也太过分了……。"
-    extend "\n但是，话虽如此，空也是，\n包括这一点在内，你最喜欢哥哥了吧？"
+    extend "\n哥哥他啊，身体里肯定有个开关什么的，\n一打开的话，就会变成只会横冲直撞的怪机器了。"
+    me "这、这说法也太过分了……。"
+    extend "\n不过话虽如此，空其实，\n连这些地方在内，都最喜欢哥哥了吧？"
     show sora 19 with dissolve
-    sora "诶……！\n我，我才没有说得那么……"
+    sora "诶……！\n我、我才没说已经到了那种程度呢……"
     me "只要看看你们的日常，就知道了哦。"
-    extend "\n因为你们无论何时都看起来非常幸福快乐。"
+    extend "\n因为你们看起来总是那么幸福，感觉特别开心呢。"
     show sora 24 with dissolve
-    sora "……是吗[player_name]君虽然嘴上这么说，\n但你不是也相当喜欢哥哥吗？"
+    sora "……这么说的[player_name]君，\n其实也相当喜欢哥哥吧？"
     me "诶！？为什么你会知道……"
     show sora 34 with dissolve
-    sora "从旁观者来看，这已经很明显了。"
+    sora "因为从旁边看的话，简直一目了然啊。"
     extend "\n无论什么时候，看着哥哥的眼神都是幸福的，充满愉悦的！"
     hide sora with dissolve
-    me "啊，啊哈哈……被你占了上风了啊。"
-    "虽然我没有意识到，但我对月就是这么……。"
+    me "啊、啊哈哈……被你占上风了啊。"
+    "虽然自己没意识到，但原来我就是那样看着月的吗……"
     window hide
     show tuki 5 at topleft with dissolve
     window show
-    tuki "你们两个，从刚才开始就在说悄悄话是什么啊？"
-    "月恢复了平时的样子，看向我们。"
+    tuki "你们两个，从刚才开始就在说什么悄悄话呢？"
+    "已经恢复了平时那副冷静模样的月，疑惑地看向我们。"
     show sora 34 at topright with dissolve
-    sora "没什么！！"
+    sora "没什么——！"
     extend "\n我是在说哥哥好帅好可爱！！"
     extend "\n对吧？[player_name]君。"
     me "啊，嗯。"
     show tuki 28 with dissolve
-    tuki "又说那种话……"
+    tuki "又在胡说……。"
     show tuki 23 with dissolve
     extend "\n只瞒着我说悄悄话，把我排除在外太不公平了。"
-    extend "\n下次说点我们三人都能听懂的话吧！"
+    extend "\n下次说点我们三人都能听懂的话题吧！"
     show cg school_building_morning at center with Dissolve(0.7)
     "空＆我" "啊哈哈哈。"
-    "看着不顾形象拼命躲避的月，我和空都忍不住笑了出来。"
-    "于是，我便与月和空一起，享受了一顿热闹又幸福的午餐。"
+    "看着不顾形象、拼命想挤进话题的月，我和空都忍不住笑了出来。"
+    "就这样，我和月、空一起，享受了一顿热闹又幸福的午餐。"
     window hide
     hide bg with dissolve
     hide tuki with dissolve

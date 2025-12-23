@@ -245,7 +245,7 @@ label day1_1:
     show sinobu c7 1 at center with Radial(0.5)
     window show
     extend "那个身材纤细的少年出现了。"
-    extend "\n他的双拳紧握，蓄势待发"
+    extend "\n他的双拳紧握，蓄势待发。"
     show sinobu c7 2 with dissolve
     boy6 "没事吧？[player_surname]君。"
     extend "\n以后要注意别被这两个人带坏了哦。"
