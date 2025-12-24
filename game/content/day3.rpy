@@ -5792,30 +5792,30 @@ label day3_design_2_sintarou:
 
 label day3_design_2_self:
     window show
-    me "那么……"
+    me "那要不……"
     window hide
     show sintarou 15 with dissolve
     window show
-    sintarou "是嘛~。"
-    extend "\n昨天太晚了没能来得及去店里帮忙，"
+    sintarou "是啊~。"
+    extend "\n昨天因为回去晚了没有帮家里看店，"
     extend "\n今天就快点收拾完，赶紧回家吧！"
     show tomo 3 with dissolve
-    tomo "是啊。今天先休息休息，明天继续努力吧！"
+    tomo "是啊。今天先好好充个电，明天继续努力吧！"
     show tomo 21 with dissolve
-    extend "\n[player_name]刚才你好像说了什么？"
+    extend "\n[player_name]君，你刚才是不是有什么话想说？"
     me "啊……没有，没什么。"
     extend "\n今天就到此解散吧。"
     window hide
     hide tomo with dissolve
     hide sintarou with dissolve
     window show
-    "他们两个也是各有各的情况啊……。"
-    extend "\n因为我的任性而特意抽出时间，总觉得有点对不起他们。"
-    extend "\n今天就先以一个成年人的身份忍耐一下吧。"
+    "他们两个各有各的事情要忙啊……。"
+    extend "\n要是因为我的一点任性而特地占用他们的时间，总觉得心里过意不去。"
+    extend "\n今天就作为一个成年人，先忍耐一下吧。"
     window hide
     show cg school_building_morning at center with Dissolve(0.7)
     window show
-    "就这样，我们把散乱的道具都收拾好了，\n作为服装组，今天的任务也完成了。"
+    "就这样，我们把散乱的道具工具收拾妥当，\n结束了服装组今天的全部工作。"
     stop music fadeout 1.0
     window hide
     hide bg with Dissolve(0.8)
@@ -6090,20 +6090,20 @@ label day3_supply_self:
 label day3_design_sirou:
     hide 班選択 with dissolve
     window show
-    "去『服装制作组』看看吧！"
+    "去『服装组』看看吧！"
     window hide
     stop music fadeout 0.5
     hide bg with dissolve
     show bg classroom at center with dissolve
     play music "quiet_lunch.ogg"
     window show
-    me "那么，我要做些什么才好呢？"
+    me "那么，我要做些什么好呢？"
     show tomo 1 at topleft with dissolve
-    tomo "[player_name]君，我们小组的工作到昨天就已经完成了哦。"
+    tomo "[player_name]君，我们小组的工作，到昨天就已经完成了哦。"
     show sintarou 1 at topright with dissolve
     sintarou "所以，今天就解散吧！"
     extend "\n我们也可以回家了哦~。"
-    me "诶！怎，怎么这样！！"
+    me "诶！怎、怎么这样！！"
     extend "\n那么，今天开心的校园生活，就要到此结束了？！"
     show tomo 3
     show sintarou 15 with dissolve
@@ -6113,17 +6113,17 @@ label day3_design_sirou:
     hide sintarou with dissolve
     play sound "fx/shock.ogg"
     window show
-    "轰！！"
+    "（受打击！！）"
     me "诶诶诶诶诶！！怎么可以这样……。"
     extend "\n这样我可是不满足的啊啊啊啊啊……。"
     show tomo 8 at topleft with dissolve
-    tomo "[player_name]君，这是怎么了呢……？"
+    tomo "[player_name]君，这是怎么了啊……？"
     show sintarou 27 at topright with dissolve
-    sintarou "谁知道……我不知道。"
+    sintarou "谁知道呢……搞不懂他在想什么。"
     show tomo 2 with dissolve
-    tomo "那么，我们，现在就回家吧！！\n拜拜！"
+    tomo "那——我们就先回家啦！！\n拜拜！"
     show sintarou 8 with dissolve
-    sintarou "[player_name]老师，明天见~！"
+    sintarou "[player_name]酱，明天见~！"
     window hide
     play sound "fx/running.ogg"
     hide tomo with dissolve
