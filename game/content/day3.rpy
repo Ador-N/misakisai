@@ -2230,7 +2230,7 @@ label day3_design_tomo:
     show bg classroom at center with dissolve
     play music "cute_silly.ogg"
     window show
-    "我从保健室回来后，把创可贴交给友并重新开始了工作。"
+    "我从保健室回来后，把创可贴递给友并重新开始了工作。"
     "但是，气氛明显和刚才不太一样了。"
     show tomo 23 at topleft with dissolve
     extend "\n即使和友目光相对，"
@@ -2241,7 +2241,7 @@ label day3_design_tomo:
     show sintarou 12 at topright with dissolve
     sintarou "（嘿嘿）"
     "在略显尴尬的氛围中，我们把所有的纸都裁剪完毕，"
-    extend "\n各自写上所有同学的名字，总算完成了任务。"
+    extend "\n各自写上同学们的名字，总算完成了任务。"
     window hide
     hide sintarou with dissolve
     hide tomo with dissolve
@@ -2259,8 +2259,8 @@ label day3_design_tomo:
 label day3_design_sintarou:
     show bg classroom at center
     window show
-    "那就从橘色开始吧。"
-    "嗯这么说起来，橘色总感觉和慎太郎的形象挺像的。"
+    "从橘色开始吧。"
+    "嗯……说起来，橘色总感觉和慎太郎的形象挺像的。"
     extend "\n对各种意义上都很浮夸的他来说，这种颜色或许很适合他……。"
     window hide
     stop music fadeout 0.5
@@ -2268,20 +2268,20 @@ label day3_design_sintarou:
     $ renpy.transition(Quake(60, 0, 0.1, 0.15), layer='master')
     play sound "fx/cute3.ogg"
     window show
-    sintarou "啊好疼啊。"
+    sintarou "啊，疼疼疼。"
     show tomo 21 at topleft with dissolve
     tomo "怎么了？慎酱。"
     show sintarou 23 with dissolve
-    sintarou "我干了件蠢事啊……"
-    extend "\n划到了，连手指尖都划破了。"
+    sintarou "咱竟然也会失手啊……。"
+    extend "\n一不留神，把指尖划破了。"
     show tomo 29 with dissolve
     tomo "啊哇哇！流血了！！"
-    extend "\n创可贴在哪里来着…。"
+    extend "\n创可贴在哪里来着……。"
     me "慎太郎，没事吧？"
-    extend "\n给我看看。"
-    "我抓住慎太郎的手臂，看了看他受伤的地方。"
+    extend "\n让我看看。"
+    "我一把抓过慎太郎的手臂，仔细查看他的伤口。"
     play sound "fx/shock.ogg"
-    "啊啊啊\n我心爱的男生的手指居然受了伤！"
+    "啊啊啊！\n我心爱的男生的手指居然受伤了啊啊啊！"
     extend "\n看上去伤口好像不深，但还是不能大意。"
     extend "\n说不定会因此而感染！"
     window hide
@@ -2290,12 +2290,12 @@ label day3_design_sintarou:
     $ renpy.transition(Quake(0, 100, 0.1, 0.065), layer='master')
     play sound "fx/cute.ogg"
     window show
-    "啪嗒"
-    extend "\n啪嗒"
-    sintarou "等，等下！"
+    "（含住）"
+    extend "\n（舔）"
+    sintarou "等、等下！"
     extend "\n[player_name]桑？？！？"
-    "正太的手简直是美味！！"
-    tomo "[player_name]君，好厉害！"
+    "正太的手指，简直是美味！！"
+    tomo "[player_name]君，好厉害……。"
     extend "\n像以前的少女漫画一样。"
     me "在之前的漫画里倒是挺常见的。"
     extend "\n为了以防万一，我去拿创可贴。"
@@ -2305,12 +2305,12 @@ label day3_design_sintarou:
     hide sintarou with dissolve
     show sintarou 22 at top with dissolve
     window show
-    sintarou "多，多谢…。"
+    sintarou "多、多谢……。"
     play sound "fx/sliding_door.ogg"
     hide tomo with dissolve
     hide sintarou with dissolve
     show bg hallway with dissolve
-    "我出了教室，朝保健室走去。"
+    "我走出教室，快步朝保健室走去。"
     window hide
     play sound "fx/running.ogg"
     hide bg with dissolve
@@ -2318,27 +2318,27 @@ label day3_design_sintarou:
     show bg classroom at center with dissolve
     show tomo 11 at topleft with dissolve
     window show
-    tomo "哎哎哎！"
-    extend "\n小慎，你脸都变红了！"
+    tomo "啊咧咧——！"
+    extend "\n慎酱，你的脸好红啊！"
     show sintarou 32 at topright with dissolve
     sintarou "刚才的事我也觉得很意外啊~。"
     show sintarou 27 with dissolve
     extend "\n……哎呀，又流血了。"
-    "啊呜"
+    "啊呜~"
     show tomo 13 with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
-    tomo "呀啊啊啊！！间接接吻了！！"
+    tomo "呀啊啊啊！！间接接吻啊啊啊！！"
     show sintarou 21 with dissolve
-    sintarou "你是女高中生吗！"
+    sintarou "你是女高中生吗你！"
     show sintarou 17 with dissolve
-    extend "\n那种事情我完全都没在想的~。"
+    extend "\n那种事我可压根没往那方面想过~。"
     hide tomo with dissolve
     hide sintarou with dissolve
     show bg school_building_morning with dissolve
-    extend "\n[player_name]君竟然做了这种事......"
+    extend "\n[player_name]酱……真是给我来了一下子呢。"
     window hide
     stop music fadeout 1.0
     hide bg with Dissolve(0.8)
@@ -2346,21 +2346,21 @@ label day3_design_sintarou:
     show bg classroom at center with dissolve
     play music "cute_silly.ogg"
     window show
-    "我从保健室回来之后，把创可贴递给慎太郎，再次开始工作。"
-    "但是，友的样子和刚才有点不一样。"
+    "我从保健室回来后，把创可贴递给慎太郎并重新开始了工作。"
+    "但是，气氛明显和刚才不太一样了。"
     show sintarou 3 at topright with dissolve
-    extend "\n慎太郎则一直盯着我。"
+    extend "\n慎太郎开始目不转睛地盯着我看。"
     me "……怎么了？"
     show sintarou 20 with dissolve
-    sintarou "没什么~，继续吧继续吧。"
-    "怎么回事？我做了什么吗……？是舔了他的手指惹他不高兴了吗！？"
-    me "……什么啊~。"
+    sintarou "没什么呀~，继续吧继续吧。"
+    "怎么回事？我做错了什么吗……？是舔了他的手指惹他不高兴了吗！？"
+    me "……到底是什么啊~。"
     show sintarou 1 with dissolve
-    sintarou "没事啦~。"
+    sintarou "都说了没什么啦~。"
     show tomo 39 at topleft with dissolve
     tomo "（坏笑）"
-    "在这稍微有些尴尬的氛围中，我们把所有的纸都剪开分好了。"
-    extend "\n各自写上所有同学的名字，任务全部完成了。"
+    "在略显尴尬的氛围中，我们把所有的纸都裁剪完毕，"
+    extend "\n各自写上同学们的名字，总算完成了任务。"
     window hide
     hide sintarou with dissolve
     hide tomo with dissolve
@@ -2368,10 +2368,10 @@ label day3_design_sintarou:
     window show
     sintarou "哎呀~今天的任务完成得意外早啊。"
     show tomo 21 at topleft with dissolve
-    tomo "怎么办。"
-    extend "\n没必要勉强在学校留到这么晚，今天就解散吧？"
+    tomo "怎么办呢。"
+    extend "\n反正也没必要硬留在学校里，今天就解散吧？"
     "什么！！"
-    extend "\n也就是说，今天愉快的校园生活已经结束了吗？"
+    extend "\n也就是说，我今天愉快的校园生活就到此为止了吗？"
     return
 
 label day3_layout_tubasa:
@@ -5076,13 +5076,13 @@ label day3_design_2_tomo:
     show sintarou 13 with dissolve
     sintarou "抱歉了，二位！\n这次我就不去了。"
     extend "\n还得去澡堂帮忙呢。"
-    "说完，慎太郎突然凑近我，趴在我的耳边低声说道："
+    "说完，慎太郎突然凑了过来，在我的耳边低声说道："
     hide sintarou with dissolve
     hide tomo with dissolve
     show sintarou 4 at top with dissolve
     sintarou "身为男人，最重要的就是要主动出击！"
     extend "\n我会为你加油的~♪"
-    me "什！不、不是，我不是那个意思！"
+    me "什！不、不是，我没有那个意思！"
     show sintarou 20 with dissolve
     sintarou "别害羞啦！"
     show sintarou 31 with dissolve
@@ -5420,62 +5420,62 @@ label day3_design_2_tomo:
 
 label day3_design_2_sintarou:
     window show
-    "这样下去欲求不满可是会收不回来的啊！！"
-    "现在就是一不做二不休……！！"
-    me "那要不要现在就一起去玩？"
-    extend "\n这样啊~慎太郎家怎么样？"
+    "这样下去，我的欲求不满可没法平复啊！！"
+    "事到如今，只能一不做二不休了……！！"
+    me "那要不要现在去哪里玩玩？"
+    extend "\n说起来~去慎太郎家里怎么样？"
     show sintarou 30 with dissolve
     sintarou "可以哦~。"
-    extend "\n只是间毫无趣味的澡堂，可能会有点无聊，"
-    extend "\n不过要是没问题的话就请便吧~。"
+    extend "\n不过只是间没什么意思的澡堂，可能会有点无聊，"
+    extend "\n要是不介意的话就请便吧~。"
     me "太好了！！\n终于可以去慎太郎家的澡堂了！"
     show tomo 25 with dissolve
     play sound "fx/eureka.ogg"
-    tomo "……原来如此啊。[player_name]你也很有希望呢。"
+    tomo "……原来如此啊。[player_name]你也很有戏的嘛。"
     show tomo 24 with dissolve
-    tomo "抱歉啊，你们两个！"
-    extend "\n我今天之后还有事情要做，不能和你们去。"
-    "说完后，友便把脸凑了上来，在我耳边说悄悄话。"
+    tomo "抱歉啦，你们两个！"
+    extend "\n我今天待会儿还有点事，就不陪你们去咯。"
+    "说完，友突然凑了过来，在我的耳边低声说道："
     hide sintarou with dissolve
     hide tomo with dissolve
     show tomo 25 at top with dissolve
-    tomo "装得这么冷淡，你其实很积极嘛~！"
-    extend "\n加油！我会支持你的♪"
-    me "什！不，不是，不是这样的！"
+    tomo "装得这么淡定，其实心里挺积极的吧~！"
+    extend "\n加——油！我会支持你的♪"
+    me "什！不、不是，我没有那个意思！"
     show tomo 31 with dissolve
     tomo "别害羞嘛~。"
-    extend "\n明天再告诉我你们的事吧。"
+    extend "\n明天记得告诉我进展哦。"
     window hide
     hide tomo with dissolve
     show sintarou 17 at topright
     show tomo 25 at topleft with dissolve
     window show
-    sintarou "嗯？你们在说什么悄悄话~？"
+    sintarou "嗯？你们在说什么悄悄话呢~？"
     show tomo 4 with dissolve
     tomo "没什么♪"
     show tomo 10 with dissolve
     extend "\n那么，我这个电灯泡就先撤了！\n再见！"
     play sound "fx/sliding_door.ogg"
     hide tomo with dissolve
-    "留下这句话后，友离开了教室。"
+    "留下这句话后，友就离开了教室。"
     window hide
     hide sintarou with dissolve
     show sintarou 17 at top with dissolve
     window show
-    sintarou "喂……阿友。"
-    extend "\n可恶~完全是在嘲笑我呢。"
+    sintarou "喂……友这家伙。"
+    extend "\n可恶~完全是被他看笑话了啊。"
     me "啊哈哈哈……。"
-    "说起来，我好像从来没有意识到过慎太郎是恋爱对象。"
-    extend "\n被友嘲笑后，突然间就对慎太郎产生了兴趣。"
-    "我恍惚地望着他，"
+    "说起来，我好像从来没有把慎太郎当作恋爱对象对待过。"
+    extend "\n被友这么一说，我反而突然开始在意起慎太郎了。"
+    "我恍惚地望着他……"
     show sintarou 28 with dissolve
-    "注意到我的视线后，慎太郎回头了，\n我慌慌张张地移开视线，找起了其他话题。"
+    "注意到视线的慎太郎转过头来，\n我慌忙移开目光，随便找了个话题掩饰。"
     me "啊……对了。"
-    extend "\n那个，现在时间比平时充裕很多，\n稍微绕个远路可以吗？"
+    extend "\n那个，现在离平时放学还早，\n稍微绕个远路可以吗？"
     hide sintarou with dissolve
     stop music fadeout 0.5
-    "我这么说着，邀请慎太郎一起去。"
-    extend "\n那里是……"
+    "我向慎太郎发出了邀请。"
+    extend "\n那个地方是……"
     window hide
     show bg shoe_locker with dissolve
     pause 0.5
@@ -5484,35 +5484,35 @@ label day3_design_2_sintarou:
     play music "fx/tsubame.ogg"
     show bg park with Radial(1.5)
     window show
-    "从神秘少年那得到过糖果的公园。"
+    "从神秘少年那里得到过糖果的公园。"
     window hide
     show sintarou 3 at top with dissolve
     window show
-    sintarou "你想绕道去的地方，是这个公园吗？"
+    sintarou "你想绕道去的地方，就是这个公园吗？"
     me "啊啊。"
     extend "\n慎太郎，你会相信我其实是25岁的大人吗？"
     show sintarou 29 with dissolve
     stop music fadeout 0.5
-    sintarou "对呀~。"
-    extend "\n说实话，虽然我很难想象，但我相信[player_name]但我相信你。"
+    sintarou "会呀~。"
+    extend "\n说实话，虽然很难想象，但因为是[player_name]说出来的，所以我相信你。"
     me "谢谢。"
     window hide
     play music "fx/wind.ogg"
     show cg sepia1 at center with FadeWhite(0.5)
     window show
-    me "在我恢复成现在这个样子之前，\n我在这里得到了一种叫做魔法糖的东西。"
-    me "给我的小孩说，这是能实现愿望的东西。"
-    extend "\n我想变回初中生享受学园祭。"
-    extend "\n正想着这些，就变成了这样了呢"
+    me "在变回这副样子之前，\n我在这里得到了一种所谓的魔法糖果。"
+    me "送我糖果的孩子说，它有实现愿望的效果。"
+    extend "\n我当时想着『想变回初中生享受学园祭』，"
+    extend "\n吃下之后，就变成现在这样了。"
     window hide
     show cg sepia2 with dissolve
     window show
-    "慎太郎默默地听我说话。"
-    me "真的像漫画或动画一样。"
-    extend "\n我不知道这个世界是梦还是现实。"
-    extend "\n一开始以为是做梦，所以不当一回事，\n但是现实感太强烈，所以不敢这么想。"
-    me "只能接受眼前的现实。"
-    "慎太郎第一次开口说话。"
+    "慎太郎没有插话，只是默默地听着。"
+    me "真的就像漫画或者动画里的情节一样。"
+    extend "\n这个世界究竟是梦境还是现实，我也分不清楚。"
+    extend "\n一开始觉得反正只是做梦，所以没当一回事，\n但是一切都太有真实感了，让我没法彻底把它当成虚假的东西。"
+    me "事到如今，只能试着去接受眼前发生的这一切了啊。"
+    "慎太郎第一次开口说话了。"
     window hide
     stop music fadeout 0.5
     hide cg with FadeWhite(0.9)
@@ -5523,45 +5523,45 @@ label day3_design_2_sintarou:
     show bg park at center with Radial(0.8)
     show sintarou 19 at top with dissolve
     window show
-    sintarou "[player_name]的立场看来，确实是这样……"
-    me "嗯……"
-    extend "\n这个我只对慎太郎你一个人说过。"
+    sintarou "从[player_name]的立场看来，确实也只能这么做了吧……。"
+    me "嗯……。"
+    extend "\n这件事，我也只对慎太郎你一个人说过。"
     extend "\n我觉得这是正确的判断。"
     me "因为有慎太郎在身边支持我，安慰我，"
-    extend "\n我才能不害怕地在这个世界上活下去。"
+    extend "\n我才能在这个世界里无所畏惧地活下去。"
     show sintarou 32 with dissolve
-    sintarou "你，你刚刚竟然用很平常的语气说这些吗...能这么不害臊地说出来，是因为年龄吗？"
+    sintarou "喂、喂，你刚才竟然用这么平常的语气说出这么惊人的台词……。"
     show sintarou 27 with dissolve
-    extend "\n能很自然地说出这种话，是那个？果然是因为年龄的关系吗？"
+    extend "\n能若无其事地说出这种话，难道？果然是因为年龄的关系吗？"
     "慎太郎的脸颊微微泛红。"
-    extend "\n看到他这样，我察觉到了自己说了什么，"
-    extend "\n回想起了友的调侃，我的脸也一下子变热了。"
-    me "真真真真是失礼了！"
-    extend "\n25岁还很年轻哦！！"
+    extend "\n看着他的样子，我才意识到自己刚才说了多么让人害羞的话，"
+    extend "\n加上友之前的调侃，我的脸也一下子变得滚烫。"
+    me "真、真没礼貌！"
+    extend "\n25岁明明还很年轻！！"
     show sintarou 9 with dissolve
     sintarou "是吗~？"
-    extend "\n在我们看来，25岁四舍五入后30岁了，\n已经算是大叔了呢~。"
+    extend "\n在我们看来，25岁四舍五入后都30岁了，\n已经算是大叔了呢~。"
     play sound "fx/shock.ogg"
-    "大受打击！！！"
-    me "怎，怎么会……。\n对现在的年轻人来说，25岁就是大叔了吗……。"
-    extend "\n已经不是被称作大哥哥的年龄了吗……。"
-    "是这样啊……"
-    extend "\n重新想想，我们之间差了10岁……"
-    extend "\n我在激动个什么啊……（害羞）。"
+    "（受打击！！！）"
+    me "怎、怎么会……。\n在现在的孩子眼里，25岁就是大叔了吗……。"
+    extend "\n已经是连大哥哥都算不上的年纪了吗……。"
+    "也是啊……。"
+    extend "\n仔细想想，我们之间差了整整10岁……。"
+    extend "\n我在兴奋个什么劲啊……（哀叹）。"
     show sintarou 29 with dissolve
-    sintarou "好！不要这么消沉啊。"
-    extend "\n我的接受范围可是很大的哦"
+    sintarou "好啦！别这么消沉啊。"
+    extend "\n我的接受范围可是很大的哦？"
     me "诶……？"
     show sintarou 13 with dissolve
-    sintarou "你不懂吗？脑袋这么死板，果然是大叔！"
-    extend "\n好了，差不多该走了吧！"
-    me "别，别说大叔大叔！！"
+    sintarou "听不懂吗……。这脑筋死板的样子，果然是大叔呢！"
+    extend "\n好啦好啦，差不多该走了吧！"
+    me "别、别叫我大叔！！"
     extend "\n……啊，走吧。"
     play sound "fx/running.ogg"
     hide sintarou with dissolve
-    "离开公园，我们走向慎太郎的家。"
+    "离开公园，我们朝着慎太郎的家走去。"
     show bg sky with dissolve
-    "刚才的那个……能这么理解吗……？"
+    "刚、刚才那句话……我可以理解为『那个意思』吗……？"
     window hide
     show bg evening with Dissolve(0.7)
     pause 0.5
@@ -5572,40 +5572,40 @@ label day3_design_2_sintarou:
     window show
     sintarou "嘿，到了哦！"
     extend "\n欢迎光临『花乃汤』~。"
-    "慎太郎的家有着大大的烟囱，是有着旧式优良传统的澡堂。"
+    "慎太郎的家是一间充满古早韵味的澡堂，那根巨大的烟囱正是它的标志。"
     extend "\n也许是因为时间还早，除了我好像没有其他客人。"
-    me "诶~。很有怀旧的气氛呢。"
+    me "诶~。很有那种怀旧的气息，氛围真不错啊。"
     show sintarou 4 with dissolve
     sintarou "对吧~。"
-    extend "\n这个时间段基本不会有客人，所以可以放松一下哦！"
+    extend "\n这个时间段基本不会有客人，你可以尽情放松一下！"
     show sintarou 2 with dissolve
     extend "\n啊，机会难得，要不泡个澡？"
     show sintarou 13 with dissolve
     extend "\n这次特别破例，不用钱哦。"
     play sound "fx/eureka.ogg"
-    "从，从慎太郎那收到了邀请……洗澡……！？"
+    "慎、慎太郎居然邀请我一起洗澡……！？"
     extend "\n能看到他不穿衣服的样子吗？"
     play sound "fx/explosion2.ogg"
-    extend "\n呜哦哦哦哦哦哦！！！我要进去！进去！！"
-    me "真，真的吗？！"
-    extend "\n那一定要进去哦！"
+    extend "\n唔哦哦哦哦哦哦！！！我要洗！我当然要洗啊啊啊啊！！"
+    me "真、真的吗？！"
+    extend "\n那、那我一定要洗了！"
     show sintarou 31 with dissolve
-    sintarou "那么，左侧的更衣室是男性的更衣室。\n去那边换衣服吧。"
+    sintarou "那么，左边的走廊进去就是男更衣室，\n去那边换衣服吧。"
     "……。"
     me "诶……？"
-    extend "\n那个……慎太郎先生呢……？"
+    extend "\n那个……慎太郎桑呢……？"
     show sintarou 14 with dissolve
     sintarou "嗯？"
     show sintarou 8 with dissolve
     stop music fadeout 2.0
-    extend "\n我还要打扫浴室，所以先留在这里打扫哦~。"
+    extend "\n我还要打扫浴室，所以先留在这里哦~。"
     hide sintarou with dissolve
     play sound "fx/ding.ogg"
     "好的。"
     extend "\n人生果然不会一帆风顺呢。"
     "……但是！！"
-    extend "\n至少，在梦中可以让我享受一下吧！"
-    extend "\n现实也太现实了啊啊啊！！！"
+    extend "\n好歹是在梦里，稍微给我来点福利不行吗啊啊啊！！"
+    extend "\n这也太现实了啊啊啊！！！"
     stop sound fadeout 1.0
     hide bg with dissolve
     "怀着懊悔的心情，我沮丧地走向了更衣室。"
@@ -5616,70 +5616,70 @@ label day3_design_2_sintarou:
     play music "fx/bathhouse.ogg"
     show bg hananoyu with Radial(1.5)
     window show
-    "砰"
-    "我沐浴过后，泡进了浴缸里。"
-    "唰"
-    me "哈啊啊啊……好舒服……"
-    extend "\n简直就是天堂啊啊啊……"
+    "（哐当）"
+    "沐浴过后，我泡进了浴缸里。"
+    "（哗啦）"
+    me "哈啊啊啊……好舒服……。"
+    extend "\n简直就是天堂啊啊啊！"
     "虽然慎太郎不在场很可惜，但泡澡还是十分舒服的……。"
-    extend "\n热水也很好啊……不热不冷，身体能够完全放松下来。"
+    extend "\n水温正合适，不热不冷，身体完全放松下来了。"
     extend "\n疲劳也消失得无影无踪。"
-    "话说回来，这热水闻起来很香啊。"
-    extend "\n总觉得和慎太郎的味道很相似呢。"
-    "那孩子工作结束后也会来泡澡吗？"
+    "话说回来，这水里散发着一股非常好闻的香气呢。"
+    extend "\n总觉得和慎太郎身上的气味很像。"
+    "那孩子平时工作结束后，也会来泡澡吗？"
     extend "\n肌肤一定也光滑细嫩吧……。"
     show cg adult at center with dissolve
     play sound "fx/sparkle.ogg"
-    extend "\n真好啊……只要一次就好，让我摸一摸！！"
-    "……正想着，他却突然出现了。"
+    extend "\n真好啊……只要一次就好，好想亲手摸摸看啊啊啊！！"
+    "……正胡思乱想着，身体竟然不争气地起反应了。"
     show bg hananoyu3 with dissolve
-    extend "\n哈哈，什么嘛，原来我还是个色鬼啊！"
-    extend "\n原来我在澡堂里也会春心荡漾啊，啊哈哈哈"
+    extend "\n哈哈，什么嘛，看来我还年轻得很嘛！"
+    extend "\n在澡堂里发情什么的，啊哈哈哈……"
     window hide
     hide cg with FadeWhite(0.5)
     play sound "fx/sliding_door.ogg"
     window show
-    "哐当哐当"
-    sintarou "[player_name]～水温怎么样？"
+    "（哐当哐当）"
+    sintarou "[player_name]~水温怎么样？"
     play sound "fx/boing.ogg"
-    me "哇啊！慎，慎太郎！？"
-    extend "\n不是在打扫外面吗…。"
+    me "哇啊！慎、慎太郎！？"
+    extend "\n你不是在外面打扫吗……。"
     window hide
     show bg c29 1 with dissolve
     window show
-    sintarou "对哦~。"
-    extend "\n现在是在打扫浴室哦~。"
-    "慎太郎换上了工作服，\n用手上的瓷砖刷开始刷瓷砖。"
-    sintarou "不好意思打扰你洗澡了~。"
-    extend "\n现在不弄的话，待会儿客人会变多的……。"
-    extend "\n喂，喂，[player_name]你在听吗？"
-    me "哦，哦。辛苦了！！"
-    extend "\n我完全不介意！"
-    sintarou "为什么你背对着我啊~？"
-    me "因，因为那边有墙！"
-    sintarou "你干嘛要装傻啊……。"
-    extend "\n明明没什么好害羞的啊~。"
+    sintarou "是啊~。"
+    extend "\n然后，现在该打扫浴场啦~。"
+    "换上工作服的慎太郎，\n手里拿着长柄刷，在瓷砖上刷洗起来。"
+    sintarou "不好意思打扰你泡澡了~。"
+    extend "\n现在不赶紧弄完的话，待会儿客人可就多起来了……。"
+    extend "\n喂、喂，[player_name]，你在听吗？"
+    me "哦、哦。辛苦了！！"
+    extend "\n我完全不介意的！"
+    sintarou "那你为什么一直背对着咱呢~？"
+    me "因、因因因为那边有墙！"
+    sintarou "你在说什么胡话呢……。"
+    extend "\n明明没什么好害羞的嘛~。"
     window hide
     show bg hananoyu2 with dissolve
     window show
-    "白痴！！"
-    extend "\n在做下流的妄想时，本人突然出现，谁都会想逃避啊！"
-    "更何况是在穿着衣服的慎太郎和我之间，\n我可是感受到了近似屈辱的羞耻啊！！"
-    me "慎太郎是穿着衣服，所以没问题吧……"
+    "白痴啊你！！"
+    extend "\n在做下流的妄想时，本人突然出现，谁都会想逃避的吧！"
+    "更何况是在这个只有穿着衣服的慎太郎和一丝不挂的我的空间里，\n比起害羞，更像是近乎屈辱的羞耻感啊！！"
+    me "慎太郎你穿着衣服当然觉得没所谓了……。"
     stop music fadeout 2.0
     sintarou "哈啊……真拿你没办法啊~"
     "我听到衣服摩擦的声音。"
-    sintarou "嘿。这样就好了吗？"
+    sintarou "嘿。这样总行了吧？"
     window hide
     play music "hurry_up.ogg"
     play sound "fx/cute2.ogg"
     show bg c29 2 with zoominout
     window show
-    me "什！ ！？ 那，那个是！！！"
-    "我一回头，就看到脱掉工作服的慎太郎站在那里。"
-    "呜哦哦哦这次太刺激了啊啊啊啊！！！"
-    "的确，羞耻感减轻了，但是……！"
-    extend "\n被他这样盯着，能收起来的东西也收不起来了……别的理由也出不来了！"
+    me "什、什么！！！？那、那是！！！"
+    "我猛地回过头，只见慎太郎已经脱下了工作服的上衣。"
+    "呜哦哦哦这次反倒是刺激过头了啊啊啊啊！！！"
+    "羞耻感的确是减轻了，但是……！"
+    extend "\n看到这种画面，该消停的东西更消停不下来了……这下是真的因为『别的理由』，没法从水里出来了！"
     window hide
     hide bg with dissolve
     hide cg with dissolve
@@ -5688,22 +5688,22 @@ label day3_design_2_sintarou:
     window hide
     show bg hananoyu at center with dissolve
     window show
-    "泡进浴池后不到几十分钟，"
-    extend "\n我盯着打扫浴场的慎太郎，\n身体就像被钉在浴池里一样。"
+    "自打泡进浴池已经过了好几十分钟。"
+    extend "\n我死死盯着正打扫浴场的慎太郎，\n身体就像被钉在浴池里一样。"
     show bg c29 2 with dissolve
-    sintarou "那个浴室虽说暖暖的，但[player_name]泡了挺久呢。"
+    sintarou "这浴池的水温虽然不算高，但[player_name]泡得还真久呢。"
     extend "\n果然是因为岁数吗？"
     "不要把我当大叔啊啊啊啊！！你以为是谁的错啊！"
-    extend "\n我想吐槽，但是没有力气吐槽。"
-    "不行……泡晕了吗…。"
+    extend "\n虽然很想这么大声吐槽，但身体已经使不上劲了。"
+    "不行……泡晕了吗……。"
     window hide
     show bg hananoyu with DefocusWhite(0.5)
     play sound "fx/dive.ogg"
     stop music fadeout 0.5
     window show
-    "咕噜咕噜咕噜"
-    sintarou "好，结束了。抱歉打扰你了。"
-    extend "\n我回前台了……[player_name]！？"
+    "（咕噜咕噜咕噜）"
+    sintarou "好，搞定。打扰你泡澡啦。"
+    extend "\n我先回前台了……咦，[player_name]！？"
     window hide
     show bg hananoyu2 with FadeWhite(0.5)
     window show
@@ -5718,13 +5718,13 @@ label day3_design_2_sintarou:
     show bg sintarou_room at center with DefocusBlack(5.0)
     play music "good_atmosphere.ogg"
     window show
-    "当我醒来时，发现自己看着陌生的天花板。"
+    "当我醒来时，发现眼前是陌生的天花板。"
     window hide
     show sintarou 20s at top with dissolve
     window show
     sintarou "你醒了吗？"
     "旁边传来了慎太郎的声音。"
-    me "嗯……"
+    me "唔、嗯……。"
     extend "\n诶……这里是？"
     show sintarou 23s with dissolve
     sintarou "这里是我的房间。"
@@ -5734,45 +5734,45 @@ label day3_design_2_sintarou:
     show sintarou 29s with dissolve
     sintarou "……真是的。"
     show sintarou 32s with dissolve
-    extend "\n晕倒这种麻烦事还是只有你们这些老头子才会摊上吧。"
-    me "抱歉给你添麻烦了……。"
+    extend "\n晕倒这种麻烦事，还是只有你们这些老头子才会摊上吧。"
+    me "给你添麻烦了，抱歉……。"
     show sintarou 29s with dissolve
-    sintarou "哎呀！没事没事，别在意。"
+    sintarou "哎呀！没事没事，别放在心上。"
     show sintarou 35s with dissolve
-    extend "\n……毕竟我也是有原因的。\n是我没发现，抱歉。"
-    "慎太郎尴尬地扭头看向一旁。"
-    me "诶？\n啊，不是……只是我擅自感到很羞耻而已！"
-    extend "\n都多大岁数了，还是不能有点担当啊~！！"
-    extend "\n真是的，为什么我会在意那种事呢。"
-    "啊啊真是的！只是因为慎太郎的小动作就让我感到很心动。"
+    extend "\n……毕竟我也有责任。\n是我没发现，抱歉。"
+    "慎太郎有些尴尬地移开视线。"
+    me "诶？\n啊，不是……只是我擅自害羞过头了而已！"
+    extend "\n都多大岁数了，还这么不稳重，真是太丢人了~！！"
+    extend "\n真是的，我到底为什么会那么在意啊。"
+    "啊啊真是的！慎太郎的一举一动看起来都那么撩人，搞得我完全没法不在意啊。"
     show sintarou 32s with dissolve
-    sintarou "那，那个，那是在漫画和动画中，那种\n迷上了对方的人才会有这种现象吧？"
+    sintarou "那、那个，该不会是漫画和动画里的那种，\n迷上了对方的人才有的现象吧？"
     me "！！"
-    "我……难道是迷上了慎太郎吗……？"
+    "我……难道真的迷上慎太郎了吗……？"
     show cg orange at center with Radial(0.7)
-    "在这个梦的世界里，遇到了各种各样的少年。"
+    "在这个梦境世界里，我遇到了各种各样的少年。"
     extend "\n大家都很可爱。"
-    extend "\n每个人都有各自的魅力，老实说，我也想象过。"
-    "但是，现在，坐在眼前的这个人是……"
+    extend "\n每个人都有各自的魅力，老实说，我也产生过一些下流的幻想。"
+    "但是，现在坐在眼前的这个孩子……"
     extend "慎太郎他……。"
     window hide
     hide cg with dissolve
     hide sintarou with dissolve
     show sintarou 23s at top with dissolve
     window show
-    sintarou "那，那个~……我只是开个玩笑，\n不用那么认真的想这个问题……。"
-    me "那，那倒也是！！"
+    sintarou "那、那个~……我只是开个玩笑，\n你不用想得那么认真……。"
+    me "那、那倒也是！！"
     "慎太郎的一句话让我回过神来。"
     me "对了，店里的事情没问题吧？"
-    extend "\n自从我晕倒后，你不是一直在我身边照顾我吗？"
+    extend "\n自从我晕倒后，你一直都在这儿守着我吧？"
     show sintarou 31s with dissolve
     sintarou "嗯，没问题的。"
-    extend "\n我已经跟父亲母亲说过了，之后就换他们来店里帮忙了。"
+    extend "\n我已经跟父母说过了，让他们先帮忙盯着店里。"
     me "这样啊……\n也给你的父母添麻烦了……真的非常抱歉。"
     extend "\n不过，已经没事了，意识也恢复了很多。\n谢谢你啊。"
     show sintarou 33s with dissolve
     sintarou "……好啦，你就在这里再多休息一会儿吧。"
-    me "诶，但是……"
+    me "诶，可是……"
     show sintarou 34s with dissolve
     sintarou "没事的。"
     extend "\n……你这样做的话，我也会很高兴的。"
@@ -5785,7 +5785,7 @@ label day3_design_2_sintarou:
     stop music fadeout 0.5
     window show
     play sound "fx/triangle.ogg"
-    "过了很久，我才发现其实我什么都没穿，只是裹着毛毯。"
+    "而我直到很久以后才意识到，当时的自己其实什么都没穿，只不过裹着一条浴巾而已。"
     stop sound fadeout 1.0
     window hide
     return
