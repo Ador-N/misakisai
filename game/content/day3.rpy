@@ -1859,7 +1859,7 @@ label day3_layout:
     extend "\n我现在去老师那里，\n把用作咖啡店的教室给定下来。"
     show tubasa 5 at topright with dissolve
     tubasa "好的。"
-    extend "\n那我就根据之前去过那家咖啡厅，构思一下内部构造。"
+    extend "\n那我就留在这里，根据之前参考的那家咖啡店，构思一下具体的内部构造。"
     show sinobu 26 with dissolve
     sinobu "嗯。"
     "那个，我……"
@@ -6074,31 +6074,31 @@ label day3_layout_sirou:
     show bg classroom at center with dissolve
     play music "quiet_lunch.ogg"
     window show
-    me "那么，我要做些什么才好呢？"
+    me "那么，我要做些什么好呢？"
     show sinobu 1 at topleft with dissolve
-    sinobu "……你什么都不用做哦。已经结束了。"
+    sinobu "……你什么都不用做。已经结束了。"
     show tubasa 5 at topright with dissolve
-    tubasa "昨天，我们就已经把能做的全部都做了。"
-    extend "\n所以，今天你可以先回家了。"
-    me "诶！怎，怎么这样！！"
+    tubasa "昨天，我们就已经把能做的工作全部完成了。"
+    extend "\n所以，今天你可以直接回家了。"
+    me "诶！怎、怎么这样！！"
     extend "\n那么，今天开心的校园生活，就要到此结束了？！"
     show tubasa 17 with dissolve
-    tubasa "那个……也是啊。"
+    tubasa "呃，那个……确实是这样呢。"
     window hide
     hide sinobu with dissolve
     hide tubasa with dissolve
     play sound "fx/shock.ogg"
     window show
-    "轰！！"
+    "（受打击！！）"
     me "诶诶诶诶诶！！怎么可以这样……。"
     extend "\n这样我可是不满足的啊啊啊啊啊……。"
     show tubasa 20 at topright with dissolve
-    tubasa "[player_name]君，怎么了？"
+    tubasa "[player_name]君，他到底是怎么了？"
     show sinobu 4 at topleft with dissolve
     sinobu "谁知道呢……？"
     extend "\n那么，我们就先回去了。"
     show tubasa 21 with dissolve
-    tubasa "那个……再，再见。"
+    tubasa "那个……再、再见。"
     window hide
     play sound "fx/running.ogg"
     hide sinobu with dissolve
@@ -6459,15 +6459,15 @@ label day3_cooking_all:
 
 label day3_layout_sinobu:
     window show
-    me "忍，我也要去！"
+    me "忍，我也一起去！"
     window hide
     show sinobu 21 at topleft with dissolve
     window show
     sinobu "嗯，我知道了。"
     extend "\n那就跟我来吧。"
     show tubasa 4 at topright with dissolve
-    tubasa "我，我走了。"
-    extend "\n好好加油哦。"
+    tubasa "那、那你们慢走。"
+    extend "\n要加油哦。"
     window hide
     hide sinobu with dissolve
     hide tubasa with dissolve
@@ -6475,24 +6475,24 @@ label day3_layout_sinobu:
     show bg hallway with dissolve
     window show
     "我们把翼留在教室后，便向教职员室走去。"
-    me "连借教室都还没决定好，\n就让翼考虑内部构造吗？"
+    me "可是，借用的教室都还没决定好，\n翼君现在就考虑内部构造没问题吗？"
     window hide
     show sinobu 23 at top with dissolve
     window show
-    sinobu "我已经告诉一之濑同学可以去哪间教室了，所以没问题。"
-    me "诶，可是，接下来还要去借教室的……"
+    sinobu "没关系，我已经告诉过一之濑同学我们要用哪间教室了。"
+    me "诶，可是，我们这不是正要去老师那里借教室吗……。"
     show sinobu 12 with dissolve
     sinobu "嗯。"
-    extend "\n我一定会借到教室的，放心。"
-    me "哦，哦哦…。"
+    extend "\n我一定会借到的，放心。"
+    me "哦、哦哦……。"
     "好强大的自信啊。"
-    extend "\n即便如此，我也觉得安心了，不愧是忍啊。"
+    extend "\n不过也正因为这样，反而让人挺安心的。不愧是忍。"
     hide sinobu with dissolve
     sinobu "失礼了。"
     play sound "fx/sliding_door.ogg"
     stop music fadeout 0.5
     hide bg with dissolve
-    "他打开教师办公室的门，向负责的海老师走去。"
+    "他推开教师办公室的门，走向负责此事的海老师。"
     window hide
     play music "sinobu_theme.ogg"
     show cg c35 1 at center with Radial(0.5)
@@ -6501,50 +6501,50 @@ label day3_layout_sinobu:
     extend "\n我是二年一班的绫濑。"
     extend "\n为了准备御咲祭，我前来向您询问教室的借用事宜。"
     umi "啊，你好。"
-    extend "\n那个，二年一班的话……你们是打算和二年二班合开咖啡店吧。"
-    extend "\n既然是要用火，又要在合办的地方，那宽敞的教室是必要的吧。"
-    extend "\n有想要的地方吗？"
+    extend "\n我想想，二年一班……你们是打算和二年二班合开咖啡店吧。"
+    extend "\n既然涉及用火，又是两班合办，那宽敞的教室是必要的吧。"
+    extend "\n有心仪的地方吗？"
     sinobu "有的。"
     extend "\n我想借用一楼的多功能教室2号厅。"
     umi "啊，那里原本是打算作为休息室的哦。"
     extend "\n其他的教室不行吗？"
-    sinobu "那么大的教室当休息室？"
-    umi "是啊。"
-    extend "\n宽敞的空间会让人更放松的。"
+    sinobu "那么大的教室当休息室吗？"
+    umi "嗯。"
+    extend "\n因为空间更宽敞，大家休息起来也会更放松吧。"
     sinobu "……您说的没错，但是……"
     show cg hallway with FadeWhite(0.5)
     extend "\n那个教室位于食堂的旁边，人流量很大，"
-    extend "\n如果当天人流量进一步增加的话，\n哪怕只是做为休息场所，人太多大概也没法让人好好休息吧。"
+    extend "\n可以预见当天那里会非常拥挤，\n即便名义上是休息室，恐怕也很难让人真正放松下来。"
     show cg school_building_full with FadeWhite(0.5)
-    sinobu "另外，从正门到食堂的路上很长，而且道路错综复杂，"
-    extend "\n需要休息的老年人，或者是身体有障碍的人，\n还有那些第一次来学园，人生地不熟的人们，\n对于他们，食堂旁边的这个2号厅作为休息室来说并不便利。"
+    sinobu "另外，从正门到食堂的路程较长且路线复杂，"
+    extend "\n对于那些急需休息的老年人、身体不便的游客，\n或者是初次造访、对校园环境完全陌生的客人们来说，\n在食堂旁边的2号厅，在便利性上其实并不理想。"
     show cg school_building_morning with FadeWhite(0.5)
-    sinobu "因此，如果要作为休息场所使用的话，\n我推荐使用位于正门和食堂中间的多功能教室1号厅。"
-    extend "\n那里虽然不大，但是位置显眼，\n厕所和自动贩卖机都很近，作为休息场所来说是最合适的。"
-    "忍像往常一样，平淡地陈述着自己的意见。"
-    "另一方面，海老师本以为忍会选择其他教室，\n对于休息场所一事，面对忍意料之外的提案，显得有些不知所措。"
-    umi "确，确实如此……你说的确实可行。"
-    extend "\n滑子老师，关于这个意见，您怎么看？"
+    sinobu "因此，如果作为休息室使用的话，\n我建议选择位于正门与食堂中间位置的多功能教室1号厅。"
+    extend "\n那里虽然面积稍小，但位置醒目，\n离厕所和自动贩卖机都很近，作为休息室来说是最合适的。"
+    "忍像往常一样，冷静地陈述着自己的意见。"
+    "另一方面，海老师本以为忍会选择其他教室，\n却没想到在休息区的问题上，突然冒出了一个出乎意料的替代方案，一时间有些不知所措。"
+    umi "确、确实如此……你说的确实可行。"
+    extend "\n滑子老师，关于这个提议，您怎么看？"
     "话音刚落，旁边的滑子老师便转过身来。"
-    extend "\n噢噢，好怀念啊！明明都已经过去10年了，这个人看起来还是一点都没老啊。"
-    nameko "嗯~我刚刚推举多功能教室2号厅主要是因为那里面积大，\n不过听你这么一说，我倒觉得用多功能教室1号厅更好。"
-    extend "\n1号厅一直没人用过，把那里弄成休息室，\n让2年级1，2班的人去那里休息不是很好吗。"
+    extend "\n噢噢，好怀念啊！明明都已经过去十年了，这个人看起来还是一点都没老啊。"
+    nameko "嗯~我之前推举多功能教室2号厅主要是因为那里面积大，\n不过听你这么一说，我倒觉得用1号厅更合适。"
+    extend "\n反正1号厅目前还没有安排，就把它定为休息区吧。\n至于2号厅，就让二年一班和二班使用，你看怎么样？"
     umi "有道理。"
-    extend "\n不过，离食堂那么近，应该不会有什么生意吧？"
+    extend "\n不过，离食堂那么近，会不会不太好做生意？"
     window hide
     show cg c35 2 with dissolve
     window show
-    sinobu "不，食堂和咖啡厅的风格不一样。"
+    sinobu "不，食堂和咖啡厅的定位不一样。"
     extend "\n前者是为了填饱肚子，后者是为了享受品茶。"
-    extend "\n我想，大部分来食堂吃饭的人，都会选择去咖啡厅稍作休息，\n顺便喝杯茶吧。"
-    sinobu "我们二年级1，2班的咖啡厅绝对生意兴隆。"
+    extend "\n不难想象，客人们在食堂用完午餐后，很可能会想找个地方坐下来，\n悠闲地喝杯茶休息一下。"
+    sinobu "我们二年一二班的咖啡厅绝不会冷清。"
     extend "\n一定会成功的。"
-    "虽然忍的语气很冷静，但最后那句话却充满了力量。"
-    umi "……我明白了。既然你这么热情，"
-    extend "\n二年级1，2班就用多功能教室2号厅吧。"
+    "虽然忍的语气依旧冷静，但最后那句话却充满了力量。"
+    umi "……我明白了。这份热情打动我了。"
+    extend "\n二年一班和二班，准许使用多功能教室2号厅。"
     sinobu "非常感谢。"
-    extend "\n那么，我就先告辞了。"
-    "说着，我们离开了办公室。"
+    extend "\n那么，我们先告辞了。"
+    "说完，我们便离开了办公室。"
     window hide
     stop music fadeout 0.5
     play sound "fx/sliding_door.ogg"
@@ -6552,21 +6552,21 @@ label day3_layout_sinobu:
     show bg hallway with dissolve
     play music "quiet_lunch.ogg"
     window show
-    "走在回教室的路上，我跟忍说："
-    me "忍～好厉害！真的太棒了。"
-    extend "\n要是刚才那样的话，今后商谈也肯定很顺利的。"
+    "走在回教室的路上，我向忍搭话。"
+    me "忍~好厉害！真的太棒了。"
+    extend "\n要是现在就能做到这种程度，以后职场上的商谈你也绝对能应付自如啊。"
     window hide
     show sinobu 10 at top with dissolve
     window show
-    sinobu "商谈什么的，还太早了啦。"
-    me "不过，真是被吓到了呢……"
-    extend "\n竟然颠覆了老师的论点，让他心悦诚服。"
+    sinobu "商谈什么的，还太早了吧。"
+    me "不过，真是让我大吃一惊啊……。"
+    extend "\n竟然颠覆了老师的提案，还让他心悦诚服。"
     show sinobu 14 with dissolve
-    sinobu "论点中有很多漏洞和破绽呢。"
-    me "海老师也说过，你的热情打动了他不是吗？"
-    extend "\n这时候最重要的，是比论点还要坚定不移的信念。"
-    extend "\n即使论点毫无矛盾，也必须让他心服口服。"
-    extend "\n关键的结论也很成功，真是太棒了。"
+    sinobu "因为他的论点中有很多漏洞和破绽呢。"
+    me "海老师也说过，他是被你的热情打动的。"
+    extend "\n这种时候，比起逻辑，坚定的信念才是最重要的。"
+    extend "\n哪怕逻辑再完美，如果不能真正说服对方，也无济于事。"
+    extend "\n最重要的目标也顺利达成，真是太棒了。"
     return
 
 label day3_layout_tubasa_2_noinroute:
