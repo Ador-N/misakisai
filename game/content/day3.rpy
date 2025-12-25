@@ -2377,20 +2377,20 @@ label day3_design_sintarou:
 label day3_layout_tubasa:
     show bg classroom at center
     window show
-    me "那么，我就去给翼同学帮忙了。"
+    me "那个，我就留下来给翼君帮忙吧。"
     window hide
     show sinobu 2 at topleft with dissolve
     window show
     sinobu "好的。"
-    extend "\n把内部结构画在那张模造纸上。"
+    extend "\n那就把构思好的店内结构画在那张图纸上。"
     extend "\n我先走了。"
-    me "哦。"
+    me "哦，好。"
     show tubasa 5 at topright with dissolve
-    tubasa "一路顺风。"
+    tubasa "路上小心。"
     extend "\n好好加油哦。"
     play sound "fx/sliding_door.ogg"
     hide sinobu with dissolve
-    "忍走出教室后，翼把桌子拼起来，\n然后把图纸放在桌子上，画着教室的平面图。"
+    "忍走出教室后，翼把桌子拼起来，\n铺上图纸，开始在上面绘制教室的平面草图。"
     hide tubasa with dissolve
     stop music fadeout 0.5
     window hide
@@ -2398,23 +2398,23 @@ label day3_layout_tubasa:
     me "这是哪间教室？"
     show tubasa 2 at top with dissolve
     play music "cute_silly.ogg"
-    tubasa "在一楼的多功能教室2号厅。"
-    me "嗯？我们要用的教室是忍来负责借的吧。"
-    extend "\n那我们还不一定能够借到那间教室，\n这个时候就考虑构造，也没太大的意义啊……。"
+    tubasa "是一楼的多功能教室2号厅。"
+    me "嗯？我们要用的教室，忍现在才刚去和老师申请吧。"
+    extend "\n我们还不一定能够借到那间教室，\n现在就开始考虑内部的结构，也没太大的意义啊……。"
     show tubasa 10 with dissolve
-    tubasa "忍说过，为了能让大家一起开展工作，他一定会借到第二间多功能室\n所以……。"
-    me "真，真有自信啊……。"
+    tubasa "忍君说过，为了能让大家一起开展工作，他一定能借到多功能室2号厅，\n所以……。"
+    me "真、真有自信啊……。"
     show tubasa 4 with dissolve
     tubasa "是的。"
-    extend "\n不过，他这么说，总有种莫名的说服力。"
-    me "确实……他就是有这种魅力。"
-    extend "\n要真到了紧要关头，估计能成为超级赛亚人吧。"
+    extend "\n不过，这话从他口中说出来，总觉得有一种莫名的说服力呢。"
+    me "确实……他身上自带一股气场啊。"
+    extend "\n感觉真到了紧要关头，能变身超级赛亚人也说不定。"
     show tubasa 8 with dissolve
     $ renpy.transition(Quake(0, 40, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
-    tubasa "这，这种事情，要是忍知道的话会生气的吧。"
+    tubasa "这、这种话忍君听到了会生气的吧。"
     show tubasa 5 with dissolve
-    extend "\n那就来考虑咖啡店的内部构造吧。"
+    extend "\n好啦，我们来构思咖啡店的内部构造吧。"
     return
 
 label day3_cooking_tuki:
@@ -3563,24 +3563,24 @@ label day3_layout_2_tubasa:
     show bg shoe_locker_evening at center with dissolve
     window show
     me "好，今天也辛苦了！"
-    "我换好鞋，正要走出教学楼的时候，"
+    "我换好鞋，正要走出教学楼的时候——"
     play music "tubasa_theme.ogg"
     show tubasa 23 at top with dissolve
     tubasa "啊。[player_name]君……。"
-    me "咦？翼！"
+    me "咦？翼君！"
     extend "\n你还没回去吗？"
     show tubasa 35 with dissolve
-    tubasa "在，我在！"
+    tubasa "在、在等呢！"
     extend "\n那个……如果你不介意的话，要不要和我一起回家？"
-    "心跳"
-    me "好，好啊！！没问题！走吧！"
+    "（扑通）"
+    me "好、好啊！！没问题！走吧！"
     window hide
     hide tubasa with dissolve
     stop music fadeout 0.5
     show bg sidewalk_evening with Dissolve(2.0)
     play music "good_scene.ogg"
     window show
-    "我和翼一起走在这条上学路上。"
+    "我和翼并排走在熟悉的通学路上。"
     me "……。"
     show tubasa 30 at top with dissolve
     tubasa "……。"
@@ -3590,114 +3590,114 @@ label day3_layout_2_tubasa:
     extend "\n但是，"
     extend "要和翼聊其他话题，又很难和他搞好关系。"
     extend "\n我到底该怎么做才好……？"
-    extend "\n本该是幸福的放学回家路上，我却纠结得喘不过气来。"
+    extend "\n本该是幸福的放学路上，我却纠结得喘不过气来。"
     show tubasa 32 at top with dissolve
     tubasa "[player_name]君……。"
-    me "什，什么？"
+    me "怎么了？"
     "好了，他要说什么呢……？"
     show tubasa 15 with dissolve
-    tubasa "果然，像这样子和我在一起……\n你……不喜欢吗？"
+    tubasa "果然，像这样跟我待在一起……\n你……不喜欢吧？"
     me "诶。"
     show tubasa 1 with dissolve
     tubasa "毕竟我们总是在聊我的烦恼不是吗。"
     extend "\n一直这样，果然让你不开心了。"
     me "……。"
     show tubasa 3 with dissolve
-    tubasa "那，那个，从今往后那些事我自己一个人消化就可以！"
-    extend "\n从今往后[player_name]君，我不会再给你添麻烦了。"
+    tubasa "那、那个，我已经想通了，从今往后这些事我自己一个人消化也可以！"
+    extend "\n我不想再给[player_name]君添麻烦了。"
     extend "\n虽然你老是装作不介意的样子，但其实我心里都明白的。"
     show tubasa 4 with dissolve
-    extend "\n……那，那就，我先走了！"
+    extend "\n……那、那就这样，我先走了！"
     play sound "fx/running.ogg"
     hide tubasa with dissolve
     "翼这么说着，就准备跑走。"
     me "等……！"
-    "我追上翼，抓住了他。"
+    "我追上翼，抓住了他的手。"
     "（抓）"
     $ renpy.transition(Quake(0, 100, 0.2, 0.065), layer='master')
     play sound "fx/fall_down.ogg"
     tubasa "哇！"
-    "如同之前的早晨一样，翼失去了平衡，\n连带着牵着他的我的手一起摔在了地上。"
+    "如同之前那个早晨一样，翼失去了平衡，\n连带着抓着他不放的我一起摔在了地上。"
     window hide
     show cg c45 1 at center with FadeWhite(0.5)
     window show
-    "面前是翼的脸。"
+    "翼的脸近在咫尺。"
     extend "\n比以往都要近得多的距离。"
-    me "……翼你的话，遇到这种情况，会怎么做？"
+    me "……翼的话，遇到这种情况，会怎么做？"
     tubasa "诶……？"
-    me "遇到喜欢的人变成这种状态的情况，你会怎么做？"
+    me "如果和喜欢的人变成了现在这种状态，你会怎么做？"
     tubasa "……。"
-    "虽然并不是适合提问的姿势，但翼还是在认真思考。"
+    "尽管现在这种姿势实在不适合提问，但翼还是认真思考起来。"
     show cg c45 2 with dissolve
     tubasa "我……的话，会什么都不做……。"
-    extend "\n在弄清对方的心意之前，会顺势保持原状……。"
-    me "……对啊。"
+    extend "\n在弄清对方的心意之前，我不想因为一时冲动而做出什么决定……。"
+    me "……说得对。"
     show bg evening at center
-    "我从翼身上退下，抱起了他。"
+    "我从翼身上挪开，伸手把他拉了起来。"
     window hide
     hide tubasa with FadeWhite(1.0)
     hide cg with FadeWhite(1.0)
     window show
     me "嗯！没错！这样就行了！"
     extend "\n这才是男人嘛！！"
-    "感觉心中有阳光照耀了一般。"
-    extend "\n没错，在搞清楚对方的感情之前，绝对不可以做进一步的事。"
+    "感觉心里一下子亮堂了。"
+    extend "\n没错，在还没确认对方的心意之前，绝对不可以跨过那条线。"
     stop music fadeout 2.0
-    extend "\n而且，当发现对方对自己没有感情时，就必须果断放弃。"
-    extend "\n这样就可以了。"
+    extend "\n而且，发现对方对自己没有感情时，就必须果断放弃。"
+    extend "\n这么想就行了。"
     window hide
     play music "good_atmosphere.ogg"
     show bg sidewalk_evening with Dissolve(1.0)
     show tubasa 23 at top with Dissolve(0.8)
     window show
     tubasa "[player_name]君……？"
-    me "其实啊，我刚才也有烦恼呢。"
-    extend "\n所以，那可能就表现在了脸上，让翼产生了误会。"
-    extend "\n但是，多亏了翼，这个误会已经烟消云散了。\n谢谢。"
+    me "其实啊，我刚才确实是在烦恼一些事情。"
+    extend "\n大概是这种情绪写在了脸上，让翼产生了误解吧。"
+    extend "\n不过，多亏了翼，那些烦恼已经烟消云散了。\n谢谢你。"
     show tubasa 2 with dissolve
-    tubasa "多亏了我……？？"
+    tubasa "多亏了我……？"
     show tubasa 12 with dissolve
     extend "\n是这样啊……那真是太好了。"
     extend "\n我还以为自己被你讨厌了呢……。"
     me "没有这回事！！"
-    extend "\n谁会和讨厌的人一起工作，一起回家吧！"
-    extend "\n并且正相反，我最喜欢你了！"
+    extend "\n谁会愿意跟自己讨厌的人一起干活、一起回家啊？"
+    extend "\n而且正相反，我最喜欢你了！"
     show tubasa 23 with dissolve
-    tubasa "……是指作为同伴……？"
+    tubasa "……是指作为同伴的……？"
     me "不，是作为朋友！"
     extend "\n我们是朋友！！对吧！"
     show tubasa 36 with dissolve
     tubasa "……嗯！"
     extend "\n是朋友，呢！"
     "没错，这并不是需要每天烦恼的难题。"
-    extend "\n不要过度在意细节，应该享受当下。"
-    me "说起来，我们中午讨论过喜剧综艺来着，你喜欢看吗？"
+    extend "\n不用过度在意细节，而应该享受当下。"
+    me "说起来，我们中午讨论过喜剧综艺来着，你喜欢看那种综艺吗？"
     show tubasa 13 with dissolve
     tubasa "诶，啊……嗯。"
     show tubasa 34 with dissolve
     extend "\n因为我自己也不太擅长表达，"
-    extend "\n所以，我很羡慕那种能滔滔不绝地说出有趣的话的人，\n或者迅速作出适当的吐槽的人。"
+    extend "\n所以，我一直很羡慕那种能自然地说出有趣的话，或者一瞬间就接得上、吐槽得刚刚好的人。\n能让周围的人都开怀大笑，真的很厉害啊。"
     me "这样啊。"
-    extend "\n就像“小鬼使”里的杉本先生一样"
-    me "「比起那种善于社交、很受家人亲戚欢迎的开朗孩子那种浅浅的笑容，我觉得那种内心世界丰富、沉稳的孩子发自内心的笑容更加有趣。」"
-    me "我以前听说过这句话。"
+    extend "\n其实《小鬼使》里的杉本先生曾经说过，"
+    me "『比起那种善于社交、很受家人亲戚欢迎的开朗孩子那种浮于表面的笑，我觉得那种内心世界丰富、沉稳的孩子发自内心的笑容更加有趣。』"
+    me "我以前在节目里听过这么一段话，觉得很有道理。"
     show tubasa 2 with dissolve
-    tubasa "是，是这样啊……"
+    tubasa "是、是这样啊……"
     show tubasa 4 with dissolve
-    extend "\n一想到那个人说过这话，我都有点自信了。"
-    me "啊，对了，说到「小鬼使」，\n以前他可做过更过分的事情哦~。"
+    extend "\n如果是那位先生亲口说的，我感觉自己稍微找回了一点自信呢。"
+    me "啊，对了，说到『小鬼使』，\n以前他们做的惩罚游戏可比现在过分多了~。"
     show tubasa 13 with dissolve
     tubasa "是吗！"
-    extend "\n比如说，什么样子的事情？"
-    me "有一次，今崎在惩罚游戏里玩过跳伞……"
+    extend "\n比如说，做过什么样子的事？"
+    me "有一次，今崎在惩罚游戏里被迫去玩高空跳伞……"
     show cg blue at center with FadeWhite(0.7)
-    "和翼在一起的时候，话题就一个接一个地冒出来。"
-    extend "\n对，和翼在一起的时间就是这么愉快。"
+    "一旦坦诚面对自己的内心，想说的话题就一个接一个地冒出来了。"
+    extend "\n没错，和翼在一起的时间，本来就应该是这么开心的。"
     stop music fadeout 2.0
     window hide
     show cg misaki_station_evening with Dissolve(0.9)
     window show
-    "我一边想着，一边和翼享受着在一起的时光，\n在车站和翼分开后，我一个人步行回家。"
+    "我一边想着，一边和翼享受着在一起的时光。\n在车站和翼分开后，我一个人步行回家。"
     window hide
     hide bg with Dissolve(1.0)
     hide cg with Dissolve(1.0)
@@ -3711,54 +3711,54 @@ label day3_layout_2_tubasa:
     show sakuya 15 at top with Dissolve(0.9)
     window show
     sakuya "哟。"
-    "我朝声音的方向看去，是作哉。"
-    me "作哉！！你怎么在这里！"
+    "我循着声音看去，是作哉。"
+    me "作哉君！！你怎么在这里！"
     play sound "fx/boing.ogg"
-    extend "\n难，难道说，你是和我一起"
+    extend "\n难、难道说，你是想和我一起……"
     show sakuya 6 with dissolve
-    sakuya "怎么可能啊。\n我可不想和你一起走啊。"
-    extend "\n更何况，我也是坐电车上学的啊。"
-    me "啊，啊哈哈哈……也对啊……"
-    extend "\n所以呢，你来这里干嘛？车站不是再往前一点吗？"
+    sakuya "怎么可能啊。\n谁要和你这种家伙一起回家。"
+    extend "\n再说，我可是坐电车上学的。"
+    me "啊、啊哈哈哈……也对啊……。"
+    extend "\n所以呢，你来这里干嘛？车站应该是在相反方向吧？"
     show sakuya 8 with dissolve
-    sakuya "烦，烦死了！"
-    extend "\n不要在意这种细节啦！！"
+    sakuya "烦、烦死了！"
+    extend "\n不要在意这种细节！！"
     stop music fadeout 0.5
     show sakuya 15 with dissolve
-    sakuya "话说回来……你最近好像和一之濑关系挺好的啊。"
-    me "诶？算是吧……"
+    sakuya "比起那个……你最近好像和一之濑关系挺好啊。"
+    me "诶？算是吧……。"
     show sakuya 14 with dissolve
-    sakuya "今天工作期间，你们牵着手，脸还红了。"
-    extend "\n难道说，你喜欢上一之濑了？"
+    sakuya "今天工作的时候，你们牵着手，还脸红了。"
+    extend "\n难道说，你，喜欢上一之濑了？"
     me "……。"
     play music "serious.ogg"
     show sakuya 3 with dissolve
     sakuya "要是这样的话，那可真恶心啊~。我真是要退避三舍了。"
     extend "\n同性之间怎么会有恋爱这回事呢。"
-    me "恋爱这种事……和性别什么的无关的。"
+    me "恋爱这种事……和性别什么的无关吧。"
     show sakuya 18 with dissolve
     sakuya "哈啊？\n怎么可能无关啊。"
     extend "\n一般来说，男人都是喜欢女人的。\n你是个异类，懂吗？"
     me "一般来说是什么意思啊。"
-    extend "\n用这种话随便束缚住自己，然后放弃自己坦率的愿望的话，\n那可是什么也开心不起来的，也无法变得幸福的。"
-    extend "\n你也是一样，因为你喜欢一之濑君，这种心情你也明白吧？"
+    extend "\n用这种话随便束缚住自己，然后放弃自己坦率的心愿的话，\n那你这一辈子都开心不起来，更别提什么幸福了。"
+    extend "\n你也是一样的吧？毕竟你也喜欢一之濑君，这种心情你应该很清楚。"
     show sakuya 17 with dissolve
     play sound "fx/dash.ogg"
     sakuya "哈！？怎么可能啊！！！"
-    extend "\n不要把我和你混为一谈！"
-    me "那种事我明白的。"
-    extend "\n虽然我不清楚是不是所有这个年纪的孩子都以为自己没有被发现，\n但意外地只要站在旁边看就能看出来。"
-    extend "\n你也是，也不例外。"
+    extend "\n不要把我和你这种家伙混为一谈！"
+    me "这点小事我还是看得出来的。"
+    extend "\n虽然这个年纪的孩子可能都觉得自己藏得很好，\n但说实话，在旁观者眼里简直是一清二楚。"
+    extend "\n你，当然也不例外。"
     show sakuya 16 with dissolve
-    sakuya "别，别开玩笑了！！\n不要自以为是的教训我。"
+    sakuya "别、别开玩笑了！！\n少在那用一副了不起的口吻教训我。"
     extend "\n你是白痴吗！？"
-    me "不要被周遭的氛围影响而否定真实的自己。"
-    extend "\n青春时期恋情是自由自在的。"
+    me "不要被周围的条条框框影响，从而否定了真实的自己。"
+    extend "\n年轻时候的恋爱，本就该是自由自在、毫无阻碍的。"
     extend "\n没有必要自己特意去制造障碍。"
-    extend "\n毕竟长大成人后，不管愿不愿意，也不得不对社会有所顾虑。"
-    me "为了不让自己长大后后悔，不要锋芒毕露哦。"
-    extend "\n不过，这也是年轻人的特权……但不要过早下定论。"
-    extend "\n要相互坦率地加油。那么，明天见。"
+    extend "\n毕竟长大成人后，不管愿不愿意，也不得不开始顾虑社会的眼光。"
+    me "为了不让自己长大后后悔，现在就别整天一副带刺的样子。"
+    extend "\n不过，这也是年轻人的特权……但太早下定论可不好。"
+    extend "\n我们都坦率点，一起加油吧。那么，明天见。"
     show sakuya 4 with dissolve
     sakuya "啊，喂……！"
     hide bg with dissolve
@@ -3766,13 +3766,13 @@ label day3_layout_2_tubasa:
     hide sakuya with dissolve
     stop music fadeout 2.0
     play sound "fx/running.ogg"
-    "我丢下作哉，跑开了。"
+    "我没等回应，直接丢下作哉跑开了。"
     window hide
     pause 0.4
     show bg residential_area_evening at center with Dissolve(1.0)
     show sakuya 30 at top with dissolve
     window show
-    sakuya "可恶……他到底是什么人啊，一副领悟了的样子……。\n真是的，每个人都有点让人恼火！！"
+    sakuya "可恶……他到底是什么人啊，一副看透人生的样子……。\n真是的，一个个的都这么让人恼火！！"
     show sakuya 31 with dissolve
     sakuya "话说，"
     show sakuya 32 with dissolve
@@ -5749,15 +5749,15 @@ label day3_layout_sinobu_2:
 label day3_layout_tubasa_2:
     show cg class12_cafe_imagination at center with Radial(0.5)
     window show
-    me "嗯。\n嗯，我记得店长说过，设置柜台的话就在这里。"
-    extend "\n还有，我希望店内的座席和桌子都朝着窗户，\n所以教室必须纵向分隔。"
-    tubasa "对的。\n那么，就在这里安装窗帘吧……。"
-    extend "\n另外，店是禁烟的对吧？"
-    me "嗯。\n我记得，学校本身是禁烟的，吸烟区是另外设置的。"
-    tubasa "那么，为了让学生们更好理解，\n入口处和墙壁上贴上标识比较好。"
-    extend "\n『美馨儿咖啡』就是这样做的。"
+    me "嗯。\n我想想，记得店长说过，柜台的话就设在这边比较好。"
+    extend "\n然后，榻榻米和桌席都应该靠着窗边布置，\n所以教室必须纵向分隔。"
+    tubasa "是呢。\n那就在这里装一层可以当隔断的窗帘……。"
+    extend "\n对了，店里应该是禁烟的吧？"
+    me "嗯。\n我记得，学校本身就是禁烟的，吸烟区是另外设置的。"
+    tubasa "既然这样，为了让大家一目了然，\n最好在入口处和墙壁上都贴上标识。"
+    extend "\n『Mädchen Café』也是这样做的。"
     me "哦~你观察得很仔细呢！"
-    "我们一边听着在『美馨儿咖啡』的体验和建议，\n一边想象着完成后的样子，顺利地进行着作业。"
+    "我们以在『Mädchen Café』学到的经验和建议为基础，\n在脑海中勾勒着完成后的景象，作业进行得非常顺利。"
     window hide
     hide tubasa with Radial(0.5)
     hide cg with Radial(0.5)
@@ -5765,42 +5765,42 @@ label day3_layout_tubasa_2:
     me "好！差不多是这种感觉。"
     extend "\n不愧是我和翼，配合得越来越好了！"
     show tubasa 4 at top with dissolve
-    tubasa "哎嘿嘿……是的。"
-    me "翼也比最开始要积极主动多了。\n真让人佩服！"
+    tubasa "哎嘿嘿……确实是呢。"
+    me "翼君也比最开始要积极主动多了。\n真让人佩服！"
     show tubasa 37 with dissolve
-    tubasa "哎，是吗……。"
+    tubasa "诶，是吗……。"
     extend "\n这一定是[player_name]君在不断督促我的结果。"
     me "没有没有，我也没有做什么了不起的事啊。"
-    extend "\n是翼自己意识有所改变的。"
+    extend "\n是翼君自己意识到并有所改变的。"
     show tubasa 23 with dissolve
-    tubasa "不是的。\n让我想法有所改变的人是你啊，[player_name] 君。"
-    extend "\n我，[player_name]我真的很高兴你能陪在我身边…。"
-    me "是，是吗？"
-    extend "\n哎呀~翼能这么说，我都有点不好意思了。"
+    tubasa "不是的。\n让我想要做出改变的契机，是[player_name]君给我的啊。"
+    extend "\n我觉得，有[player_name]君陪在身边，真是太好了……。"
+    me "是、是吗？"
+    extend "\n哎呀~你这么说，我都有点不好意思了。"
     show tubasa 35 with dissolve
-    tubasa "是，是啊。"
-    extend "\n我自己说出来都感觉有点不好意思了…。"
-    me "什，什么嘛~！"
+    tubasa "是、是啊。"
+    extend "\n我自己亲口说出来，也感觉有点不好意思了……。"
+    me "什、什么嘛~！"
     hide tubasa with dissolve
     "看到满脸通红的翼，我再次动摇了。"
     "不行不行……不能背叛翼。"
-    extend "\n冷静冷静……"
+    extend "\n冷静冷静……。"
     stop music fadeout 0.5
-    "砰"
+    "（啪嗒）"
     "啊，橡皮擦掉了。"
     "我弯下腰伸出手，"
-    extend "与此同时，另一只手也伸了出来，\n正好和橡皮擦重合在了一起。"
+    extend "与此同时，另一只手也伸了出来，\n两人的手在橡皮擦上重叠在一起。"
     window hide
     hide tubasa with dissolve
     play music "tubasa_theme.ogg"
     show cg c43 at center with FadeWhite(0.5)
     window show
-    "翼＆我" "啊…。"
+    "翼＆我" "啊……。"
     play sound "fx/heartbeat.ogg"
-    "扑通扑通扑通！！！"
-    "心跳声更加激烈了。"
-    extend "\n我，我是少女漫画的男主角啊！"
-    "正当我僵直在原地时，翼先捡起了橡皮，递给了我。"
+    "（扑通扑通扑通！！！）"
+    "心跳声更加剧烈了。"
+    extend "\n我、我是哪部少女漫画的主角吗！！！！"
+    "正当我僵在原地时，翼先一步捡起了橡皮，递给了我。"
     window hide
     hide cg with dissolve
     hide tubasa with dissolve
@@ -5809,34 +5809,34 @@ label day3_layout_tubasa_2:
     tubasa "来，给你。"
     extend "\n……？"
     show tubasa 2 with dissolve
-    extend "\n[player_name]君，你怎么了？"
+    extend "\n[player_name]君，你怎么了吗？"
     play sound "fx/boing.ogg"
-    me "啊，没，没什么。"
-    "我才是真有问题……。"
-    "这里是我现在所在的教室。"
-    extend "\n在教室里，明明是如此微不足道的小事，却让我如此激动。"
+    me "啊，没、没什么。"
+    "我真是没救了……。"
+    "这里可是大家都在的教室啊。"
+    extend "\n在这种地方，竟然会因为如此微不足道的小事激动成这样。"
     window hide
     play sound "fx/vibrate.ogg"
     window show
-    "嘟嘟"
+    "（嘟嘟）"
     "翼的手机响了起来。"
     show tubasa 13 with dissolve
-    tubasa "啊，是忍酱。"
+    tubasa "啊，是忍君。"
     hide tubasa with dissolve
     tubasa "嗯，你好。"
     extend "\n……真的吗，那太好了！"
-    extend "\n嗯，嗯，我知道了。"
-    extend "\n那我马上过去。"
-    "哔"
+    extend "\n嗯、嗯，我知道了。"
+    extend "\n那我们马上过去。"
+    "（哔）"
     show tubasa 31 at top with dissolve
-    tubasa "忍君他顺利地借到了多功能教室2号厅！"
-    extend "\n为了能确认一下，我们就在那里会合吧。"
+    tubasa "忍君说他顺利借到了多功能教室2号厅！"
+    extend "\n为了实地确认内部构造，我们现在去跟他汇合吧。"
     me "哦，好！太好了。"
     extend "\n那我们就赶紧过去吧。"
     show cg school_building_morning at center with Dissolve(1.0)
-    "没错。我现在是执行委员。"
+    "没错。现在可是执行委员的工作时间。"
     extend "\n工作时间就该专心工作！不要被其他事分散注意力。"
-    extend "\n必须作为一个成年人，理清自己的立场，做个了断！"
+    extend "\n作为一个成年人，必须划清界限、公私分明才行。"
     window hide
     hide tubasa with dissolve
     hide cg with dissolve
@@ -5859,46 +5859,46 @@ label day3_layout_sinobu_2_noday2:
 label day3_layout_tubasa_2_noday2:
     show cg class12_cafe_imagination at center with Radial(0.5)
     window show
-    tubasa "根据前几天去的「美馨儿咖啡」的店长的说明，\n如果想要设置柜台座位，这里是最适合的。"
-    extend "\n而且，无论是座位还是桌子都希望面向窗户，\n所以教室必须被纵向切割。"
-    me "诶~特意去真正的咖啡厅调查过了啊。"
-    tubasa "嗯，学到了很多。"
-    extend "\n……因为是初体验，非常羞耻……。"
+    tubasa "根据昨天去的『Mädchen Café』的店长的建议，\n如果想设置柜台座位，这里是最适合的。"
+    extend "\n然后，榻榻米和桌席都应该靠着窗边布置，\n所以教室必须纵向分隔。"
+    me "诶~原来你还特意去真正的咖啡厅做过调查啊。"
+    tubasa "是的，学到了很多。"
+    extend "\n……不过因为是初体验，感觉非常羞耻就是了……。"
     play sound "fx/cute.ogg"
-    "什，什么，羞耻的初体验是什么啊！！？"
+    "什、什么，羞耻的初体验是什么啊！！？"
     show cg remarkable with FadeWhite(0.5)
     play sound "fx/explosion2.ogg"
-    "翼老师！请详细地告诉我！！！！"
+    "翼老师！请务必详细地告诉我！！！！"
     window hide
     hide tubasa with Radial(0.5)
     hide cg with Radial(0.5)
     show tubasa 12 at top with dissolve
     window show
-    tubasa "然后在这里挂上窗帘……。"
-    extend "\n另外，店是禁烟的对吧？"
+    tubasa "然后在这里挂上隔断用的窗帘……。"
+    extend "\n对了，店里是禁烟的吧？"
     play sound "fx/boing.ogg"
-    me "诶！？啊，嗯。\n我记得，校舍本身是禁烟的，所以吸烟的地方另设。"
+    me "诶！？啊，嗯。\n我记得，学校本身就是禁烟的，吸烟区是另外设置的。"
     show tubasa 5 with dissolve
-    tubasa "那么，为了让学生们更好理解，\n入口处和墙壁上贴上标识比较好。"
-    extend "\n『美馨儿咖啡』就是这样做的。"
+    tubasa "既然这样，为了让大家一目了然，\n最好在入口处和墙壁上都贴上标识。"
+    extend "\n『Mädchen Café』也是这样做的。"
     hide tubasa with dissolve
-    "我们根据翼去过的「美馨儿咖啡」提供的体验和建议，\n想象着完成品的样子，顺利地进行着制作。"
+    "我们根据翼在『Mädchen Café』学到的经验和建议为基础，\n在脑海中勾勒着完成后的景象，作业进行得非常顺利。"
     window hide
     play sound "fx/vibrate.ogg"
     window show
-    "嘟嘟"
+    "（嘟嘟）"
     "翼的手机响了起来。"
     show tubasa 13 at top with dissolve
-    tubasa "啊，是忍酱。"
+    tubasa "啊，是忍君。"
     hide tubasa with dissolve
     tubasa "嗯，你好。"
     extend "\n……真的吗，那太好了！"
-    extend "\n嗯，嗯，我知道了。"
-    extend "\n那我马上过去。"
-    "哔"
+    extend "\n嗯、嗯，我知道了。"
+    extend "\n那我们马上过去。"
+    "（哔）"
     show tubasa 31 at top with dissolve
-    tubasa "忍君他顺利地借到了多功能教室2号厅！"
-    extend "\n为了能确认一下，我们就在那里会合吧。"
+    tubasa "忍君说他顺利借到了多功能教室2号厅！"
+    extend "\n为了实地确认内部构造，我们现在去跟他汇合吧。"
     me "哦，好！太好了。"
     extend "\n那我们就赶紧过去吧。"
     stop music fadeout 1.0
@@ -6572,31 +6572,31 @@ label day3_layout_sinobu:
 label day3_layout_tubasa_2_noinroute:
     show cg class12_cafe_imagination at center with Radial(0.5)
     window show
-    me "嗯。\n嗯，我记得店长说过，设置柜台的话就在这里。"
-    extend "\n还有，我希望店内的座席和桌子都朝着窗户，\n所以教室必须纵向分隔。"
-    tubasa "对的。\n那么，就在这里安装窗帘吧……。"
-    extend "\n另外，店是禁烟的对吧？"
-    me "嗯。\n我记得，学校本身是禁烟的，吸烟区是另外设置的。"
-    tubasa "那么，为了让学生们更好理解，\n入口处和墙壁上贴上标识比较好。"
-    extend "\n『美馨儿咖啡』就是这样做的。"
+    me "嗯。\n我想想，记得店长说过，柜台的话就设在这边比较好。"
+    extend "\n然后，榻榻米和桌席都应该靠着窗边布置，\n所以教室必须纵向分隔。"
+    tubasa "是呢。\n那就在这里装一层可以当隔断的窗帘……。"
+    extend "\n对了，店里应该是禁烟的吧？"
+    me "嗯。\n我记得，学校本身就是禁烟的，吸烟区是另外设置的。"
+    tubasa "既然这样，为了让大家一目了然，\n最好在入口处和墙壁上都贴上标识。"
+    extend "\n『Mädchen Café』也是这样做的。"
     me "哦~你观察得很仔细呢！"
-    "我们一边听着在『美馨儿咖啡』的体验和建议，\n一边想象着完成后的样子，顺利地进行着作业。"
+    "我们以在『Mädchen Café』学到的经验和建议为基础，\n在脑海中勾勒着完成后的景象，作业进行得非常顺利。"
     window hide
     play sound "fx/vibrate.ogg"
     window show
-    "嘟嘟"
+    "（嘟嘟）"
     "翼的手机响了起来。"
     show tubasa 13 at top with dissolve
-    tubasa "啊，是忍酱。"
+    tubasa "啊，是忍君。"
     hide tubasa with dissolve
     tubasa "嗯，你好。"
     extend "\n……真的吗，那太好了！"
-    extend "\n嗯，嗯，我知道了。"
-    extend "\n那我马上过去。"
-    "哔"
+    extend "\n嗯、嗯，我知道了。"
+    extend "\n那我们马上过去。"
+    "（哔）"
     show tubasa 31 at top with dissolve
-    tubasa "忍君他顺利地借到了多功能教室2号厅！"
-    extend "\n为了能确认一下，我们就在那里会合吧。"
+    tubasa "忍君说他顺利借到了多功能教室2号厅！"
+    extend "\n为了实地确认内部构造，我们现在去跟他汇合吧。"
     me "哦，好！太好了。"
     extend "\n那我们就赶紧过去吧。"
     stop music fadeout 1.0
