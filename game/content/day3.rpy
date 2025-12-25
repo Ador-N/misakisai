@@ -3187,44 +3187,44 @@ label day3_layout_2:
     play music "afternoon_class.ogg"
     show tubasa 13 at topright with dissolve
     window show
-    tubasa "太，太厉害了……"
-    extend "\n真的跟你保证的一样，把这么大的教室给借到了。"
-    "翼在多功能教室2号厅中说道。"
+    tubasa "太、太厉害了……。"
+    extend "\n真的跟你保证的一样，借到了这么宽敞的教室。"
+    "在多功能教室2号厅里，翼感叹道。"
     show sinobu 26 at topleft with dissolve
     sinobu "嗯，总算搞定了。"
-    extend "\n翼，你的构造图画的怎么样了？"
+    extend "\n翼，你的构造图画得怎么样了？"
     show tubasa 5 with dissolve
-    tubasa "嗯，大概完成了。"
-    extend "\n大，大概是这种感觉，怎么样？"
+    tubasa "是的，已经大致完成了。"
+    extend "\n大、大概是这种感觉，怎么样？"
     show sinobu 12 with dissolve
     sinobu "……嗯，不错。"
-    extend "\n当天那里就是厨房，所以要把里面的门关上，\n为了防止客人误闯进去。"
+    extend "\n活动当天，那里要作为厨房使用，所以要把后面的门锁上，\n防止客人误闯进来。"
     show tubasa 31 with dissolve
-    tubasa "是啊。"
-    extend "\n还有，那里比想象的空旷，\n该怎么办好呢？"
-    me "那么，放些花朵如何？"
-    extend "\n不管是日式的，欧式的，还是中式的，都合适。"
+    tubasa "是呢。"
+    extend "\n另外，我觉得那块地方比预想中要空旷一些，\n该放些什么好呢？"
+    me "那么，摆些鲜花如何？"
+    extend "\n不管是日式，西式，还是中式风格，鲜花都能很好地融入进去。"
     show sinobu 26 with dissolve
-    sinobu "是啊，老少男女都适合，我觉得不错。"
-    "感觉，渐渐能看见咖啡店的雏形了。"
-    extend "\n果然，大家一起做出来的东西，才更有意义啊。"
-    extend "\n虽然对他们来说，如果能成为美好的回忆，那就好了……。"
+    sinobu "说得对。鲜花老少皆宜，我觉得这个主意不错。"
+    "咖啡店的雏形，正一点一点地在脑海中清晰起来。"
+    extend "\n果然，大家齐心协力去完成一件事情，才更有意义啊。"
+    extend "\n如果这对这些孩子们来说，也能成为一段美好的回忆就好了……。"
     hide tubasa with dissolve
     hide sinobu with dissolve
     stop music fadeout 0.5
     play sound "fx/sliding_door.ogg"
-    "哐哐！"
+    "（哐当！）"
     window hide
     show cg remarkable at center with FadeWhite(0.5)
     play music "delinquent_appears.ogg"
     window show
-    student_a "怎么了~？中学部的人来了！"
+    student_a "搞什么啊~？这儿怎么有初中部的小鬼啊！"
     student_b "不会吧，真倒霉。"
-    student_c "得让他们离开，腾出教室来才行。"
-    "往声音的方向看去，发现有三个体格比我们大了一圈的男生从入口处进来了。"
-    tubasa "诶……为什么高等部的人会在这里……？"
-    sinobu "前辈，你们有什么事吗？"
-    student_a "你们这些家伙，要用这间教室举办学园祭吗？"
+    student_c "得让他们离开，把地方腾出来才行。"
+    "顺着声音看去，发现三个体格比我们大一圈的男生从门口走了进来。"
+    tubasa "诶……为什么高中部的前辈会来这里……？"
+    sinobu "前辈，请问有什么事吗？"
+    student_a "你们几个，学园祭是要用这间教室吗？"
     student_b "如果是这样的话，那真是不好意思了，请让出来吧。"
     extend "\n我们想在这里举行乐队的演奏会呢。"
     student_c "既然是前辈的请求，你们肯定会答应的吧？"
@@ -3237,63 +3237,63 @@ label day3_layout_2:
     show tubasa 7 at topright with dissolve
     $ renpy.transition(Quake(0, 60, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
-    tubasa "忍，忍君！"
+    tubasa "忍、忍君！"
     extend "\n别回答得那么快嘛……！！"
     show sinobu 5 with dissolve
     sinobu "这间教室是为了大家才争取到的。"
-    extend "\n我们已经按照正规的流程申请了，所以不能让出来。"
+    extend "\n我们已经按照正规的流程申请了，所以不会让出来。"
     hide tubasa with dissolve
     hide sinobu with dissolve
-    student_a "啊啊？你什么意思啊！！"
-    extend "\n我们是要你们让给我们啊……这是前辈的命令。"
+    student_a "啊啊？你说什么？"
+    extend "\n让开听不懂吗……？这是前辈的命令。"
     student_c "身为后辈，就该老老实实听话。"
-    extend "\n赶紧离开这里！"
-    student_b "不那么做的话……你会尝到苦头的哦，小不点！！"
+    extend "\n赶紧让开！"
+    student_b "不然……可要吃苦头的哦，小不点！！"
     $ renpy.transition(Quake(0, 100, 0.1, 0.065), layer='master')
     play sound "fx/dash.ogg"
-    "说完，一名男学生抓住了忍的前襟。"
+    "说完，其中一名男生抓住了忍的前襟。"
     window hide
     show sinobu 3 at top with dissolve
     window show
-    sinobu "…"
+    sinobu "……。"
     play sound "fx/wind_slash.ogg"
-    "忍抓住他的手甩开，拉开距离，迅速摆出架势。"
+    "忍扣住对方的手将其甩开，随即迅速拉开距离，摆出迎击的架势。"
     student_b "什么！？你！"
     student_a "喂，给我等一下。"
     extend "\n这家伙……我记得是空手道部初中部的主将。"
     extend "\n很强，听说还常跟着高中部主将一起训练。"
-    student_c "那就正好啊？"
+    student_c "那不是正好吗？"
     extend "\n这家伙要是让我们受伤了，就会马上被要求退部吧。"
     student_b "原来如此~。"
-    extend "\n就是这么回事。\n别瞎抵抗，乖乖让开。"
-    extend "\n孩子就得听大人的呀？"
+    extend "\n说得也是。\n别瞎抵抗了，乖乖让开吧。"
+    extend "\n小孩子就该听大人的话，懂吗？"
     show sinobu 30 with dissolve
-    sinobu "可……。"
+    sinobu "可恶……。"
     window hide
     hide sinobu with dissolve
     window show
     me "喂，你们几个，给我适可而止。"
-    extend "\n你们这种毛头小子也能叫大人了，真是可笑得让我笑得肚子疼。"
-    student_a "……啊？你刚才说什么？"
-    me "我说啊，像你们这样靠年龄来装大人，真是不像样。"
-    extend "\n靠年龄来压别人，不觉得丢脸吗？"
-    extend "\n连这种事都不知道的话，就别想当大人了哟。"
-    student_b "小鬼……！"
+    extend "\n你们这种毛头小子也能叫大人了，真是让我笑得肚子疼。"
+    student_a "……啊？你这臭小鬼，刚才说什么？"
+    me "我说啊，只会靠年龄逞威风，真的很难看。"
+    extend "\n只有年龄能拿来压别人，不觉得丢脸吗？"
+    extend "\n连这种事都不明白，还谈什么当大人。"
+    student_b "这小鬼……！"
     extend "\n竟然敢这么狂妄地教训我们！！"
-    student_a "像这种不懂世故的学弟，\n必须由前辈好好地教育一番。"
-    student_c "不要误会了……这不是暴力。\n是体罚！！"
+    student_a "像这种不懂世故的后辈，\n必须由前辈好好地教育一番。"
+    student_c "不要误会了……这可不是暴力。\n是体罚！！"
     $ renpy.transition(Quake(0, 100, 0.1, 0.065), layer='master')
     play sound "fx/dash.ogg"
-    "一名男生抓住我的胸襟。"
+    "一名男生抓住了我的衣领。"
     show sinobu 30 at topleft
     show tubasa 17 at topright with dissolve
     tubasa_and_sinobu "[player_name]君！"
     stop music fadeout 0.5
     play sound "fx/wind_slash.ogg"
-    "我迅速从外侧拍击对方抓我衣领的手臂肘关节，\n"
+    "就在两人惊呼的瞬间，我迅速出手，从外侧拍落他抓住我领口的手肘。"
     $ renpy.transition(Quake(0, 100, 0.1, 0.065), layer='master')
     play sound "fx/dash.ogg"
-    "趁他失去平衡时顺势扭转其胳膊，将其直接摁倒在地。"
+    "\n借着他重心倾斜的一刹那，我顺势扭过他的手臂，一个回转将其摁倒在地。"
     window hide
     play music "hurry_up.ogg"
     play sound "fx/entrance.ogg"
@@ -3301,66 +3301,66 @@ label day3_layout_2:
     hide tubasa with dissolve
     hide sinobu with dissolve
     window show
-    me "用合气道的话，就能不伤人的制服对手呢。"
+    me "用合气道的话，就能不伤人地制服对手呢。"
     extend "\n这样就不会受罚了哦，前辈。"
-    student_c "你，你这混蛋！！"
-    "男生试图用另一只手反击。"
+    student_c "你、你这混蛋！！"
+    "那人试图用另一只手反击。"
     play sound "fx/wind_slash.ogg"
-    extend "\n见状我立即扣住他受制的肘关节，锁死了他的肩膀。"
-    student_c "咿呀！！"
+    extend "\n见状，我立即扣住他受制的手肘，锁死了他的肩膀。"
+    student_c "疼疼疼疼疼！！"
     me "别乱动哦。"
-    extend "\n虽然不会留下外伤，但可能会痛哦？"
+    extend "\n虽然不会留下外伤，但乱挣扎可是会拉伤筋骨的哦？"
     "说完，不知道什么时候离开的翼又回来了。"
     window hide
     hide cg with dissolve
     play sound "fx/sliding_door.ogg"
     show tubasa 18 at top with dissolve
     window show
-    tubasa "[player_name]君"
+    tubasa "[player_name]君！"
     extend "\n我把老师叫来了！！"
     hide tubasa with dissolve
     play sound "fx/boing.ogg"
     student_a "什么？！"
     student_b "啧！！那家伙，什么时候……！"
-    "听到这句话，我松开了男生的手臂，\n他站起身来的时候，老师走进了教室。"
+    "听到这句话，我松开了那名男生的手臂。\n他刚一站起身，老师走进了教室。"
     play sound "fx/dash.ogg"
     $ renpy.transition(Quake(0, 100, 0.1, 0.065), layer='master')
-    nameko "你们在干什么！？"
-    extend "\n都已经是高三生了，一点分寸都没有吗！！"
+    nameko "你们在干什么！！"
+    extend "\n都已经是高年级生了，一点分寸都没有吗！！"
     umi "你们是轻音部的吧。"
-    extend "\n小心受到禁止参加御咲祭的顶格处罚！"
-    student_a "怎，怎么能这样！"
-    student_b "我们这段时间一直在拼命练习！！"
-    nameko "少说废话！！"
-    extend "\n在说这些话之前，先好好反省一下自己的过失！！"
+    extend "\n听好了，情节严重的话，你们可得做好被取消御咲祭演出资格的心理准备。"
+    student_a "怎、怎么能这样！"
+    student_b "我们为了演出，这段时间一直在拼命练习！！"
+    nameko "少废话！！"
+    extend "\n在抱怨之前，先给我闭嘴好好反省自己犯下的过错！！"
     me "老师，请等一下。"
     extend "\n那个……我们，只是稍微起了点口角，\n不需要那么严厉地责备他们。"
     nameko "什么？"
-    extend "\n我听这孩子说他动了暴力。"
+    extend "\n可我听这孩子说，对方动手了。"
     window hide
     show tubasa 21 at top with dissolve
     window show
-    tubasa "那，那个……。"
+    tubasa "那、那个……。"
     hide tubasa with dissolve
-    me "不是，那是因为他大声地吼我，所以我才有点\n反应过度了……。"
-    extend "\n你看，我们没有哪里受伤不是吗。"
-    umi "的确……。"
-    extend "\n不过，当事人的你们这样说的话，那就算了。"
-    me "嗯。\n老师这么忙还把您叫来，非常抱歉。"
-    extend "\n前辈他们应该已经确认过我们已经得到了老师的许可了，\n所以没有问题了。"
-    nameko "嗯ーー……我知道了。"
+    me "不是，是他突然大声吼我，我一时慌了神\n才反应过度了……。"
+    extend "\n您看，我们没有哪里受伤不是吗。"
+    umi "这样啊……。"
+    extend "\n既然当事人都这么说了，那这事就到此为止吧。"
+    me "嗯。\n百忙之中还请您过来，真的非常抱歉。"
+    extend "\n想必前辈们已经确认我们确实获得了老师的正式许可，\n既然误会解除了，那就没问题了。"
+    nameko "嗯——……我知道了。"
     extend "\n那我们回去吧。"
-    umi "有道理。"
-    extend "\n可千万不要引起骚动哦。"
-    me "好的。\n非常感谢。"
+    umi "好。"
+    extend "\n可千万不要再引起骚动了哦。"
+    me "好的。\n非常感谢老师。"
     play sound "fx/sliding_door.ogg"
-    "这样说完，老师就回去了。"
+    "这么说完，老师们就回去了。"
     window hide
     stop music fadeout 0.5
     show sinobu 4 at topleft
     show tubasa 14 at topright with dissolve
     window show
-    "教室内还剩下6个人。"
+    "教室内还剩下我们六个人。"
     window hide
     hide tubasa with dissolve
     hide sinobu with dissolve
@@ -3369,31 +3369,31 @@ label day3_layout_2:
     show bg school_building_morning at center with dissolve
     window show
     student_b "喂……为什么要替我们说话？"
-    me "刚才不是说已经练习很多次了吗。"
+    me "刚才你们不是说，为了演出拼命练习吗。"
     extend "\n那么努力却因为这种事而付诸流水的话，也太可惜了吧。"
     student_b "……。"
     me "我们也是啊。"
-    extend "\n为了开咖啡店，大家一起讨论，去真正的咖啡店里考察，\n我们做足了准备，一心想要把学园祭办好。"
-    extend "\n所以，我很能明白那种可惜的心情啊。"
+    extend "\n为了开咖啡店，大家一起讨论，去真正的咖啡店里考察，\n为了让学园祭大获成功，我们做足了准备。"
+    extend "\n所以，我很能明白那种不甘心的心情啊。"
     student_b "……是我们不好。"
-    extend "\n我们太沉迷于练习了，结果忘记确定地点了。"
+    extend "\n我们太沉迷于练习了，结果完全忘了定场地的事。"
     extend "\n然后，一时焦急……什么都不管了。"
-    student_c "的确，做了那种不分轻重，丢脸的事啊。"
-    extend "\n抱歉打扰了你们啊。"
-    extend "\n你们和那边的家伙，都抱歉了。"
-    student_a "我们也一定会用正当的方式找个好地方"
-    extend "\n有时间的话，来听我们演奏吧。\n你的咖啡厅，我也会去光顾的！"
-    extend "\n我们都要努力哦！。"
+    student_c "的确，我们做了非常不分轻重、丢人现眼的事。"
+    extend "\n抱歉打扰你们了。"
+    extend "\n你，还有那边的同学，真的非常对不起。"
+    student_a "我们也会通过正规途径再找个好地方的。"
+    extend "\n有时间的话，记得来听我们演奏啊。\n你们的咖啡厅，我也会来捧场的！"
+    extend "\n我们都要努力哦！"
     window hide
     show bg multipurpose_room2 with dissolve
     show sinobu 26 at topleft
     show tubasa 13 at topright with dissolve
     window show
-    tubasa "好，好的！"
-    sinobu "我们等你！"
+    tubasa "好、好的！"
+    sinobu "我们随时欢迎。"
     play sound "fx/sliding_door.ogg"
     stop music fadeout 2.0
-    "听了他们的话，高中部的学生离开了教室。"
+    "听完这些话，高中部的学生们离开了教室。"
     window hide
     hide bg with dissolve
     hide sinobu with dissolve
@@ -3401,20 +3401,20 @@ label day3_layout_2:
     play music "quiet_lunch.ogg"
     show bg music_room_evening at center with dissolve
     window show
-    me "呼~……总算是平平安安地过去了……。"
+    me "呼~……总算是平安无事地解决了啊……。"
     show sinobu 12 at topleft with dissolve
     sinobu "辛苦了。"
     show tubasa 31 at topright with dissolve
     tubasa "[player_name]君好厉害！"
     play sound "fx/boing.ogg"
-    me "啊哈哈哈！\n我永远是少年的伙伴啊！"
-    extend "\n对我来说，那些孩子们，也是值得被爱的正太！！"
+    me "啊哈哈哈！\n因为我无论何时都是少年们的伙伴啊！"
+    extend "\n对我来说，那些孩子们，也是同样值得被爱的正太！！"
     stop music fadeout 0.5
     play sound "fx/ding.ogg"
     show tubasa 19
     show sinobu 16 with dissolve
     tubasa_and_sinobu "不说这句话的话明明还挺帅的……。"
-    "就这样，我们完成了内部结构图，\n剩下的，就是和班上的同学一起安装了，小组的工作到此结束。"
+    "就这样，我们完成了内部结构图。\n剩下的，就是和班上的同学一起进行现场搭建了，布置组的工作到此圆满结束。"
     stop sound fadeout 0.5
     window hide
     hide tubasa with dissolve
@@ -3426,100 +3426,100 @@ label day3_layout_2_sinobu:
     show bg shoe_locker_evening at center with dissolve
     window show
     me "好，今天也辛苦了！"
-    "我换好鞋，正要走出教学楼的时候，"
+    "我换好鞋，正要走出教学楼的时候——"
     play music "sinobu_theme.ogg"
     show sinobu 8 at top with dissolve
     sinobu "[player_name]……。"
-    me "咦？忍！"
+    me "诶？忍！"
     extend "\n你还没回去吗？"
     show sinobu 31 with dissolve
-    sinobu "嗯。[player_name]，我在等你呢。"
-    extend "\n今天我想和你一起回去。"
+    sinobu "嗯。[player_name]，我在等你。"
+    extend "\n今天，我想和你一起回去。"
     play sound "fx/explosion2.ogg"
-    "忍突然发来邀请啊啊啊啊啊啊啊啊啊啊啊！！！！"
-    "看到这突如其来的惊喜，我拼命地抑制住自己激动到快要跳出来的心脏，看向忍的脸。"
+    "忍酱突然发来邀请啊啊啊啊啊啊啊啊啊啊啊！！！！"
+    "面对这突如其来的惊喜，我拼命按捺住快要蹦出胸膛的心脏，看向忍的脸。"
     "夕阳的余晖洒在他的脸上，他微笑着，脸颊染上了淡淡的红晕……。"
-    extend "\n这场景实在太艺术了！！"
-    me "哇，哇啊啊啊~！！好，好开心啊！"
-    extend "\n竟然能从忍的口中听到邀请啊！"
+    extend "\n这画面简直艺术过头了啊！！"
+    me "哇、哇啊啊啊~！！好、好开心啊！"
+    extend "\n竟然能听到忍主动邀请我！"
     show sinobu 18 with dissolve
-    sinobu "是嘛，那太好了。"
-    "虽然他的话语有些冷淡，"
-    extend "但是表情却出奇地温柔。"
+    sinobu "是吗，那太好了。"
+    "虽然他的语气依旧平静，"
+    extend "但不知是不是表情的关系，听起来却出奇地温柔。"
     window hide
     hide sinobu with dissolve
     show bg sidewalk_evening with Dissolve(2.0)
     window show
     "我和忍一起走在回家的路上。"
-    "站在一起一看，才发觉他的身材原来这么娇小。"
-    extend "\n和往常的忍重合起来看，不知为何总让人感觉十分惹人怜爱。"
+    "并肩而行时，我才发觉他的身材原来如此娇小。"
+    extend "\n与平日里那个冷静可靠的忍重叠在一起看，不知为何，心中涌起一股无比怜爱的感觉。"
     window hide
     show sinobu 3 at top with dissolve
     window show
-    sinobu "[player_name]对了，刚才在多功能教室发生的事……。"
+    sinobu "[player_name]，刚才在多功能教室发生的事……。"
     me "嗯？怎么了？"
     show sinobu 21 with dissolve
     sinobu "谢谢你，保护了我们。"
-    me "不，没什么。"
-    extend "\n只是那种情况下，最适合使用合气道罢了。"
+    me "哎呀，没那么夸张啦。"
+    extend "\n只是那种情况下，合气道刚好能派上用场而已。"
     show sinobu 12 with dissolve
-    sinobu "那个既强大，又温柔的你……我也想跟你一样。"
-    me "跟我一样什么的，太……太夸张了啊！"
-    extend "\n你也很强大，也很温柔啊。"
+    sinobu "那种既强大又温柔的地方……我真的很向往。"
+    me "向往什么的……太夸张了啦！"
+    extend "\n忍你不也一样，既强大又温柔吗。"
     show sinobu 22 with dissolve
-    sinobu "是嘛……。"
-    me "是啊。"
+    sinobu "是吗……。"
+    me "当然是啊。"
     show sinobu 18 with dissolve
     sinobu "这样啊。"
-    extend "\n[player_name]君这样说的话，那应该就是了。"
-    extend "\n谢谢你……保护了我。"
-    "忍向前迈了一步，带着满满的自信微笑着。"
+    extend "\n既然[player_name]君都这么说了，那应该就是这样吧。"
+    extend "\n这份心意，我收下了……谢谢你。"
+    "忍挺起胸膛目视前方，带着满满的自信微笑着。"
     "（心动）"
     "最近，忍经常对我露出笑容。"
-    extend "\n并且，每次看到他重新露出笑容，我的心跳都会加快。"
+    extend "\n并且，每次看到他笑起来，我的心跳都会加速。"
     "这种感觉……"
     extend "\n难道我真的，对这个孩子……！"
     show sinobu 29 with dissolve
-    sinobu "[player_name]，我们一定会在御咲祭玩得开心的吧。"
+    sinobu "[player_name]，御咲祭，我们一定要让它成为最棒的回忆。"
     me "……嗯嗯，一定会的。"
-    "只要跟忍在一起。"
+    "只要是跟忍在一起的话。"
     show sinobu 9 with dissolve
-    sinobu "啊…。"
+    sinobu "啊……。"
     "说着，忍突然停下了脚步。"
     me "嗯？怎么了？"
     window hide
     show 夕空 evening at center with dissolve
     window show
-    sinobu "空……晚霞好美啊。"
-    me "真的…。"
-    extend "\n不过，比起晚霞，我还是更喜欢忍的笑容…。"
+    sinobu "看天空……晚霞真的好美。"
+    me "真的呢……。"
+    extend "\n不过，比起晚霞，我觉得忍的笑容要更……。"
     window hide
     show 夕空 c37 2 with dissolve
     window show
     sinobu "诶？"
     me "没什么！自言自语而已。"
-    sinobu "……要是月亮出来的话，我也能这么说来着。"
+    sinobu "……要是月亮出来的话，我也能回敬你一句呢。"
     me "诶？什么？"
     show 夕空 c37 1 with dissolve
     sinobu "没什么。别在意。"
     me "什么啊~你这样让人很在意啊。"
-    extend "\n啊……快点快点！要说出来，对方才能知道你的心意嘛！"
-    sinobu "……那个[player_name]君不也这样嘛。"
-    extend "\n不深究对方也是温柔。"
+    extend "\n啊……你看！你自己也说过嘛，有什么话要大声说出来，对方才能知道你的心意嘛！"
+    sinobu "……那句话对[player_name]君也一样适用吧。"
+    extend "\n有时候，不深究也是一种温柔。"
     me "唔咕……。"
-    sinobu "这种时候，直到该说的时候为止都是秘密。"
+    sinobu "这种事情，在『时机』到来之前，都是秘密。"
     me "说的也是……那今天这个话题就打住吧。"
     "我和忍一边聊着天，一边走着。"
     window hide
     show 夕空 evening with Dissolve(2.0)
     window show
-    "在这个梦的世界里，遇到了各种各样的少年。"
+    "在这个梦境世界里，我遇到了各种各样的少年。"
     extend "\n大家都很可爱。"
-    extend "\n每个人都有各自的魅力，老实说，我也想象过。"
-    "但是，现在，和我在一起的这个孩子……"
-    extend "忍，特别。"
-    "忍，是特别的。"
-    extend "我对他怀有特殊的感情。"
+    extend "\n每个人都有各自的魅力，老实说，我也产生过一些下流的幻想。"
+    "但是，现在陪在我身边的这个孩子……"
+    extend "忍，是特别的。"
+    "我能感觉到，我对他怀有一种区别于对他人的、"
+    extend "特殊的感情。"
     window hide
     hide sinobu with dissolve
     hide cg with dissolve
@@ -3528,30 +3528,30 @@ label day3_layout_2_sinobu:
     show bg sidewalk_evening at center with Dissolve(1.0)
     show tomo 12 at topright with dissolve
     window show
-    tomo "你们两人都……气氛很不错呢！"
+    tomo "你们两个……气氛很不错嘛！"
     show tubasa 5 at topleft with dissolve
-    tubasa "……嗯。总感觉很开心呢。"
+    tubasa "……嗯。让人看着都忍不住微笑起来呢。"
     show tomo 40 with dissolve
     tomo "呜~！！"
-    extend "\n虽然忍被抢走很不甘心，\n但是作为青梅竹马，我也该支持你们呢~！！"
+    extend "\n虽然忍被抢走让人很不甘心，\n但是作为青梅竹马，这时候还是应该支持你们才对~！！"
     show tomo 19 with dissolve
     extend "\n[player_name]君，你小子可不能欺负忍，把他弄哭哦！"
     show tubasa 12 with dissolve
-    tubasa "嘻嘻，我会温柔地守护你们的。"
+    tubasa "呵呵，我们就温柔地守护他们吧。"
     show tomo 6 with dissolve
-    tomo "是啊~。"
+    tomo "也是呢~。"
     show tomo 22 with dissolve
-    extend "\n但是，果然还是有点寂寞啊……。"
+    extend "\n不过，果然还是会觉得有点寂寞啊……。"
     show tubasa 2 with dissolve
     tubasa "……。"
     show tubasa 32 with dissolve
-    extend "\n……有我陪着友哦……。"
+    extend "\n……那个，友君的话，还有我陪着哦……。"
     show tomo 21 with dissolve
-    tomo "诶？为什么？\n我没听见。"
+    tomo "诶？你说什么？\n我没听清。"
     show tubasa 7 with dissolve
     play sound "fx/cute.ogg"
     $ renpy.transition(Quake(0, 60, 0.1, 0.15), layer='master')
-    tubasa "噗嗯……没，没什么！"
+    tubasa "唔嗯……没、没什么！"
     window hide
     hide tomo with dissolve
     hide tubasa with dissolve
@@ -5712,29 +5712,29 @@ label day3_design_2_self:
 label day3_layout_sinobu_2:
     show sinobu 18 with dissolve
     window show
-    sinobu "嘻嘻。是嘛。"
-    extend "\n[player_name]你能这么说，真是太好了。"
+    sinobu "呵呵。是嘛。"
+    extend "\n能听到[player_name]这么说，真是太好了。"
     "忍露出微笑了！！"
-    me "不过，和执行委员成立之初相比，\n你变得很积极了呢，忍。"
+    me "不过说起来，和执行委员会成立之初相比，\n忍真的变积极了很多呢。"
     show sinobu 26 with dissolve
-    sinobu "……[player_name]是不是多亏了最初喝斥了我呢？"
+    sinobu "……是多亏了[player_name]当初给我的那记当头棒喝吧。"
     show sinobu 22 with dissolve
-    extend "\n在面对某件事的时候，心情是很重要的，\n我明明应该更懂的才是。"
-    me "是，是吗？\n怎么感觉有点害羞呢……"
-    extend "\n我也没做什么大事哦。"
-    extend "\n这次的活动也全都交给忍，我完全就是个装饰品。"
+    extend "\n明明我也很清楚，在面对挑战时『心态』才是最重要的，\n可直到被你提醒才真正领悟过来。"
+    me "是、是吗？\n被你这么夸，总觉得挺害羞的……。"
+    extend "\n其实我也没做什么大不了的事。"
+    extend "\n刚才的事情也完全是忍在交涉，我完全就是个摆设嘛。"
     show sinobu 31 with dissolve
-    sinobu "……才没有呢。"
-    extend "\n[player_name]你在的话，我……就能安心下来了。"
+    sinobu "……才没有那回事。"
+    extend "\n只要[player_name]你在的话，我……就会觉得很安心。"
     me "诶？！"
-    extend "\n总，总觉得，又有点害羞了呢~。"
+    extend "\n总、总觉得，又有点害羞了呢~。"
     show sinobu 21 with dissolve
-    sinobu "呵呵。明明不用害羞的…。"
+    sinobu "呵呵。明明不用害羞的……。"
     "没想到，忍竟然和我想的一样！！"
     hide sinobu with dissolve
-    "虽然一开始觉得他是一个协调性不好，冷淡的男孩子，"
-    extend "\n但其实我想错了，我们俩说不定很合得来！"
-    "想着想着，就来到了教室。"
+    "虽然一开始觉得他是个缺乏协作精神、性格冷淡的孩子，"
+    extend "\n但应该是我想错了。我们俩说不定很合得来！"
+    "正想着，我们已经回到了教室。"
     window hide
     show sinobu 29 with dissolve
     window show
@@ -5849,7 +5849,7 @@ label day3_layout_sinobu_2_noday2:
     show sinobu 29 at top with dissolve
     window show
     sinobu "谢谢。"
-    extend "\n那这样就顺利地确定了地点，\n叫上一之濑同学，赶紧去多功能教室2号厅吧。"
+    extend "\n那这样就顺利地确定了地点，\n我们回去叫上一之濑同学，赶紧去多功能教室2号厅吧。"
     stop music fadeout 1.0
     window hide
     hide bg with Dissolve(0.8)
