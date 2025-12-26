@@ -1960,45 +1960,45 @@ label day3_cooking:
     play sound "fx/sparkle.ogg"
     "没过多久，三块看起来完全不像是新手作品、卖相极佳的汉堡肉饼就出锅了。"
     me "两位，做得很好！！"
-    extend "\n哎呀~好厉害好厉害……学习能力强的孩子果然不一样啊~。"
+    extend "\n哎呀~厉害厉害……学习能力强的孩子果然不一样啊~。"
     window hide
     hide cg with dissolve
     show tuki 9 at topleft with dissolve
     window show
     tuki "是吗？"
-    extend "\n听你这么一说，我也有了自信呢。"
+    extend "\n听你这么说，我也有了些自信。"
     show sora 2 at topright with dissolve
-    sora "[player_name]君教得比较好，所以才能这么顺利。"
-    extend "\n这样就不用担心做汉堡肉饼了！"
+    sora "是因为[player_name]君教得好，我们才能这么顺利。"
+    extend "\n这样一来，做汉堡肉饼就完全没问题了！"
     hide tuki with dissolve
     hide sora with dissolve
-    "之后我们也互相教学，学习了料理的制作方法，\n练习了料理的制作。"
+    "之后，我们也互相传授了各自负责的菜品做法，\n练习了主食菜单的制作流程。"
     window hide
     show sora 10 at top with dissolve
     window show
     play sound "fx/eureka.ogg"
     sora "差不多该做甜品了吧！"
     show sora 11 with dissolve
-    extend "\n只要把冰淇淋装饰好就行了，做芭菲\n一定马上就能学会！"
+    extend "\n芭菲什么的，只要把冰淇淋装饰得漂亮点就行了，\n肯定马上就能学会！"
     hide sora with dissolve
-    "嘛，做了这么多食物，肯定能做出来。"
-    extend "\n……虽然我是这么想的，但实际上并没有那么简单。"
-    extend "明明是甜品。"
+    "既然主食都做了这么多，甜点肯定不在话下吧。"
+    extend "\n……我原本是这么想的，但实际上一点都不甜。"
+    extend "明明是甜品啊。"
     window hide
     show tuki 10 at topleft with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
     window show
-    tuki "唔……嗯。\n打发奶油的时候用力不得当……。"
+    tuki "唔……嗯。\n挤奶油的力度真的很难掌控啊……。"
     show tuki 12 with dissolve
-    extend "\n啊……又喷出来了……！\n这样形状就会不好看了。"
-    me "又失败了……"
-    extend "\n这个要做得好，可没那么容易啊……。"
+    extend "\n啊……又喷出来了……！\n这样形状就全毁了。"
+    me "我也是……。"
+    extend "\n这活儿要是手不够巧，还真不太容易啊……。"
     show sora 14 at topright with dissolve
-    sora "真是的，你们俩完全不行啊！"
-    extend "\n这样子的芭菲，根本没人会点单的嘛！！"
+    sora "真是的~你们两个完全不行嘛！"
+    extend "\n这样子的芭菲，根本没人愿意点单的嘛！！"
     "就算被这么说，我们也无法反驳。"
-    extend "\n我们做出的这个，已经不知道是什么东西了，\n已经变成了令人发指的奶油块了。"
+    extend "\n我们做出来的那坨东西，已经完全看不出原本想做成什么了，\n活脱脱变成了一团形状诡异、惨不忍睹的奶油混合物。"
     hide tuki with dissolve
     hide sora with dissolve
     show sora 8 at top with dissolve
@@ -2006,21 +2006,21 @@ label day3_cooking:
     play sound "fx/cute.ogg"
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
-    sora "你看，浪费时间过久了，冰淇淋都融化了~！"
+    sora "你看，耽误太多时间，冰淇淋都开始融化了~！"
     show sora 23 with dissolve
-    extend "\n我已经看不下去了！\n在它再变成更惨不忍睹的样子之前，我要把它吃掉！！"
+    extend "\n我已经看不下去了！\n在它变得更惨不忍睹之前，我要把它吃掉！！"
     window hide
     hide sora with dissolve
     window show
-    me "……我们继续努力，做好正餐吧，月。"
+    me "……我们还是努力做好主食吧，月。"
     show tuki 22 at top with dissolve
-    tuki "……是啊。"
+    tuki "……说得对。"
     extend "\n每个人都有擅长和不擅长的地方。"
-    extend "\n甜点就交给空了。"
+    extend "\n甜点就交给空好了。"
     window hide
     show cg school_building_morning at center with dissolve
     window show
-    "看着空津津有味地吃着形状扭曲的巴菲，\n我们小声说道。"
+    "看着空津津有味地吃着形状扭曲的巴菲，\n我们两人在一旁小声嘀咕。"
     stop music fadeout 2.0
     show bg home_economics_room_evening at center
     window hide
@@ -2032,20 +2032,20 @@ label day3_cooking:
     play music "quiet_lunch.ogg"
     show sora 2 at topright with dissolve
     window show
-    sora "那么，大致的菜单制作方法，你们练习过了吗？"
+    sora "那么，大致的菜品制作流程，应该都掌握得差不多了吧？"
     show tuki 9 at topleft with dissolve
-    tuki "啊啊，这样就没问题了。"
+    tuki "啊啊，这样应该就没问题了。"
     extend "\n那么，开始收拾吧。"
     me "嗯。"
-    extend "\n那么，我来洗碗，\n空负责擦桌子，月负责收拾。"
+    extend "\n那么，我来洗碗，\n空负责擦桌子，月负责把东西归位。"
     show tuki 15
     show sora 3 with dissolve
     tuki_and_sora "明白。"
     hide tuki with dissolve
     hide sora with dissolve
-    "我开始洗碗不久，就看到了稍微远点的一个碗。"
-    extend "\n那个碗手伸长也摸不到。"
-    extend "\n怎么办……。"
+    "我开始低头洗碗。过了一会儿，视线落在了稍远的一个碗上。"
+    extend "\n那个距离，拼命伸长手也够不到啊。"
+    extend "\n怎么办呢……。"
     return
 
 label day3_supply:
@@ -2421,48 +2421,48 @@ label day3_cooking_tuki:
     show bg home_economics_room_evening at center
     window show
     me "月。"
-    extend "\n不好意思，可以帮我把放在那边的碗\n拿过来吗？"
+    extend "\n不好意思，可以帮我把放在那边的碗拿过来吗？"
     window hide
     show tuki 6 at top with dissolve
     window show
-    tuki "啊，好呢。"
+    tuki "啊，好。"
     hide tuki with dissolve
-    "说完，月走到了放着碗的那边，\n然后端着碗走了回来。"
+    "说完，月便绕到了碗的那边，\n然后端起碗朝我走过来。"
     me "谢谢。"
-    extend "\n在那里就好，我来拿！！？"
+    extend "\n啊，就放在那里吧，我来拿就——！！？"
     stop music fadeout 0.5
-    "我正准备走向月，脚却在洗盘子时打湿的地板上滑了一下。"
-    me "呜噢！？"
+    "我正准备走向月，脚底却在被洗碗水打湿的地板上猛地一滑。"
+    me "呜哇！？"
     show tuki 11 at top with dissolve
     tuki "嗯！？"
     hide tuki with dissolve
     $ renpy.transition(Quake(0, 70, 0.1, 0.06), layer='master')
     play sound "fx/fall_down.ogg"
-    "喀嚓！！"
-    "月的强壮的胸膛就在我的眼前。"
+    "（哐当！！）"
+    "月的胸膛就这么毫无防备地出现在我的眼前。"
     "出乎意料的甜蜜展开！"
-    "但是，实际上也没那么“甜蜜”。"
+    "但是，实际上也没那么『甜蜜』。"
     play music "lively_boys.ogg"
     show cg remarkable at center with FadeWhite(0.5)
-    extend "\n我的碗里，还剩大量的奶油。"
+    extend "\n我手中正在洗的那个碗，还剩着大量的奶油。"
     window hide
     show cg c61 with FadeWhite(0.5)
     play sound "fx/boing.ogg"
     window show
     me "哇，啊哇哇哇哇月对不起！！"
-    extend "\n啊啊啊啊好多的奶油沾到身上了…。"
+    extend "\n啊啊啊啊好多的奶油沾到身上了……。"
     tuki "不，我没事。"
-    extend "\n重要的是，[player_surname]没受伤吧？\n摔得可真惨。"
+    extend "\n重要的是，[player_surname]没受伤吧？\n刚才那一下可摔得不轻。"
     me "我也没事。"
-    extend "\n但是，怎么办好呢……把月的衣服弄脏了，对不起！"
-    tuki "别在意。"
-    extend "\n但是，衣服这么脏的话，最好还是换一下衣服……。"
-    sora "啊~啊，你们两个都溅了这么多的奶油……"
-    extend "\n这里交给我来收拾，你们两个去换衣服吧。"
+    extend "\n但是，这可怎么办……把月的衣服弄脏了，对不起！"
+    tuki "别放在心上。"
+    extend "\n不过，衣服这么脏的话，最好还是去换件衣服……。"
+    sora "啊~啊，你们两个都溅了一身的奶油……。"
+    extend "\n这里交给我来收拾，你们快去换衣服吧。"
     tuki "啊啊。\n抱歉，这里就交给你了。"
-    me "空也是，对不起。"
-    extend "\n给你添了麻烦。"
-    sora "没有用完全部奶油的我也有一部分责任，所以别在意。\n走好，待会见。"
+    me "空，对不起。"
+    extend "\n给你添麻烦了。"
+    sora "没事啦，奶油没用完我也有责任，别在意。\n你们快去吧，待会见。"
     window hide
     stop music fadeout 0.5
     hide sora with dissolve
@@ -2472,7 +2472,7 @@ label day3_cooking_tuki:
     show bg hallway_evening at center with dissolve
     play music "quiet_lunch.ogg"
     window show
-    "我从厨房出来，然后就听到从教室里传来的说话声。"
+    "我走出烹饪室回到教室门口，听到里面传来阵阵说话声。"
     show tuki 3 at top with dissolve
     tuki "嗯？"
     extend "\n里面好像有别的小组在工作。"
@@ -2491,45 +2491,45 @@ label day3_cooking_tuki:
     show tomo 18 at top with dissolve
     tomo "呜哇~~~！！！"
     show tomo 25 with dissolve
-    extend "\n我说，慎酱。\n这不就像是，那个“东西”吗？"
+    extend "\n我说，慎酱。\n这不就像是，『那个』东西吗？"
     show sintarou 12 with dissolve
-    sintarou "小友也这么认为吗？"
+    sintarou "友亲也这么认为吗？"
     extend "\n果然是那个吧~"
     show tuki 17 at topleft with dissolve
-    tuki "那个？ 你在说什么呢。"
-    me "呜……讨厌秒懂的自己…。"
+    tuki "那个？你们在说什么呢。"
+    me "呜……讨厌秒懂的自己……。"
     show sintarou 9 with dissolve
-    sintarou "你们两个一直相互打情骂俏！"
-    extend "\n这里可是学校，别太过火哦~"
+    sintarou "你们两个怎么都搞得满身都是啊！"
+    extend "\n虽然这里是学校，但你们也太精力旺盛了吧~。"
     show tuki 29 with dissolve
     $ renpy.transition(Quake(0, 40, 0.1, 0.15), layer='master')
     play sound "fx/cute3.ogg"
-    tuki "什……你，你个蠢货！！！\n你可不要误会了！！"
+    tuki "什……你、你个蠢货！！！\n你可不要误会！！"
     extend "\n这只是普通的奶油而已！！"
     show tomo 4 with dissolve
-    tomo "[player_name]君的？"
+    tomo "是[player_name]君『产出』的？"
     play sound "fx/boing.ogg"
-    me "不，不是的！！！\n这只是用来烹饪的普通奶油！！"
+    me "不、不是的！！！\n这只是做甜品用的普通奶油！！"
     extend "\n只是我摔倒时打翻了而已……"
     show sintarou 1 with dissolve
     sintarou "开玩笑的啦，别当真！"
-    extend "\n哎呀，你们两个都认真起来了呀~♪"
+    extend "\n哎呀，你们两个都这么认真呀~♪"
     show tomo 12 with dissolve
     tomo "连月都这么慌张，真少见啊！"
     show tuki 27 with dissolve
-    tuki "啊，我并没有慌张。"
+    tuki "啊，我才没有慌张。"
     extend "\n我们只是来拿换洗衣物而已。"
-    extend "\n我们先走了哦。"
-    "月一把抓起我和他的体操袋。"
+    extend "\n先走了。"
+    "月一把抓起我和他装体操服的袋子。"
     window hide
     hide sintarou with dissolve
     hide tomo with dissolve
     hide tuki with dissolve
     show tuki 28 at top with dissolve
     window show
-    tuki "我本来打算在这里换的，\n但是他们俩还在，我就不想再被捉弄了。"
+    tuki "我本来打算在这里换的，\n但要是再被那两个人捉弄下去就没完没了了。"
     extend "\n去隔壁教室换吧。"
-    me "嗯，好吧。"
+    me "嗯，好。"
     window hide
     hide tuki with dissolve
     play sound "fx/sliding_door.ogg"
@@ -2537,60 +2537,60 @@ label day3_cooking_tuki:
     pause 0.6
     show bg classroom_evening with Dissolve(1.0)
     window show
-    "幸运的是，隔壁教室空无一人。"
-    "我从月手里接过他的换洗衣物，然后取出毛巾。"
+    "运气不错，隔壁教室空无一人。"
+    "我从月手里接过他的体操服袋子，顺手抽出了毛巾。"
     me "月，别动。"
-    "我小心地擦拭掉月脸上沾的牛奶。"
+    "我小心地擦拭掉月脸上沾的奶油。"
     show tuki 27 at top with dissolve
-    tuki "不用了。"
+    tuki "没、没事。"
     extend "\n这点小事我自己来……。"
-    me "不行。"
-    extend "\n这都是我的错，所以这种小事就让我来吧。"
+    me "不——行。"
+    extend "\n这都是我造成的，所以这种小事就让我来吧。"
     show tuki 28 with dissolve
-    tuki "呜呜……。"
+    tuki "唔……。"
     stop music fadeout 2.0
-    "月害羞地转过脸去。"
-    extend "\n呵呵……平时都那么从容不迫的他，现在却害羞了，真是太可爱了！！"
+    "月害羞地别过脸去。"
+    extend "\n哼哼……平时那么从容不迫的他，现在却害羞了，真是太可爱了！！"
     play music "hurry_up.ogg"
     window hide
     show cg c62 1 at center with zoominout
     play sound "fx/cute2.ogg"
     window show
-    me "接下来就擦掉你校服上沾的牛奶吧。"
-    tuki "喂，喂！"
-    extend "\n我自己来……"
+    me "接下来就擦掉你校服上沾的奶油吧。"
+    tuki "喂、喂！"
+    extend "\n我自己来就……"
     me "别动。"
-    extend "\n你不小心擦掉的话，校服反而会更脏的哦。"
-    tuki "呜……立场好像颠倒过来了？"
-    me "你想多了想多了♪"
+    extend "\n要是不仔细擦干净，校服反而会更脏的哦。"
+    tuki "唔……立场好像颠倒过来了？"
+    me "想多啦想多啦♪"
     hide bg
     hide tuki
-    "我一边用毛巾擦掉月身上的牛奶，\n一边隔着学生服享受着月紧致的肌肤。"
+    "我一边用毛巾擦掉月身上的奶油，\n一边隔着学生服享受着月紧致的肌肤。"
     show cg adult with FadeWhite(0.5)
     tuki "呜……嗯咕……。"
     play sound "fx/sparkle.ogg"
-    "呜嘿嘿……我这家伙享受过头了啊啊啊啊！！！！"
-    "每当我的毛巾擦过，月都会敏感地作出反应。"
+    "呜嘿嘿……这福利也太爽了吧！！！！"
+    "每当我的毛巾擦过，月都会敏感地颤一下。"
     "难道说他其实很敏感吗？"
-    extend "\n这里？这里很舒服吗？？？"
+    extend "\n这里？这里会舒服吗？？？"
     play sound "fx/cute2.ogg"
     "我完全进入了变态大叔模式。"
     show cg c62 2 with FadeWhite(0.5)
-    me "来来！\n那么，终于到了该换衣服的环节了！"
-    extend "\n好啦，赶紧脱掉学生服吧~♪"
-    "我迅速将学生服的扣子解开，"
+    me "来来！\n那么，终于到了换衣服的环节了！"
+    extend "\n好啦，赶紧脱掉校服吧~♪"
+    "我迅速解开了月校服外套的纽扣。"
     show bg classroom_evening at center
-    tuki "已，已经够了！！"
+    tuki "已、已经够了！！"
     extend "\n[player_surname]，不许再乱来了……"
-    "月焦急地说道，但我还是解开了他衬衫的扣子。"
+    "尽管月已经陷入了慌乱，但我依然没有停手，转而开始解他衬衫的扣子。"
     window hide
     stop music fadeout 0.2
     play sound "fx/sliding_door.ogg"
     hide cg with FadeWhite(0.5)
     window show
-    "咔啦"
+    "（哐当）"
     show sora 3 at top with dissolve
-    sora "哥哥，[player_name]居然在这里啊。"
+    sora "哥哥，[player_name]君，原来在这里啊。"
     extend "\n对面那边已经收拾完了，"
     pause 0.5
     show sora 4 with dissolve
@@ -2607,35 +2607,35 @@ label day3_cooking_tuki:
     play music "twins_theme.ogg"
     show bg classroom_evening at center with Radial(1.0)
     window show
-    "我们为了消除误会，向呆住的空重新说明了事情的经过。"
+    "为了解除误会，我们向呆住的空解释了事情的来龙去脉。"
     show sora 12 at top with dissolve
-    sora "原，原来如此……知道大概的经过了。"
+    sora "原、原来如此……大概的经过我算是听懂了。"
     show sora 20 with dissolve
-    extend "\n但是，[player_name]啊！\n无论如何，你都做得太过火了。"
-    extend "\n在旁人看来，可能会觉得你行为很奇怪。"
-    me "对，对不起……。"
+    extend "\n但是，[player_name]君！\n无论如何，你都做得太过火了。"
+    extend "\n要是换成别人看到那一幕，绝对会产生什么奇怪的误会的！"
+    me "非、非常对不起……。"
     hide sora with dissolve
     show sora 23 at topright with dissolve
-    sora "哥哥也是。\n为什么什么都不说，任凭他做这种事嘛。"
-    extend "\n即便真的是那样，至少拒绝一下也好吧。"
+    sora "哥哥也是。\n为什么就那么毫无抵抗地由着他胡来啊。"
+    extend "\n就算当时那种气氛很难拒绝，起码也要推辞一下吧。"
     show tuki 14 at topleft with dissolve
-    tuki "……抱歉……不由得就同意了。"
+    tuki "……对不起……一时就被带着走了。"
     show sora 14 with dissolve
-    sora "还说什么不由得，真是的……。"
+    sora "还『一时』呢，真是的……。"
     show sora 34 with dissolve
     extend "\n对了，[player_name]君。\n把我们的行李拿到这边来。"
-    extend "\n毕竟你也很累了，慢慢来也可以。"
+    extend "\n你也累了吧，慢慢来就行，不着急。"
     me "诶？"
-    extend "\n那，那个，为什么是我……？"
+    extend "\n那、那个，为什么是我去……？"
     hide tomo with dissolve
     hide tuki with dissolve
     hide sora with dissolve
     stop music fadeout 1.0
     show sora 26 at top with dissolve
-    sora "让人误会的人，不是你吗？"
-    "空的脸上挂着笑容。"
-    me "是，是的……是我呢！"
-    extend "\n那么，请让我马上把行李拿过来！"
+    sora "做出那种让人误会的事情的人，是·谁·呀？"
+    "空的脸上挂着带着杀气的笑容。"
+    me "是、是的……是我！"
+    extend "\n小的这就立刻把行李拿过来！"
     window hide
     hide sora with dissolve
     play sound "fx/sliding_door.ogg"
@@ -2647,53 +2647,53 @@ label day3_cooking_tuki:
     window show
     sintarou "啊咧，[player_name]酱！"
     extend "\n又怎么了？"
-    me "啊~去拿三个人的行李。"
+    me "啊~来拿三个人的行李。"
     show tomo 21 at topleft with dissolve
-    tomo "还没换上体操服吗。"
+    tomo "还没换好体操服吗。"
     me "啊哈哈……发生了很多事……。"
     show sintarou 12 with dissolve
     sintarou "发生了很多事啊……。"
     show tomo 25 with dissolve
-    tomo "什么什么？发生了什么啊？？"
-    me "这，这个嘛！"
+    tomo "什么什么？发生了什么啊？"
+    me "这、这个嘛！"
     show tomo 40 with dissolve
     tomo "诶~！！哎呀哎呀！\n快告诉我吧~。"
     hide tomo with dissolve
     hide sintarou with dissolve
     show sintarou 18 at top with dissolve
-    sintarou "……[player_name]君，难道对阿月有意思？"
+    sintarou "……[player_name]，难道对阿月有意思？"
     me "什！！？"
-    extend "\n怎，怎么会！！"
+    extend "\n怎、怎么可能！！"
     show sintarou 1 with dissolve
     sintarou "哼哼……是嘛是嘛♪"
     extend "\n我估计要插足那对兄弟的感情的话难度很高，\n我不太推荐哦~。"
-    me "所，所以说，不是啊！！"
+    me "所、所以说，不是啊！！"
     extend "\n我喜欢月，也喜欢空，"
-    extend "\n三个人在一起我也会感到开心，我很喜欢这样啊。"
+    extend "\n三个人在一起我会觉得很开心，我很喜欢这样啊。"
     show sintarou 31 with dissolve
-    sintarou "原来如此~。\n那就当我之前的话没说。"
+    sintarou "原来如此~。\n那就当我没说。"
     me "……。"
-    extend "\n话说回来，虽然你说要在兄弟之间插足很难，"
+    extend "\n话说回来，虽然你说插足他们兄弟之间很难，"
     extend "\n但对他们来说，果然还是两个人相处比较好吗？"
-    extend "\n他不会觉得我在妨碍他们吧……。"
+    extend "\n他们不会觉得我很碍事吧……。"
     show sintarou 29 with dissolve
-    sintarou "啊~没有没有！哈，"
-    extend "\n[player_name]可能觉得他们眼里只有彼此吧，\n但从旁观者的角度来说，[player_name]君的存在也让他们很开心呢！"
-    extend "\n对吧，友？"
+    sintarou "啊~没有没有！"
+    extend "\n[player_name]可能觉得他们眼里只有彼此吧，\n但从旁观者的角度来说，[player_name]的存在也让他们很开心呢！"
+    extend "\n是吧，友亲？"
     hide sintarou with dissolve
     show tomo 4 at topleft with dissolve
     tomo "嗯嗯。"
-    extend "\n之前，月和空感觉像是双子星，\n现在的话，[player_name]君也算上，你们三个人更像是三剑客呢！"
-    extend "\n都相处得那么好了，你大可自信一点！"
+    extend "\n之前，月和空感觉像是双子星，\n但现在把[player_name]君也算上，你们三个更像是三剑客呢！"
+    extend "\n都这么默契了，你大可自信一点啦！"
     show sintarou 30 at topright with dissolve
     sintarou "就是就是！"
-    extend "\n不要莫名担心啊~"
-    me "是，是么！\n谢谢……总算是放心了。"
+    extend "\n不用莫名担心~"
+    me "是、是嘛！\n谢谢……听你们这么说，我总算放心了。"
     extend "\n那我就先回他俩那边去了！\n再见。"
     show tomo 1
     show sintarou 1 with dissolve
     tomo_and_shin "哦~，记得代我们问好~。"
-    "我提着他们的东西，走出了教室。"
+    "我提着三人的行李，走出了教室。"
     stop music fadeout 1.0
     window hide
     hide sintarou with dissolve
@@ -2708,22 +2708,22 @@ label day3_cooking_tuki:
     show tuki 9t at topleft with dissolve
     tuki "啊，麻烦你了。"
     show sora 32 at topright with dissolve
-    sora "辛苦了，[player_name]君。"
-    me "咦，月已经换好了啊。"
+    sora "辛苦啦，[player_name]君。"
+    me "咦，月已经换好衣服了啊。"
     show tuki 4t with dissolve
-    tuki "[player_surname]去拿东西的时候我趁机换的。"
+    tuki "趁着[player_surname]去拿行李的空档换的。"
     hide tuki with dissolve
     hide sora with dissolve
     play sound "fx/shock.ogg"
     "呜……这什么情况啊！！"
-    extend "\n听了客观的意见后有了自信固然好，\n但我却因此错过了看到月换衣服的场景！！！"
+    extend "\n听了客观评价找回了自信固然是好事，\n但我却因此错过了月换衣服的现场！！！"
     window hide
     show sora 29 at top with dissolve
     window show
-    sora "因为，要是不这样做，\n[player_name]君就会用下流的眼光盯着哥哥看。"
+    sora "因为，要是不这样做，\n[player_name]君就会用下流的眼光盯着哥哥看吧。"
     play sound "fx/boing.ogg"
-    "咕"
-    me "到，到底，什么情况啊~？？\n那，那种家伙在哪里，我去收拾他！"
+    "（惊）"
+    me "这、这是怎么回事啊~？？\n那、那种家伙在哪里，我去收拾他！"
     extend "\n啊哈哈哈……。"
     hide sora with dissolve
     show tuki 20t at topleft
@@ -2736,13 +2736,13 @@ label day3_cooking_tuki:
     extend "\n因为那种事，会直接表现在眼睛上的。"
     show tuki 18t with dissolve
     tuki "别小看我们的眼睛。"
-    me "啊，好的……对不起。"
-    extend "\n我会老老实实去换衣服的。"
-    "虽然不能亲眼看到月穿短裤的样子有点遗憾，\n但今天玩得挺开心的，所以也没什么好抱怨的……。"
+    me "是、是……对不起。"
+    extend "\n我这就老老实实换衣服。"
+    "虽然没能亲眼确认月是不是真的穿了兜裆布，多少还是有点遗憾。\n但今天也过得挺开心的，所以也没什么好抱怨的……。"
     window hide
     show cg school_building_evening at center with Dissolve(0.8)
     window show
-    "就这样，作为烹饪组的我们的工作，也到此告一段落了。"
+    "就这样，料理组第三天的工作顺利结束了。"
     window hide
     stop music fadeout 0.5
     hide bg with Dissolve(1.0)
@@ -2907,7 +2907,7 @@ label day3_cooking_sora:
     play sound "fx/sliding_door.ogg"
     hide cg with FadeWhite(0.5)
     window show
-    "咔啦"
+    "（哐当）"
     show tuki 6 at top with dissolve
     tuki "空，[player_surname]君，原来你们在这里啊。"
     extend "\n那边我已经收拾好了，"
