@@ -1878,14 +1878,14 @@ label day3_cooking:
     play music "quiet_lunch.ogg"
     show tuki 2 at topleft with dissolve
     window show
-    tuki "昨天，菜单基本就定下来了，"
-    extend "\n今天就在烹饪室来练习烹饪吧。"
+    tuki "菜单昨天已经定下来了，"
+    extend "\n今天就在烹饪室练习烹饪吧。"
     show sora 2 at topright with dissolve
     sora "食材因为昨天还剩了一些，所以能练习好几次哦。"
-    extend "\n现在先把料理做熟练了，之后再教给大家吧。"
+    extend "\n我们现在先把料理做熟练，之后才好教给其他同学呢。"
     show tuki 9 with dissolve
     tuki "我知道了。"
-    extend "\n那么，那就马上前往烹饪室吧。"
+    extend "\n那么，我们现在就去烹饪室吧。"
     window hide
     hide tuki with dissolve
     hide sora with dissolve
@@ -1893,18 +1893,18 @@ label day3_cooking:
     play sound "fx/sliding_door.ogg"
     show bg home_economics_room with Dissolve(0.8)
     window show
-    "进入烹饪室后，里面已经有很多班级在练习烹饪了。"
+    "走进烹饪室，里面已经有不少班级在练习了。"
     show tuki 1 at topleft with dissolve
-    tuki "我先预留了最里面的位置的桌子，就在那边做吧。"
+    tuki "我已经预留了最里面那张桌子，就在那边开工吧。"
     show sora 1 at topright with dissolve
     sora "太好了~。"
-    extend "\n昨天因为人太多了所以没能使用呢。"
+    extend "\n昨天因为人太多了，想用都用不上呢。"
     show tuki 9 with dissolve
-    tuki "好，我去把餐具拿过来。"
+    tuki "好，我去拿厨具和餐具。"
     show sora 2 with dissolve
     sora "好的。"
-    extend "\n我来把材料准备好。"
-    me "那我就去把冰淇淋啊，肉啊什么的放到冰箱里去吧"
+    extend "\n我来把食材准备好。"
+    me "那我就负责把冰淇淋和肉类之类的先放进冰箱里吧。"
     window hide
     stop music fadeout 0.5
     hide tuki with dissolve
@@ -1916,12 +1916,12 @@ label day3_cooking:
     window show
     tuki "好，准备好了。"
     show tuki 5 with dissolve
-    extend "\n首先，先练习一下食物的制作吧。"
-    extend "\n[player_surname]君可以教教我昨天那个汉堡怎么做吧！"
+    extend "\n先从主食菜单开始练习吧。"
+    extend "\n[player_surname]君，能不能告诉我昨天那个汉堡肉该怎么做？"
     me "OK。"
-    extend "\n那么，我就教教你们里面汉堡肉的制作方法吧。"
-    extend "\n作为准备，先把洋葱切成碎末。\n像这样，像小猫的手一样，咚咚咚地……。"
-    "我之后，月和空分别开始切洋葱。"
+    extend "\n那我就先教你们做汉堡肉饼。"
+    extend "\n首先是准备工作，把洋葱切成碎末。\n像这样把手弯成爪状，像抓着小猫一样扣住食材，然后咚咚咚地……。"
+    "示范完后，月和空也分别拿起菜刀，开始切洋葱。"
     play music "fx/cooking4.ogg"
     window hide
     hide tuki with dissolve
@@ -1929,36 +1929,36 @@ label day3_cooking:
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
     window show
-    sora "嗯……[player_name]君切菜可真麻利，我却不怎么擅长"
-    extend "\n有点要流泪了……。"
+    sora "嗯……[player_name]君切菜可真麻利，我却不怎么擅长啊~……。"
+    extend "\n有点想流泪了……。"
     show tuki 22 at topleft with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
-    tuki "我，我也是……这可真是不容易啊。"
+    tuki "我、我也是……这可真没想象中容易啊。"
     play sound "fx/wow2.ogg"
     show cg adult at center with dissolve
-    "看着两人不停流着泪的样子，我不由得想到了下流的事情。\n但现在在做料理……要先不去想别的事，甩了甩头，甩掉了妄想。"
+    "看着两人眼泪汪汪的样子，我的脑海里忍不住又浮现出某些下流画面。\n但现在在做料理呢……先不去想别的事。我赶紧摇摇头，把那些妄想给甩出去。"
     window hide
     hide tuki with dissolve
     hide sora with dissolve
     hide cg with dissolve
     window show
-    me "你们俩可别受伤了啊！"
-    extend "\n觉得用嘴呼吸的话应该会好一点。"
+    me "你们两个，注意别切到手啊！"
+    extend "\n试着改用嘴呼吸，应该会好受一点。"
     show tuki 22 at topleft
     show sora 9 at topright with dissolve
-    sora "好～……。"
-    tuki "这种事，要是早一点告诉我就好了……。"
+    sora "好~的……。"
+    tuki "这种事，下次麻烦早点告诉我……。"
     window hide
     stop music fadeout 0.5
     hide tuki with dissolve
     hide sora with dissolve
     window show
-    "切完洋葱之后，就进行到下一个步骤吧。"
-    extend "\n2人立刻就理解了我说的话，顺利完成了汉堡肉饼。"
+    "切完洋葱之后，进入了下一个步骤。"
+    extend "\n两人的领悟力极高，很快就掌握了要领，顺利地揉好了肉饼。"
     show cg remarkable at center with dissolve
     play sound "fx/sparkle.ogg"
-    "过了一会，3个汉堡肉饼就做好了，完全看不出是初学者做的。"
+    "没过多久，三块看起来完全不像是新手作品、卖相极佳的汉堡肉饼就出锅了。"
     me "两位，做得很好！！"
     extend "\n哎呀~好厉害好厉害……学习能力强的孩子果然不一样啊~。"
     window hide
@@ -6115,13 +6115,13 @@ label day3_cooking_sirou:
     show bg classroom at center with dissolve
     play music "quiet_lunch.ogg"
     window show
-    me "那么，我要做些什么才好呢？"
+    me "那么，我要做些什么好呢？"
     show sora 2 at topright with dissolve
-    sora "[player_name]君，我们组到昨天为止所有的作业就已经完成了，\n所以今天你可以先回家了。"
+    sora "[player_name]君，我们组的任务到昨天为止就全部干完啦。\n所以今天你可以直接回家了。"
     show tuki 4 at topleft with dissolve
-    tuki "让你特地跑一趟真是不好意思啊。"
-    extend "\n今天你就在家好好休息吧。"
-    me "诶！怎，怎么这样！！"
+    tuki "抱歉让你白跑一趟。"
+    extend "\n今天你就回家好好休息吧。"
+    me "诶！怎、怎么这样！！"
     extend "\n那么，今天开心的校园生活，就要到此结束了？！"
     show tuki 1
     show sora 4 with dissolve
@@ -6131,19 +6131,19 @@ label day3_cooking_sirou:
     hide tuki with dissolve
     play sound "fx/shock.ogg"
     window show
-    "轰！！"
+    "（受打击！！）"
     me "诶诶诶诶诶！！怎么可以这样……。"
     extend "\n这样我可是不满足的啊啊啊啊啊……。"
     show sora 5 at topright with dissolve
-    sora "哥哥，[player_name]君，怎么了？"
+    sora "哥哥，[player_name]君这是怎么了？"
     show tuki 5 at topleft with dissolve
-    tuki "谁知道呢？\n你应该是很高兴能早点回家吧？"
+    tuki "谁知道。\n应该是很高兴能早点回家吧？"
     show sora 1 with dissolve
-    sora "啊哈哈。是啊！这样就好了。"
-    extend "\n那么，[player_name]君，明天见！"
+    sora "啊哈哈。是这样啊！那就好。"
+    extend "\n那么，[player_name]君，明天见啦！"
     show tuki 8 with dissolve
     tuki "再见。"
-    extend "\n可别太兴奋被车撞了哦。"
+    extend "\n别因为太兴奋又被车撞到啊。"
     window hide
     play sound "fx/running.ogg"
     hide sora with dissolve
@@ -6410,13 +6410,13 @@ label day3_cooking_all:
     show bg classroom at center with dissolve
     play music "quiet_lunch.ogg"
     window show
-    me "那么，我要做些什么才好呢？"
+    me "那么，我要做些什么好呢？"
     show sora 2 at topright with dissolve
-    sora "[player_name]君，我们组到昨天为止所有的作业就已经完成了，\n所以今天你可以先回家了。"
+    sora "[player_name]君，我们组的任务到昨天为止就全部干完啦。\n所以今天你可以直接回家了。"
     show tuki 4 at topleft with dissolve
-    tuki "让你特地跑一趟真是不好意思啊。"
-    extend "\n今天你就在家好好休息吧。"
-    me "诶！怎，怎么这样！！"
+    tuki "抱歉让你白跑一趟。"
+    extend "\n今天你就回家好好休息吧。"
+    me "诶！怎、怎么这样！！"
     extend "\n那么，今天开心的校园生活，就要到此结束了？！"
     show tuki 1
     show sora 4 with dissolve
@@ -6426,19 +6426,19 @@ label day3_cooking_all:
     hide tuki with dissolve
     play sound "fx/shock.ogg"
     window show
-    "轰！！"
+    "（受打击！！）"
     me "诶诶诶诶诶！！怎么可以这样……。"
     extend "\n这样我可是不满足的啊啊啊啊啊……。"
     show sora 5 at topright with dissolve
-    sora "哥哥，[player_name]君，怎么了？"
+    sora "哥哥，[player_name]君这是怎么了？"
     show tuki 5 at topleft with dissolve
-    tuki "谁知道呢？\n你应该是很高兴能早点回家吧？"
+    tuki "谁知道。\n应该是很高兴能早点回家吧？"
     show sora 1 with dissolve
-    sora "啊哈哈。是啊！这样就好了。"
-    extend "\n那么，[player_name]君，明天见！"
+    sora "啊哈哈。是这样啊！那就好。"
+    extend "\n那么，[player_name]君，明天见啦！"
     show tuki 8 with dissolve
     tuki "再见。"
-    extend "\n可别太兴奋被车撞了哦。"
+    extend "\n别因为太兴奋又被车撞到啊。"
     window hide
     play sound "fx/running.ogg"
     hide sora with dissolve
@@ -6448,8 +6448,8 @@ label day3_cooking_all:
     play sound "fx/ding.ogg"
     window show
     "……。"
-    "其他组都已经去做其他工作了，我也回家吧……。"
-    extend "\n明明有那么多男孩子，但没一个能跟我一块儿回家。"
+    "其他组都已经去做其他工作了，那我也回家吧……。"
+    extend "\n明明有那么多男孩子，但没一个能跟我一起回家。"
     extend "\n唉……。"
     window hide
     stop sound fadeout 0.5
