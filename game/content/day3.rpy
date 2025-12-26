@@ -2427,7 +2427,7 @@ label day3_cooking_tuki:
     window show
     tuki "啊，好。"
     hide tuki with dissolve
-    "说完，月便绕到了碗的那边，\n然后端起碗朝我走过来。"
+    "说完，月便走到放着碗的对面那头，\n端起碗朝我这边过来。"
     me "谢谢。"
     extend "\n啊，就放在那里吧，我来拿就——！！？"
     stop music fadeout 0.5
@@ -2755,15 +2755,15 @@ label day3_cooking_sora:
     show bg home_economics_room_evening at center
     window show
     me "空。"
-    extend "\n不好意思，可以帮我把放在那边的碗\n拿过来吗？"
+    extend "\n不好意思，可以帮我把放在那边的碗拿过来吗？"
     window hide
     show sora 3 at top with dissolve
     window show
     sora "嗯，我知道了！"
     hide sora with dissolve
-    "说完，空就走向碗盆放在的那面，\n然后拿着碗盆回来了。"
+    "说完，空便走到放着碗的对面那头，\n端起碗朝我这边过来。"
     stop music fadeout 0.5
-    "然后就在这时候"
+    "就在这时——"
     window hide
     show sora 8 at top with dissolve
     window show
@@ -2772,32 +2772,32 @@ label day3_cooking_sora:
     hide sora with dissolve
     $ renpy.transition(Quake(0, 70, 0.1, 0.06), layer='master')
     play sound "fx/fall_down.ogg"
-    "喀嚓！！"
-    "空在拿碗的时候踩到湿漉漉的地板滑了一跤，失去平衡撞到了我。"
-    "可爱的少年，向我扑过来的事故！！"
-    "但是，实际上也没那么“甜蜜”。"
+    "（喀嚓！！）"
+    "空在拿碗的时候踩到了湿漉漉的地板，脚下一滑，整个人失去平衡，猛地撞进了我的怀里。"
+    "可爱的美少年主动投怀送抱！？出乎意料的甜蜜福利降临！！"
+    "然而，实际上也没那么『甜蜜』。"
     play music "lively_boys.ogg"
     show cg remarkable at center with FadeWhite(0.5)
-    extend "\n空拿着的碗里，还剩下大量的鲜奶油。"
+    extend "\n空拿着的碗里，还剩着大量的奶油。"
     window hide
     show cg c54 with FadeWhite(0.5)
     play sound "fx/cute2.ogg"
     window show
     sora "哇啊啊啊啊[player_name]君，对不起！！！"
-    extend "\n啊啊啊啊沾了那么多奶油…。"
-    me "没，没事的。"
-    extend "\n比起这个，空身上也沾满了奶油……。"
-    "身上沾满了大量白色奶油的空！！！！"
+    extend "\n啊啊啊啊沾了那么多奶油……。"
+    me "没、没事的。"
+    extend "\n比起这个，空身上也沾满了奶油啊……。"
+    "浑身沾满大量白色奶油的空！！！！"
     play sound "fx/sparkle.ogg"
-    extend "\n这，这还真是……真是令人兴奋的……充满艺术美感的……！"
+    extend "\n这、这简直是……何等的色气……何等的具有艺术美感啊……！"
     tuki "你们没事吧？"
-    extend "\n制服都脏了啊……。"
+    extend "\n校服都脏了啊……。"
     extend "\n这里就由我来打扫，你们先去换衣服吧。"
-    sora "嗯，好的……。"
-    extend "\n[player_name]君，真的对不起！"
+    sora "嗯、嗯，好的……。"
+    extend "\n[player_name]君，真的对不起！都是因为我……。"
     me "没关系没关系！你别太在意！！"
-    extend "\n从结果上来看，我也饱了眼福。"
-    sora "……？\n嘛，总之我们得换上体操服了！"
+    extend "\n倒不如说，我也大饱眼福了啊。"
+    sora "……？\n嘛，总之得先去换上体操服才行！"
     extend "\n[player_name]君身上粘的奶油更多呢……。"
     extend "\n那，我们走吧！"
     window hide
@@ -2809,99 +2809,99 @@ label day3_cooking_sora:
     show bg hallway_evening at center with dissolve
     play music "quiet_lunch.ogg"
     window show
-    "我从厨房出来，然后就听到从教室里传来的说话声。"
+    "我走出烹饪室回到教室门口，听到里面传来阵阵说话声。"
     show sora 5 at top with dissolve
-    sora "啊~其他的小组都在教室里干活呢…。"
-    "空通过门上的窗户观察了下教室里面的状况，然后说道。"
+    sora "啊~其他的小组都在教室里干活呢……。"
+    "空透过门上的窗户看了看教室里，然后说道。"
     show sora 24 with dissolve
     sora "隔壁的教室好像没人，我们就在那里换衣服吧。"
-    extend "\n[player_name]君就在这边的教室等着。"
-    extend "\n我拿好体操服之后，再过会儿就去。"
-    me "诶？不用了，我自己去拿体操服就行。"
+    extend "\n[player_name]君就先在那边等着。"
+    extend "\n我拿好体操服马上就过去。"
+    me "诶？没关系啦，我也可以自己回去拿。"
     show sora 25 with dissolve
-    sora "被其他的人看见你这个样子的话，肯定不好吧？"
-    extend "\n归根到底，这都是我的错，[player_name]君你不用在意。"
-    me "谢，谢谢。"
+    sora "被别人看到你现在这副样子，你肯定会觉得不舒服吧？"
+    extend "\n说到底这都是我的责任，[player_name]君你不用在意。"
+    me "谢、谢谢。"
     hide sora with dissolve
-    "一边感谢着空的关心，我走进了空说的空无一人的隔壁教室，"
+    "我一边在心里感谢着空的体贴，一边走进隔壁那间空教室。"
     play sound "fx/sliding_door.ogg"
     show bg classroom_evening with dissolve
-    extend "\n没过多久，空也走了进来。"
+    extend "\n没过多久，空就过来了。"
     show sora 24 at top with dissolve
     sora "让你久等了！"
     extend "\n果然，友君和慎酱都笑我了……。"
     me "啊哈哈。\n他们怎么说的？"
     show sora 14 with dissolve
-    sora "那，那个我就不说了！"
-    extend "\n好难为情啊……。"
+    sora "那、那种话我就不说了！"
+    extend "\n很难为情呢……。"
     me "嗯？难为情？"
     show sora 9 with dissolve
-    sora "没事了！！总之[player_name]别在意！"
+    sora "没事！！总之，[player_name]君你别往心里去！"
     show sora 24 with dissolve
-    extend "\n这是[player_name]君的体操服哦！                    还有，我给你带了毛巾过来。"
+    extend "\n这是[player_name]君的体操服哦！\n还有，我给你带了毛巾过来。"
     hide sora with dissolve
-    "如此说着，空用手上拿着的毛巾擦了我的身体。"
+    "话音刚落，空便拿起毛巾替我擦拭身上的奶油。"
     extend "\n像是在小心注意不让我受伤一般，他擦得非常温柔。"
-    "明明自己也弄脏了，却不先给自己擦。\n而是先考虑我，他真的是一位温柔的男孩子……。"
+    "明明他自己也一身狼藉，却完全顾不上自己，\n只想着先照顾我。真是个温柔的男孩子啊……。"
     window hide
     show sora 5 at top with dissolve
     window show
     stop music fadeout 0.7
-    sora "……脸应该，这样就干净了。"
-    extend "\n还有，衣服也必须换掉才行啊。"
+    sora "……脸的话，这样应该就擦干净了。"
+    extend "\n接下来，衣服也得换掉才行啊。"
     play music "hurry_up.ogg"
     window hide
     show cg c55 1 at center with zoominout
     play sound "fx/boing.ogg"
     window show
-    "空的手伸向了我的制服。"
-    me "诶，等等！ 空？？"
-    sora "嗯？ 怎么了？"
-    me "那，那个……为什么要把我的制服给？"
-    sora "诶？ 因为弄脏了，必须要换掉才行啊……。"
+    "空的手伸向了我的校服外套。"
+    me "诶，等等！空？？"
+    sora "嗯？怎么了？"
+    me "那、那个……为什么要把我的校服……？"
+    sora "诶？因为弄脏了，必须要换掉才行啊……。"
     me "我不是那个意思！"
-    extend "\n换衣服这种小事，我自己会做的。"
-    sora "不行。[player_name]君是我弄脏的。"
+    extend "\n换衣服这种小事，我自己来就行了啦。"
+    sora "不行。[player_name]君是被我弄脏的。"
     hide sora
     hide bg
-    extend "\n我有责任。\n所以，什么我都会为你做的！"
+    extend "\n我有责任。\n所以，接下来的事情，全部都由我来为你做吧！"
     show cg adult with FadeWhite(0.5)
     play sound "fx/impact.ogg"
     "[player_name]君是被空弄脏的……"
     play sound "fx/impact.ogg"
-    extend "\n什么都为你做......"
+    extend "\n全部都为你做……"
     play sound "fx/impact.ogg"
-    extend "\n什么都为你做......"
+    extend "\n全部都为你做啊……"
     extend "\n做……做……"
     play sound "fx/wow2.ogg"
     extend "做……！？"
     $ renpy.transition(Quake(0, 70, 0.15, 0.1), layer='master')
     play sound "fx/cute2.ogg"
     me "什么什么什么啊啊啊啊！！！？？"
-    extend "\n空，空，你这么大胆！！！！！！"
-    sora "哎……？"
+    extend "\n空、空君你居然这么大胆的吗！！！！！！"
+    sora "诶……？"
     $ renpy.transition(Quake(0, 70, 0.15, 0.1), layer='master')
     play sound "fx/boing.ogg"
-    extend "\n啊，我，我说[player_name]君，你到底在想些什么啊！？"
-    extend "\n我，我可没有那个意思！！"
+    extend "\n啊，等、等等，[player_name]君到底在想什么啊！？"
+    extend "\n我、我可没有那个意思！！"
     "空的脸一瞬间变得通红。"
     show cg c55 2 with FadeWhite(0.5)
-    sora "真，真是的！！"
-    extend "\n[player_name]君说什么奇怪的话呢！害我现在不知道该怎么做了。"
-    extend "\n但是，这都是我的责任啊……必须得做到最后才行。"
-    "空一边脸红，一边解开了我校服的纽扣。"
-    "不妙……总觉得这个行为，有种犯罪的味道啊。"
-    "校服的下面，就只有一件T恤……。"
-    extend "\n就这样让他脱真的好吗……。"
+    sora "真、真是的！！"
+    extend "\n都怪[player_name]君说些莫名其妙的话，害得人家现在手都不知道该往哪放了……。"
+    extend "\n但是，既然是我的责任……就必须得做到最后才行。"
+    "空满脸通红，却还是一颗、一颗地解开了我校服的纽扣。"
+    "不妙……这画面，总觉得有种犯罪的味道啊。"
+    "校服外套的下面，就只剩一件衬衫了……。"
+    extend "\n真的……不阻止他吗。"
     show bg classroom_evening at center
-    extend "\n但是，又不是我强迫他的。"
-    extend "\n这是空自己所期望的事情。"
+    extend "\n不，这可不是我强迫他的。"
+    extend "\n这是空自己想要做的事情啊！"
     show cg remarkable with Radial(0.5)
     play sound "fx/eureka.ogg"
-    "不管了，直接开始吧！！！来吧，赤峰空！！"
+    "不管了，豁出去了！！！来吧，赤峰空！！"
     play sound "fx/explosion2.ogg"
     extend "\n我会全盘接受的！"
-    "空解开了我T恤的纽扣。"
+    "空解开了我衬衫的第一颗纽扣。"
     window hide
     stop music fadeout 0.2
     play sound "fx/sliding_door.ogg"
@@ -2909,8 +2909,8 @@ label day3_cooking_sora:
     window show
     "（哐当）"
     show tuki 6 at top with dissolve
-    tuki "空，[player_surname]君，原来你们在这里啊。"
-    extend "\n那边我已经收拾好了，"
+    tuki "空，[player_surname]，原来你们在这里。"
+    extend "\n那边我已经收拾好，"
     pause 0.5
     show tuki 12 with dissolve
     extend "了……。"
@@ -2925,28 +2925,28 @@ label day3_cooking_sora:
     play music "twins_theme.ogg"
     show bg classroom_evening at center with Radial(1.0)
     window show
-    "空安抚着即将暴走的月，向他说明了情况，事态终于平息了下来。"
+    "空安抚着即将暴走的月，向他解释了事情的原委，事态总算平息了下来。"
     show tuki 16 at topleft with dissolve
-    tuki "原来如此，是这么回事啊……"
-    extend "\n别这样，别让我吓一跳啊。\n一瞬间，我都搞不懂发生了什么了。"
+    tuki "原来如此，是这么回事啊……。"
+    extend "\n真是的，别用这种方式吓唬我啊。\n刚才那一瞬间，我真的完全搞不清状况了。"
     show sora 1 at topright with dissolve
-    sora "啊，啊哈哈……吓了哥哥一跳呢。"
-    extend "\n但是，我得好好负起责任来才行……。"
+    sora "啊、啊哈哈……吓了哥哥一跳呢。"
+    extend "\n但是，我觉得我必须要负起责任才行……。"
     show tuki 17 with dissolve
-    tuki "这股志气我认可，不过再怎么说这也做过头了。"
-    extend "\n[player_surname]君不也是，因为你而不知所措。"
-    me "啊，啊哈哈哈……。"
+    tuki "这股志气我认可，不过再怎么说，这也做过头了。"
+    extend "\n[player_surname]不也是，因为你而不知所措了。"
+    me "啊、啊哈哈哈……。"
     show sora 18 with dissolve
     sora "呜呜……真的非常抱歉。"
     me "没事没事！"
     extend "\n空的心意我已经好好感受到了！"
-    extend "\n所以你不用在意的！！"
+    extend "\n真的不用这么在意的！！"
     show sora 21 with dissolve
     sora "嗯……。"
-    "和我说话时相反，空已经完全进入消沉模式了。"
+    "尽管我努力在安慰他，但空已经完全进入了消沉模式。"
     show tuki 6 with dissolve
-    tuki "……[player_surname]，我先把你们的行李给收拾好，\n这期间，能麻烦你照看下空吗？"
-    me "好。"
+    tuki "……[player_surname]，我去把你们两人的行李拿过来。\n这期间，能麻烦你照看一下空吗？"
+    me "没问题。"
     extend "\n谢谢你啦，月。"
     play sound "fx/sliding_door.ogg"
     hide tuki with dissolve
@@ -2955,73 +2955,73 @@ label day3_cooking_sora:
     hide sora with dissolve
     show sora 20 at top with dissolve
     window show
-    sora "为什么我不能像哥哥一样办事麻利啊......"
+    sora "唉……为什么我就没办法像哥哥那样，把事情处理得那么利索呢……。"
     extend "\n就因为这样，大家都能看出我是弟弟了。"
-    extend "\n因为是双胞胎，我明明也可以被大家认为是哥哥的，\n可从来没有过这种情况……。"
-    "不对，比起内在，月的外在成长明显快得多……"
+    extend "\n明明是双胞胎，我也想被大家当成哥哥看待啊，\n可从来没有过这种情况……。"
+    "不，我觉得那倒不是内在的问题，纯粹是因为月的身体发育比你早了一步吧……"
     extend "\n虽然我这样想，但没有说出口。"
     me "没问题的。"
-    extend "\n空就是空，也有比月优秀的地方。"
+    extend "\n空君就是空君，你也有比月优秀的地方。"
     show sora 25 with dissolve
-    sora "才没有……"
-    extend "\n不管怎么做，我都比不过哥哥……"
-    "空比较感性，所以他的失落也更加真切可见。"
-    extend "\n虽然一直没有表现出来，但内心怀着的那种情结，还有平日里一直放在心上的事情，就感觉像是一下子流露出来了一样……。"
+    sora "才没有那种事……。"
+    extend "\n无论我怎么努力，都是赢不了哥哥的……。"
+    "空是个感性的孩子，此刻他的失落显得格外真切。"
+    extend "\n虽然平时他都藏得很好，但那些一直悄悄放在心底的自卑和小烦恼，这次似乎一下子流露出来了。"
     me "虽然你可能自己没有意识到，"
-    extend "\n但在旁人看来，你也是有优点的。"
+    extend "\n但在旁人看来，空真的有很多闪光点哦。"
     show sora 21 with dissolve
-    sora "……在旁人眼里，是怎样的？"
-    me "嗯～……月是很坚强的，很可靠的。空是很温柔的，会支持别人的。"
-    extend "\n虽然性格不同，但各自都很可靠。"
-    extend "\n只是，今天是事与愿违，所以才出错了，"
-    extend "\n对……比如说，昨天我就看到了空的优点哦。"
+    sora "……在旁人眼里，我是怎样的？"
+    me "嗯~……月很坚强，是那种让人想依靠的类型；空很温柔，是默默支持别人的类型。"
+    extend "\n虽然类型不同，但各自都很出色。"
+    extend "\n今天的事只是个意外，是因为你太想负责了才不小心弄巧成拙。"
+    extend "\n比如昨天，我就看到了空身上不可替代的优点哦。"
     show sora 5 with dissolve
     sora "优点？"
     me "嗯。"
-    extend "\n昨天，在空的家出现了蜘蛛的时候，\n空自己主动去帮助月。"
-    extend "\n正因为有你在，月才能发挥出强大的一面。"
-    me "而且我一直都很佩服空的亲切。"
-    extend "\n周围的人也都看到了空的长处，\n没有人会觉得空比月差。"
+    extend "\n昨天，在你们家出现蜘蛛的时候，\n是你主动冲上去帮助和支持着月。"
+    extend "\n正因为有你在，月才能发挥出强大的一面啊。"
+    me "而且我一直都很佩服空的这份亲切。"
+    extend "\n周围的人也都看在眼里呢，\n没有人会觉得空比月差。"
     show sora 30 with dissolve
-    sora "……是吗，谢谢你。"
-    extend "\n总感觉，心情变好了。"
-    "说着，空露出了平时的那种可爱笑容。"
+    sora "……这样啊，谢谢你。"
+    extend "\n听你这么说，我感觉好多了。"
+    "说着，空终于露出了他往常那可爱的笑容。"
     window hide
     hide sora with dissolve
     play sound "fx/sliding_door.ogg"
     window show
-    "哐当哐当"
+    "（哐当哐当）"
     show tuki 9 at topleft with dissolve
     tuki "让你们久等了。"
-    extend "\n你们的东西就放这里了。"
+    extend "\n你们的东西我就放这里了。"
     show sora 3 at topright with dissolve
-    sora "谢谢，哥哥。"
-    me "谢谢。"
+    sora "谢谢哥哥。"
+    me "谢谢啦。"
     show tuki 6 with dissolve
-    tuki "嗯？你们俩衣服还没换吗。"
-    extend "\n沾了奶油的衣服很难看，没法回去吧。"
-    extend "\n趁现在换掉比较好哦。"
+    tuki "嗯？你们两个怎么还没换衣服。"
+    extend "\n这一身奶油的狼狈样子，没法直接回家吧。"
+    extend "\n趁现在换掉比较好。"
     show sora 5 with dissolve
-    sora "啊……是啊。"
-    extend "\n刚才那么忙乱，完全忘记了要换体操服！"
-    "空马上脱掉立领制服，开始解衬衫扣子。"
+    sora "啊……对哦。"
+    extend "\n刚才慌慌忙忙的，完全忘记了要换体操服！"
+    "空迅速脱掉了校服外套，开始解衬衫的扣子。"
     hide sora with dissolve
     hide tuki with dissolve
     stop music fadeout 0.5
-    "咕噜……"
+    "（咽口水）"
     window hide
     play music "emergency.ogg"
     show tuki 5 at topleft with dissolve
     window show
-    tuki "等一下，空。\n你去储物柜前换衣服。"
-    extend "\n然后，[player_surname]。\n你去黑板前换衣服。"
+    tuki "等一下，空。\n你去储物柜后面换衣服。"
+    extend "\n然后，[player_surname]。\n你去黑板那边换。"
     show sora 4 at topright with dissolve
     sora "诶？为什么？"
     show tuki 17 with dissolve
-    tuki "有人会用不怀好意的眼光看你。"
+    tuki "因为这里有个家伙，会用不怀好意的眼光看你。"
     play sound "fx/boing.ogg"
-    "咕"
-    me "到，到底，什么情况啊~？？\n那，那种家伙在哪里，我去收拾他！"
+    "（惊）"
+    me "这、这是怎么回事啊~？？\n那、那种家伙在哪里，我去收拾他！"
     extend "\n啊哈哈哈……。"
     show tuki 20
     show sora 29 with dissolve
@@ -3029,45 +3029,45 @@ label day3_cooking_sora:
     tuki_and_sora "（盯……）"
     me "呜……。"
     show tuki 8 with dissolve
-    tuki "不要小看我们的目光。"
-    extend "\n人们的心思其实都表现在眼睛里哦。"
+    tuki "别小看我们的眼睛。"
+    extend "\n人的心思其实都表现在眼睛里哦。"
     show sora 23 with dissolve
     sora "就算说谎也没用的。"
-    extend "\n[player_name]君，你又在想什么奇怪的事情呢！"
-    me "啊，好的……对不起。"
+    extend "\n[player_name]君，你又在想什么奇怪的事情了吧！"
+    me "是、是……对不起。"
     extend "\n我老老实实地转过身开始换衣服。"
     window hide
     hide sora with dissolve
     hide tuki with dissolve
     window show
-    "我灰头土脸地走到黑板前，开始换衣服……但是不会放弃！！"
-    "身为正太控的这个秘密已经伴随我25年，"
-    extend "\n平日里就经常偷看少年的我，已经变成了一个偷窥高手！！！"
-    extend "\n这种程度的状况，没有什么了不起的……我随随便便就能偷窥到的！！"
+    "虽然我一脸沮丧地走到了黑板前，但我绝不会就此放弃！！"
+    "作为一名隐姓埋名25年的资深正太控，"
+    extend "\n平日里就经常偷看少年的我，早已成为一名偷窥高手！！！"
+    extend "\n这点程度，对我来说根本不算什么……看我轻松拿下！！"
     play sound "fx/heartbeat.ogg"
     "慎重地……"
     extend "冷静地……"
-    extend "趁机……"
+    extend "寻找空隙……"
     extend "算准绝妙的时机……"
     stop music fadeout 0.3
     show cg c56 at center with FadeWhite(0.5)
     play sound "fx/eureka.ogg"
-    "偷看"
+    "（偷看）"
     window hide
     play music "bwv147.ogg"
     show cg adult with dissolve
     window show
-    "看到了……看到了！！"
+    "看……看到了！！"
     extend "\n终于，我亲眼确认了！！"
-    "那时说的都是真的……！！！！"
+    "之前说的都是真的……！！！！"
     extend "\n……他真的穿着兜裆布……！！"
-    "光是知道这个事实，我就已经满足了……。"
+    "光是知道这个事实，我就已经非常满足了……。"
     window hide
     stop music fadeout 0.3
     show cg school_building_evening with dissolve
     window show
     play sound "fx/triangle.ogg"
-    "在这之后，不出所料，月发现了被真相所震撼的我。"
+    "不出所料，被真相吸引得入迷的我，又被月当场发现了。"
     window hide
     hide bg with Dissolve(1.0)
     hide cg with Dissolve(1.0)
