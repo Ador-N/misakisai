@@ -2051,7 +2051,7 @@ label day3_cooking:
 label day3_supply:
     hide 班選択 with dissolve
     window show
-    "去「采购组」吧！"
+    "去『采购组』吧！"
     window hide
     stop music fadeout 0.5
     hide bg with dissolve
@@ -2060,12 +2060,12 @@ label day3_supply:
     show tuki 1 at topleft
     show sinobu 24 at topright with dissolve
     window show
-    sinobu "采购组，这是买的东西清单。"
+    sinobu "采购组，这是购物清单。"
     show tuki 6 with dissolve
-    tuki "标星号的要从明天开始准备，\n没标星号的就在开始前一天去买。"
+    tuki "标星号的明天开始就要准备，\n没标星号的在学园祭前一天去买就可以了，"
     extend "\n比如料理的材料。"
     show sinobu 4 with dissolve
-    sinobu "那么，多多指教。"
+    sinobu "那么，就拜托了。"
     window hide
     play sound "fx/running.ogg"
     hide sinobu with dissolve
@@ -2073,20 +2073,20 @@ label day3_supply:
     pause 0.4
     show saburo 7 at topright with dissolve
     window show
-    saburo "呜哇啊~，我们也有活干了啊，穗海同学。"
+    saburo "呜哇啊~……我们也有活干了啊，穗海同学。"
     show sakuya 5 at topleft with dissolve
-    sakuya "我看看……我看看……"
+    sakuya "我看看……这都什么跟什么啊。"
     show sakuya 6 with dissolve
-    extend "\n什么啊，居然有这么多小东西。"
-    extend "\n话说，浆糊和折纸之类的，自己买不就好了吗。"
-    me "算，算了算了。\n这也算是我们的工作，加油吧。"
+    extend "\n怎么尽是些小物件。"
+    extend "\n话说，浆糊和折纸之类的，他们自己买不就好了吗。"
+    me "好啦好啦。\n这也算是我们的工作嘛，一起加油吧。"
     show saburo 27 with dissolve
     saburo "说得对~。"
-    extend "\n东西很多，不过也就代表不会是大手笔的购物，\n那就一鼓作气去吧~。"
+    extend "\n既然都是些零碎的小件，看样子也不会是什么大采购，\n那就一口气搞定吧~。"
     show sakuya 15 with dissolve
-    sakuya "好的~。\n这种程度，去市内的百货公司就可以了吧。"
-    extend "\n赶紧出发，赶紧结束。"
-    "这么决定了之后，我们离开了学校，前往附近的百货公司。"
+    sakuya "真拿你们没办法~。\n这种程度的东西，去市内的百货公司就可以了吧。"
+    extend "\n赶紧出发，赶紧买完收工。"
+    "这么决定了之后，我们便离开学校，前往附近的百货公司。"
     window hide
     stop music fadeout 2.0
     hide saburo with dissolve
@@ -2101,36 +2101,36 @@ label day3_supply:
     show sakuya 19 at top with dissolve
     window show
     sakuya "给，这个。"
-    "作哉把刚才的购物清单漂亮地分成三等份，分别交到了各人手中。"
+    "作哉把那张购物清单利落地分成三等份，分别交到了各人手中。"
     show sakuya 20 with dissolve
-    sakuya "然后你们就把要买的东西放进购物篮里。"
-    extend "\n钱放在我这里，用来买材料。\n等你们买齐后，我来算你们的钱。"
-    extend "\n可以吗？"
-    me "知，知道了。"
-    extend "\n话说回来，作哉，你办事真麻溜啊。"
+    sakuya "然后，你们就把要买的东西各自放进购物篮里。"
+    extend "\n采购用的预算在我这，\n等我们都拿齐了，再一起结账。"
+    extend "\n明白了吗？"
+    me "知、知道了。"
+    extend "\n话说回来，作哉君，你办事真麻利啊。"
     hide sakuya with dissolve
     show saburo 21 at topright with dissolve
-    saburo "明明以前那么磨蹭的家伙，\n是着了什么道吗？"
+    saburo "明明以前那么磨蹭的家伙，\n今天这是吹的什么风啊。"
     show sakuya 8 at topleft with dissolve
-    sakuya "麻利点也没什么吧！！"
-    extend "\n我只是在思考怎么才能快点把这个麻烦事给解决掉！"
+    sakuya "有、有什么不好的啊！！"
+    extend "\n我只是在想怎么才能快点把这个麻烦事给解决掉！"
     show saburo 17 with dissolve
-    saburo "嘴上这么说……其实是想快点参加学园祭吧~？"
+    saburo "嘴上这么说……其实心里是很期待学园祭的吧~？"
     show sakuya 17 with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
     sakuya "怎么可能！！\n开咖啡店什么的，真的是麻烦得要死！"
-    extend "\n稍微动动脑子就知道这是个馊主意了，猫头！！"
+    extend "\n稍微动动脑子就知道这是个馊主意了，你个猫头！！"
     me "啊哈哈。"
-    extend "\n作哉你真不坦率啊。"
+    extend "\n作哉君真是不坦率呢。"
     show sakuya 16 with dissolve
-    sakuya "哈，哈啊？不要擅自下定论啊！"
-    extend "\n话说，别光在那瞎说，快点分头去买啊！！"
-    extend "\n要尽快搞定这个麻烦事！"
-    "作哉趁我和咧嘴坏笑的三朗不注意的空隙，开始行动起来了。"
+    sakuya "哈、哈啊？少在那给我擅自下定论啊！"
+    extend "\n话说，别在那废话了，快点分头去买啊！！"
+    extend "\n快点搞定收工了！"
+    "作哉瞥了眼还在那儿坏笑的三朗和我，便率先行动起来。"
     play sound "fx/running.ogg"
     hide sakuya with dissolve
-    "\n然后我们便也跟着动了起来，开始收集笔记上所写的东西。"
+    "\n随后，我们也为了收集清单上的物品，各自动身了。"
     window hide
     play sound "fx/running.ogg"
     hide saburo with Dissolve(0.8)
@@ -3078,51 +3078,51 @@ label day3_supply_sakuya:
     play music "sakuya_theme.ogg"
     window show
     me "这就是最后一项……了。"
-    "我收集完要负责的东西后，从商品架的缝隙间看到了作哉。"
+    "我把要负责的东西都收集完毕之后，从货架的缝隙间看到了作哉。"
     "嗯……？"
-    extend "那个地方是宠物用品的区域，\n购物清单上有这样东西吗？"
+    extend "那个地方是宠物用品的区域，\n采购清单上会有那种东西吗？"
     window hide
     window show
     me "作哉君，怎么样？"
-    extend "\n购物顺利吗？？"
+    extend "\n采购还算顺利吗？"
     show sakuya 29 at top with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
     sakuya "呃！[player_surname]……。"
     show sakuya 12 with dissolve
-    extend "\n还，还行吧。"
+    extend "\n还、还行吧。"
     extend "\n别管我了，你那边怎么样了？"
     me "我这边已经买齐了。"
-    extend "\n作哉，你为什么要把篮子藏起来啊？"
+    extend "\n所以，作哉君，你为什么要把篮子藏起来呀？"
     show sakuya 11 with dissolve
     sakuya "呃……这个……"
     me "等等，让我看一下！"
     hide sakuya with dissolve
-    "我用点强硬的手段从作哉的篮子里抢走了篮子和便签。"
+    "我略显强硬地从作哉手里抢过了购物篮和采购清单。"
     window hide
     window show
-    me "……狗粮不在清单里吧？"
-    extend "\n为什么装进篮子里了啊？？"
+    me "……这袋狗粮不在清单里吧？"
+    extend "\n为什么放进篮子里了？"
     show sakuya 7 at top with dissolve
-    sakuya "呜……平时的宠物店不卖这个……。"
-    extend "\n小翼最喜欢这个了……。"
-    me "不行！"
+    sakuya "呜……我平时去的宠物店不卖这一种……。"
+    extend "\n对小翼来说，这个才是最合适的啊……。"
+    me "不——行！"
     extend "\n这种东西就用你自己的钱买吧。"
     show sakuya 8 with dissolve
-    sakuya "稍微用点钱又有什么关系！"
+    sakuya "稍微用一点又有什么关系！"
     extend "\n反正也不会被发现的。"
-    me "不行！"
-    extend "\n要是提交收据和明细单的话，迟早会暴露的。"
-    extend "\n而且，就算不被发现也不可以做坏事啊。"
+    me "绝对不行！"
+    extend "\n最后是要上交收据和明细表的，挪用的事很快就会暴露。"
+    extend "\n而且，不能因为『不会被发现』就去做坏事吧。"
     show sakuya 32 with dissolve
     sakuya "……小气鬼。"
-    me "唔……"
+    me "唔。"
     play sound "fx/eureka.ogg"
-    extend "\n我要告诉小翼。"
+    extend "\n那我可要告诉小翼了。"
     show sakuya 9 with dissolve
-    sakuya "我，我知道了啦……真是的。\n自己花钱买总行了吧。"
-    extend "\n……真是的，说话的语气像大叔一样。"
-    "作哉一边小声嘟囔一边把宠物食品放到其他篮子里。"
+    sakuya "我、我知道了啦……真是的。\n自己花钱买总行了吧。"
+    extend "\n……切，说话的语气简直跟学校里的臭老头一模一样。"
+    "作哉一边小声嘟囔着，一边把狗粮放到了另一个篮子里。"
     window hide
     stop music fadeout 1.0
     hide bg with Dissolve(0.8)
@@ -3134,48 +3134,48 @@ label day3_supply_saburo:
     play music "saburo_theme.ogg"
     window show
     me "这就是最后一项……了。"
-    "当我把负责的货品都拿完了之后，三朗出现在了商品架的缝隙里。"
+    "我把要负责的东西都收集完毕之后，从货架的缝隙间看到了三朗。"
     "嗯……？"
-    extend "那个方向是零食区的位置，\n购物单上有那样的东西吗？"
+    extend "那边，是零食区的位置吧。\n采购清单上会有那种东西吗？"
     window hide
     window show
-    sakuya "三朗，怎么样？"
-    extend "\n购物顺利吗？？"
+    sakuya "三朗君，怎么样？"
+    extend "\n采购还算顺利吗？"
     show saburo 21 at top with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
     saburo "哇啊！！吓死人了！！！"
     show saburo 7 with dissolve
-    extend "\n很顺利的呢哈哈哈哈哈！"
-    sakuya "……三朗，你为什么要把篮子藏起来？"
+    extend "\n很顺利呢~呐哈哈哈哈哈！"
+    sakuya "……三朗君，你为什么要把篮子藏起来呀？"
     show saburo 4 with dissolve
-    saburo "呃~那个~这个~"
+    saburo "哎~呀……那个~这个~"
     me "等等，让我看一下！"
     hide saburo with dissolve
-    "我强行从三朗手中拿走了篮子和笔记。"
+    "我略显强硬地从三朗手里抢过了购物篮和采购清单。"
     window hide
     window show
-    sakuya "……这个零食不在购物单里吧？"
-    extend "\n为什么装进篮子里了啊？？"
+    sakuya "……这袋点心不在清单里吧？"
+    extend "\n为什么放进篮子里了？"
     show saburo 17 at top with dissolve
     saburo "啊哈哈哈！"
-    extend "\n我，我啊，现在在工作呢，\n买一两样零食应该没什么问题吧~反正……。"
-    extend "\n这，这是海外所说的给小费吧？"
-    me "不行！"
-    extend "\n还给我。"
+    extend "\n我、我这不算是在工作嘛，\n买一两样点心应该没什么问题吧~反正……。"
+    extend "\n就、就当作是国外说的小费？"
+    me "不——行！"
+    extend "\n快放回去。"
     show saburo 6 with dissolve
-    saburo "诶~！！没关系的只有一点点~。"
-    sakuya "不行。"
-    extend "\n要是提交收据和明细单的话，迟早会暴露的。"
+    saburo "诶~！！就一点点嘛，没关系啦~。"
+    sakuya "绝对不行。"
+    extend "\n最后是要上交收据和明细表的，挪用的事很快就会暴露了。"
     play sound "fx/eureka.ogg"
-    extend "\n……如果太任性的话，我会告诉慎太郎的。"
+    extend "\n……如果你这么任性的话，我可要告诉慎太郎君了哦。"
     show saburo 12 with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute2.ogg"
     saburo "呀~~~！！放过我吧！！"
-    extend "\n明白了！我这就去放回去！！\n所以，千万不要跟那家伙说！"
-    extend "\n我也不知道会受到什么样的惩罚……。"
-    "三朗边说边心不甘情不愿地把点心放了回去。"
+    extend "\n我知道了啦！我这就放回去！！\n所以，千万不要跟那家伙说！"
+    extend "\n要是被他知道了，我都不敢想会被怎么整……。"
+    "三朗一边嘟囔着，一边心不甘情不愿地把点心放了回去。"
     window hide
     stop music fadeout 1.0
     hide saburo with Dissolve(0.8)
@@ -4192,24 +4192,24 @@ label day3_supply_2:
     play music "umesaki2.ogg"
     show bg department_store1 at center with Dissolve(0.8)
     window show
-    "就这样，在我们把各自点的东西都凑齐之后，我们便去结账了。"
-    extend "\n多亏了作哉的提案，不到一小时我们就买完了清单上写的所有东西。"
+    "就这样，我们把清单上的物品全部收集完毕，也顺利结了账。"
+    extend "\n多亏作哉的分配方案，不到一小时我们就搞定了。"
     show sakuya 15 at topleft with dissolve
-    sakuya "好嘞。\n这样就买完了清单上写的所有东西。"
-    extend "\n接下来只要买好明天的食材就可以了。"
+    sakuya "好嘞。\n这样就买完了清单上写的所有材料。"
+    extend "\n接下来只要等学园祭前一天来买烹饪食材就行了。"
     show saburo 25 at topright with dissolve
-    saburo "怎么，这么快就搞定了啊。"
-    extend "\n采购组难道是最轻松的组吗？"
+    saburo "什么呀，竟然这么快就搞定了。"
+    extend "\n难不成，采购组是所有小组里最轻松的一个？"
     me "可能吧。"
-    extend "\n那么，买好东西之后回学校吧。"
+    extend "\n那么，先把买好的东西放回学校去吧。"
     show saburo 6 with dissolve
-    saburo "诶~这么快就要回去了吗？"
+    saburo "诶~这就要回去了吗？"
     extend "\n机会难得，要不要去哪逛逛？"
     show sakuya 10 with dissolve
     sakuya "要去哪逛啊。"
     show saburo 10 with dissolve
-    saburo "去游戏中心之类的或者卡拉OK之类的。"
-    extend "\n毕竟今天这么快就搞定了嘛。"
+    saburo "去游戏中心或者卡拉OK之类的~。"
+    extend "\n毕竟今天这么早就收工了嘛。"
     extend "\n稍微玩一下再回去也没事的。"
     "嗯……。"
     hide sakuya with dissolve
@@ -4285,7 +4285,7 @@ label day3_supply_2_saburo:
     sakuya "你这家伙，太不跟潮流了……"
     extend "\n现在学校里最流行的是吉祥物了。"
     me "诶~……吉祥物啊……。"
-    "我沉浸于「不了解年轻人的品味啊」这种大叔思想中，\n而三朗一边熟练地操作着夹子，向着布偶的头顶靠近。"
+    "我沉浸于『不了解年轻人的品味啊』这种大叔思想中，\n而三朗一边熟练地操作着夹子，向着布偶的头顶靠近。"
     show cg remarkable with FadeWhite(0.5)
     play sound "fx/eureka.ogg"
     saburo "好~，就这一块。"
@@ -4540,24 +4540,24 @@ label day3_supply_2_saburo:
 label day3_supply_2_sakuya:
     stop music fadeout 2.0
     window show
-    "不，这里不需要绕路，直接回学校吧。"
+    "不，现在还是不到处玩了，直接回学校吧。"
     window hide
     play music "sakuya_theme.ogg"
     window show
-    me "先回学校吧！"
-    extend "\n拿着材料走很累人，而且绕路也不好。"
+    me "还是先回学校吧！"
+    extend "\n拎着这么多材料到处跑太累了，现在去玩也不合适。"
     show saburo 28 at top with dissolve
-    saburo "诶！有什么不好的嘛！"
-    me "要绕路的话，等放学了再绕也行吧？"
+    saburo "诶——！有什么不好嘛，就一下下！"
+    me "想玩的话，等放学了再去也行吧？"
     show saburo 18 with dissolve
-    saburo "嘛……倒也是啊。"
+    saburo "嘛……倒也是啦。"
     hide saburo with dissolve
     show sakuya 25 at topleft with dissolve
-    sakuya "不也挺好嘛。"
-    extend "\n那样的话，就算麻烦的工作也很快就能搞定，\n之后就无忧无虑地自由行动了不是嘛。"
+    sakuya "不也挺好的。"
+    extend "\n这样既能快点把麻烦的工作搞定，\n之后也能无忧无虑地自由行动了。"
     show saburo 9 at topright with dissolve
-    saburo "是啊~……"
-    extend "\n那要不就回学校吧。"
+    saburo "也是哦~……"
+    extend "\n那就，回学校吧。"
     window hide
     hide saburo with dissolve
     hide sakuya with dissolve
@@ -4570,42 +4570,42 @@ label day3_supply_2_sakuya:
     saburo "材料放教室里就行了吧？"
     show sakuya 31 at topleft with dissolve
     sakuya "啊啊。"
-    extend "\n随便放那就行了吧。"
+    extend "\n随手放那儿就行了。"
     me "好了，这回采购组的工作总算是干完了吧。"
     show saburo 7 with dissolve
     saburo "哎呀~真是帮大忙了~。"
     show saburo 2 with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute2.ogg"
-    extend "\n那么~！接下来去哪玩呢？"
+    extend "\n那么——！接下来去哪儿玩呢？"
     show sakuya 15 with dissolve
-    sakuya "啊不好意思！"
-    extend "\n我还有点事要办，哒咩！"
+    sakuya "啊，不好意思！"
+    extend "\n我还有点事要办，就不去了！"
     show saburo 11 with dissolve
     $ renpy.transition(Quake(40, 0, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
-    saburo "诶~！！为什么啊~！"
+    saburo "诶~！！为什么啊！"
     extend "\n去玩嘛穗海~！！！"
     show sakuya 9 with dissolve
-    sakuya "不行。"
-    extend "\n想去就你自己去吧。"
+    sakuya "不——要。"
+    extend "\n想去你就自己去吧。"
     show saburo 18 with dissolve
-    saburo "明白了~。"
-    extend "\n那么，[player_surname]就和我一起去游戏中心~！"
+    saburo "好吧~。"
+    extend "\n那么，[player_surname]就和我一起去游戏厅吧~！"
     show sakuya 21 with dissolve
     sakuya "啊啊，[player_surname]不行。"
-    extend "\n我这边还得用他。"
+    extend "\n这家伙我还要用呢。"
     play sound "fx/boing.ogg"
-    me "诶，是这样的吗？"
+    me "诶，是这样吗？"
     show sakuya 8 with dissolve
-    sakuya "好，好啦！"
-    extend "\n你留在这里！！"
+    sakuya "好、好啦！"
+    extend "\n你就老实留在这里！！"
     show saburo 8 with dissolve
     saburo "唔唔~什么嘛~！！"
-    extend "\n要是这样的话，我也留下啊。"
+    extend "\n要是这样的话，我也留下好了。"
     stop music fadeout 2.0
     show sakuya 3 with dissolve
-    sakuya "我觉得还是不留下比较好……。"
+    sakuya "我劝你最好还是别跟着……。"
     extend "\n因为，你，害怕那种东西吧？"
     window hide
     play music "discovery.ogg"
@@ -4614,13 +4614,13 @@ label day3_supply_2_sakuya:
     "这样说着，作哉把放着狗粮的包拿给三朗看。"
     play sound "fx/dash.ogg"
     saburo "诶！！！"
-    extend "\n那，那是狗的……饲料！？！？"
-    sakuya "就是这样。"
-    extend "\n拿着这个的话，\n大概能够想象得到，我们现在要见的是什么。"
+    extend "\n那、那是狗的……饲料！？！？"
+    sakuya "没错。"
+    extend "\n拿着这个的话，\n接下来我们要去见谁，你大概能猜到了吧。"
     play sound "fx/shock.ogg"
-    saburo "狗，狗呜呜呜呜！！"
-    extend "\n我讨厌狗绝对讨厌！！"
-    extend "\n猫山家，代代都不擅长应付狗啊~~！！"
+    saburo "狗、狗狗呜呜呜呜！！"
+    extend "\n我讨厌狗，绝对绝对讨厌！！"
+    extend "\n猫山家，世世代代都不擅长应付狗和水啊~~！！"
     play sound "fx/boing.ogg"
     "这不就是猫嘛！！"
     window hide
@@ -4629,27 +4629,27 @@ label day3_supply_2_sakuya:
     hide cg with dissolve
     show saburo 15 at top with dissolve
     window show
-    saburo "呜……那么，我一个人去吧~……。"
-    extend "\n我绝对不想见狗……。"
+    saburo "呜……那我就一个人去吧~……。"
+    extend "\n我绝对不要见到狗……。"
     extend "\n那么，你们俩，明天见吧~。"
     play sound "fx/running.ogg"
     hide saburo with dissolve
-    "这样说着，三朗就垂头丧气地离开了教室。"
+    "这样说着，三朗垂头丧气地离开了教室。"
     stop music fadeout 0.5
     window hide
     window show
     play music "sakuya_theme.ogg"
     me "原来如此。"
-    extend "\n所以，昨天也希望三朗回去呢。"
+    extend "\n所以说，昨天你也想让三朗君先回去啊。"
     show sakuya 5 at top with dissolve
     sakuya "就是这样！"
     extend "\n那么，走吧。"
     me "啊，嗯。"
     show sakuya 4 with dissolve
     sakuya "怎么慢吞吞的啊。"
-    extend "\n是你主动说的，\n要和我一起照顾小翼的。"
-    me "嗯，嗯，没错！"
-    extend "\n好嘞，赶紧去见小翼吧！"
+    extend "\n是你自己说，\n要和我一起照顾小翼的。"
+    me "嗯、嗯，没错！"
+    extend "\n好嘞，我们赶紧去见小翼酱吧！"
     play sound "fx/running.ogg"
     "这么说着，我迈开了脚步。"
     window hide
@@ -4660,7 +4660,7 @@ label day3_supply_2_sakuya:
     play sound "fx/boing.ogg"
     sakuya "等等……慢着！！"
     show sakuya 19 with dissolve
-    extend "\n真是的，没必要一下子就跑起来吧......"
+    extend "\n……真是的，没必要突然就跑起来吧……。"
     window hide
     hide bg with dissolve
     hide sakuya with dissolve
@@ -4673,79 +4673,79 @@ label day3_supply_2_sakuya:
     extend "\n小翼不见了。"
     stop music fadeout 0.5
     show sakuya 25 at top with dissolve
-    sakuya "我来叫他，你先冷静下来。"
-    "作哉一边说着一边从包里拿出一根绳子。"
+    sakuya "我来叫它，你先冷静点。"
+    "作哉说着，从包里翻出一根绳子，然后提高了嗓门。"
     show sakuya 23 with dissolve
-    sakuya "喂，小翼！出来吧！！"
+    sakuya "喂——小翼！出来吧！！"
     me "那根绳子是？"
     show sakuya 5 with dissolve
-    sakuya "那是牵引绳。"
-    extend "\n等会我用这个把小翼牵出来带出去散步。"
+    sakuya "是牵引绳。"
+    extend "\n等会我用这个把小翼系上，就可以带出去散步了。"
     window hide
     hide sakuya with dissolve
     window show
-    "草木丛生的地方传来了一阵窸窸窣窣的声音，\n不久，一个小小的脑袋从里头探了出来。"
+    "草木丛生的地方传来了一阵窸窸窣窣的声音。\n不久，一个小小的脑袋从里头探了出来。"
     show tsubasa 2 at top with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
-    tubasa "汪！汪！"
+    tsubasa "汪！汪！"
     me "噢噢~！真的冒出来了！！"
     hide tsubasa with dissolve
     show tsubasa 3 at topright
     show sakuya 24 at topleft with dissolve
-    sakuya "乖乖，好孩子。"
-    extend "\n看，这是小翼最喜欢的散步时间哦～。"
-    extend "\n今天，因为[player_surname]也在，所以我们3人开开心心地散步吧～。"
-    "作哉一边说着，一边细心地给小翼挂上了项圈。"
+    sakuya "乖哦乖哦，好孩子。"
+    extend "\n看，小翼最喜欢的散步时间到了哦~。"
+    extend "\n今天[player_surname]也在，我们三个一起开开心心去散步吧~。"
+    "作哉一边说着，一边细心地把牵引绳系到小翼的项圈上。"
     show sakuya 28 with dissolve
-    sakuya "好了，弄好了！"
-    extend "\n走吧。"
-    "作哉微笑着，牵着小翼走。"
+    sakuya "好了，搞定！"
+    extend "\n那我们出发吧。"
+    "作哉对着小翼露出一抹温柔的笑容，随后牵动了绳子。"
     hide sakuya with dissolve
     hide tsubasa with dissolve
     show sakuya 12 at top with dissolve
     play sound "fx/dash.ogg"
-    sakuya "喂[player_surname]，走咯。\n别发呆了。"
+    sakuya "喂，[player_surname]，走咯。\n别发呆了。"
     play sound "fx/triangle.ogg"
-    "就这样，我被拉开了一段距离。"
+    "看看，这就是区别。"
     window hide
     hide sakuya with dissolve
     hide tsubasa with dissolve
     hide bg with dissolve
     show bg residential_area at center with dissolve
     window show
-    "我们离开学校，将小翼带到了城市里。"
-    "小翼就像是在引导我们散步一样，\n精力充沛地在前方走着。"
+    "我们离开学校，带着小翼来到了街上。"
+    "小翼就像在带路一样，\n兴致勃勃地跑在最前面。"
     window hide
     show cg c81 at center with Radial(0.5)
     window show
     me "啊哈哈。\n小翼看起来很开心呢~。"
-    extend "\n很喜欢散步呢。"
-    sakuya "在学校里不能活动，压力积累了很多，\n所以要在这种地方发泄掉。"
+    extend "\n他真的很喜欢散步呢。"
+    sakuya "毕竟在学校里不能随便乱跑，积攒了很多压力吧，\n所以要在这时候发泄一下。"
     extend "\n对吧，小翼。"
     play sound "fx/cute2.ogg"
     tsubasa "汪！"
-    "怎么说呢，这简直就像一家人一样。"
-    extend "\n我是父亲，作哉是母亲，而小翼是小孩……太棒了。"
-    "回到家后，小翼累倒了，\n我们两口子在卧室里互相治愈对方的疲劳……。"
+    "总觉得，这画面……简直就像是一家人一样。"
+    extend "\n我是爸爸，作哉是妈妈，而小翼是孩子……太棒了。"
+    "等回到家之后，小翼酱因为玩累了而呼呼大睡，\n我们两口子则在卧室里用这样那样的方式抚慰一天的疲劳……。"
     play sound "fx/sparkle.ogg"
     show cg adult with Radial(0.5)
     "呜哇啊啊啊！！"
     extend "\n那样的话就太棒啦啊啊啊！！！！"
     sakuya "喂。"
     play sound "fx/eureka.ogg"
-    me "怎么了，亲爱的！"
+    me "怎么啦？亲爱的！"
     window hide
     hide sakuya with Dissolve(0.2)
     hide cg with Dissolve(0.2)
     $ renpy.transition(Quake(0, 50, 0.15, 0.09), layer='master')
     play sound "fx/punch2.ogg"
     window show
-    "啪！"
+    "（啪！）"
     show tsubasa 3 at topright
     show sakuya 27 at topleft with dissolve
-    "欠打吗？"
-    me "诶……抱歉……。"
+    "欠打吗。"
+    me "是……对不起……。"
     show sakuya 5 with dissolve
     sakuya "你知道这附近有什么宽敞的公园吗？"
     me "宽敞？"
@@ -4907,7 +4907,7 @@ label day3_supply_2_sakuya:
     window show
     "然后，他发现后马上跑了过来，舔了舔作哉的脸颊。"
     extend "\n仿佛是在说：打起精神来！"
-    sakuya "你看，小翼也在说着「打起精神来」呢。"
+    sakuya "你看，小翼也在说着『打起精神来』呢。"
     sakuya "哈哈哈。\n谢谢你，小翼。"
     extend "\n也要谢谢你，这么关心我。"
     extend "\n今天说了这些话，对不起。"
@@ -4923,7 +4923,7 @@ label day3_supply_2_sakuya:
     show sakuya 33 at top with dissolve
     window show
     sakuya "不过"
-    extend "「狗生」可没有啊。「狗生」。"
+    extend "『狗生』可没有啊。『狗生』。"
     extend "\n没什么品味啊。\n就没有别的说法吗？"
     me "不，不……因为，狗的“人生”听起来实在是太奇怪了……。"
     show sakuya 35 with dissolve
@@ -5702,7 +5702,7 @@ label day3_design_2_self:
     window hide
     show cg school_building_morning at center with Dissolve(0.7)
     window show
-    "就这样，我们把散乱的道具工具收拾妥当，\n结束了服装组今天的全部工作。"
+    "就这样，我们把散乱的工具收拾妥当，\n结束了服装组今天的全部工作。"
     stop music fadeout 1.0
     window hide
     hide bg with Dissolve(0.8)
@@ -5912,38 +5912,38 @@ label day3_supply_self:
     play music "cute_silly.ogg"
     window show
     me "这就是最后一项……了。"
-    "我将要负责的东西都收集完毕之后，便从商品架的缝隙中看到了作哉和三朗。"
+    "我把要负责的东西都收集完毕之后，从货架的缝隙间看到了作哉和三朗。"
     "嗯……？"
-    extend "那里，是游戏区的位置，\n但是采购清单上不可能有那个……的啊。"
+    extend "那边，是游戏区的位置吧。\n采购清单上……不可能会有那种东西吧。"
     window hide
     window show
     me "喂，你们两个。"
-    extend "\n在这干什么呢？？"
+    extend "\n在这里干什么呢？"
     show saburo 21 at topright with dissolve
     $ renpy.transition(Quake(0, 40, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
-    saburo "哎，[player_surname]……。"
+    saburo "哎呀，[player_surname]……。"
     show sakuya 15 at topleft with dissolve
     sakuya "啊啊，被发现了。"
-    me "还以为你突然变得正经了呢，结果还是老样子啊。"
-    extend "\n虽然我觉得你们已经知道了，但你们可别用收到的钱去玩啊。"
+    me "还以为你们突然变正经了呢，结果还是老样子啊。"
+    extend "\n虽然我觉得你们心里有数，但可别动用公费玩游戏啊。"
     show saburo 9 with dissolve
-    saburo "诶诶，我们知道的啦~。"
+    saburo "嗯嗯，我们知道的啦~。"
     show sakuya 24 with dissolve
-    sakuya "但是，我们还剩了挺多钱的，就算不拿来玩，\n稍微买点别的东西也没关系的吧……。"
+    sakuya "但是，预算还剩了不少，就算不拿来玩，\n稍微买点别的东西也没关系的吧……。"
     play sound "fx/eureka.ogg"
     me "会挨骂的。"
     show saburo 8
     show sakuya 11 with dissolve
     play sound "fx/boing.ogg"
     sakuya_and_saburo "小气！"
-    me "就是小气了才好。"
-    extend "\n而且，你们也要提交收据和明细的，反正你们的事情已经暴露了。"
-    extend "\n老师还唠唠叨叨地批评你们也挺麻烦的吧。"
+    me "就是要小气一点。"
+    extend "\n而且，收据和明细表最后都是要上交的，你们干的好事迟早会穿帮。"
+    extend "\n到时候被老师唠唠叨叨地训话，也很麻烦吧。"
     show saburo 6 with dissolve
-    saburo "嘛~，虽然这么说也是有道理啦。"
+    saburo "嘛~，这倒也是啦。"
     show sakuya 19 with dissolve
-    sakuya "真是的。[player_surname]啊，平时的时候就喜欢胡闹，\n只有这种时候突然变得很正经呢~。"
+    sakuya "真是的。[player_surname]这家伙，明明平时那么爱胡闹，\n只有这种时候突然变得很正经呢~。"
     window hide
     stop music fadeout 1.0
     hide bg with Dissolve(0.8)
@@ -5952,20 +5952,20 @@ label day3_supply_self:
     play music "umesaki2.ogg"
     show bg department_store1 at center with Dissolve(0.8)
     window show
-    "就这样，在我们把各自点的东西都凑齐之后，我们便去结账了。"
-    extend "\n多亏了作哉的提案，不到一小时我们就买完了清单上写的所有东西。"
+    "就这样，我们把清单上的物品全部收集完毕，也顺利结了账。"
+    extend "\n多亏作哉的分配方案，不到一小时我们就搞定了。"
     show sakuya 15 at topleft with dissolve
-    sakuya "好嘞。\n这样就买完了清单上写的所有东西。"
-    extend "\n接下来只要买好明天的食材就可以了。"
+    sakuya "好嘞。\n这样就买完了清单上写的所有材料。"
+    extend "\n接下来只要等学园祭前一天来买烹饪食材就行了。"
     show saburo 25 at topright with dissolve
-    saburo "怎么，这么快就搞定了啊。"
-    extend "\n采购组难道是最轻松的组吗？"
+    saburo "什么呀，竟然这么快就搞定了。"
+    extend "\n难不成，采购组是所有小组里最轻松的一个？"
     me "可能吧。"
-    extend "\n那么，买好东西之后回学校吧。"
+    extend "\n那么，先把买好的东西放回学校去吧。"
     window hide
     show cg sky at center with Dissolve(0.7)
     window show
-    "就这样，我们把采购的材料放在了学校之后就解散了，\n然后顺利地完成了今天的任务。"
+    "就这样，我们回学校放好材料后便解散了，\n顺利完成了今天的任务。"
     stop music fadeout 1.0
     window hide
     hide bg with Dissolve(0.8)
@@ -6020,22 +6020,22 @@ label day3_design_sirou:
 label day3_supply_sirou:
     hide 班選択 with dissolve
     window show
-    "去「采购组」吧！"
+    "去『采购组』吧！"
     window hide
     stop music fadeout 0.5
     hide bg with dissolve
     show bg classroom at center with dissolve
     play music "quiet_lunch.ogg"
     window show
-    me "那么，我要做些什么才好呢？"
+    me "那么，我要做些什么好呢？"
     show saburo 10 at topright with dissolve
-    saburo "这·是·说·呢~！"
-    extend "高兴吧，[player_surname]！！"
-    extend "\n刚才已经和各个小组确认过了，我们的工作在昨天之前就结束了，\n今天就可以回家了！"
+    saburo "那·就·是~！"
+    extend "恭喜你，[player_surname]！！"
+    extend "\n刚才已经和各个小组确认过了，我们的工作在昨天就结束了，\n所以今天可以直接回家啦！"
     show sakuya 6 at topleft with dissolve
-    "真是的，真会挑时间。一直都在划水。"
-    extend "\n至今为止有好好地派上用场吗。"
-    me "诶！怎，怎么这样！！"
+    sakuya "真是的，这时候知道冒出来了。"
+    extend "\n到现在为止，你到底有没有派上过一丁点用场啊。"
+    me "诶！怎、怎么这样！！"
     extend "\n那么，今天开心的校园生活，就要到此结束了？！"
     show saburo 17 with dissolve
     saburo "是啊！很高兴吧。"
@@ -6044,16 +6044,16 @@ label day3_supply_sirou:
     hide sakuya with dissolve
     play sound "fx/shock.ogg"
     window show
-    "轰！！"
+    "（受打击！！）"
     me "诶诶诶诶诶！！怎么可以这样……。"
     extend "\n这样我可是不满足的啊啊啊啊啊……。"
     show sakuya 10 at topleft with dissolve
-    sakuya "这家伙，说什么呢？"
+    sakuya "这家伙在说什么呢？"
     show saburo 24 at topright with dissolve
-    saburo "这里应该高兴才对。"
+    saburo "这种时候应该高兴才对吧。"
     show sakuya 15 with dissolve
     sakuya "奇怪的家伙……。"
-    extend "\n那么，猫山，我们回家吧。"
+    extend "\n那么，猫山。我们回家吧。"
     show saburo 5 with dissolve
     saburo "噢！"
     show saburo 4 with dissolve
