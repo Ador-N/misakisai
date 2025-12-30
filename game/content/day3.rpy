@@ -4751,12 +4751,12 @@ label day3_supply_2_sakuya:
     me "宽敞？"
     extend "\n嗯~比如车站附近的中央公园之类的？"
     show sakuya 25 with dissolve
-    sakuya "那里不行……这种时间点小孩子会很多很危险。"
+    sakuya "那里不行……这个时间点小孩子会很多，很危险。"
     show sakuya 23 with dissolve
-    extend "\n我想让小翼多自由一些。"
-    extend "\n在学校里不行，在这种马路上也不行……"
-    extend "\n我一直在想哪里有什么好的地方……。"
-    me "自由吗……\n嗯ー……"
+    extend "\n我想让小翼更自由地跑一跑。"
+    extend "\n在学校里不行，在这种马路上也不行……。"
+    extend "\n所以我就在想，有没有什么比较合适的地方……。"
+    me "自由吗……。\n嗯——……"
     extend "啊！！"
     extend "\n这样的话，我知道一个最合适的地方！！\n跟我来！"
     show sakuya 31 with dissolve
@@ -4774,29 +4774,29 @@ label day3_supply_2_sakuya:
     show bg mountain_path3 with FadeWhite(1.0)
     show sakuya 31 at top with dissolve
     window show
-    sakuya "这，这种地方，竟然有条宽敞的道路……"
+    sakuya "这、这种地方，竟然有条宽敞的路啊……。"
     extend "\n我都不知道。"
     me "啊啊。"
-    extend "\n我初中时代，经常来这玩秘密基地。"
-    extend "\n哎呀~好怀念……。"
+    extend "\n我读初中的时候，可是把这儿当作秘密基地呢。"
+    extend "\n哎呀~真怀念呢……。"
     show sakuya 15 with dissolve
-    sakuya "初中生，你是不是最近才刚上初中？"
+    sakuya "初中？那不也才没多久的事吗。"
     show sakuya 24 with dissolve
-    extend "\n小翼，怎么样？"
+    extend "\n小翼，感觉怎么样？"
     extend "\n第一次看到这样的自然景色吧？"
     hide sakuya with dissolve
     show tsubasa 2 at top with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
     tsubasa "汪汪！"
-    me "再稍微爬点上去，就能到个更好的地方了。"
-    extend "\n要再稍微努力一下哦。"
+    me "再稍微往上爬爬，就能到一个更好的地方了。"
+    extend "\n再努力一下哦。"
     hide tsubasa with dissolve
     show tsubasa 4 at topright
     show sakuya 21 at topleft with dissolve
-    sakuya "嗯。\n这种山上的小路，根本不算什么。"
+    sakuya "哼。\n这种山上的小路，根本不算什么。"
     show sakuya 23 with dissolve
-    extend "\n啥，那是什么？"
+    extend "\n对吧，小翼。"
     show tsubasa 1 with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
@@ -4808,16 +4808,16 @@ label day3_supply_2_sakuya:
     play music "fx/waves.ogg"
     show bg mountain_path4 at center with Radial(1.0)
     window show
-    "我们登上了山顶，眼前出现了一片湖泊。"
-    sakuya "哇……好棒……"
-    extend "\n我从来都不知道还有这么漂亮的地方……"
+    "我们登上了山顶，眼前是一片向四周延展开来的大湖。"
+    sakuya "哇啊……好棒……。"
+    extend "\n我从来都不知道这里还有这么漂亮的地方……。"
     me "对吧~？"
-    extend "\n因为这是我的秘密基地哦！"
+    extend "\n因为这是我的秘密基地嘛！"
     show tsubasa 3 at topright
     show sakuya 5 at topleft with Dissolve(0.7)
     sakuya "啊……对了，现在可不能在这里发呆了。"
-    extend "\n我马上把钓钩解开~。"
-    "我一边说着，一边取下了鱼钩，而小翼则一下子精神地冲了出去。"
+    extend "\n我马上把绳子解开~。"
+    "作哉一边说着一边解开了绳子，小翼立刻兴奋地冲了出去。"
     hide sakuya with dissolve
     hide tsubasa with dissolve
     show tsubasa 2 at top with dissolve
@@ -4828,68 +4828,68 @@ label day3_supply_2_sakuya:
     hide tsubasa with dissolve
     window show
     me "啊哈哈。"
-    extend "\n看他这么开心，我也忍不住笑了起来。"
+    extend "\n看它这么开心，我也忍不住想笑呢。"
     show sakuya 23 at top with dissolve
     sakuya "是啊。"
-    extend "\n看来平时小翼也想这样玩玩呢。"
+    extend "\n看来小翼平时也想这样痛痛快快地跑吧。"
     extend "\n……话说回来，挺厉害的嘛。\n居然会知道这么好的地方。"
-    me "因为这种地方我们之前找到过很多呢。"
+    me "因为我们以前经常找这种地方玩呢~。"
     show sakuya 26 with dissolve
-    sakuya "真的假的……你看起来是个宅男，没想到还挺喜欢出门呢。"
-    extend "\n反倒是我们，要一起玩的话"
-    extend "\n不是去游戏厅就是去卡拉OK，不然就是去打保龄球，\n或者在家打打游戏……差不多就是这样。"
-    me "现在的年轻人真是没救了啊。"
-    extend "\n应该趁年轻的时候多出去玩玩，不然会变得越来越软弱的！"
+    sakuya "真的假的……你看起来是个宅男，没想到还挺喜欢出门的啊。"
+    extend "\n反倒是我们，要一起玩的话，"
+    extend "\n不是去游戏厅就是去卡拉OK，不然就是去打保龄球，\n或者在家打打游戏……差不多就这些了。"
+    me "那可不行啊~现在的年轻人。"
+    extend "\n应该趁年轻的时候多出去玩，不然身体会越来越虚哦！"
     show sakuya 11 with dissolve
-    sakuya "干，干嘛啦。"
+    sakuya "干、干嘛啦。"
     extend "\n我们有自己的乐趣。"
     show sakuya 19 with dissolve
-    extend "\n运动的话社团活动里已经足够了。"
-    extend "\n明明是同龄，你竟然用这样居高临下的语气说话"
-    me "啊，是啊……抱歉抱歉。"
+    extend "\n运动的话，社团活动已经足够了。"
+    extend "\n明明是同龄，你竟然用这样居高临下的语气说话……。"
+    me "啊，说的也是……抱歉抱歉。"
     window hide
     show cg evening at center with Dissolve(0.8)
     window show
-    "我们暂时停止了对话，欣赏着美丽的风景。"
-    extend "\n小翼依然在湖边跑着。"
+    "我们暂时停下了交谈，静静地欣赏眼前的美景。"
+    extend "\n小翼依然在湖畔欢快地奔跑着。"
     me "太阳落山了啊。"
     sakuya "……啊。"
     me "嗯？怎么了，没精打采的。"
-    extend "\n果然是累了吧？"
-    sakuya "不是……"
+    extend "\n果然还是累了吧？"
+    sakuya "不是……。"
     stop music fadeout 2.0
-    extend "\n我想让那家伙也到这种地方跑跑啊。"
-    "那家伙……就是以前养的那条狗吗。"
+    extend "\n要是那家伙，也能在这样的地方尽情跑跑就好了。"
+    "那家伙……是他以前养的那条狗狗吧。"
     window hide
     hide cg with dissolve
     hide sakuya with dissolve
     play music "good_scene.ogg"
     show sakuya 22 at top with dissolve
     window show
-    sakuya "要是能让它自由地玩就好了。"
-    extend "\n以前，无论是待在家里，还是出去的时候，都得绑上绳子，\n现在想来，以前的它或许很可怜。"
-    extend "\n毕竟是动物，肯定想像现在小翼一样，自由自在地跑啊跑。"
-    "话虽如此，在它不在的广场上，怎么可能能找到他呢？"
+    sakuya "如果那时候能让它更自由地玩就好了。"
+    extend "\n以前，无论是待在家里，还是出去的时候，都一直系着绳子，\n现在想来，也许我那样做真的让它很难受吧。"
+    extend "\n毕竟是动物，肯定想像现在的小翼一样，自由自在地跑。"
+    "话虽如此，现在的孩子想找个没什么人的广场，也确实很难。"
     show sakuya 7 with dissolve
-    sakuya "我以前一直觉得，保护好那家伙，让它待在家里，对他来说就是幸福的。"
-    extend "\n但是你说得没错，我可能反而害死了它。"
-    extend "\n然后我还用不好的饲料喂养了它，害得它染上了病……。\n这简直像是，出于满足自己的欲望而杀掉了它一样……。"
-    me "作哉……。"
+    sakuya "我以前一直觉得，把它护在家里才是对它的幸福。"
+    extend "\n但就像你说的，我可能反而让它变得越来越虚弱了。"
+    extend "\n而且，我还喂它吃过对身体不好的劣质饲料，害得它染上了病……。\n这简直像是，为了满足我的私欲，亲手杀掉了它一样……。"
+    me "作哉君……。"
     show sakuya 34 with dissolve
-    sakuya "那家伙一定一直过得很痛苦吧……。"
+    sakuya "那家伙，一定一直过得很痛苦吧……。"
     extend "\n它肯定很讨厌我，"
-    extend "\n所以才会想快点离开我，就这样走了……。"
-    me "作哉！\n不是这样的，一定不是这样！！"
+    extend "\n所以才想早点解脱，才那么快就走了……。"
+    me "作哉君！\n不是这样的，一定不是这样！！"
     window hide
     show cg evening at center with Dissolve(0.8)
     window show
-    me "以前，我听一个想要成为兽医的人说过。\n宠物能够敏感地感受到饲主的爱！"
+    me "以前，我听一个想当兽医的朋友说过。\n宠物啊，是可以敏锐地察觉到主人的爱意的！"
     extend "\n人类也一样，能够感受到对方的好意。"
     extend "\n作哉对狗狗的爱，狗狗是可以感受到的哦。"
     sakuya "……。"
     me "在你的回忆中，狗狗的脸上都是幸福的表情吧。"
-    extend "\n能那么爱那家伙的，世界上也就只有作哉一个人了吧。"
-    extend "\n被作哉饲养，对那家伙来说，\n是世界上最幸福的人生了……"
+    extend "\n能给它那么多爱的人，全世界就只有作哉君你一个而已啊。"
+    extend "\n被作哉君饲养，对那孩子来说，\n一定是世界上最幸福的人生了……"
     extend "不对，应该是最幸福的狗生了。"
     window hide
     hide cg with Dissolve(0.8)
@@ -4905,37 +4905,37 @@ label day3_supply_2_sakuya:
     window hide
     show cg c82 1 at center with Radial(0.5)
     window show
-    "然后，他发现后马上跑了过来，舔了舔作哉的脸颊。"
-    extend "\n仿佛是在说：打起精神来！"
-    sakuya "你看，小翼也在说着『打起精神来』呢。"
-    sakuya "哈哈哈。\n谢谢你，小翼。"
+    "察觉到这一幕的小翼立刻快步跑了过来，舔了舔作哉的脸颊。"
+    extend "\n就像是在说『快打起精神来！』一样。"
+    sakuya "你看，小翼酱也在告诉你，要振作起来呢。"
+    sakuya "呵……啊哈哈。\n谢谢你，小翼。"
     extend "\n也要谢谢你，这么关心我。"
     extend "\n今天说了这些话，对不起。"
-    me "不用谢。"
-    extend "\n我很高兴能帮上作哉的忙。"
+    me "没关系啦。"
+    extend "\n我很高兴能帮上作哉君的忙。"
     show cg c82 2 with Dissolve(0.8)
     sakuya "……你这家伙，真是个好人啊。"
-    me "诶……啊哈哈。\n有，有吗……真不好意思啊~。"
+    me "诶……啊哈哈。\n是、是吗……有点不好意思啊~。"
     sakuya "……嗯。\n你真的……是个非常好的人。"
     window hide
     hide cg with Dissolve(0.8)
     hide sakuya with Dissolve(0.8)
     show sakuya 33 at top with dissolve
     window show
-    sakuya "不过"
-    extend "『狗生』可没有啊。『狗生』。"
+    sakuya "不过，"
+    extend "『狗生』可不行啊。什么『狗生』啊。"
     extend "\n没什么品味啊。\n就没有别的说法吗？"
-    me "不，不……因为，狗的“人生”听起来实在是太奇怪了……。"
+    me "不、不是啦……因为，狗的『人生』听起来实在是太奇怪了……。"
     show sakuya 35 with dissolve
     sakuya "啊哈哈。"
-    extend "\n真是的，你这家伙真是傻啊~。"
+    extend "\n真是的，你这家伙还真是个笨蛋啊~。"
     window hide
     hide sakuya with dissolve
     window show
-    "我们望着黄昏中染着晚霞的湖泊，慢慢谈笑着"
+    "我们望着黄昏中染着晚霞的湖泊，悠闲地谈笑着。"
     stop music fadeout 2.0
     show bg school_backside_night with Dissolve(0.8)
-    extend "\n短暂享受了自由时间的翼回到学校，大家也就解散了。"
+    extend "\n随后，我们带着尽情享受了自由时光的小翼回到学校，大家也就解散了。"
     window hide
     hide bg with Dissolve(1.0)
     return
