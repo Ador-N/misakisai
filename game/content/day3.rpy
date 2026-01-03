@@ -4208,7 +4208,7 @@ label day3_supply_2:
     show sakuya 10 with dissolve
     sakuya "要去哪逛啊。"
     show saburo 10 with dissolve
-    saburo "去游戏中心或者卡拉OK之类的~。"
+    saburo "去游戏厅或者卡拉OK之类的~。"
     extend "\n毕竟今天这么早就收工了嘛。"
     extend "\n稍微玩一下再回去也没事的。"
     "嗯……。"
@@ -4228,31 +4228,31 @@ label day3_supply_2_saburo:
     show saburo 10 at topright with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute2.ogg"
-    saburo "好嘞ー！"
-    extend "\n那我们去游戏中心吧！游戏中心！！"
+    saburo "好耶——！"
+    extend "\n那我们去游戏厅吧！游戏厅！！"
     show sakuya 25 at topleft with dissolve
-    sakuya "你还真是喜欢啊……"
-    extend "\n不过算了。"
+    sakuya "你还真是喜欢那种地方啊……。"
+    extend "\n嘛，算了。"
     window hide
     hide saburo with dissolve
     hide sakuya with dissolve
     hide bg with dissolve
     show bg downtown at center with dissolve
     window show
-    "我们离开百货商店，朝着游戏中心走去。"
-    extend "\n我很少来这种地方，不清楚这家店的具体位置，但是\n他们两人的步调很快，感觉他们对这里很熟悉。"
+    "我们离开百货公司，朝着游戏厅走去。"
+    extend "\n我很少来这种地方，并不清楚这家店的具体位置，但是\n他们两人的步调很快，感觉他们对这里很熟悉。"
     window hide
     show bg game_center1 with Dissolve(1.0)
     window show
     me "诶。"
-    extend "\n在这种地方居然还有游戏厅。"
+    extend "\n这种地方居然还有游戏厅啊。"
     show saburo 1 at topright with dissolve
-    saburo "就是啊。"
+    saburo "就是说呀。"
     extend "\n话说，这里可是很有名的哦！\n[player_surname]君没有来过吗？"
     show sakuya 3 at topleft with dissolve
-    sakuya "啊~确实，你好像不太会来这种地方呢。"
-    extend "\n如果你是一个人的话，绝对会被小混混缠上。"
-    "是是是，反正你看着也不像好人的样子。"
+    sakuya "啊~确实，你看着就不像是会来这种地方的人。"
+    extend "\n要是你一个人的话，绝对会被小混混缠上。"
+    "是是是，反正我这张土气的脸一看就好欺负，行了吧。"
     window hide
     hide saburo with dissolve
     hide sakuya with dissolve
@@ -4260,74 +4260,74 @@ label day3_supply_2_saburo:
     play sound "fx/crowd_noise.ogg"
     show bg game_center2 at center with Radial(0.8)
     window show
-    "进入店内，各种各样的灯光和声音从游戏机中迸发出来。"
-    me "哇……。"
-    extend "\n不仅很吵，而且闪得让人眼睛疼，我最怕这种地方了。"
+    "一进店里，各台游戏机的灯光和嘈杂声响便扑面而来。"
+    me "哇啊……。"
+    extend "\n不仅很吵，还闪得人眼睛疼，我最应付不来这种地方了。"
     show sakuya 25 at topleft with dissolve
     sakuya "你是大叔吗……。"
     show sakuya 23 with dissolve
-    extend "\n所以，你今天要玩什么？"
+    extend "\n所以，三朗你今天要玩什么？"
     show saburo 10 at topright with dissolve
-    saburo "我今天要玩的是UFO抓娃娃机！"
+    saburo "那当然是，UFO抓娃娃机啦！"
     me "嘿~。"
-    extend "\n三朗，你很擅长抓娃娃吗？"
+    extend "\n三朗君，你很擅长抓娃娃吗？"
     show saburo 25 with dissolve
     saburo "哼哼~。"
     extend "\n这个嘛，你就看着吧。"
     hide sakuya with dissolve
     hide saburo with dissolve
-    "一边说着，三朗走向了抓娃娃机，然后放下了硬币。"
+    "一边说着，三朗走向抓娃娃机，然后投入了硬币。"
     window hide
     show cg c71 1 at center with FadeWhite(0.5)
     window show
-    "我看到游戏机的箱子里放着好多手掌大小的蘑菇人偶，\n它们有着一张张憨态可掬的表情。"
-    me "……现在这种东西很流行吗？"
-    sakuya "你这家伙，太不跟潮流了……"
-    extend "\n现在学校里最流行的是吉祥物了。"
+    "朝娃娃机里一看，箱子里塞满了名为『なめ太郎』的蘑菇布偶，\n个个只有手掌大小，脸上一副呆呆的表情。"
+    me "……这种东西，现在很流行吗？"
+    sakuya "你这家伙，也太不跟潮流了……。"
+    extend "\n这是现在正当红的吉祥物，在学校里也很火的吧。"
     me "诶~……吉祥物啊……。"
-    "我沉浸于『不了解年轻人的品味啊』这种大叔思想中，\n而三朗一边熟练地操作着夹子，向着布偶的头顶靠近。"
+    "我沉浸在『真是搞不懂现在年轻人的品味啊』的大叔感慨中，\n而三朗正熟练地操作着夹子，向着布偶的头顶靠近。"
     show cg remarkable with FadeWhite(0.5)
     play sound "fx/eureka.ogg"
-    saburo "好~，就这一块。"
-    "三朗定好目标，按下决定键，\n机械臂的嘴就张开，然后机械臂渐渐下降。"
+    saburo "好~，就这里了。"
+    "三朗锁定目标，按下了确认键。\n机械臂的爪子随之张开，缓缓下降。"
     window hide
     show cg c72 2 with Radial(0.5)
     window show
-    "被机械臂抓住的奈美太郎，可怜地被吊在机械臂上。"
-    saburo "好嘞ー！"
-    extend "奈美太郎get~♪"
-    "奈美太郎掉到接收口后，三朗就把它拿在手上。"
+    "被机械臂抓住的なめ太郎，可怜地吊在机械臂上。"
+    saburo "好耶！"
+    extend "なめ太郎Get~♪"
+    "なめ太郎掉进接收口后，三朗伸手把它拿了起来。"
     window hide
     hide cg with FadeWhite(0.5)
     show saburo 10 at top with dissolve
     window show
-    saburo "怎么样♪很厉害吧。"
-    extend "\n最近我很擅长这个的！"
+    saburo "怎么样♪厉害吧。"
+    extend "\n我最近玩这个可是特别拿手哦！"
     hide saburo with dissolve
     show sakuya 14 at topleft with dissolve
-    sakuya "因为这个，你的钱包里都空空如也了。"
+    sakuya "是啊，因为这个，你的钱包里都空空如也了吧。"
     show saburo 15 at topright with dissolve
-    saburo "那，那个可不能说！！"
-    extend "\n在这梦的游乐场，会被一下子拉回现实的！"
-    me "奈美太郎啊……。"
-    extend "\n的确，越看越感觉自己涌起对奈美太郎的爱，\n但也不至于为了它而穷困潦倒吧……。"
+    saburo "那、那个可不能说啊！！"
+    extend "\n在这种充满梦想的地方，说出来就一下子被拉回现实了！"
+    me "なめ太郎啊……。"
+    extend "\n确实，看久了感觉还挺可爱的，\n但也不至于为了抓它连生活费都搭进去吧……。"
     hide saburo with dissolve
     hide sakuya with dissolve
     show saburo 19 at top with dissolve
-    saburo "在说些什么啊！"
-    extend "\n送给女生的话，她们肯定会高兴的！！！"
-    extend "\n多亏了这个，我就成功搭讪过一次哦~"
-    me "就为了这种事情……。"
+    saburo "你在说什么呢！"
+    extend "\n要是把这个送给女生的话，她们肯定会很高兴的！！！"
+    extend "\n多亏了这个，我成功搭讪过一次呢~。"
+    me "竟然是为了这种目的……。"
     show saburo 20 with dissolve
     saburo "那当然啦！"
-    extend "\n这种玩偶，就算男生带着也是很奇怪的吧。"
+    extend "\n这种布偶，要是男生自己带着的话也太奇怪了吧。"
     hide saburo with dissolve
     show sakuya 11 at topleft with dissolve
-    sakuya "你这个家伙真的是笨蛋啊~。"
-    extend "\n只成功过一次，就摆着架子，还花那么多钱去抓……。"
-    me "三朗君，你真是拼命啊……。"
+    sakuya "你这家伙真是个笨蛋啊~。"
+    extend "\n就成功过那么一次，就开始迷信起来，把这种东西攒了一堆……。"
+    me "三朗君，你还真是拼命啊……。"
     show saburo 31 at topright with dissolve
-    saburo "别，别管我！"
+    saburo "少、少管我！"
     extend "\n男人什么时候都会为恋爱而拼命的！！"
     window hide
     hide sakuya with dissolve
@@ -4339,103 +4339,103 @@ label day3_supply_2_saburo:
     extend "\n不好意思，我有点事要办，先回去了。"
     show saburo 24 at topright with dissolve
     saburo "诶，这样吗？"
-    extend "\n那么，顺便把我们的东西也带去学校吧。"
+    extend "\n那正好，你顺便把我们的东西也带回学校去呗。"
     show sakuya 4 with dissolve
     sakuya "哈？"
-    extend "\n为什么要我拿。"
+    extend "\n为什么要我拿啊。"
     extend "\n你自己拿。"
     play sound "fx/running.ogg"
     hide sakuya with dissolve
-    "说完，作哉就走出了游戏中心。"
+    "说完，作哉就走出了游戏厅。"
     hide saburo with dissolve
     window hide
     show saburo 6 at top with dissolve
     window show
-    saburo "真是冷淡呢~。"
-    extend "\n我只不过是让你想顺便带着而已嘛~。"
-    me "让人家带着我们全部的东西走也太过分了嘛。"
-    extend "\n还是说，你有什么目的吗？"
+    saburo "还真是冷淡呢~。"
+    extend "\n就当是顺便帮我带回去嘛~。"
+    me "再怎么说，让他一个人拎着我们所有人的东西也太过分了嘛。"
+    extend "\n话说回来，他到底是有什么事呢？"
     show saburo 20 with dissolve
-    saburo "那小子，最近玩的时候经常半路溜出去~。"
-    extend "\n该不会是和傻乎乎的毛头小子顺利发展，去约会了吧。"
+    saburo "那小子，最近一起玩的时候经常半路溜走啊~。"
+    extend "\n该不会是和某呆毛少年进展顺利，跑去约会了吧。"
     play sound "fx/sparkle.ogg"
-    me "啊~友的事情啊！！"
-    extend "可能吧！"
-    extend "\n哎呀，但是啊，作哉也不能放着不管啊。"
-    extend "\n那两个人，是怎样的感觉在一起呢。"
-    extend "\n虽然平常互相仇视，但是一起两人世界的时候会不会很甜蜜呢？？"
+    me "啊~你是说友君啊！！"
+    extend "很有可能！"
+    extend "\n哎呀，不过话说回来，作哉君还真是让人意外呢。"
+    extend "\n那两个人在一起时会是什么样的感觉呢。"
+    extend "\n平时明明总是互相看不顺眼，但是二人世界的时候，会不会反而很甜蜜呢？？"
     show saburo 16 with dissolve
-    saburo "怎，怎么突然这么精神地聊起来了……"
-    extend "\n你看上去好像对此挺有兴趣的啊。"
-    me "因为，这是现实中的BL啊！！！"
+    saburo "怎、怎么回事啊你，突然就开始滔滔不绝了……。"
+    extend "\n看起来你好像对这个挺感兴趣啊。"
+    me "因为，这可是现实里的BL啊！！！"
     extend "\n肯定会感兴趣的啊！！"
-    extend "\n啊~……光是想象就兴奋起来了啊！！"
+    extend "\n啊~……光是想象一下就兴奋起来了啊！！"
     show saburo 9 with dissolve
-    saburo "BL？那是什么。"
-    me "是指男生之间的恋爱关系的词语！"
-    extend "\n慎太郎给你的那本漫画也是BL啊。"
+    saburo "哔——诶路？那是什么啊。"
+    me "是指男生之间恋爱关系的词！"
+    extend "\n慎太郎君给你的那本漫画，也是BL啊。"
     show saburo 31 with dissolve
     stop music fadeout 2.0
-    saburo "唔，唔……是这样吗。"
+    saburo "唔、唔……是这样吗。"
     extend "\nBL吗……。"
-    "三朗呆呆地看着手里的奈美太郎。"
+    "三朗若有所思地盯着手里那个刚抓到的なめ太郎。"
     window hide
     play music "cute_silly.ogg"
     show cg c73 1 at center with Radial(0.5)
     window show
-    saburo "……呐[player_surname]，这个玩偶你要吗？"
-    "这样说着，三朗把奈美太郎交给了我。"
-    me "诶？可以吗？？"
-    extend "\n毕竟，这个不是你拿着准备给女孩子的嘛......"
-    saburo "诶，诶诶诶！反正家里有很多。"
-    extend "\n……而且，你今天白天的时候说过吧。"
-    extend "\n对喜欢的人，无论是男生还是女生，\n都不能够撒谎，坦诚相待很重要。"
-    me "诶，嗯……"
+    saburo "……呐，[player_surname]，这个玩偶你要吗？"
+    "这样说着，三朗把手里的なめ太郎递到我面前。"
+    me "诶？可以吗？"
+    extend "\n毕竟，这个不是你准备送给女孩子的嘛……"
+    saburo "没、没关系啦！反正家里还有很多。"
+    extend "\n……而且，你今天白天的时候也说过吧。"
+    extend "\n对喜欢的人，无论是男生还是女生，\n不撒谎、坦诚相待才是最重要的。"
+    me "诶，嗯……。"
     extend "\n但是，那个……"
-    "三朗君喜欢我……！！？！？"
+    "三朗君这话的意思是，他喜欢我……！！？！？"
     show cg c73 2 with dissolve
     play sound "fx/boing.ogg"
-    saburo "可，可别误会啊！！！！"
-    extend "\n这，这再怎么说都是作为朋友的喜欢！！！"
-    saburo "……我，可能一直以来都太执着于性别了。"
-    extend "\n虽然觉得男人送男人礼物什么的很奇怪，\n不过我喜欢你，觉得你是个好人。"
+    saburo "可、可别误会啊！！！！"
+    extend "\n这、这再怎么说，都只是作为朋友的喜欢！！！"
+    saburo "……我可能，一直以来都太执着于性别了。"
+    extend "\n虽然觉得男孩子送男孩子礼物有点怪怪的，\n不过我喜欢你，觉得你是个好人。"
     extend "\n所以……"
     extend "给你。"
     me "嗯……谢谢。"
-    extend "\n会好好珍惜的。"
+    extend "\n我会好好珍惜的。"
     hide saburo with FadeWhite(0.5)
     hide cg with FadeWhite(0.5)
     show saburo 10 at top with dissolve
     saburo "嘿嘿。"
     play sound "fx/vibrate.ogg"
-    "嗡嗡……嗡嗡……"
+    "（嗡嗡……嗡嗡……）"
     "突然，震动声响起。"
     show saburo 24 with dissolve
-    saburo "嗯？是我的来电。"
+    saburo "嗯？是我的电话。"
     extend "\n是谁啊。"
-    "三朗取出放在口袋里的手机接听了。"
+    "三朗从兜里掏出手机，接通了电话。"
     show saburo 32 with dissolve
-    saburo "怎么了，是四朗啊。"
+    saburo "什么啊，是四朗啊。"
     hide saburo with dissolve
-    "哔"
+    "（哔）"
     saburo "喂，你好。"
-    extend "\n嗯……嗯……"
-    extend "哈？\n什么事……你自己说呀。"
-    extend "\n哈啊……嗯……好。再见。"
-    "哔"
+    extend "\n嗯……嗯……。"
+    extend "哈？\n什么啊……那种事你自己去说呀。"
+    extend "\n哈啊……嗯……行吧。那就这样。"
+    "（哔）"
     show saburo 4 at top with dissolve
-    saburo "抱歉打断你说话。"
+    saburo "抱歉打断了话题。"
     me "没事没事。"
     extend "\n谁打来的？"
     show saburo 18 with dissolve
-    saburo "我的弟弟四朗。"
-    extend "\n他说今天他会晚点回家，要我帮他跟妈妈说一声。"
-    extend "\n自己跟妈妈说的话会被骂的，所以他不想……。"
+    saburo "是我弟弟四朗。"
+    extend "\n他说今天要晚点回家，让我帮他跟老妈说一声。"
+    extend "\n他说要是自己去讲肯定会被骂，所以不想去……。"
     extend "\n真是拿他没辙。"
     me "三朗君，你居然有弟弟啊！\n嘿~真意外啊。"
-    extend "\n你们俩相差多少？"
+    extend "\n你们俩相差几岁？"
     show saburo 32 with dissolve
-    saburo "小学六年级吧~差2岁。"
+    saburo "他现在小学六年级~差两岁。"
     stop music fadeout 2.0
     show saburo 31 with dissolve
     extend "\n他是个调皮鬼，超嚣张的。"
@@ -4443,93 +4443,93 @@ label day3_supply_2_saburo:
     show cg remarkable at center with Dissolve(0.2)
     play music "lively_boys.ogg"
     "哦哦哦哦是小学生呀！！！"
-    extend "\n也就是说，你弟弟还是个背着书包的小朋友吧！！"
-    extend "\n既然是三朗君的弟弟，那肯定很可爱吧！！"
-    me "呐，呐，呐！照片之类的东西有吗？"
-    extend "\n务必让我看看！！"
+    extend "\n也就是说，还是个背着双肩书包的小正太吗！！"
+    extend "\n既然是三朗的弟弟，那肯定也超级可爱吧啊啊啊！！"
+    me "呐、呐呐！有照片之类的吗？"
+    extend "\n请务必让我看看！！"
     window hide
     hide cg with dissolve
     hide saburo with dissolve
     show saburo 16 at top with dissolve
     window show
-    saburo "你，你是不是有点太兴奋了？"
-    me "没，没事~我只是好奇他会不会像哥哥一样可爱。"
+    saburo "你、你是不是有点太兴奋了？"
+    me "没、没事~我只是好奇他会不会像他哥哥一样可爱。"
     show saburo 26 with dissolve
-    saburo "可，可爱……你在说什么啊傻子！"
+    saburo "可、可爱……你在说什么啊笨蛋！"
     show saburo 31 with dissolve
-    extend "\n……不过算了。\n我记得家里有照片……。"
+    extend "\n……不过算了。\n我记得手机里好像存了照片……。"
     hide saburo with dissolve
     stop music fadeout 2.0
-    "三朗玩了一会手机，然后把屏幕转给了我。"
+    "三朗摆弄了一会儿手机，然后把屏幕转向了我。"
     window hide
     play music "siro_theme.ogg"
     show cg c74 at center with Radial(0.5)
     window show
-    saburo "嗯……就是这种家伙。"
-    "屏幕上的，正是三朗所说，看上去有些调皮可爱的少年。"
+    saburo "呐……就是这种家伙。"
+    "屏幕上的，正是三朗所说，是一个看起来有些调皮可爱的少年。"
     play sound "fx/sparkle.ogg"
     me "好可爱啊~！！"
     extend "\n短发正太，实在是太棒了……。"
     extend "\n真好啊……能有这么可爱的弟弟，太羡慕了……。"
-    saburo "……嗯？\n你在搞什么鬼……"
-    extend "难道喜欢这种小鬼头？"
-    me "诶？不是~嘛，小学生也挺好的。"
-    extend "\n还很年幼，真的很可爱啊！"
-    extend "\n呐呐，还有没有其他的？"
+    saburo "……嗯？\n你在搞什么鬼啊……"
+    extend "难道你喜欢这种小鬼头吗？"
+    me "诶？不~啊，小学生也很有魅力呀。"
+    extend "\n那种幼态感真的很可爱！"
+    extend "\n呐呐，还有没有其他的照片？"
     window hide
     hide saburo with dissolve
     hide cg with dissolve
     show saburo 22 at top with dissolve
     window show
-    saburo "没有了！"
+    saburo "没了没了！"
     extend "\n没有其他的了！"
     me "诶~！\n那能让我再看一眼刚才的相片吗！"
     show saburo 31 with dissolve
-    saburo "啊啊！"
+    saburo "不行！"
     show saburo 33 with dissolve
-    extend "\n还有，快把奈美太郎还给我。"
-    me "为，为什么啊！！"
-    extend "\n难得三朗对我的好意，还把它送给我作为礼物的啊！"
+    extend "\n还有，果然……那个なめ太郎，还给我！"
+    me "为、为什么啊！！"
+    extend "\n这可是三朗好心送给我的礼物啊！"
     show saburo 14 with dissolve
-    saburo "吵死了白痴[player_name]！"
+    saburo "吵死了[player_name]你这个笨蛋！"
     extend "\n我不管了！！"
     hide saburo with dissolve
-    "三朗一下子把头转过去了。"
+    "三朗猛地扭过头去，不再理我。"
     window hide
     pause 0.4
     window show
     me "三朗……难道说，是嫉妒了？"
-    "听到这话，从后方看去，三朗脸红得一目了然。"
+    "听到这话，三朗一下子羞红了脸，红得连从背后看都能看出来。"
     show saburo 22 at top with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
-    saburo "有，有什么不好！！"
-    extend "\n这没办法啊！！！ 这是我真实的感受！！"
-    extend "\n才，才不奇怪啊！！"
+    saburo "有、有什么不好！！"
+    extend "\n这没办法啊！！！这就是我真实的感受！！"
+    extend "\n才、才没什么奇怪的吧！！"
     me "……是啊，一点也不奇怪。"
-    extend "\n应该说是令人开心。"
+    extend "\n倒不如说，我很高兴。"
     show saburo 33 with dissolve
-    saburo "为，为什么啊。"
-    me "因为，这正说明三朗对我的好意都直接向我表达，对我非常认真。"
+    saburo "为、为什么啊。"
+    me "因为，这说明三朗是在正视对我产生的好感，并且在坦诚地表达出来呀。"
     show saburo 16 with dissolve
-    saburo "别，别用抱有好感这种说法……太羞耻了。"
+    saburo "别、别用抱有好感这种说法……太羞耻了。"
     show saburo 31 with dissolve
     extend "\n而且，刚才也说过了，我们只是朋友！！\n不要误会！！"
-    me "好好好，是这样啊。"
+    me "好好好，是是是。"
     show saburo 14 with dissolve
     $ renpy.transition(Quake(40, 0, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
-    saburo "这是什么无所谓的态度！！真的超气人的！"
+    saburo "这是什么无所谓的态度啊！！真是气死我了！！"
     show saburo 14 with dissolve
-    extend "\n把奈美太郎还给我！~~！！"
+    extend "\n把なめ太郎还给我~~！！"
     me "那可不行。\n这是三朗对我抱有好感的证明。"
     show saburo 12 with dissolve
     saburo "哇啊啊啊。\n所以别再说这么让人误解的话了~~！！"
     window hide
     show cg evening at center with Dissolve(1.0)
     window show
-    "就这样，我们在街机厅开心地玩了会儿后"
-    extend "\n回到学校放下材料后就解散了，完成了采购组的工作。"
+    "就这样，我们在游戏厅玩了一阵，"
+    extend "\n回学校放下材料后便各自解散，结束了采购组的工作。"
     window hide
     stop music fadeout 0.5
     hide bg with Dissolve(1.0)
