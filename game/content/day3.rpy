@@ -6157,8 +6157,8 @@ label day3_sirou:
     play sound "fx/ding.ogg"
     window show
     "……。"
-    "其他组都已经去做其他工作了，我也回家吧……。"
-    extend "\n明明有那么多男孩子，但没一个能跟我一块儿回家。"
+    "其他组都已经去做其他工作了，那我也回家吧……。"
+    extend "\n明明有那么多男孩子，但没一个能跟我一起回家。"
     extend "\n唉……。"
     window hide
     stop sound fadeout 0.5
@@ -6172,79 +6172,79 @@ label day3_sirou:
     show bg intersection with Dissolve(1.2)
     window show
     "走出学校之后，我无精打采地走在回家的路上。"
-    "就在这时"
+    "就在这时——"
     show bg sky with FadeWhite(0.5)
     unknown "呜哇！！"
     me "诶！？"
     $ renpy.transition(Quake(0, 70, 0.15, 0.09), layer='master')
     play sound "fx/fall_down.ogg"
-    "咚！"
+    "（咚！）"
     stop music fadeout 0.5
     "一个背着书包的小男孩突然从拐角处冲了出来。"
     window hide
     play music "siro_theme.ogg"
     show cg c84 at center with Radial(0.5)
     window show
-    unknown "痛痛痛痛痛……"
-    extend "\n啊……对，对不起！！\n你没事吧？"
-    me "诶……我，我没事，但是你才是，膝盖都擦到了，受伤了吧！"
+    unknown "痛痛痛痛痛……。"
+    extend "\n啊……对、对不起！！\n你没事吧？"
+    me "诶……我、我没事，但你才是，膝盖都擦破皮了，受伤了吧！"
     unknown "诶？"
     play sound "fx/boing.ogg"
-    extend "\n啊啊啊啊真的啊！！\n我一回过神来，膝盖就突然开始疼了……。"
-    me "真，真糟糕……\n消，消毒液……没有吧。"
-    extend "\n该怎么办呢……。"
-    unknown "没，没事的！"
+    extend "\n啊啊啊啊真的耶！！\n我一回过神来，膝盖就突然开始疼了……。"
+    me "真、真糟糕……\n消、消毒液……肯定没有吧。"
+    extend "\n这可怎么办……。"
+    unknown "没、没事的！"
     show bg intersection
-    extend "\n撞到你的人是我，所以你不用在意……。"
-    "说完后，背着书包的小男孩试图站起来，"
+    extend "\n是我不小心撞上去的，所以请不用在意……。"
+    "说完，背着书包的小男孩试图站起来，"
     window hide
     hide cg with dissolve
     show sirou 1 at top with dissolve
     window show
     unknown "呜……！"
-    "但因为腿上伤口的疼痛，他做不到。"
-    me "别逞强了，在附近的公园休息一下吧。"
-    extend "\n来吧，我来背你，坐在我的背上。"
+    "但因为腿上的疼痛而踉跄了一下，看起来没法好好站稳。"
+    me "别逞强了，先去附近的公园休息一下吧。"
+    extend "\n来，我背你，你上我背上来。"
     "我背对着小男孩蹲了下来。"
     show sirou 2 with dissolve
-    unknown "诶……但，但是……"
+    unknown "诶……但、但是……"
     me "别客气了！"
-    extend "\n这种时候就该老老实实地听大人的话。"
+    extend "\n这种时候，就是要乖乖听大人的话才行哦。"
     show sirou 3 with dissolve
     unknown "啊……嗯！谢谢你。"
     extend "\n……那么，失礼了。"
     window hide
     hide sirou with dissolve
     window show
-    "说完，少年便贴着我的背，双臂架到了我的肩膀上。"
-    "等站起来后，我想到自己正背着一个背着书包的少年，这个画面有点傻乎乎的，又有点好笑"
+    "说完，少年轻轻地爬上了我的背。"
+    "我一站起来，才发现自己正背着一个背着书包的少年，这画面多少有点滑稽。"
     window hide
     show cg c85 at center with Radial(0.5)
     window show
-    unknown "那个……您不觉得重吗？"
+    unknown "那个……您不会觉得重吗？"
     me "没问题的。"
-    extend "\n倒不如说，感觉很舒服！"
+    extend "\n倒不如说，感觉很舒服啊！"
     unknown "舒服？"
-    "和小学生的纤细身体贴得这么紧，感觉好舒服啊！"
+    "和小学生的纤细身体贴得这么紧，那种真实的触感正源源不断地传来！"
     play sound "fx/eureka.ogg"
-    extend "\n完全不会觉得累！！"
-    "啊……少年的体温，还有香甜的气息也能够感觉到……。"
+    extend "\n疲劳感什么的完全消失了！！"
+    "啊……少年的体温，还有那股香甜的气息也能够感觉到……。"
     play sound "fx/sparkle.ogg"
-    extend "\n这是何等……何等幸福的时光……。"
-    extend "\n一辈子都这样也行啊……！！"
+    extend "\n这是何等……何等幸福的时刻啊……。"
+    extend "\n如果能一辈子这样该多好……！！"
     play sound "fx/boing.ogg"
-    unknown "哥，哥哥！！你喘着粗气呢！"
-    extend "\n果然很累吧……。"
-    me "没有没有没有，完全相反哦！！"
+    unknown "大、大哥哥！！你喘着粗气呢！"
+    extend "\n果然还是很累吧……。"
+    me "不不不不，完全相反哦哦哦！！"
     show cg remarkable with FadeWhite(0.5)
     play sound "fx/explosion2.ogg"
-    extend "\n我的力气正喷涌而出！"
-    unknown "诶，诶诶诶诶诶！！？"
+    extend "\n我的兴致正不断高涨啊！"
+    unknown "诶、诶诶诶诶诶！！？"
     show cg sky with FadeWhite(0.5)
     play music "fx/wind_slash.ogg"
     "看着忍不住开始跑起来的我，少年疑惑地叫出声来。"
     "没关系！再多让我听听那种声音吧！！"
-    extend "\n虽然没办法和大家一起回去让我很遗憾，\n但是，这或许就是和这个孩子相遇的命运！！"
+    extend "\n虽然没能和大家一起回去很遗憾，\n但这或许就是为了与这孩子相遇而注定的命运！！"
     stop music fadeout 2.0
     window hide
     hide cg with dissolve
@@ -6254,15 +6254,15 @@ label day3_sirou:
     play music "fx/tsubame.ogg"
     show bg park_bench at center with Radial(0.7)
     window show
-    "我兴奋地向前跑着，很快到达了公园。"
-    extend "\n虽然有些舍不得，但我还是让少年坐在长凳上。"
+    "尽管我兴奋到了极点，但因为是用跑的，很快就到了公园。"
+    extend "\n虽说有点意犹未尽，我还是让少年在长椅上坐下了。"
     me "稍微等我一下哦。"
-    "说完，我在稍远的地方找到一个水龙头，将水倒进手里的碗里。"
+    "说完，我在稍远的地方找到一个水龙头，用手捧了一些水回来。"
     window hide
     pause 0.3
     window show
-    me "可能会有点疼，你忍一下哦。"
-    "回到少年身旁，我开始用水给他洗膝盖。"
+    me "可能会有点疼，忍着点哦。"
+    "回到少年身旁，我开始用水帮他清洗膝盖上的伤口。"
     show sirou 1 at top with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
@@ -6272,116 +6272,116 @@ label day3_sirou:
     show cg evening at center with dissolve
     window show
     me "……嗯，我是不是该用更温柔一点的方式呀？"
-    "我蹲下来，脸靠近少年的下半身。"
-    "然后伸出舌头"
+    "我蹲下来，脸凑近少年的下半身。"
+    "然后伸出舌头——"
     stop music fadeout 0.5
     window hide
     play music "emergency.ogg"
     show cg c86 with Radial(0.5)
     window show
-    "舔"
+    "（舔）"
     play sound "fx/cute.ogg"
-    unknown "诶……大，大哥哥！"
-    extend "\n这，这样好脏！！"
-    extend "\n住，住手……！"
+    unknown "诶……大、大哥哥！"
+    extend "\n这、这样好脏！！"
+    extend "\n快、快住手……！"
     me "好啦，乖乖别动。"
-    me "这样做可以进行消毒，而且也能加快恢复哦。"
+    me "这样做可以起到消毒的作用，伤口也会好得更快哦。"
     unknown "真的吗……？"
-    me "啊啊，唾液中含有杀菌的成分哦。"
+    me "嗯嗯。唾液中含有杀菌的成分哦。"
     window hide
     hide cg with dissolve
     hide sirou with dissolve
     window show
     stop music fadeout 2.5
-    "我将他的膝盖全部舔完一遍，突然回过神来。"
+    "等我把他的膝盖整个舔过一遍后，突然回过神来。"
     "手指的割伤舔舔也就算了，连膝盖的伤口都舔是不是太过头了！？"
-    "我战战兢兢地抬起头，只见少年正笑嘻嘻地看着我。"
+    "我战战兢兢地抬起头，却发现少年正冲着我灿烂地微笑着。"
     window hide
     play music "siro_theme.ogg"
     show sirou 4 at top with dissolve
     window show
     play sound "fx/sparkle.ogg"
-    "消毒都考虑得到，谢谢大哥哥帮我！"
-    extend "\n大哥哥真是既亲切又聪明呢~！"
-    extend "\n我也要好好学习，和大哥哥一样也能够做到这些事。"
+    "连消毒都考虑到了，真的非常感谢！"
+    extend "\n大哥哥你不仅很亲切，还很聪明呢~！"
+    extend "\n我也要好好学习，争取以后也能像大哥哥一样厉害。"
     play sound "fx/boing.ogg"
-    me "咦……啊，啊哈哈！"
-    extend "\n不用谢~。"
+    me "诶……啊、啊哈哈！"
+    extend "\n不用谢啦~。"
     show sirou 5 with dissolve
     unknown "那个，可以的话，能请教一下你的名字吗？"
     extend "\n我叫四朗。"
-    me "四朗啊……是个好名字。"
+    me "四朗啊……真是个好名字。"
     extend "\n就叫我[player_name]吧。\n请多指教，四朗。"
     show sirou 3 with dissolve
     sirou "好的，[player_name]同学！"
     show sirou 5 with dissolve
-    extend "\n话说回来，有件事我一直想问一下。那个制服……[player_name]同学，你是御咲学园的学生吗？"
+    extend "\n话说回来，我从刚才起就很在意，那个制服……[player_name]同学，你是御咲学园的学生吗？"
     me "诶？啊，嗯，是啊。"
     show sirou 3 with dissolve
-    sirou "就是啊！\n和我老哥穿得一样！"
-    extend "\n几年级的？"
-    me "那个……我记得他是二年级的。"
+    sirou "果然！\n和我老哥穿得一样！"
+    extend "\n你是几年级的呀？"
+    me "那个……我是二年级的。"
     extend "\n四朗的哥哥多大了？"
     show sirou 4 with dissolve
-    sirou "哥哥他，[player_name]和我一样，也是初中二年级！"
+    sirou "哥哥他和[player_name]一样，也是初中二年级！"
     show sirou 6 with dissolve
-    extend "\n不过，我完全不觉得我们是同年生的啊……"
-    extend "\n[player_name]君比我哥哥成熟一万倍"
-    me "啊哈哈，原来是这样。"
-    extend "\n你哥哥有那么幼稚吗？"
+    extend "\n不过，我完全不觉得你们是同年级的啊……。"
+    extend "\n[player_name]君，比我哥哥要成熟一万倍呢。"
+    me "啊哈哈，是这样啊。"
+    extend "\n你哥哥他，有那么幼稚吗？"
     show sirou 7 with dissolve
-    sirou "他哪里是像小孩子，他简直就是小孩子！比我幼稚一万倍的小孩子！！"
+    sirou "何止是幼稚啊！简直是没救了！搞不好，他比我还小孩子气呢！"
     show sirou 2 with dissolve
-    sirou "房间特别乱，垃圾也不分类。"
+    sirou "房间特别乱，垃圾也不会分类。"
     show sirou 9 with dissolve
-    extend "\n真是伤脑筋啊。"
-    me "诶~是这样啊。"
+    extend "\n真是让人伤脑筋。"
+    me "诶~这样啊。"
     extend "\n反过来说，四朗明明还是小学生，却非常地懂事呢。"
-    extend "\n能真诚地说『对不起』，『谢谢』……。\n这种礼仪非常重要，我很佩服。"
+    extend "\n能得体地说『对不起』和『谢谢』……。\n这种礼仪是非常重要的。你做得这么好，真让我佩服。"
     show sirou 8 with dissolve
-    sirou "诶……是，是吗……？"
+    sirou "诶……是、是吗……？"
     extend "\n诶嘿嘿……总觉得有点害羞呢……。"
     play sound "fx/sparkle.ogg"
-    "真是可爱呢~~~！！"
-    extend "\n初中生固然好，小学生也很不错呢~~~！！！"
+    "太可爱了吧~~~！！"
+    extend "\n初中生固然好，但小学生果然也有小学生的魅力啊~！！！"
     show sirou 5 with dissolve
-    sirou "但，但是，[player_name]桑也，和年龄相符地很成熟呢。"
-    extend "\n非常沉稳，应对突发事件也非常完美。"
+    sirou "但、但是，[player_name]同学也，比同龄人要成熟得多呢。"
+    extend "\n感觉非常沉稳，应对突发状况的时候也做得很完美。"
     show sirou 12 with dissolve
-    extend "\n啊……还是说，因为一直看到的是那样的哥哥呢。"
+    extend "\n啊……还是说，因为平时一直看到的是那样的哥哥呢。"
     me "嗯~嘛，我也这么觉得……吧。"
     "嘛，实际上也确实很成熟。"
     show sirou 6 with dissolve
-    sirou "啊哈哈。就是说呢~。"
-    extend "\n真是的，我也想让哥哥好好学学呢。"
-    me "我，我也没有那么了不起啦。"
+    sirou "啊哈哈。果然是这样呢~。"
+    extend "\n真是的，我也想让哥哥好好跟你学学。"
+    me "我、我也没有那么了不起啦。"
     play sound "fx/triangle.ogg"
     "只是一个喜欢少年的变态而已。"
     show sirou 9 with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
-    sirou "诶~！不是这样哦！！"
+    sirou "诶~！才不是这样哦！！"
     show sirou 7 with dissolve
-    extend "\n唉，要是能有你这样的哥哥就好了。"
-    "呜……虽然对哥哥来说有点抱歉，但听到这话我还是很高兴。"
+    extend "\n哎呀~要是能有你这样的哥哥就好了。"
+    "呜……虽然对他哥哥来说有点抱歉，但听到这话我真的很高兴。"
     play sound "fx/dash.ogg"
-    extend "\n我也好想要四朗君那样的弟弟啊！"
+    extend "\n我也好想要四朗这样的弟弟啊！"
     extend "\n我迄今为止做过多少次这样的梦啊！！"
     show sirou 10 with dissolve
-    sirou "啊……不好！\n我朋友还在等着我呢……"
+    sirou "啊……糟了！\n我朋友还在等着我呢……"
     show sirou 8 with dissolve
-    extend "\n抱歉，大哥，我差不多该走了！"
-    extend "\n托你的福，已经不怎么疼了。"
+    extend "\n抱歉，大哥哥，我差不多该走了！"
+    extend "\n托你的福，膝盖已经不怎么疼了。"
     me "诶……啊，嗯。"
     extend "\n下次要注意别再撞到了哦。"
     show sirou 4 with dissolve
-    sirou "好的。非常感谢你的善意！"
+    sirou "好的。谢谢你对我这么亲切，真的非常感谢！！"
     show sirou 5 with dissolve
-    extend "\n……啊，说起来，下周是御咲祭吧？"
+    extend "\n……啊，说起来，下周就是御咲祭了吧？"
     show sirou 3 with dissolve
-    extend "\n我也会去玩的，到时候能再见到就好了呢！！"
+    extend "\n我也会去玩的，到时候能再见到大哥哥就好了！！"
     show sirou 15 with dissolve
-    extend "\n那么，再见了！"
+    extend "\n那么，再见啦！"
     play sound "fx/running.ogg"
     hide sirou with dissolve
     "四朗说完后便离开了。"
@@ -6391,9 +6391,9 @@ label day3_sirou:
     me "御咲祭……也就是说，说不定还能再见到那个孩子！"
     show cg remarkable at center with FadeWhite(0.5)
     play sound "fx/impact.ogg"
-    extend "\n好，那可得加油了啊！！"
-    extend "\n在学园祭当天，我也要让那个孩子见识一下我的厉害！"
-    "下定决心后，我也离开了公园。"
+    extend "\n好，那我可得加油了啊！！"
+    extend "\n在学园祭当天，我也要让那个孩子见识一下我的厉害——！"
+    "怀揣着这样的决心，我也离开了公园。"
     window hide
     stop music fadeout 0.5
     hide bg with Dissolve(0.8)
