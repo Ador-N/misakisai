@@ -3,13 +3,13 @@
 
 label day4:
     window show
-    "就这样，我们用了三天来完成执行委员的工作之后，"
-    extend "\n之后的剩余时间，就参与到班级的整体工作中，进行准备。"
+    "就这样，我们用三天时间完成了执行委员的工作，"
+    extend "\n之后的剩余时间，就与全班同学一起投入到各项准备中。"
     window hide
     show bg sky at center with Radial(0.8)
     play sound "fx/entrance.ogg"
     window show
-    "然后，到了御咲祭当天"
+    "然后，到了御咲祭当天——"
     window hide
     play sound "fx/crowd_noise.ogg"
     play music "school_festival.ogg"
@@ -24,32 +24,32 @@ label day4:
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute2.ogg"
     window show
-    tomo "好，大家！"
-    extend "\n今天尽情地享受吧！"
+    tomo "好——大家！"
+    extend "\n今天就玩个痛快吧！！！"
     show sintarou 4i at topleft with dissolve
-    sintarou "那么我们拿出点气势，试着组个圆阵如何？"
+    sintarou "这种时候，不如咱们拿出点气势，大家一起组个圆阵怎么样？"
     show sakuya 1i at top with dissolve
     sakuya "我才不要，丢死人了。"
     extend "\n不这么做也行的吧。"
     hide sintarou with dissolve
     show saburo 2i at topleft with dissolve
-    saburo "事到如今你还在怕什么丢脸。"
+    saburo "事到如今你还害羞个什么劲儿啊。"
     show saburo 10i with dissolve
-    extend "\n不就是组个圆阵嘛！拿出气势来！"
+    extend "\n都围成『圆阵』了，那不正好把『引擎』发动起来吗？\n（注：『圆阵』读作Enjin，『引擎』读作Engine）"
     hide tomo with dissolve
     show tuki 18i at topright with dissolve
-    tuki "就是哦。\n大家不是一起努力到现在的同伴吗。"
+    tuki "说得对。\n大家毕竟是并肩作战到现在的战友。"
     show tuki 4i with dissolve
-    extend "\n不如说，大家应该感到自豪才对。"
+    extend "\n倒不如说，我们应该为此感到自豪。"
     hide sakuya with dissolve
     show sora 1i at top with dissolve
     sora "诶嘿嘿。\n有种正值青春的感觉呢。"
     hide tuki with dissolve
     show tubasa 4i at topright with dissolve
-    tubasa "我，我是第一次做这种事……。"
+    tubasa "我、我还是第一次做这种事……。"
     hide saburo with dissolve
     show sinobu 20i at topleft with dissolve
-    sinobu "……稍微，弯下腰可以吗？"
+    sinobu "……各位能稍微弯下腰的话就更好了。"
     hide sora with dissolve
     hide tubasa with dissolve
     hide sinobu with dissolve
@@ -58,12 +58,12 @@ label day4:
 label day4_1:
     show tomo 17i at top with dissolve
     window show
-    tomo "一二ーー！"
+    tomo "准备好咯——一、二！"
     window hide
     play sound "fx/impact.ogg"
     show cg c18 at center with Radial(0.6)
     window show
-    everyone "「诶诶哦ーー！！！」"
+    everyone "『诶——诶——哦！！！』"
     window hide
     hide tomo with dissolve
     hide cg with dissolve
@@ -72,26 +72,26 @@ label day4_1:
     show bg cafe at center with Radial(0.8)
     show sora 3i at topleft with dissolve
     window show
-    sora "让您久等了。\n这边是可乐和巧克力圣代。"
+    sora "让您久等了。\n这是您点的可乐和巧克力圣代。"
     show sora 11i with dissolve
     extend "\n请慢慢享用。"
     hide sora with dissolve
     show sintarou 1i at topright with dissolve
-    sintarou "好的，欢迎光临~！"
+    sintarou "好嘞，欢迎光临~！"
     show sintarou 4i with dissolve
-    extend "\n那么，请来到这边的座位吧。\n现在就给您端冷饮过去哦~。"
+    extend "\n来，快请进快请进，坐这边。\n我现在就给您端凉水过来哦~。"
     hide sintarou with dissolve
     show sinobu 5i at topleft with dissolve
-    sinobu "客人，非常抱歉，学校内禁止吸烟。"
+    sinobu "客人，非常抱歉，校内禁止吸烟。"
     show sinobu 3i with dissolve
-    extend "\n吸烟区在校舍外的右侧……。"
+    extend "\n吸烟区请出教学楼右转……。"
     hide sinobu with dissolve
     show tubasa 8i at topright with dissolve
-    tubasa "呃，那个……一共600日元。"
+    tubasa "呃，那个……一共是六百日元。"
     show tubasa 1i with dissolve
-    extend "\n（吸气，呼气，吸气，呼气）……嗯，正好600元。"
+    extend "\n一、二、三……嗯，正好六百元。"
     show tubasa 9i with dissolve
-    extend "\n啊，非常感谢。欢迎下次光临。"
+    extend "\n谢、谢谢惠顾。欢迎下次再来。"
     hide tubasa with dissolve
     "嗯嗯，大家都做得很好啊……。"
     window hide
@@ -103,49 +103,49 @@ label day4_1:
     play sound "fx/cute.ogg"
     tomo "啊……非常抱歉！"
     show tomo 19i with dissolve
-    extend "\n我现在马上去换！！请稍等！！"
+    extend "\n我现在马上给您换！！请稍等！！"
     hide tomo with dissolve
     show tuki 29i at topleft with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute2.ogg"
-    tuki "……糟糕。在芭菲上撒了太多巧克力了。"
+    tuki "……糟糕。芭菲上的巧克力酱撒得太多了。"
     show tuki 10i with dissolve
-    extend "\n又失败了。没办法，凑合吃吧。"
+    extend "\n又失败了。没办法，只好由我来把它解决掉了。"
     hide tuki with dissolve
     show saburo 12i at topright with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute3.ogg"
     saburo "咦？"
     show saburo 11i with dissolve
-    extend "\n这单是送到哪张桌子上的来着？"
+    extend "\n这一单是送到哪张桌子上的来着？"
     hide saburo with dissolve
     show sakuya 6i at top with dissolve
-    sakuya "嗯。是奶油水果蛋糕。"
+    sakuya "喏。你点的奶油水果蛋糕。"
     play sound "fx/boing.ogg"
-    customer2 "感觉态度有点差啊……？"
+    customer2 "感、感觉态度有点差啊……？"
     window hide
     hide sakuya with dissolve
     window show
-    "……不过，万事不可能一帆风顺。"
-    "哎呀~我也想成为客人。"
-    extend "\n有这么可爱的少年来迎接的咖啡店……。"
-    extend "\n世界上肯定找不到吧。"
+    "……嘛，凡事不可能一帆风顺。"
+    "哎呀~我也想当个客人啊。"
+    extend "\n有这么多可爱的少年来迎接的咖啡店……。"
+    extend "\n全世界肯定找不出第二家了。"
     play sound "fx/impact_japanese.ogg"
-    "全世界的正太控们！来集合吧！！"
-    extend "\n在这家今日限定的咖啡店集合！！"
+    "全世界的正太控们！来这里集合吧！！"
+    extend "\n就在这家今日限定的咖啡店里！！"
     window hide
     hide bg with dissolve
     play sound "fx/crowd_noise.ogg"
     show bg cafe at center with Dissolve(1.0)
     window show
-    customer3 "呜呼……！\n有，有这么多正太的咖啡店……！"
+    customer3 "呜呼……！\n满、满是正太的咖啡店……！"
     play sound "fx/sparkle.ogg"
-    extend "\n我，我要忍不住啦……！！"
-    customer4 "看啊。"
-    extend "\n那个孩子超级~可爱啊。"
+    extend "\n我、我要把持不住了……！！"
+    customer4 "快看。"
+    extend "\n那个孩子超~可爱的啊。"
     play sound "fx/wow2.ogg"
     extend "小小的屁股好·棒·啊♪"
-    customer5 "这乌龙茶……该不会不小心加了少年的唾液吧……？"
+    customer5 "这杯乌龙茶……该不会不小心混进了少年的唾液吧……？"
     play sound "fx/eureka.ogg"
     extend "\n如果是的话那就太棒了！！！"
     window hide
@@ -156,42 +156,42 @@ label day4_1:
     play sound "fx/crowd_noise.ogg"
     show sora 12i at topleft with dissolve
     sora "小慎，聚在那边的客人，"
-    extend "\n感觉气场有些不同……？"
+    extend "\n感觉气场有些不对劲……？"
     show sintarou 27i at topright with dissolve
-    sintarou "啊是那个啊。"
-    extend "\n虽然都是我澡堂的客人，"
+    sintarou "啊——那些人啊。"
+    extend "\n虽然都是我家澡堂的常客，"
     show sintarou 1i with dissolve
-    extend "他们有些“奇怪”，还是不要靠近为好哦。"
+    extend "不过稍微有点『那个』倾向，所以还是不要靠近他们比较好哦~。"
     hide sora with dissolve
     hide sintarou with dissolve
     show saburo 12i at top with dissolve
     play sound "fx/boing.ogg"
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
-    saburo "咿！他们要来了吗！！"
+    saburo "咿！那些家伙还是来了吗！！"
     show saburo 11i with dissolve
-    extend "\n我，我去厨房了~……。"
+    extend "\n我、我去厨房帮忙了~……。"
     play sound "fx/running.ogg"
     hide saburo with dissolve
     show sora 13i at topleft
     show tuki 5i at topright with dissolve
-    tuki "奥村家的澡堂明明很舒适安宁呀，\n按理说不该出现这种客人啊...？"
+    tuki "奥村家的澡堂明明是个舒适安稳的地方，\n不敢想象竟然会有那种客人出没啊。"
     show sintarou 16i at top with dissolve
-    sintarou "凡事都有可能，澡堂有时候也可能没那么安宁。"
+    sintarou "哎呀，总会有点这样那样的原因啦，某些日子可就没那么安稳了。"
     show sintarou 13i with dissolve
-    extend "\n算了，这是和你们没关系的事，不用在意~。"
+    extend "\n嘛，这事跟你们两位没什么关系，别放在心上啦~。"
     window hide
     hide sora with dissolve
     hide sintarou with dissolve
     hide tuki with dissolve
     window show
-    student1 "[player_name]君。"
-    extend "\n如果你有空的话，能代替猫山\n去招呼2号桌的客人点单吗？"
+    student1 "[player_name]君——。"
+    extend "\n如果你有空的话，能替一下猫山，\n去招呼2号桌的客人点单吗？"
     me "了解。"
-    "不对，像这样和他们一起工作不是很难得的体验吗？"
+    "不对，能像这样和他们一起工作，本身不就是很难得的体验吗？"
     play sound "fx/explosion3.ogg"
-    "呼哈哈哈，你们这些正太控肯定羡慕死我啦！"
-    extend "\n现在的我是御咲学园的学生！"
-    extend "\n我作为咖啡店的经营者一定要努力！！"
+    "哇哈哈哈，你们这些正太控肯定羡慕死我啦！"
+    extend "\n现在的我可是御咲学园的学生！"
+    extend "\n作为经营咖啡店的一份子，我会加油的！！"
     stop music fadeout 2.0
     window hide
     hide bg with dissolve
@@ -199,27 +199,27 @@ label day4_1:
     show bg cafe at center with Dissolve(1.0)
     window show
     play sound "fx/eureka.ogg"
-    customer3 "哦。你也是个朴素的少年呢。"
-    customer4 "嗯~虽然现在看起来平平无奇，不过也是有可取之处的。"
+    customer3 "哦。你也是个气质相当质朴的少年呢。"
+    customer4 "嗯~虽然看起来平平无奇，不过这种风格也挺有味道的，不错呢。"
     play sound "fx/sparkle.ogg"
-    customer5 "我，我反倒萌这种类型的！！"
+    customer5 "我、我反倒是对这种类型的更有感觉啊！！"
     show cg dark at center with Dissolve(0.3)
     play sound "fx/ding.ogg"
     "喂喂，饶了我吧。"
-    extend "\n我必须听这些人的点单吗……！"
+    extend "\n我必须得听这些家伙点单吗……！"
     "醉翁之意不在酒，而在小正太对吧！"
-    extend "\n身为正太控的我居然会被同为正太控的人盯上……。"
-    extend "\n唔……真令人不寒而栗。"
+    extend "\n身为正太控的我，居然会被同为正太控的人盯上……。"
+    extend "\n唔……简直毛骨悚然。"
     stop sound fadeout 0.5
     window hide
     hide cg with dissolve
     window show
-    me "欢，欢迎光临。"
-    extend "\n请，请问要点些什么？"
+    me "欢、欢迎光临。"
+    extend "\n请、请问要点些什么？"
     play sound "fx/eureka.ogg"
     customer3 "吼~[player_name]，这是你的名字吧。"
     extend "\n真是个好名字呢。"
-    "男人看着我的名牌，说道。"
+    "男人看着我的名牌说道。"
     play sound "fx/sparkle.ogg"
     customer4 "哎呀~看上去还挺青涩啊~？"
     extend "\n长着张纯朴的脸蛋呢♪"
@@ -227,15 +227,15 @@ label day4_1:
     customer5 "好香！！有股少年的味道！！"
     extend "\n哈啊~真让人把持不住！"
     play sound "fx/shock.ogg"
-    "呜……不，不要这样。"
+    "呜……不、不要这样。"
     extend "\n不要用那种眼神看我啊啊啊！！！"
-    me "那，那个，请您下单…。"
-    customer4 "别那么着急嘛~。"
-    customer3 "来嘛来嘛，给客人再多服务一些！"
+    me "那、那个，请各位下单……。"
+    customer4 "哎呀~别那么着急嘛~。"
+    customer3 "来嘛来嘛，对客人可要多多服务一下哦！"
     stop music fadeout 1.0
     show cg remarkable at center with Dissolve(0.3)
     play sound "fx/wind_slash.ogg"
-    "呜呜"
+    "（拽）"
     "男人拉着我的胳膊。"
     play sound "fx/boing.ogg"
     me "咿……！"
@@ -247,7 +247,7 @@ label day4_1:
 label day4_1_tomo:
     show tomo 4i at top with dissolve
     window show
-    tomo "[player_name]君，加油哦！"
+    tomo "[player_name]君，我们一起加油吧！"
     me "噢！"
     hide tomo with dissolve
     return
@@ -255,7 +255,7 @@ label day4_1_tomo:
 label day4_1_sintarou:
     show sintarou 7i at top with dissolve
     window show
-    sintarou "[player_name]酱，今天一定要努力哦~！"
+    sintarou "[player_name]酱，今天咱们就轰轰烈烈地大干一场吧~！"
     me "噢！"
     hide sintarou with dissolve
     return
@@ -427,7 +427,7 @@ label end_tomo:
     tubasa "（盯着）"
     "怎么可能啊！！"
     play sound "fx/explosion3.ogg"
-    extend "\n翼的眼神就像是「猎人」一样……。"
+    extend "\n翼的眼神就像是『猎人』一样……。"
     me "翼，冷静一点。"
     extend "\n就算用暴力解决，情况也不会好转。"
     extend "\n不要拖累对方，\n用其他方法保护友。"
@@ -718,7 +718,7 @@ label end_tomo:
     extend "\n我好像不知不觉变得消极了。"
     extend "\n这不是我的风格。"
     extend "\n我要变得更加积极向上！"
-    me "嗯，这才是「森海友」嘛。"
+    me "嗯，这才是『森海友』嘛。"
     tomo "诶嘿嘿。"
     "友害羞地笑了笑，突然间将脸贴近，"
     window hide
@@ -923,7 +923,7 @@ label end_sintarou:
     play sound "fx/running.ogg"
     show tomo 4i at top with dissolve
     window show
-    tomo "[player_name]」"
+    tomo "[player_name]』"
     "我正努力地在扫地呢，这时友突然向我搭话。"
     me "友啊……怎么了？"
     show tomo 39i with dissolve
@@ -939,7 +939,7 @@ label end_sintarou:
     extend "\n是我自己一个人先洗了，然后因为泡晕了，所以才让他让我休息的！"
     show tomo 31i with dissolve
     tomo "啊哈哈哈~开玩笑啦！"
-    extend "\n还有，后夜祭的时候也要和小慎一起「享受」吗？"
+    extend "\n还有，后夜祭的时候也要和小慎一起『享受』吗？"
     me "诶！为什么你会知道……？"
     show tomo 25i with dissolve
     tomo "看你这么紧张，我就知道是那样了~！"
@@ -949,7 +949,7 @@ label end_sintarou:
     tomo "嗯！"
     extend "\n毕竟，不知道你们俩的事才是奇怪呢！"
     show tomo 6i with dissolve
-    tomo "不过，没想到「享受」居然都得到了你的肯定……！"
+    tomo "不过，没想到『享受』居然都得到了你的肯定……！"
     show tomo 13i with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
@@ -1287,7 +1287,7 @@ label day4_1_tubasa:
 label day4_1_tuki:
     show tuki 9i at top with dissolve
     window show
-    tuki "[player_surname]，一起加油吧。"
+    tuki "[player_surname]，加油干吧。"
     me "噢！"
     hide tuki with dissolve
     return
@@ -1303,7 +1303,7 @@ label day4_1_sora:
 label day4_1_sakuya:
     show sakuya 5i at top with dissolve
     window show
-    sakuya "[player_name]也得加油啊！"
+    sakuya "[player_name]，你也给我好好努力啊！"
     me "噢！"
     hide sakuya with dissolve
     return
@@ -1311,7 +1311,7 @@ label day4_1_sakuya:
 label day4_1_saburo:
     show saburo 10i at top with dissolve
     window show
-    saburo "让我来给你打气~[player_surname]！"
+    saburo "我来给你打气咯~[player_surname]！"
     me "噢！"
     hide saburo with dissolve
     return
@@ -2244,7 +2244,7 @@ label end_sora:
     window show
     tuki "还好，找到代班的人了。"
     extend "\n人手足够，不必担心。"
-    extend "\n其他的人都拜托我传话给你，让我代为转达「请多保重。」。"
+    extend "\n其他的人都拜托我传话给你，让我代为转达『请多保重。』。"
     me "这样啊……给你添麻烦了，抱歉。"
     show tuki 1i with dissolve
     tuki "不用道歉的。"
@@ -3747,7 +3747,7 @@ label end_sakuya:
     extend "\n他看起来弱不禁风，其实意外地强呢。"
     extend "\n这方面或许和你很像……。"
     me "等你不再因此难过了，能坦率一点的话，\n我认为你向他说明清楚比较好。"
-    extend "\n还要跟他说「对不起」哦。"
+    extend "\n还要跟他说『对不起』哦。"
     show bg schoolyard1_night
     sakuya "是啊……。"
     window hide
@@ -4062,7 +4062,7 @@ label end_sirou:
     play sound "fx/eureka.ogg"
     me "啊啊……？客人……请不要得寸进尺哦。"
     extend "\n听说最近的年轻人，发起火来可是很恐怖的哦~。"
-    extend "\n你听说过「暴躁的青少年」这个词吗？"
+    extend "\n你听说过『暴躁的青少年』这个词吗？"
     extend "\n你还是适可而止比较好吧？"
     window hide
     hide cg with dissolve
@@ -4425,7 +4425,7 @@ label end_all:
     customer3 "怎，怎么会这样！"
     me "客人……不要太得意忘形了。"
     extend "\n听说最近的年轻人，发起火来可是很恐怖的哦~。"
-    extend "\n你听说过「暴躁的青少年」这个词吗？"
+    extend "\n你听说过『暴躁的青少年』这个词吗？"
     extend "\n你还是适可而止比较好吧？"
     window hide
     hide cg with dissolve

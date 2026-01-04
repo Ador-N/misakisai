@@ -2110,7 +2110,7 @@ label day2_layout:
     tubasa_and_sinobu "欢、欢迎回来，主人。"
     clerk1 "不行！声音再大一点！！"
     clerk2 "要将少年那美好的声音传达给主人啊！"
-    extend "\n就像过去的阉伶那样！\n（注：『阉伶』指在童年时接受阉割手术的男性歌手，去势的目的是为了保持童声。）"
+    extend "\n就像过去的阉伶那样！\n（注：『阉伶』指在童年时接受阉割手术的男性歌手，去势的目的是为了保持童声）"
     $ renpy.transition(Quake(0, 60, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
     show cg c33 2 with dissolve

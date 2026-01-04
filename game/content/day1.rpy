@@ -2605,7 +2605,7 @@ label day1_supply_sakuya:
     "难、难道说，是告白之后的那种事！？！？"
     extend "\n不对，那就不该在教学楼后面，而是体育馆仓库吧！！"
     extend "\n话说回来，御咲学园明明是男校，居然真的会有这种事吗！？！？？"
-    "脑海中浮现出各种各样的臆测，我朝着教学楼后面走去。"
+    "脑海中浮现出各种各样的臆测，我朝着教学楼后走去。"
     stop music fadeout 2.0
     window hide
     hide bg with dissolve
