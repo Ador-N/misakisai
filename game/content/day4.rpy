@@ -417,7 +417,7 @@ label end_tomo:
     "说着，翼把手中拿着的绳子展示给我看。"
     play sound "fx/boing.ogg"
     "喂、喂喂，不会吧……。"
-    extend "\n他打算用绳子给我绑成龟甲缚，然后邀请我进入SM的世界。"
+    extend "\n他打算用绳子给我绑个龟甲缚，然后邀请我进入SM的世界。"
     "然后呢，"
     play sound "fx/sparkle.ogg"
     show cg adult with Radial(0.5)
@@ -830,158 +830,157 @@ label end_tomo:
 label end_sintarou:
     show bg cafe at center with dissolve
     window show
-    "咚！！"
+    "（噔噔！！）"
     show sintarou 25i at top with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
-    sintarou "3位！OUT！！"
+    sintarou "你们三位——！OUT！！"
     me "慎太郎！"
     play sound "fx/cute.ogg"
     $ renpy.transition(Quake(0, 50, 0.1, 0.06), layer='master')
-    customer3 "慎，慎太郎君！？"
+    customer3 "慎、慎太郎君！？"
     play music "sintarou_theme.ogg"
     show sintarou 17i with dissolve
     sintarou "我不是告诫过你们在咖啡店要自重吗！"
-    extend "\n我再警告你们一遍[player_name]君如果再被你们骚扰的话"
+    extend "\n听好了，要是再敢对[player_name]动手动脚的话……"
     show cg remarkable at center with FadeWhite(0.4)
     play sound "fx/explosion3.ogg"
-    extend "\n禁止你去我家的澡堂3个月哦！！"
+    extend "\n未来三个月，禁止踏进我家澡堂！！"
     hide cg with dissolve
     hide sintarou with dissolve
     play sound "fx/ding.ogg"
-    customer3 "呜……抱，抱歉了捏。"
-    extend "\n有，有点兴奋过头，所以有点不守规矩了捏。"
+    customer3 "呜……抱、抱歉了捏。"
+    extend "\n有、有点兴奋过头，所以有点不守规矩了捏。"
     customer5 "对不起呀。"
-    extend "\n这里还是绅士一点，姑且忍一忍，可远观不可亵玩焉。"
-    customer4 "对不起…。"
+    extend "\n在这里我们还是绅士一点，姑且忍耐一下，记住可远观不可亵玩焉。"
+    customer4 "对不起……。"
     stop sound fadeout 0.5
     show sintarou 29i at top with dissolve
     sintarou "嗯，很好。"
     show sintarou 19i with dissolve
-    extend "\n我想你应该明白，禁止对别的男孩出手！"
+    extend "\n我想你们心里应该清楚，不光是这一位，对其他的男孩子也绝对不准出手哦！"
     hide sintarou with dissolve
     "在慎太郎的帮助下，我总算摆脱了这个危机。"
-    "没想到在这种时候还能被初中生搭救……。"
+    "没想到在这种时候，竟然被一个初中生搭救了……。"
     extend "\n总感觉有点丢人啊……。"
     window hide
     show sintarou 1i at top with dissolve
     window show
     sintarou "[player_name]，没事吧？"
-    me "嗯，嗯嗯。得救了。"
-    extend "\n谢谢你们！"
+    me "嗯、嗯。多亏了你，得救了。"
+    extend "\n谢谢你！"
     show sintarou 4i with dissolve
-    sintarou "何足挂齿~。"
+    sintarou "不用客气~。"
     show sintarou 31i with dissolve
     sintarou "……。"
     show sintarou 18i with dissolve
-    sintarou "话说[player_name]。"
+    sintarou "话说，[player_name]。"
     extend "\n你今天有和谁约好一起逛后夜祭吗？"
     me "诶？不，还没有安排。"
     show sintarou 34i with dissolve
-    sintarou "对哦对哦！"
-    extend "\n那，你就和我一起去吧！"
-    me "好啊，其他人呢？"
+    sintarou "这样啊这样啊！"
+    extend "\n那，你就和咱一起去吧！"
+    me "好啊，那其他人呢？"
     show sintarou 23i with dissolve
-    sintarou "这种事你不用多问了！"
+    sintarou "这种事你就别多问啦！"
     show sintarou 30i with dissolve
     extend "\n而且，我还想和你谈谈咱俩的『秘密』。"
-    me "啊……抱，抱歉。"
-    extend "\n嗯，一起逛吧！"
-    extend "\n我们在鞋柜那碰头吧。"
+    me "啊……抱、抱歉。"
+    extend "\n嗯，那就一起吧！"
+    extend "\n那我们就在鞋柜那边碰头吧。"
     show sintarou 8i with dissolve
-    sintarou "好的！"
+    sintarou "好！"
     show sintarou 33i with dissolve
-    extend "\n那，待会见！！"
+    extend "\n那就待会儿见咯！！"
     window hide
     play sound "fx/running.ogg"
     hide sintarou with dissolve
     window show
-    "除了『秘密』之外，慎太郎似乎还有想和我单独相处的理由。"
+    "除了『秘密』之外，慎太郎似乎还有其他想和我单独相处的理由。"
     "……。"
     play sound "fx/heartbeat.ogg"
     show cg orange at center with dissolve
     "呜……总觉得心跳加速了……。"
-    "毕，毕竟我还不清楚他到底要对我说什么，"
-    extend "\n没必要太过紧张……"
-    "不，好不容易又有了独处的机会。"
-    extend "\n如果他没有主动提起的话，我也会主动开口。"
+    "嘛、嘛，反正还不知道待会儿他会跟我谈些什么，\n没必要那么紧张……"
+    "不行，好不容易又有了独处的机会。"
+    extend "\n就算他没有主动开口，我也要自己把话挑明。"
     hide cg with dissolve
     hide bg with dissolve
     stop music fadeout 2.0
-    "……毕竟这个梦不知道会持续到什么时候……。"
+    "……毕竟这个梦，不知道会持续到什么时候……。"
     window hide
     play sound "fx/crowd_noise.ogg"
     show bg school_building_evening_full at center with Dissolve(1.0)
     pause 0.4
     show bg cafe_evening with Radial(1.0)
     window show
-    "咖啡店的营业时间也差不多要结束了。"
-    extend "\n剩下的活动就是和慎太郎一起逛后夜祭！"
+    "咖啡店的营业时间差不多要结束了。"
+    extend "\n剩下的活动，就是和慎太郎的后夜祭！"
     extend "\n我可不能迟到了。得赶紧收拾完。"
     window hide
     play music "tomo_theme.ogg"
     play sound "fx/running.ogg"
     show tomo 4i at top with dissolve
     window show
-    tomo "[player_name]』"
-    "我正努力地在扫地呢，这时友突然向我搭话。"
-    me "友啊……怎么了？"
+    tomo "[player_name]君~！"
+    "在我忙活的时候，友叫住了我。"
+    me "是友啊……。怎么了？"
     show tomo 39i with dissolve
-    tomo "我差点忘了，你和慎太郎约会得怎么样了~？"
+    tomo "我差点忘了，那之后，你和慎酱的约会怎么样呀~？"
     "友笑嘻嘻地问我。"
-    me "什么怎么样……就是洗个澡，在慎太郎的房间里睡了会儿而已。"
+    me "什么怎么样……就是洗了个澡，然后在慎太郎的房间里睡了会儿而已。"
     show tomo 18i with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
     tomo "诶！！！"
-    extend "\n不止是洗澡，还睡了一觉！！？"
-    me "不，不是的，不是这样的！！"
-    extend "\n是我自己一个人先洗了，然后因为泡晕了，所以才让他让我休息的！"
+    extend "\n不仅一起洗澡，还睡了一觉！！？"
+    me "不、不是的，不是这样的！！"
+    extend "\n是我一个人进去洗，结果因为泡太久头晕了，他才借地方给我休息一下啦！"
     show tomo 31i with dissolve
     tomo "啊哈哈哈~开玩笑啦！"
-    extend "\n还有，后夜祭的时候也要和小慎一起『享受』吗？"
-    me "诶！为什么你会知道……？"
+    extend "\n还有，后夜祭的时候你也要和慎酱一起『享受』吗？"
+    me "诶！你怎么会知道……？"
     show tomo 25i with dissolve
-    tomo "看你这么紧张，我就知道是那样了~！"
+    tomo "看你这么紧张，我就知道是这样啦~！"
     extend "\n[player_name]君的心情都写在脸上了哦！"
-    me "真，真的吗……。"
+    me "真、真的吗……。"
     show tomo 2i with dissolve
     tomo "嗯！"
-    extend "\n毕竟，不知道你们俩的事才是奇怪呢！"
+    extend "\n不过嘛，要是不知道你们俩的情况，顶多会觉得有点怪而已啦！"
     show tomo 6i with dissolve
-    tomo "不过，没想到『享受』居然都得到了你的肯定……！"
+    tomo "不过，没想到你连『享受』这两个字都亲口承认了……！"
     show tomo 13i with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
-    extend "\n你小子太厉害了！！"
-    me "啊，不是！我并没有想太多……。"
+    extend "\n多谢啦，我已经完全懂了！！"
+    me "啊，不是啦！我可没有想那么多……。"
     show tomo 38i with dissolve
-    tomo "唔……话说回来，我还真没想象过，\n人尽可夫的慎酱，会和别人搞纯爱呢。"
-    me "喂，这话你也没资格说啊。"
+    tomo "唔……话说回来，我还真没想象过，\n那个碧池太郎慎酱，会和别人搞纯爱呢。"
+    me "喂，这话你也没资格说吧。"
     show tomo 24i with dissolve
-    tomo "就是就是。\n谁叫我最喜欢做爽事了嘛！"
+    tomo "是啊是啊。\n毕竟我最喜欢舒服的事情了呀！"
     show tomo 5i with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/dash.ogg"
-    extend "\n但是，这话我敢说！！"
-    me "啊哈哈哈"
+    extend "\n不对，我有资格说！！"
+    me "啊哈哈哈哈。"
     me "……呼。"
-    extend "\n多亏了你傻乎乎的特质，我感觉舒服多了。"
-    extend "\n谢谢你啊。"
+    extend "\n多亏了友的笨蛋属性，我感觉舒服多了。"
+    extend "\n谢啦。"
     show tomo 38i with dissolve
-    tomo "不用谢！"
+    tomo "不用客气！"
     show tomo 28i with dissolve
-    extend "\n唔……？\n你这话说得，不像是在夸奖我啊！！"
-    me "是在夸是在夸！"
-    extend "\n那我出发了！"
+    extend "\n嗯……？\n等等，你这根本就不是在夸我吧！！"
+    me "是在夸是在夸啦！"
+    extend "\n那我出发咯！"
     show tomo 4i with dissolve
-    tomo "好！"
+    tomo "噢！"
     show tomo 17i with dissolve
-    extend "\n要玩得尽兴哦~！！"
+    extend "\n直到最后一刻都要尽情享受『御咲祭』哦~！！"
     me "交给我吧！"
-    extend "\n就让我来让你见识一下何为男子汉吧！！"
+    extend "\n我这就去让你见识见识何为真正的男子汉！！"
     hide tomo with dissolve
-    "虽然多少有些自相矛盾，但我从友那里，\n赶往了和慎太郎约定的地点。"
+    "虽然两人的对话多少有点牛头不对马嘴，但我确实从友那里得到了不少元气。\n我随即赶往和慎太郎约好的地点。"
     stop music fadeout 2.0
     window hide
     play sound "fx/running.ogg"
