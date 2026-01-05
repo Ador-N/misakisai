@@ -267,70 +267,70 @@ label end_tomo:
     window show
     tomo "好，暂停！到此为止！！"
     me "友！"
-    customer3 "怎，怎么会这样！"
+    customer3 "怎、怎么会这样捏！"
     show tomo 10i with dissolve
-    tomo "这位客人。\n对店员动手是违反规则的哦~。"
+    tomo "这位客人。\n对店员动手动脚是违反规则的哦~。"
     show tomo 38i with dissolve
-    extend "\n要遵守规则，好好享受学园祭才行！"
+    extend "\n规则就是规则，大家得好好遵守，才能好好享受学园祭嘛！"
     show tomo 16i with dissolve
     extend "\n快点，把手松开。"
     play sound "fx/boing.ogg"
-    customer3 "呜……抱，抱歉了捏。"
-    extend "\n有，有点兴奋过头，所以有点不守规矩了捏。"
+    customer3 "呜……抱、抱歉了捏。"
+    extend "\n有、有点兴奋过头，所以有点不守规矩了捏。"
     play sound "fx/cute3.ogg"
     customer5 "对不起呀。"
-    extend "\n这里还是绅士一点，姑且忍一忍，可远观不可亵玩焉。"
+    extend "\n在这里我们还是绅士一点，姑且忍耐一下，记住可远观不可亵玩焉。"
     play sound "fx/sparkle.ogg"
-    customer4 "正义感强烈的男孩子真是棒呀♪"
+    customer4 "正义感爆棚的男孩子也超级迷人呢♪"
     window hide
     hide tomo with dissolve
     window show
-    "在友的帮助下我总算从窘境中逃脱出来了。"
-    "没想到在这种时候还能被初中生搭救……。"
+    "在友的帮助下，我总算从那尴尬的境地中脱身了。"
+    "没想到在这种时候，竟然被一个初中生搭救了……。"
     extend "\n总感觉有点丢人啊……。"
     window hide
     show tomo 7i at top with dissolve
     window show
     tomo "[player_name]君，你没事吧？"
-    me "嗯，嗯嗯。得救了。"
-    extend "\n谢谢你们！"
+    me "嗯、嗯。多亏了你，得救了。"
+    extend "\n谢谢你！"
     show tomo 2i with dissolve
     tomo "嘿嘿！没什么啦。"
     show tomo 23i with dissolve
     tomo "……。"
     show tomo 8i with dissolve
-    tomo "那，那个啊，[player_name]君。"
-    extend "\n今天后夜祭，你和谁约好了？"
+    tomo "那、那个啊，[player_name]君。"
+    extend "\n今晚的后夜祭，你有和谁约好一起了吗？"
     me "诶？不，还没有安排。"
     show tomo 33i with dissolve
     tomo "这样啊！"
-    extend "\n那要不和我一起逛？"
-    me "好啊，其他人呢？"
+    extend "\n那要不，和我一起逛？"
+    me "好啊，那其他人呢？"
     show tomo 35i with dissolve
-    tomo "呜……那个……我觉得我们两个人就行……。"
+    tomo "呜……那个……我觉得我们两个人就好……。"
     "啊。"
     me "嗯，可以啊！"
-    extend "\n那就在鞋柜那碰头吧。"
+    extend "\n那我们就在鞋柜那边碰头吧。"
     show tomo 34i with dissolve
-    tomo "嗯，嗯！谢谢！"
+    tomo "嗯、嗯！谢谢！"
     show tomo 31i with dissolve
-    extend "\n那我回到我的岗位去了！\n再见！"
+    extend "\n那我先回岗位去了！\n待会儿见！"
     window hide
     play sound "fx/running.ogg"
     hide tomo with dissolve
     window show
-    "友，整理好心情了吗？"
+    "友，已经整理好心情了吗？"
     "……。"
     play sound "fx/heartbeat.ogg"
     show cg yellow at center with dissolve
     "呜……总觉得心跳加速了……。"
-    "嘛，嘛，也不知道会发展成什么样子，\n没必要那么紧张……"
-    "不，好不容易又有了独处的机会。"
-    extend "\n如果他没有主动提起的话，我也会主动开口。"
+    "嘛、嘛，反正还不知道待会儿他会跟我谈些什么，\n没必要那么紧张……"
+    "不行，好不容易又有了独处的机会。"
+    extend "\n就算他没有主动开口，我也要自己把话挑明。"
     hide cg with dissolve
     hide bg with dissolve
     stop music fadeout 2.0
-    "……毕竟这个梦不知道会持续到什么时候……。"
+    "……毕竟这个梦，不知道会持续到什么时候……。"
     window hide
     show bg cafe at center with dissolve
     show tubasa 14i at top with dissolve
@@ -344,38 +344,38 @@ label end_tomo:
     pause 0.4
     show bg cafe_evening with Radial(1.0)
     window show
-    "咖啡店的营业时间也差不多要结束了。"
+    "咖啡店的营业时间差不多要结束了。"
     extend "\n剩下的活动，就是和友的后夜祭！"
     extend "\n我可不能迟到了。得赶紧收拾完。"
     window hide
     play music "tubasa_theme.ogg"
     show tubasa 1i at top with dissolve
     window show
-    tubasa "那个，[player_name]君，等……。"
-    "在我忙活的时候，翼向我说道。"
-    me "抱歉。\n我现在有点事。"
-    extend "\n能稍微往后推一下吗？"
+    tubasa "那个，[player_name]君，打扰一下……。"
+    "在我忙活的时候，翼叫住了我。"
+    me "抱歉。\n我现在有个很重要的约会。"
+    extend "\n有什么事能晚点再说吗？"
     show tubasa 20i with dissolve
-    tubasa "啊，那事必须现在就办。"
+    tubasa "啊，那个，必须是现在才行。"
     show tubasa 3i with dissolve
     extend "\n拜托了。……不会占用你太多时间的。"
-    "翼前所未有地顽固，我无法拒绝，便跟着他走了。"
+    "翼表现出了前所未有的固执。我实在没法推托，只好跟着他走了。"
     hide tubasa with dissolve
     hide bg with dissolve
     "虽然已经大概猜到他要说什么了……。"
     window hide
     show bg school_backside_evening with Dissolve(1.0)
     window show
-    "翼带着我去的地方，是教学楼的后方。"
+    "翼带我去的地方，是教学楼的后方。"
     show tubasa 21i at top with dissolve
     tubasa "[player_name]君。"
     extend "\n那个……那个……。"
     me "冷静点。没事的。"
-    extend "\n无论翼问什么，我都会坦诚回答。"
+    extend "\n无论翼君问什么，我都会坦诚回答。"
     show tubasa 22i with dissolve
     stop music fadeout 2.0
-    tubasa "好，好的……那么，我就单刀直入地问了。"
-    "翼深吸了一口气，缓缓开口。"
+    tubasa "好、好的……那么，我就单刀直入地问了。"
+    "翼深吸了一口气，然后缓缓开口。"
     play music "serious.ogg"
     show tubasa 1i with dissolve
     tubasa "……你对友君，是怎么想的？"
@@ -383,20 +383,20 @@ label end_tomo:
     me "……。"
     show tubasa 23i with dissolve
     tubasa "请你，坦诚回答我。"
-    me "……喜欢。"
-    extend "\n不是作为朋友的喜欢，而是超越朋友喜欢的感情。"
+    me "……我喜欢他。"
+    extend "\n不是作为普通朋友，而是超越了那种层面的感情。"
     show tubasa 21i with dissolve
     tubasa "！！"
     show tubasa 1i with dissolve
     extend "\n……果然是这样。"
     show tubasa 22i with dissolve
     stop music fadeout 2.0
-    extend "\n……你打算把这份感情告诉友君吗？"
-    "翼在每一个停顿的『空隙』中都充满了沉重。"
-    me "当然有了。"
+    extend "\n……你打算把这份心意告诉友君吗？"
+    "翼在每一句话之间夹杂的那段『停顿』，都显得格外沉重。"
+    me "是的。"
     extend "\n我打算在后夜祭上告诉他。"
     show tubasa 14i with dissolve
-    tubasa "唔……"
+    tubasa "唔……。"
     play music "fx/wind.ogg"
     show bg school_backside_night with Dissolve(0.8)
     show tubasa 24i with dissolve
@@ -405,7 +405,7 @@ label end_tomo:
     hide tubasa with dissolve
     show tubasa 25i at top with dissolve
     play sound "fx/eureka.ogg"
-    tubasa "[player_name]君，我是不会把友交给你的……！"
+    tubasa "像[player_name]君这样的人……我是绝对不会把友君交给你的……！"
     stop music fadeout 2.0
     me "……所以，你打算怎么办？"
     window hide
@@ -413,31 +413,31 @@ label end_tomo:
     show cg c19 1 at center with DefocusBlack(0.3)
     play music "pinch.ogg"
     window show
-    tubasa "[player_name]君只要待在这里就可以了！"
-    "翼说着，从怀中掏出了两根绳子。"
+    tubasa "我要让[player_name]君，再也没法从这里离开半步！"
+    "说着，翼把手中拿着的绳子展示给我看。"
     play sound "fx/boing.ogg"
-    "喂喂喂，不会吧……。"
-    extend "\n他打算用绳子把我五花大绑，然后邀请我进入SM的世界。"
-    "然后呢，\n"
+    "喂、喂喂，不会吧……。"
+    extend "\n他打算用绳子给我绑成龟甲缚，然后邀请我进入SM的世界。"
+    "然后呢，"
     play sound "fx/sparkle.ogg"
     show cg adult with Radial(0.5)
-    tubasa "比起友，我要让你变成我的俘虏！\n大概就是这种感觉吧……。"
+    "\n再来一句『比起友君，我要让你变成我的俘虏！』\n之类的……。"
     show cg c19 2 with DefocusBlack(0.3)
     play sound "fx/eureka.ogg"
     tubasa "（盯着）"
-    "怎么可能啊！！"
+    "怎么可能啊——！！"
     play sound "fx/explosion3.ogg"
-    extend "\n翼的眼神就像是『猎人』一样……。"
-    me "翼，冷静一点。"
-    extend "\n就算用暴力解决，情况也不会好转。"
-    extend "\n不要拖累对方，\n用其他方法保护友。"
+    extend "\n那完全是『狩猎者』的眼神……。"
+    me "翼、翼君，冷静点。先冷静下来。"
+    extend "\n就算用暴力解决，情况也不会好转的。"
+    extend "\n不要去拖对方的后腿，\n用别的方法去守护友吧。"
     show cg c19 3 with Dissolve(0.3)
-    tubasa "其他方法……？"
-    me "翼也很喜欢友吧？\n光从翼的眼神中就能看出来了。"
-    extend "\n那把这份感情传达给他，\n再努力让他对你产生感情不就行了吗！"
+    tubasa "别的方法……？"
+    me "翼君也很喜欢友吧？\n这份心意，我光是看着你的眼神就能明白了。"
+    extend "\n既然如此，你就应该把这份感情传达给他，\n努力让友的心向你靠拢才对啊！"
     show cg c19 4 with Dissolve(0.3)
-    tubasa "别，别说得这么简单！！"
-    tubasa "[player_name]君说的没错，\n友君是我最重要的人……是这世上最重要的人！"
+    tubasa "请、请不要说得那么简单！！"
+    tubasa "[player_name]君说的没错，\n友君他是我最重要的……这世界上最重要的人！"
     extend "\n正因如此，如果告白之后被拒绝了……"
     extend "\n我……我……！"
     window hide
@@ -448,55 +448,55 @@ label end_tomo:
     tubasa "而且……我觉得……"
     extend "\n友君也一定很喜欢[player_name]君。"
     show tubasa 24i with dissolve
-    tubasa "所以……[player_name]君不向友君表白的话，\n友君就一定……。"
-    me "小翼，这你就错了。"
+    tubasa "所以……只要[player_name]君不向友君表白的话，\n友君就一定……。"
+    me "翼君，这你就错了。"
     show tubasa 29i with dissolve
     tubasa "诶……？"
     me "我明白的。"
-    extend "\n他所追求的是什么。"
+    extend "\n我能感觉到，那孩子真正在追求的是什么。"
     show tubasa 28i with dissolve
     play sound "fx/dash.ogg"
-    tubasa "那请说明一下！！"
-    extend "\n友君看着我和别人时的眼神，怎么会和看着\n[player_name]君的眼神不一样。"
-    extend "\n请说明一下！！"
+    tubasa "那请你跟我解释清楚！！"
+    extend "\n友君看着我和别人时的眼神，怎么会\n和看着[player_name]君的眼神不一样。"
+    extend "\n请你解释给我听啊！！"
     show tubasa 29i with dissolve
-    tubasa "我明白……。"
-    extend "\n光是看着……就感觉心都要被挖走了……！"
+    tubasa "我……我是明白的啊。"
+    extend "\n光是看着那种眼神……就感觉心都要被挖走了……！"
     me "那是……"
     extend "\n不，不对！"
-    me "你忘了那天早上我们贴着耳朵说的话了吗？"
+    me "你忘了那天早上，我们贴着耳朵说的话了吗？"
     show tubasa 25i with dissolve
-    tubasa "那算什么！？"
-    extend "\n在我的认知里，[player_name]君的行为是完全矛盾的！"
+    tubasa "那又能说明什么！？"
+    extend "\n在我看来，[player_name]君的行为根本就是自相矛盾！"
     me "……。"
-    me "翼。\n在这之后，我要将我的想法传达给友。"
-    extend "\n然后，也要回应友的期望。这是我必须要做的事！"
+    me "翼君。\n在这之后，我要去向友表白。"
+    extend "\n然后，我也必须回应他的感情。这是我必须要做的事！"
     window hide
     play sound "fx/wind_slash.ogg"
     show cg c19 4 at center with DefocusWhite(0.5)
     window show
-    tubasa "我不会让你得逞的！！我不会让你做这种事的！！！"
-    me "友……又不会因为这样就不会再见到你了。"
+    tubasa "我不准！！我绝不允许你做这种事！！！"
+    me "友他……并不会因为这样就从翼君你们身边消失了。"
     extend "\n所以，让我去吧。"
     tubasa "……不……要。"
     stop music fadeout 2.5
-    me "拜托了……让我去吧。"
+    me "拜托了……让我去吧。求你了。"
     window hide
     hide cg with dissolve
     hide tubasa with dissolve
     show tubasa 27i at top with dissolve
     window show
-    tubasa "不……要……呜，呜呜呜呜呜呜呜呜哇啊啊啊啊……。"
+    tubasa "不……要……呜、呜呜呜呜呜呜呜呜哇啊啊啊啊……。"
     hide tubasa with Dissolve(1.0)
     play sound "fx/fall_down.ogg"
-    "翼放声大哭起来。"
-    "梦境终会醒来。"
+    "翼终于彻底崩溃，放声大哭起来。"
+    "梦，终究会醒来。"
     extend "\n一切都会变为没发生过的样子。"
     extend "\n在那之前……"
     play music "serious.ogg"
-    me "让我向他传达我的想法吧。"
-    extend "\n擅自做出这种事，真的很抱歉。"
-    "我抛下了蹲坐在地上的翼，向友走去。"
+    me "让我去传达我的心意吧。"
+    extend "\n我这么任性，真的很抱歉。"
+    "我抛下了蜷缩在地上抽泣的翼，径直朝着友所在的方向跑去。"
     play sound "fx/running.ogg"
     hide tubasa with dissolve
     hide bg with dissolve
@@ -505,25 +505,25 @@ label end_tomo:
     window hide
     show bg gym_backside_night with Dissolve(0.8)
     window show
-    "我绕过教学楼的拐角处，"
+    "绕过教学楼的拐角处时，"
     show sinobu 4i at top with Dissolve(1.0)
-    "发现忍站在那里。"
-    extend "\n他是不是听到我们的对话了呢？"
+    "我发现忍站在那里。"
+    extend "\n刚才那些话，难道都被他听到了吗？"
     show sinobu 5i with dissolve
     sinobu "[player_name]……。"
-    me "忍……你怎么看？"
+    me "忍……你是怎么看我的？"
     show sinobu 3i with dissolve
-    sinobu "……[player_name]君沿着自己决定的道路前进就好了。"
-    extend "\n如果你后悔了，就只会让友感到难过。"
+    sinobu "……[player_name]，沿着自己决定的道路前进就好了。"
+    extend "\n如果你这时候后悔，就只会让友感到不安和难过而已。"
     show sinobu 25i with dissolve
-    sinobu "去吧。翼这里有我在。"
+    sinobu "去吧。翼这边，有我在。"
     me "明白了。"
     extend "\n谢谢你，忍！"
     stop music fadeout 2.0
     play sound "fx/running.ogg"
     hide sinobu with dissolve
     hide bg with dissolve
-    "我匆忙赶往和友约好的地方。"
+    "我匆忙赶往与友约好的地点。"
     window hide
     play music "fx/night_insects.ogg"
     show bg gym_backside_night at center with Dissolve(0.8)
@@ -531,7 +531,7 @@ label end_tomo:
     window show
     "…"
     show sinobu 22i with dissolve
-    sinobu "其实我也很不甘心。"
+    sinobu "其实我也很不甘心啊。"
     show sinobu 20i with dissolve
     extend "\n明明我最理解友，也最想守护他。"
     window hide
@@ -542,51 +542,51 @@ label end_tomo:
     window hide
     show bg shoe_locker_night at center with Dissolve(0.8)
     window show
-    "我到鞋柜旁时，友已经在那等着了。"
+    "等我赶到鞋柜旁时，友已经在那里等着了。"
     show tomo 4i at top with dissolve
-    tomo "喂喂，[player_name]君！"
+    tomo "喂——，[player_name]君——！"
     me "抱歉……我迟到了。"
     show tomo 10i with dissolve
     tomo "没事没事，别放在心上！"
-    extend "\n我也是经常迟到的人，\n所以不会对迟到的人很严厉的。"
+    extend "\n我也是那种经常迟到的类型，\n所以对这种事挺宽容的哦。"
     show tomo 31i with dissolve
-    extend "\n但也不是说迟到就是理直气壮的啦。"
-    "友笑着对我说。"
+    extend "\n虽然也不是什么值得显摆的事情就是了，嘿嘿。"
+    "友笑着说道。"
     show tomo 12i with dissolve
-    tomo "那就出发吧。"
+    tomo "那，我们走吧。"
     window hide
     hide tomo with dissolve
     show bg school_building_night with Dissolve(1.0)
     window show
-    "我们来到外面，夕阳已经落山了。\n但余晖和摊位的灯光交相辉映，街上依然很热闹。"
-    extend "\n在校园的正中央，大家为了御咲祭篝火晚会做准备，\n堆柴火的工作正在有序地进行。"
+    "等我们来到室外，夕阳已经落山了。\n但在照明与摊位灯光的映衬下，校园里的热闹气氛并未减弱。"
+    extend "\n在这喧嚣之中，校园操场正中央，为了筹备御咲祭的篝火晚会，\n堆放柴火的工作正稳步推进着。"
     window hide
     show bg schoolyard_night with Dissolve(1.0)
     show tomo 6i at top with dissolve
     window show
-    tomo "拼命工作脚都酸了。"
-    extend "\n找个地方坐会儿吧。"
-    me "说的是。"
+    tomo "一直忙到现在，腿都酸了。"
+    extend "\n我们找个地方坐会儿吧。"
+    me "说得也是。"
     hide tomo with dissolve
-    "这么说着，我们两人\n在远离操场的草坪上坐了下来。"
+    "这么说着，我们两人\n特意在操场深处人较少的一片草地上坐了下来。"
     window hide
     show tomo 12i at top with dissolve
     window show
-    me "在这里的话，就能清楚地看到火焰，可以好好休息了。"
+    me "这里既能清楚地看到篝火，又能安静地休息呢。"
     tomo "是啊……。"
     stop music fadeout 2.0
     hide tomo with dissolve
-    "远远眺望着，热闹非凡的学园祭的光景。"
-    extend "\n然后"
+    "我们从远处眺望着，热闹非凡的学园祭盛况。"
+    extend "\n就在这时——"
     window hide
     play sound "fx/fire.ogg"
     show bg campfire with Radial(0.5)
     window show
-    "终于点燃了柴火堆。"
-    "熊熊燃烧着的鲜红火焰。"
+    "堆好的柴火堆终于被点燃了。"
+    "鲜红的火焰熊熊燃烧着。"
     extend "\n真的好美啊……。"
-    tomo "……这样真好啊。"
-    extend "\n总觉得很舒心。"
+    tomo "……真好啊，这种感觉。"
+    extend "\n总觉得很平静。"
     me "嗯……。"
     stop sound fadeout 2.0
     window hide
@@ -594,42 +594,42 @@ label end_tomo:
     show bg schoolyard_night with Dissolve(1.0)
     show tomo 33i at top with dissolve
     window show
-    tomo "……我说，[player_name]君……"
-    extend "\n我啊……[player_name]君在我身边的话，我就会非常安心。"
+    tomo "……那个，[player_name]君……"
+    extend "\n我啊……[player_name]君在我身边的话，我就会觉得非常安心。"
     me "是吗……那还真是谢谢你了。"
     show tomo 35i with dissolve
-    tomo "……我说啊……那个…。"
+    tomo "……我说啊，……那个……。"
     show tomo 36i with dissolve
-    tomo "……我可以稍微撒一下娇吗……所以，"
-    me "嗯…。"
+    tomo "……我可以稍微撒一下娇吗……就一下下。"
+    me "嗯……。"
     window hide
     show cg school_building_night at center with Dissolve(0.8)
     window show
-    "友将头靠在了我的肩上。"
-    extend "\n这举动简直就像小孩子撒娇一样。"
-    tomo "我啊……以前做了很多无理的事，"
-    extend "\n给很多人添了很多麻烦。"
-    tomo "当时，我正面临着许多令人不快和寂寞的事情，"
-    extend "\n将内心联系在一起的线一下子断了，"
-    extend "\n然后又搞出了那样的事情……"
-    tomo "现在已经牢牢地重新系好了，\n不会再断了。"
-    tomo "但是……果然，我还是很弱小……"
-    extend "\n不由得，就感觉寂寞……。"
-    me "那还是跟父亲的存在有关吗？"
+    "友把头靠在了我的肩上。"
+    extend "\n这举动，简直就像小孩子撒娇一样。"
+    tomo "我啊……以前做了很多无礼的事，"
+    extend "\n给身边的人添了不少麻烦。"
+    tomo "那时候，各种讨厌的事和寂寞的心情全都堆积在一起，"
+    extend "\n维系理智的那根弦『嘣』的一声就断了……"
+    extend "\n所以才闯下了那样的祸。"
+    tomo "虽然现在我已经把它牢牢地重新系好了，\n不会再断了。"
+    tomo "但是……果然，我还是很弱小啊……"
+    extend "\n总会不由自主地，感到很寂寞……。"
+    me "那，果然还是和你父亲的事情有关吗？"
     window hide
     show cg school_building1_night with Dissolve(1.0)
     window show
-    tomo "……嗯，是的。"
-    extend "\n母亲因为工作原因，不在家的时候很多，\n所以我一个人度过的时间也很多。"
-    tomo "忍察觉到了这点，经常来家里陪我玩，"
-    extend "\n即便如此……还是感到寂寞……。"
-    tomo "……我喜欢有人陪着。"
-    extend "\n所以不太想早点回家。"
+    tomo "……嗯，是啊。"
+    extend "\n母亲因为工作原因不常在家，\n所以我独处的时间就特别多。"
+    tomo "忍察觉到了这一点，经常来家里陪我玩。"
+    extend "\n可即便如此……我还是觉得好寂寞……。"
+    tomo "……我喜欢有人陪着，"
+    extend "\n所以不太想很早回家。"
     tomo "虽然也有弹钢琴来转移注意力的时候，"
-    extend "\n……但一个人太无聊了。"
+    extend "\n……但一个人还是太冷清了。"
     show bg schoolyard1_night
-    extend "\n所以，放学后才那么弹钢琴，"
-    extend "\n等着有人来。"
+    extend "\n所以，我才会在放学后在那儿弹琴，"
+    extend "\n其实，我是在等谁能推门进来。"
     window hide
     hide cg with Dissolve(0.8)
     hide tomo with Dissolve(0.8)
@@ -637,109 +637,109 @@ label end_tomo:
     "原来如此。"
     extend "\n原来那场演奏，友是蕴含着这种心情在弹的啊……。"
     "友抬起脑袋，看着我。"
-    extend "\n他面色通红，却区别于火光的颜色，能看出是羞赧的潮红"
+    extend "\n他面色通红，却区别于火光的颜色，能看出是羞赧的潮红。"
     window hide
     show tomo 34i at top with dissolve
     window show
     tomo "所以……[player_name]君。"
-    extend "\n我当时，[player_name]君来到音乐室，我真的是太开心了！"
+    extend "\n我当时，看到[player_name]君来到音乐室的时候，真的，真的好开心！"
     show tomo 35i with dissolve
-    tomo "而且，[player_name]君和我一起的时候，\n我感觉很轻松……"
-    extend "甚至能感受到一种被满足的感觉！"
+    tomo "而且，[player_name]君和我待在一起的时候，\n我感觉很轻松……"
+    extend "甚至有一种，内心被填满的感觉！"
     show tomo 29i with dissolve
-    tomo "我，我！……[player_name]君，我可能，喜欢上了……你！"
-    extend "\n不是作为朋友的那种……那个……更进一步的那种。"
-    "说完之后，友低下了头，靠在了我的身上。"
+    tomo "我、我！……[player_name]君，我可能，喜欢上了……你！"
+    extend "\n不是作为朋友的那种……而是……更进一步的那种……。"
+    "说完之后，友低下了头，又靠在了我的身上。"
     window hide
     show cg campfire_sparks at center with FadeWhite(0.8)
     window show
-    tomo "[player_name]君真的只是初中生吗？"
-    me "哎？"
-    tomo "为什么呢……[player_name]君每次出现的时候，\n我总觉得我们不像是一个年龄的人。"
-    tomo "年纪比我们大的男性……。"
-    extend "\n对了，总觉得……就像是爸爸一样……。"
+    tomo "[player_name]君……真的只是初中生吗？"
+    me "诶？"
+    tomo "总觉得……每次看着[player_name]君的时候，\n我都会有一种你根本不是同龄人的错觉。"
+    tomo "成熟的男性……。"
+    extend "\n对了，感觉就像是……像父亲一样……。"
     me "……友……。"
     tomo "所以……才想和你撒娇呢……。"
-    extend "\n想被你摸摸头……想和你在一起。"
+    extend "\n想被你摸摸头……想要一直和你待在一起。"
     me "……。"
     tomo "开玩笑啦！！"
-    extend "啊，啊哈哈。\n不好意思，突然就说了一些奇怪的话……。"
+    extend "啊、啊哈哈。\n不好意思，突然就说了一些奇怪的话……。"
     tomo "但是……这就是，我真实的心情。"
-    extend "\n那时，在家不能说出来的，真实的心情。"
+    extend "\n那时，在家里没能说出口的，真实的心情。"
     stop music fadeout 2.0
     me "友……谢谢你。"
-    extend "\n谢谢你像这样仰慕我。"
-    "我轻轻地摸了摸朋友的头。"
+    extend "\n谢谢你愿意这样仰慕我。"
+    "我轻轻地摸了摸友的头。"
     window hide
     play music "reminiscence.ogg"
     show cg c20 1 with Radial(0.8)
     window show
-    me "这样摸头，你就放心了？"
-    extend "\n还会寂寞吗？"
+    me "像这样摸摸头，心情会平静下来吗？"
+    extend "\n还会觉得寂寞吗？"
     tomo "……嗯。好温暖……。"
-    me "这样啊…。"
-    me "友，我……我也喜欢你哦。作为男生。"
+    me "这样啊……。"
+    me "友，我也……我也很喜欢你哦。是作为男孩子的那种喜欢。"
     me "……不过啊，友。"
-    extend "\n你的心意跟我的有点不同吧？"
+    extend "\n我觉得你的这份心意，或许跟我的有点不同吧？"
     show cg campfire with Dissolve(1.0)
     tomo "诶……什么意思？"
-    me "友是想找一个代替父亲的可以撒娇的对象吧？"
-    extend "\n确实，你对那个人是『喜欢』没错。"
-    extend "\n但是，如果是作为男生的话，就有一些不同。"
+    me "友现在，是在寻找一个可以代替父亲的可以撒娇的对象吧？"
+    extend "\n确实，你对那个人的感情称为『喜欢』没错。"
+    extend "\n但是，如果是作为男孩子之间的感情的话，就有一些不同了。"
     tomo "……。"
-    me "我很尊敬造就了『森海友』的父亲。"
-    extend "\n有了他，才有你这个如此可爱又出色的孩子。"
-    "我轻轻把手放在友的头上。"
-    me "你的心中，有着父亲所遗留下来的无数宝物。"
-    extend "\n而我，却无法代替你的父亲。"
-    me "你要好好注视自己的内心，好好珍惜在那里的父亲。"
-    extend "\n他一定，会守护着你。"
+    me "我很尊敬创造了『森海友』这个生命的，你的父亲。"
+    extend "\n因为他，才会有你这个如此可爱又出色的孩子。"
+    "我再次温柔地把手放在友的头顶上。"
+    me "在友的内心深处，有着父亲留给你的无数珍贵的宝物。"
+    extend "\n所以，我是没办法也没资格代替你的父亲的。"
+    me "你要试着去正视自己的内心，好好珍惜住在你心里的那个父亲。"
+    extend "\n他一定，会一直守护着你。"
     window hide
     show cg c20 2 with FadeWhite(0.8)
     window show
-    tomo "内心…。"
-    "友将手放在自己的胸口上。"
-    me "而且，友已经有很多好朋友了，\n对你来说甚至都没有时间去感到寂寞了。"
+    tomo "内心吗……。"
+    "友把手轻轻按在自己的胸口上。"
+    me "而且，在友的身边，已经有很多好朋友了，\n对你来说甚至都没有时间去感到寂寞了。"
     me "和你一起享受钢琴乐趣的是翼，"
     extend "\n保护你不受不良学生欺负的则是忍。"
     extend "\n万一你受伤了，月和空会担心你，"
     extend "\n你感到失落的时候，慎太郎则会逗你开心。"
-    me "可能最近做这些事的都是我，\n所以你才会只留心我，"
-    extend "\n但其实，当你看看自己身边的人，\n你就会发现，比起以前，你身边的人更关心你了。"
-    me "大家都比你所想的，还要更加重视你。"
-    extend "\n所以，我觉得你想要的东西，你已经得到了。"
+    me "也许是最近我有点太出头了，\n所以你的眼里才只看到了我。"
+    extend "\n不过，如果你试着把目光投向周围，\n也包括自己的内心在内，说不定会比以前感到更加心安吧。"
+    me "大家都比你想的还要更关心你。"
+    extend "\n所以，我觉得你想要的东西，其实已经得到了。"
     tomo "……。"
     show cg c20 3 with dissolve
     tomo "嗯……是啊……。"
     tomo "就算我再怎么消沉也没用！"
-    extend "\n我会更努力地成长的！"
+    extend "\n我要更加努力地成长才行！"
     extend "\n毕竟，我还有大家！！"
-    tomo "谢谢您，[player_name]君。"
-    extend "\n我好像不知不觉变得消极了。"
-    extend "\n这不是我的风格。"
-    extend "\n我要变得更加积极向上！"
-    me "嗯，这才是『森海友』嘛。"
+    tomo "谢谢你，[player_name]君。"
+    extend "\n不知道从什么时候起，我好像变得越来越消极了。"
+    extend "\n这一点都不像我。"
+    extend "\n我得更积极一些才行！"
+    me "嗯，这才是那个『森海友』嘛。"
     tomo "诶嘿嘿。"
-    "友害羞地笑了笑，突然间将脸贴近，"
+    "友害羞地笑了笑，随后突然将脸贴近——"
     window hide
     show cg c20 4 with Radial(0.8)
     window show
-    "亲"
+    "（亲）"
     "……诶？"
     show cg c20 5 with Dissolve(0.8)
     tomo "嘿嘿。"
-    extend "\n[player_name]君刚才说的作为男人的职责，\n……也就是说，做这个吧？"
-    tomo "这个吻是回礼！"
-    extend "\n谢谢你让我意识到了重要的事。"
+    extend "\n[player_name]君刚才说的作为男孩子的喜欢，\n……也就是，这个意思吧？"
+    tomo "这个吻是回礼哦！"
+    extend "\n谢谢你让我意识到了这么多重要的事情。"
     tomo "啊……但是，刚才的吻，与其说是回礼，不如说是本能……"
-    extend "\n我，比[player_name]君想象的，更加喜欢[player_name]君？"
+    extend "\n也许，我比[player_name]君想象的，还要更加喜欢[player_name]君哦？"
     me "啊哈哈，这下真是败给你了啊……。"
-    me "我这边才是，谢谢你给我带来了这么多快乐。"
+    me "我才是，非常谢谢你给我带来了这么多快乐。"
     window hide
     show cg moon_night with FadeWhite(0.8)
     window show
-    "……这样一来，也回应了友的期待，也坦白了我的心意。"
-    extend "\n御咲祭也成功了，也与友一起看到了这场火焰。"
+    "……这样一来，我终于回应了友的期待，也把自己的心意完整地传达给他了。"
+    extend "\n御咲祭成功了，我也和友一起看到了这场篝火。"
     extend "\n愿望全都实现了。……"
     window hide
     show cg campfire_sparks with Dissolve(0.8)
@@ -754,7 +754,7 @@ label end_tomo:
     "…"
     "梦的记忆是模糊的。"
     extend "\n在醒过来的同时，也会忘记这场梦。"
-    extend "\n只留下甜美的回忆，其他的一切都被带去忘却的彼方而消散。"
+    extend "\n只留下甜美的回忆，其余的一切，都会被带往忘却的彼方。"
     stop music fadeout 4.0
     "好了……差不多该起来了。"
     window hide
@@ -769,17 +769,17 @@ label end_tomo:
     hide bg with dissolve
     window show
     play sound "fx/alarm.ogg"
-    "哔哔哔哔哔哔哔哔"
+    "（哔哔哔哔哔哔哔哔）"
     window hide
     show bg protagonist_room_morning at center with Radial(0.5)
     window show
     me "啊……已经早上了吗……？"
-    extend "\n唔~我好像并没有睡多少啊……。"
+    extend "\n唔~感觉这一觉还没睡够啊……。"
     stop sound fadeout 0.5
-    "我望向餐桌，上面放着一张传单。"
+    "我看向桌子，上面放着一张传单。"
     play sound "fx/paper.ogg"
     me "嗯？这是……"
-    extend "啊，对对对，昨天回来的时候拿到的。"
+    extend "啊，对对，是昨天回来的时候拿到的。"
     extend "\n那些孩子们，真可爱啊……。"
     me "……好！那天我一定要去好好享受！"
     play sound "fx/cute2.ogg"
@@ -788,7 +788,7 @@ label end_tomo:
     hide bg with dissolve
     stop music fadeout 0.5
     window show
-    "御咲祭当天ーーーーーー"
+    "御咲祭当天——"
     window hide
     play music "school_festival.ogg"
     play sound "fx/crowd_noise.ogg"
@@ -796,19 +796,19 @@ label end_tomo:
     pause 0.6
     show bg hallway with Dissolve(1.0)
     window show
-    me "我想想……记得说是2年1班和2年2班的咖啡店。"
+    me "我想想……记得说是二年一班和二班的咖啡店。"
     extend "\n唔？"
     play sound "fx/sliding_door.ogg"
     show bg cafe with dissolve
     extend "是这个吗？"
     "正当我站在店门口犹豫不决的时候，"
-    extend "从店里走出来了一个戴黄色名签，\n左手手指上缠着创可贴，还系着红色领带的男孩子。"
+    extend "一名系着红色领带、戴着黄色名牌，\n左手手指上缠着创可贴的男孩子，从店里走了出来。"
     window hide
     play sound "fx/running.ogg"
     show tomo 33i at top with dissolve
     window show
     tomo "欢迎光临！"
-    extend "您是一个人吗？"
+    extend "请问是一位吗？"
     show tomo 34i with dissolve
     extend "\n请慢用。"
     window hide

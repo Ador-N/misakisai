@@ -5916,7 +5916,7 @@ label day2_bad_end:
     stop sound fadeout 0.5
     "我一边嘀咕着一边起床，看向桌子，\n上面放了一张传单。"
     play sound "fx/paper.ogg"
-    me "嗯？这是……啊，对对，是昨天回去的时候拿到的。"
+    me "嗯？这是……啊，对对，是昨天回来的时候拿到的。"
     extend "\n那些小家伙们，真的好可爱啊……。"
     play sound "fx/triangle.ogg"
     me "……不过仔细想想，下周要出差啊。"
