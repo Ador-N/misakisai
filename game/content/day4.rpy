@@ -568,7 +568,7 @@ label end_tomo:
     extend "\n我们找个地方坐会儿吧。"
     me "说得也是。"
     hide tomo with dissolve
-    "这么说着，我们两人\n特意在操场深处人较少的一片草地上坐了下来。"
+    "这么说着，我们两人\n特意在操场深处人较少的一片草坪上坐了下来。"
     window hide
     show tomo 12i at top with dissolve
     window show
@@ -582,7 +582,7 @@ label end_tomo:
     play sound "fx/fire.ogg"
     show bg campfire with Radial(0.5)
     window show
-    "堆好的柴火堆终于被点燃了。"
+    "堆好的柴火终于被点燃了。"
     "鲜红的火焰熊熊燃烧着。"
     extend "\n真的好美啊……。"
     tomo "……真好啊，这种感觉。"
@@ -739,7 +739,7 @@ label end_tomo:
     show cg moon_night with FadeWhite(0.8)
     window show
     "……这样一来，我终于回应了友的期待，也把自己的心意完整地传达给他了。"
-    extend "\n御咲祭成功了，我也和友一起看到了这场篝火。"
+    extend "\n御咲祭成功了，我也和友一起看到了这丛篝火。"
     extend "\n愿望全都实现了。……"
     window hide
     show cg campfire_sparks with Dissolve(0.8)
@@ -991,196 +991,196 @@ label end_sintarou:
     window hide
     show bg shoe_locker_night at center with dissolve
     window show
-    "到达鞋柜间之后，我发现"
+    "等我赶到鞋柜旁时，"
     show sintarou 31i at top with dissolve
     "慎太郎已经在那里等我了。"
-    me "抱歉，你等很久了吗？"
+    me "抱歉，等很久了吗？"
     show sintarou 22i with dissolve
     play sound "fx/sparkle.ogg"
-    sintarou "没有，我才刚到！"
+    sintarou "没有，咱也是刚到！"
     show sintarou 29i with dissolve
-    extend "\n……开个玩笑，其实我是想说一次这句话的！！"
-    "慎太郎还是一如既往地调戏我。"
+    extend "\n……开个玩笑啦~这句话，咱一直想说一次试试看！！ "
+    "慎太郎一如既往地打趣我。"
     show sintarou 4i with dissolve
-    sintarou "那么，我们走吧！"
+    sintarou "那，咱们走吧！"
     window hide
     hide sintarou with dissolve
     show bg school_building_night with Dissolve(1.0)
     window show
-    "我们来到外面，夕阳已经落山了。\n但余晖和摊位的灯光交相辉映，街上依然很热闹。"
-    "在校园的正中央，大家为了御咲祭篝火晚会做准备，\n堆柴火的工作正在有序地进行。"
+    "等我们来到室外，夕阳已经落山了。\n但在照明与摊位灯光的映衬下，校园里的热闹气氛并未减弱。"
+    extend "\n在这喧嚣之中，校园操场正中央，为了筹备御咲祭的篝火晚会，\n堆放柴火的工作正稳步推进着。"
     window hide
     show bg schoolyard_night with Dissolve(1.0)
     show sintarou 2i at top with dissolve
     window show
-    sintarou "因为今天一直在工作，\n找个地方坐下来休息吧~？"
-    me "说的是。"
+    sintarou "今天一整天都在干活呢，\n要不找个地方坐下来歇会儿吧~？"
+    me "说得也是。"
     hide sintarou with dissolve
-    "这么说着，我们两人\n在远离操场的草坪上坐了下来。"
+    "这么说着，我们两人\n特意在操场深处人较少的一片草坪上坐了下来。"
     window hide
     show sintarou 31i at top with dissolve
     window show
-    me "在这里的话，就能清楚地看到火焰，可以好好休息了。"
+    me "这里既能清楚地看到篝火，又能安静地休息呢。"
     sintarou "是啊……。"
     stop music fadeout 2.0
     hide sintarou with dissolve
-    "远远眺望着，热闹非凡的学园祭的光景。"
-    extend "\n然后"
+    "我们从远处眺望着，热闹非凡的学园祭盛况。"
+    extend "\n就在这时——"
     window hide
     play sound "fx/fire.ogg"
     show bg campfire with Radial(0.5)
     window show
-    "终于点燃了柴火堆。"
-    "熊熊燃烧着的鲜红火焰。"
+    "堆好的柴火终于被点燃了。"
+    "鲜红的火焰熊熊燃烧着。"
     extend "\n真的好美啊……。"
     sintarou "怎么样？"
     extend "\n和你初中时看到的一样吗？"
-    me "……是啊。"
-    extend "\n不过你陪在我身边这点和当时不一样。"
+    me "……啊啊。"
+    extend "\n不过，这次身边有慎太郎陪着，这一点和当时不一样呢。"
     stop sound fadeout 2.0
     window hide
     play music "good_atmosphere.ogg"
     show bg schoolyard_night with Dissolve(1.0)
     show sintarou 31i at top with dissolve
     window show
-    sintarou "这样啊…。"
+    sintarou "这样啊……。"
     show sintarou 6i with dissolve
-    sintarou "喂喂，你的职业是什么？"
+    sintarou "呐呐，你的职业是什么？"
     extend "\n实际上，是长什么样子？"
     show sintarou 4i with dissolve
-    extend "\n一直在御咲住吗？"
-    extend "\n恋人呢？单身吗？喜欢男人还是女人？"
+    extend "\n一直住在御咲吗？"
+    extend "\n有没有恋人？单身吗？是基吗？"
     play sound "fx/boing.ogg"
-    me "别，别突然这样质问啊！"
+    me "等、等一下！你突然这么问，我会很为难的啦！"
     show sintarou 7i with dissolve
     sintarou "因为很在意啊~！"
-    extend "\n毕竟你是拥有像是漫画和动画角色设定的人！！"
-    extend "\n当然会感到好奇啊！"
-    me "喂喂，把我当成玩具吗~。"
+    extend "\n像漫画或动画角色设定一样的人物就站在我眼前耶！！"
+    extend "\n换谁都会被勾起好奇心吧！"
+    me "喂喂，你是把我当成什么好玩的玩具了吗~？"
     show sintarou 11i with dissolve
-    sintarou "虽然不是那样的！"
+    sintarou "当然不是那样啦！"
     show sintarou 13i with dissolve
-    extend "\n只是单纯地，对于[player_name]君的事情，我非常想了解。"
-    me "什么啊，突然这样……。"
+    extend "\n只是单纯地，想要在最后多了解一些关于[player_name]的事情而已。"
+    me "什么啊，突然这么严肃……。"
     show sintarou 18i with dissolve
     sintarou "因为……今天是最后一天了吧？"
     "诶？"
     show sintarou 20i with dissolve
     sintarou "[player_name]君吃的魔法糖，\n效果如果是回到初中生活度过学园祭的话，"
-    extend "\n学园祭今天就结束了，\n[player_name]君和我这样见面的机会，应该不会再有了吧？"
+    extend "\n那么随着今天学园祭的结束，\n[player_name]君和我这样见面的机会，应该不会再有了吧？"
     me "……。"
     window hide
     show cg school_building1_night at center with Dissolve(0.8)
     window show
     "我顿时语塞了。"
-    "虽然没有明确的证据，但是确实正如慎太郎所说。"
+    "虽然没有确凿的证据，但慎太郎所说的，恐怕正是真相。"
     show bg schoolyard1_night
-    "再也见不到慎太郎他们了……？"
+    "要再也见不到慎太郎他们了吗……？"
     window hide
     hide cg with dissolve
     hide sintarou with dissolve
     window show
     me "说不定……是这样的。"
     show sintarou 30i at top with dissolve
-    sintarou "啊，[player_name]君的设定我也不是很清楚嘛。"
-    extend "\n不过，这完全就是我的推测！"
+    sintarou "啊，[player_name]自己对这种设定也不是很清楚呢。"
+    extend "\n嘛，虽然完全是咱自己的推测啦！"
     show sintarou 8i with dissolve
-    extend "\n……既然已经没时间了，那我想问的事情就得问出来，\n想说的事情就得说出来才行了。"
+    extend "\n……既然已经没时间了，那咱想问的事情就得问个清楚，\n传达的心意也必须说出口才行。"
     "连这种时候也是按照慎太郎的节奏来的。"
     extend "\n真是的，我这个人啊。"
-    me "……说的也是。"
+    me "……说得也是。"
     extend "\n慎太郎，我也有话想告诉你。"
     show sintarou 18i with dissolve
     sintarou "什么？"
-    extend "\n什么都可以说。"
+    extend "\n什么都可以说哦。"
     me "我……喜欢慎太郎。"
-    extend "\n虽然感觉你总是一副吊儿郎当的样子，却总是在不知不觉间就牵动着我的步调。"
-    extend "\n在我变得软弱的时候，你会给予支持，一直陪伴在我身边。"
+    extend "\n虽然你看起来总是一副吊儿郎当的样子，却总是在不知不觉间牵动着我的步调。"
+    extend "\n在我软弱的时候，你会给予支持，一直陪伴在我身边。"
     stop music fadeout 2.0
     extend "\n这样的慎太郎魅力十足，我非常喜欢。"
     show sintarou 4i with dissolve
-    sintarou "是么~。"
+    sintarou "是嘛~。"
     window hide
     play music "reminiscence.ogg"
     show cg c30 1 at center with Radial(0.8)
     window show
-    "慎太郎听我说完后，靠着我。"
+    "听完我的告白，慎太郎轻轻地靠在了我的身上。"
     "那张脸颊，融入火焰的颜色之中难以分辨，但看上去像是泛红了。"
     sintarou "哼哼~♪"
-    extend "\n[player_name]喜欢上我了啊！"
-    extend "\n我也一样，非常喜欢[player_name]君。"
-    extend "\n我第一次被别人打乱了节奏呢。"
+    extend "\n[player_name]喜欢上咱了啊！"
+    extend "\n咱也一样，非常喜欢[player_name]。"
+    extend "\n这是咱第一次被别人打乱了节奏呢。"
     me "我一直都觉得自己是顺着慎太郎的节奏来的……。"
-    sintarou "不不不~我说，倒也不是那样哦。"
-    extend "\n还是说，这是在显摆成熟大人的力量吗？"
-    me "哈哈，已经不需要了吧。"
-    sintarou "嘛，我也是，当打乱别人节奏的时候自己不会注意到，"
-    extend "\n这一点可能很相似吧！"
-    "话说回来，其实我跟慎太郎坦白自己是大人的时候，"
-    extend "\n觉得他跟我太合得来了，真让人觉得是命运的安排。"
-    me "我啊，感觉到了这些，才对慎太郎坦白了啊~真佩服。"
-    sintarou "原来如此啊~，令人高兴呢。"
-    extend "\n虽然事先知道你即将消失让我很难受，"
-    extend "\n但正因如此，才能像这样事先做好准备！"
+    sintarou "不不不~你这话可就不对了。"
+    extend "\n还是说，这是在跟咱显摆什么『大人的力量』啊？"
+    me "哈哈，现在已经不需要了吧。"
+    sintarou "嘛，其实咱也是，打乱别人节奏的时候自己不会察觉到。"
+    extend "\n在这点上，咱们俩搞不好真的很像呢！"
+    "这么说来，其实在跟慎太郎坦白自己是大人之前，"
+    extend "\n因为想法太合得来，我还真觉得过这是命中注定呢。"
+    me "我大概也是感知到了这种共鸣，才忍不住对慎太郎坦白了身份吧~现在想想，真佩服那时的自己。"
+    sintarou "原来如此啊~。听你这么说，我很高兴哦。"
+    extend "\n虽然预先知道你即将消失这件事挺让人难受的，"
+    extend "\n但正因如此，才能像这样提前做好准备嘛！"
     window hide
     show cg campfire with Dissolve(1.0)
     window show
     me "……慎太郎，真的很了不起啊。"
-    extend "\n要是我是个小孩，一定会因为寂寞而变得消沉，\n根本没法这么理性的行动呢。"
-    sintarou "当然，寂寞还是有的啦~。"
-    extend "\n这一点我们彼此彼此，[player_name]君也很困扰吧。"
-    me "慎太郎在这方面也是个成熟的人呢。"
-    extend "\n想问什么就问，想说什么就说什么。\n这是很重要的。"
-    me "但是不知为何，\n总感觉一旦成年就变得难以捉摸了啊。"
+    extend "\n换作其他人，一定会因为寂寞而变得消沉，\n根本没法这么理性地面对呢。"
+    sintarou "寂寞当然是会寂寞的啦~。"
+    extend "\n这一点咱们彼此彼此，其实[player_name]也很困扰吧。"
+    me "慎太郎在这方面也像个成熟的大人呢。"
+    extend "\n想问什么就问，想说什么就说什么。\n这点其实是很重要的。"
+    me "但是不知为何，一旦成了大人，\n有时候反而会觉得这种坦诚是一件很困难的事。"
     sintarou "是吗？"
-    extend "\n……那么，趁着还是孩子，\n就做想做的事情吧。"
-    "慎太郎忽然将脸凑近"
+    extend "\n……那么，趁着还是孩子，\n就把想做的事情都做了吧。"
+    "慎太郎小声说着，随后突然将脸凑近——"
     window hide
     show cg c30 3 with Radial(0.8)
     window show
-    "亲"
+    "（亲）"
     "……诶？"
     show cg c30 2 with Dissolve(0.8)
     sintarou "嘿嘿嘿。"
-    extend "\n[player_name]君，为了不再后悔，\n就趁现在去做自己想做的事情吧？"
+    extend "\n[player_name]，为了以后不后悔，\n就趁现在，把那些事全都做个爽怎么样？"
     me "真是的……"
-    extend "\n慎太郎在最后关头还是慎太郎啊。"
+    extend "\n慎太郎到了最后关头还是那么『慎太郎』啊。"
     sintarou "当然！"
-    extend "\n我就是我！"
+    extend "\n我就是我嘛！"
     window hide
     hide cg with Dissolve(0.8)
     hide sintarou with Dissolve(0.8)
     show sintarou 11i at top with dissolve
     window show
-    sintarou "啊啊啊啊！"
-    extend "\nadult-child之恋，本应是件很愉快的事情啊！"
-    me "我说的不是这个意思！！"
-    extend "\n……是啊，我也想一直和你在一起。"
+    sintarou "……啊——啊！"
+    extend "\n本来还挺期待和『小大人』谈一场轰轰烈烈的恋爱呢，真可惜啊~！"
+    me "『小大人』根本不是这个意思啦！！"
+    extend "\n……不过，你说得对。我也好想一直和你待在一起啊。"
     extend "\n回归现实后，等待着我的又会是严酷的社会人生活啊……。"
     show sintarou 4i with dissolve
-    sintarou "不过大人的生活也很有意思吧？"
-    extend "\n和孩子不同，大人能自由行动！"
+    sintarou "不过，大人的生活也很有意思吧？"
+    extend "\n和孩子不同，行动要自由得多啊！"
     extend "\n还能尽情逛十八禁区域！"
     me "……确实。"
-    extend "\n下次我还打算作为毕业学生去御咲学园偷偷看一下哦。"
+    extend "\n下次有机会，我会作为毕业生回御咲学园偷偷看你们的。"
     show sintarou 13i with dissolve
-    sintarou "千万不要对学生出手，要是被捕就麻烦了~。"
-    extend "\n最多也就在妄想中自慰自慰了。"
+    sintarou "那可注意千万不要对学生出手，要是被捕就麻烦了呢~。"
+    extend "\n最多也就在脑内妄想一下，然后自己解决啦。"
     show sintarou 8i with dissolve
-    extend "\n我倒是无所谓！"
+    extend "\n啊，如果是对咱的话倒是无所谓！"
     show sintarou 35i with dissolve
-    extend "\n还有，我那边的澡堂可要好好来啊！"
+    extend "\n还有，咱家的澡堂可一定记得要来哦！"
     me "交给我吧！！"
-    extend "\n慎太郎也要努力学习，成为中学生哦。"
+    extend "\n慎太郎你也要像个真正的初中生那样，给我好好学习哦。"
     extend "\n……那么，再见了。"
     show sintarou 33i with dissolve
     sintarou "嗯！拜拜！"
-    extend "\n保重啊！"
+    extend "\n要保重哦！"
     window hide
     show cg moon_night at center with FadeWhite(0.8)
     window show
-    "……这样就，向他表白过，也得到了慎太郎的答复。"
-    extend "\n御咲祭也成功了，还和慎太郎一起见证了这抹焰火。"
+    "……这样一来，我终于向他表白了心意，也得到了慎太郎的答复。"
+    extend "\n御咲祭成功了，我也和慎太郎一起看到了这丛篝火。"
     extend "\n愿望全都实现了。……"
     window hide
     show cg campfire_sparks with Dissolve(0.8)
@@ -1195,13 +1195,13 @@ label end_sintarou:
     "…"
     "梦的记忆是模糊的。"
     extend "\n在醒过来的同时，也会忘记这场梦。"
-    extend "\n只留下甜美的回忆，其他的一切都被带去忘却的彼方而消散。"
+    extend "\n只留下甜美的回忆，其余的一切，都会被带往忘却的彼方。"
     stop music fadeout 4.0
     "好了……差不多该起来了。"
     window hide
     show sintarou 33 at top with DefocusWhite(2.5)
     window show
-    "我好喜欢慎太郎啊。"
+    "慎太郎，我喜欢你哦。"
     window hide
     hide sintarou with dissolve
     play music "fx/tsubame.ogg"
@@ -1210,17 +1210,17 @@ label end_sintarou:
     hide bg with dissolve
     window show
     play sound "fx/alarm.ogg"
-    "哔哔哔哔哔哔哔哔"
+    "（哔哔哔哔哔哔哔哔）"
     window hide
     show bg protagonist_room_morning at center with dissolve
     window show
     me "啊……已经早上了吗……？"
-    extend "\n唔~我好像并没有睡多少啊……。"
+    extend "\n唔~感觉这一觉还没睡够啊……。"
     stop sound fadeout 0.5
-    "我望向餐桌，上面放着一张传单。"
+    "我看向桌子，上面放着一张传单。"
     play sound "fx/paper.ogg"
     me "嗯？这是……"
-    extend "啊，对对对，昨天回来的时候拿到的。"
+    extend "啊，对对，是昨天回来的时候拿到的。"
     extend "\n那些孩子们，真可爱啊……。"
     me "……好！那天我一定要去好好享受！"
     play sound "fx/cute2.ogg"
@@ -1229,7 +1229,7 @@ label end_sintarou:
     hide bg with dissolve
     stop music fadeout 0.5
     window show
-    "御咲祭当天ーーーーーー"
+    "御咲祭当天——"
     window hide
     play music "school_festival.ogg"
     play sound "fx/crowd_noise.ogg"
@@ -1237,20 +1237,20 @@ label end_sintarou:
     pause 0.4
     show bg hallway with Dissolve(1.0)
     window show
-    me "我想想……记得说是2年1班和2年2班的咖啡店。"
+    me "我想想……记得说是二年一班和二班的咖啡店。"
     extend "\n唔？"
     play sound "fx/sliding_door.ogg"
     show bg cafe with dissolve
     extend "是这个吗？"
     "正当我站在店门口犹豫不决的时候，"
-    extend "一个挂着橘色名牌，\n右手手指上缠着创可贴，穿着红色领带的男生从店里走了出来。"
+    extend "一名系着红色领带、戴着橘色名牌，\n右手手指上缠着创可贴的男孩子，从店里走了出来。"
     window hide
     play sound "fx/running.ogg"
     show sintarou 8i at top with dissolve
     window show
     sintarou "欢迎光临~！就一位吗？"
     show sintarou 34i with dissolve
-    extend "\n请这边走！请慢慢看吧~！"
+    extend "\n来来，请进请进！请慢慢享受哦~！"
     window hide
     hide bg with Radial(1.0)
     hide sintarou with Radial(1.0)
