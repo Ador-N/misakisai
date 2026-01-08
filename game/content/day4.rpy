@@ -542,7 +542,7 @@ label end_tomo:
     window hide
     show bg shoe_locker_night at center with Dissolve(0.8)
     window show
-    "等我赶到鞋柜旁时，友已经在那里等着了。"
+    "等我赶到鞋柜处，友已经在那里等着了。"
     show tomo 4i at top with dissolve
     tomo "喂——，[player_name]君——！"
     me "抱歉……我迟到了。"
@@ -991,7 +991,7 @@ label end_sintarou:
     window hide
     show bg shoe_locker_night at center with dissolve
     window show
-    "等我赶到鞋柜旁时，"
+    "等我赶到鞋柜处，"
     show sintarou 31i at top with dissolve
     "慎太郎已经在那里等我了。"
     me "抱歉，等很久了吗？"
@@ -1448,7 +1448,7 @@ label end_sinobu:
     window hide
     show bg shoe_locker_night at center with dissolve
     window show
-    "等我赶到鞋柜旁时，忍早已在那里等我了。"
+    "等我赶到鞋柜处，忍早已在那里等我了。"
     extend "\n一见到忍的身影，我的脚步便停住了。"
     window hide
     show cg school_building_night at center with dissolve
@@ -1729,96 +1729,96 @@ label end_tubasa:
     $ renpy.transition(Quake(0, 60, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
     window show
-    tubasa "客，客人！\n继续得寸进尺……是不行的！"
+    tubasa "客、客人！\n请不要再继续……得寸进尺了！"
     me "翼！"
-    customer3 "怎，怎么会这样！"
+    customer3 "怎、怎么会这样捏！"
     show tubasa 24i with dissolve
-    tubasa "那，那个……[player_name]君好像有点困扰，\n请你无论如何放开他。"
+    tubasa "那、那个……[player_name]君看起来困扰，\n请您务必放开他。"
     show tubasa 18i with dissolve
     $ renpy.transition(Quake(0, 60, 0.1, 0.15), layer='master')
     play sound "fx/cute2.ogg"
-    extend "\n再，再继续做奇怪的事的话，我就叫老师了哦！"
+    extend "\n再、再继续做这种奇怪的事情，我就要去叫老师了！"
     play sound "fx/boing.ogg"
-    customer3 "呜……抱，抱歉了捏。"
-    extend "\n有，有点兴奋过头，所以有点不守规矩了捏。"
+    customer3 "呜……抱、抱歉了捏。"
+    extend "\n有、有点兴奋过头，所以有点不守规矩了捏。"
     play sound "fx/cute3.ogg"
     customer5 "对不起呀。"
-    extend "\n这里还是绅士一点，姑且忍一忍，可远观不可亵玩焉。"
+    extend "\n在这里我们还是绅士一点，姑且忍耐一下，记住可远观不可亵玩焉。"
     play sound "fx/sparkle.ogg"
-    customer4 "正义感强烈的男孩子真是棒呀♪"
+    customer4 "正义感爆棚的男孩子也超级迷人呢♪"
     window hide
     hide tubasa with dissolve
     window show
     "在翼的帮助下，我总算是逃过了一劫。"
-    "没想到在这种时候还能被初中生搭救……。"
+    "没想到在这种时候，竟然被一个初中生搭救了……。"
     extend "\n总感觉有点丢人啊……。"
     window hide
     show tubasa 21i at top with dissolve
     window show
     tubasa "[player_name]君，没事吧……？"
-    me "嗯，嗯嗯。得救了。"
-    extend "\n谢谢你们！"
+    me "嗯、嗯。多亏了你，得救了。"
+    extend "\n谢谢你！"
     show tubasa 12i with dissolve
-    tubasa "没有，不客气。"
+    tubasa "不，请别客气。"
     show tubasa 14i with dissolve
     tubasa "……。"
     show tubasa 15i with dissolve
-    tubasa "说，说起来，[player_name]君。"
-    extend "\n关于之后的后夜祭，有什么预定吗？"
-    me "诶？没，没什么……。"
+    tubasa "说、说起来，[player_name]君。"
+    extend "\n关于接下来的后夜祭，有什么安排吗？"
+    me "诶？不，还没有安排……。"
     show tubasa 31i with dissolve
-    tubasa "太，太好了。"
+    tubasa "太、太好了。"
     extend "\n那个……如果可以的话，能和我一起逛吗？"
     me "可以啊……不过友君不去吗？"
     "我悄悄地对翼说道。"
     show tubasa 9i with dissolve
-    tubasa "这，这次就算了！"
+    tubasa "这、这次就算了！"
     show tubasa 37i with dissolve
-    extend "\n[player_name]君和我两个人聊就好…。"
+    extend "\n我想和[player_name]君两个人单独聊一聊……。"
     me "……这样啊，我知道了。"
-    extend "\n那么，我们在鞋柜那碰头。"
+    extend "\n那我们就在鞋柜那边碰头吧。"
     show tubasa 36i with dissolve
     tubasa "嗯，谢谢你！"
-    extend "\n那么，我就先回去了！\n回头见。"
+    extend "\n那我就，先回自己的岗位了！\n回头见。"
     window hide
     play sound "fx/running.ogg"
     hide tubasa with dissolve
     window show
-    "翼竟然不先找友说话，而是先找我。究竟是要说什么事呢？"
-    "他俩难得一起当代表委员，明明这个好的机会……"
-    extend "\n呃，这也不是我能决定的，啊。"
+    "翼竟然优先找我而不是友，究竟是要说什么事呢……？"
+    "明明难得一起当上代表委员，不趁此机会好好相处真的没关系吗……"
+    extend "\n呃，这也不是该由我来操心的事，吧。"
     "……。"
     play sound "fx/heartbeat.ogg"
     show cg blue at center with dissolve
     "呜……总觉得心跳加速了……。"
-    "嘛，嘛，也不知道会发展成什么样子，\n没必要那么紧张……"
-    "不，好不容易又有了独处的机会。"
-    extend "\n如果他没有主动提起的话，我也会主动开口。"
+    "嘛、嘛，反正还不知道待会儿他会跟我聊什么，\n没必要那么紧张……"
+    "不行，好不容易又有了独处的机会。"
+    extend "\n就算他没有主动开口，我也要自己把话挑明。"
     hide cg with dissolve
     hide bg with dissolve
     hide tubasa with dissolve
     stop music fadeout 2.0
-    "……毕竟这个梦不知道会持续到什么时候……。"
+    "……毕竟这个梦，不知道会持续到什么时候……。"
     window hide
     play sound "fx/crowd_noise.ogg"
     show bg school_building_evening_full at center with Dissolve(1.0)
     pause 0.4
     show bg cafe_evening with Radial(1.0)
     window show
-    "咖啡店的营业时间也差不多要结束了。"
-    extend "\n剩下的活动，是和翼的后夜祭！"
+    "咖啡店的营业时间差不多要结束了。"
+    extend "\n剩下的活动，就是和翼的后夜祭！"
     extend "\n我可不能迟到了。得赶紧收拾完。"
     window hide
     play music "serious.ogg"
     show sakuya 15i at top with dissolve
     window show
     sakuya "喂。"
-    "在我努力干活的时候，作哉向我搭话了。"
-    me "抱歉。\n我现在有点事。"
-    extend "\n能稍微往后推一下吗？"
+    "在我忙活的时候，作哉叫住了我。"
+    me "抱歉。\n我现在有个很重要的约会。"
+    extend "\n有什么事能晚点再说吗？"
     show sakuya 10i with dissolve
-    sakuya "我知道我知道。"
-    extend "\n不会花太多时间的，跟我来。\n我有话和你说。"
+    sakuya "那种事我当然知道。"
+    extend "\n不会花太多时间的，跟我来。\n我有话跟你说。"
     "这么说着，作哉强硬地拉走了我。"
     window hide
     hide sakuya with dissolve
@@ -1829,78 +1829,78 @@ label end_tubasa:
     me "……所以，找我有什么事？"
     show sakuya 19i at top with dissolve
     sakuya "……。"
-    "面对一脸奇妙的作哉，我加强了警戒。"
+    "面对表情严肃得有些反常的作哉，我加强了戒备。"
     show sakuya 7i with dissolve
     play music "sakuya_theme.ogg"
-    sakuya "……抱歉啊。\n一直以来对你的态度都不好。"
+    sakuya "……抱歉了。\n一直以来对你的态度都不好。"
     play sound "fx/boing.ogg"
-    me "……诶？"
-    "我本还抱着戒备，听到他意料之外的话，不由得发出了惊讶的声音。"
+    me "……哈啊？"
+    "我原本正严阵以待，听到这句完全出乎意料的话，不由得发出了惊讶的声音。"
     show sakuya 10i with dissolve
-    sakuya "昨天你对我说的那些话，回到家仔细思考了下，"
+    sakuya "昨天你对我说的那些话，我回家仔细想了想，"
     extend "\n你说的并没有错。\n这点我可以承认。"
-    extend "\n所以你也别太在意这些小细节啦。"
+    extend "\n所以你也别太在意那些小细节了。"
     me "……？\n小细节是？"
     show sakuya 6i with dissolve
     sakuya "……你，现在打算向一之濑告白对吧。"
     me "诶。"
     show sakuya 9i with dissolve
-    sakuya "要是你突然顾虑到我的话我反而会很不爽的。"
-    extend "\n你才是，不要擅自认定我的感情如何如何。\n那就再见啦。"
+    sakuya "要是被你莫名其妙地顾虑，我反而会很不爽的。"
+    extend "\n你才是，不要擅自揣测我的感情如何如何啊。\n走了。"
     hide sakuya with dissolve
-    me "等，等等啊！"
-    extend "\n我还没决定告白呢……。"
-    "作哉准备离开的瞬间又回过头来。"
+    me "等、等等啊！"
+    extend "\n我还没决定要告白呢……。"
+    "作哉正要转身离去，又一下子回过头来。"
     window hide
     show sakuya 6i at top with dissolve
     window show
     sakuya "哈……？"
-    me "的确，我喜欢那孩子。"
-    extend "\n但是，我又不能强加这种感情给他。"
-    extend "\n他明明心里想着友君，我可不想横刀夺爱。"
-    extend "\n在确认他的感情之前，我是不会告白的。"
+    me "没错，我确实喜欢那孩子。"
+    extend "\n但是，我又不能把这份感情强加给他。"
+    extend "\n他心里明明想着友君，我可不想横刀夺爱。"
+    extend "\n在确认他的真实心意之前，我是不会告白的。"
     show sakuya 16i with dissolve
-    sakuya "……那算什么，逊爆了。"
+    sakuya "……那算什么啊，真是逊爆了。"
     me "诶？"
     show sakuya 13i with dissolve
-    sakuya "我就是在说你那明显吓到自保自全的怂样。"
+    sakuya "我就是在说你那明显是因为犯怂而只顾自保的样子。"
     show sakuya 18i with dissolve
-    extend "\n你表面上装得好像很尊重对方的意思，\n但你，不过是纯粹的没出息的胆小鬼。"
+    extend "\n你嘴上说什么『尊重对方的心意』，听着很像那么回事，\n可说到底，你不过就是个没骨气的胆小鬼。"
     me "……。"
     show sakuya 20i with dissolve
-    sakuya "明明只是单纯地想装模作样地装明白人，"
-    extend "\n一边说着『为了不后悔要坦率一点』，\n结果本人在告白前就老老实实地死心了，自己夹着尾巴逃走了，\n完全是前后矛盾的啊。"
+    sakuya "在那儿摆出一副看透一切的样子装酷，"
+    extend "\n自己口口声声说『为了不留遗憾要坦率面对』，\n结果事到临头，竟然还没告白就认输了，还夹着尾巴想逃，\n完全是前后矛盾吧。"
     show sakuya 19i with dissolve
-    sakuya "哈啊……是我看走眼了。"
-    extend "\n我昨天到底是在想什么呢？"
-    extend "\n我怎么就真的相信你这白痴的话了。"
-    me "作，作哉……。"
+    sakuya "哈……真是看走眼了。"
+    extend "\n我昨天到底是在想什么呢。"
+    extend "\n居然会把你这种只会逃避问题的家伙说的话当真。"
+    me "作、作哉君……。"
     show sakuya 20i with dissolve
     sakuya "啊？"
-    me "……是我错了呢。\n确实，一点都不合理。"
-    extend "\n真拿你没办法啊，都这岁数了。"
-    me "我会向你证明我是男子汉的。\n如果翼对我没那个意思的话，我也会强行让他关注到我。"
-    extend "\n就算放弃，那也得在他完全拒绝我之后。"
+    me "……是我错了。\n的确，一点都说不通啊。"
+    extend "\n真是拿自己没办法啊，都这把岁数了。"
+    me "我会向你证明我是男子汉的。\n哪怕翼对我没那个意思，我也打算强行让他把目光转向我。"
+    extend "\n就算放弃，也得是在碰得头破血流之后啊。"
     show sakuya 5i with dissolve
     sakuya "……你明白就好。"
-    "听了我说的话，作哉笑了。"
+    "听了我的话，作哉微微一笑。"
     show sakuya 9i with dissolve
-    sakuya "对，还有，要说不对的地方，还有一个。"
+    sakuya "啊，对了，要说你搞错的事，还有一点。"
     show sakuya 20i with dissolve
-    extend "\n恋爱和年龄没有关系。"
-    extend "\n你这自命不凡的大人，自己也给自己设限了吧。"
-    extend "\n明明不用受这种东西的束缚，随心所欲地去做就好了。"
+    extend "\n恋爱和年龄大小根本没有关系。"
+    extend "\n那些摆出一副了不起样子的大人，其实也是自己在给自己设限吧。"
+    extend "\n明明不用受那种东西的束缚，随心所欲去做就好了。"
     "……是这样吗。"
-    me "作哉……谢谢。"
+    me "作哉君……谢谢你。"
     show sakuya 8i with dissolve
-    sakuya "怎，怎么了突然……真不好意思。"
-    me "多亏作哉，我找回了自信。"
-    extend "\n我想，我能放开心去面对了。"
+    sakuya "怎、怎么突然这么说……真肉麻。"
+    me "多亏了作哉君，我找回了自信。"
+    extend "\n我想，我能毫无顾虑地去面对了。"
     show sakuya 22i with dissolve
-    sakuya "……那真是太好了。"
+    sakuya "……是吗，那真是太好了。"
     play sound "fx/running.ogg"
     hide sakuya with dissolve
-    "说完，作哉便回到了教学楼。"
+    "说完，作哉便转身回教学楼了。"
     stop music fadeout 1.0
     window hide
     hide bg with dissolve
@@ -1910,42 +1910,42 @@ label end_tubasa:
     play music "fx/night_insects.ogg"
     show bg shoe_locker_night at center with Dissolve(0.8)
     window show
-    "到达鞋柜处，翼已经在那里等我了。"
+    "等我赶到鞋柜处，翼已经在那里等我了。"
     show tubasa 31i at top with dissolve
     tubasa "啊，[player_name]君。"
     me "抱歉抱歉！\n我来晚了。"
     show tubasa 4i with dissolve
     tubasa "没事的。"
-    extend "\n我也是刚刚到。\n那我们走吧。"
+    extend "\n我也是刚刚到。\n那，我们走吧。"
     window hide
     hide tubasa with dissolve
     show bg school_building_night with Dissolve(1.0)
     window show
-    "我们来到外面，夕阳已经落山了。\n但余晖和摊位的灯光交相辉映，街上依然很热闹。"
-    extend "\n在校园的正中央，大家为了御咲祭篝火晚会做准备，\n堆柴火的工作正在有序地进行。"
+    "等我们来到室外，夕阳已经落山了。\n但在照明与摊位灯光的映衬下，校园里的热闹气氛并未减弱。"
+    extend "\n在这喧嚣之中，校园操场正中央，为了筹备御咲祭的篝火晚会，\n堆放柴火的工作正稳步推进着。"
     window hide
     show bg schoolyard_night with Dissolve(1.0)
     show tubasa 5i at top with dissolve
     window show
     tubasa "一直工作到现在，有点累了呢。"
     extend "\n要不要找个地方坐下来休息一下？"
-    me "是啊。"
+    me "说得也是。"
     hide tubasa with dissolve
-    "这么说着，我们两人\n在远离操场的草坪上坐了下来。"
+    "这么说着，我们两人\n特意在操场深处人较少的一片草坪上坐了下来。"
     window hide
     show tubasa 12i at top with dissolve
     window show
-    me "在这里的话，就能清楚地看到火焰，可以好好休息了。"
-    tubasa "是啊……"
+    me "这里既能清楚地看到篝火，又能安静地休息呢。"
+    tubasa "是啊……。"
     hide tubasa with dissolve
-    "远远眺望着，热闹非凡的学园祭的光景。"
-    extend "\n然后"
+    "我们从远处眺望着，热闹非凡的学园祭盛况。"
+    extend "\n就在这时——"
     window hide
     play sound "fx/fire.ogg"
     show bg campfire with Radial(0.5)
     window show
-    "终于点燃了柴火堆。"
-    "熊熊燃烧着的鲜红火焰。"
+    "堆好的柴火终于被点燃了。"
+    "鲜红的火焰熊熊燃烧着。"
     extend "\n真的好美啊……。"
     tubasa "哇……好厉害……！"
     me "嗯……。"
@@ -1955,29 +1955,29 @@ label end_tubasa:
     show bg schoolyard_night with Dissolve(1.0)
     show tubasa 5i at top with dissolve
     window show
-    tubasa "[player_name]君能和我一起看到这个，真的太好了！。"
+    tubasa "能和[player_name]君一起看到这一幕，真是太好了。"
     me "不是和友君，而是和我吗？"
     show tubasa 31i with dissolve
     tubasa "是的。"
-    extend "\n当然，就算和友在一起也很不错，\n但御咲祭的最后，\n[player_name]君和我在一起就好。"
+    extend "\n当然，和友君一起看肯定也不错，\n但在御咲祭的最后时刻，\n我还是更想和[player_name]君一起度过。"
     show tubasa 5i with dissolve
-    tubasa "我受了你很多照顾。"
+    tubasa "因为，我受了你很多照顾。"
     me "照顾……？"
     show tubasa 12i with dissolve
     tubasa "嗯。\n[player_name]君教会了我怎么变得勇敢。"
-    extend "\n我总是很胆小，总是逃避各种各样的事情，\n[player_name]君一直在背后助我一臂之力。"
+    extend "\n以前的我总是很胆小，遇到各种事情都只想逃避，\n是[player_name]君在背后推了我一把。"
     me "……。"
     show tubasa 35i with dissolve
     tubasa "所以，[player_name]君对我而言，是非常重要的人。"
-    extend "\n能像这样在一起很开心，也很高兴。"
-    extend "\n[player_name]君在我身边，我能更积极地面对各种事。"
-    extend "\n准备祭典的这段日子，我觉得我有了些改变……。"
+    extend "\n能像这样和你待在一起，我觉得很开心，也感到很幸福。"
+    extend "\n只要有[player_name]君在身边，我就能积极地面对各种事。"
+    extend "\n准备祭典的这些日子，我觉得我有了些改变……。"
     me "……是吗。\n能听到你这么说，我也很开心。"
     show tubasa 36i with dissolve
     tubasa "太好了……。"
     stop music fadeout 2.0
     hide tubasa with dissolve
-    "之后，我们沉默着，一起享受了后夜祭的景色。"
+    "之后，我们在沉默中，一起享受着后夜祭的景色。"
     window hide
     play music "reminiscence.ogg"
     show cg c46 1 at center with FadeWhite(0.8)
@@ -1986,51 +1986,51 @@ label end_tubasa:
     tubasa "嗯。"
     me "我有话想告诉你。"
     tubasa "什么？"
-    me "……其实啊，我很喜欢你。"
+    me "……其实啊，我一直都很喜欢你。"
     show cg c46 2 with Dissolve(0.8)
     tubasa "诶……！"
-    me "嘿嘿嘿。"
-    extend "\n起初，我只是打算撮合你和友的，"
-    extend "\n但不知不觉，两颗心便渐行渐近，无法停止，\n不知不觉中，我就爱上了你。"
-    me "我当然知道，小翼爱着友君。"
-    extend "\n可是，这次我想任性一回，我想传达这份感情。\n不然的话，我一定会后悔的。"
-    extend "\n……抱歉突然说这些。"
+    me "嘿嘿。"
+    extend "\n起初，我真的只是打算撮合你和友的。"
+    extend "\n但不知不觉中，我们的心一点点拉近，怎么也停不下来。\n回过神来的时候，我已经爱上你了。"
+    me "我当然知道，翼对友君一直怀有特别的感情。"
+    extend "\n可是，我还是想任性这么一次，我想传达这份心意。\n不然的话，我一定会后悔的。"
+    extend "\n……抱歉，突然对你说这些。"
     show cg c46 3 with Dissolve(0.8)
-    tubasa "嗯…。"
-    me "果，果然还是很为难啊！！"
+    tubasa "嗯……。"
+    me "果、果然还是让你很为难啊！！"
     extend "\n当然，我并没有要阻碍翼恋爱的打算！"
-    extend "\n只是想鼓起勇气面对翼而已……"
-    tubasa "……那，那个！"
+    extend "\n我只是，想鼓起勇气面对翼而已……"
+    tubasa "……那、那个！"
     me "嗯？"
-    tubasa "那个……就是…。"
-    "翼扭扭捏捏地思考着什么。"
+    tubasa "那个……就是……。"
+    "翼局促不安地思考着什么。"
     show cg campfire with Dissolve(0.8)
-    "但他很快就抬起头看着我。"
+    "但这阵犹豫很快就结束了，他抬起头，直视着我。"
     tubasa "……[player_name]君。"
-    extend "\n可，可以……闭上眼睛吗？"
-    me "诶？可以是…。"
+    extend "\n可、可以……闭上眼睛吗？"
+    me "诶？可以是可以……。"
     tubasa "……。"
     me "……。"
     window hide
     show cg c46 4 with Radial(0.8)
     window show
-    "亲"
+    "（亲）"
     "……诶？"
-    me "翼，翼……？"
+    me "翼……？"
     show cg c46 1 with Dissolve(0.8)
-    tubasa "那，那个……那个……我好开心。"
-    extend "\n[player_name]君是这样在想的。"
+    tubasa "那、那个……那个……我好开心。"
+    extend "\n能被[player_name]君这样放在心上……我真的好开心。"
     me "翼……。"
     show cg c46 3 with Dissolve(0.8)
-    tubasa "还，还有就是，"
-    extend "\n[player_name]君，正因为有你，我才能变得这么勇敢"
-    extend "\n这算是证明，同时也是对你的谢礼……。"
+    tubasa "还、还有就是，"
+    extend "\n这也是多亏了[player_name]君，我才能变得这么勇敢的证明……。"
+    extend "\n也算是，我对你的谢礼……。"
     me "……谢谢你。\n能得到你的回应，我也很幸福。"
-    extend "\n还给了我一个吻……。"
-    tubasa "呜……请不要把这种事说得这么直白啊！"
-    extend "\n我可是很害羞的，也很紧张的啊……。"
+    extend "\n而且还给了我一个吻……。"
+    tubasa "呜……请不要特意说出来啊！"
+    extend "\n我真的很害羞，刚才也好紧张……。"
     show bg schoolyard1_night
-    me "啊哈哈。\n但只要有这份勇气，就一定没问题的。"
+    me "啊哈哈。\n不过，只要有这份勇气，就一定没问题的。"
     extend "\n以后也继续加油吧。\n我会永远支持翼的。"
     window hide
     hide tubasa with Dissolve(0.9)
@@ -2041,8 +2041,8 @@ label end_tubasa:
     window hide
     show cg moon_night at center with FadeWhite(0.8)
     window show
-    "……这样一来，我的想法也传达给了翼，而翼也接受了我的表白。"
-    extend "\n御咲祭也顺利举办了，我还在翼的陪伴下见证了这场焰火表演。"
+    "……这样一来，我的心意终于传达给了翼，而他也温柔地接纳了它。"
+    extend "\n御咲祭成功了，我也和翼一起看到了这丛篝火。"
     extend "\n愿望全都实现了。……"
     window hide
     show cg campfire_sparks with Dissolve(0.8)
@@ -2057,7 +2057,7 @@ label end_tubasa:
     "…"
     "梦的记忆是模糊的。"
     extend "\n在醒过来的同时，也会忘记这场梦。"
-    extend "\n只留下甜美的回忆，其他的一切都被带去忘却的彼方而消散。"
+    extend "\n只留下甜美的回忆，其余的一切，都会被带往忘却的彼方。"
     stop music fadeout 4.0
     "好了……差不多该起来了。"
     window hide
@@ -2072,17 +2072,17 @@ label end_tubasa:
     hide bg with dissolve
     window show
     play sound "fx/alarm.ogg"
-    "哔哔哔哔哔哔哔哔"
+    "（哔哔哔哔哔哔哔哔）"
     window hide
     show bg protagonist_room_morning at center with dissolve
     window show
     me "啊……已经早上了吗……？"
-    extend "\n唔~我好像并没有睡多少啊……。"
+    extend "\n唔~感觉这一觉还没睡够啊……。"
     stop sound fadeout 0.5
-    "我望向餐桌，上面放着一张传单。"
+    "我看向桌子，上面放着一张传单。"
     play sound "fx/paper.ogg"
     me "嗯？这是……"
-    extend "啊，对对对，昨天回来的时候拿到的。"
+    extend "啊，对对，是昨天回来的时候拿到的。"
     extend "\n那些孩子们，真可爱啊……。"
     me "……好！那天我一定要去好好享受！"
     play sound "fx/cute2.ogg"
@@ -2091,7 +2091,7 @@ label end_tubasa:
     hide bg with dissolve
     stop music fadeout 0.5
     window show
-    "御咲祭当天ーーーーーー"
+    "御咲祭当天——"
     window hide
     play music "school_festival.ogg"
     play sound "fx/crowd_noise.ogg"
@@ -2099,20 +2099,20 @@ label end_tubasa:
     pause 0.4
     show bg hallway with Dissolve(1.0)
     window show
-    me "我想想……记得说是2年1班和2年2班的咖啡店。"
+    me "我想想……得说是二年一班和二班的咖啡店。"
     extend "\n嗯？这里吗？"
     "正当我站在店门口犹豫不决的时候，"
-    extend "\n三个与我差不多大的男生正在迷茫着，\n他们向店里的人打起了招呼。"
+    extend "\n三个看起来像是高中生的男生也一副迷茫的表情，\n他们向店里的人打起了招呼。"
     window hide
     window show
-    student_a "啊，喂~，我们来了。这里就是2年1，2班的咖啡馆吗？"
+    student_a "啊，嗨~，我们来啦。这里就是二年一班和二班的咖啡店吗？"
     show sinobu 12i at topright with dissolve
-    unknown "啊，前几天真是多谢了。"
-    extend "\n嗯，这里是咖啡厅。\n要是有客人光临的话，会由身带绿色名牌的人来负责接待。"
+    unknown "啊，前几天真是多谢关照了。"
+    extend "\n是的，这里就是我们的咖啡店。\n如果各位要入店的话，乐器可以交给我保管。"
     student_b "哦，谢谢！"
-    extend "\n这个不仅很重，还占地方，给你保管轻松多了！。"
-    student_c "绝对不要摔了啊！！注意别弄掉了！！"
-    "说着，他们便跟着身带绿色名牌的人走了进去。"
+    extend "\n这个又重又占地方，能帮我们拿着真是帮大忙了~。"
+    student_c "万别摔了啊！！搬的时候要小心点哦！！"
+    "他们一边说着，一边在那名戴着绿色名牌的孩子引导下走进了店里。"
     window hide
     play sound "fx/sliding_door.ogg"
     hide sinobu with dissolve
@@ -2121,16 +2121,16 @@ label end_tubasa:
     extend "\n我鼓起自信，意气风发地走向咖啡店的入口。"
     play sound "fx/sliding_door.ogg"
     show bg cafe with FadeWhite(0.5)
-    "然后，身带蓝色名牌的红领带男走了出来。"
+    "接着，一个戴着蓝色名牌、打着红色领带的男孩从店里走了出来。"
     window hide
     play sound "fx/running.ogg"
     show tubasa 9i at top with dissolve
     window show
     tubasa "欢迎光临，客人。"
     show tubasa 35i with dissolve
-    extend "\n是，是一位吗？"
+    extend "\n请、请问是一位吗？"
     show tubasa 36i with dissolve
-    extend "\n请往这边走……请慢慢欣赏。"
+    extend "\n请往这边走……请慢慢享受吧。"
     window hide
     hide bg with Radial(1.0)
     hide sinobu with Radial(1.0)
