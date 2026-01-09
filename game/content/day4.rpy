@@ -2188,7 +2188,7 @@ label end_sora:
     "我是因为许下『想和大家一起享受学园祭』的愿望才来到这个世界的。"
     extend "\n如果现在就这样回家的话，这场梦说不定就会醒了。"
     extend "\n我绝对不要在最后关头，连一点回忆都没留下就这么结束！！"
-    teacher "这样啊……。"
+    doctor "这样啊……。"
     extend "\n你们毕竟是执行委员呢~我能理解这种心情。"
     extend "\n那么，去里面的床上好好休息吧。"
     extend "\n只是，绝对绝对不能勉强自己哦？"
@@ -2209,7 +2209,7 @@ label end_sora:
     extend "\n……别勉强自己了，没关系的。\n这一次，我也会好好守在你的身边。"
     show sora 2i with dissolve
     sora "而且，我们一直以来都在并肩努力嘛。"
-    extend "\n直到学园祭结束为止，我们都待在一起吧。"
+    extend "\n在学园祭结束之前，我们都待在一起吧。"
     show sora 32i with dissolve
     extend "\n待会儿哥哥也会过来，我们三个人就在一起，好吗？"
     me "空……谢谢你。\n空真的是太温柔了。"
@@ -2233,7 +2233,7 @@ label end_sora:
     window show
     tuki "打扰了。"
     "月的声音从帘子的另一边传来。"
-    teacher "啊呀，是赤峰君的哥哥啊。"
+    doctor "啊呀，是赤峰君的哥哥啊。"
     extend "\n你弟弟和[player_surname]同学正在里面的床上休息呢。"
     tuki "我知道了。连日来多有打扰。"
     extend "\n非常感谢老师。"
@@ -2395,7 +2395,7 @@ label end_sora:
     show bg protagonist_room_morning at center with dissolve
     window show
     me "啊……已经早上了吗……？"
-    extend "\n唔~唔~感觉这一觉还没睡够啊……。"
+    extend "\n唔~感觉这一觉还没睡够啊……。"
     stop sound fadeout 0.5
     "我看向桌子，上面放着一张传单。"
     play sound "fx/paper.ogg"
@@ -2505,7 +2505,7 @@ label end_tuki:
     "我是因为许下『想和大家一起享受学园祭』的愿望才来到这个世界的。"
     extend "\n如果现在就这样回家的话，这场梦说不定就会醒了。"
     extend "\n我绝对不要在最后关头，连一点回忆都没留下就这么结束！！"
-    teacher "这样啊……。"
+    doctor "这样啊……。"
     extend "\n你们毕竟是执行委员呢~我能理解这种心情。"
     extend "\n那么，去里面的床上好好休息吧。"
     extend "\n只是，绝对绝对不能勉强自己哦？"
@@ -2778,12 +2778,12 @@ label end_futago:
     show tuki 29i at topleft
     show sora 17i at topright with dissolve
     window show
-    "2人将我的身体抱在怀中，支撑着我。"
+    "两人同时伸出手抱住了我的身体，支撑着我。"
     show tuki 5i with dissolve
-    tuki "[player_surname]别硬撑了。"
+    tuki "[player_surname]，别硬撑了。"
     show sora 23i with dissolve
     sora "就是啊。"
-    extend "\n我们现在就把你送到保健室！"
+    extend "\n我们现在就把你送到保健室去！"
     window hide
     hide tuki with dissolve
     hide sora with dissolve
@@ -2798,102 +2798,103 @@ label end_futago:
     extend "\n啊，[player_surname]君，没事吧……！？"
     show tuki 5i at topleft with dissolve
     tuki "看样子他好像是发烧了。"
-    extend "\n不好意思[player_surname]君得跟我去保健室，得有人代班"
-    extend "\n有谁可以帮忙代班吗？"
+    extend "\n不好意思，为了送[player_surname]去保健室，我们要暂时离岗。"
+    extend "\n能麻烦你帮忙安排其他人来代个班吗？"
     show sinobu 7i with dissolve
     sinobu "嗯……我知道了。"
-    extend "\n我也会告诉大家的……。"
+    extend "\n我会转告大家的……。"
     show sinobu 27i with dissolve
-    extend "\n[player_surname]君，你好好休息。"
-    me "谢，谢谢…。"
+    extend "\n[player_surname]君，请一定要保重身体。"
+    me "谢、谢谢……。"
     play sound "fx/running.ogg"
     hide sinobu with dissolve
-    "说完，忍就回到自己的岗位上了。"
+    "说完，忍便匆忙回到了自己的岗位。"
     hide sora with dissolve
     hide tuki with dissolve
     show sora 22i at top with dissolve
-    sora "好。\n那我们出发吧！"
-    extend "\n[player_name]君，我们来撑着你，要好好的！"
+    sora "好啦。\n那我们出发吧！"
+    extend "\n[player_name]君，我们会撑着你的，打起精神来！"
     window hide
     stop music fadeout 2.0
     play sound "fx/sliding_door.ogg"
     show cg hallway_evening at center with dissolve
     window show
-    "我把双手搭在月和空的肩上，被他们带到了保健室。"
-    "周围有很多同学都在看着我们。"
+    "我把双臂搭在月和空的肩上，被他们架着带向保健室。"
+    "被他们架着带向了保健室。"
     hide bg with dissolve
     hide tuki with dissolve
     hide cg with dissolve
     hide sora with dissolve
     play sound "fx/triangle.ogg"
-    extend "\n我的样子，一定就像被囚禁的外星人一样吧……。"
+    extend "\n我这副样子，恐怕就像是被捕获的外星人一样吧……。"
     window hide
     show bg school_building_night at center with Dissolve(1.0)
     play music "good_atmosphere.ogg"
     window show
-    doctor "37度4分……有点发烧呢。"
-    extend "\n而且，还伴有站立性眩晕……怎么办？"
-    extend "\n要早退，回家休息吗？"
-    me "不，不用了……！"
-    extend "\n我没事。\n我再在留在这里休息一会，肯定能好的。"
-    teacher "但是，这次跟上次不一样，你发烧了，\n不要逞强了，好好休息吧？"
-    me "我不会勉强的。"
-    extend "\n好不容易才努力到现在的，\n在御咲祭结束之前，我绝对不想回去……！！"
-    "我来到这个世界，就是为了和大家一起享受学园祭。"
-    extend "\n如果在这里就回家的话，那我的梦想可能就破灭了。"
-    extend "\n我绝对不想在最后什么回忆都没留下的情况下结束！"
-    teacher "是吗……"
-    extend "\n你们毕竟是执行委员呢~我能理解你们的心情。"
+    doctor "37.4度……有点低烧呢。"
+    extend "\n而且，还伴有站立性眩晕……打算怎么办？"
+    extend "\n要提前回家休息吗？"
+    me "不、不用了……！"
+    extend "\n我没事的。\n只要在这里稍微休息一下，肯定很快就会好的。"
+    doctor "但是呢，与之前不一样，这次是真的发烧了，"
+    extend "\n不要勉强，还是好好休息比较好哦？"
+    me "我没有勉强。"
+    extend "\n好不容易才努力坚持到现在，\n在御咲祭结束之前，我绝对不想回去……！！"
+    "我是因为许下『想和大家一起享受学园祭』的愿望才来到这个世界的。"
+    extend "\n如果现在就这样回家的话，这场梦说不定就会醒了。"
+    extend "\n我绝对不要在最后关头，连一点回忆都没留下就这么结束！！"
+    doctor "这样啊……。"
+    extend "\n你们毕竟是执行委员呢~我能理解这种心情。"
     extend "\n那么，去里面的床上好好休息吧。"
-    extend "\n只是，不要太过勉强自己哦？"
-    me "谢，谢谢您！"
+    extend "\n只是，绝对绝对不能勉强自己哦？"
+    me "谢、谢谢您！"
     sora "太好了，[player_name]君。"
     tuki "那我们走吧。"
     window hide
     show bg infirmary_night with Dissolve(0.8)
     window show
-    "我跟上次一样，躺在床上……"
-    extend "不过这次是作为病人。"
-    me "你们两个……这次我是真的身体不舒服。"
-    extend "\n或许还是不要待在我身边比较好，\n而且咖啡厅那边也很忙，还是先去那边吧。"
-    extend "\n等我睡一会恢复一下，就会马上赶过去。"
+    "我和那天一样，在那张床上躺了下来……"
+    extend "不过这一次，是作为真正的病人。"
+    me "你们两个……这次我是真的身体不太舒服。"
+    extend "\n你们还是不要一直在这边陪我比较好，\n而且咖啡厅肯定也忙得不得了，你们先回店里去吧。"
+    extend "\n等我睡一会恢复一下，就马上赶过去。"
     show sora 5i at topright with dissolve
-    sora "说什么胡话呢！"
-    extend "\n你之前还说如果离开的话会寂寞！"
+    sora "你在说什么呀！"
+    extend "\n明明之前还说过，如果离开的话你会觉得寂寞的！"
     show tuki 18i at topleft with dissolve
     tuki "不要逞强了。"
-    extend "\n放心吧，我们会一直待在你身边，直到你恢复为止。"
+    extend "\n放心吧，我们会一直陪在你身边，直到你恢复为止。"
     show sora 24i with dissolve
-    sora "就是啊。"
-    extend "\n而且，我们之前都那么努力。"
+    sora "就是说呀。"
+    extend "\n而且，我们一直以来都在并肩努力嘛。"
     show sora 26i with dissolve
-    extend "\n在学园祭结束之前，咱们就一起过吧。"
+    extend "\n在学园祭结束之前，我们都待在一起吧，好吗？"
     me "月，空……谢谢你们。\n你们俩真的太温柔了。"
-    extend "\n我特别喜欢你们的这种性格。"
+    extend "\n我啊，特别喜欢你们的这种性格。"
     extend "\n正因如此，和你们在一起，让我感觉很安心。"
     show sora 30i with dissolve
     sora "诶嘿嘿。\n我们才要说谢谢呢！"
-    extend "\n我们也是，和你一样的感觉。"
+    extend "\n我们的心情，其实和你是一样的哦。"
     show tuki 24i with dissolve
-    tuki "啊。\n只要我们三个人在一起，感觉就特别安心。"
+    tuki "啊。\n只要我们三个人在一起，总觉得心情就能平静下来。"
     me "……你们能这么说，我真的好高兴。"
     "我这么说完，两人看着我露出了笑容。"
     show sora 32i with dissolve
     sora "不过话说回来，大家也都很认可你呢。"
     show tuki 4i with dissolve
-    tuki "学园祭期间，一直在一起呢。"
+    tuki "学园祭期间，我们一直在一起。"
     extend "\n没想到居然会发展成这样，真是命运的安排啊。"
     me "啊哈哈。也算是命运共同体吧。"
     "我们三人在一起的时候最开心了。"
-    extend "\n这并不是因为我把两人当作正太来看待，\n而是纯粹地喜欢上了他们的为人。"
+    extend "\n我想，这并不是因为我把他们当作正太来看，\n而是纯粹地喜欢他们的为人。"
     extend "\n真是对好兄弟啊。"
     window hide
     show cg school_building1_night at center with Dissolve(0.8)
     window show
     me "……哈啊~。"
-    extend "\n不过话说回来，我更想逛学园祭，\n不想躺在保健室的床上啊……"
-    extend "\n对两位来说很抱歉，但只要现在能恢复，我们还是可以去逛的。"
-    me "要是能像『沉睡森林的美男』那样接个吻，\n然后突然精神百倍的奇迹就发生就好了啊。"
+    extend "\n不过话说回来，比起躺在保健室的床上，\n我果然还是更想去逛学园祭啊……。"
+    extend "\n让你们两个在这里陪着我，也实在有些过意不去。要是现在就能恢复精神的话，这个愿望就能实现了。"
+    me "要是能像《沉睡森林的美男》里那样，\n接个吻就能一下子精神百倍的奇迹发生在我身上就好了啊。"
     "月和空面面相觑。"
     hide cg with dissolve
     hide tuki with dissolve
@@ -2902,72 +2903,72 @@ label end_futago:
     tuki "空，这样可以吗？"
     show sora 30i at topright with dissolve
     sora "嗯。"
-    extend "\n哥哥？"
+    extend "\n哥哥你呢？"
     stop music fadeout 3.0
     show tuki 24i with dissolve
     tuki "我也没意见。"
-    "两人似乎商量了些什么，然后看向我。"
+    "两人好像商量了些什么，然后看向我。"
     window hide
     play music "twins_theme.ogg"
     show cg c64 1 at center with FadeWhite(0.8)
     window show
     sora "[player_name]君，要试试吗？"
-    me "哎？"
-    tuki "就是你刚才说的那个，可以唤醒奇迹的接吻。"
+    me "诶？"
+    tuki "就是你刚才说的那个，能唤醒奇迹的吻。"
     extend "\n不过，在这种情况下，应该是治愈感冒之吻。"
     me "诶？诶？？"
-    sora "我们已经准备好亲你了哦。"
-    tuki "啊啊。"
-    extend "\n[player_surname]如果这个吻有可能让你恢复健康的话，\n我们没有理由拒绝。"
-    sora "我们也最喜欢你了，[player_name]君！"
+    sora "如果不介意是我们的话，我们可以亲你哦。"
+    tuki "嗯。"
+    extend "\n只要能有让[player_surname]恢复健康的可能，\n我们也没有理由拒绝。"
+    sora "毕竟，我们两个也都最喜欢[player_name]君了！"
     play sound "fx/boing.ogg"
-    me "真，真的吗！？"
-    extend "\n我只是随口说的而已，怎么会发展成这样……。"
+    me "真、真的吗！？"
+    extend "\n我只是随口说说而已，竟然会变成这样……。"
     tuki "正因如此。"
-    extend "\n现在，[player_surname]君的眼神是纯粹的。"
-    extend "\n所以，你就好好地\n接受我们的心意吧。"
-    sora "当然，如果你不愿意的话我不会强求……。"
+    extend "\n现在，[player_surname]的眼神是纯粹的。"
+    extend "\n所以，你也只需要顺从自己的心愿，\n坦率地接受我们的心意就好。"
+    sora "当然，如果你不愿意的话，我们也不会强求……。"
     play sound "fx/cute2.ogg"
-    me "不不不！！不是，我怎么会不愿意！！"
-    extend "\n我超高兴啊！！！"
+    me "不不不！！不是，我怎么会不愿意呢！！"
+    extend "\n我真的超超超超超级高兴啊！！！"
     show cg red with Dissolve(0.8)
-    extend "\n……我真是幸福啊。"
-    "他们听到我的回答后，站到床的两端，然后把脸凑到我面前。"
-    tuki_and_sora "快点打起精神来吧。"
+    extend "\n……我真是个幸福的人。"
+    "听到我的回答，两人站到了床的两侧，然后把脸凑到我面前。"
+    tuki_and_sora "快点好起来吧——"
     window hide
     show cg c64 2 with Radial(0.8)
     window show
-    "亲"
-    "得到脸颊两边那柔软的唇的触感，我的身体真的变得轻飘飘起来。"
-    me "……感觉，身体真的变轻了…。"
+    "（亲）"
+    "当双颊感受到那柔软嘴唇的触感时，我真的感觉到身体变得轻盈了。"
+    me "……感觉，身体真的变轻松了……。"
     show cg c64 3 with Dissolve(0.8)
     sora "是吗……那真是太好了。"
-    tuki "因为你确实将思念融入其中。"
-    extend "\n而且貌似也确实传达到了，太好了。"
-    me "谢谢你们两位。"
+    tuki "毕竟我们可是注入了满满的心意啊。"
+    extend "\n看来这份心意确实传达到了，真是太好了。"
+    me "你们两个，真的谢谢了。"
     window hide
     hide cg with dissolve
     hide sora with dissolve
     hide tuki with dissolve
     window show
-    "这时，从学校操场那边传来了欢呼声。"
+    "就在这时，操场那边传来一阵欢呼声。"
     show tuki 15i at topleft with dissolve
     tuki "嗯？"
-    extend "\n你们两个，快看窗户那边。"
+    extend "\n你们两个，快看窗外。"
     show sora 3i at topright with dissolve
-    sora "哇……御咲篝火，终于点燃了！！"
+    sora "哇……御咲祭的篝火，终于点燃了！！"
     window hide
     play sound "fx/fire.ogg"
     show cg campfire at center with Radial(0.5)
     window show
-    "时隔10年，我再次看到了篝火，即便只是在室内观赏，也非常美丽而震撼。"
-    extend "\n从保健室的角度看，很巧妙地避开了草木和小摊，"
-    extend "\n某种意义上说，也许这里就是个很好的秘密观赏点。"
+    "时隔十年再次看到的这团焰火，即使从室内望去，依然美丽得令人震撼。"
+    extend "\n从保健室看过去，视线巧妙地避开了草木和摊位。"
+    extend "\n某种意义上说，这里说不定是个绝佳的隐秘观赏点呢。"
     sora "好漂亮……！"
-    extend "\n无论怎样，能和你们两人这样一起度过，太好了。"
+    extend "\n无论怎样，能和你们两人这样一起度过，真是太好了。"
     extend "\n一定，会成为非常美妙的回忆……。"
     me "我也是这么想的。"
-    extend "\n能和喜欢的两人在一起，真的太好了。"
+    extend "\n能和最喜欢的两个人在一起，真的太好了。"
     extend "\n月，空……感谢你们一直在我身边。"
     stop sound fadeout 2.0
     window hide
@@ -2982,8 +2983,8 @@ label end_futago:
     window hide
     show cg moon_night at center with FadeWhite(0.8)
     window show
-    "……这样，御咲祭也成功了，也和两人一起看到这场焰火了。"
-    extend "\n愿望实现了。……"
+    "……这样一来，御咲祭也成功了，我也和两人一起看到了这丛篝火。"
+    extend "\n愿望全都实现了。……"
     show cg campfire_sparks with Dissolve(0.8)
     "在这片燃烧的红炎之中，我的意识逐渐淡去……。"
     extend "\n……梦已经结束了。"
@@ -2996,7 +2997,7 @@ label end_futago:
     "…"
     "梦的记忆是模糊的。"
     extend "\n在醒过来的同时，也会忘记这场梦。"
-    extend "\n只留下甜美的回忆，其他的一切都被带去忘却的彼方而消散。"
+    extend "\n只留下甜美的回忆，其余的一切，都会被带往忘却的彼方。"
     stop music fadeout 4.0
     "好了……差不多该起来了。"
     window hide
@@ -3015,17 +3016,17 @@ label end_futago:
     hide bg with dissolve
     window show
     play sound "fx/alarm.ogg"
-    "哔哔哔哔哔哔哔哔"
+    "（哔哔哔哔哔哔哔哔）"
     window hide
     show bg protagonist_room_morning at center with dissolve
     window show
     me "啊……已经早上了吗……？"
-    extend "\n唔~我好像并没有睡多少啊……。"
+    extend "\n唔~感觉这一觉还没睡够啊……。"
     stop sound fadeout 0.5
-    "我望向餐桌，上面放着一张传单。"
+    "我看向桌子，上面放着一张传单。"
     play sound "fx/paper.ogg"
     me "嗯？这是……"
-    extend "啊，对对对，昨天回来的时候拿到的。"
+    extend "啊，对对，是昨天回来的时候拿到的。"
     extend "\n那些孩子们，真可爱啊……。"
     me "……好！那天我一定要去好好享受！"
     play sound "fx/cute2.ogg"
@@ -3034,7 +3035,7 @@ label end_futago:
     hide bg with dissolve
     stop music fadeout 0.5
     window show
-    "御咲祭当天ーーーーーー"
+    "御咲祭当天——"
     window hide
     play music "school_festival.ogg"
     play sound "fx/crowd_noise.ogg"
@@ -3042,25 +3043,25 @@ label end_futago:
     pause 0.4
     show bg hallway with Dissolve(1.0)
     window show
-    me "我想想……记得说是2年1班和2年2班的咖啡店。"
+    me "我想想……记得说是二年一班和二班的咖啡店。"
     extend "\n唔？"
     play sound "fx/sliding_door.ogg"
     show bg cafe with dissolve
     extend "是这个吗？"
-    "正当我在店门口感到迷茫时，两个散发着甜美香气，身着制服，身上挂着红色名牌的\n男生同时注意到了我，并走了过来。"
+    "正当我站在店门口犹豫不决的时候，两个戴着红色名牌、身上散发着甜甜香气的\n男孩子同时注意到了我，并一起从店里走了出来。"
     window hide
     play sound "fx/running.ogg"
     show sora 3i at topright with dissolve
     window show
-    sora "欢迎光临！请问是一个人吗？"
+    sora "欢迎光临！请问是一位吗？"
     window hide
     play sound "fx/running.ogg"
     show tuki 15i at topleft with dissolve
     window show
-    tuki "请跟我来。"
+    tuki "请往这边走，由我们为您带位。"
     show tuki 25i
     show sora 31i with dissolve
-    tuki_and_sora "请慢慢享受！"
+    tuki_and_sora "那么，请慢慢享受吧！"
     window hide
     hide bg with Radial(1.0)
     hide tuki with Radial(1.0)
@@ -3542,87 +3543,87 @@ label end_sakuya:
     show sakuya 18i at top with dissolve
     window show
     play sound "fx/dash.ogg"
-    sakuya "喂，你们。别再用那恶心的手碰他。"
+    sakuya "喂，你们。赶紧把那恶心的脏手给我拿开。"
     me "作哉君！"
-    customer3 "怎，怎么会这样！"
+    customer3 "什、什么情况啊捏！"
     show sakuya 13i with dissolve
-    sakuya "啊？什么玩意啊。"
-    extend "\n从刚才开始就一直散发着恶心的气氛。"
-    extend "\n如果你再敢不正经的话。"
+    sakuya "啊？还敢问什么情况？"
+    extend "\n从刚才开始，就一直散发着令人作呕的恶心气息。"
+    extend "\n再敢给我乱来试试。"
     show sakuya 3i with dissolve
-    extend "\n你那丑陋的脸，会扭曲得更加难看的哦。"
+    extend "\n小心老子把你那张丑脸，揍得比现在更扭曲。"
     play sound "fx/boing.ogg"
-    customer3 "抱歉抱歉捏。"
-    extend "\n有，有点兴奋过头，所以有点不守规矩了捏。"
+    customer3 "呜……抱、抱歉了捏。"
+    extend "\n有、有点兴奋过头，所以有点不守规矩了捏。"
     play sound "fx/cute3.ogg"
     customer5 "对不起呀。"
-    extend "\n这里还是绅士一点，姑且忍一忍，可远观不可亵玩焉。"
+    extend "\n在这里我们还是绅士一点，姑且忍耐一下，记住可远观不可亵玩焉。"
     play sound "fx/sparkle.ogg"
-    customer4 "哎呀~……粗犷的男人好棒♪"
+    customer4 "哎呀~……这种野性的男人也超级迷人呢♪"
     window hide
     hide sakuya with dissolve
     window show
-    "在作哉的帮助下，我得以从那种场合中逃了出来。"
-    "没想到在这种时候还能被初中生搭救……。"
+    "在作哉的帮助下，我总算是逃过了一劫。"
+    "没想到在这种时候，竟然被初中生搭救了……。"
     extend "\n总感觉有点丢人啊……。"
     window hide
     show sakuya 10i at top with dissolve
     window show
-    sakuya "喂，怎么了？"
-    me "嗯，嗯嗯。得救了。"
-    extend "\n谢谢你们！"
+    sakuya "喂，你没什么事吧？"
+    me "嗯、嗯。多亏了你，得救了。"
+    extend "\n谢谢你！"
     show sakuya 25i with dissolve
-    sakuya "我并不是想帮你哦。"
-    extend "\n只是想让那些恶心的家伙们受到一句骂声的洗礼而已。"
-    extend "\n啊~心情舒畅多了。\n麻烦的工作中的休息时间变得愉快起来了呢！"
-    me "这，这样啊……。"
+    sakuya "啧，别误会了，我可不是想救你。"
+    extend "\n我只是想对那群恶心的家伙骂上几句而已。"
+    extend "\n啊~真是神清气爽。\n正好给这烦人的工作解解闷！"
+    me "这、这样啊……。"
     show sakuya 15i with dissolve
     sakuya "比起这个……你今天，"
-    extend "\n今天后夜祭有空吗？"
-    me "诶？那个，没什么。"
+    extend "\n后夜祭没别的安排吧？"
+    me "诶？嗯，倒也没什么特别的事。"
     show sakuya 14i with dissolve
-    sakuya "我就知道~你朋友很少嘛！"
-    extend "\n那就陪我去后夜祭吧。"
+    sakuya "我就知道~。看你这样子就没什么朋友！"
+    extend "\n那你就陪我吧。"
     play sound "fx/cute.ogg"
-    me "啊！！作，作哉君要和我两人单独参加后夜祭吗！？"
+    me "啊！！作、作哉君要和我两人单独过后夜祭吗！？"
     show sakuya 29i with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
-    sakuya "你，你个笨蛋！！！才不是啦！！！"
+    sakuya "你、你这笨蛋！！！想什么呢！！！"
     extend "\n是小翼说无论如何都要和你待在一起……。"
     show sakuya 36i with dissolve
     play sound "fx/dash.ogg"
-    extend "\n话说回来，你没有拒绝的权利！\n所以一定要来！"
-    me "嗯，嗯，我一定会来的！\n我也想见小翼……。"
-    extend "\n那就在鞋柜那碰头吧。"
+    extend "\n总之，你没有拒绝的权利！\n所以一定要来！！"
+    me "嗯、嗯，我一定会来的！\n我也好想小翼……。"
+    extend "\n那我们就在鞋柜那边碰头吧。"
     show sakuya 9i with dissolve
     sakuya "哼！"
-    extend "\n那我就先回自己负责的地方去了。"
+    extend "\n那我就先回自己的岗位了。"
     extend "\n回头见！"
     window hide
     play sound "fx/running.ogg"
     hide sakuya with dissolve
     window show
-    "虽然作哉是为了小翼才邀请我的，但他居然主动邀请了我……！"
+    "作哉虽然嘴上说是为了小翼，但没想到他竟然会主动邀请我……！"
     "……。"
     show cg purple at center with dissolve
-    "我是因为很期待学园祭，才来到这梦中的世界。"
-    extend "\n没想到后夜祭的时候，还能和他在一起。"
-    "所以我想尽量陪在他身边……"
-    extend "想帮助他。"
+    "我是因为许下『想和大家一起享受学园祭』的愿望才来到这个世界的。"
+    extend "\n没想到在最后的后夜祭，还能和他待在一起，真的太开心了。"
+    "所以我想尽可能地多陪在作哉身边……"
+    extend "想助他一臂之力。"
     hide cg with dissolve
     hide bg with dissolve
     stop music fadeout 2.0
-    "……毕竟这个梦不知道会持续到什么时候……。"
+    "……毕竟这个梦，不知道会持续到什么时候……。"
     window hide
     play sound "fx/crowd_noise.ogg"
     show bg school_building_evening_full at center with Dissolve(1.0)
     pause 0.4
     show bg cafe_evening with Radial(1.0)
     window show
-    "咖啡店的营业时间也差不多要结束了。"
-    extend "\n接下来的活动，就是和作哉一起参加后夜祭！"
-    extend "\n不能迟到，于是我赶紧收拾完东西，朝大门走去。"
+    "咖啡店的营业时间差不多要结束了。"
+    extend "\n接下来的活动，就是和作哉的后夜祭！"
+    extend "\n可不能迟到了。我赶紧收拾完东西，朝大门跑去。"
     window hide
     hide bg with dissolve
     window show
@@ -3631,19 +3632,19 @@ label end_sakuya:
     play music "fx/night_insects.ogg"
     show bg shoe_locker_night at center with Dissolve(0.8)
     window show
-    "我走到鞋柜前，发现作哉已经在那儿等着了。"
+    "等我赶到鞋柜处，发现作哉已经在那儿等着了。"
     me "作哉君，久等了！"
     show sakuya 6i at top with dissolve
-    sakuya "久等了！"
+    sakuya "慢死了你！"
     show sakuya 25i with dissolve
-    extend "\n……那，走吧。"
+    extend "\n……啧，那走吧。"
     window hide
     hide sakuya with dissolve
     show bg school_building_night with Dissolve(1.0)
     window show
-    "我们来到外面，夕阳已经落山了。\n但余晖和摊位的灯光交相辉映，街上依然很热闹。"
-    extend "\n在校园的正中央，大家为了御咲祭篝火晚会做准备，\n堆柴火的工作正在有序地进行。"
-    "我们趁着人少的时候，叫上翼来到了教学楼后方。"
+    "等我们来到室外，夕阳已经落山了。\n但在照明与摊位灯光的映衬下，校园里的热闹气氛并未减弱。"
+    extend "\n在这喧嚣之中，校园操场正中央，为了筹备御咲祭的篝火晚会，\n堆放柴火的工作正稳步推进着。"
+    "在这期间，我们去了教学楼后方，把小翼接了出来。"
     window hide
     show bg school_backside_night with Dissolve(1.0)
     show tsubasa 1 at top with dissolve
@@ -3656,7 +3657,7 @@ label end_sakuya:
     show sakuya 23i at topleft with dissolve
     sakuya "小翼，今天可是学园祭。"
     extend "\n我就破例带你在校园里转转吧。"
-    extend "\n可别胡闹，要安静哦。"
+    extend "\n待会儿可不准胡闹，要保持安静哦。"
     show tsubasa 2 with dissolve
     tsubasa "汪！"
     window hide
@@ -3664,90 +3665,90 @@ label end_sakuya:
     hide tsubasa with dissolve
     show bg schoolyard_night with dissolve
     window show
-    "我们一回到校园，就故意坐在了人少的\n运动场内侧的草坪上。"
+    "回到操场附近，我们特意\n在操场深处人较少的一片草坪上坐了下来。"
     window hide
     window show
-    sakuya "这里可以清楚地看到焰火，应该能好好放松一下了。"
+    sakuya "这里既能清楚地看到篝火，又能安静地休息呢。"
     show tsubasa 3 at topright
     show sakuya 23i at topleft with dissolve
-    sakuya "是啊。"
+    sakuya "也是。"
     show sakuya 24i with dissolve
     extend "\n真是太好了呢，小翼。"
-    extend "\n从现在开始，你就可以看到巨大的焰火了哦~。"
+    extend "\n等一下啊，你就可以看到大大的火堆了哦~。"
     show tsubasa 5 with dissolve
     tsubasa "呜嗯？"
-    "小翼似乎听不懂我们在说什么，歪着脑袋。"
+    "作为当事狗的小翼似乎并不太明白我们在说什么，只是困惑地歪了歪小脑袋。"
     hide sakuya with dissolve
     hide tsubasa with dissolve
-    "远远眺望着，热闹非凡的学园祭的光景。"
-    extend "\n然后"
+    "我们从远处眺望着，热闹非凡的学园祭盛况。"
+    extend "\n就在这时——"
     window hide
     play sound "fx/fire.ogg"
     show bg campfire with Radial(0.5)
     window show
-    "终于点燃了柴火堆。"
-    "熊熊燃烧着的鲜红火焰。"
+    "堆好的柴火终于被点燃了。"
+    "鲜红的火焰熊熊燃烧着。"
     extend "\n真的好美啊……。"
-    sakuya "快看，小翼！"
-    extend "\n好壮观的焰火啊~！！"
+    sakuya "小翼，快看！"
+    extend "\n这火可真是壮观啊~！！"
     tsubasa "汪汪！"
     me "啊哈哈。"
-    extend "\n他好像在说『真漂亮！』"
-    sakuya "是啊，一定就是这样。"
+    extend "\n它好像在说『真漂亮！』呢。"
+    sakuya "啊。一定就是这样吧。"
     stop sound fadeout 2.0
     window hide
     play music "good_atmosphere.ogg"
     show bg schoolyard_night with dissolve
     show sakuya 31i at top with dissolve
     window show
-    sakuya "……我说啊，[player_surname]。"
+    sakuya "……那个，[player_surname]。"
     extend "\n我要把所有事情都告诉你。"
     me "诶，什么事？"
     show sakuya 32i with dissolve
-    sakuya "就是……关于之前岔开话题的一之濑的事…。"
-    me "啊，是这件事啊！"
+    sakuya "就是……之前一直被我岔开话题的，关于一之濑的事……。"
+    me "啊，是这件事呀！"
     extend "\n嗯，我想听。"
-    extend "\n我想多了解你一些，然后助你一臂之力。"
+    extend "\n我想更多地了解作哉君的事，然后能助你一臂之力。"
     show sakuya 2i with dissolve
     play sound "fx/boing.ogg"
-    sakuya "白，白痴！！\n别说这种丢人的话啊！"
-    extend "\n这样会很难开口的。"
+    sakuya "白、白痴！！\n别说这种丢人的话啊！"
+    extend "\n你这么说，反而让我很难开口了。"
     me "啊哈哈，抱歉抱歉。"
     window hide
     show cg school_building_night at center with Dissolve(0.8)
     window show
-    sakuya "……是我以前养过的狗，明明是条狗，却很胆小，\n外出的时候总是怯生生，一直提心吊胆的。"
-    extend "\n所以，之前也说过了，我觉得让它待在家里比较好，\n除了散步以外都把它关在室内。"
-    sakuya "不知道为什么……这一点和一之濑重叠了。"
-    extend "\n每次看到一之濑，我就会想起它，然后回忆起它的死亡，\n很难受，很讨厌……所以我尽可能地冷淡对待一之濑。"
-    extend "\n我觉得这样很对不起一之濑，他没有任何错……。"
-    "确实，会变成这样吧……。"
-    sakuya "之前还能正常地对待他。"
-    extend "\n甚至到了想见他，并且喜欢他的程度。"
-    extend "\n所以，对一之濑来说，我应该是突然变了一个人吧。"
-    extend "\n但是，我已经被束缚住了，完全无法坦率地行动。"
-    me "这种伤，只能等待时间来治愈了吧。"
-    sakuya "是啊。"
-    extend "\n我真是够弱小的。"
-    extend "\n也许比起他，比起一之濑，我才是真正的弱小……。"
+    sakuya "……我以前养过一条狗。明明是条狗，胆子却非常小，\n连出个门都怕，整天一副畏畏缩缩的样子。"
+    extend "\n所以，就像我之前说的，我觉得让它待在家里会比较好，\n除了散步的时间，基本上都把它关在室内。"
+    sakuya "不知道为什么……那种怯生生的感觉，总是会和一之濑重叠在一起。"
+    extend "\n每次看到一之濑，就会想起那家伙，想起它的死。\n那种感觉很难受，很讨厌……所以才会尽可能冷淡地对他，把他赶得远远的。"
+    extend "\n我知道这全是我单方面的任性，我也觉得这样对毫无过错的一之濑很过分……。"
+    "原来是这样啊，那确实会变成这种局面呢……。"
+    sakuya "在那之前，我还能正常和他相处。"
+    extend "\n倒不如说，正因为他像那家伙，我甚至一度还挺中意他的。"
+    extend "\n所以在一之濑看来，我大概就像是突然变了个人吧。"
+    extend "\n但是，我现在已经被彻底束缚住了，根本没法坦率地面对他。"
+    me "这种心里的伤痕，恐怕也只能交给时间来治愈了吧。"
+    sakuya "也许吧。"
+    extend "\n连我自己都觉得，我真是挺软弱的。"
+    extend "\n比起它，比起一之濑，也许真正软弱的人，其实是我自己吧……。"
     window hide
     show cg school_building1_night with Dissolve(1.0)
     window show
     me "没有这回事。"
-    extend "这种创伤无论对谁而言，都是强大的敌人。"
-    extend "\n作哉不是软弱，而是温柔。"
-    extend "\n虽然因为温柔而变得冷淡有点奇怪，\n但反过来讲，作哉应该可以依靠翼的力量吧？"
-    sakuya "他的力量……？"
+    extend "这种心理创伤，对任何人来说都是难以战胜的强敌。"
+    extend "\n作哉君，你并不是软弱，而是太温柔了。"
+    extend "\n虽然因为温柔而变得冷淡听起来有点奇怪，\n但正因如此，你反倒可以试着去依靠一下翼的坚强，不是吗？"
+    sakuya "那家伙的坚强……？"
     me "嗯。"
-    extend "\n翼知道作哉的本质是温柔的，\n所以他说了就算作哉冷淡对待自己也没关系。"
-    extend "\n只不过他担心自己是不是做了什么错事。"
-    sakuya "是吗……这样啊。"
-    extend "\n他看起来弱不禁风，其实意外地强呢。"
-    extend "\n这方面或许和你很像……。"
-    me "等你不再因此难过了，能坦率一点的话，\n我认为你向他说明清楚比较好。"
-    extend "\n还要跟他说『对不起』哦。"
+    extend "\n因为翼他知道作哉君其实是个温柔的人，\n所以他跟我说过，即便被你冷淡对待也没有关系。"
+    extend "\n只不过，他一直担心自己是不是哪里做得不好。"
+    sakuya "是吗……原来是这样啊。"
+    extend "\n那家伙，明明看起来弱不禁风的，没想到内心还挺强大的啊。"
+    extend "\n这方面说不定和你也很像……。"
+    me "等你能和这份过去和解，能变得坦率起来的时候，\n我觉得你还是向翼说明清楚比较好。"
+    extend "\n当然，还要跟他说『对不起』哦。"
     show bg schoolyard1_night
-    sakuya "是啊……。"
+    sakuya "也是……。"
     window hide
     hide cg with Dissolve(0.7)
     hide sakuya with Dissolve(0.7)
@@ -3764,43 +3765,43 @@ label end_sakuya:
     sakuya "啊哈哈，抱歉抱歉。\n没问题的，小翼。"
     extend "\n我有小翼……"
     show sakuya 33i with dissolve
-    extend "而且[player_surname]君也在旁边陪伴我。"
+    extend "而且，还有[player_surname]陪着我呢。"
     show sakuya 35i with dissolve
-    extend "\n啊~下次说不定还会向你介绍名叫一之濑的哥哥呢~。"
-    me "感觉就像母子一样呢。"
+    extend "\n啊~说不定下次可以把那个叫一之濑的哥哥介绍给你认识呢~。"
+    me "感觉这样真的好像一家人啊。"
     extend "\n作哉是妈妈，而小翼是孩子。"
-    extend "\n我应该可以当爸爸吧。"
-    extend "\n真好呢~真想和你们住在一起。"
+    extend "\n那爸爸的位置就是我的啦。"
+    extend "\n真好啊~好想和你们住在一起。"
     show sakuya 26i with dissolve
-    sakuya "哈，哈！？\n又说这种无聊的话……！"
-    extend "\n妄想也该有点分寸……"
+    sakuya "哈、哈啊！？\n又说这种无聊的话……！"
+    extend "\n你那妄想症也该有个限度吧……"
     show tsubasa 4 with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
     tsubasa "汪汪！"
-    me "但是，小翼好像很同意哦。"
+    me "你看，连小翼都表示赞成哦。"
     show tsubasa 2 with dissolve
     tsubasa "汪！"
     show sakuya 29i with dissolve
-    sakuya "呜……那，那怎么可能！！"
+    sakuya "呜……那、那怎么可能！！"
     extend "\n为什么我要和你……。"
     extend "\n而且，我可是男的！！！\n我当妈妈太奇怪了吧！"
     me "那我当妈妈好了。"
-    extend "\n哎呀，亲爱的……领带歪了哦。"
+    extend "\n哎呀，亲爱的……领带都歪了呢。"
     show sakuya 8i with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
-    sakuya "哇，哇啊啊啊啊……不要这样太恶心了！！"
-    me "小翼，最近作哉很冷淡呢……"
-    extend "\n难道他出轨了吗……？"
+    sakuya "哇、哇啊啊啊啊……不要这样，太恶心了！！"
+    me "小翼，最近亲爱的对我好冷淡呀……"
+    extend "\n难道说，他在外面有了外遇吗……？"
     hide tsubasa with dissolve
     hide sakuya with dissolve
     show tsubasa 5 at top with dissolve
-    tubasa "呜~……。"
-    me "支持我的人只有小翼呢。"
+    tsubasa "呜~……。"
+    me "肯站在我这边的，只有小翼了呢。"
     extend "\n呜呜……。"
     show tsubasa 6 with dissolve
-    tubasa "呜……"
+    tsubasa "呜……"
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
     show tsubasa 1 with dissolve
@@ -3808,10 +3809,10 @@ label end_sakuya:
     hide tsubasa with dissolve
     show tsubasa 5 at topright
     show sakuya 12i at topleft with dissolve
-    sakuya "呜……抱歉。"
+    sakuya "呜……好、好啦，是我错了。"
     extend "\n我不会出轨的，所以请原谅我吧。"
     show sakuya 36i with dissolve
-    extend "\n我怎么可能在有小翼的情况下出轨呢。"
+    extend "\n既然都有小翼在了，我怎么可能会出轨呢。"
     show tsubasa 2 with dissolve
     tsubasa "汪！"
     window hide
@@ -3820,58 +3821,58 @@ label end_sakuya:
     me "噗……"
     extend "啊哈哈！"
     sakuya "啊哈哈哈。"
-    "我们被这闹剧逗得忍不住笑了出来。"
+    "我们被这场闹剧逗得忍不住笑了起来。"
     window hide
     hide sakuya with dissolve
     hide tsubasa with dissolve
     hide cg with dissolve
     show sakuya 35i at topleft with dissolve
     window show
-    sakuya "哈哈太无聊了吧。"
-    extend "\n对吧，翼？"
+    sakuya "哈哈，太蠢了吧。"
+    extend "\n对吧，小——翼？"
     show tsubasa 5 at topright with dissolve
-    tubasa "汪？"
+    tsubasa "汪？"
     show sakuya 33i with dissolve
-    sakuya "翼♪"
+    sakuya "小——翼♪"
     show tsubasa 1 with dissolve
-    tubasa "汪汪♪"
+    tsubasa "汪汪♪"
     show sakuya 28i with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
     sakuya "诶嘿嘿。"
-    extend "\n翼~♪"
+    extend "\n小——翼——呀~♪"
     show tsubasa 2 with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
-    tubasa "汪汪汪♪"
+    tsubasa "汪汪汪♪"
     play sound "fx/sparkle.ogg"
     show cg adult at center with FadeWhite(0.5)
-    "你，你们怎么回事啊……也太可爱了吧……！！"
-    extend "\n但是，这真的要人命啊……。"
+    "你、你们怎么回事啊……也太可爱了吧……！！"
+    extend "\n说真的，简直要把人萌化了……。"
     window hide
     hide cg with dissolve
     hide tsubasa with dissolve
     hide sakuya with dissolve
     show sakuya 33i at top with dissolve
     window show
-    sakuya "……的确，养小翼需要钱啊~。"
-    extend "\n组成一家人什么的，如果是为了可爱的小翼，倒也不错。"
+    sakuya "……不过说真的，养小翼很费钱啊~。"
+    extend "\n既然是为了可爱的小翼，那个家庭计划，倒也不是不能考虑。"
     extend "\n这样的话，我来当妈妈好了。"
-    me "诶？是，是吗？"
+    me "诶？是、是吗？"
     show sakuya 14i with dissolve
     sakuya "嗯。"
-    extend "\n我会尽力照顾好小翼。\n你就好好挣钱，让我们过上好日子。"
-    extend "\n这可是重要的资金来源，拜托你了。"
-    me "怎么，怎么，感觉是妻管严的典范嘛~。"
-    extend "\n根本就是个骑在丈夫头上的妻子吗。"
-    extend "\n可怜的老公连藏点私房钱都不得安生吧…。"
+    extend "\n我会全心全意地照顾好小翼，\n所以你就给我拼命去赚钱，让我们过上好日子。"
+    extend "\n你可是我们重要的资金来源，拜托你咯。"
+    me "怎、怎么感觉是妻管严的典范啊~。"
+    extend "\n根本就是个骑在丈夫头上的妻子啊。"
+    extend "\n看来我是连藏点私房钱的余地都没有了……。"
     show sakuya 24i with dissolve
-    sakuya "那些都是小翼的抚养费！！"
+    sakuya "那些当然都是小翼的抚养费！！"
     me "喂喂，我可不是ATM啊~。"
     show sakuya 23i with dissolve
     play sound "fx/boing.ogg"
-    sakuya "诶，是吗？"
-    me "啊哈哈。\n真是个对丈夫严厉，对孩子却温柔的贤母啊。"
+    sakuya "诶，难道不是吗？"
+    me "啊哈哈。\n真是个对丈夫严厉，对孩子温柔的好妈妈啊。"
     hide sakuya with dissolve
     show tsubasa 3 at topright with dissolve
     tubasa "汪！汪！"
@@ -3879,7 +3880,7 @@ label end_sakuya:
     show sakuya 31i at topleft with dissolve
     sakuya "嗯？"
     show sakuya 7i with dissolve
-    extend "\n诶…。"
+    extend "\n诶……。"
     me "怎么了？"
     sakuya "……。"
     window hide
@@ -3888,9 +3889,9 @@ label end_sakuya:
     window show
     sakuya "喂，你，给我把眼睛闭上！"
     me "诶……为什么？"
-    sakuya "没，没事！快点闭上！"
-    extend "\n你要是敢睁开眼睛我可不饶你！！"
-    "怎么回事啊……。"
+    sakuya "没、没什么！反正快点闭上！"
+    extend "\n你要是敢睁开眼睛偷看我可饶不了你！！"
+    "到底是要干什么啊……。"
     extend "\n我听话地闭上了眼睛。"
     hide cg with dissolve
     hide bg with dissolve
@@ -3903,36 +3904,36 @@ label end_sakuya:
     window hide
     show cg c83 2 at center with Radial(0.7)
     window show
-    "亲"
+    "（亲）"
     "……诶？"
-    me "作，作哉……？"
+    me "作、作哉君……？"
     show cg purple with FadeWhite(0.5)
-    sakuya "那，那个……小翼他……"
+    sakuya "那、那个……小翼它……"
     show bg schoolyard1_night at center
     show tsubasa 5 at topright
     show sakuya 10i at topleft
-    extend "小翼说他无论如何都想和[player_surname]君接吻！"
-    extend "\n所以……刚才那个吻，不是我，而是小翼哦！"
+    extend "小翼说它无论如何都想亲一下[player_surname]！"
+    extend "\n所以……刚才那个吻，不是我，而是小翼的！"
     extend "\n不要误会了，笨蛋！！！"
     hide cg with dissolve
     me "哼~。"
-    extend "\n小翼，你真的这么想？"
+    extend "\n小翼，你是这么想的吗？"
     tsubasa "呜~。"
     me "我就知道~不可能嘛~。"
-    extend "\n这么说起来，刚才我听了那个故事之后突然想到，\n小翼这个名字，是作哉你取的吧。"
+    extend "\n这么说起来，刚才我听完你的故事之后突然想到，\n小翼这个名字，其实就是作哉你取的吧。"
     show sakuya 17i with dissolve
-    sakuya "诶……是的，我早说过，这是他原本的名字…。"
+    sakuya "诶……不是，我早就说过，那原本就是它的名字……。"
     me "骗人~！"
     extend "\n居然骗自己的丈夫，你这个坏女人~！！"
-    extend "\n看我这样惩罚你！"
+    extend "\n看我怎么惩罚你！"
     window hide
     show cg c83 3 at center with Radial(0.7)
     window show
     "我这样说着，一把抱住了作哉。"
     sakuya "什……！！"
-    extend "\n这，这个……有点……不，不行的……！！！"
+    extend "\n这、这个……有点……不、不行啊……！！！"
     me "拜托了。"
-    extend "\n再让我抱一会……。"
+    extend "\n就一小会儿……让我再这样抱一会儿……。"
     sakuya "……。"
     tsubasa "汪！"
     sakuya "！"
@@ -3940,9 +3941,9 @@ label end_sakuya:
     window hide
     show cg moon_night with FadeWhite(0.8)
     window show
-    "能感觉到，作哉的手臂环抱着我的背。"
-    "……能感受到作哉变得诚实，这真是太好了。"
-    extend "\n御咲祭也顺利成功了，我见证了作哉和小翼一起欣赏的火焰。"
+    "我感觉到，作哉的手臂轻轻地环绕到了我的背后。"
+    "……这样一来，我也算是窥见了作哉变得坦率的一面。对我而言，这就是最大的幸福。"
+    extend "\n御咲祭成功了，我也和作哉与小翼一起看到了这丛篝火。"
     extend "\n愿望全都实现了。……"
     window hide
     show cg campfire_sparks with Dissolve(0.8)
@@ -3958,13 +3959,13 @@ label end_sakuya:
     "…"
     "梦的记忆是模糊的。"
     extend "\n在醒过来的同时，也会忘记这场梦。"
-    extend "\n只留下甜美的回忆，其他的一切都被带去忘却的彼方而消散。"
+    extend "\n只留下甜美的回忆，其余的一切，都会被带往忘却的彼方。"
     stop music fadeout 4.0
     "好了……差不多该起来了。"
     window hide
     show sakuya 35 at top with DefocusWhite(2.5)
     window show
-    "作哉，我喜欢你。"
+    "作哉，我喜欢你哦。"
     window hide
     hide sakuya with dissolve
     play music "fx/tsubame.ogg"
@@ -3973,17 +3974,17 @@ label end_sakuya:
     hide bg with dissolve
     window show
     play sound "fx/alarm.ogg"
-    "哔哔哔哔哔哔哔哔"
+    "（哔哔哔哔哔哔哔哔）"
     window hide
     show bg protagonist_room_morning at center with Radial(0.5)
     window show
     me "啊……已经早上了吗……？"
-    extend "\n唔~我好像并没有睡多少啊……。"
+    extend "\n唔~感觉这一觉还没睡够啊……。"
     stop sound fadeout 0.5
-    "我望向餐桌，上面放着一张传单。"
+    "我看向桌子，上面放着一张传单。"
     play sound "fx/paper.ogg"
     me "嗯？这是……"
-    extend "啊，对对对，昨天回来的时候拿到的。"
+    extend "啊，对对，是昨天回来的时候拿到的。"
     extend "\n那些孩子们，真可爱啊……。"
     me "……好！那天我一定要去好好享受！"
     play sound "fx/cute2.ogg"
@@ -3992,7 +3993,7 @@ label end_sakuya:
     hide bg with dissolve
     stop music fadeout 0.5
     window show
-    "御咲祭当天ーーーーーー"
+    "御咲祭当天——"
     window hide
     play music "school_festival.ogg"
     play sound "fx/crowd_noise.ogg"
@@ -4000,22 +4001,22 @@ label end_sakuya:
     pause 0.6
     show bg hallway with Dissolve(1.0)
     window show
-    me "我想想……记得说是2年1班和2年2班的咖啡店。"
+    me "我想想……记得说是二年一班和二班的咖啡店。"
     extend "\n唔？"
     play sound "fx/sliding_door.ogg"
     show bg cafe with dissolve
     extend "是这个吗？"
     "正当我站在店门口犹豫不决的时候，"
-    extend "\n一位戴着紫色名牌，系着红色领带的男生从店里走了出来。"
+    extend "\n一个系着红色领带、戴着紫色名牌的男孩子从店里走了出来。"
     window hide
     play sound "fx/running.ogg"
     show sakuya 23i at top with dissolve
     window show
-    sakuya "欢迎。"
+    sakuya "欢迎光临。"
     show sakuya 15i with dissolve
-    extend "\n客人，你是一个人逛学园祭的吗？"
+    extend "\n客人，您是一个人来逛学园祭吗？"
     show sakuya 35i with dissolve
-    extend "\n……嘛，我们会好好招待你的，你就放轻松吧！"
+    extend "\n……嘛，我们会好好招待你的，请在这里慢慢享受吧！"
     window hide
     hide bg with FadeWhite(1.0)
     hide sakuya with FadeWhite(1.0)

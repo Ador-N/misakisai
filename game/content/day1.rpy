@@ -1167,7 +1167,7 @@ label day1_cooking:
     show cg school_building_morning at center with Radial(0.5)
     show bg infirmary with dissolve
     window show
-    teacher "嗯。"
+    doctor "嗯。"
     extend "\n体温和脉搏都很正常。\n喉咙好像也没有肿起来，应该没什么问题。"
     extend "\n不过，你还是躺一会儿，等没有不舒服的感觉了再回教室。"
     show tuki 15 at topleft with dissolve
@@ -2420,11 +2420,11 @@ label day1_cooking_tuki:
     "我不由得把头埋进了被子里。"
     doctor "哎呀呀，[player_surname]君也还只是个小孩子呢。"
     me "啊、啊哈哈……。"
-    teacher "不过，这样我就放心了。"
+    doctor "不过，这样我就放心了。"
     extend "\n老师有点事要去办公室一趟，\n赤峰同学，能麻烦你帮忙照看一会儿吗？"
     show tuki 15 at top with dissolve
     tuki "是，我明白了。"
-    teacher "谢谢。"
+    doctor "谢谢。"
     extend "\n那我就先走一步了。"
     play sound "fx/sliding_door.ogg"
     "于是，连保健老师也离开了。\n保健室里，只剩下我和月两个人了。"
@@ -2994,7 +2994,7 @@ label day1_cooking_sora:
     window hide
     hide sora with dissolve
     window show
-    teacher "哎呀，是弟弟留下来陪在身边啊。"
+    doctor "哎呀，是弟弟留下来陪在身边啊。"
     show sora 1 at top with dissolve
     sora "是的。\n[player_name]君说他会很寂寞，所以。"
     me "呜咕……。"
@@ -3004,11 +3004,11 @@ label day1_cooking_sora:
     "我不由得把头埋进了被子里。"
     doctor "哎呀呀，[player_surname]君也还只是个小孩子呢。"
     me "啊、啊哈哈……。"
-    teacher "不过，这样我就放心了。"
+    doctor "不过，这样我就放心了。"
     extend "\n老师有点事要去办公室一趟，\n赤峰同学，能麻烦你帮忙照看一会儿吗？"
     show sora 2 at top with dissolve
     sora "好的，我知道了。"
-    teacher "谢谢。"
+    doctor "谢谢。"
     extend "\n那我就先走一步了。"
     play sound "fx/sliding_door.ogg"
     "于是，连保健老师也离开了，\n保健室里就只剩下我和空两个人了。"
