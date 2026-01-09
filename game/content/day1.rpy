@@ -1145,7 +1145,7 @@ label day1_cooking:
     extend "\n这次，反倒是露出本性了……！"
     show sora 22 with dissolve
     play music "discovery.ogg"
-    sora "果然身体不舒服吧！！\n我们去医务室吧！"
+    sora "果然身体不舒服吧！！\n我们去保健室吧！"
     show tuki 6 with dissolve
     tuki "是啊。"
     extend "\n[player_surname]这家伙相当倔呢，就算硬拖也要把他带过去。"
@@ -1156,7 +1156,7 @@ label day1_cooking:
     show tuki 17 with dissolve
     tuki "我明白了。"
     extend "\n要站起来咯，一、二、三！"
-    "就这样，我在空和月的左右搀扶下，被『押送』到了医务室。"
+    "就这样，我在空和月的左右搀扶下，被『押送』到了保健室。"
     stop music fadeout 0.5
     window hide
     play sound "fx/sliding_door.ogg"
