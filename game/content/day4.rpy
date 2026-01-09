@@ -2152,14 +2152,14 @@ label end_sora:
     show bg cafe at center
     show sora 17i at top with dissolve
     window show
-    "空从背后抱住了我，支撑着我。"
+    "空一把抱住了我的身体，支撑着我。"
     show sora 23i with dissolve
     sora "[player_name]君，别勉强了。"
-    extend "\n哥哥，我带着[player_name]君去保健室，\n找个人来这里帮忙吧！"
+    extend "\n哥哥，我带[player_name]君去保健室，\n拜托你去请人来接替一下！"
     hide sora with dissolve
     show tuki 5i at topleft with dissolve
-    tuki "知道了。"
-    extend "\n我这边一有空就过去。"
+    tuki "我知道了。"
+    extend "\n我这边的工作做完也赶过去。"
     extend "\n[player_surname]君就拜托给你了。"
     show sora 10i at topright with dissolve
     sora "包在我身上！"
@@ -2169,62 +2169,62 @@ label end_sora:
     show sora 2i at top with dissolve
     extend "\n来，[player_name]君，能站起来吗？"
     extend "\n我扶着你走。"
-    "空将我的手搭在他的肩上，扶我走向了保健室。"
+    "空把我的手搭在他的肩上，扶我走向了保健室。"
     window hide
     hide sora with dissolve
     hide bg with dissolve
     show bg school_building_night at center with Dissolve(1.0)
     play music "good_atmosphere.ogg"
     window show
-    doctor "37度4分……有点发烧呢。"
-    extend "\n而且，还伴有站立性眩晕……怎么办？"
-    extend "\n要早退，回家休息吗？"
-    me "不，不用了……！"
-    extend "\n我没事。\n我再在留在这里休息一会，肯定能好的。"
-    doctor "但是呢，与之前不一样，这次是有发热症状，"
+    doctor "37.4度……有点低烧呢。"
+    extend "\n而且，还伴有站立性眩晕……打算怎么办？"
+    extend "\n要提前回家休息吗？"
+    me "不、不用了……！"
+    extend "\n我没事的。\n只要在这里稍微休息一下，肯定很快就会好的。"
+    doctor "但是呢，与之前不一样，这次是真的发烧了，"
     extend "\n不要勉强，还是好好休息比较好哦？"
-    me "我不会勉强的。"
-    extend "\n好不容易才努力到现在的，\n在御咲祭结束之前，我绝对不想回去……！！"
-    "我来到这个世界，就是为了和大家一起享受学园祭。"
-    extend "\n如果在这里就回家的话，那我的梦想可能就破灭了。"
-    extend "\n我绝对不想在最后什么回忆都没留下的情况下结束！"
-    teacher "是吗……"
-    extend "\n你们毕竟是执行委员呢~我能理解你们的心情。"
+    me "我没有勉强。"
+    extend "\n好不容易才努力坚持到现在，\n在御咲祭结束之前，我绝对不想回去……！！"
+    "我是因为许下『想和大家一起享受学园祭』的愿望才来到这个世界的。"
+    extend "\n如果现在就这样回家的话，这场梦说不定就会醒了。"
+    extend "\n我绝对不要在最后关头，连一点回忆都没留下就这么结束！！"
+    teacher "这样啊……。"
+    extend "\n你们毕竟是执行委员呢~我能理解这种心情。"
     extend "\n那么，去里面的床上好好休息吧。"
-    extend "\n只是，不要太过勉强自己哦？"
-    me "谢，谢谢您！"
+    extend "\n只是，绝对绝对不能勉强自己哦？"
+    me "谢、谢谢您！"
     sora "谢谢老师！"
-    extend "\n那么[player_name]君，走吧"
+    extend "\n那么[player_name]君，我们走吧。"
     window hide
     show bg infirmary_night with Dissolve(0.8)
     window show
-    "我跟上次一样，躺在床上……"
-    extend "不过这次是作为病人。"
-    me "空，虽然我跟老师那样说，但这次我的身体真的是有点不对劲。"
-    extend "\n或许还是不要待在我身边比较好，\n而且咖啡厅那边也很忙，还是先去那边吧。"
-    extend "\n等我睡一会恢复一下，就会马上赶过去。"
+    "我和那天一样，在那张床上躺了下来……"
+    extend "不过这一次，是作为真正的病人。"
+    me "空……虽然刚才对医生那样说了，但这次身体是真的很难受。"
+    extend "\n你还是不要一直在这边陪我比较好，\n而且咖啡厅肯定也忙得不得了，你先回店里去吧。"
+    extend "\n等我睡一会儿恢复一下，就马上赶过去。"
     show sora 5i at top with dissolve
-    sora "你在说什么啊！\n之前你明明说过离开的话会是寂寞的！"
+    sora "你在说什么呀！\n明明之前还说过，如果我离开的话你会觉得寂寞的！"
     show sora 24i with dissolve
-    extend "\n……别勉强了，没事的。\n这次我也会待在你身边的。"
+    extend "\n……别勉强自己了，没关系的。\n这一次，我也会好好守在你的身边。"
     show sora 2i with dissolve
-    sora "而且，我们也已经一起努力了这么长的时间。"
-    extend "\n直到学园祭结束为止，都和我在一起吧。"
+    sora "而且，我们一直以来都在并肩努力嘛。"
+    extend "\n直到学园祭结束为止，我们都待在一起吧。"
     show sora 32i with dissolve
-    extend "\n等哥哥也来了之后，我们三个人再一起行动吧？"
+    extend "\n待会儿哥哥也会过来，我们三个人就在一起，好吗？"
     me "空……谢谢你。\n空真的是太温柔了。"
-    extend "\n空的这一点我非常喜欢哟。"
+    extend "\n我啊，最喜欢空的这种地方了。"
     show sora 30i with dissolve
     sora "诶嘿嘿……。"
-    extend "\n昨天，[player_name]君跟我说的我的优点，\n我今后也会一直保持的哟。"
+    extend "\n昨天，[player_name]君告诉我的那些关于我的长处，\n我今后也会一直保持的。"
     show sora 32i with dissolve
-    sora "与哥哥不一样的，专属于我我的『强大』，"
-    extend "\n今后也会一直磨练下去。"
+    sora "我会继续磨练那份不同于哥哥的，"
+    extend "\n只属于我自己的『强大』。"
     show sora 31i with dissolve
-    sora "……谢谢你教了我这些，真的非常感谢。"
-    me "嗯。\n如果是空的话，一定可以变得更强。"
+    sora "……能够告诉我这些，真的非常感谢你。"
+    me "嗯。\n如果是空的话，一定能变得更强大的。"
     extend "我相信你。"
-    extend "\n你们两个人一起的话，\n你们的祖先一定可以放心把道场交给你们的。"
+    extend "\n你们两个人一起的话，\n你们的祖先一定也能放心地把道场交给你们。"
     show sora 10i with dissolve
     sora "嗯！\n我，会和哥哥一起加油的。"
     hide sora with dissolve
@@ -2233,118 +2233,117 @@ label end_sora:
     window show
     tuki "打扰了。"
     "月的声音从帘子的另一边传来。"
-    teacher "哎呀，是赤峰君的哥哥吗。"
-    extend "\n你弟弟和[player_surname]正在里面的床上休息呢。"
+    teacher "啊呀，是赤峰君的哥哥啊。"
+    extend "\n你弟弟和[player_surname]同学正在里面的床上休息呢。"
     tuki "我知道了。连日来多有打扰。"
-    extend "\n谢谢老师，我先告辞了。"
-    "与老师打完招呼后，月也来到床边。"
+    extend "\n非常感谢老师。"
+    "向医生打过招呼后，月来到了床边。"
     window hide
     show tuki 9i at topleft with dissolve
     window show
-    tuki "还好，找到代班的人了。"
+    tuki "代班的事已经安排好了。"
     extend "\n人手足够，不必担心。"
-    extend "\n其他的人都拜托我传话给你，让我代为转达『请多保重。』。"
-    me "这样啊……给你添麻烦了，抱歉。"
+    extend "\n其他同学都拜托我代为转达『请多保重』。"
+    me "这样啊……给大家添麻烦了，抱歉。"
     show tuki 1i with dissolve
-    tuki "不用道歉的。"
-    extend "\n是因为努力到现在，身体太累了才导致不适了吧。"
-    extend "\n工作那么辛苦，好好休息吧。"
+    tuki "不用道歉。"
+    extend "\n大概是一直努力到现在的反弹，导致身体垮掉了吧。"
+    extend "\n既然付出了那么多，现在就好好休息吧。"
     show sora 2i at topright with dissolve
     sora "哥哥说得没错。"
-    extend "\n早点恢复健康吧。"
-    me "嗯……谢谢。"
+    extend "\n早点好起来吧。"
+    me "嗯……谢谢你们。"
     show sora 32i with dissolve
-    sora "不过话说回来，大家也都很认可你呢。"
+    sora "不过说起来，直到最后还是我们这几个人待在一起呢。"
     show tuki 4i with dissolve
-    tuki "学园祭期间，一直在一起呢。"
+    tuki "学园祭期间，我们确实一直在一起。"
     extend "\n没想到居然会发展成这样，真是命运的安排啊。"
     me "啊哈哈。也算是命运共同体吧。"
     "我们三人在一起的时候最开心了。"
-    extend "\n我觉得这不是因为把他们俩当正太看待，"
-    extend "\n而是纯粹地喜欢上了这两个人。"
+    extend "\n我想，这并不是因为我把他们当作正太来看，\n而是纯粹地喜欢他们的为人。"
     extend "\n真是对好兄弟啊。"
     window hide
     show cg school_building1_night at center with Dissolve(0.8)
     window show
     me "……哈啊~。"
-    extend "\n不过话说回来，我更想逛学园祭，\n不想躺在保健室的床上啊……"
-    extend "\n对两位来说很抱歉，但只要现在能恢复，我们还是可以去逛的。"
-    me "要是能像『沉睡森林的美男』那样接个吻，\n然后突然精神百倍的奇迹就发生就好了啊。"
+    extend "\n不过话说回来，比起躺在保健室的床上，\n我果然还是更想去逛学园祭啊……。"
+    extend "\n让你们两个在这里陪着我，也实在有些过意不去。要是现在就能恢复精神的话，这个愿望就能实现了。"
+    me "要是能像《沉睡森林的美男》里那样，\n接个吻就能一下子精神百倍的奇迹发生在我身上就好了啊。"
     stop music fadeout 3.0
     "月和空面面相觑。"
     window hide
     play music "twins_theme.ogg"
     show cg c57 1 with FadeWhite(0.8)
     window show
-    tuki "这样的话……那要不实际试试看？"
-    me "哎？"
-    tuki "空，轮到你了。"
-    sora "诶，诶！？\n我，我！？"
-    tuki "要是非要在我和空之中选一个的话，[player_surname]君肯定会选你的，这一点我还是很清楚的。"
-    extend "\n而且，一直以来[player_surname]君也常常照顾你。"
-    extend "\n致谢的话不能像跟对家里人说的一样。"
-    extend "\n要以亲吻作为回礼[player_surname]君才能打起精神来。"
+    tuki "既然如此……要实际试一试吗？"
+    me "诶？"
+    tuki "空，轮到你出场了。"
+    sora "诶、诶！？\n我、我吗！？"
+    tuki "如果一定要在我和空之间做个选择，我很清楚[player_surname]肯定会选你。"
+    extend "\n而且，一直以来你也受了[player_surname]很多照顾吧。"
+    extend "\n道谢这种事，可不能像在家对自家人那样随便应付。"
+    extend "\n作为回礼，你就用一个吻让[player_surname]打起精神来吧。"
     play sound "fx/boing.ogg"
-    me "诶诶！！\n真，真的可以吗！？"
-    extend "\n我只是随口说的而已，怎么会发展成这样……。"
+    me "诶！！\n真、真的可以吗！？"
+    extend "\n我只是随口说说而已，竟然会变成这样……。"
     tuki "嗯。"
-    extend "\n现在，[player_surname]君的眼睛告诉我，你并没有别的什么奇怪的意图。"
+    extend "\n[player_surname]的眼睛告诉我，你现在并没有什么奇怪的想法。"
     extend "\n既然如此，我也没有拒绝的理由了……"
-    extend "恐怕空也是。"
-    extend "\n而且，我也想咱们三个人一起逛学园祭啊。"
+    extend "恐怕空也是一样。"
+    extend "\n况且，我也想咱们三个人一起去逛学园祭啊。"
     show cg c57 2 with Dissolve(0.8)
     sora "……嗯，是啊。"
-    extend "我也是。"
-    extend "\n我也想咱们三个人一起开心地逛学园祭啊！"
-    extend "\n既然有发生这种奇迹的可能性，\n[player_name]君的kiss应该……！"
+    extend "我也可以哦。"
+    extend "\n我也想咱们三个人能开开心心地逛学园祭嘛！"
+    extend "\n既然有发生这种奇迹的可能性，\n为了[player_name]君，区区亲、亲吻什么的……！"
     me "空……。"
-    tuki "……但是，我可不想你们嘴对嘴亲哦。"
-    sora "我，我知道啦！！！"
-    extend "\n那这样的话，[player_name]君……可以吗？"
-    me "嗯，嗯。"
+    tuki "……但是，不许嘴对嘴亲哦。"
+    sora "我、我知道啦！！！"
+    extend "\n那么，[player_name]君……准备好了吗？"
+    me "嗯、嗯。"
     show cg red with Dissolve(0.8)
-    "空把脸凑近我，在我的耳边轻声说着。"
-    sora "我，[player_name]君，我喜欢你。"
+    "空把脸凑了过来，在我的耳边轻声说着。"
+    sora "我也，很喜欢[player_name]君哦。"
     extend "\n所以……快点好起来吧。"
     window hide
     show cg c57 3 with Radial(0.8)
     window show
-    "亲"
-    "当我用脸感受到空那柔软的嘴唇，我的身体真的就变得轻飘飘的了。"
-    me "谢谢，空……。"
-    extend "\n多亏有你，我感觉身体轻松了许多。"
+    "（亲）"
+    "空柔软的嘴唇触碰到我的脸颊时，我真的感觉到身体变得轻盈了。"
+    me "谢谢你，空……。"
+    extend "\n多亏了你，我感觉身体真的放松下来了。"
     show cg c57 4 with Dissolve(0.8)
     sora "……嗯。"
-    extend "\n那样的话，真是太好了。"
-    "空羞红了脸，这么回应着我。"
+    extend "\n那就好。"
+    "空满脸通红地回应着。"
     tuki "那是当然，"
-    extend "\n空的吻这么的可爱……不灵验才怪！！"
-    sora "哥，哥哥……！！要被老师听到了啦。\n真，真是的……。"
+    extend "\n这可是如此可爱的空的亲吻……怎么可能没有效果呢！！"
+    sora "哥、哥哥……！！要被老师听到了啦。\n真、真是的……。"
     me "啊哈哈哈。"
     window hide
     hide cg with dissolve
     hide sora with dissolve
     hide tuki with dissolve
     window show
-    "就在这时，操场上响起了欢呼声。"
+    "就在这时，操场那边传来一阵欢呼声。"
     show tuki 15i at topleft with dissolve
     tuki "嗯？"
-    extend "\n你们两个，快看窗户那边。"
+    extend "\n你们两个，快看窗外。"
     show sora 3i at topright with dissolve
-    sora "哇……御咲篝火，终于点燃了！！"
+    sora "哇……御咲祭的篝火，终于点燃了！！"
     window hide
     play sound "fx/fire.ogg"
     show cg campfire at center with Radial(0.5)
     window show
-    "时隔10年，我再次看到了篝火，即便只是在室内观赏，也非常美丽而震撼。"
-    extend "\n从保健室的角度看，很巧妙地避开了草木和小摊，"
-    extend "\n某种意义上说，也许这里就是个很好的秘密观赏点。"
+    "时隔十年再次看到的这团焰火，即使从室内望去，依然美丽得令人震撼。"
+    extend "\n从保健室看过去，视线巧妙地避开了草木和摊位。"
+    extend "\n某种意义上说，这里说不定是个绝佳的隐秘观赏点呢。"
     sora "好漂亮……！"
-    extend "\n无论怎样，能和你们两人这样一起度过，太好了。"
+    extend "\n无论怎样，能和你们两人这样一起度过，真是太好了。"
     extend "\n一定，会成为非常美妙的回忆……。"
     me "我也是这么想的。"
-    extend "\n能和喜欢的两人在一起，真的太好了。"
-    extend "\n月，空……谢谢你们在我身边。"
+    extend "\n能和最喜欢的两个人在一起，真的太好了。"
+    extend "\n月，空……谢谢你们一直陪在我身边。"
     stop sound fadeout 2.0
     window hide
     hide tuki with Dissolve(0.8)
@@ -2358,8 +2357,8 @@ label end_sora:
     window hide
     show cg moon_night at center with FadeWhite(0.8)
     window show
-    "……这样，御咲祭也成功了，也和两人一起看到这场焰火了。"
-    extend "\n愿望实现了。……"
+    "……这样一来，御咲祭也成功了，我也和两人一起看到了这丛篝火。"
+    extend "\n愿望全都实现了。……"
     show cg campfire_sparks with Dissolve(0.8)
     "在这片燃烧的红炎之中，我的意识逐渐淡去……。"
     extend "\n……梦已经结束了。"
@@ -2372,7 +2371,7 @@ label end_sora:
     "…"
     "梦的记忆是模糊的。"
     extend "\n在醒过来的同时，也会忘记这场梦。"
-    extend "\n只留下甜美的回忆，其他的一切都被带去忘却的彼方而消散。"
+    extend "\n只留下甜美的回忆，其余的一切，都会被带往忘却的彼方。"
     stop music fadeout 4.0
     "好了……差不多该起来了。"
     window hide
@@ -2391,17 +2390,17 @@ label end_sora:
     hide bg with dissolve
     window show
     play sound "fx/alarm.ogg"
-    "哔哔哔哔哔哔哔哔"
+    "（哔哔哔哔哔哔哔哔）"
     window hide
     show bg protagonist_room_morning at center with dissolve
     window show
     me "啊……已经早上了吗……？"
-    extend "\n唔~我好像并没有睡多少啊……。"
+    extend "\n唔~唔~感觉这一觉还没睡够啊……。"
     stop sound fadeout 0.5
-    "我望向餐桌，上面放着一张传单。"
+    "我看向桌子，上面放着一张传单。"
     play sound "fx/paper.ogg"
     me "嗯？这是……"
-    extend "啊，对对对，昨天回来的时候拿到的。"
+    extend "啊，对对，是昨天回来的时候拿到的。"
     extend "\n那些孩子们，真可爱啊……。"
     me "……好！那天我一定要去好好享受！"
     play sound "fx/cute2.ogg"
@@ -2410,7 +2409,7 @@ label end_sora:
     hide bg with dissolve
     stop music fadeout 0.5
     window show
-    "御咲祭当天ーーーーーー"
+    "御咲祭当天——"
     window hide
     play music "school_festival.ogg"
     play sound "fx/crowd_noise.ogg"
@@ -2418,24 +2417,24 @@ label end_sora:
     pause 0.4
     show bg hallway with Dissolve(1.0)
     window show
-    me "我想想……记得说是2年1班和2年2班的咖啡店。"
+    me "我想想……记得说是二年一班和二班的咖啡店。"
     extend "\n唔？"
     play sound "fx/sliding_door.ogg"
     show bg cafe with dissolve
     extend "是这个吗？"
-    "我还在店门口犹豫的时候，一个挂着红色名签的男孩注意到了我。"
+    "我还在店门口犹豫的时候，一个戴着红色名牌的男孩注意到了我。"
     show tuki 5i at topleft with dissolve
     tuki "空，有客人来了哦。"
     hide tuki with dissolve
-    "说着，挂着同样颜色的名签的男孩，\n穿着散发香气的制服，从店里出来了。"
+    "随着这声招呼，一个戴着同样颜色名牌的男孩，\n穿着散发出甜甜香气的制服，从店里走了出来。"
     window hide
     play sound "fx/running.ogg"
     show sora 30i at top with dissolve
     window show
     sora "啊，欢迎光临！"
-    extend "您是一个人吗？"
+    extend "请问您是一位吗？"
     show sora 31i with dissolve
-    extend "\n请随意，好好享受吧！"
+    extend "\n请慢慢享受吧！"
     window hide
     hide bg with Radial(1.0)
     hide sora with Radial(1.0)
@@ -2496,7 +2495,7 @@ label end_tuki:
     window show
     doctor "37.4度……有点低烧呢。"
     extend "\n而且，还伴有站立性眩晕……打算怎么办？"
-    extend "\n想提前回家休息吗？"
+    extend "\n要提前回家休息吗？"
     me "不、不用了……！"
     extend "\n我没事的。\n只要在这里稍微休息一下，肯定很快就会好的。"
     doctor "但是呢，与之前不一样，这次是真的发烧了，"
@@ -2549,8 +2548,8 @@ label end_tuki:
     window show
     sora "打扰了。"
     "帘子的另一边，传来了空的声音。"
-    doctor "啊呀，赤峰君的弟弟啊。"
-    extend "\n你哥哥和[player_surname]同学在里面的床上休息呢。"
+    doctor "啊呀，是赤峰君的弟弟啊。"
+    extend "\n你哥哥和[player_surname]同学正在里面的床上休息呢。"
     sora "我明白了。"
     extend "\n谢谢您。"
     "向医生打过招呼后，空来到了床边。"
@@ -2558,7 +2557,7 @@ label end_tuki:
     show sora 3i at topright with dissolve
     window show
     sora "代班的事已经安排好了。"
-    extend "\n大家都让我转告『请保重』。"
+    extend "\n大家都让我转告『请多保重』。"
     extend "\n大家都很担心你呢，要早点好起来哦。"
     me "这样啊……抱歉，给大家添麻烦了。"
     show sora 1i with dissolve
@@ -2585,7 +2584,7 @@ label end_tuki:
     me "……哈啊~。"
     extend "\n不过话说回来，比起躺在保健室的床上，\n我果然还是更想去逛学园祭啊……。"
     extend "\n让你们两个在这里陪着我，也实在有些过意不去。要是现在就能恢复精神的话，这个愿望就能实现了。"
-    me "要是能像『睡美男』里那样，\n接个吻就能一下子精神百倍的奇迹发生在我身上就好了啊。"
+    me "要是能像《沉睡森林的美男》里那样，\n接个吻就能一下子精神百倍的奇迹发生在我身上就好了啊。"
     stop music fadeout 3.0
     "月和空面面相觑。"
     window hide
@@ -2602,7 +2601,7 @@ label end_tuki:
     extend "\n之前就觉得你看着哥哥的神情有些不一般呢！"
     extend "\n……而且哥哥你，也不是完全不情愿的吧？"
     play sound "fx/boing.ogg"
-    me "诶！！\n真、真的吗！？"
+    me "诶！！\n真、真的可以吗！？"
     tuki "……。"
     me "我只是随口说说而已，竟然会变成这样……。"
     sora "嗯。"
@@ -2662,7 +2661,7 @@ label end_tuki:
     extend "\n从保健室看过去，视线巧妙地避开了草木和摊位。"
     extend "\n某种意义上说，这里说不定是个绝佳的隐秘观赏点呢。"
     tuki "真美啊……。"
-    extend "\n虽然形式有些特殊，但能三个人一起度过，真的太好了。"
+    extend "\n虽然形式有些特殊，但能三个人一起度过，真是太好了。"
     extend "\n这肯定也会成为我们美好的回忆。"
     me "我也是这么想的。"
     extend "\n能和最喜欢的两个人在一起，真的太好了。"
