@@ -3165,145 +3165,145 @@ label end_saburo:
     $ renpy.transition(Quake(0, 60, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
     window show
-    saburo "别，别闹了你们！！够了！"
+    saburo "喂、喂，你们这群家伙！！给我适可而止啊！"
     me "三朗！"
-    customer3 "怎，怎么了！"
+    customer3 "怎、怎么回事！"
     extend "\n嗯……？"
-    extend "总感觉在哪里见过你……。"
+    extend "总感觉在哪里见过你啊……。"
     show saburo 33i me with dissolve
     $ renpy.transition(Quake(0, 60, 0.1, 0.15), layer='master')
     play sound "fx/cute2.ogg"
-    saburo "可，可能是你的错觉……。"
-    extend "不对，一定是错觉……！"
-    extend "\n好，好了，现在立刻放开[player_surname]君的手~！"
-    extend "\n不然的话，我就要找老师说，让他把你们赶走了哦……！？"
+    saburo "那、那是你的错觉啦……。"
+    extend "不对，一定是错觉……的说！"
+    extend "\n好、好了，现在立刻放开[player_surname]的手~！"
+    extend "\n不然的话，我就要去报告老师，让他把你们赶走……的说！？"
     play sound "fx/boing.ogg"
-    customer3 "呜……抱，抱歉了捏。"
-    extend "\n有，有点兴奋过头，所以有点不守规矩了捏。"
+    customer3 "呜……抱、抱歉了捏。"
+    extend "\n有、有点兴奋过头，所以有点不守规矩了捏。"
     play sound "fx/cute3.ogg"
     customer5 "对不起呀。"
-    extend "\n这里还是绅士一点，姑且忍一忍，可远观不可亵玩焉。"
+    extend "\n在这里我们还是绅士一点，姑且忍耐一下，记住可远观不可亵玩焉。"
     play sound "fx/sparkle.ogg"
-    customer4 "正义感强烈的男孩子真是棒呀♪"
+    customer4 "正义感爆棚的男孩子也超级迷人呢♪"
     window hide
     hide saburo with dissolve
     window show
-    "三朗救了我一命，我总算是挺过了这次危机。"
-    "没想到这种场合下救我的居然是初中生……。"
+    "在三朗的帮助下，我总算是逃过了一劫。"
+    "没想到在这种时候，竟然被一个初中生搭救了……。"
     extend "\n总感觉有点丢人啊……。"
     window hide
     show saburo 17i me at top with dissolve
     window show
     saburo "[player_surname]，你没事吧？"
-    me "啊，嗯，得救了，谢谢！"
-    extend "\n不过话说回来，三朗你原来戴着眼镜来着？"
+    me "啊，嗯，得救了。谢谢你！"
+    extend "\n不过话说回来，三朗你原来是戴眼镜的吗？"
     play sound "fx/boing.ogg"
     $ renpy.transition(Quake(0, 40, 0.1, 0.15), layer='master')
     show saburo 8i with dissolve
-    saburo "没，没有，不过戴上也没关系吧。"
+    saburo "没、没有，这个没什么大不了的啦。"
     extend "\n不用在意。"
-    me "是，是这样啊。"
+    me "是、是嘛。"
     show saburo 28i with dissolve
     saburo "比起这个，[player_surname]。"
-    extend "\n今天后夜祭你有事吗？"
+    extend "\n今天的后夜祭，你有什么安排吗？"
     me "诶？不，还没有安排。"
     show saburo 29i with dissolve
     saburo "这样啊！"
     extend "\n那要不跟我一起逛？"
-    me "好啊，其他人呢？"
+    me "好啊，那其他人呢？"
     show saburo 26i with dissolve
-    saburo "呜……那个……那个，就是。"
-    extend "\n两个人的话，那个……那个……。"
+    saburo "呜……那个……就是『那个』啦，那个！"
+    extend "\n两个人单独……那个……。"
     show saburo 28i with dissolve
-    extend "\n不对，你明明懂我的意思的吧！\n你不是内心已经是大人了吗！"
-    me "啊……嗯，可以啊！"
-    extend "\n那就在鞋柜那碰头吧。"
+    extend "\n哎呀真是的，你明明懂我的意思吧！\n你不是内心已经是大人了吗！"
+    me "啊……嗯，好啊！"
+    extend "\n那我们就在鞋柜那边碰头吧。"
     show saburo 30i with dissolve
     saburo "哦，行。"
-    extend "\n那我就回去工作了。"
+    extend "\n那我就先回去工作了。"
     window hide
     play sound "fx/running.ogg"
     hide saburo with dissolve
     window show
-    "三朗要跟我单独在一起，该不会有什么重要的事吧？"
+    "三朗要跟我单独在一起，该不会有什么重要的话要跟我说吧？"
     "……。"
     play sound "fx/heartbeat.ogg"
     show cg light-blue at center with dissolve
-    "难不成……呃，我怎么心跳加速了！"
-    extend "\n不过，按这个展开，应该是那种经典的那种情节吧……那个……。"
+    "难不成……喂喂，我怎么心跳加速了！"
+    extend "\n不过，按这个展开，应果然是那种经典的、那个……展开吧。"
     "……嘛，稍微期待一下也行。"
     hide cg with dissolve
     hide bg with dissolve
     stop music fadeout 2.0
-    "……毕竟这个梦不知道会持续到什么时候……。"
+    "……毕竟这个梦，不知道会持续到什么时候……。"
     window hide
     play sound "fx/crowd_noise.ogg"
     show bg school_building_evening_full at center with Dissolve(1.0)
     pause 0.4
     show bg cafe_evening with Radial(1.0)
     window show
-    "咖啡店的营业时间也差不多要结束了。"
-    extend "\n剩下的活动，就是和三朗一起的后夜祭！"
-    extend "\n因为不能迟到，所以我赶紧收拾东西。"
+    "咖啡店的营业时间差不多要结束了。"
+    extend "\n剩下的活动，就是和三朗的后夜祭！"
+    extend "\n我可不能迟到了。得赶紧收拾完。"
     play sound "fx/sliding_door.ogg"
     window hide
     show bg hallway_evening with dissolve
     play music "sintarou_theme.ogg"
     show sintarou 1i at top with dissolve
     window show
-    sintarou "哟，[player_name]酱！"
-    extend "\n看你这么着急是要去哪？"
-    "我正准备去换鞋时，慎太郎过来说话了。"
+    sintarou "哟——[player_name]酱！"
+    extend "\n看你这么着急，是要去哪儿呀？"
+    "我正准备往鞋柜去的时候，慎太郎叫住了我。"
     me "那个……我在等三朗。"
     show sintarou 18i with dissolve
     sintarou "哼嗯。"
-    extend "\n三朗酱果然是这样啊。"
-    me "“果然是这样”是什么意思？"
+    extend "\n三朗酱果然还是选择了那边啊。"
+    me "『果然』是什么意思？"
     show sintarou 29i with dissolve
-    sintarou "这还不能说。"
-    extend "\n你迟早会知道的！"
+    sintarou "这个还不能告诉你哦。"
+    extend "\n不过你迟早会知道的！"
     me "唔~？"
-    extend "\n我有点搞不懂啊。"
+    extend "\n总感觉你话里有话，我有点没懂啊。"
     show sintarou 31i with dissolve
     sintarou "没事没事，不用介意！"
     show sintarou 30i with dissolve
-    extend "\n比起这个，[player_name]君你到底是用了什么手法，\n才能把三朗引到这边来的？"
-    extend "\n你也教教我，那个技术吧~。"
-    me "诶，嗯……什么引到这边来呀，我只是稍稍辅助了他一下而已哦。"
+    extend "\n比起这个，[player_name]你到底是用了什么办法，\n才把三酱引到这边来的？"
+    extend "\n也教教咱嘛，那个技术~。"
+    me "诶，嗯……什么引到这边呀，我只是稍稍辅助了他一下而已哦。"
     show sintarou 28i with dissolve
-    sintarou "辅助？？那是什么？"
-    me "就像合气道一样，如果从这边强行加上了力量，\n反而对手也会用力，身体会僵硬的。"
-    extend "\n所以，要顺着对手力量的方向，加以利用。"
-    me "就三朗来说，他自身其实也向着这边，所以"
-    extend "\n也没必要改变他。"
-    me "而是让他自己承认自己的不同，并面对它。"
+    sintarou "辅助？？是什么意思？"
+    me "就像合气道一样，如果从这边强行加力，\n对方反而会下意识绷紧身体，变得更加顽固。"
+    extend "\n所以，要顺着对方发力的方向，并加以利用。"
+    me "就三朗来说，他心里的那个『箭头』其实已经指向这边了，"
+    extend "\n我只是告诉他，没必要刻意改变，"
+    me "而是让他承认自己内心的那份『异样』，并面对它。"
     show sintarou 35i with dissolve
     sintarou "……嗯。"
-    extend "虽然感觉有点难，但总的来说\n就是不强行把他拉过来，而是在他背后轻轻地推他一把。"
-    extend "\n咱完全没有学习过这种方法。"
+    extend "虽然听着挺深奥的，但简单来说，\n就是不强行把他拉过来，而是在他背后轻轻地推他一把。"
+    extend "\n咱完全没有学过这种方法呢。"
     show sintarou 23i with dissolve
-    extend "\n原来是要借力啊……。"
+    extend "\n总是一味地靠蛮力硬来……。"
     show sintarou 30i with dissolve
-    sintarou "是啊。"
-    extend "\n所以三朗酱他也是朝着[player_name]君的方向去的。"
+    sintarou "原来是这样。"
+    extend "\n难怪三酱会向着[player_name]这边啊。"
     show sintarou 20i with dissolve
-    extend "\n咱也是从像[player_name]这样的人中学到了好多东西呢。"
-    me "慎太郎君，怎么了？"
+    extend "\n咱啊，真希望能早点遇到像[player_name]这样的人，跟你多学几招呢。"
+    me "慎太郎君……？"
     show sintarou 8i with dissolve
     sintarou "哎呀抱歉！"
-    extend "\n没什么，自说自话！"
+    extend "\n没什么，自言自语啦！"
     show sintarou 9i with dissolve
-    extend "\n不过啊，[player_name]酱看起来真的很有大人样啊！"
+    extend "\n不过啊，[player_name]酱表现得真的很有大人样啊！"
     extend "\n难道说内在是25岁左右的大人了吗？"
     play sound "fx/boing.ogg"
-    "咿，咿咕！"
-    me "怎，怎么可能呢！"
-    extend "\n这种奇怪的话，只在梦里说就够了。"
+    "（心头一紧！）"
+    me "怎、怎么可能嘛！"
+    extend "\n这种荒唐的事，只在梦里发生就行了。"
     show sintarou 1i with dissolve
     sintarou "啊哈哈！"
-    extend "说得也是。"
-    extend "\n那我就回大部队了。"
-    extend "\n拜拜！三朗酱可就拜托你了！！"
+    extend "也是哦。"
+    extend "\n那我先回大家那边了。"
+    extend "\n拜拜！三酱的事，就拜托你喽！！"
     me "……嗯，我知道了。"
     window hide
     hide sintarou with dissolve
@@ -3315,45 +3315,45 @@ label end_saburo:
     play music "fx/night_insects.ogg"
     show bg shoe_locker_night at center with Dissolve(0.8)
     window show
-    "和慎太郎分开后，我便回到鞋柜前，三朗已经在那里等着了。"
+    "告别了慎太郎，等我赶到鞋柜处时，发现三朗已经在那里等着了。"
     show saburo 1i at top with dissolve
-    saburo "啊，[player_surname]！你来得好晚啊~。"
+    saburo "啊，[player_surname]！你好慢啊~。"
     me "抱歉抱歉！"
-    extend "\n稍微和慎太郎聊了几句。"
+    extend "\n刚才稍微和慎太郎聊了几句。"
     show saburo 6i with dissolve
-    saburo "和他？"
+    saburo "和那个家伙？"
     show saburo 10i with dissolve
-    extend "\n……算了。先出发吧。"
-    extend "\n外面也相当热闹呢！"
+    extend "\n……嘛，算了。总之先出发吧。"
+    extend "\n外面现在可是相当热闹哦！"
     window hide
     hide saburo with dissolve
     show bg school_building_night with Dissolve(1.0)
     window show
-    "我们来到外面，夕阳已经落山了。\n但余晖和摊位的灯光交相辉映，街上依然很热闹。"
-    extend "\n在校园的正中央，大家为了御咲祭篝火晚会做准备，\n堆柴火的工作正在有序地进行。"
+    "等我们来到室外，夕阳已经落山了。\n但在照明与摊位灯光的映衬下，校园里的热闹气氛并未减弱。"
+    extend "\n在这喧嚣之中，校园操场正中央，为了筹备御咲祭的篝火晚会，\n堆放柴火的工作正稳步推进着。"
     window hide
     show bg schoolyard_night with Dissolve(1.0)
     show saburo 11i at top with dissolve
     window show
-    saburo "虽然我想去很多地方，但一直工作太累了~。"
-    extend "\n稍微找个地方坐下休息一下吧？"
-    me "说的是。"
+    saburo "虽然我很多地方都想逛，但一直工作真的好累啊~。"
+    extend "\n我们找个地方坐下歇会儿吧？"
+    me "说得也是。"
     hide saburo with dissolve
-    "这么说着，我们两人\n在远离操场的草坪上坐了下来。"
+    "这么说着，我们两人\n特意在操场深处人较少的一片草坪上坐了下来。"
     window hide
     show saburo 1i at top with dissolve
     window show
-    me "在这里的话，就能清楚地看到火焰，可以好好休息了。"
+    me "这里既能清楚地看到篝火，又能安静地休息呢。"
     saburo "是啊……。"
     hide saburo with dissolve
-    "远远眺望着，热闹非凡的学园祭的光景。"
-    extend "\n然后"
+    "我们从远处眺望着，热闹非凡的学园祭盛况。"
+    extend "\n就在这时——"
     window hide
     play sound "fx/fire.ogg"
     show bg campfire with Radial(0.5)
     window show
-    "终于点燃了柴火堆。"
-    "熊熊燃烧着的鲜红火焰。"
+    "堆好的柴火终于被点燃了。"
+    "鲜红的火焰熊熊燃烧着。"
     extend "\n真的好美啊……。"
     saburo "……真好啊，这种感觉。"
     extend "\n好安心啊……。"
@@ -3366,33 +3366,33 @@ label end_saburo:
     window show
     saburo "……呐，[player_surname]。"
     extend "\n[player_surname]，你现在在谈恋爱吗？"
-    "三朗唐突的提问，让我不由得心跳加速。"
-    me "诶？怎，怎么了？？这么突然。"
+    "面对三朗这突如其来的发问，我不由得心跳加速。"
+    me "诶？怎、怎么了？这么突然。"
     show saburo 31i with dissolve
-    saburo "别，别管了回答我啊~！"
-    extend "\n谈了吗？"
-    me "嗯，嗯~。"
+    saburo "别、别管了，快回答我啊~！"
+    extend "\n到底有没有嘛？"
+    me "唔、唔~。"
     extend "\n怎么说呢……"
-    extend "确实有点被那个人吸引了，\n但这也算是恋爱吗……"
-    extend "\n友情和恋爱感情之间的界限好难分啊。"
+    extend "虽然确实有被某个人吸引住的感觉，\n但那到底算不算恋爱呢……"
+    extend "\n友情和爱情之间的界限，真的很难划分清楚呢。"
     show saburo 4i with dissolve
-    saburo "难道不应该更加凭直觉吗？"
-    me "啊哈哈，是啊。"
-    extend "\n大概，就这样吧。"
+    saburo "这种事，稍微再凭点直觉不就行了吗？"
+    me "啊哈哈，也是呢。"
+    extend "\n大概，那样就够了吧。"
     show saburo 9i with dissolve
     saburo "什么啊那是~。"
-    extend "\n光是说这些，又回答得相当随便呢。"
-    me "恋爱这种东西，每个人都不太一样，不是很复杂吗？"
-    extend "\n所以，三朗君怎么样了呢？"
-    extend "\n现在，恋爱了吗？"
+    extend "\n刚才还讲得煞有介事，结果这回答也太敷衍了吧。"
+    me "恋爱这种事，每个人都有不同的理解，本来就很复杂嘛。"
+    extend "\n那么，三朗君你呢？"
+    extend "\n你现在，有喜欢的人吗？"
     show saburo 26i with dissolve
-    saburo "唔……我，我……那个……。"
-    "三朗含糊其辞。"
+    saburo "唔……我、我……那个……。"
+    "三朗吞吞吐吐起来。"
     me "看你的反应，肯定是有了吧。"
     show saburo 31i with dissolve
     stop music fadeout 2.0
     saburo "……对。"
-    extend "\n大概，这就是这种感情吧。"
+    extend "\n这大概，就是那种感情吧。"
     me "……对象，是谁？"
     window hide
     show cg school_building_night at center with Dissolve(1.0)
@@ -3400,56 +3400,56 @@ label end_saburo:
     saburo "……。"
     play music "good_scene.ogg"
     extend "\n……[player_name]，是你。"
-    extend "\n我！喜，喜欢上你了！！！"
-    extend "\n不知不觉，变得喜欢你到无法自拔！！"
-    saburo "那个……不是朋友之间的感情，而是更加需要的，更加想珍惜的……。"
-    extend "\n所，所以，想要好好，直面自己的感情\n趁现在，想要告诉你……！！"
-    saburo "啊，那，那个！并，并不是希望得到你的答复！！"
-    extend "\n我只是单纯想要吐露出来而已！"
-    extend "\n应该说，[player_surname]君你的话，我想应该会理解我的……\n不，就算我这样的家伙说出口，也只会让你觉得恶心吧……。"
+    extend "\n我！喜、喜欢上你了！！！"
+    extend "\n不知不觉间，已经喜欢你到了无法自拔的地步！！"
+    saburo "那个……已经不只是朋友了，而是更不可或缺、更珍贵的人……。"
+    extend "\n所、所以……我想趁着现在\n还能勇敢面对这份心意，把它传达给你……！！"
+    saburo "啊，那、那个！并不是非要你给什么答复啦！！"
+    extend "\n我只是单纯想把心里话一吐为快罢了！"
+    extend "\n或者说……我觉得如果是[player_surname]的话，一定能理解我的……\n不，被我这样的家伙说这些，大概只会觉得恶心吧……。"
     window hide
     show cg school_building1_night with Dissolve(1.0)
     window show
     me "……谢谢你，三朗。"
-    extend "\n你能这样对我说，我很开心哦。"
+    extend "\n你能对我这么说，我真的很开心。"
     saburo "呜，嗯……。"
-    "三朗的脸，涌现了在火焰的映衬下也相当醒目的红潮。"
-    me "……三朗，来我这边一点。"
+    "三朗的脸红透了，即便在火光的照耀下，也能一眼看出那是羞涩的潮红。"
+    me "……三朗，再靠近我一点。"
     saburo "诶。"
-    extend "\n这，这么羞耻……。"
-    me "那，我去你那边。"
+    extend "\n那、那也太难为情了……。"
+    me "那，我过去你那边。"
     window hide
     show cg c74 1 with FadeWhite(0.8)
     window show
     "说着，我靠近三朗，就这样抱住了他。"
     saburo "什！！"
     extend "\n等……[player_surname]！！！"
-    extend "\n在这种地方做这种事……！"
+    extend "\n在、在这种地方，做这种事……！"
     me "没关系的。"
-    extend "\n最后的最后，让我这样一会儿。"
-    extend "\n这样，就会很舒服很幸福。"
+    extend "\n在这最后的最后，让我这样抱一会儿。"
+    extend "\n只要像这样抱着你，我就感到既安心又幸福。"
     show cg campfire with Dissolve(1.0)
-    saburo "很舒服，很幸福……。"
-    extend "\n那，那个，[player_surname]。"
-    extend "\n想变得更幸福吗……？"
-    me "嗯？嗯……来吧。"
-    saburo "那么……能请你闭上眼睛吗？"
+    saburo "既安心，又幸福……。"
+    extend "\n那、那个，[player_surname]。"
+    extend "\n要不要我让你更幸福一点……？"
+    me "嗯？好啊……那你试试。"
+    saburo "那么……能请你，闭上眼睛吗？"
     "我听话地闭上了眼睛。"
     window hide
     show cg c74 2 with Radial(0.8)
     window show
-    "亲"
+    "（亲）"
     me "三朗……。"
     show cg c74 3 with Dissolve(0.8)
-    saburo "嘿嘿……我试试。"
-    extend "\n没关系的吧？我也喜欢你。"
-    extend "\n怎么样，幸福吗？"
-    me "嗯……很幸福。"
+    saburo "嘿嘿……我试了一下。"
+    extend "\n没关系吧？毕竟我也喜欢你嘛。"
+    extend "\n怎么样，变幸福了吗？"
+    me "嗯……非常幸福。"
     window hide
     show cg moon_night with FadeWhite(0.8)
     window show
-    "……这样就听到了三朗诚实的心声，得到了最棒的幸福。"
-    extend "\n御咲祭成功举办了，还和三朗一起看到了这焰火。"
+    "……这样一来，我终于听到了三朗最真实的心声，也得到了无与伦比的幸福。"
+    extend "\n御咲祭成功了，我也和三朗一起看到了这丛篝火。"
     extend "\n愿望全都实现了。……"
     window hide
     show cg campfire_sparks with Dissolve(0.8)
@@ -3464,13 +3464,13 @@ label end_saburo:
     "…"
     "梦的记忆是模糊的。"
     extend "\n在醒过来的同时，也会忘记这场梦。"
-    extend "\n只留下甜美的回忆，其他的一切都被带去忘却的彼方而消散。"
+    extend "\n只留下甜美的回忆，其余的一切，都会被带往忘却的彼方。"
     stop music fadeout 4.0
     "好了……差不多该起来了。"
     window hide
     show saburo 30 at top with DefocusWhite(2.5)
     window show
-    "三朗，我喜欢你。"
+    "三朗，我喜欢你哦。"
     window hide
     hide saburo with dissolve
     play music "fx/tsubame.ogg"
@@ -3479,17 +3479,17 @@ label end_saburo:
     hide bg with dissolve
     window show
     play sound "fx/alarm.ogg"
-    "哔哔哔哔哔哔哔哔"
+    "（哔哔哔哔哔哔哔哔）"
     window hide
     show bg protagonist_room_morning at center with Radial(0.5)
     window show
     me "啊……已经早上了吗……？"
-    extend "\n唔~我好像并没有睡多少啊……。"
+    extend "\n唔~感觉这一觉还没睡够啊……。"
     stop sound fadeout 0.5
-    "我望向餐桌，上面放着一张传单。"
+    "我看向桌子，上面放着一张传单。"
     play sound "fx/paper.ogg"
     me "嗯？这是……"
-    extend "啊，对对对，昨天回来的时候拿到的。"
+    extend "啊，对对，是昨天回来的时候拿到的。"
     extend "\n那些孩子们，真可爱啊……。"
     me "……好！那天我一定要去好好享受！"
     play sound "fx/cute2.ogg"
@@ -3498,7 +3498,7 @@ label end_saburo:
     hide bg with dissolve
     stop music fadeout 0.5
     window show
-    "御咲祭当天ーーーーーー"
+    "御咲祭当天——"
     window hide
     play music "school_festival.ogg"
     play sound "fx/crowd_noise.ogg"
@@ -3506,21 +3506,21 @@ label end_saburo:
     pause 0.6
     show bg hallway with Dissolve(1.0)
     window show
-    me "我想想……记得说是2年1班和2年2班的咖啡店。"
+    me "我想想……记得说是二年一班和二班的咖啡店。"
     extend "\n唔？"
     play sound "fx/sliding_door.ogg"
     show bg cafe with dissolve
     extend "是这个吗？"
     "正当我站在店门口犹豫不决的时候，"
-    extend "\n戴水蓝色名牌的红领带男孩从店里走了出来。"
+    extend "\n一个系着红色领带、戴着水蓝色名牌的男孩子，从店里走了出来。"
     window hide
     play sound "fx/running.ogg"
     show saburo 29i at top with dissolve
     window show
-    saburo "欢迎光临ーー！"
+    saburo "欢迎光临——！"
     extend "\n这位客人，您是一个人来的吗？"
     show saburo 30i with dissolve
-    extend "\n请在店里慢慢逛吧！"
+    extend "\n那，就请进店里慢慢享受吧！"
     window hide
     hide bg with Radial(1.0)
     hide saburo with Radial(1.0)
