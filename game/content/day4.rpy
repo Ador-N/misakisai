@@ -739,7 +739,7 @@ label end_tomo:
     show cg moon_night with FadeWhite(0.8)
     window show
     "……这样一来，我终于回应了友的期待，也把自己的心意完整地传达给他了。"
-    extend "\n御咲祭成功了，我也和友一起看到了这丛篝火。"
+    extend "\n御咲祭成功了，我也和友一起看到了这团火焰。"
     extend "\n愿望全都实现了。……"
     window hide
     show cg campfire_sparks with Dissolve(0.8)
@@ -1180,7 +1180,7 @@ label end_sintarou:
     show cg moon_night at center with FadeWhite(0.8)
     window show
     "……这样一来，我终于向他表白了心意，也得到了慎太郎的答复。"
-    extend "\n御咲祭成功了，我也和慎太郎一起看到了这丛篝火。"
+    extend "\n御咲祭成功了，我也和慎太郎一起看到了这团火焰。"
     extend "\n愿望全都实现了。……"
     window hide
     show cg campfire_sparks with Dissolve(0.8)
@@ -1615,7 +1615,7 @@ label end_sinobu:
     show cg moon_night with FadeWhite(0.8)
     window show
     "……这样一来，我终于回应了忍的心意，也把自己的爱意完整地传达给他了。"
-    extend "\n御咲祭成功了，我也和忍一起看到了这丛篝火。"
+    extend "\n御咲祭成功了，我也和忍一起看到了这团火焰。"
     extend "\n愿望全都实现了。……"
     window hide
     show cg campfire_sparks with Dissolve(0.8)
@@ -2042,7 +2042,7 @@ label end_tubasa:
     show cg moon_night at center with FadeWhite(0.8)
     window show
     "……这样一来，我的心意终于传达给了翼，而他也温柔地接纳了它。"
-    extend "\n御咲祭成功了，我也和翼一起看到了这丛篝火。"
+    extend "\n御咲祭成功了，我也和翼一起看到了这团火焰。"
     extend "\n愿望全都实现了。……"
     window hide
     show cg campfire_sparks with Dissolve(0.8)
@@ -2335,7 +2335,7 @@ label end_sora:
     play sound "fx/fire.ogg"
     show cg campfire at center with Radial(0.5)
     window show
-    "时隔十年再次看到的这团焰火，即使从室内望去，依然美丽得令人震撼。"
+    "时隔十年再次看到的这团火焰，即使从室内望去，依然美丽得令人震撼。"
     extend "\n从保健室看过去，视线巧妙地避开了草木和摊位。"
     extend "\n某种意义上说，这里说不定是个绝佳的隐秘观赏点呢。"
     sora "好漂亮……！"
@@ -2357,7 +2357,7 @@ label end_sora:
     window hide
     show cg moon_night at center with FadeWhite(0.8)
     window show
-    "……这样一来，御咲祭也成功了，我也和两人一起看到了这丛篝火。"
+    "……这样一来，御咲祭也成功了，我也和两人一起看到了这团火焰。"
     extend "\n愿望全都实现了。……"
     show cg campfire_sparks with Dissolve(0.8)
     "在这片燃烧的红炎之中，我的意识逐渐淡去……。"
@@ -2657,7 +2657,7 @@ label end_tuki:
     play sound "fx/fire.ogg"
     show cg campfire at center with Radial(0.5)
     window show
-    "时隔十年再次看到的这团焰火，即使从室内望去，依然美丽得令人震撼。"
+    "时隔十年再次看到的这团火焰，即使从室内望去，依然美丽得令人震撼。"
     extend "\n从保健室看过去，视线巧妙地避开了草木和摊位。"
     extend "\n某种意义上说，这里说不定是个绝佳的隐秘观赏点呢。"
     tuki "真美啊……。"
@@ -2679,7 +2679,7 @@ label end_tuki:
     window hide
     show cg moon_night at center with FadeWhite(0.8)
     window show
-    "……这样一来，御咲祭也成功了，我也和两人一起看到了这丛篝火。"
+    "……这样一来，御咲祭也成功了，我也和两人一起看到了这团火焰。"
     extend "\n愿望全都实现了。……"
     show cg campfire_sparks with Dissolve(0.8)
     "在这片燃烧的红炎之中，我的意识逐渐淡去……。"
@@ -2961,7 +2961,7 @@ label end_futago:
     play sound "fx/fire.ogg"
     show cg campfire at center with Radial(0.5)
     window show
-    "时隔十年再次看到的这团焰火，即使从室内望去，依然美丽得令人震撼。"
+    "时隔十年再次看到的这团火焰，即使从室内望去，依然美丽得令人震撼。"
     extend "\n从保健室看过去，视线巧妙地避开了草木和摊位。"
     extend "\n某种意义上说，这里说不定是个绝佳的隐秘观赏点呢。"
     sora "好漂亮……！"
@@ -2983,7 +2983,7 @@ label end_futago:
     window hide
     show cg moon_night at center with FadeWhite(0.8)
     window show
-    "……这样一来，御咲祭也成功了，我也和两人一起看到了这丛篝火。"
+    "……这样一来，御咲祭也成功了，我也和两人一起看到了这团火焰。"
     extend "\n愿望全都实现了。……"
     show cg campfire_sparks with Dissolve(0.8)
     "在这片燃烧的红炎之中，我的意识逐渐淡去……。"
@@ -3449,7 +3449,7 @@ label end_saburo:
     show cg moon_night with FadeWhite(0.8)
     window show
     "……这样一来，我终于听到了三朗最真实的心声，也得到了无与伦比的幸福。"
-    extend "\n御咲祭成功了，我也和三朗一起看到了这丛篝火。"
+    extend "\n御咲祭成功了，我也和三朗一起看到了这团火焰。"
     extend "\n愿望全都实现了。……"
     window hide
     show cg campfire_sparks with Dissolve(0.8)
@@ -3943,7 +3943,7 @@ label end_sakuya:
     window show
     "我感觉到，作哉的手臂轻轻地环绕到了我的背后。"
     "……这样一来，我也算是窥见了作哉变得坦率的一面。对我而言，这就是最大的幸福。"
-    extend "\n御咲祭成功了，我也和作哉与小翼一起看到了这丛篝火。"
+    extend "\n御咲祭成功了，我也和作哉与小翼一起看到了这团火焰。"
     extend "\n愿望全都实现了。……"
     window hide
     show cg campfire_sparks with Dissolve(0.8)
@@ -4413,40 +4413,40 @@ label end_sirou:
 label end_all:
     show bg cafe at center with dissolve
     window show
-    "可恶……太得意忘形了啊……！！"
-    extend "\n我猛地挣脱对方的手，开始反击。"
+    "可恶……看我稍微客气一点，你们就蹬鼻子上脸了是吧……！！"
+    extend "\n我猛地一扭腰，挣脱开被拽住的手臂，顺势发起了反击。"
     window hide
     play sound "fx/explosion3.ogg"
     show cg remarkable at center with FadeWhite(0.5)
     play music "hurry_up.ogg"
     window show
     play sound "fx/dash.ogg"
-    customer3 "怎，怎么会这样！"
-    me "客人……不要太得意忘形了。"
+    customer3 "怎、怎么会这样捏！"
+    me "这位客人……请您不要太得意忘形了。"
     extend "\n听说最近的年轻人，发起火来可是很恐怖的哦~。"
-    extend "\n你听说过『暴躁的青少年』这个词吗？"
-    extend "\n你还是适可而止比较好吧？"
+    extend "\n『暴走的青少年』这个词，您听说过吗？"
+    extend "\n所以我劝您，最好还是适可而止，您觉得呢？"
     window hide
     hide cg with dissolve
     window show
     play sound "fx/boing.ogg"
-    customer3 "呜……抱，抱歉了捏。"
-    extend "\n有，有点兴奋过头，所以有点不守规矩了捏。"
+    customer3 "呜……抱、抱歉了捏。"
+    extend "\n有、有点兴奋过头，所以有点不守规矩了捏。"
     play sound "fx/cute3.ogg"
     customer5 "对不起呀。"
-    extend "\n这里还是绅士一点，姑且忍一忍，可远观不可亵玩焉。"
+    extend "\n在这里我们还是绅士一点，姑且忍耐一下，记住可远观不可亵玩焉。"
     play sound "fx/sparkle.ogg"
-    customer4 "好帅啊♪"
+    customer4 "野性的男人也超级迷人呢♪"
     window hide
     window show
-    me "……那么，请点菜！"
+    me "……那么，请点菜吧！"
     "真是的，这么没礼貌的家伙竟然是我的同类……"
     play sound "fx/eureka.ogg"
     extend "\n同为正太控的我好羞耻啊！！"
     stop music fadeout 2.0
     play sound "fx/running.ogg"
     hide bg with dissolve
-    "点完菜后，我回到厨房，等待其他工作人员点单。"
+    "记完客人的点单后，我把单子传回了厨房，随即回到了员工休息区。"
     window hide
     play sound "fx/crowd_noise.ogg"
     show bg cafe at center with dissolve
@@ -4454,51 +4454,51 @@ label end_all:
     show sintarou 29i at top with dissolve
     window show
     sintarou "哎呀~不好意思啊，[player_name]亲。"
-    extend "\n待会我也会好好警告他们的。"
-    me "嗯……那就拜托了。"
-    extend "\n我也已经警告他们了，应该没问题吧……。"
+    extend "\n回头我也会好好警告那群家伙的。"
+    me "嗯……那就帮大忙了。"
+    extend "\n虽然我也算是好好警告过他们了，我觉得应该没问题了，不过……"
     hide sintarou with dissolve
     show saburo 2i at top with dissolve
-    saburo "真是胆大包天啊！"
-    extend "\n哎呀~ 说得好！！"
+    saburo "你小子，胆子挺大的嘛！"
+    extend "\n哎呀~说真的，刚才那番话真是解气！！"
     show saburo 7i with dissolve
     extend "\n这样一来，我也可以安心工作啦~。"
-    me "嗯？ 话说回来，三朗和他们是什么关系？"
+    me "嗯？说起来，三朗君和那些人，是什么关系呢？"
     show saburo 33i with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
-    saburo "怎，怎么可能有什么关系啊！！"
-    extend "\n我才不认识那种恶心的团伙呢！"
+    saburo "怎、怎么可能有什么关系啊！！"
+    extend "\n我才不认识那种恶心的团体呢！"
     hide saburo with dissolve
     show saburo 26i at topright
     show sintarou 29i at topleft with dissolve
     sintarou "算啦算啦[player_name]亲。"
-    extend "\n还是请你别去问他了，就随他去吧。"
+    extend "\n那个话题就别再提了，随他去吧。"
     me "和慎太郎君都认识的熟人……？"
-    extend "\n你不说我还真挺在意的…。"
+    extend "\n你越是不说，我越是在意啊……。"
     hide sintarou with dissolve
     hide saburo with dissolve
     show sora 26i at top with dissolve
     sora "不过，没想到竟然会有这么多的客人来，\n真是出乎我的意料啊~！"
     show sora 11i with dissolve
-    extend "我好开心~！！"
-    me "这也是多亏了大家的齐心协力才有了今天的成果。"
+    extend "我好开心啊~！！"
+    me "这也是大家齐心协力、共同奋斗换来的成果呀。"
     show sora 10i with dissolve
-    sora "是啊！我们的努力都是有价值的。"
+    sora "嗯！真的觉得努力是有价值的呢。"
     hide sora with dissolve
     show tubasa 4i at topright with dissolve
-    tubasa "我也渐渐地习惯做招待客人的工作了呢…。"
+    tubasa "我也渐渐开始习惯招待客人的工作了呢……。"
     show sinobu 26i at topleft with dissolve
     sinobu "好像是呢。"
     show sinobu 24i with dissolve
-    extend "\n而且好像也不会弄错一千元和一万元的钞票了。"
+    extend "\n看样子他已经不会再把一千和一万日元的钞票搞混了。"
     show tuki 18i at top with dissolve
-    tuki "我也终于能做好甜点的盛盘了哦。"
+    tuki "我也终于开始掌握甜点摆盘的技巧了。"
     show tuki 15i with dissolve
-    extend "\n像这样去体验新事物果然还是很重要呢。"
-    extend "\n这样才能发现新事物，独立思考，学习到新的东西。"
+    extend "\n像这样去体验新事物，果然还是很重要的。"
+    extend "\n它能带来许多新发现，促使自己独立思考，并最终将其内化为自己的东西。"
     me "不愧是你！！"
-    extend "\n年轻的时候学习能力就是强啊~！"
+    extend "\n年轻人的学习能力就是强啊~！"
     window hide
     hide tubasa with dissolve
     hide sinobu with dissolve
@@ -4509,19 +4509,19 @@ label end_all:
     show tomo 28i at topright with dissolve
     window show
     tomo "咦？！不会吧！"
-    extend "\n我好像又点错单了……？"
+    extend "\n我、我难道又下错单了……？"
     show tomo 24i with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
-    extend "\n对，对不起！！\n我马上就去换！！"
+    extend "\n对、对不起！！\n我马上去帮您换！！"
     play sound "fx/running.ogg"
     hide tomo with dissolve
     show sakuya 15i at topleft with dissolve
     play sound "fx/boing.ogg"
-    sakuya "这个不是法式咖啡，而是拿铁咖啡吗……？"
+    sakuya "这个不是欧蕾咖啡，而是拿铁咖啡……？"
     show sakuya 27i with dissolve
     play sound "fx/dash.ogg"
-    extend "\n这些东西都是一样的吧，反正都是咖啡！！"
+    extend "\n这些东西反正都差不多吧，都是咖啡啦，咖啡！！"
     window hide
     hide sakuya with dissolve
     window show
@@ -4529,10 +4529,10 @@ label end_all:
     show tubasa 19i at topleft
     show sinobu 16i at topright with dissolve
     play sound "fx/triangle.ogg"
-    sinobu "有的人好像完全没进步呢。"
-    tubasa "啊哈哈…。"
-    me "……学习能力因人而异。"
-    extend "\n让我们用长远的目光，温柔地守护他们的成长吧…。"
+    sinobu "好像也有完全没进步的家伙在呢。"
+    tubasa "啊哈哈……。"
+    me "……嘛，学习能力确实是因人而异的。"
+    extend "\n我们就用长远的眼光，温柔地守护他们的成长吧……。"
     stop music fadeout 1.0
     window hide
     hide tubasa with dissolve
@@ -4543,8 +4543,8 @@ label end_all:
     pause 0.4
     show bg cafe_evening with Radial(1.0)
     window show
-    "咖啡店的营业时间也差不多要结束了。"
-    extend "\n剩下的活动只有后夜祭了。"
+    "咖啡店的营业时间差不多要结束了。"
+    extend "\n剩下的活动，就是后夜祭了。"
     show tomo 13i at top with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute2.ogg"
@@ -4555,29 +4555,29 @@ label end_all:
     play music "going_home.ogg"
     show tomo 12i at top with dissolve
     window show
-    tomo "真的辛苦大家了！"
+    tomo "这段时间以来，大家真的辛苦啦！"
     show tomo 4i with dissolve
-    extend "\n当然，虽然也多亏了班上同学们的帮忙，\n但是咱们执行委员作为核心，才让御咲祭得以顺利举办！！"
+    extend "\n虽然也离不开全班同学的协助，\n但正是因为有咱们执行委员作为核心，御咲祭才能取得圆满成功！！"
     show tomo 17i with dissolve
-    extend "\n老师给我们每人奖励了一瓶果汁，现在来发吧~！"
+    extend "\n这是老师奖励给我们的果汁，我现在就发给大家哦~！"
     hide tomo with dissolve
     show saburo 9i at topleft with dissolve
-    saburo "什么~是橘子汁。"
-    extend "\n不管怎样，不如大吃一顿烤肉吧~。"
+    saburo "什么啊~就是橘子汁嘛。"
+    extend "\n既然是奖励，干脆豪爽一点，请我们大吃一顿烤肉该多好呀~。"
     show sakuya 25i at topright with dissolve
-    sakuya "对啊。待会我来跟老师求求看吧。"
+    sakuya "就是说啊。待会我去跟老师求求看。"
     show sintarou 13i at top with dissolve
     sintarou "那么，要在这里干杯庆祝一下吗？"
     hide sintarou with dissolve
     hide saburo with dissolve
     hide sakuya with dissolve
-    me "稍等一下。"
-    extend "\n虽然在这里庆祝也行，但既然要庆祝，\n不如大家一起看御咲祭篝火晚会，庆祝一番吧。"
+    me "先等一下。"
+    extend "\n虽然在这里庆祝也行，但既然难得有这机会，\n不如大家一起去看后夜祭的篝火，再干杯庆祝吧。"
     show sintarou 8i at top with dissolve
-    sintarou "御咲祭篝火晚会吗……"
+    sintarou "御咲篝火吗……"
     extend "好主意！"
     show sora 3i at topright with dissolve
-    sora "赞成~！那样更有庆祝的感觉。"
+    sora "赞成~！那样更有庆祝的感觉嘛。"
     show tuki 15i at topleft with dissolve
     tuki "那我也赞成。"
     hide sintarou with dissolve
@@ -4585,12 +4585,12 @@ label end_all:
     hide tuki with dissolve
     show tubasa 31i at topright
     show sinobu 18i at topleft with dissolve
-    tubasa "我也觉得，大家一起肯定更开心…。"
+    tubasa "我也觉得，大家一起的话肯定更开心……。"
     sinobu "嗯，"
     extend "\n我也这么觉得。"
     show tomo 1i at top with dissolve
-    tomo "……是啊！"
-    "好不容易都这么努力了，就一直坚持到最后吧！"
+    tomo "……嗯嗯！"
+    "好不容易大家一起努力到了现在，最后时刻当然也要在一起啦！"
     extend "\n那大家就一起去操场，Let's go！！"
     stop music fadeout 2.0
     window hide
@@ -4601,68 +4601,68 @@ label end_all:
     play music "fx/night_insects.ogg"
     show bg school_building_night at center with Dissolve(1.0)
     window show
-    "我们来到外面，夕阳已经落山了。\n但余晖和摊位的灯光交相辉映，街上依然很热闹。"
-    "在校园的正中央，大家为了御咲祭篝火晚会做准备，\n堆柴火的工作正在有序地进行。"
+    "等我们来到室外，夕阳已经落山了。\n但在照明与摊位灯光的映衬下，校园里的热闹气氛并未减弱。"
+    "在这喧嚣之中，校园操场正中央，为了筹备御咲祭的篝火晚会，\n堆放柴火的工作正稳步推进着。"
     window hide
     show bg schoolyard_night with dissolve
     window show
-    me "一直工作脚都酸了。"
-    extend "\n找个地方歇会儿吧。"
-    "这么说着，我们两人\n在远离操场的草坪上坐了下来。"
+    me "一直忙到现在，腿都酸了。"
+    extend "\n我们找个地方坐会儿吧。"
+    "这么说着，我们\n特意在操场深处人较少的一片草坪上坐了下来。"
     window hide
     show tuki 9i at topleft
     show sora 2i at topright with dissolve
     window show
-    sora "这里的话，御咲焰火应该也很好看吧。"
+    sora "这里的话，应该能把御咲篝火看得一清二楚吧。"
     tuki "是啊。"
     hide sora with dissolve
     hide tuki with dissolve
-    "远远眺望着，热闹非凡的学园祭的光景。"
-    extend "\n然后"
+    "我们从远处眺望着，热闹非凡的学园祭盛况。"
+    extend "\n就在这时——"
     stop music fadeout 0.5
     window hide
     play music "going_home.ogg"
     play sound "fx/fire.ogg"
     show cg campfire at center with Radial(0.5)
     window show
-    "终于点燃了柴火堆。"
-    "熊熊燃烧着的鲜红火焰。"
+    "堆好的柴火终于被点燃了。"
+    "鲜红的火焰熊熊燃烧着。"
     extend "\n真的好美啊……。"
     window hide
     window show
     tubasa "……感觉好浪漫啊。"
     tomo "是啊~。"
-    extend "\n要是拍电影的话，背景就是这焰火，然后就吻一下两下吧。"
+    extend "\n如果是拍电影的话，这种时候肯定会以这火光为背景，然后来上一两个吻吧。"
     play sound "fx/cute2.ogg"
-    tubasa "是，是这样吗！？"
-    extend "\n友，友友……如果你觉得我可以的话……那个…。"
+    tubasa "是、是这样吗！？"
+    extend "\n友、友亲……如果不介意的话，我、我可以……那个……。"
     play sound "fx/boing.ogg"
-    extend "\n嗯……好，好痛好痛好痛！！"
-    extend "\n忍，忍君，不要拉我脸蛋~……！"
+    extend "\n嗯……好、好痛好痛好痛！！"
+    extend "\n忍、忍君，不要拉我的脸呀~……！"
     stop sound fadeout 1.0
     window hide
     hide cg with dissolve
     show tubasa 7i at topright
     show sinobu 6i at topleft with dissolve
     window show
-    sinobu "这种事只有你们两人的时候再做。"
+    sinobu "这种事等你们独处的时候再做。"
     show sintarou 12i at top with dissolve
-    "慎太郎　我倒是无所谓啊，"
+    sintarou "咱倒是觉得你们就在咱眼皮子底下做完全冇问题呀。"
     show sintarou 13i with dissolve
-    extend "\n不如说，你们这么做才更会让我们兴奋起来♪"
+    extend "\n不如说，那样反而更带感呢♪"
     hide sintarou with dissolve
     hide tubasa with dissolve
     hide sinobu with dissolve
     show tuki 9i at topleft
     show sora 4i at topright with dissolve
-    tuki "空，你听见了没？"
-    extend "\n向着焰火，然后一边转身一边接吻好像是固定的套路。"
+    tuki "空，你听到了吗？"
+    extend "\n对着火焰一边转身一边接吻，好像是某种固定的套路。"
     show sora 20i with dissolve
-    sora "这种事，我没听人说过，也没问过，更没有做过。"
+    sora "那种事我既没听过也没问过更不可能去做啦！"
     show sora 4i with dissolve
-    extend "\n咦？"
-    extend "\n对了，穗海和猫山呢？"
-    me "刚才他们往操场的摊位那边过去了。"
+    extend "\n诶？"
+    extend "\n说起来，穗海君和猫山君去哪了？"
+    me "刚才他们往操场的摊位那边去了。"
     extend "\n啊，正好回来了。"
     window hide
     hide tuki with dissolve
@@ -4671,9 +4671,9 @@ label end_all:
     show sakuya 24i at topleft
     show saburo 10i at topright with dissolve
     window show
-    saburo "哟~我回来了~！"
-    extend "\n难得出来一趟，就想着买点果汁的下酒菜~！"
-    sakuya "炸鸡，炒面，土豆还有章鱼烧！"
+    saburo "哟——我们回来了~！"
+    extend "\n难得有果汁喝，我就想着去整点下酒菜回来~！"
+    sakuya "炸鸡，炒面，炸土豆还有章鱼烧！"
     extend "\n给我们买了好多呢~。"
     me "『给我们买了好多』，不是你们自己买的吗？"
     show sakuya 4i with dissolve
@@ -4681,27 +4681,27 @@ label end_all:
     show sakuya 21i with dissolve
     extend "\n是老师的好意呀。"
     show saburo 17i with dissolve
-    saburo "我就说了，要一起过来的。"
-    extend "\n这家伙，真的好小气啊~。"
+    saburo "别看他说得好听，其实就是我俩一起跑去死缠烂打要来的。"
+    extend "\n这家伙，真的挺会占便宜的吧~。"
     show saburo 19i with dissolve
-    extend "\n不过嘛，我也是兴致勃勃地去交涉的！"
-    "真是不屈不挠……。将来，可能要成为大人物。"
+    extend "\n不过嘛，我也是兴致勃勃地跟着去谈判了就是啦！"
+    "真是够有韧性的……。将来，说不定能成大器呢。"
     play sound "fx/dash.ogg"
     extend "\n但是，我懂我懂。老师你其实也懂吧！！"
-    extend "\n这么可爱的两个学生央求你，你怎么能拒绝呢。"
+    extend "\n面对这么可爱的学生们的请求，谁又能狠下心拒绝呢。"
     hide sakuya with dissolve
     hide saburo with dissolve
     show tomo 4i at topleft with dissolve
-    tomo "厉害，Nice~！！"
+    tomo "技安，干得漂亮！！"
     show tomo 2i with dissolve
     extend "\n那我们就心怀感激地收下了！"
     show sinobu 12i at topright with dissolve
-    sinobu "之后，我们也得去跟老师道谢。"
+    sinobu "待会儿，我们也得去跟老师道谢才行。"
     me "嗯。"
     extend "\n总之，执行委员都到齐了。"
     stop music fadeout 3.0
-    extend "\n就让我们举杯，共同庆祝2年1班和2年2班合办的咖啡店取得成功吧。"
-    extend "\n那么，有请两个代表来带头干杯吧。"
+    extend "\n就让我们举杯，共同庆祝二年一班和二班合办的咖啡店大获成功吧。"
+    extend "\n那么，请两个班长来起个头吧。"
     window hide
     hide sinobu with dissolve
     hide tomo with dissolve
@@ -4712,71 +4712,71 @@ label end_all:
     show tomo 13i with dissolve
     $ renpy.transition(Quake(0, 60, 0.1, 0.15), layer='master')
     play sound "fx/cute2.ogg"
-    extend "\n各位~大家杯子都装了果汁吧~？"
+    extend "\n各位~杯子里的果汁都倒满了吗~？"
     everyone "是的~。"
     hide tomo with dissolve
     show tubasa 9i at top with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
-    tubasa "那……干杯！！"
+    tubasa "那、那么……干杯！！"
     window hide
     play sound "fx/sparkle.ogg"
     show cg remarkable at center with Radial(0.5)
     window show
-    everyone "干杯！！！"
+    everyone "干——杯！！！"
     window hide
     show cg school_building1_night with dissolve
     window show
-    "咕嘟咕嘟咕嘟！"
+    "（咕嘟咕嘟咕嘟！）"
     show bg schoolyard1_night at center
     me "嗯！真好喝！！"
-    extend "\n劳动之后喝的饮料为什么能让人这么舒服。"
+    extend "\n劳动之后的饮料，怎么会这么带劲啊。"
     extend "\n简直就像下班后的啤酒一样！"
     window hide
     hide cg with Dissolve(0.7)
     hide tubasa with Dissolve(0.7)
     show sintarou 20i at top with dissolve
     window show
-    sintarou "你在说啥老头子一样的话啊。"
-    extend "\n对我们来说还早吧。"
+    sintarou "你在说啥老头子一样的话啊~。"
+    extend "\n对我们来说还太早了吧。"
     window hide
     hide sintarou with dissolve
     show saburo 2i at top with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
     window show
-    saburo "嚼嚼……"
-    extend "\n我……嚼嚼……"
+    saburo "（嚼嚼……）"
+    extend "\n我……（嚼嚼……）"
     show saburo 13i with dissolve
-    extend "章鱼烧……嚼嚼……"
-    extend "\n……虽然……"
+    extend "章鱼烧……（嚼嚼……）"
+    extend "\n……虽然我对这个……"
     show saburo 20i with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/dash.ogg"
-    extend "嚼嚼嚼嚼……吵闹……"
+    extend "（嚼嚼嚼嚼……）挺挑剔的……"
     show saburo 7i with dissolve
     $ renpy.transition(Quake(30, 0, 0.1, 0.15), layer='master')
     play sound "fx/cute3.ogg"
-    extend "嚼嚼……"
+    extend "（嚼嚼……）"
     show saburo 17i with dissolve
-    extend "\n这个……嚼嚼……"
+    extend "\n但这个……（嚼嚼……）"
     hide saburo with dissolve
     show tubasa 8i at topright
     show saburo 10i at topleft with dissolve
     play sound "fx/cute2.ogg"
-    saburo "做得相当……嚼嚼……好吃！"
+    saburo "做得相当……（嚼嚼……）好吃！"
     show tubasa 7i
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
-    tubasa "呐，猫山同学！"
-    extend "\n你一边吃一边说话，我都听不清楚你在说什么，\n而且吃的东西到处乱飞……！！"
+    tubasa "猫、猫山同学！"
+    extend "\n你一边吃一边说话，完全听不懂你在讲什么啦，\n而且残渣都喷出来了……！！"
     window hide
     hide tubasa with dissolve
     hide saburo with dissolve
     show tomo 31i at top with dissolve
     window show
     tomo "看起来真好吃~！！"
-    extend "\n我也来一份~！"
+    extend "\n我也要吃一个~！"
     show tomo 18i with dissolve
     play sound "fx/triangle.ogg"
     extend "\n……诶？？我的份呢？"
@@ -4786,28 +4786,28 @@ label end_all:
     sakuya "嘿！"
     extend "\n这可轮不到你来吃！！"
     show sakuya 24i with dissolve
-    extend "\n啊~绝品啊，这章鱼烧。"
+    extend "\n啊~这章鱼烧真是绝品。"
     show tomo 5i with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
-    tomo "技，技安！！！"
-    extend "\n把那章鱼烧给我~！！"
+    tomo "技、技安！！！"
+    extend "\n把那个章鱼烧给我~！！"
     hide tomo with dissolve
     hide sakuya with dissolve
     play sound "fx/wind_slash.ogg"
     "作哉和友"
     play sound "fx/eureka.ogg"
-    "开始你争我抢起来"
+    extend "\n在一旁闹作一团，"
     play sound "fx/explosion2.ogg"
-    "。"
+    extend "\n开始争抢起来。"
     window hide
     show sinobu 26i at top with dissolve
     window show
-    sinobu "……焰火，真是漂亮呢。"
+    sinobu "……这火焰，真是漂亮呢。"
     show sora 2i at topleft with dissolve
     sora "嗯，让人感觉心平气和。"
     show tuki 9i at topright with dissolve
-    tuki "劳顿之后的疲惫也缓解了。"
+    tuki "劳顿之后疲惫的心灵也得到了慰藉。"
     hide tuki with dissolve
     hide sora with dissolve
     hide sinobu with dissolve
@@ -4826,25 +4826,25 @@ label end_all:
     window show
     "友，"
     show cg c88 2 with Radial(0.5)
-    extend "友，"
-    show cg c88 3 with Radial(0.5)
     extend "翼，"
+    show cg c88 3 with Radial(0.5)
+    extend "忍，"
     show cg c88 4 with Radial(0.5)
     extend "月，"
     show cg c88 5 with Radial(0.5)
     extend "空，"
     show cg c88 6 with Radial(0.5)
-    extend "忍，"
-    show cg c88 7 with Radial(0.5)
     extend "作哉，"
-    show cg c88 8 with Radial(0.5)
+    show cg c88 7 with Radial(0.5)
     extend "三朗，"
-    extend "慎太郎"
+    show cg c88 8 with Radial(0.5)
+    extend "慎太郎。"
     window hide
     show cg moon_night with FadeWhite(0.8)
     window show
-    "……在这个梦幻的世界中，能和大家搞好关系，实在是太好了。"
-    extend "\n御咲祭也圆满成功了，也和大家一起看了这焰火。"
+    "……在这个梦境的世界里，能和大家成为好朋友，真的太好了。"
+    extend "\n……多亏了它，我才能变回初中生，尽情享受了这段准备祭典的时光。"
+    extend "\n御咲祭成功了，我也和大家一起看到了这团火焰。"
     extend "\n愿望全都实现了。……"
     window hide
     show cg campfire_sparks with Dissolve(0.8)
@@ -4853,7 +4853,7 @@ label end_all:
     extend "\n……梦已经结束了。"
     "梦的记忆是模糊的。"
     extend "\n在醒过来的同时，也会忘记这场梦。"
-    extend "\n只留下甜美的回忆，其他的一切都被带去忘却的彼方而消散。"
+    extend "\n只留下甜美的回忆，其余的一切，都会被带往忘却的彼方。"
     stop music fadeout 4.0
     "好了……差不多该起来了。"
     window hide
@@ -4865,7 +4865,7 @@ label end_all:
     hide tuki with dissolve
     pause 0.6
     window show
-    "…。"
+    "…"
     window hide
     play music "fx/tsubame.ogg"
     show bg protagonist_home at center with Dissolve(1.0)
@@ -4873,17 +4873,17 @@ label end_all:
     hide bg with dissolve
     window show
     play sound "fx/alarm.ogg"
-    "哔哔哔哔哔哔哔哔"
+    "（哔哔哔哔哔哔哔哔）"
     window hide
     show bg protagonist_room_morning at center with dissolve
     window show
     me "啊……已经早上了吗……？"
-    extend "\n唔~我好像并没有睡多少啊……。"
+    extend "\n唔~感觉这一觉还没睡够啊……。"
     stop sound fadeout 0.5
-    "我望向餐桌，上面放着一张传单。"
+    "我看向桌子，上面放着一张传单。"
     play sound "fx/paper.ogg"
     me "嗯？这是……"
-    extend "啊，对对对，昨天回来的时候拿到的。"
+    extend "啊，对对，是昨天回来的时候拿到的。"
     extend "\n那些孩子们，真可爱啊……。"
     me "……好！那天我一定要去好好享受！"
     play sound "fx/cute2.ogg"
@@ -4892,7 +4892,7 @@ label end_all:
     hide bg with dissolve
     stop music fadeout 0.5
     window show
-    "御咲祭当天ーーーーーー"
+    "御咲祭当天——"
     window hide
     play music "quiet_lunch.ogg"
     play sound "fx/crowd_noise.ogg"
@@ -4900,19 +4900,19 @@ label end_all:
     pause 0.4
     show bg hallway with Dissolve(1.0)
     window show
-    me "我想想……记得说是2年1班和2年2班的咖啡店。"
+    me "我想想……记得说是二年一班和二班的咖啡店。"
     extend "\n唔？"
     play sound "fx/sliding_door.ogg"
     show bg cafe with dissolve
     extend "是这个吗？"
     "正当我站在店门口犹豫不决的时候，"
-    extend "穿着红领带的男孩从店里走了出来。"
+    extend "一个系着红领带的男孩子从店里走了出来。"
     window hide
     show cg adult at center with FadeWhite(0.8)
     window show
     unknown "欢迎光临。"
-    extend "您是一个人来吗？"
-    extend "\n请往这边走……请尽情享受吧。"
+    extend "请问是一位吗？"
+    extend "\n请往这边走……请慢慢享受吧。"
     window hide
     hide bg with Radial(1.0)
     hide cg with Radial(1.0)
