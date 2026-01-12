@@ -4038,94 +4038,94 @@ label end_sirou:
     show bg cafe at center with dissolve
     show sirou 2 at top with dissolve
     window show
-    sirou "……[player_name]桑？"
-    "我朝旁边一看，居然看到了四朗。"
-    extend "\n他来我们咖啡厅了吗……！！"
+    sirou "……[player_name]同学？"
+    "我朝旁边一看，发现四朗居然站在那里。"
+    extend "\n他是特意来我们的咖啡厅了吗……！！"
     window hide
     hide sirou with dissolve
     window show
     play sound "fx/cute2.ogg"
-    customer3 "哎呀，除了店员之外，还发现了可爱的正太！"
-    extend "\n我，我也要来点一杯茶在那边坐下来！"
-    "那个男人这么说着，松开了我的手，朝四朗伸出了手。"
+    customer3 "哎呀，除了店员小哥，居然还发现了一只可爱的小正太~！！"
+    extend "\n喂、喂，快过来跟在下一起喝杯茶嘛~！"
+    "那个男人说着便松开了我的手，转而向四朗伸了过去。"
     window hide
     play sound "fx/explosion3.ogg"
     show cg remarkable at center with FadeWhite(0.5)
     play music "hurry_up.ogg"
     window show
-    me "等一下！！"
-    "我挺身护住了四朗。"
+    me "给我等一下！！"
+    "我挺身而出，挡在了四朗面前。"
     play sound "fx/dash.ogg"
-    customer3 "怎，怎么了！"
-    extend "\n客人您是点茶喝吗！？"
+    customer3 "怎、怎么了嘛！"
+    extend "\n难道阁下是说，想跟在下们，一起喝茶了吗！？"
     play sound "fx/eureka.ogg"
-    me "啊啊……？客人……请不要得寸进尺哦。"
+    me "啊啊……？这位客人……请不要太得寸进尺了。"
     extend "\n听说最近的年轻人，发起火来可是很恐怖的哦~。"
-    extend "\n你听说过『暴躁的青少年』这个词吗？"
-    extend "\n你还是适可而止比较好吧？"
+    extend "\n『暴走的青少年』这个词，您听说过吗？"
+    extend "\n所以我劝您，最好还是适可而止，您觉得呢？"
     window hide
     hide cg with dissolve
     window show
     play sound "fx/boing.ogg"
-    customer3 "呜……抱，抱歉了捏。"
-    extend "\n有，有点兴奋过头，所以有点不守规矩了捏。"
+    customer3 "呜……抱、抱歉了捏。"
+    extend "\n有、有点兴奋过头，所以有点不守规矩了捏。"
     play sound "fx/cute3.ogg"
     customer5 "对不起呀。"
-    extend "\n这里还是绅士一点，姑且忍一忍，可远观不可亵玩焉。"
+    extend "\n在这里我们还是绅士一点，姑且忍耐一下，记住可远观不可亵玩焉。"
     play sound "fx/cute.ogg"
-    customer4 "对不起…。"
-    me "明白的话就赶紧走吧！"
+    customer4 "对不起……。"
+    me "明白就好！"
     extend "\n那么，请点单吧！"
     window hide
     play sound "fx/sparkle.ogg"
     show sirou 10 at top with dissolve
     window show
-    sirou "[player_name]桑，好帅……！！"
+    sirou "[player_name]同学，好帅啊……！！"
     play sound "fx/impact_japanese.ogg"
-    "呼……成功了！！"
-    extend "\n我不能在四朗面前出丑！"
+    "呼……帅气收场！！"
+    extend "\n我可不能在四朗面前出丑！"
     stop music fadeout 2.0
     play sound "fx/running.ogg"
     hide sirou with dissolve
     hide bg with dissolve
-    "我成功地逃脱了那个男人，走向了四朗。"
+    "我成功化解了这尴尬的局面，然后转身走向四朗。"
     window hide
     show bg cafe at center with dissolve
     play music "siro_theme.ogg"
     window show
     me "呀，好久不见。"
     show sirou 4 at top with dissolve
-    sirou "好久不见，[player_name]桑！"
-    extend "\n刚才的那个，帅呆了哦！！"
+    sirou "好久不见，[player_name]同学！"
+    extend "\n刚才那一幕，真的帅呆了！！"
     show sirou 15 with dissolve
-    extend "\n再次救了我，谢谢你！"
-    me "不不不……我只是做了应该做的。"
-    extend "\n但是，你这么说，我很开心。"
+    extend "\n谢谢你又一次救了我！"
+    me "哪里哪里……我只是做了应该做的。"
+    extend "\n不过，能听到你这么说，我很开心。"
     show sirou 11 with dissolve
     play sound "fx/sparkle.ogg"
-    sirou "真好啊……我如果升到初中的话，就会增加体力变强，\n就算被坏家伙抓住了，也能像你那样制裁他们！"
-    me "啊哈哈，没问题。\n在四朗君被抓之前，我会去干掉那些家伙的！"
+    sirou "真好啊……等我上了初中，我也要锻炼体力变得更强，\n就算被坏家伙抓住了，也能像你那样制裁他们！"
+    me "啊哈哈，没问题。\n在四朗君被抓之前，我会先把那些家伙通通干掉的！"
     show sirou 12 with dissolve
-    sirou "诶~！！\n那么，总觉得好像只有我在出糗的样子。"
+    sirou "诶~！！\n那样的话，岂不是显得只有我总是很逊嘛。"
     show sirou 13 with dissolve
     extend "\n……啊，对了！"
-    extend "\n[player_name]桑，你之后有事吗？"
-    me "那个……没有，再过10分钟就休息了。"
+    extend "\n[player_name]同学，你之后还有什么事吗？"
+    me "嗯……没有，再过个十分钟我就能休息了。"
     extend "\n怎么了？"
     show sirou 4 with dissolve
     sirou "可以的话，和我一起逛学园祭吧！"
     show sirou 14 with dissolve
-    extend "\n虽然我本来是想带朋友来的，\n但是，那孩子因为感冒，没办法来了……。"
-    extend "\n我，现在孤身一人。"
+    extend "\n其实原本是想带朋友一起来的，\n但那孩子好像感冒了没法来……。"
+    extend "\n结果，我现在变成孤身一人了。"
     play sound "fx/explosion2.ogg"
     "呜噢噢噢噢噢噢！！正太向我发出邀请了啊啊啊啊啊！！！"
-    me "这，这样啊。"
-    extend "\nOK！如果我没事的话，就一起去吧。"
+    me "这、这样啊。"
+    extend "\nOK！如果不介意我的话，那就一起逛吧。"
     show sirou 15 with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
     sirou "太好啦！！"
-    extend "\n那我先去教室等你啦！"
+    extend "\n那我在教室门外等你哦！"
     play sound "fx/running.ogg"
     hide sirou with dissolve
     show cg remarkable at center with Dissolve(0.2)
@@ -4136,73 +4136,73 @@ label end_sirou:
     hide cg with dissolve
     hide bg with dissolve
     stop music fadeout 2.0
-    "我兴奋得之后完全没法工作。"
+    "我兴奋过头了，之后那十分钟完全没在专心工作。"
     window hide
     play sound "fx/crowd_noise.ogg"
     show bg school_building_evening_full at center with Dissolve(1.0)
     pause 0.4
     show bg hallway_evening with Dissolve(0.8)
     window show
-    me "让你久等了，四郎君。"
+    me "让你久等了，四朗。"
     show sirou 3 at top with dissolve
-    sirou "啊，[player_name]桑！工作辛苦了！！"
-    extend "\n那赶紧走吧～！"
+    sirou "啊，[player_name]同学！工作辛苦了！！"
+    extend "\n那我们赶紧出发吧~！"
     play sound "fx/running.ogg"
     hide sirou with dissolve
-    "四朗拉着我的手，开心地走了起来。"
+    "四朗拉起我的手，兴冲冲地迈开了步子。"
     play sound "fx/sparkle.ogg"
     show cg adult at center with FadeWhite(0.5)
-    extend "\n这幅景象，简直就像我梦中见到的弟弟一样。"
+    extend "\n那副模样，简直跟我梦寐以求的弟弟一模一样。"
     window hide
     hide cg with dissolve
     window show
-    me "四郎，不用那么急匆匆的，店不会跑掉的。"
+    me "四朗，不用那么急，摊位又不会跑掉。"
     play music "siro_theme.ogg"
     show sirou 9 at top with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
-    sirou "因为~我想逛遍所有店铺呀~！"
-    extend "\n不赶紧点，一下就结束啦！"
-    "哈哈，小孩子真是活力满满啊！"
-    extend "\n已经完全变成了哥哥的我，兴冲冲地指向了店铺。"
+    sirou "因为~我想逛遍所有摊位呀~！"
+    extend "\n不抓紧一点的话，转眼间学园祭就要结束啦！"
+    "啊哈哈，小孩子果然还是活力满满的最好了！"
+    extend "\n我已经完全进入了大哥哥的角色，兴致勃勃地指向了前方那家店。"
     window hide
     hide sirou with dissolve
     window show
-    me "啊！喂，四郎。"
+    me "啊！嘿，四朗。"
     extend "\n那个鬼屋怎么样？"
     show sirou 14 at top with dissolve
     $ renpy.transition(Quake(30, 0, 0.1, 0.15), layer='master')
     play sound "fx/cute3.ogg"
-    sirou "诶……鬼，鬼屋吗……？"
-    extend "\n这，这有点……。"
-    "哦？难道说，这家伙是那种害怕恐怖的东西吗？"
+    sirou "诶……鬼、鬼屋吗……？"
+    extend "\n那、那个稍微有点……。"
+    "哦？难不成，这孩子其实很怕恐怖的东西？"
     play sound "fx/eureka.ogg"
-    "……我咧嘴一笑"
-    me "咦？刚才，不是说要征服所有的店铺的吗！"
-    extend "\n那就要好好地参观一下鬼屋了呢。"
-    extend "\n男子汉大丈夫可不能反悔哦？"
+    "……我咧嘴一笑。"
+    me "咦？刚才，不是说要征服所有摊位的吗！"
+    extend "\n既然这样，鬼屋当然也要好好体验一下才行。"
+    extend "\n男子汉大丈夫，说话不能反悔吧？"
     show sirou 1 with dissolve
-    sirou "呜呜呜呜……"
+    sirou "唔呜呜呜……"
     show sirou 17 with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
-    extend "我，我知道了！我们走吧！！"
+    extend "我、我知道了！我们走吧！！"
     extend "\n我可不怕鬼怪什么的！！"
     stop music fadeout 2.0
     play sound "fx/sliding_door.ogg"
     hide bg with dissolve
     hide sirou with dissolve
-    "听到我这么一说，四朗就逞强似地进入了鬼屋。"
+    "听到我这么说，四朗便一边逞强地喊着，一边和我一起踏入了鬼屋。"
     window hide
     pause 0.4
     play music "haunted_music_room.ogg"
     show bg dark at center with dissolve
     window show
     play sound "fx/boing.ogg"
-    sirou "咿呀啊啊啊啊啊啊啊啊！！！\n这，这是人头啊啊啊啊！！！！"
+    sirou "咿呀啊啊啊啊啊啊啊啊！！！\n这、这是人头啊啊啊啊！！！！"
     play sound "fx/cute3.ogg"
     sirou "呜哇啊啊啊啊！！！！"
-    extend "\n为什么这是只毛茸茸的手啊啊啊啊啊！！！？"
+    extend "\n为什么会有这种毛茸茸的手乱摸啊啊啊啊啊！！！？"
     play sound "fx/shock.ogg"
     sirou "不要啊啊啊啊啊！！\n我想回家啊啊啊啊啊啊！！！"
     window hide
@@ -4215,47 +4215,47 @@ label end_sirou:
     show bg hallway_evening with Dissolve(0.7)
     show sirou 16 at top with dissolve
     window show
-    sirou "嗝……嗝……。"
+    sirou "嗝……呜……。"
     show sirou 1 with dissolve
     extend "\n呜呜呜呜……好害怕啊啊啊……。"
     window hide
     hide sirou with dissolve
     window show
-    "在鬼屋的出口处，四朗哭了出来。"
-    "那么一眼假的鬼居然能把他吓成这样，\n这家伙真是相当的胆小啊……。"
+    "在鬼屋的出口处，四朗终于支撑不住，大声哭了出来。"
+    "那种一眼假的鬼居然能把他吓成这样，\n这家伙真是相当胆小啊……。"
     extend "\n看到他这样的反应，运营人员应该会相当满足吧。"
-    me "好了好了。"
+    me "好啦好啦。"
     extend "\n四朗，已经没事了，放心吧。"
     show sirou 16 at top with dissolve
     sirou "呜呜……嗝……。"
     show sirou 17 with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
-    extend "\n真是的[player_name]桑你欺负人！"
+    extend "\n真是的，[player_name]同学太坏了！"
     extend "\n为什么把我一个人丢在后面，自己先走啊！！"
-    "我虽然表面上是等走得慢的四朗，但其实是在观察他害怕的样子。"
-    extend "\n这种事情我绝对不可能说出来。"
-    me "那么……毕，毕竟！\n刚才四朗不是说想要变得更强吗。"
-    extend "\n所以，才给予了你考验……。"
+    "我假装是在等走得慢吞吞的四朗，其实是为了观察他那副害怕的模样。"
+    extend "\n这种大实话，我怎么可能说得出口啊。"
+    me "那个……毕、毕竟！\n刚才四朗不是说想要变得更强嘛。"
+    extend "\n所以，我才给予了你考验……。"
     show sirou 1 with dissolve
     sirou "呜呜……是这样啊……。\n那就好……。"
     show sirou 6 with dissolve
     play sound "fx/sparkle.ogg"
-    extend "\n居然能为我着想到这个地步，果然很温柔啊。"
-    extend "\n但是，想变强什么的，等我成为中学生之后再说吧……。"
-    "虽然对把我的谎言当真的四朗君多少有点罪恶感，\n但总之能处理好这个场面真是太好了。"
+    extend "\n没想到你能为我着想到这个地步，果然很温柔呢。"
+    extend "\n但是，变强这种事，我觉得还是等我升到初中以后再说吧……。"
+    "看着把我的谎言完全当真的四朗，心里多少涌起了一点罪恶感，\n但不管怎么说，总算是把眼下糊弄过去了，真是万幸。"
     show sirou 9 with dissolve
     sirou "嗯……！"
-    extend "\n占用你的时间真是对不起！已经不要紧了！！"
+    extend "\n占用你的时间真是对不起！我已经没事了！！"
     show sirou 15 with dissolve
-    extend "\n那么，重新振作，去逛其他地方吧！"
+    extend "\n那我们就重新振作精神，去逛逛其他地方吧！"
     "四朗擦干眼泪，气势十足地站了起来。"
     window hide
     show cg school_building_evening at center with Dissolve(0.7)
     window show
-    "之后，我们按照之前的宣言，逛遍了所有的学校内的摊位。"
-    extend "\n到了最后关头，我实在是不行了，两膝都在颤抖，但是\n相对的，四朗还是一副精神满满的样子。"
-    "不愧是小学生……"
+    "之后，我们按照之前的约定，逛遍了学校里所有的摊位。"
+    extend "\n到了接近尾声的时候，我也实在是累趴了，两膝止不住地打颤。\n与我形成鲜明对比的是，四朗看起来依然精神百倍。"
+    "不愧是小学生……。"
     play sound "fx/impact.ogg"
     stop music fadeout 2.5
     extend "深不见底的体力，真是可怕啊……。"
@@ -4271,14 +4271,14 @@ label end_sirou:
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
     window show
-    sirou "[player_name]桑，今天真的非常开心呢~！"
+    sirou "[player_name]同学，今天真的非常开心呢~！"
     extend "\n真的非常感谢你能陪我玩到这么晚！！"
-    me "没，没事……四朗能开心就好。"
+    me "没、没事……只要四朗玩得开心，我也就心满意足了。"
     show sirou 13 with dissolve
-    sirou "在逛学园祭的时候，太阳就基本落山了呢。"
-    extend "\n接下来终于要举办后夜祭了吧。"
-    me "后夜祭……"
-    extend "\n对了，四朗！\n如果不介意的话，后夜祭也一起来吧"
+    sirou "在逛学园祭的时候，太阳基本上都落山了呢。"
+    extend "\n接下来，终于要轮到后夜祭了吧。"
+    me "后夜祭……。"
+    extend "\n对了，四朗！\n如果不介意的话，后夜祭也一起……"
     window hide
     hide sirou with dissolve
     stop music fadeout 0.5
@@ -4286,44 +4286,44 @@ label end_sirou:
     play sound "fx/eureka.ogg"
     window show
     sirou "嗯！？"
-    extend "\n那边站着的……"
+    extend "\n那边站着的是……"
     play music "lively_boys.ogg"
     show sirou 18 with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute2.ogg"
-    sirou "穗海学长！！！"
+    sirou "穗海学长——！！！"
     play sound "fx/running.ogg"
     hide sirou with dissolve
-    "四朗无视了我所说的，直接跑了过去。"
-    extend "\n我顺着他的视线一看，发现作哉和三朗站在那里。"
+    "四朗无视了我还没说完的话，径直跑了过去。"
+    extend "\n我顺着他跑走的方向望去，发现作哉和三朗正站在不远处。"
     window hide
     show sakuya 15i at topleft with dissolve
     window show
     sakuya "哦！这不是四朗嘛。"
-    extend "\n怎么，你来了啊。"
+    extend "\n怎么，你也来了啊。"
     show sirou 15 at top with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
     sirou "那是当然的！"
-    extend "\n我当然也去学长工作的咖啡店看了看。"
+    extend "\n我还特地去了学长工作的咖啡店呢。"
     show sirou 14 with dissolve
-    extend "\n但是没能找到学长，真是可惜……。"
+    extend "\n但是没能找到学长本人，真的好遗憾啊……。"
     show saburo 33i at topright with dissolve
     play sound "fx/boing.ogg"
     saburo "喂喂。"
     extend "\n是无视了哥哥的存在吗？"
     show sirou 8 with dissolve
-    sirou "直到刚才，[player_name]桑在和我一起逛学园祭。"
-    extend "\n本来是想去和穗海学长一起逛的，\n但我想你肯定有工作在身，所以就没有找你！"
+    sirou "直到刚才，我都是在和[player_name]同学一起逛学园祭哦。"
+    extend "\n本来是想找穗海学长一起逛的，\n但我想学长肯定有工作在身，所以就没敢打扰！"
     show sirou 6 with dissolve
     extend "诶嘿嘿。"
     show sakuya 23i with dissolve
-    sakuya "诶~是这样啊。谢谢你这么为我着想。"
+    sakuya "诶~是这样啊。谢啦，难为你这么替我着想。"
     show sakuya 11i with dissolve
     play sound "fx/triangle.ogg"
-    extend "\n话说，那边那个看着被击溃的人就是『[player_name]桑吗？"
+    extend "\n话说，那边那个看着快要虚脱的人就是『[player_name]同学吗』？"
     show saburo 18i with dissolve
-    saburo "你……是有多折腾我们啊。"
+    saburo "你这小子……到底是把人家折腾到什么地步了啊。"
     show sirou 9 with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
@@ -4332,37 +4332,37 @@ label end_sirou:
     hide sirou with dissolve
     hide sakuya with dissolve
     hide saburo with dissolve
-    "说完，四朗走到了我的面前。"
+    "说完，四朗又回到了我的面前。"
     window hide
     play sound "fx/sparkle.ogg"
     show cg c87 at center with FadeWhite(0.8)
     window show
-    sirou "[player_name]桑！"
-    extend "\n后面我要和穗海学长一起去参加后夜祭，所以先告辞了！！"
-    extend "\n谢谢你陪我逛那么久！\n那下次见！"
+    sirou "[player_name]同学！"
+    extend "\n我接下来要和穗海学长一起去后夜祭了，那就先告辞啦！！"
+    extend "\n谢谢你一直陪着我胡闹，还逛了那么久！\n那，下次见！"
     window hide
     play sound "fx/running.ogg"
     hide cg with Dissolve(0.7)
     window show
-    "四朗说完后，再次抛下我，渐行渐远。"
-    extend "\n然后，三个人就这样一同离开了校园。"
+    "打过招呼后，四朗再次将我抛在身后，转身离去。"
+    extend "\n随后，那三人就这样朝着操场方向去了。"
     window hide
     show cg school_building_night at center with dissolve
     play sound "fx/ding.ogg"
     window show
     "……。"
-    me "诚实的孩子……从某种意义上来说，真是残酷啊……。"
+    me "天真烂漫的小孩子……从某种意义上来说，真是残酷啊……。"
     extend "\n啊哈哈。"
-    "果然，我适合远远地眺望少年呢。"
-    extend "\n好了，老老实实地回到原来的世界吧。"
+    "果然，我这种人啊，或许还是适合远远地眺望那些少年呢。"
+    extend "\n好啦，老老实实地回到原来的世界吧。"
     stop music fadeout 3.0
     stop sound fadeout 0.5
     hide bg with dissolve
     hide cg with dissolve
-    "喂，快醒醒啊。\n到早上了啊。"
+    "喂——快醒醒啊。我自己。\n已经早上了哦——。"
     window hide
     window show
-    "…。"
+    "…"
     window hide
     play music "fx/tsubame.ogg"
     show bg protagonist_home at center with Dissolve(1.0)
@@ -4370,31 +4370,31 @@ label end_sirou:
     hide bg with dissolve
     window show
     play sound "fx/alarm.ogg"
-    "哔哔哔哔哔哔哔哔"
+    "（哔哔哔哔哔哔哔哔）"
     window hide
     show bg protagonist_room_morning at center with Radial(0.5)
     window show
     me "啊……已经早上了吗……？"
-    extend "\n唔~我好像并没有睡多少啊……。"
+    extend "\n唔~感觉这一觉还没睡够啊……。"
     stop sound fadeout 0.5
-    "我望向餐桌，上面放着一张传单。"
+    "我看向桌子，上面放着一张传单。"
     play sound "fx/paper.ogg"
     me "嗯？这是……"
-    extend "啊，对对对，昨天回来的时候拿到的。"
+    extend "啊，对对，是昨天回来的时候拿到的。"
     extend "\n那些孩子们，真可爱啊……。"
     play sound "fx/triangle.ogg"
-    me "……不过仔细想想，下周还要出差。"
-    extend "\n这次实在没办法推掉了……哎……。"
+    me "……不过仔细想想，下周要出差啊。"
+    extend "\n看来这次是真的推不掉了……沮丧……。"
     me "还是老老实实地，面对现实吧。"
     extend "\n呜……腿怎么这么酸痛。"
-    extend "\n昨天有走那么远吗？"
-    "我稍微做了下伸展，然后做好了上班的准备，和往常一样出门了。"
+    extend "\n我昨天，有走那么多路吗？"
+    "我简单做了个拉伸，做好了上班的准备，便像往常一样出门了。"
     window hide
     hide bg with dissolve
     play sound "fx/door_open.ogg"
     show bg sky at center with Radial(0.7)
     window show
-    me "好嘞！ 今天也加油干一天！！！"
+    me "好！今天也要加油！！"
     window hide
     stop music fadeout 1.0
     hide bg with FadeWhite(1.0)
@@ -4439,7 +4439,7 @@ label end_all:
     customer4 "野性的男人也超级迷人呢♪"
     window hide
     window show
-    me "……那么，请点菜吧！"
+    me "……那么，请点单吧！"
     "真是的，这么没礼貌的家伙竟然是我的同类……"
     play sound "fx/eureka.ogg"
     extend "\n同为正太控的我好羞耻啊！！"

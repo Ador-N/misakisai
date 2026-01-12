@@ -5920,7 +5920,7 @@ label day2_bad_end:
     extend "\n那些小家伙们，真的好可爱啊……。"
     play sound "fx/triangle.ogg"
     me "……不过仔细想想，下周要出差啊。"
-    extend "\n这下可去不了了……沮丧…。"
+    extend "\n看来这次是真的推不掉了……沮丧……。"
     me "嗯……怎么身上有点焦糊味啊。\n难道妈妈做菜又失败了吗？"
     hide bg with dissolve
     "我洗了个澡，做好前往公司的准备，和往常一样出门了。"
