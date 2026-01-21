@@ -105,9 +105,10 @@ label hidden_tomo:
     tomo "……总之，虽然我是个笨蛋，\n不过今后也请多多关照了！"
     window hide
     stop music fadeout 0.8
-    hide tomo with Dissolve(1.0)
-    hide cg with Dissolve(1.0)
-    hide bg with Dissolve(1.0)
+    hide tomo
+    hide cg
+    hide bg
+    with Dissolve(1.0)
     return
 
 label hidden_tubasa:
@@ -175,9 +176,10 @@ label hidden_tubasa:
     tubasa "……最……喜欢了……。"
     window hide
     stop music fadeout 0.7
-    hide cg with Dissolve(1.0)
-    hide bg with Dissolve(1.0)
-    hide tubasa with Dissolve(1.0)
+    hide cg
+    hide bg
+    hide tubasa
+    with Dissolve(1.0)
     return
 
 label hidden_sinobu:
@@ -224,9 +226,10 @@ label hidden_sinobu:
     extend "\n这样子，就不能告诉友了啊……。"
     window hide
     stop music fadeout 0.8
-    hide cg with Dissolve(1.0)
-    hide bg with Dissolve(1.0)
-    hide sinobu with Dissolve(1.0)
+    hide cg
+    hide bg
+    hide sinobu
+    with Dissolve(1.0)
     return
 
 label hidden_tuki:
@@ -279,9 +282,10 @@ label hidden_tuki:
     tuki "这次，我想直接感受到你…。"
     window hide
     stop music fadeout 0.7
-    hide cg with Dissolve(1.0)
-    hide bg with Dissolve(1.0)
-    hide tuki with Dissolve(1.0)
+    hide cg
+    hide bg
+    hide tuki
+    with Dissolve(1.0)
     return
 
 label hidden_sora:
@@ -329,9 +333,10 @@ label hidden_sora:
     extend "\n这世上我最....喜欢你了！"
     window hide
     stop music fadeout 0.8
-    hide cg with Dissolve(1.0)
-    hide bg with Dissolve(1.0)
-    hide sora with Dissolve(1.0)
+    hide cg
+    hide bg
+    hide sora
+    with Dissolve(1.0)
     return
 
 label hidden_sakuya:
@@ -383,9 +388,10 @@ label hidden_sakuya:
     sakuya "…………因为我喜欢你。"
     window hide
     stop music fadeout 0.8
-    hide cg with Dissolve(1.0)
-    hide bg with Dissolve(1.0)
-    hide sakuya with Dissolve(1.0)
+    hide cg
+    hide bg
+    hide sakuya
+    with Dissolve(1.0)
     return
 
 label hidden_saburo:
@@ -452,9 +458,10 @@ label hidden_saburo:
     extend "\n快点来，笨蛋！！！"
     window hide
     stop music fadeout 0.8
-    hide cg with Dissolve(1.0)
-    hide bg with Dissolve(1.0)
-    hide saburo with Dissolve(1.0)
+    hide cg
+    hide bg
+    hide saburo
+    with Dissolve(1.0)
     return
 
 label hidden_sintarou:
@@ -504,9 +511,10 @@ label hidden_sintarou:
     extend "\n你居然如此爱着这样的我，\n真是感激不尽啊。"
     window hide
     stop music fadeout 0.8
-    hide cg with Dissolve(1.0)
-    hide bg with Dissolve(1.0)
-    hide sintarou with Dissolve(1.0)
+    hide cg
+    hide bg
+    hide sintarou
+    with Dissolve(1.0)
     return
 
 label hidden_note:

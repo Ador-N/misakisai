@@ -53,9 +53,10 @@ label day0:
     extend "\n那样开心嬉闹的氛围真好啊，很可爱。"
     "唔~嗯，和那些孩子的话，就算是挤成沙丁鱼罐头我也会很乐意的……。"
     window hide
-    hide bg with dissolve
-    hide 少年たち with dissolve
-    hide cg with dissolve
+    hide bg
+    hide 少年たち
+    hide cg
+    with dissolve
     return
 
 label day0_1:
@@ -81,9 +82,10 @@ label day0_1:
     show cg school_building_full with FadeWhite(0.5)
     extend "\n顺带一提，我也是御咲学园的毕业生。"
     "御咲祭是御咲学园的文化祭……"
-    hide tomo with dissolve
-    hide tubasa with dissolve
-    hide cg with dissolve
+    hide tomo
+    hide tubasa
+    hide cg
+    with dissolve
     extend "\n看样子，那些孩子手上还剩几张传单，\n发完前是回不去了。"
     "那么可爱的男孩子们都在努力的发放传单，\n不接受的人到底在想什么啊！正太控在干什么啊！\n真是的。"
     play sound "fx/eureka.ogg"
@@ -162,8 +164,9 @@ label day0_1:
     me "这样啊。我有空会去你那玩的。"
     extend "\n好好加油吧。"
     "我故作冷酷地离开了。"
-    hide tomo with dissolve
-    hide tubasa with dissolve
+    hide tomo
+    hide tubasa
+    with dissolve
     "距离我成为社会人已经过去三年了……"
     extend "生活缺乏必要的滋润，\n也就是，缺少了「少年」的滋润！"
     extend "\n他们不可或缺，我要是少了他们，工作效率也会大幅下降。"
@@ -198,10 +201,11 @@ label day0_2:
     "真是走运啊！今天真的很顺。"
     extend "\n机会难得，我决定听听他们的讨论。"
     window hide
-    hide sora with dissolve
-    hide sintarou with dissolve
-    hide tuki with dissolve
-    hide sinobu with dissolve
+    hide sora
+    hide sintarou
+    hide tuki
+    hide sinobu
+    with dissolve
     show sintarou 1 at topright with dissolve
     window show
     boy4 "既然要开咖啡厅，就想要搞得轰轰烈烈啊！！"
@@ -214,8 +218,9 @@ label day0_2:
     boy3 "我啊，想尝试一下店员的穿着\n时尚的衬衫和马甲，\n再系个领结的打扮啊。"
     show sintarou 1 with dissolve
     boy4 "哦哦~执事服吗！！空酱眼光不错！那也很棒啊！！"
-    hide sora with dissolve
-    hide sintarou with dissolve
+    hide sora
+    hide sintarou
+    with dissolve
     show sora 3 at topright with dissolve
     show sora 2 with dissolve
     sora "哥哥，你觉得怎么样？"
@@ -226,8 +231,9 @@ label day0_2:
     extend "兜裆布咖啡厅。"
     show sora 4 with dissolve
     sora "嗯？抱歉我听不见。"
-    hide sora with dissolve
-    hide tuki with dissolve
+    hide sora
+    hide tuki
+    with dissolve
     "嚯。他们也是御咲学园的学生吗。"
     extend "\n咖啡厅的话，和刚才那两人一样，都是二年一班和二班的学生吧？"
     "不过话说回来，每一个都各有魅力……。"
@@ -301,9 +307,10 @@ label day0_3:
     "那我　就　得　去　参加　御咲大祭典了啊……！"
     extend "\n说不定，能有命运的邂逅呢。"
     "既然BL存在，那么大人和小孩，而且还是男人之间的禁断之爱\n也不是完全没有萌芽的可能性！！"
-    hide sakuya with dissolve
-    hide saburo with dissolve
-    hide cg with dissolve
+    hide sakuya
+    hide saburo
+    hide cg
+    with dissolve
     "汉堡也吃了，为了不让别人怀疑\n还是早点回去，不然兴奋要表现出来了。"
     window hide
     hide bg with dissolve
@@ -347,8 +354,9 @@ label day0_4:
     extend "\n去对面的公园怎么样。"
     me "诶，诶诶！？"
     window hide
-    hide nori with Dissolve(1.5)
-    hide bg with Dissolve(1.5)
+    hide nori
+    hide bg
+    with Dissolve(1.5)
     stop sound fadeout 1.0
     return
 
@@ -683,9 +691,10 @@ label day0_hidden:
     stop music fadeout 4.0
     me "嗯嗯……嗯唔…。"
     "渐渐地，我的意识开始模糊，视线也朦胧起来。"
-    hide cg with DefocusBlack(5.0)
-    hide nori with DefocusBlack(5.0)
-    hide bg with DefocusBlack(5.0)
+    hide cg
+    hide nori
+    hide bg
+    with DefocusBlack(5.0)
     pause 0.4
     "···。"
     window hide
@@ -695,8 +704,9 @@ label day0_hidden:
     unknown "晚安，大哥哥。"
     extend "\n我会换个地方，让你好好享受的。"
     window hide
-    hide nori with Dissolve(0.9)
-    hide bg with Dissolve(0.9)
+    hide nori
+    hide bg
+    with Dissolve(0.9)
     return
 
 label day0_normal:
@@ -757,8 +767,9 @@ label day0_normal:
     extend "\n突然被一个素不相识的人搭话，\n要你相信他所说的这些话，这实在是太强人所难了啊。"
     "少年继续流畅地说道。"
     window hide
-    hide 飴 with dissolve
-    hide nori with dissolve
+    hide 飴
+    hide nori
+    with dissolve
     show nori 1 at top with dissolve
     window show
     unknown "不过，还请稍微动动脑子想想。"
@@ -797,8 +808,9 @@ label day0_normal:
     show cg telephone_pole_night at center with Dissolve(0.6)
     "……不如说，我更想和他，多聊聊，\n这是我想去实现的愿望。。"
     window hide
-    hide bg with Dissolve(1.0)
-    hide cg with Dissolve(1.0)
+    hide bg
+    hide cg
+    with Dissolve(1.0)
     return
 
 label day0_hidden_1:
@@ -896,9 +908,10 @@ label day0_hidden_1:
     "……嗯，很顺利。快要睡着了啊~。"
     extend "\n虽然手脚被束缚着有些违和感……。"
     window hide
-    hide cg with dissolve
-    hide nori with dissolve
-    hide bg with dissolve
+    hide cg
+    hide nori
+    hide bg
+    with dissolve
     play sound "fx/wind_slash.ogg"
     window show
     "呜ーーーーーー嗯"
@@ -970,8 +983,9 @@ label day0_hidden_1:
     extend "\n我现在就去把这下流混蛋给打趴，然后救你！！"
     window hide
     play sound "fx/running.ogg"
-    hide yuuhi with dissolve
-    hide nori with dissolve
+    hide yuuhi
+    hide nori
+    with dissolve
     show nori 10 at top with dissolve
     window show
     nori "现在比起实验，应该优先对付夕阳……"
@@ -1003,9 +1017,10 @@ label day0_hidden_1:
     extend "\n然后把我的心偷走吧。"
     extend "\n要是一起偷走我的心也没问题啊~。"
     window hide
-    hide cg with dissolve
-    hide yuuhi with dissolve
-    hide nori with dissolve
+    hide cg
+    hide yuuhi
+    hide nori
+    with dissolve
     show nori 16 at top with dissolve
     window show
     nori "『一起偷走』……？"
@@ -1041,8 +1056,9 @@ label day0_hidden_1:
     stop music fadeout 2.5
     extend "\n自诩正义的伙伴真是太可笑了……淫荡的魔术师君。"
     window hide
-    hide nori with dissolve
-    hide cg with dissolve
+    hide nori
+    hide cg
+    with dissolve
     show yuuhi 7 at topleft with dissolve
     play music "hurry_up.ogg"
     window show
@@ -1067,16 +1083,18 @@ label day0_hidden_1:
     yuuhi "不就是换个说法而已嘛！"
     extend "\n总是用这种粗暴的手段，总有一天会露出马脚的哟~？"
     window hide
-    hide nori with dissolve
-    hide yuuhi with dissolve
+    hide nori
+    hide yuuhi
+    with dissolve
     window show
     "我被两个人丢在一边，争吵持续着。"
     "……嗯，"
     play sound "fx/eureka.ogg"
     extend "你们两个，干脆结婚不就完了么！！"
     extend "\n我一边期待着BL展开，一边想着接下来该怎么做。"
-    hide nori with dissolve
-    hide yuuhi with dissolve
+    hide nori
+    hide yuuhi
+    with dissolve
     return
 
 label day0_hidden_nori:
@@ -1105,8 +1123,9 @@ label day0_hidden_nori:
     play sound "fx/impact.ogg"
     "求之不得……。"
     window hide
-    hide cg with dissolve
-    hide yuuhi with dissolve
+    hide cg
+    hide yuuhi
+    with dissolve
     window show
     play sound "fx/triangle.ogg"
     "……。"
@@ -1123,8 +1142,9 @@ label day0_hidden_nori:
     show nori 11 with dissolve
     extend "\n哎呀？\n那边那个自称为正义魔术师的，看来是无法接受吧。"
     me "……朔，能把耳朵靠过来吗？"
-    hide nori with dissolve
-    hide yuuhi with dissolve
+    hide nori
+    hide yuuhi
+    with dissolve
     show nori 12 at top with dissolve
     nori "可以。有什么事吗？"
     "朔把耳朵凑了过来。"
@@ -1146,8 +1166,9 @@ label day0_hidden_nori:
     show yuuhi 2 at top with dissolve
     yuuhi "呜……。"
     window hide
-    hide yuuhi with dissolve
-    hide nori with dissolve
+    hide yuuhi
+    hide nori
+    with dissolve
     window show
     me "事已至此，只有将夕阳抓去，进行实验了。"
     extend "\n我刚刚想出一个好办法。"
@@ -1172,9 +1193,10 @@ label day0_hidden_nori:
     extend "\n虽然有点不甘心，但是这次我就放弃吧。"
     extend "\n大哥哥，你可以去夕阳那里了。"
     extend "\n夕阳，把这孩子带回家吧。"
-    hide yuuhi with dissolve
-    hide nori with dissolve
-    hide bg with dissolve
+    hide yuuhi
+    hide nori
+    hide bg
+    with dissolve
     play sound "fx/fall_down.ogg"
     "说完，束缚着我身体的触手就放开了我。"
     window hide
@@ -1235,8 +1257,9 @@ label day0_hidden_nori:
     "唔……。"
     "朔的挑衅让我几乎要答应了。"
     window hide
-    hide yuuhi with dissolve
-    hide cg with dissolve
+    hide yuuhi
+    hide cg
+    with dissolve
     show nori 15 at top with dissolve
     window show
     nori "那么我告诉你一件好事。"
@@ -1301,10 +1324,11 @@ label day0_hidden_nori:
     "……。"
     "黑色比基尼真是吓人一跳……。"
     extend "\n多谢款待！！"
-    hide cg with dissolve
-    hide yuuhi with dissolve
-    hide nori with dissolve
-    hide bg with dissolve
+    hide cg
+    hide yuuhi
+    hide nori
+    hide bg
+    with dissolve
     "下一刻，我突然喷鼻血了。"
     stop music fadeout 3.0
     play sound "fx/fall_down.ogg"
@@ -1319,8 +1343,9 @@ label day0_hidden_nori:
     show cg phantom_fire at center with FadeWhite(0.5)
     "趁朔的注意力都集中在我身上的时候，夕阳烧断了缠绕在自己身上的触手。"
     window hide
-    hide cg with FadeWhite(0.5)
-    hide yuuhi with FadeWhite(0.5)
+    hide cg
+    hide yuuhi
+    with FadeWhite(0.5)
     show yuuhi 11 at top with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
@@ -1438,8 +1463,9 @@ label day0_hidden_yuuhi:
     show yuuhi 2 with dissolve
     yuuhi "呜……。"
     window hide
-    hide yuuhi with dissolve
-    hide nori with dissolve
+    hide yuuhi
+    hide nori
+    with dissolve
     window show
     me "嗯……。"
     "为了尽可能与刀保持距离，我不由自主地看向了朔。"
@@ -1527,17 +1553,19 @@ label day0_hidden_yuuhi:
     extend "\n……话说，我好像意外地和朔君的兴趣很合得来啊。"
     "好了，那我就从夕阳君那，包含朔君在内的事开始来问问吧。"
     window hide
-    hide cg with dissolve
-    hide yuuhi with dissolve
-    hide nori with dissolve
+    hide cg
+    hide yuuhi
+    hide nori
+    with dissolve
     window show
     me "夕阳君，我有很多事想问你……。"
     show yuuhi 12 at top with dissolve
     yuuhi "嗯？好。"
     stop music fadeout 3.0
     window hide
-    hide yuuhi with dissolve
-    hide bg with dissolve
+    hide yuuhi
+    hide bg
+    with dissolve
     window show
     "···"
     window hide
@@ -1558,8 +1586,9 @@ label day0_hidden_yuuhi:
     yuuhi "这种事，一般人是办不到的吧？"
     "确实……一点符咒也没有，火焰就这么凭空出现。"
     window hide
-    hide cg with dissolve
-    hide yuuhi with dissolve
+    hide cg
+    hide yuuhi
+    with dissolve
     window show
     me "啊啊……"
     extend "\n这世上还有太多太多我不知道的事了……。"
@@ -1583,8 +1612,9 @@ label day0_hidden_yuuhi:
     extend "\n反正他一定会想办法逃出来的。"
     extend "\n他执着起来可是很可怕的……。"
     window hide
-    hide cg with dissolve
-    hide yuuhi with dissolve
+    hide cg
+    hide yuuhi
+    with dissolve
     window show
     me "是，是么……"
     extend "\n那，那我还有一件事想确认！\n可以去吗？"
@@ -1634,8 +1664,9 @@ label day0_hidden_yuuhi:
     play sound "fx/wow2.ogg"
     extend "变态比基尼？？"
     window hide
-    hide cg with dissolve
-    hide yuuhi with dissolve
+    hide cg
+    hide yuuhi
+    with dissolve
     show yuuhi 11 at top with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
@@ -1659,11 +1690,12 @@ label day0_hidden_yuuhi:
     show cg remarkable with Dissolve(0.2)
     play sound "fx/explosion2.ogg"
     extend "\n如果想让这个游戏变成十八禁的话，就做试试看！！！！！"
-    hide cg with Dissolve(0.8)
-    hide bg with Dissolve(0.8)
-    hide cg with Dissolve(0.8)
-    hide yuuhi with Dissolve(0.8)
-    hide nori with Dissolve(0.8)
+    hide cg
+    hide bg
+    hide cg
+    hide yuuhi
+    hide nori
+    with Dissolve(0.8)
     window hide
     window show
     "···。"
@@ -1711,9 +1743,10 @@ label day0_hidden_yuuhi:
     "就这样，我那宛如梦境般的奇妙体验拉下了帷幕。"
     window hide
     stop music fadeout 1.0
-    hide bg with Dissolve(0.8)
-    hide cg with Dissolve(0.8)
-    hide yuuhi with Dissolve(0.8)
+    hide bg
+    hide cg
+    hide yuuhi
+    with Dissolve(0.8)
     window show
     "···。"
     window hide

@@ -37,8 +37,9 @@ label event00:
     play sound "fx/boing.ogg"
     tubasa "这，这毫无关联！！"
     window hide
-    hide tomo with dissolve
-    hide tubasa with dissolve
+    hide tomo
+    hide tubasa
+    with dissolve
     stop music fadeout 1.0
     hide bg with dissolve
     return
@@ -65,17 +66,19 @@ label event01:
     play sound "fx/cute.ogg"
     tomo "啊……啊嗯……那里那里哦哦哦……。"
     extend "\n电摩棒好舒服……唔呜呜。"
-    hide sinobu with dissolve
-    hide tomo with dissolve
+    hide sinobu
+    hide tomo
+    with dissolve
     show tomo 31 at topleft
     show sinobu 19 at topright with dissolve
     sinobu "……。"
     play sound "fx/punch2.ogg"
     show cg remarkable at top with FadeWhite(0.5)
     "咻啪！"
-    hide tomo with dissolve
-    hide sinobu with dissolve
-    hide cg with dissolve
+    hide tomo
+    hide sinobu
+    hide cg
+    with dissolve
     show sinobu 6 at topright
     show tomo 20 at topleft with dissolve
     $ renpy.transition(Quake(40, 0, 0.1, 0.15), layer='master')
@@ -83,8 +86,9 @@ label event01:
     tomo "呜呀！！"
     sinobu "别在学校里发情啊。"
     window hide
-    hide sinobu with dissolve
-    hide tomo with dissolve
+    hide sinobu
+    hide tomo
+    with dissolve
     stop music fadeout 1.0
     hide bg with dissolve
     return
@@ -127,18 +131,20 @@ label event02:
     $ renpy.transition(Quake(0, 70, 0.15, 0.1), layer='master')
     sora "喂！哥，哥哥啊啊啊啊！！"
     window hide
-    hide tuki with dissolve
-    hide cg with dissolve
-    hide sora with dissolve
-    hide sintarou with dissolve
+    hide tuki
+    hide cg
+    hide sora
+    hide sintarou
+    with dissolve
     show bg washroom at center
     show sintarou 31 at top with dissolve
     window show
     sintarou "（贼笑）"
     window hide
-    hide sintarou with dissolve
-    hide tuki with dissolve
-    hide sora with dissolve
+    hide sintarou
+    hide tuki
+    hide sora
+    with dissolve
     stop music fadeout 1.0
     hide bg with dissolve
     return
@@ -172,9 +178,10 @@ label event03:
     window show
     tuki "空的○○○！！！"
     window hide
-    hide sintarou with dissolve
-    hide tomo with dissolve
-    hide tuki with dissolve
+    hide sintarou
+    hide tomo
+    hide tuki
+    with dissolve
     show bg classroom
     show tomo 21 at top with dissolve
     window show
@@ -189,9 +196,10 @@ label event03:
     play sound "fx/eureka.ogg"
     tuki "你们俩还在依赖玩具，还是太嫩了啊。"
     window hide
-    hide sintarou with dissolve
-    hide tomo with dissolve
-    hide tuki with dissolve
+    hide sintarou
+    hide tomo
+    hide tuki
+    with dissolve
     show sora 7 at topleft with dissolve
     window show
     sora "……今天是扔可燃垃圾的日子吧？"
@@ -199,8 +207,9 @@ label event03:
     show sinobu 7 at topright with dissolve
     sinobu "我也来帮忙。"
     window hide
-    hide sora with dissolve
-    hide sinobu with dissolve
+    hide sora
+    hide sinobu
+    with dissolve
     stop music fadeout 1.0
     hide bg with dissolve
     return
@@ -225,8 +234,9 @@ label event04:
     tomo "啊，翼君也来喝一口~？"
     show tubasa 8 with dissolve
     tubasa "诶？那个……这个……。"
-    hide tomo with dissolve
-    hide tubasa with dissolve
+    hide tomo
+    hide tubasa
+    with dissolve
     play sound "fx/sparkle.ogg"
     show cg blue at center
     show tubasa 24 at top with Radial(0.5)
@@ -246,8 +256,9 @@ label event04:
     play sound "fx/impact.ogg"
     extend "一定能做到！！）"
     window hide
-    hide cg with dissolve
-    hide tubasa with dissolve
+    hide cg
+    hide tubasa
+    with dissolve
     show tubasa 18 at top with dissolve
     play sound "fx/eureka.ogg"
     window show
@@ -256,8 +267,9 @@ label event04:
     $ renpy.transition(Quake(40, 0, 0.1, 0.15), layer='master')
     play sound "fx/dash.ogg"
     extend "\n呜！？"
-    hide tomo with dissolve
-    hide tubasa with dissolve
+    hide tomo
+    hide tubasa
+    with dissolve
     show tubasa 9 at topleft with dissolve
     tubasa "噗……咳咳！"
     show tomo 18 at topright with dissolve
@@ -265,8 +277,9 @@ label event04:
     play sound "fx/cute.ogg"
     tomo "翼，翼君，你没事吧！？"
     window hide
-    hide tomo with dissolve
-    hide tubasa with dissolve
+    hide tomo
+    hide tubasa
+    with dissolve
     stop music fadeout 1.0
     hide bg with dissolve
     return
@@ -285,8 +298,9 @@ label event05:
     window show
     "嗡……嗡……"
     window hide
-    hide cg with dissolve
-    hide sora with dissolve
+    hide cg
+    hide sora
+    with dissolve
     show sora 9 at top with dissolve
     $ renpy.transition(Quake(30, 0, 0.1, 0.15), layer='master')
     play sound "fx/cute3.ogg"
@@ -332,9 +346,10 @@ label event05:
     window show
     "嗡~嗡~！！！！"
     window hide
-    hide cg with dissolve
-    hide tubasa with dissolve
-    hide sora with dissolve
+    hide cg
+    hide tubasa
+    hide sora
+    with dissolve
     show cg remarkable at center
     show tubasa 7 at topright
     show sora 16 at topleft with dissolve
@@ -344,9 +359,10 @@ label event05:
     sora "为什么会变成这样啊啊啊！！！"
     tubasa "对，对不起啊啊啊啊！！！"
     window hide
-    hide sora with dissolve
-    hide tubasa with dissolve
-    hide cg with dissolve
+    hide sora
+    hide tubasa
+    hide cg
+    with dissolve
     play sound "fx/running.ogg"
     pause 0.6
     stop music fadeout 1.0
@@ -392,9 +408,10 @@ label event06:
     tomo "对对对，我感同身受！"
     extend "\n我的话，就不是咻咻，而是用嗡嗡来替代呢~。"
     window hide
-    hide tomo with dissolve
-    hide sintarou with dissolve
-    hide bg with dissolve
+    hide tomo
+    hide sintarou
+    hide bg
+    with dissolve
     show bg classroom at center
     show sora 12 at top with Dissolve(0.8)
     window show
@@ -432,8 +449,9 @@ label event07:
     play sound "fx/cute2.ogg"
     extend "\n只限定友君。"
     window hide
-    hide tomo with dissolve
-    hide tubasa with dissolve
+    hide tomo
+    hide tubasa
+    with dissolve
     show sintarou 9 at top with dissolve
     window show
     play sound "fx/eureka.ogg"
@@ -462,17 +480,19 @@ label event07:
     sintarou "然后，校长就彻底解放，\n往我这边扑过来。"
     play sound "fx/cute3.ogg"
     tubasa "……啊呜啊呜。"
-    hide 効果ＣＧ with dissolve
-    hide tomo with dissolve
-    hide tubasa with dissolve
-    hide sintarou with dissolve
+    hide 効果ＣＧ
+    hide tomo
+    hide tubasa
+    hide sintarou
+    with dissolve
     show tomo 6 at top with dissolve
     tomo "好厉害~。我们的校长真行啊……"
     show tomo 11 with dissolve
     play sound "fx/wow2.ogg"
     extend "\n然后呢然后呢！？"
-    hide tomo with dissolve
-    hide tubasa with dissolve
+    hide tomo
+    hide tubasa
+    with dissolve
     show tomo 25 at topleft
     show tubasa 3 at topright with dissolve
     $ renpy.transition(Quake(0, 40, 0.1, 0.15), layer='master')
@@ -488,9 +508,10 @@ label event07:
     play sound "fx/boing.ogg"
     tubasa "总之不可以！！！"
     window hide
-    hide tomo with dissolve
-    hide tubasa with dissolve
-    hide sintarou with dissolve
+    hide tomo
+    hide tubasa
+    hide sintarou
+    with dissolve
     stop music fadeout 1.0
     hide bg with dissolve
     return
@@ -514,15 +535,17 @@ label event08:
     extend "\n毕竟，一个男的进那种店还是会不好意思的。"
     show tuki 3 with dissolve
     tuki "……。"
-    hide tuki with dissolve
-    hide sora with dissolve
+    hide tuki
+    hide sora
+    with dissolve
     play sound "fx/sparkle.ogg"
     show cg adult at center
     show tuki 4 at top with Radial(0.5)
     extend "如果空是女生的话，现在一定已经有孩子了…。"
-    hide tuki with dissolve
-    hide sora with dissolve
-    hide cg with dissolve
+    hide tuki
+    hide sora
+    hide cg
+    with dissolve
     show sora 17 at top with dissolve
     play sound "fx/dash.ogg"
     sora "变态！！！"
@@ -531,9 +554,10 @@ label event08:
     show cg dark at center
     show tuki 13 at top with Dissolve(0.3)
     tuki "（惊！）"
-    hide sora with dissolve
-    hide tuki with dissolve
-    hide cg with dissolve
+    hide sora
+    hide tuki
+    hide cg
+    with dissolve
     window hide
     stop music fadeout 0.5
     hide bg with dissolve
@@ -548,8 +572,9 @@ label event09:
     show saburo 5 with dissolve
     window show
     saburo "穗海~"
-    hide sakuya with dissolve
-    hide saburo with dissolve
+    hide sakuya
+    hide saburo
+    with dissolve
     show sakuya 19 at top with dissolve
     sakuya "……Zzz……Zzz"
     hide sakuya with dissolve
@@ -561,8 +586,9 @@ label event09:
     show sakuya 25 at topleft with dissolve
     sakuya "嗯……啊，知道了……等一下…。"
     window hide
-    hide saburo with dissolve
-    hide sakuya with dissolve
+    hide saburo
+    hide sakuya
+    with dissolve
     show sakuya 19 at top with dissolve
     window show
     play sound "fx/boing.ogg"
@@ -572,8 +598,9 @@ label event09:
     show sakuya 32 with Radial(0.5)
     sakuya "……啊。"
     window hide
-    hide sakuya with dissolve
-    hide cg with dissolve
+    hide sakuya
+    hide cg
+    with dissolve
     show saburo 5 at topright with dissolve
     window show
     saburo "嗯？怎么了~穗海。"
@@ -591,8 +618,9 @@ label event09:
     play sound "fx/cute3.ogg"
     saburo "嘴好毒！！好可怕！！"
     window hide
-    hide saburo with dissolve
-    hide sakuya with dissolve
+    hide saburo
+    hide sakuya
+    with dissolve
     stop music fadeout 1.0
     hide bg with dissolve
     return
@@ -613,9 +641,10 @@ label event10:
     extend "\n呃，这里是右边的项移项，用解题公式……。"
     window hide
     play music "fx/footsteps.ogg"
-    hide tomo with dissolve
-    hide sinobu with dissolve
-    hide bg with dissolve
+    hide tomo
+    hide sinobu
+    hide bg
+    with dissolve
     window show
     "···"
     window hide
@@ -657,8 +686,9 @@ label event10:
     extend "\n你也懂行了啊！！"
     extend "\n友亲，合格了！"
     window hide
-    hide tomo with dissolve
-    hide sintarou with dissolve
+    hide tomo
+    hide sintarou
+    with dissolve
     show sinobu 13 at top with dissolve
     window show
     play sound "fx/triangle.ogg"
@@ -676,10 +706,11 @@ label event10:
     $ renpy.transition(Quake(0, 60, 0.1, 0.15), layer='master')
     "友＆慎太郎" "咿！！？"
     window hide
-    hide tomo with dissolve
-    hide sinobu with dissolve
-    hide sintarou with dissolve
-    hide cg with dissolve
+    hide tomo
+    hide sinobu
+    hide sintarou
+    hide cg
+    with dissolve
     stop music fadeout 1.0
     hide bg with dissolve
     return
@@ -732,16 +763,18 @@ label event11:
     sora "结果还是……"
     sintarou "恢复原状……。"
     window hide
-    hide sora with dissolve
-    hide sintarou with dissolve
+    hide sora
+    hide sintarou
+    with dissolve
     show tomo 9 at top with Dissolve(0.8)
     play sound "fx/triangle.ogg"
     window show
     tomo "呜呜呜……。"
     window hide
-    hide sora with Dissolve(0.7)
-    hide sintarou with Dissolve(0.7)
-    hide tomo with Dissolve(0.7)
+    hide sora
+    hide sintarou
+    hide tomo
+    with Dissolve(0.7)
     stop music fadeout 1.0
     hide bg with dissolve
     return
@@ -776,8 +809,9 @@ label event12:
     play sound "fx/explosion2.ogg"
     extend "\n我，我的本能快给我冷静下来！！！冷静下来啊！！！！）"
     window hide
-    hide cg with dissolve
-    hide saburo with dissolve
+    hide cg
+    hide saburo
+    with dissolve
     show sakuya 26 at topleft with dissolve
     window show
     sakuya "喂，猫山……你从刚才开始就喘得厉害啊。"
@@ -790,8 +824,9 @@ label event12:
     show sakuya 11 with dissolve
     sakuya "啊？"
     window hide
-    hide saburo with dissolve
-    hide sakuya with dissolve
+    hide saburo
+    hide sakuya
+    with dissolve
     stop music fadeout 1.0
     hide bg with dissolve
     return
@@ -828,8 +863,9 @@ label event13:
     extend "\n你要是这个态度，那我们法庭见！"
     extend "\n记得找个好律师！！"
     window hide
-    hide sakuya with dissolve
-    hide tomo with dissolve
+    hide sakuya
+    hide tomo
+    with dissolve
     window show
     play sound "fx/wind_slash.ogg"
     sinobu "……没有到那种程度。"
@@ -849,9 +885,10 @@ label event13:
     extend "裁！！！"
     play sound "fx/impact_japanese.ogg"
     window hide
-    hide tomo with dissolve
-    hide cg with dissolve
-    hide sakuya with dissolve
+    hide tomo
+    hide cg
+    hide sakuya
+    with dissolve
     show sinobu 24 at top with dissolve
     window show
     sinobu "判决已经下达了。"
@@ -886,9 +923,10 @@ label event14:
     extend "\n……真好啊，绫濑君。"
     extend "\n总是能和友君待在一起……。"
     window hide
-    hide bg with dissolve
-    hide tubasa with dissolve
-    hide cg with dissolve
+    hide bg
+    hide tubasa
+    hide cg
+    with dissolve
     play sound "fx/heartbeat.ogg"
     show bg dark at center
     show tubasa 38 at top with Dissolve(0.9)
@@ -922,9 +960,10 @@ label event15:
     show sora 3 with dissolve
     extend "\n而且6和9的数字形状还是正对的哦~。"
     window hide
-    hide sintarou with dissolve
-    hide tomo with dissolve
-    hide sora with dissolve
+    hide sintarou
+    hide tomo
+    hide sora
+    with dissolve
     show tomo 15 at topleft with dissolve
     window show
     tomo "6和……"
@@ -941,9 +980,10 @@ label event15:
     show sintarou 7 with dissolve
     tomo_and_shin "69，69，69~♪"
     window hide
-    hide sintarou with dissolve
-    hide tomo with dissolve
-    hide cg with dissolve
+    hide sintarou
+    hide tomo
+    hide cg
+    with dissolve
     show tuki 2 at topleft
     show sora 15 at topright with dissolve
     $ renpy.transition(Quake(0, 40, 0.1, 0.15), layer='master')
@@ -957,8 +997,9 @@ label event15:
     play sound "fx/cute2.ogg"
     sora "笨蛋啊啊啊啊啊啊啊啊啊啊啊！！！！！！"
     window hide
-    hide sora with Dissolve(0.7)
-    hide tuki with Dissolve(0.7)
+    hide sora
+    hide tuki
+    with Dissolve(0.7)
     stop music fadeout 1.0
     hide bg with Dissolve(0.7)
     return
@@ -988,8 +1029,9 @@ label event16:
     tomo "呃！技安！！"
     show tomo 31 with dissolve
     extend "\n我，我先出去了~！"
-    hide tomo with dissolve
-    hide sakuya with dissolve
+    hide tomo
+    hide sakuya
+    with dissolve
     show sakuya 19 at top with dissolve
     sakuya "……虽然不太想在那家伙之后用，但也没办法……。"
     window hide
@@ -1023,8 +1065,9 @@ label event17:
     hide saburo with dissolve
     show sakuya 31m at top with dissolve
     sakuya "……。"
-    hide saburo with dissolve
-    hide sakuya with dissolve
+    hide saburo
+    hide sakuya
+    with dissolve
     show saburo 12m at topright
     show sakuya 37m at topleft with dissolve
     $ renpy.transition(Quake(30, 0, 0.1, 0.15), layer='master')
@@ -1080,11 +1123,12 @@ label event18:
     tomo "啊！！\n忍的头顶上方，出现「电动战队城市英雄」的玩偶了！！！"
     sinobu "？"
     window hide
-    hide tomo with dissolve
-    hide sinobu with dissolve
-    hide sintarou with dissolve
-    hide cg with dissolve
-    hide bg with dissolve
+    hide tomo
+    hide sinobu
+    hide sintarou
+    hide cg
+    hide bg
+    with dissolve
     window show
     "咔嚓"
     window hide
@@ -1098,9 +1142,10 @@ label event18:
     show sinobu 2 at top with dissolve
     sinobu "怎么回事……？"
     window hide
-    hide tomo with Dissolve(0.7)
-    hide sinobu with Dissolve(0.7)
-    hide sintarou with Dissolve(0.7)
+    hide tomo
+    hide sinobu
+    hide sintarou
+    with Dissolve(0.7)
     stop music fadeout 1.0
     hide bg with Dissolve(0.8)
     return
