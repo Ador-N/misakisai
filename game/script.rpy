@@ -18,16 +18,6 @@ init -1:
     default ending = ""
     default persistent.endings = set()
     default persistent.seen_single_ending = False
-    default ask_name_prompts = {
-        "tomo": _("学长～～！告诉我你叫什么名字嘛！"),
-        "tubasa": _("那、那个……可以问一下你的名字吗……？"),
-        "sinobu": _("名字？"),
-        "tuki": _("报上名来。"),
-        "sora": _("大哥哥，你叫什么名字呀？"),
-        "sintarou": _("喂～那边超帅的大哥哥！告诉咱你的名字呗♪"),
-        "sakuya": _("名字！叫什么？"),
-        "saburo": _("喂～喂～能不能告诉咱你叫啥呀？")
-    }
 
     default random_event_id = -1
 
@@ -107,14 +97,14 @@ label logic_day0:
 
     python:
         ask_name_prompts = {
-            "tomo": _("前辈～～！告诉我你叫什么名字嘛！"),
+            "tomo": _("前辈~~！告诉我你叫什么名字嘛！"),
             "tubasa": _("那、那个……可以问一下你的名字吗……？"),
             "sinobu": _("名字？"),
             "tuki": _("报上名来。"),
             "sora": _("大哥哥，你叫什么名字呀？"),
-            "sintarou": _("喂～那边超帅的大哥哥！告诉咱你的名字呗♪"),
+            "sintarou": _("喂~那边超帅的大哥哥！告诉咱你的名字呗♪"),
             "sakuya": _("名字！叫什么？"),
-            "saburo": _("喂～喂～能不能告诉咱你叫啥呀？")
+            "saburo": _("喂~喂~能不能告诉咱你叫啥呀？")
         }
 
     window hide
