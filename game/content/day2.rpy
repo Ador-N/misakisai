@@ -100,8 +100,9 @@ label day2_1_tomo:
     "果然眼睛圆滚滚的很可爱啊……。"
     extend "\n呆住的我近距离看着友这么想道。"
     window hide
-    hide cg with dissolve
-    hide tomo with dissolve
+    hide cg
+    hide tomo
+    with dissolve
     play music "going_to_school.ogg"
     show tomo 26 at top with dissolve
     window show
@@ -165,8 +166,9 @@ label day2_1_tomo:
     tomo "别，别，"
     me "好吗？"
     window hide
-    hide tomo with dissolve
-    hide cg with dissolve
+    hide tomo
+    hide cg
+    with dissolve
     show tubasa 18 at top with dissolve
     $ renpy.transition(Quake(0, 60, 0.1, 0.15), layer='master')
     play sound "fx/cute.ogg"
@@ -206,8 +208,9 @@ label day2_1_tomo:
     show tubasa 14 with dissolve
     tubasa "……。"
     "友害羞地说道，而翼则露出一副复杂的表情\n看向了我这边。"
-    hide tubasa with dissolve
-    hide tomo with dissolve
+    hide tubasa
+    hide tomo
+    with dissolve
     show tubasa 10 at top with dissolve
     "我对着翼耳语。"
     me "~~~~~。"
@@ -271,8 +274,9 @@ label day2_1_sintarou:
     extend "\n呆滞的我，在慎太郎的身边看着他。"
     window hide
     play music "going_to_school.ogg"
-    hide sintarou with dissolve
-    hide cg with dissolve
+    hide sintarou
+    hide cg
+    with dissolve
     show sintarou 11 at top with dissolve
     window show
     sintarou "哎呀呀，这种事情的话只在二次元的世界里就好了啊。"
@@ -334,9 +338,10 @@ label day2_1_sintarou:
     extend "我们可是连彼此的黑痣都数得过来的好伙伴啊。"
     show saburo 25 with dissolve
     saburo "是啊……\n那天晚上我们还一起数了呢……那个夜晚好热。"
-    hide cg with Dissolve(0.2)
-    hide sintarou with Dissolve(0.2)
-    hide saburo with Dissolve(0.2)
+    hide cg
+    hide sintarou
+    hide saburo
+    with Dissolve(0.2)
     show saburo 3 at topright with Dissolve(0.2)
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/dash.ogg"
@@ -485,8 +490,9 @@ label day2_1_sinobu:
     extend "\n好不容易能和如此可爱的男孩子一起上学。"
     extend "\n我一定要好好享受这个时间！！"
     window hide
-    hide cg with dissolve
-    hide sinobu with dissolve
+    hide cg
+    hide sinobu
+    with dissolve
     window show
     me "忍，忍君，你有什么喜欢和不喜欢的吗？"
     show sinobu 3 at top with dissolve
@@ -509,8 +515,9 @@ label day2_1_sinobu:
     play sound "fx/tadaa.ogg"
     extend "\n加油加油[player_name]我一定要加油！！！"
     window hide
-    hide cg with Dissolve(0.2)
-    hide sinobu with Dissolve(0.2)
+    hide cg
+    hide sinobu
+    with Dissolve(0.2)
     window show
     me "那，那你喜欢玩什么游戏呢？"
     show sinobu 2 at top with dissolve
@@ -612,8 +619,9 @@ label day2_1_tubasa:
     show tubasa 34 with dissolve
     extend "\n这样的话，友君就一辈子……我是说说的……啊哈哈。"
     window hide
-    hide tubasa with dissolve
-    hide cg with dissolve
+    hide tubasa
+    hide cg
+    with dissolve
     $ renpy.transition(Quake(0, 100, 0.15, 0.069), layer='master')
     play sound "fx/shock.ogg"
     window show
@@ -723,9 +731,10 @@ label day2_1_tubasa:
     tubasa "呜呜……他们看起来好开心啊"
     me "那两个人经常待在一起，关系果然很好吧？"
     window hide
-    hide tomo with dissolve
-    hide sinobu with dissolve
-    hide cg with dissolve
+    hide tomo
+    hide sinobu
+    hide cg
+    with dissolve
     show tubasa 14 at top with dissolve
     window show
     tubasa "何止是关系好……那两个人是青梅竹马啊。"
@@ -876,8 +885,9 @@ label day2_1_futago:
     me "不，不会的！！！\n倒不如说，那样更好呢！！！！！"
     show tuki 5 with dissolve
     tuki "是吗……"
-    hide tuki with dissolve
-    hide sora with dissolve
+    hide tuki
+    hide sora
+    with dissolve
     show tuki 17 at top with dissolve
     extend "嗯？"
     "盯……"
@@ -888,8 +898,9 @@ label day2_1_futago:
     tuki "空，[player_surname]君的眼睛，你看。"
     show sora 4 with dissolve
     sora "嗯~？"
-    hide tuki with dissolve
-    hide sora with dissolve
+    hide tuki
+    hide sora
+    with dissolve
     show sora 28 at top with dissolve
     extend "……啊。"
     hide sora with dissolve
@@ -909,8 +920,9 @@ label day2_1_futago:
     tuki "很可疑呢。"
     show cg dark at center with Dissolve(0.3)
     play sound "fx/shock.ogg"
-    hide bg with dissolve
-    hide tuki with dissolve
+    hide bg
+    hide tuki
+    with dissolve
     "这，这是怎么回事！？"
     extend "\n糟糕……这样下去的话，好不容易得到的能观摩少年崭新兜裆布的机会\n就要溜走了！！"
     extend "\n必须得想办法啊！！"
@@ -933,9 +945,10 @@ label day2_1_futago:
     extend "\n多么敏锐的洞察力啊……。"
     extend "\n小的诚惶诚恐，赤峰兄弟……。"
     window hide
-    hide cg with dissolve
-    hide tuki with dissolve
-    hide sora with dissolve
+    hide cg
+    hide tuki
+    hide sora
+    with dissolve
     window show
     me "我，我认输了……。"
     extend "\n话说回来，你们两个，是怎么知道的？"
@@ -953,10 +966,11 @@ label day2_1_futago:
     "因为说话说得太投入，我们上学要迟到了，便向学校跑去。"
     window hide
     stop music fadeout 0.5
-    hide bg with dissolve
-    hide cg with dissolve
-    hide tuki with dissolve
-    hide sora with dissolve
+    hide bg
+    hide cg
+    hide tuki
+    hide sora
+    with dissolve
     return
 
 label day2_1_sakuya:
@@ -990,8 +1004,9 @@ label day2_1_sakuya:
     "生气时严肃的脸也很可爱啊……这种表情也会勾起我的欲望……。"
     extend "\n呆滞的我在近距离看着作哉时这么想着。"
     window hide
-    hide cg with dissolve
-    hide sakuya with dissolve
+    hide cg
+    hide sakuya
+    with dissolve
     play music "going_to_school.ogg"
     show sakuya 20 at top with dissolve
     window show
@@ -1030,8 +1045,9 @@ label day2_1_sakuya:
     sakuya "……。"
     me "……。"
     window hide
-    hide sakuya with dissolve
-    hide cg with dissolve
+    hide sakuya
+    hide cg
+    with dissolve
     show sakuya 1 at top with dissolve
     window show
     play sound "fx/boing.ogg"
@@ -1342,8 +1358,9 @@ label day2_1_saburo:
     show bg sky
     "在唧唧喳喳的女学生中，只有三朗一个人呆呆地站在一旁。"
     me "小三朗，你就老实回家吧。"
-    hide cg with Dissolve(0.3)
-    hide saburo with Dissolve(0.3)
+    hide cg
+    hide saburo
+    with Dissolve(0.3)
     play sound "fx/shock.ogg"
     saburo "呜哇啊啊啊啊！！！！！\n不管走到哪里，人们的话题都是gay和homo！！！！"
     extend "\n我是不会承认这种事的啊啊啊啊啊！！！"
@@ -1403,8 +1420,9 @@ label day2_2:
     hide tomo with dissolve
     show sintarou 17 at topleft with dissolve
     sintarou "我受够了被R十八束缚的生活啊……。"
-    hide saburo with dissolve
-    hide sintarou with dissolve
+    hide saburo
+    hide sintarou
+    with dissolve
     "啊哈哈哈。我学生时代也这么想过。"
     "但是年轻人啊……等你们变成大人后，\n就会深刻感受到以前学过的那些课程将成为你们的精神食粮啊~。"
     extend "\n等你们成为大人后，就很难复习以前学过的课程了，\n所以你们现在必须好好学习，掌握知识，否则会很麻烦的~！！"
@@ -1434,9 +1452,10 @@ label day2_2:
     extend "\n我上次考试把考试范围搞错了，\n结果考的很差……。"
     show sora 9 with dissolve
     sora "这，这可真是很严重的失败呢……。"
-    hide tubasa with dissolve
-    hide sora with dissolve
-    hide tuki with dissolve
+    hide tubasa
+    hide sora
+    hide tuki
+    with dissolve
     "这样看来，学生也挺不容易的。"
     extend "\n每天被学习和社团活动追着跑，怎么做都做不完。"
     extend "\n某种意义上，这还挺幸福的。"
@@ -1477,8 +1496,9 @@ label day2_design:
     show sintarou 13 with dissolve
     sintarou "我们接下来就要前往现场采购了哦。"
     window hide
-    hide tomo with dissolve
-    hide sintarou with dissolve
+    hide tomo
+    hide sintarou
+    with dissolve
     show bg shoe_locker with dissolve
     pause 0.5
     show bg school_route with dissolve
@@ -1537,9 +1557,10 @@ label day2_design:
     extend "\n更别提他们周围的人也用好奇的眼光看着我。"
     stop sound fadeout 0.5
     window hide
-    hide sintarou with dissolve
-    hide tomo with dissolve
-    hide bg with dissolve
+    hide sintarou
+    hide tomo
+    hide bg
+    with dissolve
     stop music fadeout 0.5
     show bg train_interior at center with dissolve
     play sound "train.ogg"
@@ -1552,8 +1573,9 @@ label day2_design:
     sintarou "不不~\n我们之中精神上最疲劳的就是\n[player_name]君了吧，"
     extend "\n请，请坐。"
     me "呜……"
-    hide sintarou with dissolve
-    hide tomo with dissolve
+    hide sintarou
+    hide tomo
+    with dissolve
     show bg train_interior_seat with dissolve
     "我无言以对，\n只能坐下了。"
     "虽然他们都很成熟，可刚才我说的那句话是不是太吓人了……。"
@@ -1575,10 +1597,11 @@ label day2_design:
     "为了不让周围的人察觉到青春期热血贲张的欲念，我极力让自己举止自然"
     extend "\n在去梅咲的整段路程里，我都沉浸在幸福之中"
     window hide
-    hide tomo with dissolve
-    hide sintarou with dissolve
-    hide cg with dissolve
-    hide bg with dissolve
+    hide tomo
+    hide sintarou
+    hide cg
+    hide bg
+    with dissolve
     stop music fadeout 0.5
     show bg umesaki at center with Radial(1.0)
     pause 0.5
@@ -1636,9 +1659,10 @@ label day2_design:
     me "嗯，那我们就出发吧。"
     "我们走向附近的购物中心。"
     window hide
-    hide tomo with dissolve
-    hide sintarou with dissolve
-    hide bg with dissolve
+    hide tomo
+    hide sintarou
+    hide bg
+    with dissolve
     pause 0.3
     play sound "fx/crowd_noise.ogg"
     show bg shopping_mall_exterior at center with Radial(1.5)
@@ -1667,10 +1691,11 @@ label day2_design:
     show sintarou 7 with dissolve
     "友＆慎太郎" "好！！"
     window hide
-    hide tomo with dissolve
-    hide sintarou with dissolve
-    hide bg with dissolve
-    hide cg with dissolve
+    hide tomo
+    hide sintarou
+    hide bg
+    hide cg
+    with dissolve
     stop music fadeout 1.0
     show bg shopping_mall at center with Dissolve(1.0)
     play music "umesaki2.ogg"
@@ -1720,9 +1745,10 @@ label day2_design:
     show sintarou 16 with dissolve
     tomo_and_shin "不要那么说嘛……。"
     window hide
-    hide tomo with dissolve
-    hide sintarou with dissolve
-    hide bg with dissolve
+    hide tomo
+    hide sintarou
+    hide bg
+    with dissolve
     show bg shopping_mall_interior at center with Dissolve(1.5)
     show tomo 26 at topleft with dissolve
     window show
@@ -1765,9 +1791,10 @@ label day2_design:
     extend "\n这里店都关门了。"
     "我们离开了购物中心。"
     window hide
-    hide tomo with dissolve
-    hide sintarou with dissolve
-    hide bg with dissolve
+    hide tomo
+    hide sintarou
+    hide bg
+    with dissolve
     show bg downtown with Dissolve(1.0)
     window show
     "走了一阵子之后，慎太郎指了指什么东西。"
@@ -1781,9 +1808,10 @@ label day2_design:
     extend "\n在那里的话，应该能在预算内买到所有人的衣服！"
     me "好！就去那里吧。"
     window hide
-    hide sintarou with dissolve
-    hide tomo with dissolve
-    hide bg with dissolve
+    hide sintarou
+    hide tomo
+    hide bg
+    with dissolve
     show bg clothing_store with Dissolve(1.0)
     window show
     "店内商品杂乱无章的排列着，没有统一感。"
@@ -1809,8 +1837,9 @@ label day2_design:
     tomo "是啊。"
     me "那么，就这么决定了！"
     extend "\n那么……。"
-    hide sintarou with dissolve
-    hide tomo with dissolve
+    hide sintarou
+    hide tomo
+    with dissolve
     return
 
 label day2_layout:
@@ -1840,8 +1869,9 @@ label day2_layout:
     sinobu "如果要实地考察的话，这里非常适合，我觉得会是很好的一个地方。"
     extend "\n那么，出发吧。"
     window hide
-    hide sinobu with dissolve
-    hide tubasa with dissolve
+    hide sinobu
+    hide tubasa
+    with dissolve
     stop music fadeout 2.0
     show bg school_route with dissolve
     pause 0.5
@@ -1900,8 +1930,9 @@ label day2_layout:
     extend "\n噫噫噫，好可怕啊！！"
     me "没事的！"
     extend "\n好了，走吧。"
-    hide sinobu with dissolve
-    hide tubasa with dissolve
+    hide sinobu
+    hide tubasa
+    with dissolve
     play sound "fx/running.ogg"
     hide bg with dissolve
     "我拖着胆怯的翼进入了大楼，坐上电梯。\n向四楼进发。"
@@ -1946,8 +1977,9 @@ label day2_layout:
     show sinobu 27 with dissolve
     "忍＆翼" "……。"
     "我留下满脸惊讶的两人，"
-    hide sinobu with dissolve
-    hide tubasa with dissolve
+    hide sinobu
+    hide tubasa
+    with dissolve
     play sound "fx/running.ogg"
     show bg dark with dissolve
     "走向里面的门。"
@@ -1981,8 +2013,9 @@ label day2_layout:
     tubasa "这，这是怎么回事……。"
     "说起来……「Madchen」在德语中的意思是「女仆」。"
     extend "\n也就是说，「Madchen Cafe」是……"
-    hide sinobu with dissolve
-    hide tubasa with dissolve
+    hide sinobu
+    hide tubasa
+    with dissolve
     $ renpy.transition(Quake(0, 100, 0.1, 0.065), layer='master')
     play sound "fx/boing.ogg"
     extend "\n女仆咖啡厅！？？！"
@@ -2012,10 +2045,11 @@ label day2_layout:
     show tubasa 17 at topright
     show sinobu 28 at topleft with dissolve
     sintarou "诶……？"
-    hide sinobu with dissolve
-    hide tubasa with dissolve
-    hide cg with dissolve
-    hide bg with dissolve
+    hide sinobu
+    hide tubasa
+    hide cg
+    hide bg
+    with dissolve
     "···"
     window hide
     show bg meffen_cafe at center with dissolve
@@ -2130,8 +2164,9 @@ label day2_layout:
     extend "\n没什么……。"
     "但是，那冰冷的视线让我受不了了……！！"
     window hide
-    hide cg with dissolve
-    hide bg with dissolve
+    hide cg
+    hide bg
+    with dissolve
     stop music fadeout 0.5
     show bg meffen_cafe_evening at center with dissolve
     play music "cute_silly.ogg"
@@ -2154,8 +2189,9 @@ label day2_layout:
     tubasa "这样啊……"
     extend "\n总之今天的工作平安结束了，太好了……。"
     me "哎呀……话说回来，\n刚才穿的女仆装真的很适合你们！"
-    hide sinobu with dissolve
-    hide tubasa with dissolve
+    hide sinobu
+    hide tubasa
+    with dissolve
     return
 
 label day2_cooking:
@@ -2199,10 +2235,11 @@ label day2_cooking:
     show cg school_building_morning at center with dissolve
     "不对，怎么可能有这种事啊。\n啊哈哈哈哈哈哈哈"
     window hide
-    hide bg with dissolve
-    hide tuki with dissolve
-    hide sora with dissolve
-    hide cg with dissolve
+    hide bg
+    hide tuki
+    hide sora
+    hide cg
+    with dissolve
     window show
     "···"
     window hide
@@ -2248,8 +2285,9 @@ label day2_cooking:
     sora "豪宅什么的，太夸张了。"
     extend "\n这里是你的朋友的家，不必客气，当成自己家就好。"
     window hide
-    hide tuki with dissolve
-    hide sora with dissolve
+    hide tuki
+    hide sora
+    with dissolve
     play sound "fx/sliding_door.ogg"
     window show
     servant "请恕我打扰了。请用茶。"
@@ -2273,16 +2311,18 @@ label day2_cooking:
     extend "\n如果还有什么问题，请随时叫我。\n那么，我就先告辞了。"
     play sound "fx/sliding_door.ogg"
     "佣人这么说着，便离开了房间。"
-    hide tuki with dissolve
-    hide sora with dissolve
+    hide tuki
+    hide sora
+    with dissolve
     window hide
     show tuki 4 at top with dissolve
     window show
     tuki "好了。\n那我们赶紧去厨房制定菜单吧。"
     window hide
-    hide tuki with dissolve
-    hide sora with dissolve
-    hide bg with dissolve
+    hide tuki
+    hide sora
+    hide bg
+    with dissolve
     play sound "fx/sliding_door.ogg"
     show bg akamine_kitchen at center with Radial(0.5)
     window show
@@ -2295,8 +2335,9 @@ label day2_cooking:
     sora "我们平时并没有这么频繁地使用，\n所以没有好好地保养过。"
     extend "\n可能看起来不干净，还请见谅。"
     me "是，是吗……不，已经非常干净了！！"
-    hide tuki with dissolve
-    hide sora with dissolve
+    hide tuki
+    hide sora
+    with dissolve
     extend "\n如果这样算脏的话，那我家厨房又算什么……。"
     "诚，诚惶诚恐，赤峰家主人……。"
     extend "\n这么大的房子，厨房却只有这么小。"
@@ -2316,9 +2357,10 @@ label day2_cooking:
     tuki "嗯。"
     "我们就这样分头开始了工作。"
     window hide
-    hide tuki with dissolve
-    hide sora with dissolve
-    hide bg with dissolve
+    hide tuki
+    hide sora
+    hide bg
+    with dissolve
     show bg akamine_kitchen at center with dissolve
     window show
     "我参考烹饪书籍，和月一起做菜。"
@@ -2403,8 +2445,9 @@ label day2_cooking:
     show sora 13 at topright with dissolve
     sora "并不是只要我们觉得满意就可以了。"
     extend "\n[player_name]君的话我们记在心上了。再试一次吧。"
-    hide tuki with dissolve
-    hide sora with dissolve
+    hide tuki
+    hide sora
+    with dissolve
     "说完，我们回到了各自的位置，重新开始开发。"
     window hide
     hide bg with dissolve
@@ -2427,8 +2470,9 @@ label day2_cooking:
     sora "嗯！"
     extend "\n在做菜的时候，一直在看着很好吃的料理，\n肚子好饿。"
     extend "\n我开动了！"
-    hide sora with dissolve
-    hide tuki with dissolve
+    hide sora
+    hide tuki
+    with dissolve
     "然后，我们开始吃试作品。"
     window hide
     show sora 3 at topright with dissolve
@@ -2467,9 +2511,10 @@ label day2_cooking:
     play sound "fx/sparkle.ogg"
     extend "\n赤峰家……太棒了！！"
     window hide
-    hide tuki with dissolve
-    hide sora with dissolve
-    hide bg with dissolve
+    hide tuki
+    hide sora
+    hide bg
+    with dissolve
     show bg akamine_house1_evening at center with Dissolve(0.8)
     window show
     "点到为止地试吃过之后，剩下的就交给佣人们，然后我们就开始收拾了。"
@@ -2483,8 +2528,9 @@ label day2_cooking:
     window show
     sora "……嗯，里面有个黑色的……？"
     window hide
-    hide sora with dissolve
-    hide bg with dissolve
+    hide sora
+    hide bg
+    with dissolve
     window show
     "……。"
     show bg remarkable at center with FadeWhite(0.5)
@@ -2548,8 +2594,9 @@ label day2_supply:
     sakuya "我们不是每天都有来学校嘛。"
     extend "\n你这句话只适用今天而已啦。"
     me "唔，话是这么说没错……话是这么说没错……！！"
-    hide sakuya with dissolve
-    hide saburo with dissolve
+    hide sakuya
+    hide saburo
+    with dissolve
     play sound "fx/impact.ogg"
     "对我来说，每一天的校园生活都是很重要的！！"
     extend "\n机会难得，我一秒钟都不想浪费！！！"
@@ -2573,8 +2620,9 @@ label day2_supply:
     extend "\n我就知道……这两个家伙太现实了！"
     me "当然是真的！！"
     extend "\n要是有人想一起去的话，就抓住这根手指哦！"
-    hide sakuya with dissolve
-    hide saburo with dissolve
+    hide sakuya
+    hide saburo
+    with dissolve
     stop music fadeout 0.5
     "……"
     extend "嗯？"
@@ -2585,8 +2633,9 @@ label day2_supply:
     show saburo 10 at topright with dissolve
     saburo "我们先去鞋柜了~！"
     play sound "fx/sliding_door.ogg"
-    hide sakuya with dissolve
-    hide saburo with dissolve
+    hide sakuya
+    hide saburo
+    with dissolve
     "说完，两个人就走出了教室。"
     show bg dark with Dissolve(0.4)
     play sound "fx/triangle.ogg"
@@ -2631,9 +2680,10 @@ label day2_supply:
     "我马上前往我常去的咖啡店。"
     stop music fadeout 2.0
     window hide
-    hide sakuya with dissolve
-    hide saburo with dissolve
-    hide bg with dissolve
+    hide sakuya
+    hide saburo
+    hide bg
+    with dissolve
     pause 0.4
     play music "fx/tsubame.ogg"
     show bg sky at center with FadeWhite(0.5)
@@ -2676,8 +2726,9 @@ label day2_supply:
     extend "\n不就是一直梦想着能在这里喝茶吗？"
     show saburo 16 with dissolve
     saburo "这，这个嘛……"
-    hide sakuya with dissolve
-    hide saburo with dissolve
+    hide sakuya
+    hide saburo
+    with dissolve
     "我们刚就座，老板就走了过来。"
     shopkeeper "先请客人喝杯冷饮吧。"
     extend "\n平时来我们店的客人多半都比较年长，像你们这样的年轻人可不多见啊。\n我也是由衷感到高兴。"
@@ -2694,8 +2745,9 @@ label day2_supply:
     saburo "那个那个！！"
     extend "\n这个！我要这个！！"
     "三朗指着菜单向老板点单。"
-    hide sakuya with dissolve
-    hide saburo with dissolve
+    hide sakuya
+    hide saburo
+    with dissolve
     shopkeeper "好的，那您要的是大吉岭奶茶对吧？\n好的，我知道了。"
     extend "\n请您稍等片刻。"
     "老板说完后就进入店铺的后方。"
@@ -2714,8 +2766,9 @@ label day2_supply:
     extend "\n喝的东西还有涩的吗？？"
     me "不，不是的，你误会了……。"
     extend "\n嗯……总之你喝喝看就知道了。"
-    hide sakuya with dissolve
-    hide saburo with dissolve
+    hide sakuya
+    hide saburo
+    with dissolve
     "在我们聊天的过程中，老板端着我们的饮品走了出来。"
     window hide
     pause 0.3
@@ -2773,9 +2826,10 @@ label day2_supply:
     extend "\n我要是早上不喝咖啡的话，一整天都会浑浑噩噩的。"
     "我喝了一口咖啡。"
     window hide
-    hide cg with dissolve
-    hide sakuya with dissolve
-    hide saburo with dissolve
+    hide cg
+    hide sakuya
+    hide saburo
+    with dissolve
     window show
     me "嗯，真好喝。和平时的味道一样。"
     show saburo 24 at topright with dissolve
@@ -2784,16 +2838,18 @@ label day2_supply:
     sakuya "好像很有大人风范啊……。"
     "桀桀桀，是吧是吧。"
     window hide
-    hide sakuya with dissolve
-    hide saburo with dissolve
+    hide sakuya
+    hide saburo
+    with dissolve
     window show
     "我沉浸在优越感和两个少年的可爱之中，享受着在咖啡店的时光。"
     extend "\n话虽如此，他们两个好像还是不太习惯这个空间，\n不到一个小时就说要走，我们就离开了。"
     window hide
     stop music fadeout 2.0
-    hide sakuya with Dissolve(0.9)
-    hide saburo with Dissolve(0.9)
-    hide bg with Dissolve(0.9)
+    hide sakuya
+    hide saburo
+    hide bg
+    with Dissolve(0.9)
     pause 0.4
     show bg residential_area at center with dissolve
     play music "quiet_lunch.ogg"
@@ -2828,8 +2884,9 @@ label day2_supply:
     extend "\n那今天就先到这里解散吧？\n感觉你们都有想做的事情呢！"
     "呜……时候到了啊。。"
     extend "\n如果可以的话，我还想和他们在一起待得久一点啊……！！"
-    hide saburo with dissolve
-    hide sakuya with dissolve
+    hide saburo
+    hide sakuya
+    with dissolve
     return
 
 label day2_design_tomo:
@@ -2863,9 +2920,10 @@ label day2_design_tomo:
     extend "\n就连发言都像大叔一样。"
     me "啊哈哈，这也是作为社畜的觉悟~。"
     window hide
-    hide cg with dissolve
-    hide sintarou with dissolve
-    hide tomo with dissolve
+    hide cg
+    hide sintarou
+    hide tomo
+    with dissolve
     show tomo 27 at topleft
     show sintarou 15 at topright with dissolve
     window show
@@ -2875,8 +2933,9 @@ label day2_design_tomo:
     me "我，我去问问店员！"
     "拿着领带去收银台，向店员询问。"
     window hide
-    hide tomo with dissolve
-    hide sintarou with dissolve
+    hide tomo
+    hide sintarou
+    with dissolve
     play sound "fx/boing.ogg"
     window show
     clerk "72件么？！"
@@ -2939,8 +2998,9 @@ label day2_design_tomo:
     show tomo 5 at top with dissolve
     "从前面的窗户看到了友和一个像是大学生的陌生男子。"
     extend "\n他们好像在争吵些什么。发生什么了吗？"
-    hide tomo with dissolve
-    hide bg with dissolve
+    hide tomo
+    hide bg
+    with dissolve
     me "不好意思！我先出去一下！"
     window hide
     play sound "fx/running.ogg"
@@ -3062,8 +3122,9 @@ label day2_design_tomo:
     "我这么说着，半强硬地问出了友想要什么，\n买来果汁，回到店里。"
     stop music fadeout 0.5
     window hide
-    hide tomo with dissolve
-    hide bg with dissolve
+    hide tomo
+    hide bg
+    with dissolve
     show bg clothing_store at center with Dissolve(1.0)
     play music "umesaki.ogg"
     window show
@@ -3083,9 +3144,10 @@ label day2_design_tomo:
     tomo "反过来，要是有陌生人打开慎酱的包，\n也会被吓到拿不出手吧。"
     me "里面到底装了什么啊……。"
     window hide
-    hide sintarou with Dissolve(0.9)
-    hide tomo with Dissolve(0.9)
-    hide bg with Dissolve(0.9)
+    hide sintarou
+    hide tomo
+    hide bg
+    with Dissolve(0.9)
     stop music fadeout 0.5
     show bg umesaki_station_front_night at center with Dissolve(1.0)
     window show
@@ -3130,8 +3192,9 @@ label day2_design_tomo:
     sintarou "只是碰到了蛋蛋？"
     play sound "fx/triangle.ogg"
     "无聊……。"
-    hide tomo with dissolve
-    hide sintarou with dissolve
+    hide tomo
+    hide sintarou
+    with dissolve
     "虽然确实刚才那是偶然……但是我内心已经兴奋起来了。"
     extend "\n看着刚刚碰到的手心，凑近鼻子闻了闻味道。"
     play sound "fx/sparkle.ogg"
@@ -3139,8 +3202,9 @@ label day2_design_tomo:
     me "（好香啊……。）"
     "在这种满员电车上，这种事太棒了！！！"
     window hide
-    hide tomo with dissolve
-    hide cg with dissolve
+    hide tomo
+    hide cg
+    with dissolve
     show tomo 9 at topleft with dissolve
     window show
     tomo "……。"
@@ -3149,8 +3213,9 @@ label day2_design_tomo:
     extend "\n是不是闹肚子了？"
     show tomo 20 with dissolve
     tomo "没，没什么！！"
-    hide tomo with dissolve
-    hide sintarou with dissolve
+    hide tomo
+    hide sintarou
+    with dissolve
     conductor "诶~非常抱歉，让您久等了。"
     extend "\n刚才有下车的乘客的行李与车体有接触，\n所以紧急停车了。"
     extend "\n现在即将重新发车。"
@@ -3173,8 +3238,9 @@ label day2_design_tomo:
     play sound "fx/running.ogg"
     "电车到达宝咲站后，友就下车了。"
     window hide
-    hide sintarou with dissolve
-    hide bg with dissolve
+    hide sintarou
+    hide bg
+    with dissolve
     play sound "train.ogg"
     window show
     "电车又再次朝终点开去。"
@@ -3190,9 +3256,10 @@ label day2_design_tomo:
     show cg misaki_station_night at center with Dissolve(0.7)
     extend "\n在御咲站和慎太郎分别后，我就这么回家了。"
     window hide
-    hide bg with Dissolve(0.8)
-    hide cg with Dissolve(0.8)
-    hide sintarou with Dissolve(0.8)
+    hide bg
+    hide cg
+    hide sintarou
+    with Dissolve(0.8)
     pause 0.4
     show bg living_room_night at center with Radial(1.0)
     play music "nostalgia.ogg"
@@ -3259,9 +3326,10 @@ label day2_design_sintarou:
     me "毕竟你还是个孩子嘛。"
     extend "\n等你出社会了，就算不想系也会被逼着系的，\n趁现在练习习惯一下比较好哦。"
     window hide
-    hide cg with dissolve
-    hide tomo with dissolve
-    hide sintarou with dissolve
+    hide cg
+    hide tomo
+    hide sintarou
+    with dissolve
     show tomo 27 at topleft with dissolve
     window show
     tomo "呜~……"
@@ -3276,8 +3344,9 @@ label day2_design_sintarou:
     me "我，我去问问店员！"
     "拿着领带去收银台，向店员询问。"
     window hide
-    hide tomo with dissolve
-    hide sintarou with dissolve
+    hide tomo
+    hide sintarou
+    with dissolve
     play sound "fx/boing.ogg"
     window show
     clerk "72件么？！"
@@ -3403,8 +3472,9 @@ label day2_design_sintarou:
     sintarou "明白了~。"
     "我听了回答后，走出了店。"
     window hide
-    hide sintarou with dissolve
-    hide bg with dissolve
+    hide sintarou
+    hide bg
+    with dissolve
     play sound "fx/running.ogg"
     show bg downtown at center with dissolve
     window show
@@ -3443,9 +3513,10 @@ label day2_design_sintarou:
     show sintarou 22 with dissolve
     sintarou "你不想喝我这杯满满气泡的苏打水吗？"
     window hide
-    hide sintarou with dissolve
-    hide bg with dissolve
-    hide cg with dissolve
+    hide sintarou
+    hide bg
+    hide cg
+    with dissolve
     window show
     "···"
     window hide
@@ -3514,9 +3585,10 @@ label day2_design_sintarou:
     show tomo 4 with dissolve
     tomo "那真是太好了！那，差不多该回去了吧。"
     window hide
-    hide sintarou with Dissolve(0.9)
-    hide tomo with Dissolve(0.9)
-    hide bg with Dissolve(0.9)
+    hide sintarou
+    hide tomo
+    hide bg
+    with Dissolve(0.9)
     stop music fadeout 0.5
     show bg umesaki_station_front_night with Dissolve(2.0)
     window show
@@ -3583,8 +3655,9 @@ label day2_design_sintarou:
     tomo "什，什么！！"
     me "我可没说啊！！"
     "真是的……对上慎太郎可真没辙了啊。。"
-    hide sintarou with dissolve
-    hide tomo with dissolve
+    hide sintarou
+    hide tomo
+    with dissolve
     "虽然确实刚才那是偶然……但是我内心已经兴奋起来了。"
     "看着刚刚碰到的手心，凑近鼻子闻了闻味道。"
     play sound "fx/sparkle.ogg"
@@ -3599,8 +3672,9 @@ label day2_design_sintarou:
     extend "\n即便长大成人了，也还是老样子啊~。"
     show tomo 27 at topleft with dissolve
     tomo "诶！你什么意思啊~？"
-    hide sintarou with dissolve
-    hide tomo with dissolve
+    hide sintarou
+    hide tomo
+    with dissolve
     conductor "诶~非常抱歉，让您久等了。"
     extend "\n刚才有下车的乘客的行李与车体有接触，\n所以紧急停车了。"
     extend "\n现在即将重新发车。"
@@ -3623,8 +3697,9 @@ label day2_design_sintarou:
     play sound "fx/running.ogg"
     "电车到达宝咲站后，友就下车了。"
     window hide
-    hide sintarou with dissolve
-    hide bg with dissolve
+    hide sintarou
+    hide bg
+    with dissolve
     play music "fx/train.ogg"
     show bg train_interior_night at center with dissolve
     window show
@@ -3689,8 +3764,9 @@ label day2_design_sintarou:
     "然而，我却忍受不了车内沉闷的氛围，"
     stop sound fadeout 2.0
     play sound "fx/running.ogg"
-    hide sintarou with dissolve
-    hide bg with dissolve
+    hide sintarou
+    hide bg
+    with dissolve
     extend "\n刚到车站就立刻飞奔出去。"
     window hide
     play music "fx/night_insects.ogg"
@@ -3722,8 +3798,9 @@ label day2_design_sintarou:
     extend "\n那样的话，[player_name]就算现在犯错，我也会马上帮你解围的！"
     extend "\n刚才那个人，也是你上班时的熟人吧？"
     window hide
-    hide cg with dissolve
-    hide sintarou with dissolve
+    hide cg
+    hide sintarou
+    with dissolve
     window show
     me "……谢谢你，慎太郎。"
     extend "\n听到你这么说，我感觉被拯救了一样。"
@@ -3813,8 +3890,9 @@ label day2_layout_tubasa:
     sinobu "完全搞不懂是在夸人还是在损人呢。"
     "这时，我小声地对翼说。"
     me "要是看到那副样子，友一定会很开心的。"
-    hide tubasa with dissolve
-    hide sinobu with dissolve
+    hide tubasa
+    hide sinobu
+    with dissolve
     show tubasa 21 at top with dissolve
     tubasa "啊……"
     me "之后我把照片发给你哦。"
@@ -3854,8 +3932,9 @@ label day2_layout_tubasa:
     tubasa "……我，我知道啦。"
     extend "\n之后……我会发给他的……！"
     window hide
-    hide tubasa with dissolve
-    hide sinobu with dissolve
+    hide tubasa
+    hide sinobu
+    with dissolve
     window show
     clerk2 "看起来很高兴呢！"
     extend "\n好了，三份蛋糕套餐，拿好了哦~。"
@@ -3895,8 +3974,9 @@ label day2_layout_tubasa:
     "愉快地度过了一段时光后，我们结束了蛋糕的品尝，\n向照顾我们的店长小姐和女仆们表达了感谢，然后离开了店里。"
     window hide
     stop music fadeout 0.5
-    hide tubasa with dissolve
-    hide sinobu with dissolve
+    hide tubasa
+    hide sinobu
+    with dissolve
     hide bg with dissolve
     play music "fx/tsubame.ogg"
     show bg downtown_evening at center with Radial(0.5)
@@ -3980,8 +4060,9 @@ label day2_layout_tubasa:
     extend "\n你很喜欢友君吧？"
     extend "\n那就得相信他才行，对吧？"
     window hide
-    hide cg with Dissolve(0.6)
-    hide tubasa with Dissolve(0.6)
+    hide cg
+    hide tubasa
+    with Dissolve(0.6)
     show tubasa 26 at top with dissolve
     window show
     tubasa "呜呜，呜呜……。"
@@ -4018,8 +4099,9 @@ label day2_layout_tubasa:
     me "不行不行！"
     extend "\n而且我可是翼的朋友。"
     window hide
-    hide tubasa with dissolve
-    hide cg with dissolve
+    hide tubasa
+    hide cg
+    with dissolve
     window show
     "我一边自言自语，一边思考着这些，翼回来了。"
     window hide
@@ -4060,9 +4142,10 @@ label day2_layout_tubasa:
     extend "\n这种感觉"
     stop music fadeout 1.0
     window hide
-    hide tubasa with Dissolve(1.0)
-    hide cg with Dissolve(1.0)
-    hide bg with Dissolve(1.0)
+    hide tubasa
+    hide cg
+    hide bg
+    with Dissolve(1.0)
     pause 0.4
     show bg living_room_night at center with Radial(1.0)
     play music "nostalgia.ogg"
@@ -4134,8 +4217,9 @@ label day2_layout_sinobu:
     "面对预料外的事态，我开始心急如焚。"
     "刚刚我说的话有那么糟糕吗？"
     extend "\n快想想快想想……。"
-    hide tubasa with dissolve
-    hide bg with dissolve
+    hide tubasa
+    hide bg
+    with dissolve
     "啊……"
     window hide
     show bg gym_backside at center
@@ -4147,8 +4231,9 @@ label day2_layout_sinobu:
     extend "啊，不过，\n他本人非常在意这件事，还是不说为妙。"
     window hide
     stop sound fadeout 0.5
-    hide bg with FadeWhite(1.0)
-    hide tomo with FadeWhite(1.0)
+    hide bg
+    hide tomo
+    with FadeWhite(1.0)
     play music "serious.ogg"
     show bg meffen_cafe_evening at center with dissolve
     $ renpy.transition(Quake(0, 100, 0.1, 0.065), layer='master')
@@ -4173,8 +4258,9 @@ label day2_layout_sinobu:
     show tubasa 8 with dissolve
     tubasa "诶诶……啊啊……好的，我知道了。"
     window hide
-    hide tubasa with dissolve
-    hide bg with dissolve
+    hide tubasa
+    hide bg
+    with dissolve
     play sound "fx/door_open.ogg"
     show bg meffen_cafe_hallway at center with dissolve
     pause 0.4
@@ -4294,8 +4380,9 @@ label day2_layout_sinobu:
     extend "\n停，停下来……喂！不要摸我头啊。[player_name]。"
     "在我心中挣扎的忍可爱极了，让我忍不住想要抱紧他。"
     window hide
-    hide sinobu with dissolve
-    hide cg with dissolve
+    hide sinobu
+    hide cg
+    with dissolve
     show sinobu 15 at top with dissolve
     window show
     sinobu "真是的！"
@@ -4393,8 +4480,9 @@ label day2_cooking_tuki:
     extend "\n慢慢将敌人逼到绝路的战法是行不通的"
     me "原来如此。\n也就是说必须一击必杀吗。"
     window hide
-    hide tuki with dissolve
-    hide cg with dissolve
+    hide tuki
+    hide cg
+    with dissolve
     show tuki 8 at top with dissolve
     window show
     tuki "是的。"
@@ -4407,8 +4495,9 @@ label day2_cooking_tuki:
     extend "\n那我要上了。\n一，二"
     stop music fadeout 0.5
     play sound "fx/wind_slash.ogg"
-    hide bg with Dissolve(0.2)
-    hide tuki with Dissolve(0.2)
+    hide bg
+    hide tuki
+    with Dissolve(0.2)
     tuki "3！！！！"
     show cg remarkable at center with FadeWhite(0.5)
     $ renpy.transition(Quake(0, 70, 0.2, 0.06), layer='master')
@@ -4453,8 +4542,9 @@ label day2_cooking_tuki:
     "扑咚"
     show bg akamine_kitchen at center
     "月用拖把堵住了敌人逃跑的退路，\n但敌人迅速地迂回逃走了。"
-    hide tuki with FadeWhite(0.5)
-    hide cg with FadeWhite(0.5)
+    hide tuki
+    hide cg
+    with FadeWhite(0.5)
     me "可恶~太狡猾了……！！！"
     show tuki 19 at top with dissolve
     tuki "还没结束……还没放弃！"
@@ -4516,10 +4606,11 @@ label day2_cooking_tuki:
     "……那个，这是什么电视剧吗？"
     stop music fadeout 2.0
     window hide
-    hide bg with Dissolve(1.5)
-    hide sora with Dissolve(1.5)
-    hide cg with Dissolve(1.5)
-    hide tuki with Dissolve(1.5)
+    hide bg
+    hide sora
+    hide cg
+    hide tuki
+    with Dissolve(1.5)
     show bg akamine_kitchen at center with dissolve
     play music "twins_theme.ogg"
     show tuki 4 at top with dissolve
@@ -4694,10 +4785,11 @@ label day2_cooking_sora:
     "……那个，这是什么电视剧吗？"
     stop music fadeout 2.0
     window hide
-    hide bg with Dissolve(1.5)
-    hide sora with Dissolve(1.5)
-    hide cg with Dissolve(1.5)
-    hide tuki with Dissolve(1.5)
+    hide bg
+    hide sora
+    hide cg
+    hide tuki
+    with Dissolve(1.5)
     show bg akamine_kitchen at center with dissolve
     play music "twins_theme.ogg"
     show sora 24 at topright
@@ -4742,9 +4834,10 @@ label day2_supply_sakuya:
     play sound "fx/wow2.ogg"
     extend "\n很多事……难道说，这个带刺的现代少年，\n要带我这个单纯的、不懂那些不堪之事的人见识大人的世界吗！？"
     "这，这真是，令人浮想联翩啊！！！"
-    hide saburo with dissolve
-    hide cg with dissolve
-    hide sakuya with dissolve
+    hide saburo
+    hide cg
+    hide sakuya
+    with dissolve
     me "那，那就这么决定了！！"
     extend "\n那三朗君！明天见了！！！"
     show saburo 6 at top with dissolve
@@ -4775,8 +4868,9 @@ label day2_supply_sakuya:
     play sound "fx/triangle.ogg"
     "……。"
     window hide
-    hide cg with dissolve
-    hide sakuya with dissolve
+    hide cg
+    hide sakuya
+    with dissolve
     window show
     me "……啊，啊~原来如此。"
     extend "\n作哉君，真的是非常喜欢小翼啊。"
@@ -4792,8 +4886,9 @@ label day2_supply_sakuya:
     play sound "fx/punch2.ogg"
     "啪！！！"
     window hide
-    hide cg with dissolve
-    hide sakuya with dissolve
+    hide cg
+    hide sakuya
+    with dissolve
     show sakuya 27 at top with dissolve
     window show
     sakuya "看我不把你打飞！！"
@@ -4832,9 +4927,10 @@ label day2_supply_sakuya:
     "一边想着这些事，一边到了宠物店。"
     window hide
     stop music fadeout 2.0
-    hide sakuya with dissolve
-    hide cg with dissolve
-    hide bg with dissolve
+    hide sakuya
+    hide cg
+    hide bg
+    with dissolve
     play sound "fx/crowd_noise.ogg"
     show bg pet_shop at center with dissolve
     window show
@@ -4919,8 +5015,9 @@ label day2_supply_sakuya:
     "作哉说到这里，双眼开始泛起泪光。"
     extend "\n我并不知道该对他说些什么。"
     extend "\n只能呆呆地看着他。"
-    hide cg with dissolve
-    hide sakuya with dissolve
+    hide cg
+    hide sakuya
+    with dissolve
     show sakuya 7 at top with dissolve
     sakuya "……啊，抱，抱歉！"
     extend "\n我有些太阴沉了。"
@@ -5005,9 +5102,10 @@ label day2_supply_sakuya:
     extend "\n我一边对一之濑翼说的话产生共鸣，一边踏上了回家的路。"
     stop music fadeout 1.5
     window hide
-    hide sakuya with Dissolve(1.0)
-    hide cg with Dissolve(1.0)
-    hide bg with Dissolve(1.0)
+    hide sakuya
+    hide cg
+    hide bg
+    with Dissolve(1.0)
     pause 0.4
     show bg living_room_night at center with Radial(1.0)
     play music "nostalgia.ogg"
@@ -5067,9 +5165,10 @@ label day2_supply_saburo:
     sakuya "哦，明天见。"
     "我与作哉分别，和三朗一起走。"
     window hide
-    hide bg with dissolve
-    hide saburo with dissolve
-    hide sakuya with dissolve
+    hide bg
+    hide saburo
+    hide sakuya
+    with dissolve
     show bg downtown at center with dissolve
     window show
     me "所以，我们要去哪里？"
@@ -5083,8 +5182,9 @@ label day2_supply_saburo:
     "天真啊……我可是25岁了啊！！"
     extend "\n黄段子和下流梗什么的早就已经听腻了！"
     window hide
-    hide saburo with dissolve
-    hide cg with dissolve
+    hide saburo
+    hide cg
+    with dissolve
     window show
     me "嗯……？但是，我们还是未成年人啊。"
     extend "\n而且还是穿着制服，\n去成人商店没问题吗？"
@@ -5098,10 +5198,11 @@ label day2_supply_saburo:
     extend "\n……到，到了。"
     extend "\n快，进去吧~！"
     play sound "fx/running.ogg"
-    hide saburo with dissolve
-    hide cg with dissolve
-    hide saburo with dissolve
-    hide bg with dissolve
+    hide saburo
+    hide cg
+    hide saburo
+    hide bg
+    with dissolve
     stop music fadeout 0.5
     "到达目的地后，三朗意气扬扬地走进了店里。"
     window hide
@@ -5159,9 +5260,10 @@ label day2_supply_saburo:
     "再这样下去，我的两腿之间就要变得精神了。"
     window hide
     stop music fadeout 2.0
-    hide bg with dissolve
-    hide saburo with dissolve
-    hide saburo with dissolve
+    hide bg
+    hide saburo
+    hide saburo
+    with dissolve
     play music "afternoon_class.ogg"
     show bg bookstore at center with Dissolve(1.0)
     show saburo 16 at top with dissolve
@@ -5209,9 +5311,10 @@ label day2_supply_saburo:
     saburo "哦哦。"
     window hide
     stop music fadeout 2.0
-    hide saburo with dissolve
-    hide bg with dissolve
-    hide saburo with dissolve
+    hide saburo
+    hide bg
+    hide saburo
+    with dissolve
     play music "good_atmosphere.ogg"
     show bg evening at center with Radial(0.6)
     pause 0.5
@@ -5239,8 +5342,9 @@ label day2_supply_saburo:
     saburo "呜哇~真的吗！？"
     extend "\n奥村也好，穗海也好，我也是，\n我的周围，净是些同性恋吗！"
     me "诶？！作哉也是这样吗？？"
-    hide saburo with Dissolve(0.3)
-    hide bg with Dissolve(0.3)
+    hide saburo
+    hide bg
+    with Dissolve(0.3)
     play sound "fx/sparkle.ogg"
     show cg adult at center
     show sakuya 5 at topleft
@@ -5252,9 +5356,10 @@ label day2_supply_saburo:
     show bg downtown_evening at center
     extend "\n哎~那个孩子啊~……。\n总觉得挺意外的……。"
     window hide
-    hide cg with Radial(0.5)
-    hide sakuya with Radial(0.5)
-    hide 共 with Radial(0.5)
+    hide cg
+    hide sakuya
+    hide 共
+    with Radial(0.5)
     show saburo 2 at top with dissolve
     window show
     saburo "对吧？"
@@ -5286,9 +5391,10 @@ label day2_supply_saburo:
     "然后我就跑了过去，和三朗一起各回各家了。"
     stop music fadeout 0.5
     window hide
-    hide cg with Dissolve(0.8)
-    hide bg with Dissolve(0.8)
-    hide saburo with Dissolve(0.8)
+    hide cg
+    hide bg
+    hide saburo
+    with Dissolve(0.8)
     pause 0.4
     show bg living_room_night at center with Dissolve(1.0)
     play music "nostalgia.ogg"
@@ -5323,8 +5429,9 @@ label day2_supply_saburo:
     return
 
 label day2_cooking_self:
-    hide tuki with dissolve
-    hide sora with dissolve
+    hide tuki
+    hide sora
+    with dissolve
     window show
     "就在我心里吐槽的时候，佣人先生走进了厨房。"
     window hide
@@ -5347,8 +5454,9 @@ label day2_cooking_self:
     play sound "fx/sliding_door.ogg"
     "佣人先生说着，再次离开了厨房。"
     window hide
-    hide tuki with dissolve
-    hide sora with dissolve
+    hide tuki
+    hide sora
+    with dissolve
     show sora 11 at topright with dissolve
     window show
     sora "太好了！哥哥，[player_name]君。"
@@ -5362,9 +5470,10 @@ label day2_cooking_self:
     extend "\n不过，在这个奇怪的家里，大家却能互相理解。"
     extend "\n我感受到了和自己家里不同的，别样的家的温暖。"
     window hide
-    hide sora with dissolve
-    hide tuki with dissolve
-    hide cg with dissolve
+    hide sora
+    hide tuki
+    hide cg
+    with dissolve
     show tuki 15 at topleft with dissolve
     window show
     tuki "对了，[player_surname]。"
@@ -5401,8 +5510,9 @@ label day2_cooking_self:
     show sora 26 with dissolve
     sora "啊哈哈哈！\n[player_name]君，你在说什么呢？"
     extend "\n果然很有趣呢！"
-    hide tuki with dissolve
-    hide sora with dissolve
+    hide tuki
+    hide sora
+    with dissolve
     "就这样，虽然在途中经历了一场战斗，但还是成功开发出了料理，\n"
     hide bg with dissolve
     stop music fadeout 2.0
@@ -5455,8 +5565,9 @@ label day2_design_self:
     me "啊啊，你们都是穿学生服，所以还没有系领带的机会啊。"
     extend "\n那么，我来系一下吧。"
     window hide
-    hide tomo with dissolve
-    hide sintarou with dissolve
+    hide tomo
+    hide sintarou
+    with dissolve
     pause 0.3
     window show
     me "……嗯，大概这样吧？"
@@ -5472,8 +5583,9 @@ label day2_design_self:
     extend "\n这样的话，穿便服的时候也可以戴领带了。"
     me "嗯，可以啊。"
     extend "\n下次，我再仔细地手把手教你们。"
-    hide tomo with dissolve
-    hide sintarou with dissolve
+    hide tomo
+    hide sintarou
+    with dissolve
     show sintarou 12 at top with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
     play sound "fx/boing.ogg"
@@ -5499,8 +5611,9 @@ label day2_design_self:
     play sound "fx/boing.ogg"
     me "为，为什么一定要我啊……。"
     extend "\n其他人先不说，和我比起来你们俩也没差多少啊。"
-    hide sintarou with dissolve
-    hide tomo with dissolve
+    hide sintarou
+    hide tomo
+    with dissolve
     show sintarou 15 at top with dissolve
     sintarou "诶……？"
     show cg adult at center
@@ -5514,9 +5627,10 @@ label day2_design_self:
     play sound "fx/sparkle.ogg"
     extend "记得是，\n是天女从天而降把小孩送到人间的哦。"
     window hide
-    hide tomo with dissolve
-    hide sintarou with dissolve
-    hide cg with dissolve
+    hide tomo
+    hide sintarou
+    hide cg
+    with dissolve
     play sound "fx/ding.ogg"
     window show
     me "……。"
@@ -5529,10 +5643,11 @@ label day2_design_self:
     "总算是找到了合适的领带的我们，订了两个班的量，\n顺利地完成了今天的服装班的工作。"
     stop music fadeout 2.0
     window hide
-    hide bg with Dissolve(0.9)
-    hide tomo with Dissolve(0.9)
-    hide sintarou with Dissolve(0.9)
-    hide cg with Dissolve(0.9)
+    hide bg
+    hide tomo
+    hide sintarou
+    hide cg
+    with Dissolve(0.9)
     pause 0.4
     show bg living_room_night at center with Radial(0.8)
     play music "nostalgia.ogg"
@@ -5575,8 +5690,9 @@ label day2_layout_self:
     show sinobu 11 with dissolve
     play sound "fx/eureka.ogg"
     extend "\n会是一次很好的尝试。"
-    hide sinobu with dissolve
-    hide tubasa with dissolve
+    hide sinobu
+    hide tubasa
+    with dissolve
     show sinobu 12 at topleft
     show tubasa 18 at topright with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
@@ -5584,8 +5700,9 @@ label day2_layout_self:
     tubasa "是，是啊。"
     extend "\n明明我们都穿了，[player_name]君不穿的话，可就太狡猾了"
     me "不，不是啦~毕竟！我可是只负责观赏的啊！！"
-    hide sinobu with dissolve
-    hide tubasa with dissolve
+    hide sinobu
+    hide tubasa
+    with dissolve
     show sinobu 10 at top with dissolve
     sinobu "你在说什么莫名其妙的话……"
     show sinobu 9 with dissolve
@@ -5611,9 +5728,10 @@ label day2_layout_self:
     play sound "fx/dash.ogg"
     "什……什么啊力气竟然这么大！！？"
     window hide
-    hide cg with Dissolve(0.3)
-    hide sinobu with Dissolve(0.3)
-    hide tubasa with Dissolve(0.3)
+    hide cg
+    hide sinobu
+    hide tubasa
+    with Dissolve(0.3)
     window show
     me "那个！诶！？ 为什么？ ！！"
     play sound "fx/cute.ogg"
@@ -5644,10 +5762,11 @@ label day2_layout_self:
     "一边想着这样的事情，一边结束了在「美馨儿咖啡」的参观，\n我们完成了布置组的工作。"
     window hide
     stop music fadeout 2.0
-    hide bg with Dissolve(0.9)
-    hide cg with Dissolve(0.9)
-    hide tubasa with Dissolve(0.9)
-    hide sinobu with Dissolve(0.9)
+    hide bg
+    hide cg
+    hide tubasa
+    hide sinobu
+    with Dissolve(0.9)
     pause 0.4
     show bg living_room_night at center with Radial(1.0)
     play music "nostalgia.ogg"
@@ -5702,8 +5821,9 @@ label day2_supply_self:
     return
 
 label day2_supply_self_1:
-    hide sakuya with dissolve
-    hide saburo with dissolve
+    hide sakuya
+    hide saburo
+    with dissolve
     window show
     play sound "fx/shock_big.ogg"
     me "（失落失落！）"
@@ -5735,8 +5855,9 @@ label day2_supply_self_1:
     extend "\n早知道，第一天就该跟他们更亲近些的。"
     stop sound fadeout 0.5
     extend "\n呼呼……。"
-    hide cg with Dissolve(1.0)
-    hide bg with Dissolve(1.0)
+    hide cg
+    hide bg
+    with Dissolve(1.0)
     "就这样，我今天一天的校园生活悲惨地拉下了帷幕。"
     window hide
     pause 0.4
@@ -5865,8 +5986,9 @@ label day2_bad_end:
     play sound "fx/impact_japanese.ogg"
     extend "\n我要和你贴到爽！！！！"
     play sound "fx/wind_slash.ogg"
-    hide bg with dissolve
-    hide yuuhi with dissolve
+    hide bg
+    hide yuuhi
+    with dissolve
     "我勇敢地向眼前的小子飞扑过去。"
     window hide
     show bg cave_space at center
@@ -5891,10 +6013,11 @@ label day2_bad_end:
     window show
     "砰！！！"
     window hide
-    hide yuuhi with dissolve
-    hide nori with dissolve
-    hide bg with dissolve
-    hide cg with dissolve
+    hide yuuhi
+    hide nori
+    hide bg
+    hide cg
+    with dissolve
     window show
     "···"
     window hide

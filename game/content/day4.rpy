@@ -50,9 +50,10 @@ label day4:
     hide saburo with dissolve
     show sinobu 20i at topleft with dissolve
     sinobu "……稍微，弯下腰可以吗？"
-    hide sora with dissolve
-    hide tubasa with dissolve
-    hide sinobu with dissolve
+    hide sora
+    hide tubasa
+    hide sinobu
+    with dissolve
     return
 
 label day4_1:
@@ -65,9 +66,10 @@ label day4_1:
     window show
     everyone "「诶诶哦ーー！！！」"
     window hide
-    hide tomo with dissolve
-    hide cg with dissolve
-    hide bg with dissolve
+    hide tomo
+    hide cg
+    hide bg
+    with dissolve
     play sound "fx/crowd_noise.ogg"
     show bg cafe at center with Radial(0.8)
     show sora 3i at topleft with dissolve
@@ -162,8 +164,9 @@ label day4_1:
     extend "\n虽然都是我澡堂的客人，"
     show sintarou 1i with dissolve
     extend "他们有些“奇怪”，还是不要靠近为好哦。"
-    hide sora with dissolve
-    hide sintarou with dissolve
+    hide sora
+    hide sintarou
+    with dissolve
     show saburo 12i at top with dissolve
     play sound "fx/boing.ogg"
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
@@ -180,9 +183,10 @@ label day4_1:
     show sintarou 13i with dissolve
     extend "\n算了，这是和你们没关系的事，不用在意~。"
     window hide
-    hide sora with dissolve
-    hide sintarou with dissolve
-    hide tuki with dissolve
+    hide sora
+    hide sintarou
+    hide tuki
+    with dissolve
     window show
     student1 "[player_name]君。"
     extend "\n如果你有空的话，能代替猫山\n去招呼2号桌的客人点单吗？"
@@ -240,8 +244,9 @@ label day4_1:
     play sound "fx/boing.ogg"
     me "咿……！"
     window hide
-    hide bg with dissolve
-    hide cg with dissolve
+    hide bg
+    hide cg
+    with dissolve
     return
 
 label day4_1_tomo:
@@ -327,8 +332,9 @@ label end_tomo:
     "嘛，嘛，也不知道会发展成什么样子，\n没必要那么紧张……"
     "不，好不容易又有了独处的机会。"
     extend "\n如果他没有主动提起的话，我也会主动开口。"
-    hide cg with dissolve
-    hide bg with dissolve
+    hide cg
+    hide bg
+    with dissolve
     stop music fadeout 2.0
     "……毕竟这个梦不知道会持续到什么时候……。"
     window hide
@@ -337,8 +343,9 @@ label end_tomo:
     window show
     tubasa "……。"
     window hide
-    hide tubasa with dissolve
-    hide bg with dissolve
+    hide tubasa
+    hide bg
+    with dissolve
     play sound "fx/crowd_noise.ogg"
     show bg school_building_evening_full at center with Dissolve(1.0)
     pause 0.4
@@ -360,8 +367,9 @@ label end_tomo:
     show tubasa 3i with dissolve
     extend "\n拜托了。……不会占用你太多时间的。"
     "翼前所未有地顽固，我无法拒绝，便跟着他走了。"
-    hide tubasa with dissolve
-    hide bg with dissolve
+    hide tubasa
+    hide bg
+    with dissolve
     "虽然已经大概猜到他要说什么了……。"
     window hide
     show bg school_backside_evening with Dissolve(1.0)
@@ -441,8 +449,9 @@ label end_tomo:
     extend "\n正因如此，如果告白之后被拒绝了……"
     extend "\n我……我……！"
     window hide
-    hide cg with dissolve
-    hide tubasa with dissolve
+    hide cg
+    hide tubasa
+    with dissolve
     show tubasa 29i at top with dissolve
     window show
     tubasa "而且……我觉得……"
@@ -482,8 +491,9 @@ label end_tomo:
     stop music fadeout 2.5
     me "拜托了……让我去吧。"
     window hide
-    hide cg with dissolve
-    hide tubasa with dissolve
+    hide cg
+    hide tubasa
+    with dissolve
     show tubasa 27i at top with dissolve
     window show
     tubasa "不……要……呜，呜呜呜呜呜呜呜呜哇啊啊啊啊……。"
@@ -498,8 +508,9 @@ label end_tomo:
     extend "\n擅自做出这种事，真的很抱歉。"
     "我抛下了蹲坐在地上的翼，向友走去。"
     play sound "fx/running.ogg"
-    hide tubasa with dissolve
-    hide bg with dissolve
+    hide tubasa
+    hide bg
+    with dissolve
     "居然把小孩子弄哭了，我真是个很过分的大人。"
     "···"
     window hide
@@ -521,8 +532,9 @@ label end_tomo:
     extend "\n谢谢你，忍！"
     stop music fadeout 2.0
     play sound "fx/running.ogg"
-    hide sinobu with dissolve
-    hide bg with dissolve
+    hide sinobu
+    hide bg
+    with dissolve
     "我匆忙赶往和友约好的地方。"
     window hide
     play music "fx/night_insects.ogg"
@@ -535,8 +547,9 @@ label end_tomo:
     show sinobu 20i with dissolve
     extend "\n明明我最理解友，也最想守护他。"
     window hide
-    hide sinobu with dissolve
-    hide bg with dissolve
+    hide sinobu
+    hide bg
+    with dissolve
     window show
     "···"
     window hide
@@ -631,8 +644,9 @@ label end_tomo:
     extend "\n所以，放学后才那么弹钢琴，"
     extend "\n等着有人来。"
     window hide
-    hide cg with Dissolve(0.8)
-    hide tomo with Dissolve(0.8)
+    hide cg
+    hide tomo
+    with Dissolve(0.8)
     window show
     "原来如此。"
     extend "\n原来那场演奏，友是蕴含着这种心情在弹的啊……。"
@@ -747,9 +761,10 @@ label end_tomo:
     "在这片燃烧的红炎之中，我的意识逐渐淡去……。"
     extend "\n……梦已经结束了。"
     window hide
-    hide bg with Dissolve(0.8)
-    hide tomo with Dissolve(0.8)
-    hide cg with Dissolve(0.8)
+    hide bg
+    hide tomo
+    hide cg
+    with Dissolve(0.8)
     window show
     "···"
     "梦的记忆是模糊的。"
@@ -812,8 +827,9 @@ label end_tomo:
     show tomo 34i with dissolve
     extend "\n请慢用。"
     window hide
-    hide bg with FadeWhite(1.0)
-    hide tomo with FadeWhite(1.0)
+    hide bg
+    hide tomo
+    with FadeWhite(1.0)
     pause 0.6
     show bg tomo_room_evening at center with Radial(0.7)
     pause 0.6
@@ -846,8 +862,9 @@ label end_sintarou:
     show cg remarkable at center with FadeWhite(0.4)
     play sound "fx/explosion3.ogg"
     extend "\n禁止你去我家的澡堂3个月哦！！"
-    hide cg with dissolve
-    hide sintarou with dissolve
+    hide cg
+    hide sintarou
+    with dissolve
     play sound "fx/ding.ogg"
     customer3 "呜……抱，抱歉了捏。"
     extend "\n有，有点兴奋过头，所以有点不守规矩了捏。"
@@ -905,8 +922,9 @@ label end_sintarou:
     extend "\n没必要太过紧张……"
     "不，好不容易又有了独处的机会。"
     extend "\n如果他没有主动提起的话，我也会主动开口。"
-    hide cg with dissolve
-    hide bg with dissolve
+    hide cg
+    hide bg
+    with dissolve
     stop music fadeout 2.0
     "……毕竟这个梦不知道会持续到什么时候……。"
     window hide
@@ -1078,8 +1096,9 @@ label end_sintarou:
     show bg schoolyard1_night
     "再也见不到慎太郎他们了……？"
     window hide
-    hide cg with dissolve
-    hide sintarou with dissolve
+    hide cg
+    hide sintarou
+    with dissolve
     window show
     me "说不定……是这样的。"
     show sintarou 30i at top with dissolve
@@ -1149,8 +1168,9 @@ label end_sintarou:
     sintarou "当然！"
     extend "\n我就是我！"
     window hide
-    hide cg with Dissolve(0.8)
-    hide sintarou with Dissolve(0.8)
+    hide cg
+    hide sintarou
+    with Dissolve(0.8)
     show sintarou 11i at top with dissolve
     window show
     sintarou "啊啊啊啊！"
@@ -1189,9 +1209,10 @@ label end_sintarou:
     "在这片燃烧的红炎之中，我的意识逐渐淡去……。"
     extend "\n……梦已经结束了。"
     window hide
-    hide bg with Dissolve(0.8)
-    hide cg with Dissolve(0.8)
-    hide sintarou with Dissolve(0.8)
+    hide bg
+    hide cg
+    hide sintarou
+    with Dissolve(0.8)
     window show
     "···"
     "梦的记忆是模糊的。"
@@ -1253,8 +1274,9 @@ label end_sintarou:
     show sintarou 34i with dissolve
     extend "\n请这边走！请慢慢看吧~！"
     window hide
-    hide bg with Radial(1.0)
-    hide sintarou with Radial(1.0)
+    hide bg
+    hide sintarou
+    with Radial(1.0)
     pause 0.6
     show bg hananoyu at center with Radial(0.7)
     pause 0.6
@@ -1382,8 +1404,9 @@ label end_sinobu:
     "嘛，嘛，也不知道会发展成什么样子，\n没必要那么紧张……"
     "不，好不容易又有了独处的机会。"
     extend "\n如果他没有主动提起的话，我也会主动开口。"
-    hide cg with dissolve
-    hide bg with dissolve
+    hide cg
+    hide bg
+    with dissolve
     stop music fadeout 2.0
     "……毕竟这个梦不知道会持续到什么时候……。"
     window hide
@@ -1408,8 +1431,9 @@ label end_sinobu:
     tomo "……。"
     "……毕竟友是忍的青梅竹马。"
     extend "\n他一定从忍的样子看出\n接下来会发生什么了吧。"
-    hide tomo with dissolve
-    hide tubasa with dissolve
+    hide tomo
+    hide tubasa
+    with dissolve
     play music "tomo_theme.ogg"
     show tomo 30i at top with dissolve
     $ renpy.transition(Quake(0, 50, 0.1, 0.15), layer='master')
@@ -1440,9 +1464,10 @@ label end_sinobu:
     stop music fadeout 1.0
     window hide
     play sound "fx/running.ogg"
-    hide tomo with dissolve
-    hide bg with dissolve
-    hide tubasa with dissolve
+    hide tomo
+    hide bg
+    hide tubasa
+    with dissolve
     window show
     "···"
     play music "fx/night_insects.ogg"
@@ -1460,8 +1485,9 @@ label end_sinobu:
     extend "\n这么做不会只是单纯地伤害到忍吗？"
     "可恶……居然在这种地方遇到了难题……。"
     window hide
-    hide sinobu with dissolve
-    hide cg with dissolve
+    hide sinobu
+    hide cg
+    with dissolve
     window show
     me "我，我到底……"
     show sinobu 26i at top with dissolve
@@ -1552,8 +1578,9 @@ label end_sinobu:
     show bg schoolyard1_night
     extend "\n所以，这样的我不能回应你的心意…。"
     window hide
-    hide cg with dissolve
-    hide sinobu with dissolve
+    hide cg
+    hide sinobu
+    with dissolve
     show sinobu 18i at top with dissolve
     window show
     sinobu "[player_name]……哪怕真的如此，我也想表达出来。"
@@ -1624,9 +1651,10 @@ label end_sinobu:
     "在这片燃烧的红炎之中，我的意识逐渐淡去……。"
     extend "\n……梦已经结束了。"
     window hide
-    hide bg with Dissolve(0.8)
-    hide cg with Dissolve(0.8)
-    hide sinobu with Dissolve(0.8)
+    hide bg
+    hide cg
+    hide sinobu
+    with Dissolve(0.8)
     window show
     "···"
     "梦的记忆是模糊的。"
@@ -1708,8 +1736,9 @@ label end_sinobu:
     show sinobu 31i with dissolve
     extend "\n请往这边走……请慢慢欣赏。"
     window hide
-    hide bg with Radial(1.0)
-    hide sinobu with Radial(1.0)
+    hide bg
+    hide sinobu
+    with Radial(1.0)
     pause 0.6
     show bg sidewalk_evening at center with Radial(0.7)
     pause 0.6
@@ -1795,9 +1824,10 @@ label end_tubasa:
     "嘛，嘛，也不知道会发展成什么样子，\n没必要那么紧张……"
     "不，好不容易又有了独处的机会。"
     extend "\n如果他没有主动提起的话，我也会主动开口。"
-    hide cg with dissolve
-    hide bg with dissolve
-    hide tubasa with dissolve
+    hide cg
+    hide bg
+    hide tubasa
+    with dissolve
     stop music fadeout 2.0
     "……毕竟这个梦不知道会持续到什么时候……。"
     window hide
@@ -1822,8 +1852,9 @@ label end_tubasa:
     extend "\n不会花太多时间的，跟我来。\n我有话和你说。"
     "这么说着，作哉强硬地拉走了我。"
     window hide
-    hide sakuya with dissolve
-    hide bg with dissolve
+    hide sakuya
+    hide bg
+    with dissolve
     show bg stairs_evening at center with Dissolve(1.0)
     stop music fadeout 2.0
     window show
@@ -2034,8 +2065,9 @@ label end_tubasa:
     me "啊哈哈。\n但只要有这份勇气，就一定没问题的。"
     extend "\n以后也继续加油吧。\n我会永远支持翼的。"
     window hide
-    hide tubasa with Dissolve(0.9)
-    hide cg with Dissolve(0.9)
+    hide tubasa
+    hide cg
+    with Dissolve(0.9)
     show tubasa 36i at top with Dissolve(0.9)
     window show
     tubasa "好的……我会努力的！！"
@@ -2051,9 +2083,10 @@ label end_tubasa:
     "在这片燃烧的红炎之中，我的意识逐渐淡去……。"
     extend "\n……梦已经结束了。"
     window hide
-    hide bg with Dissolve(0.8)
-    hide cg with Dissolve(0.8)
-    hide tubasa with Dissolve(0.8)
+    hide bg
+    hide cg
+    hide tubasa
+    with Dissolve(0.8)
     window show
     "···"
     "梦的记忆是模糊的。"
@@ -2133,9 +2166,10 @@ label end_tubasa:
     show tubasa 36i with dissolve
     extend "\n请往这边走……请慢慢欣赏。"
     window hide
-    hide bg with Radial(1.0)
-    hide sinobu with Radial(1.0)
-    hide tubasa with Radial(1.0)
+    hide bg
+    hide sinobu
+    hide tubasa
+    with Radial(1.0)
     pause 0.6
     show bg park_bench at center with Radial(0.7)
     pause 0.6
@@ -2164,16 +2198,18 @@ label end_sora:
     extend "\n[player_surname]君就拜托给你了。"
     show sora 10i at topright with dissolve
     sora "包在我身上！"
-    hide tuki with dissolve
-    hide sora with dissolve
+    hide tuki
+    hide sora
+    with dissolve
     stop music fadeout 2.0
     show sora 2i at top with dissolve
     extend "\n来，[player_name]君，能站起来吗？"
     extend "\n我扶着你走。"
     "空将我的手搭在他的肩上，扶我走向了保健室。"
     window hide
-    hide sora with dissolve
-    hide bg with dissolve
+    hide sora
+    hide bg
+    with dissolve
     show bg school_building_night at center with Dissolve(1.0)
     play music "good_atmosphere.ogg"
     window show
@@ -2323,9 +2359,10 @@ label end_sora:
     sora "哥，哥哥……！！要被老师听到了啦。\n真，真是的……。"
     me "啊哈哈哈。"
     window hide
-    hide cg with dissolve
-    hide sora with dissolve
-    hide tuki with dissolve
+    hide cg
+    hide sora
+    hide tuki
+    with dissolve
     window show
     "就在这时，操场上响起了欢呼声。"
     show tuki 15i at topleft with dissolve
@@ -2348,9 +2385,10 @@ label end_sora:
     extend "\n月，空……谢谢你们在我身边。"
     stop sound fadeout 2.0
     window hide
-    hide tuki with Dissolve(0.8)
-    hide sora with Dissolve(0.8)
-    hide cg with Dissolve(0.8)
+    hide tuki
+    hide sora
+    hide cg
+    with Dissolve(0.8)
     show sora 26i at topright
     show tuki 4i at topleft with dissolve
     window show
@@ -2365,10 +2403,11 @@ label end_sora:
     "在这片燃烧的红炎之中，我的意识逐渐淡去……。"
     extend "\n……梦已经结束了。"
     window hide
-    hide bg with dissolve
-    hide cg with dissolve
-    hide tuki with dissolve
-    hide sora with dissolve
+    hide bg
+    hide cg
+    hide tuki
+    hide sora
+    with dissolve
     window show
     "···"
     "梦的记忆是模糊的。"
@@ -2384,8 +2423,9 @@ label end_sora:
     extend "月，"
     extend "\n谢谢你们。"
     window hide
-    hide sora with Dissolve(0.8)
-    hide tuki with Dissolve(0.8)
+    hide sora
+    hide tuki
+    with Dissolve(0.8)
     play music "fx/tsubame.ogg"
     show bg protagonist_home at center with Dissolve(1.0)
     pause 0.6
@@ -2438,8 +2478,9 @@ label end_sora:
     show sora 31i with dissolve
     extend "\n请随意，好好享受吧！"
     window hide
-    hide bg with Radial(1.0)
-    hide sora with Radial(1.0)
+    hide bg
+    hide sora
+    with Radial(1.0)
     pause 0.6
     show bg akamine_house3 at center with Radial(0.7)
     pause 0.6
@@ -2488,10 +2529,11 @@ label end_tuki:
     stop music fadeout 2.0
     "十分羞耻的我闭上了眼睛，就这样被抱去了保健室。"
     window hide
-    hide bg with dissolve
-    hide tuki with dissolve
-    hide cg with dissolve
-    hide sora with dissolve
+    hide bg
+    hide tuki
+    hide cg
+    hide sora
+    with dissolve
     show bg school_building_night at center with Dissolve(1.0)
     play music "good_atmosphere.ogg"
     window show
@@ -2645,9 +2687,10 @@ label end_tuki:
     sora "诶嘿嘿。"
     extend "\n不用客气！"
     window hide
-    hide cg with dissolve
-    hide sora with dissolve
-    hide tuki with dissolve
+    hide cg
+    hide sora
+    hide tuki
+    with dissolve
     window show
     "就在这时，操场上响起了欢呼声。"
     show tuki 15i at topleft with dissolve
@@ -2670,9 +2713,10 @@ label end_tuki:
     extend "\n月，空……谢谢你们在我身边。"
     stop sound fadeout 2.0
     window hide
-    hide tuki with Dissolve(0.8)
-    hide sora with Dissolve(0.8)
-    hide cg with Dissolve(0.8)
+    hide tuki
+    hide sora
+    hide cg
+    with Dissolve(0.8)
     show sora 26i at topright
     show tuki 4i at topleft with dissolve
     window show
@@ -2687,10 +2731,11 @@ label end_tuki:
     "在这片燃烧的红炎之中，我的意识逐渐淡去……。"
     extend "\n……梦已经结束了。"
     window hide
-    hide bg with dissolve
-    hide cg with dissolve
-    hide tuki with dissolve
-    hide sora with dissolve
+    hide bg
+    hide cg
+    hide tuki
+    hide sora
+    with dissolve
     window show
     "···"
     "梦的记忆是模糊的。"
@@ -2706,8 +2751,9 @@ label end_tuki:
     extend "空，"
     extend "\n谢谢你们。"
     window hide
-    hide sora with Dissolve(0.8)
-    hide tuki with Dissolve(0.8)
+    hide sora
+    hide tuki
+    with Dissolve(0.8)
     play music "fx/tsubame.ogg"
     show bg protagonist_home at center with Dissolve(1.0)
     pause 0.6
@@ -2760,8 +2806,9 @@ label end_tuki:
     show tuki 25i with dissolve
     extend "\n请慢慢享受吧。"
     window hide
-    hide bg with Radial(1.0)
-    hide tuki with Radial(1.0)
+    hide bg
+    hide tuki
+    with Radial(1.0)
     pause 0.6
     show bg akamine_house1_evening at center with Radial(0.7)
     pause 0.6
@@ -2787,8 +2834,9 @@ label end_futago:
     sora "就是啊。"
     extend "\n我们现在就把你送到保健室！"
     window hide
-    hide tuki with dissolve
-    hide sora with dissolve
+    hide tuki
+    hide sora
+    with dissolve
     show sora 5i at topright with dissolve
     window show
     sora "忍同学！"
@@ -2811,8 +2859,9 @@ label end_futago:
     play sound "fx/running.ogg"
     hide sinobu with dissolve
     "说完，忍就回到自己的岗位上了。"
-    hide sora with dissolve
-    hide tuki with dissolve
+    hide sora
+    hide tuki
+    with dissolve
     show sora 22i at top with dissolve
     sora "好。\n那我们出发吧！"
     extend "\n[player_name]君，我们来撑着你，要好好的！"
@@ -2823,10 +2872,11 @@ label end_futago:
     window show
     "我把双手搭在月和空的肩上，被他们带到了保健室。"
     "周围有很多同学都在看着我们。"
-    hide bg with dissolve
-    hide tuki with dissolve
-    hide cg with dissolve
-    hide sora with dissolve
+    hide bg
+    hide tuki
+    hide cg
+    hide sora
+    with dissolve
     play sound "fx/triangle.ogg"
     extend "\n我的样子，一定就像被囚禁的外星人一样吧……。"
     window hide
@@ -2897,9 +2947,10 @@ label end_futago:
     extend "\n对两位来说很抱歉，但只要现在能恢复，我们还是可以去逛的。"
     me "要是能像『沉睡森林的美男』那样接个吻，\n然后突然精神百倍的奇迹就发生就好了啊。"
     "月和空面面相觑。"
-    hide cg with dissolve
-    hide tuki with dissolve
-    hide sora with dissolve
+    hide cg
+    hide tuki
+    hide sora
+    with dissolve
     show tuki 25i at topleft with dissolve
     tuki "空，这样可以吗？"
     show sora 30i at topright with dissolve
@@ -2948,9 +2999,10 @@ label end_futago:
     extend "\n而且貌似也确实传达到了，太好了。"
     me "谢谢你们两位。"
     window hide
-    hide cg with dissolve
-    hide sora with dissolve
-    hide tuki with dissolve
+    hide cg
+    hide sora
+    hide tuki
+    with dissolve
     window show
     "这时，从学校操场那边传来了欢呼声。"
     show tuki 15i at topleft with dissolve
@@ -2973,9 +3025,10 @@ label end_futago:
     extend "\n月，空……感谢你们一直在我身边。"
     stop sound fadeout 2.0
     window hide
-    hide tuki with Dissolve(0.8)
-    hide sora with Dissolve(0.8)
-    hide cg with Dissolve(0.8)
+    hide tuki
+    hide sora
+    hide cg
+    with Dissolve(0.8)
     show sora 26i at topright
     show tuki 4i at topleft with dissolve
     window show
@@ -2990,10 +3043,11 @@ label end_futago:
     "在这片燃烧的红炎之中，我的意识逐渐淡去……。"
     extend "\n……梦已经结束了。"
     window hide
-    hide bg with dissolve
-    hide cg with dissolve
-    hide tuki with dissolve
-    hide sora with dissolve
+    hide bg
+    hide cg
+    hide tuki
+    hide sora
+    with dissolve
     window show
     "···"
     "梦的记忆是模糊的。"
@@ -3009,8 +3063,9 @@ label end_futago:
     extend "空，"
     extend "谢谢你们。"
     window hide
-    hide sora with Dissolve(0.8)
-    hide tuki with Dissolve(0.8)
+    hide sora
+    hide tuki
+    with Dissolve(0.8)
     play music "fx/tsubame.ogg"
     show bg protagonist_home at center with Dissolve(1.0)
     pause 0.4
@@ -3064,9 +3119,10 @@ label end_futago:
     show sora 31i with dissolve
     tuki_and_sora "请慢慢享受！"
     window hide
-    hide bg with Radial(1.0)
-    hide tuki with Radial(1.0)
-    hide sora with Radial(1.0)
+    hide bg
+    hide tuki
+    hide sora
+    with Radial(1.0)
     pause 0.6
     show bg infirmary at center with Radial(0.7)
     pause 0.6
@@ -3103,8 +3159,9 @@ label day4_1_futago:
     play sound "fx/sparkle.ogg"
     customer4 "正义感强烈的男孩子真是棒呀♪"
     window hide
-    hide tuki with dissolve
-    hide sora with dissolve
+    hide tuki
+    hide sora
+    with dissolve
     window show
     "有了月和空的帮助，我顺利地度过了这一关。"
     "没想到在这种时候还能被初中生搭救……。"
@@ -3128,8 +3185,9 @@ label day4_1_futago:
     tuki "喂，[player_surname]！没事吧？\n你怎么左摇右摆的？"
     me "没事，没事……！\n稍，稍微休息一下，马上就……。"
     window hide
-    hide tuki with dissolve
-    hide sora with dissolve
+    hide tuki
+    hide sora
+    with dissolve
     play music "serious.ogg"
     window show
     "我软弱地瘫坐在休息室的椅子上。"
@@ -3150,9 +3208,10 @@ label day4_1_futago:
     extend "\n看来孩子的体力和大人之间还是有着相当大的差距。"
     play sound "fx/boing.ogg"
     me "呜…。"
-    hide tuki with dissolve
-    hide sora with dissolve
-    hide bg with dissolve
+    hide tuki
+    hide sora
+    hide bg
+    with dissolve
     play sound "fx/fall_down.ogg"
     "视野开始摇晃，我失去了平衡。"
     "……啾"
@@ -3233,8 +3292,9 @@ label end_saburo:
     "难不成……呃，我怎么心跳加速了！"
     extend "\n不过，按这个展开，应该是那种经典的那种情节吧……那个……。"
     "……嘛，稍微期待一下也行。"
-    hide cg with dissolve
-    hide bg with dissolve
+    hide cg
+    hide bg
+    with dissolve
     stop music fadeout 2.0
     "……毕竟这个梦不知道会持续到什么时候……。"
     window hide
@@ -3307,8 +3367,9 @@ label end_saburo:
     extend "\n拜拜！三朗酱可就拜托你了！！"
     me "……嗯，我知道了。"
     window hide
-    hide sintarou with dissolve
-    hide bg with dissolve
+    hide sintarou
+    hide bg
+    with dissolve
     stop music fadeout 0.5
     window show
     "···"
@@ -3458,9 +3519,10 @@ label end_saburo:
     "在这片燃烧的红炎之中，我的意识逐渐淡去……。"
     extend "\n……梦已经结束了。"
     window hide
-    hide bg with Dissolve(0.8)
-    hide cg with Dissolve(0.8)
-    hide saburo with Dissolve(0.8)
+    hide bg
+    hide cg
+    hide saburo
+    with Dissolve(0.8)
     window show
     "···"
     "梦的记忆是模糊的。"
@@ -3523,8 +3585,9 @@ label end_saburo:
     show saburo 30i with dissolve
     extend "\n请在店里慢慢逛吧！"
     window hide
-    hide bg with Radial(1.0)
-    hide saburo with Radial(1.0)
+    hide bg
+    hide saburo
+    with Radial(1.0)
     pause 0.6
     show bg game_center2 at center with Radial(0.7)
     pause 0.6
@@ -3612,8 +3675,9 @@ label end_sakuya:
     extend "\n没想到后夜祭的时候，还能和他在一起。"
     "所以我想尽量陪在他身边……"
     extend "想帮助他。"
-    hide cg with dissolve
-    hide bg with dissolve
+    hide cg
+    hide bg
+    with dissolve
     stop music fadeout 2.0
     "……毕竟这个梦不知道会持续到什么时候……。"
     window hide
@@ -3662,8 +3726,9 @@ label end_sakuya:
     show tsubasa 2 with dissolve
     tsubasa "汪！"
     window hide
-    hide sakuya with dissolve
-    hide tsubasa with dissolve
+    hide sakuya
+    hide tsubasa
+    with dissolve
     show bg schoolyard_night with dissolve
     window show
     "我们一回到校园，就故意坐在了人少的\n运动场内侧的草坪上。"
@@ -3679,8 +3744,9 @@ label end_sakuya:
     show tsubasa 5 with dissolve
     tsubasa "呜嗯？"
     "小翼似乎听不懂我们在说什么，歪着脑袋。"
-    hide sakuya with dissolve
-    hide tsubasa with dissolve
+    hide sakuya
+    hide tsubasa
+    with dissolve
     "远远眺望着，热闹非凡的学园祭的光景。"
     extend "\n然后"
     window hide
@@ -3751,8 +3817,9 @@ label end_sakuya:
     show bg schoolyard1_night
     sakuya "是啊……。"
     window hide
-    hide cg with Dissolve(0.7)
-    hide sakuya with Dissolve(0.7)
+    hide cg
+    hide sakuya
+    with Dissolve(0.7)
     show tsubasa 1 at top with dissolve
     window show
     tsubasa "汪汪！"
@@ -3795,8 +3862,9 @@ label end_sakuya:
     sakuya "哇，哇啊啊啊啊……不要这样太恶心了！！"
     me "小翼，最近作哉很冷淡呢……"
     extend "\n难道他出轨了吗……？"
-    hide tsubasa with dissolve
-    hide sakuya with dissolve
+    hide tsubasa
+    hide sakuya
+    with dissolve
     show tsubasa 5 at top with dissolve
     tubasa "呜~……。"
     me "支持我的人只有小翼呢。"
@@ -3824,9 +3892,10 @@ label end_sakuya:
     sakuya "啊哈哈哈。"
     "我们被这闹剧逗得忍不住笑了出来。"
     window hide
-    hide sakuya with dissolve
-    hide tsubasa with dissolve
-    hide cg with dissolve
+    hide sakuya
+    hide tsubasa
+    hide cg
+    with dissolve
     show sakuya 35i at topleft with dissolve
     window show
     sakuya "哈哈太无聊了吧。"
@@ -3851,9 +3920,10 @@ label end_sakuya:
     "你，你们怎么回事啊……也太可爱了吧……！！"
     extend "\n但是，这真的要人命啊……。"
     window hide
-    hide cg with dissolve
-    hide tsubasa with dissolve
-    hide sakuya with dissolve
+    hide cg
+    hide tsubasa
+    hide sakuya
+    with dissolve
     show sakuya 33i at top with dissolve
     window show
     sakuya "……的确，养小翼需要钱啊~。"
@@ -3894,10 +3964,11 @@ label end_sakuya:
     extend "\n你要是敢睁开眼睛我可不饶你！！"
     "怎么回事啊……。"
     extend "\n我听话地闭上了眼睛。"
-    hide cg with dissolve
-    hide bg with dissolve
-    hide sakuya with dissolve
-    hide tsubasa with dissolve
+    hide cg
+    hide bg
+    hide sakuya
+    hide tsubasa
+    with dissolve
     sakuya "……嘴巴给我闭上！！"
     play sound "fx/boing.ogg"
     "诶诶诶！！？"
@@ -3952,10 +4023,11 @@ label end_sakuya:
     "在这片燃烧的红炎之中，我的意识逐渐淡去……。"
     extend "\n……梦已经结束了。"
     window hide
-    hide bg with Dissolve(0.8)
-    hide cg with Dissolve(0.8)
-    hide tsubasa with Dissolve(0.8)
-    hide sakuya with Dissolve(0.8)
+    hide bg
+    hide cg
+    hide tsubasa
+    hide sakuya
+    with Dissolve(0.8)
     window show
     "···"
     "梦的记忆是模糊的。"
@@ -4019,8 +4091,9 @@ label end_sakuya:
     show sakuya 35i with dissolve
     extend "\n……嘛，我们会好好招待你的，你就放轻松吧！"
     window hide
-    hide bg with FadeWhite(1.0)
-    hide sakuya with FadeWhite(1.0)
+    hide bg
+    hide sakuya
+    with FadeWhite(1.0)
     pause 0.6
     show bg school_backside at center with Radial(0.7)
     pause 0.6
@@ -4087,8 +4160,9 @@ label end_sirou:
     extend "\n我不能在四朗面前出丑！"
     stop music fadeout 2.0
     play sound "fx/running.ogg"
-    hide sirou with dissolve
-    hide bg with dissolve
+    hide sirou
+    hide bg
+    with dissolve
     "我成功地逃脱了那个男人，走向了四朗。"
     window hide
     show bg cafe at center with dissolve
@@ -4133,9 +4207,10 @@ label end_sirou:
     play sound "fx/tadaa.ogg"
     "太好啦！！"
     extend "\n没想到居然能和四朗一起逛学园祭！！！"
-    hide sirou with dissolve
-    hide cg with dissolve
-    hide bg with dissolve
+    hide sirou
+    hide cg
+    hide bg
+    with dissolve
     stop music fadeout 2.0
     "我兴奋得之后完全没法工作。"
     window hide
@@ -4191,8 +4266,9 @@ label end_sirou:
     extend "\n我可不怕鬼怪什么的！！"
     stop music fadeout 2.0
     play sound "fx/sliding_door.ogg"
-    hide bg with dissolve
-    hide sirou with dissolve
+    hide bg
+    hide sirou
+    with dissolve
     "听到我这么一说，四朗就逞强似地进入了鬼屋。"
     window hide
     pause 0.4
@@ -4261,9 +4337,10 @@ label end_sirou:
     stop music fadeout 2.5
     extend "深不见底的体力，真是可怕啊……。"
     window hide
-    hide bg with dissolve
-    hide sirou with dissolve
-    hide cg with dissolve
+    hide bg
+    hide sirou
+    hide cg
+    with dissolve
     play music "fx/night_insects.ogg"
     show bg school_building_night at center with Dissolve(1.0)
     pause 0.5
@@ -4330,9 +4407,10 @@ label end_sirou:
     play sound "fx/boing.ogg"
     sirou "我才没有折腾呢~！"
     extend "\n我们只是愉快地逛学园祭而已！！"
-    hide sirou with dissolve
-    hide sakuya with dissolve
-    hide saburo with dissolve
+    hide sirou
+    hide sakuya
+    hide saburo
+    with dissolve
     "说完，四朗走到了我的面前。"
     window hide
     play sound "fx/sparkle.ogg"
@@ -4358,8 +4436,9 @@ label end_sirou:
     extend "\n好了，老老实实地回到原来的世界吧。"
     stop music fadeout 3.0
     stop sound fadeout 0.5
-    hide bg with dissolve
-    hide cg with dissolve
+    hide bg
+    hide cg
+    with dissolve
     "喂，快醒醒啊。\n到早上了啊。"
     window hide
     window show
@@ -4477,8 +4556,9 @@ label end_all:
     extend "\n还是请你别去问他了，就随他去吧。"
     me "和慎太郎君都认识的熟人……？"
     extend "\n你不说我还真挺在意的…。"
-    hide sintarou with dissolve
-    hide saburo with dissolve
+    hide sintarou
+    hide saburo
+    with dissolve
     show sora 26i at top with dissolve
     sora "不过，没想到竟然会有这么多的客人来，\n真是出乎我的意料啊~！"
     show sora 11i with dissolve
@@ -4501,9 +4581,10 @@ label end_all:
     me "不愧是你！！"
     extend "\n年轻的时候学习能力就是强啊~！"
     window hide
-    hide tubasa with dissolve
-    hide sinobu with dissolve
-    hide tuki with dissolve
+    hide tubasa
+    hide sinobu
+    hide tuki
+    with dissolve
     window show
     "···"
     window hide
@@ -4536,9 +4617,10 @@ label end_all:
     extend "\n让我们用长远的目光，温柔地守护他们的成长吧…。"
     stop music fadeout 1.0
     window hide
-    hide tubasa with dissolve
-    hide sinobu with dissolve
-    hide bg with dissolve
+    hide tubasa
+    hide sinobu
+    hide bg
+    with dissolve
     play sound "fx/crowd_noise.ogg"
     show bg school_building_evening_full at center with Dissolve(1.0)
     pause 0.4
@@ -4569,9 +4651,10 @@ label end_all:
     sakuya "对啊。待会我来跟老师求求看吧。"
     show sintarou 13i at top with dissolve
     sintarou "那么，要在这里干杯庆祝一下吗？"
-    hide sintarou with dissolve
-    hide saburo with dissolve
-    hide sakuya with dissolve
+    hide sintarou
+    hide saburo
+    hide sakuya
+    with dissolve
     me "稍等一下。"
     extend "\n虽然在这里庆祝也行，但既然要庆祝，\n不如大家一起看御咲祭篝火晚会，庆祝一番吧。"
     show sintarou 8i at top with dissolve
@@ -4581,9 +4664,10 @@ label end_all:
     sora "赞成~！那样更有庆祝的感觉。"
     show tuki 15i at topleft with dissolve
     tuki "那我也赞成。"
-    hide sintarou with dissolve
-    hide sora with dissolve
-    hide tuki with dissolve
+    hide sintarou
+    hide sora
+    hide tuki
+    with dissolve
     show tubasa 31i at topright
     show sinobu 18i at topleft with dissolve
     tubasa "我也觉得，大家一起肯定更开心…。"
@@ -4595,9 +4679,10 @@ label end_all:
     extend "\n那大家就一起去操场，Let's go！！"
     stop music fadeout 2.0
     window hide
-    hide tomo with dissolve
-    hide tubasa with dissolve
-    hide sinobu with dissolve
+    hide tomo
+    hide tubasa
+    hide sinobu
+    with dissolve
     hide bg with Dissolve(1.0)
     play music "fx/night_insects.ogg"
     show bg school_building_night at center with Dissolve(1.0)
@@ -4616,8 +4701,9 @@ label end_all:
     window show
     sora "这里的话，御咲焰火应该也很好看吧。"
     tuki "是啊。"
-    hide sora with dissolve
-    hide tuki with dissolve
+    hide sora
+    hide tuki
+    with dissolve
     "远远眺望着，热闹非凡的学园祭的光景。"
     extend "\n然后"
     stop music fadeout 0.5
@@ -4651,9 +4737,10 @@ label end_all:
     "慎太郎　我倒是无所谓啊，"
     show sintarou 13i with dissolve
     extend "\n不如说，你们这么做才更会让我们兴奋起来♪"
-    hide sintarou with dissolve
-    hide tubasa with dissolve
-    hide sinobu with dissolve
+    hide sintarou
+    hide tubasa
+    hide sinobu
+    with dissolve
     show tuki 9i at topleft
     show sora 4i at topright with dissolve
     tuki "空，你听见了没？"
@@ -4666,8 +4753,9 @@ label end_all:
     me "刚才他们往操场的摊位那边过去了。"
     extend "\n啊，正好回来了。"
     window hide
-    hide tuki with dissolve
-    hide sora with dissolve
+    hide tuki
+    hide sora
+    with dissolve
     play sound "fx/running.ogg"
     show sakuya 24i at topleft
     show saburo 10i at topright with dissolve
@@ -4690,8 +4778,9 @@ label end_all:
     play sound "fx/dash.ogg"
     extend "\n但是，我懂我懂。老师你其实也懂吧！！"
     extend "\n这么可爱的两个学生央求你，你怎么能拒绝呢。"
-    hide sakuya with dissolve
-    hide saburo with dissolve
+    hide sakuya
+    hide saburo
+    with dissolve
     show tomo 4i at topleft with dissolve
     tomo "厉害，Nice~！！"
     show tomo 2i with dissolve
@@ -4704,8 +4793,9 @@ label end_all:
     extend "\n就让我们举杯，共同庆祝2年1班和2年2班合办的咖啡店取得成功吧。"
     extend "\n那么，有请两个代表来带头干杯吧。"
     window hide
-    hide sinobu with dissolve
-    hide tomo with dissolve
+    hide sinobu
+    hide tomo
+    with dissolve
     show tomo 17i at top with dissolve
     play music "school_festival.ogg"
     window show
@@ -4734,8 +4824,9 @@ label end_all:
     extend "\n劳动之后喝的饮料为什么能让人这么舒服。"
     extend "\n简直就像下班后的啤酒一样！"
     window hide
-    hide cg with Dissolve(0.7)
-    hide tubasa with Dissolve(0.7)
+    hide cg
+    hide tubasa
+    with Dissolve(0.7)
     show sintarou 20i at top with dissolve
     window show
     sintarou "你在说啥老头子一样的话啊。"
@@ -4772,8 +4863,9 @@ label end_all:
     tubasa "呐，猫山同学！"
     extend "\n你一边吃一边说话，我都听不清楚你在说什么，\n而且吃的东西到处乱飞……！！"
     window hide
-    hide tubasa with dissolve
-    hide saburo with dissolve
+    hide tubasa
+    hide saburo
+    with dissolve
     show tomo 31i at top with dissolve
     window show
     tomo "看起来真好吃~！！"
@@ -4793,8 +4885,9 @@ label end_all:
     play sound "fx/boing.ogg"
     tomo "技，技安！！！"
     extend "\n把那章鱼烧给我~！！"
-    hide tomo with dissolve
-    hide sakuya with dissolve
+    hide tomo
+    hide sakuya
+    with dissolve
     play sound "fx/wind_slash.ogg"
     "作哉和友"
     play sound "fx/eureka.ogg"
@@ -4809,17 +4902,19 @@ label end_all:
     sora "嗯，让人感觉心平气和。"
     show tuki 9i at topright with dissolve
     tuki "劳顿之后的疲惫也缓解了。"
-    hide tuki with dissolve
-    hide sora with dissolve
-    hide sinobu with dissolve
+    hide tuki
+    hide sora
+    hide sinobu
+    with dissolve
     play sound "fx/sparkle.ogg"
     show tuki 4i at topright
     show sora 32i at topleft
     show sinobu 18i at top with dissolve
     "忍＆月＆空" "（陶醉……）"
-    hide tuki with dissolve
-    hide sora with dissolve
-    hide sinobu with dissolve
+    hide tuki
+    hide sora
+    hide sinobu
+    with dissolve
     "就这样，在热闹非凡的后夜祭中，我们开了一场小小的庆功宴。"
     "……。"
     window hide
@@ -4858,12 +4953,13 @@ label end_all:
     stop music fadeout 4.0
     "好了……差不多该起来了。"
     window hide
-    hide tubasa with dissolve
-    hide sinobu with dissolve
-    hide sora with dissolve
-    hide cg with dissolve
-    hide bg with dissolve
-    hide tuki with dissolve
+    hide tubasa
+    hide sinobu
+    hide sora
+    hide cg
+    hide bg
+    hide tuki
+    with dissolve
     pause 0.6
     window show
     "···。"
@@ -4915,8 +5011,9 @@ label end_all:
     extend "您是一个人来吗？"
     extend "\n请往这边走……请尽情享受吧。"
     window hide
-    hide bg with Radial(1.0)
-    hide cg with Radial(1.0)
+    hide bg
+    hide cg
+    with Radial(1.0)
     pause 0.6
     show bg cafe_evening at center with Radial(0.7)
     pause 0.6
