@@ -30,11 +30,11 @@ define config.version = "2.0"
 define gui.about = _p("""
 本游戏原作由 {a=https://web.archive.org/web/20240305134645/http://2emegymnopedie.blog77.fc2.com/}2eme Gymnopedie{/a}
 使用 LiveMaker 制作，由 {a=https://github.com/Ador-N/}Ador-N @ GitHub{/a}
-基于 SCB御咲学园校友会（{a=https://qm.qq.com/q/uT60MA1I0o}QQ群{/a}）制作的 LiveMaker 汉化版、使用 Ren'Py 引擎移植。
+基于 SCB御咲学园校友会（{a=https://qm.qq.com/q/uT60MA1I0o}QQ群{/a}）制作的 LiveMaker 汉化版、使用 Ren'Py 引擎移植，由 {a=https://github.com/jessewhite68/}JesseWhite @ GitHub{/a} 进行文本校对和优化。
 
-游戏的 LiveMaker 日文版本可在 {a=https://www.freem.ne.jp/dl/win/14436}Freem{/a} 下载（需具备访问境外网络条件）。
+游戏的 LiveMaker 日文版本可在 {a=https://www.freem.ne.jp/dl/win/14436}Freem!{/a} 下载（需具备访问境外网络条件）。
 
-关于汉化人员相关信息请见 {a=call_in_new_context:hidden_note}此处{/a}。
+关于原版汉化人员相关信息请见 {a=call_in_new_context:hidden_note}此处{/a}。
 
 本软件的源代码可在 {a=https://github.com/Ador-N/misakisai}GitHub{/a} 获取（不含资源文件）。
 """)
