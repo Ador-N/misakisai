@@ -759,7 +759,7 @@ label day1_design:
     with dissolve
     show bg school_building_evening at center with Dissolve(1.0)
     window show
-    "过了一会儿，快到四点的时候，"
+    "差不多到了四点。"
     extend "\n在我们想完了所有方案后，小组活动成了单纯的涂鸦大会。"
     "我环顾四周，发现其他小组也基本完成了手头上的工作，正在各自休息。"
     window hide
@@ -1375,7 +1375,7 @@ label day1_supply:
     play sound "fx/sliding_door.ogg"
     show bg hallway with dissolve
     window show
-    "那么，走出教室后，我去哪里好呢……"
+    "那么，出教室之后，我去哪里好呢……"
     return
 
 label day1_design_tomo:
@@ -1704,13 +1704,13 @@ label day1_design_sintarou:
     show sintarou 9 with dissolve
     sintarou "没想到在这里能遇到志同道合的朋友……！"
     show sintarou 8 with dissolve
-    extend "\n因为友亲并不怎么喜欢正太，所以我一直没法跟他畅快聊，\n但是从今以后，我们就一起尽情聊正太萌的话题吧！！"
+    extend "\n因为友亲并不怎么喜欢正太，所以我一直没法跟他畅快聊这些，\n但是从今以后，我们就一起尽情聊正太萌的话题吧！！"
     me "嗯、嗯！！求之不得！"
     "在现实中遇到正太控朋友，简直就像中了头奖一样，\n我们不禁热情地握了握手。"
     show sintarou 27 with dissolve
     sintarou "话说《见习魔法师》的作者画风不太稳定呢~"
     extend "\n早期和现在的画风差太多了吧~。"
-    me "确实。\n早期的阴影很多，现在变淡之后画面清爽了不少呢。"
+    me "确实。\n早期的阴影很多，现在变淡之后，画面清爽了不少呢。"
     extend "\n毕竟每个人对画风的喜好都不一样，\n正因如此，可能这样能迎合更多人的喜好吧。"
     show sintarou 15 with dissolve
     sintarou "原来是这样~。"
@@ -1964,7 +1964,7 @@ label day1_layout_sinobu:
     window show
     "来到走廊上，我环视了一圈四周。"
     extend "\n其他班级好像也都在为御咲祭做准备。"
-    "看来大家都很期待学园祭啊～。"
+    "看来大家都很期待学园祭啊~。"
     extend "\n感觉整个学校都团结起来了呢。"
     window hide
     stop music fadeout 1.0
@@ -3308,7 +3308,7 @@ label day1_supply_saburo:
     play sound "fx/cute.ogg"
     saburo "早上好个鬼啊！！！你在搞什么啊！！"
     extend "\n居然趁人家睡觉的时候把脸凑上来！"
-    me "哎呀～因为三朗君的睡脸实在是太可爱了，我一不小心就……。"
+    me "哎呀~因为三朗君的睡脸实在是太可爱了，我一不小心就……。"
     "我坦率地阐述了感想。"
     show saburo 14 with dissolve
     $ renpy.transition(Quake(40, 0, 0.1, 0.15), layer='master')
@@ -3403,7 +3403,7 @@ label day1_supply_saburo:
     extend "\n『健全的初中男生，在对平时疲惫的身体进行眼部保养』，\n我可是有正当的理由的哦！"
     hide saburo with dissolve
     play sound "fx/triangle.ogg"
-    "这种在外面就叫「偷窥」。"
+    "这种在外面就叫『偷窥』。"
     me "体操服……吗。"
     "我无视了女子学园，看向三朗。"
     "什么嘛……所谓好玩的东西，原来就是这个啊。"

@@ -169,7 +169,7 @@ label day0_1:
     with dissolve
     "距离我成为社会人已经过去三年了……"
     extend "生活缺乏必要的滋润，\n也就是，缺少了『少年』的滋润！"
-    extend "\n他们不可或缺，我要是少了他们，工作效率也会大幅下降。"
+    extend "\n他们不可或缺，要是少了他们，我的工作效率也会大幅下降。"
     extend "\n无论如何也要挤出时间去参加！"
     "我把干劲藏进心里，往家的方向走去。"
     extend "\n同时，还用手摆出了胜利的姿势。"
@@ -184,7 +184,7 @@ label day0_2:
     "我一边回想着和友还有翼的对话，一边露出了诡异的笑容。"
     "要是我今天回去的时间没有那么早，就不能和他们说话了。"
     extend "\n真走运！今天是我的幸运日吗？"
-    "正这么想着的时候，我忽然往前一看，\n正好是行人信号灯从绿色闪烁变成红色的那一瞬间。"
+    "正这么想着，我忽然往前一看，\n正好是行人信号灯从绿色闪烁变成红色的那一瞬间。"
     extend "\n我不由得停在了人行横道和中央分隔带的交叉路口。"
     window hide
     pause 0.3
@@ -196,7 +196,7 @@ label day0_2:
     show tuki 1 at Position(xpos=-90, xanchor=0.0, yalign=0.0) with dissolve
     show sinobu 1 at Position(xpos=520, xanchor=0.0, yalign=0.0) with dissolve
     window show
-    "我顺着声音看过去，发现四个背对着这边的男孩正站在那儿。"
+    "我顺着声音看过去，发现四个背对着我的男生正站在那儿。"
     extend "\n现在这个时间，应该是刚结束社团活动的御咲学园学生回家的时间吧。"
     "真是走运啊！今天真的很顺。"
     extend "\n机会难得，我决定听听他们的讨论。"
@@ -208,7 +208,7 @@ label day0_2:
     with dissolve
     show sintarou 1 at topright with dissolve
     window show
-    boy4 "既然要开咖啡厅，就想搞得轰轰烈烈的啊！！"
+    boy4 "既然要开咖啡厅，就要搞得轰轰烈烈的啊！！"
     show sintarou 2 with dissolve
     extend "\n王道的话就是女仆咖啡厅，但再加一点小创意的话，\n短裤咖啡厅，体操服咖啡厅什么的也不错啊！"
     extend "\n就算维持学生制服的样子也没问题……。"
@@ -244,7 +244,7 @@ label day0_2:
     boy6 "……"
     show sinobu 2 with dissolve
     extend "？"
-    "我正喘着粗气，或许是察觉到了这一点，\n那个沉默的少年朝我看了过来。"
+    "我正喘着粗气。或许是察觉到了这一点，\n那个沉默的少年朝我看了过来。"
     "哎呀……我是不是有点太兴奋了。"
     extend "\n啊……但是，那个娇小的男孩子也太可爱了吧。"
     hide sinobu with dissolve
@@ -288,7 +288,7 @@ label day0_3:
     show saburo 2 with dissolve
     nekoyama "又来了又来了，你就别害羞了作哉君！"
     show sakuya 3 with dissolve
-    sakuya "呜……你、你才是，\n最近不是跟一班那变态猫嘴家伙关系很要好吗？"
+    sakuya "呜……你、你才是，\n最近不是跟一班那个变态猫嘴的家伙关系很要好吗？"
     extend "\n两只猫的关系很好呢？很亲热啊。"
     play sound "fx/boing.ogg"
     $ renpy.transition(Quake(0, 60, 0.1, 0.15), layer='master')
@@ -396,7 +396,7 @@ label day0_normal_1:
     extend "\n下班后畅饮的啤酒真是太棒了！！"
     "碳酸渗透进疲惫的身体。"
     extend "好爽啊！"
-    "话说回来，今天真是与少年结缘了啊～。"
+    "话说回来，今天真是与少年结缘了啊~。"
     play sound "fx/paper.ogg"
     extend "\n我看了看友给我的传单。"
     "御咲学园吗……让我回想起了初中时代啊。"
@@ -624,7 +624,7 @@ label day0_hidden:
     show nori 4 at top with dissolve
     window show
     me "等、等一下！你说的我跟不上啊。"
-    extend "\n额……你究竟是哪来的小孩啊？"
+    extend "\n呃……你究竟是哪来的小孩啊？"
     me "已经到晚饭时间了吧？"
     extend "\n不赶快回家的话，家里的人会担心的哦。"
     me "不然的话~"
@@ -715,7 +715,7 @@ label day0_normal:
     show nori 4 at top with Dissolve(0.9)
     window show
     "我被少年牵着，走到了公园里。"
-    "仔细一看，这个少年是个美少年啊。"
+    "仔细一看，这还是个美少年啊。"
     "视线往下移，一边说着好冷啊，一边却穿着短裤！！"
     extend "\n毕竟孩子是风的子民啊！"
     play sound "fx/eureka.ogg"
@@ -806,7 +806,7 @@ label day0_normal:
     "我回想起不久前还在身边的那个少年的面容。"
     extend "\n不过，那孩子很可爱啊。"
     show cg telephone_pole_night at center with Dissolve(0.6)
-    "……不如说，我更想和他，多聊聊，\n这才是我想去实现的愿望。"
+    "……不如说，我更想和他，多聊聊，\n这才是我想实现的愿望。"
     window hide
     hide bg
     hide cg
