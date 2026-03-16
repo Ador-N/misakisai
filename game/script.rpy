@@ -430,9 +430,9 @@ label logic_day4:
         $ ending = "all"
     
     call day4 from _call_day4
-    call day4_1 from _call_day4_1
     if ending not in ["all", "sirou"]:
-        call expression "day4_1_" + ending from _call_expression_21
+        call expression "day4_" + ending from _call_expression_21
+    call day4_1 from _call_day4_1
     call expression "end_" + ending from _call_expression_22
 
 label logic_endgame:

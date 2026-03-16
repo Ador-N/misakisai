@@ -249,7 +249,7 @@ label day4_1:
     with dissolve
     return
 
-label day4_1_tomo:
+label day4_tomo:
     show tomo 4i at top with dissolve
     window show
     tomo "[player_name]君，我们一起加油吧！"
@@ -257,7 +257,7 @@ label day4_1_tomo:
     hide tomo with dissolve
     return
 
-label day4_1_sintarou:
+label day4_sintarou:
     show sintarou 7i at top with dissolve
     window show
     sintarou "[player_name]酱，今天咱们就轰轰烈烈地大干一场吧~！"
@@ -1289,7 +1289,7 @@ label end_sintarou:
     hide bg with dissolve
     return
 
-label day4_1_sinobu:
+label day4_sinobu:
     show sinobu 26i at top with dissolve
     window show
     sinobu "[player_name]，加油哦。"
@@ -1297,7 +1297,7 @@ label day4_1_sinobu:
     hide sinobu with dissolve
     return
 
-label day4_1_tubasa:
+label day4_tubasa:
     show tubasa 4i at top with dissolve
     window show
     tubasa "[player_name]君，我们一起加油吧。"
@@ -1305,7 +1305,7 @@ label day4_1_tubasa:
     hide tubasa with dissolve
     return
 
-label day4_1_tuki:
+label day4_tuki:
     show tuki 9i at top with dissolve
     window show
     tuki "[player_surname]，加油干吧。"
@@ -1313,7 +1313,7 @@ label day4_1_tuki:
     hide tuki with dissolve
     return
 
-label day4_1_sora:
+label day4_sora:
     show sora 11i at top with dissolve
     window show
     sora "一起加油吧，[player_name]君！"
@@ -1321,7 +1321,7 @@ label day4_1_sora:
     hide sora with dissolve
     return
 
-label day4_1_sakuya:
+label day4_sakuya:
     show sakuya 5i at top with dissolve
     window show
     sakuya "[player_name]，你也给我好好努力啊！"
@@ -1329,7 +1329,7 @@ label day4_1_sakuya:
     hide sakuya with dissolve
     return
 
-label day4_1_saburo:
+label day4_saburo:
     show saburo 10i at top with dissolve
     window show
     saburo "我来给你打气咯~[player_surname]！"
@@ -3135,7 +3135,7 @@ label end_futago:
     hide bg with dissolve
     return
 
-label day4_1_futago:
+label day4_futago:
     show bg cafe at center with dissolve
     play music "twins_theme.ogg"
     show sora 22i at topright
