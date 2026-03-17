@@ -286,7 +286,7 @@ label day1_2:
     extend "\n如果是这样，那孩子还真是送了我不得了的东西呢。"
     extend "\n如果不会影响到现实中的我就好。"
     play music "school_festival.ogg"
-    "……好，这样就干脆在这个奇妙的梦境世界里\n尽情享受吧！"
+    "……好，这样就干脆在这个奇妙的梦境世界里尽情享受吧！"
     "现在的我[player_surname][player_name]是初中二年生！"
     extend "\n身体是孩子，头脑是大人！"
     extend "\n就像某位名侦探一样，带着外挂，轻松攻略吧！"
@@ -479,7 +479,7 @@ label day1_2:
     tuki "……。"
     show sora 7 with dissolve
     sora "……。"
-    show tuki 7
+    show tuki 7 with None
     play sound "fx/dash.ogg"
     $ renpy.transition(Quake(0, 60, 0.1, 0.15), layer='master')
     tuki "想和空一组……！！"
@@ -750,8 +750,9 @@ label day1_design:
     play sound "fx/sparkle.ogg"
     show bg adult
     show tomo 13
-    show sintarou 7 with dissolve
-    "充满活力的少年的姿态，真是一饱眼福啊……。"
+    show sintarou 7
+    with dissolve
+    extend "充满活力的少年的姿态，真是一饱眼福啊……。"
     window hide
     hide tomo
     hide sintarou
