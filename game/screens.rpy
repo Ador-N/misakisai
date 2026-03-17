@@ -417,7 +417,7 @@ screen main_menu():
 
     vbox:
         textbutton _("从头开始") style "choice_button" action Start()
-        textbutton _("继续") style "choice_button" action ShowMenu("load")
+        textbutton _("读取游戏") style "choice_button" action ShowMenu("load")
         textbutton _("画廊") style "choice_button" action ShowMenu("gallery")
         textbutton _("????") style "choice_button" action Start("logic_hidden")
         textbutton _("开场动画") style "choice_button" action Start("opening_animation")
