@@ -744,7 +744,6 @@ style page_autoquick_button_text:
     size 15
 
 style page_prevnext_button_text:
-    # font "DejavuSans.ttf"
     yoffset 4
     prefer_emoji False
     size 11
@@ -889,7 +888,7 @@ style radio_vbox:
 
 style radio_button:
     properties gui.button_properties("radio_button")
-    foreground "over:gui/button/radio_idle_foreground.png"
+    foreground "over:gui/button/radio_foreground.png"
     selected_foreground "over:gui/button/radio_selected_foreground.png"
 
 style radio_button_text:
@@ -901,7 +900,7 @@ style check_vbox:
 
 style check_button:
     properties gui.button_properties("check_button")
-    foreground "over:gui/button/check_idle_foreground.png"
+    foreground "over:gui/button/check_foreground.png"
     selected_foreground "over:gui/button/check_selected_foreground.png"
 
 style check_button_text:
@@ -1193,6 +1192,8 @@ screen confirm(message, yes_action, no_action):
 
     style_prefix "confirm"
 
+    add "gui/overlay/confirm.png"
+
     frame:
 
         background Frame("images/box/load.png", 40, 40, tile=True)
@@ -1449,3 +1450,14 @@ style slider_vbox:
 style slider_slider:
     variant "small"
     xsize 375
+
+style page_autoquick_button_text:
+    variant "small"
+    size 17
+    yoffset 1
+
+style page_prevnext_button_text:
+    variant "small"
+    yoffset 4
+    prefer_emoji False
+    size 13
