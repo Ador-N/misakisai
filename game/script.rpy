@@ -453,7 +453,7 @@ label logic_hidden:
             return
     
     if not ("yuuhi" in persistent.endings or "nori" in persistent.endings):
-        call hidden_note from _call_hidden_note
+        call hidden_note(True) from _call_hidden_note
         return
 
     call hidden_1 from _call_hidden_1

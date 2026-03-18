@@ -517,13 +517,15 @@ label hidden_sintarou:
     with Dissolve(1.0)
     return
 
-label hidden_note:
+label hidden_note(show_dialogue=False):
     stop music fadeout 0.5
     play music "fx/cave_ambience.ogg"
+    scene black
     show bg cave_space2 with dissolve
-    window show
-    "洞里只有一本摊开的，字迹未干的笔记本。\n（点击以隐藏对话框）"
-    window hide
+    if show_dialogue:
+        window show
+        "洞里只有一本摊开的，字迹未干的笔记本。\n（点击以隐藏对话框）"
+        window hide
     pause
     stop music fadeout 0.5
     hide bg with Dissolve(0.8)
