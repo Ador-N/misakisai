@@ -362,7 +362,7 @@ screen navigation():
 
             textbutton _("历史") action ShowMenu("history")
 
-            textbutton _("保存") action ShowMenu("save")
+            textbutton _("保存游戏") action ShowMenu("save")
 
         textbutton _("读取游戏") action ShowMenu("load")
 
@@ -532,7 +532,7 @@ style game_menu_navigation_frame:
     yfill True
 
 style game_menu_content_frame:
-    left_margin 25
+    left_margin 20
     right_margin 13
     top_margin 7
 
@@ -662,7 +662,7 @@ screen file_slots(title):
 
                         add FileScreenshot(slot) xalign 0.5
 
-                        text FileTime(slot, format=_("{#file_time}%Y-%m-%d %H:%M"), empty=_("空存档位")):
+                        text FileTime(slot, format=_("{#file_time}%Y 年 %m 月 %d 日\n%H:%M:%S"), empty=_("空存档位")):
                             style "slot_time_text"
 
                         text FileSaveName(slot):
@@ -682,21 +682,21 @@ screen file_slots(title):
 
                     spacing gui.page_spacing
 
-                    textbutton _("<") action FilePagePrevious()
-                    key "save_page_prev" action FilePagePrevious()
+                    textbutton _(" ◀ ") action FilePagePrevious(max=9) style "page_prevnext_button"
+                    key "save_page_prev" action FilePagePrevious(max=9)
 
                     if config.has_autosave:
-                        textbutton _("{#auto_page}A") action FilePage("auto")
+                        textbutton _("{#auto_page}自动") action FilePage("auto") style "page_autoquick_button"
 
                     if config.has_quicksave:
-                        textbutton _("{#quick_page}Q") action FilePage("quick")
+                        textbutton _("{#quick_page}快速") action FilePage("quick") style "page_autoquick_button"
 
                     ## range(1, 10) 给出 1 到 9 之间的数字。
                     for page in range(1, 10):
                         textbutton "[page]" action FilePage(page)
 
-                    textbutton _(">") action FilePageNext()
-                    key "save_page_next" action FilePageNext()
+                    textbutton _(" ▶ ") action FilePageNext(max=9) style "page_prevnext_button"
+                    key "save_page_next" action FilePageNext(max=9)
 
                 if config.has_sync:
                     if CurrentScreenName() == "save":
@@ -713,6 +713,11 @@ style page_label is gui_label
 style page_label_text is gui_label_text
 style page_button is gui_button
 style page_button_text is gui_button_text
+style page_autoquick_button is page_button
+style page_autoquick_button_text is page_button_text
+style page_prevnext_button is page_button
+style page_prevnext_button_text is page_button_text
+
 
 style slot_button is gui_button
 style slot_button_text is gui_button_text
@@ -734,6 +739,15 @@ style page_button:
 
 style page_button_text:
     properties gui.text_properties("page_button")
+
+style page_autoquick_button_text:
+    size 15
+
+style page_prevnext_button_text:
+    # font "DejavuSans.ttf"
+    yoffset 4
+    prefer_emoji False
+    size 11
 
 style slot_button:
     properties gui.button_properties("slot_button")
@@ -1270,6 +1284,7 @@ style skip_text:
 style skip_triangle:
     ## 我们必须使用包含“▸”（黑色右旋小三角）字形的字体。
     font "DejaVuSans.ttf"
+    yoffset 3
 
 
 ## 通知屏幕 ########################################################################
@@ -1358,11 +1373,11 @@ style game_menu_outer_frame:
 
 style game_menu_navigation_frame:
     variant "small"
-    xsize 213
+    xsize 180
 
 style game_menu_content_frame:
     variant "small"
-    top_margin 0
+    top_margin 3
 
 style game_menu_viewport:
     variant "small"

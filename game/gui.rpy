@@ -56,13 +56,13 @@ define gui.interface_text_color = '#68301e'
 ## 字体和字体大小 #####################################################################
 
 ## 游戏内文本使用的字体。
-define gui.text_font = "SourceHanSansSC-Medium.ttf"
+define gui.text_font = "SourceHanSansSC-Medium.otf"
 
 ## 角色名称使用的字体。
-define gui.name_text_font = "SourceHanSansSC-Bold.ttf"
+define gui.name_text_font = "SourceHanSansSC-Bold.otf"
 
 ## 游戏外文本使用的字体。
-define gui.interface_text_font = "SourceHanSansSC-Medium.ttf"
+define gui.interface_text_font = "SourceHanSansSC-Medium.otf"
 
 ## 普通对话文本的大小。
 define gui.text_size = 16
@@ -202,7 +202,7 @@ define gui.choice_button_text_yalign = 0.58
 define gui.choice_button_text_idle_color = '#68301ed9'
 define gui.choice_button_text_hover_color = "#966c54d9"
 define gui.choice_button_text_insensitive_color = '#8888887f'
-define gui.choice_button_text_font = "SourceHanSansSC-Bold.ttf"
+define gui.choice_button_text_font = "SourceHanSansSC-Bold.otf"
 
 ## 按钮音效
 define gui.choice_button_hover_sound = "on_mouse.ogg"
@@ -216,10 +216,11 @@ define gui.choice_button_activate_sound = "choice.ogg"
 ## 存档位按钮。
 define gui.slot_button_width = 173
 define gui.slot_button_height = 159
-define gui.slot_button_borders = Borders(7, 7, 7, 40)
-define gui.slot_button_text_size = 9
+define gui.slot_button_borders = Borders(6, 7, 6, 40)
+define gui.slot_button_text_size = 11
 define gui.slot_button_text_xalign = 0.5
 define gui.slot_button_text_idle_color = gui.idle_small_color
+define gui.slot_button_text_hover_color = gui.hover_color
 define gui.slot_button_text_selected_idle_color = gui.selected_color
 define gui.slot_button_text_selected_hover_color = gui.hover_color
 
@@ -382,13 +383,13 @@ init python:
         # gui.choice_button_text_size = 19
 
         gui.navigation_spacing = 13
-        gui.pref_button_spacing = 7
+        gui.pref_button_spacing = 5
 
-        gui.history_height = 119
+        gui.history_height = None
         gui.history_text_width = 432
 
         gui.quick_button_text_size = 13
 
         ## 文件按钮布局。
-        gui.file_slot_cols = 2
+        gui.file_slot_cols = 3
         gui.file_slot_rows = 2
