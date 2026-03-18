@@ -5867,7 +5867,7 @@ label day3_layout_sinobu_2:
     extend "\n但应该是我想错了。我们俩说不定很合得来！"
     "正想着，我们已经回到了教室。"
     window hide
-    show sinobu 29 with dissolve
+    show sinobu 29 at top with dissolve
     window show
     sinobu "那么，叫上一之濑，赶紧去多功能教室2号厅吧。"
     stop music fadeout 1.0

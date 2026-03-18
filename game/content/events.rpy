@@ -704,7 +704,7 @@ label event10:
     show sintarou 21 with dissolve
     play sound "fx/cute2.ogg"
     $ renpy.transition(Quake(0, 60, 0.1, 0.15), layer='master')
-    "友＆慎太郎" "咿！！？"
+    "{size=20}友＆慎太郎{/size}" "咿！！？"
     window hide
     hide tomo
     hide sinobu

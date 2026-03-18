@@ -713,7 +713,7 @@ label day1_design:
     show sinobu 4 at top with dissolve
     window show
     sinobu "以上。"
-    "友＆慎＆我" "好、好的……抱歉，忍老师。"
+    "{size=20}友＆慎＆我{/size}" "好、好的……抱歉，忍老师。"
     "忍保持着在洗手间释放的杀气，"
     hide sinobu with dissolve
     "就这样离开了。"

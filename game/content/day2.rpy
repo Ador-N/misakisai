@@ -1692,7 +1692,7 @@ label day2_design:
     play sound "fx/tadaa.ogg"
     show tomo 13
     show sintarou 7 with dissolve
-    "友＆慎太郎" "好！！"
+    "{size=20}友＆慎太郎{/size}" "好！！"
     window hide
     hide tomo
     hide sintarou
