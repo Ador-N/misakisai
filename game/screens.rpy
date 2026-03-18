@@ -842,6 +842,11 @@ screen preferences():
                             action Preference("all mute", "toggle")
                             style "mute_all_button"
 
+init -10 python:
+    def oversample(s):
+        return Image(s, oversample=2)
+    
+    config.displayable_prefix["over"] = oversample
 
 style pref_label is gui_label
 style pref_label_text is gui_label_text
@@ -884,20 +889,24 @@ style radio_vbox:
 
 style radio_button:
     properties gui.button_properties("radio_button")
-    foreground "gui/button/radio_[prefix_]foreground.png"
+    foreground "over:gui/button/radio_idle_foreground.png"
+    selected_foreground "over:gui/button/radio_selected_foreground.png"
 
 style radio_button_text:
     properties gui.text_properties("radio_button")
+    xoffset 25
 
 style check_vbox:
     spacing gui.pref_button_spacing
 
 style check_button:
     properties gui.button_properties("check_button")
-    foreground "gui/button/check_[prefix_]foreground.png"
+    foreground "over:gui/button/check_idle_foreground.png"
+    selected_foreground "over:gui/button/check_selected_foreground.png"
 
 style check_button_text:
     properties gui.text_properties("check_button")
+    xoffset 25
 
 style slider_slider:
     xsize 219
@@ -1357,11 +1366,21 @@ style window:
 
 style radio_button:
     variant "small"
-    foreground "gui/phone/button/radio_[prefix_]foreground.png"
+    foreground "over:gui/button/radio_foreground.png"
+    selected_foreground "over:gui/button/radio_selected_foreground.png"
+
+style radio_button_text:
+    variant "small"
+    yoffset -3
 
 style check_button:
     variant "small"
-    foreground "gui/phone/button/check_[prefix_]foreground.png"
+    foreground "over:gui/button/check_foreground.png"
+    selected_foreground "over:gui/button/check_selected_foreground.png"
+
+style check_button_text:
+    variant "small"
+    yoffset -3
 
 style main_menu_frame:
     variant "small"

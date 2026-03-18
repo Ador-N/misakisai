@@ -166,9 +166,9 @@ define gui.button_text_xalign = 0.0
 ##
 ## 这些定制由默认界面使用：
 
-define gui.radio_button_borders = Borders(12, 3, 3, 3)
+define gui.radio_button_borders = Borders(3, 3, 3, 3)
 
-define gui.check_button_borders = Borders(12, 3, 3, 3)
+define gui.check_button_borders = Borders(3, 3, 3, 3)
 
 define gui.confirm_button_text_xalign = 0.5
 
@@ -200,7 +200,7 @@ define gui.choice_button_text_size = 24
 define gui.choice_button_text_xalign = 0.5
 define gui.choice_button_text_yalign = 0.58
 define gui.choice_button_text_idle_color = '#68301ed9'
-define gui.choice_button_text_hover_color = "#966c54d9"
+define gui.choice_button_text_hover_color = '#966c54d9'
 define gui.choice_button_text_insensitive_color = '#8888887f'
 define gui.choice_button_text_font = "SourceHanSansSC-Bold.otf"
 
