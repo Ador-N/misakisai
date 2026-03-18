@@ -80,13 +80,13 @@ define config.main_menu_music = "school_festival.ogg"
 
 ## 进入或退出游戏菜单。
 
-define config.enter_transition = dissolve
-define config.exit_transition = dissolve
+define config.enter_transition = Dissolve(.1)
+define config.exit_transition = Dissolve(.1)
 
 
 ## 各个游戏菜单之间的转场。
 
-define config.intra_transition = dissolve
+define config.intra_transition = Dissolve(.1)
 
 
 ## 载入游戏后使用的转场。
@@ -96,7 +96,7 @@ define config.after_load_transition = dissolve
 
 ## 在游戏结束之后进入主菜单时使用的转场。
 
-define config.end_game_transition = dissolve
+define config.end_game_transition = Dissolve(2)
 
 
 ## 图层 ###########################################################################

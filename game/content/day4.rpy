@@ -834,13 +834,13 @@ label end_tomo:
     show bg tomo_room_evening at center with Radial(0.7)
     pause 0.6
     show bg tomo_ed with Dissolve(0.8)
-    pause 1.3
+    pause 3
     stop music fadeout 1.5
     hide bg with dissolve
     pause 0.5
     show bg credits at center with dissolve
-    pause 0.8
-    hide bg with dissolve
+    pause 2
+    hide bg with Dissolve(2)
     return
 
 label end_sintarou:
@@ -1280,13 +1280,13 @@ label end_sintarou:
     show bg hananoyu at center with Radial(0.7)
     pause 0.6
     show bg sintarou_ed with Dissolve(0.8)
-    pause 1.3
+    pause 3
     stop music fadeout 1.5
     hide bg with dissolve
     pause 0.5
     show bg credits at center with dissolve
-    pause 0.8
-    hide bg with dissolve
+    pause 2
+    hide bg with Dissolve(2)
     return
 
 label day4_sinobu:
@@ -1742,13 +1742,13 @@ label end_sinobu:
     show bg sidewalk_evening at center with Radial(0.7)
     pause 0.6
     show bg sinobu_ed with Dissolve(0.8)
-    pause 1.3
+    pause 3
     stop music fadeout 1.5
     hide bg with dissolve
     pause 0.5
     show bg credits at center with dissolve
-    pause 0.8
-    hide bg with dissolve
+    pause 2
+    hide bg with Dissolve(2)
     return
 
 label end_tubasa:
@@ -2173,13 +2173,13 @@ label end_tubasa:
     show bg park_bench at center with Radial(0.7)
     pause 0.6
     show bg tubasa_ed with Dissolve(0.8)
-    pause 1.3
+    pause 3
     stop music fadeout 1.5
     hide bg with dissolve
     pause 0.5
     show bg credits at center with dissolve
-    pause 0.8
-    hide bg with dissolve
+    pause 2
+    hide bg with Dissolve(2)
     return
 
 label end_sora:
@@ -2483,13 +2483,13 @@ label end_sora:
     show bg akamine_house3 at center with Radial(0.7)
     pause 0.6
     show bg sora_ed with Dissolve(0.8)
-    pause 1.3
+    pause 3
     stop music fadeout 1.5
     hide bg with dissolve
     pause 0.5
     show bg credits at center with dissolve
-    pause 0.8
-    hide bg with dissolve
+    pause 2
+    hide bg with Dissolve(2)
     return
 
 label end_tuki:
@@ -2811,13 +2811,13 @@ label end_tuki:
     show bg akamine_house1_evening at center with Radial(0.7)
     pause 0.6
     show bg tuki_ed with Dissolve(0.8)
-    pause 1.3
+    pause 3
     stop music fadeout 1.5
     hide bg with dissolve
     pause 0.5
     show bg credits at center with dissolve
-    pause 0.8
-    hide bg with dissolve
+    pause 2
+    hide bg with Dissolve(2)
     return
 
 label end_futago:
@@ -3126,13 +3126,13 @@ label end_futago:
     show bg infirmary at center with Radial(0.7)
     pause 0.6
     show bg twins_ed with Dissolve(0.8)
-    pause 1.3
+    pause 3
     stop music fadeout 1.5
     hide bg with dissolve
     pause 0.5
     show bg credits at center with dissolve
-    pause 0.8
-    hide bg with dissolve
+    pause 2
+    hide bg with Dissolve(2)
     return
 
 label day4_futago:
@@ -3591,13 +3591,13 @@ label end_saburo:
     show bg game_center2 at center with Radial(0.7)
     pause 0.6
     show bg saburou_ed with Dissolve(0.8)
-    pause 1.3
+    pause 3
     stop music fadeout 1.5
     hide bg with dissolve
     pause 0.5
     show bg credits at center with dissolve
-    pause 0.8
-    hide bg with dissolve
+    pause 2
+    hide bg with Dissolve(2)
     return
 
 label end_sakuya:
@@ -4097,13 +4097,13 @@ label end_sakuya:
     show bg school_backside at center with Radial(0.7)
     pause 0.6
     show bg sakuya_ed with Dissolve(0.8)
-    pause 1.3
+    pause 3
     stop music fadeout 1.5
     hide bg with dissolve
     pause 0.5
     show bg credits at center with dissolve
-    pause 0.8
-    hide bg with dissolve
+    pause 2
+    hide bg with Dissolve(2)
     return
 
 label end_sirou:
@@ -5017,11 +5017,11 @@ label end_all:
     show bg cafe_evening at center with Radial(0.7)
     pause 0.6
     show bg alled with Dissolve(0.8)
-    pause 1.3
+    pause 3
     stop music fadeout 1.5
     hide bg with dissolve
     pause 0.5
     show bg credits at center with dissolve
-    pause 0.8
-    hide bg with dissolve
+    pause 2
+    hide bg with Dissolve(2)
     return

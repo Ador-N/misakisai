@@ -1425,12 +1425,12 @@ label day0_hidden_nori:
     show bg dungeon at center with Radial(0.7)
     pause 0.6
     show bg saku_ed with Dissolve(0.8)
-    pause 1.3
+    pause 3
     hide bg with dissolve
     pause 0.5
     show bg credits at center with dissolve
-    pause 0.5
-    hide bg with dissolve
+    pause 2
+    hide bg with Dissolve(2)
     return
 
 label day0_hidden_yuuhi:
@@ -1788,10 +1788,10 @@ label day0_hidden_yuuhi:
     show bg phantom_fire at center with Radial(0.7)
     pause 0.6
     show bg yuuhi_ed with Dissolve(0.8)
-    pause 1.3
+    pause 3
     hide bg with dissolve
     pause 0.5
     show bg credits at center with dissolve
-    pause 0.5
-    hide bg with dissolve
+    pause 2
+    hide bg with Dissolve(2)
     return
