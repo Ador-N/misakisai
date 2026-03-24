@@ -2351,7 +2351,7 @@ label day2_cooking:
     tuki "要是工作拖得太久，或者把厨房弄脏了，\n影响到别人准备晚饭就不好了。"
     show sora 11 at topright with dissolve
     sora "所以我们就在这间厨房里加油研究吧。"
-    "我环顾了一下四周，发现放着几代食材，还有几本烹饪书籍。"
+    "我环顾了一下四周，发现放着几袋食材，还有几本烹饪书籍。"
     extend "\n是佣人准备的吗……。"
     extend "\n能事先计划好需要的东西，让佣人做好周全的准备……\n真不愧是住在这等豪宅里的人，他们真是管理的好手。"
     show sora 3 with dissolve
@@ -5363,7 +5363,7 @@ label day2_supply_saburo:
     hide sakuya
     hide 共
     with Radial(0.5)
-    show saburo 2 at top with dissolve『』
+    show saburo 2 at top with dissolve
     window show
     saburo "对吧？"
     extend "\n嘛，反正这种事属于个人自由，我也没什么说的。"
@@ -5519,7 +5519,7 @@ label day2_cooking_self:
     "就这样，虽然在途中经历了一场战斗，但我们最终还是成功开发出了学园祭的料理。"
     hide bg with dissolve
     stop music fadeout 2.0
-    "\n料理组第二天的任务，算是圆满结束了。"
+    extend "\n料理组第二天的任务，算是圆满结束了。"
     window hide
     pause 0.4
     show bg living_room_night at center with Radial(1.0)

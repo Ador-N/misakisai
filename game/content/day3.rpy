@@ -357,7 +357,7 @@ label day3_1_sintarou_tuki_sora:
     show sora 13 at topright
     show tuki 11 at top with dissolve
     play sound "fx/triangle.ogg"
-    "慎＆月＆空" "……哈？"
+    "{size=20}慎＆月＆空{/size}" "……哈？"
     "哎呀，不好。"
     extend "\n在高涨的情绪驱使下，不小心说出了真心话。"
     window hide

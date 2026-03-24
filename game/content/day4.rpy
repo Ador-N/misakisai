@@ -2302,7 +2302,7 @@ label end_sora:
     show cg school_building1_night at center with Dissolve(0.8)
     window show
     me "……哈啊~。"
-    extend "\n不过话说回来，比起躺在保健室的床上，\n我果然还是更想去逛学园祭啊……。"
+    extend "\n不过话说回来，比起躺在保健室的床上，我果然还是更想去逛学园祭啊……。"
     extend "\n让你们两个在这里陪着我，也实在有些过意不去。要是现在就能恢复精神的话，这个愿望就能实现了。"
     me "要是能像《沉睡森林的美男》里那样，\n接个吻就能一下子精神百倍的奇迹发生在我身上就好了啊。"
     stop music fadeout 3.0
@@ -2624,7 +2624,7 @@ label end_tuki:
     show cg school_building1_night at center with Dissolve(0.8)
     window show
     me "……哈啊~。"
-    extend "\n不过话说回来，比起躺在保健室的床上，\n我果然还是更想去逛学园祭啊……。"
+    extend "\n不过话说回来，比起躺在保健室的床上，我果然还是更想去逛学园祭啊……。"
     extend "\n让你们两个在这里陪着我，也实在有些过意不去。要是现在就能恢复精神的话，这个愿望就能实现了。"
     me "要是能像《沉睡森林的美男》里那样，\n接个吻就能一下子精神百倍的奇迹发生在我身上就好了啊。"
     stop music fadeout 3.0
@@ -2942,7 +2942,7 @@ label end_futago:
     show cg school_building1_night at center with Dissolve(0.8)
     window show
     me "……哈啊~。"
-    extend "\n不过话说回来，比起躺在保健室的床上，\n我果然还是更想去逛学园祭啊……。"
+    extend "\n不过话说回来，比起躺在保健室的床上，我果然还是更想去逛学园祭啊……。"
     extend "\n让你们两个在这里陪着我，也实在有些过意不去。要是现在就能恢复精神的话，这个愿望就能实现了。"
     me "要是能像《沉睡森林的美男》里那样，\n接个吻就能一下子精神百倍的奇迹发生在我身上就好了啊。"
     "月和空面面相觑。"
@@ -4909,7 +4909,7 @@ label end_all:
     show tuki 4i at topright
     show sora 32i at topleft
     show sinobu 18i at top with dissolve
-    "忍＆月＆空" "（陶醉……）"
+    "{size=20}忍＆月＆空{/size}" "（陶醉……）"
     hide tuki
     hide sora
     hide sinobu

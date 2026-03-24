@@ -1633,7 +1633,7 @@ label day0_hidden_yuuhi:
     show cg remarkable with FadeWhite(0.5)
     extend "\n所以想拜见一下你的内裤！"
     play sound "fx/dash.ogg"
-    "夕阳＆朔" "什……！！"
+    "{size=20}夕阳＆朔{/size}" "什……！！"
     window hide
     play music "hurry_up.ogg"
     show cg c92 1 with FadeWhite(0.5)
