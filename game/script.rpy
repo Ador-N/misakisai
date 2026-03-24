@@ -240,32 +240,29 @@ label logic_day2:
     
     label logic_day2_cooking:
         call day2_cooking from _call_day2_cooking
-        if group_day1 == 3:
-            menu:
-                "帮助月":
-                    $ target_day2 = "tuki"
-                "帮助空":
-                    $ target_day2 = "sora"
-            call expression "day2_cooking_" + target_day2 from _call_expression_11
-        else:
-            call day2_cooking_self from _call_day2_cooking_self
+        menu:
+            "帮助月":
+                $ target_day2 = "tuki"
+            "帮助空":
+                $ target_day2 = "sora"
+        call expression "day2_cooking_" + target_day2 from _call_expression_11
+        call day2_cooking_2 from _call_day2_cooking_2
         jump logic_day2_end
     
     label logic_day2_supply:
         call day2_supply from _call_day2_supply
+        menu:
+            "跟着作哉":
+                $ target_day2 = "sakuya"
+            "跟着三朗":
+                $ target_day2 = "saburo"
         if group_day1 == 4:
-            menu:
-                "跟着作哉":
-                    $ target_day2 = "sakuya"
-                "跟着三朗":
-                    $ target_day2 = "saburo"
             if target_day1 != target_day2:
                 jump logic_day2_bad_end
             call expression "day2_supply_" + target_day2 from _call_expression_12
         else:
-            call day2_supply_self from _call_day2_supply_self
+            call expression "day2_supply_self_" + target_day2 from _call_expression_12_2
             call day2_supply_self_1 from _call_day2_supply_self_1
-            call day2_supply_self_2 from _call_day2_supply_self_2
         jump logic_day2_end
 
     label logic_day2_bad_end:
@@ -432,7 +429,8 @@ label logic_day4:
     call day4 from _call_day4
     if ending not in ["all", "sirou"]:
         call expression "day4_" + ending from _call_expression_21
-    call day4_1 from _call_day4_1
+    if ending != "futago":
+        call day4_1 from _call_day4_1
     call expression "end_" + ending from _call_expression_22
 
 label logic_endgame:

@@ -21,10 +21,10 @@ define gui.show_name = False
 
 ## 游戏版本号。
 
-define config.version = "2.0.0272.0"
+define config.version = "2.0.0545.0"
 
 # 2.X.YYYY.Z
-# YYYY:  0001     0001   0000
+# YYYY:  0010     0010   0001
 #       content   game   logic
 
 

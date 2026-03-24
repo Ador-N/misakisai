@@ -5431,7 +5431,7 @@ label day2_supply_saburo:
     "在学校里，也得注意别说漏嘴了啊……。"
     return
 
-label day2_cooking_self:
+label day2_cooking_2:
     hide tuki
     hide sora
     with dissolve
@@ -5803,7 +5803,7 @@ label day2_layout_self:
     "在学校里，也得注意别说漏嘴了啊……。"
     return
 
-label day2_supply_self:
+label day2_supply_self_saburo:
     window show
     me "三朗君！\n我能和你一起去吗？"
     window hide
@@ -5897,7 +5897,7 @@ label day2_supply_self_1:
     "在学校里，也得注意别说漏嘴了啊……。"
     return
 
-label day2_supply_self_2:
+label day2_supply_self_sakuya:
     window show
     me "作哉君！\n我也能和你一起去吗？"
     window hide
